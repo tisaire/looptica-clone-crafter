@@ -24,6 +24,8 @@ const RedirectHandler = () => {
       '/lentillas-poblenou-barcelona/': '/es/services/contact-lenses',
       '/kontaktlinsen-poblenou-barcelona': '/de/services/contact-lenses',
       '/kontaktlinsen-poblenou-barcelona/': '/de/services/contact-lenses',
+      '/lentilles-poblenou-barcelona': '/ca/services/lents-contacte',
+      '/lentilles-poblenou-barcelona/': '/ca/services/lents-contacte',
       
       // Orto-K redirects
       '/orto-k-poblenou-barcelona': '/es/services/orto-k', // Assuming Spanish
