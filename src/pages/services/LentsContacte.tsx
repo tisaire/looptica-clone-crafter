@@ -8,6 +8,18 @@ const LentsContacte = () => {
   const { language } = useLanguage();
   
   const content = {
+    seoTitle: {
+      en: "Contact Lenses in Barcelona · Looptica Poblenou",
+      es: "Lentillas en Barcelona · Óptica en Poblenou | Looptica",
+      ca: "Lents de Contacte a Barcelona · Òptica a Poblenou | Looptica",
+      de: "Kontaktlinsen in Barcelona · Optik in Poblenou | Looptica",
+    },
+    seoDescription: {
+      en: "Contact lenses in Barcelona with professional fitting and complete eye exam. Looptica Poblenou offers daily, monthly, toric and Ortho-K lenses. Book online.",
+      es: "Adaptación de lentillas en Barcelona con revisión visual completa. En Looptica Poblenou ofrecemos lentes diarias, mensuales, tóricas y Orto-K. Reserva online.",
+      ca: "Adaptació de lents de contacte a Barcelona amb revisió visual completa. A Looptica Poblenou oferim lents diàries, mensuals, tòriques i Orto-K. Reserva online.",
+      de: "Kontaktlinsen in Barcelona mit professioneller Anpassung und kompletter Augenuntersuchung. Looptica Poblenou bietet tägliche, monatliche, torische und Ortho-K-Linsen.",
+    },
     title: {
       en: "Contact Lenses",
       es: "Lentes de Contacto",
@@ -256,6 +268,8 @@ const LentsContacte = () => {
       subtitle={content.subtitle[language]}
       image="/images/adobestock-226007711_orig.jpeg"
       appointmentSubject={content.appointmentSubject[language]}
+      pageTitle={content.seoTitle}
+      pageDescription={content.seoDescription}
     >
       <ScrollReveal>
         <div className="prose prose-lg max-w-none mb-12">

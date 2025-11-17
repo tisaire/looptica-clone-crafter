@@ -8,6 +8,18 @@ const AudiologiaCentro = () => {
   const { language } = useLanguage();
   
   const content = {
+    seoTitle: {
+      en: "Audiology Center in Barcelona · Looptica Poblenou",
+      es: "Audiólogo en Barcelona · Pruebas de Audición en Poblenou | Looptica",
+      ca: "Audiòleg a Barcelona · Proves d'Audició a Poblenou | Looptica",
+      de: "Audiologe in Barcelona · Hörtests in Poblenou | Looptica"
+    },
+    seoDescription: {
+      en: "Professional hearing tests, hearing aid fitting and follow-up in Barcelona. Audiologist in Poblenou with advanced technology and personalized care.",
+      es: "Pruebas auditivas, adaptación de audífonos y seguimiento profesional en Barcelona. Audiólogo en Poblenou con tecnología avanzada y atención personalizada.",
+      ca: "Proves auditives, adaptació d'audiòfons i seguiment professional a Barcelona. Audiòleg a Poblenou amb tecnologia avançada i atenció personalitzada.",
+      de: "Professionelle Hörtests, Hörgeräte-Anpassung und Nachsorge in Barcelona. Audiologe in Poblenou mit fortschrittlicher Technologie und persönlicher Betreuung."
+    },
     title: {
       en: "Audiology Center",
       es: "Centro de Audiología",
@@ -164,6 +176,8 @@ const AudiologiaCentro = () => {
       subtitle={content.subtitle[language]}
       image="/lovable-uploads/4e50b490-59f3-40a9-a3a6-a1c02cf017a3.jpg"
       appointmentSubject={content.appointmentSubject[language]}
+      pageTitle={content.seoTitle}
+      pageDescription={content.seoDescription}
     >
       <ScrollReveal>
         <div className="prose prose-lg max-w-none mb-12">

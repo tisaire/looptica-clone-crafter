@@ -13,20 +13,20 @@ const OrtoK = () => {
   const content = {
     meta: {
       en: {
-        title: "Orthokeratology (Ortho-K) Services | Looptica Barcelona",
-        description: "Specialized orthokeratology services in Barcelona. Experience clear vision without glasses or contact lenses during the day with our customized overnight lenses."
+        title: "Ortho-K in Barcelona · Looptica Poblenou | Overnight Vision Correction",
+        description: "Ortho-K treatment in Barcelona with overnight vision correction. Certified specialists in Looptica Poblenou. Safe, reversible and ideal for myopia. Book now."
       },
       es: {
-        title: "Servicios de Ortoqueratología (Orto-K) | Looptica Barcelona",
-        description: "Servicios especializados de ortoqueratología en Barcelona. Experimenta una visión clara sin gafas ni lentes de contacto durante el día con nuestras lentes nocturnas personalizadas."
+        title: "Orto-K en Barcelona · Looptica Poblenou | Corrección Visual Nocturna",
+        description: "Tratamiento Orto-K en Barcelona con corrección visual nocturna. Especialistas certificados en Looptica Poblenou. Seguro, reversible e ideal para miopía."
       },
       ca: {
-        title: "Serveis d'Ortoqueratologia (Orto-K) | Looptica Barcelona",
-        description: "Serveis especialitzats d'ortoqueratologia a Barcelona. Experimenta una visió clara sense ulleres ni lents de contacte durant el dia amb les nostres lents nocturnes personalitzades."
+        title: "Orto-K a Barcelona · Looptica Poblenou | Correcció Visual Nocturna",
+        description: "Tractament Orto-K a Barcelona amb correcció visual nocturna. Especialistes certificats a Looptica Poblenou. Segur, reversible i ideal per a miopia."
       },
       de: {
-        title: "Orthokeratologie (Ortho-K) Dienstleistungen | Looptica Barcelona",
-        description: "Spezialisierte Orthokeratologie-Dienstleistungen in Barcelona. Erleben Sie klares Sehen ohne Brille oder Kontaktlinsen tagsüber mit unseren maßgeschneiderten Nachtlinsen."
+        title: "Ortho-K in Barcelona · Looptica Poblenou | Nächtliche Sehkorrektur",
+        description: "Ortho-K-Behandlung in Barcelona mit nächtlicher Sehkorrektur. Zertifizierte Spezialisten bei Looptica Poblenou. Sicher, reversibel und ideal für Kurzsichtigkeit."
       }
     },
     hero: {
