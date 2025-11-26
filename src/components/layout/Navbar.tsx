@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, ShoppingBag, Phone } from 'lucide-react';
+import { Menu, X, Calendar, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -140,17 +140,10 @@ const Navbar = () => {
             size="sm" 
             className="bg-[#55afa9] hover:bg-[#ca6664] text-white transition-all"
             onClick={() => {
-              if (isHomePage) {
-                const contactElement = document.getElementById('contact');
-                if (contactElement) {
-                  contactElement.scrollIntoView({ behavior: 'smooth' });
-                }
-              } else {
-                navigate(`/${language}/#contact`);
-              }
+              window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1X2ujdqOmHen2LFMc3Ki4s-Vx6l7uZapLzO6jrbmdMMxLr2RxC_PZKluTKrCqgrHUEGnbF62NO', '_blank');
             }}
           >
-            <ShoppingBag className="h-4 w-4 mr-2" />
+            <Calendar className="h-4 w-4 mr-2" />
             {t('shopNow')}
           </Button>
         </div>
@@ -196,17 +189,10 @@ const Navbar = () => {
               className="mt-4 w-full max-w-[200px] bg-[#55afa9] hover:bg-[#ca6664] text-white"
               onClick={() => {
                 closeMenu();
-                if (isHomePage) {
-                  const contactElement = document.getElementById('contact');
-                  if (contactElement) {
-                    contactElement.scrollIntoView({ behavior: 'smooth' });
-                  }
-                } else {
-                  navigate(`/${language}/#contact`);
-                }
+                window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1X2ujdqOmHen2LFMc3Ki4s-Vx6l7uZapLzO6jrbmdMMxLr2RxC_PZKluTKrCqgrHUEGnbF62NO', '_blank');
               }}
             >
-              <ShoppingBag className="h-5 w-5 mr-2" />
+              <Calendar className="h-5 w-5 mr-2" />
               {t('shopNow')}
             </Button>
           </div>
