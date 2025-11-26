@@ -13,16 +13,19 @@ const TinnitusTreatment = () => {
       en: 'Tinnitus Treatment',
       es: 'Tratamiento del Tinnitus',
       ca: 'Tractament del Tinnitus',
+      de: 'Tinnitus-Behandlung',
     },
     subtitle: {
       en: 'Effective solutions for ringing in the ears',
       es: 'Soluciones efectivas para el zumbido en los oídos',
       ca: 'Solucions efectives per al brunzit a les orelles',
+      de: 'Wirksame Lösungen für Ohrensausen',
     },
     appointmentSubject: {
       en: 'Tinnitus Consultation at Looptica',
       es: 'Consulta de Tinnitus en Looptica',
       ca: 'Consulta de Tinnitus a Looptica',
+      de: 'Tinnitus-Beratung bei Looptica',
     },
     understanding: {
       en: 'Understanding Tinnitus',
