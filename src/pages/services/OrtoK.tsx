@@ -81,19 +81,22 @@ const OrtoK = () => {
       title: {
         en: "How does Ortho-K work?",
         es: "¿Cómo funciona Orto-K?",
-        ca: "Com funciona l'Orto-K?"
+        ca: "Com funciona l'Orto-K?",
+        de: "Wie funktioniert Ortho-K?"
       },
       steps: [
         {
           title: {
             en: "During the night",
             es: "Durante la noche",
-            ca: "Durant la nit"
+            ca: "Durant la nit",
+            de: "Während der Nacht"
           },
           description: {
             en: "Ortho-K lenses apply gentle pressure on the cornea, altering its contour. They are made with high DK (highly oxygen permeable) materials, allowing the eyes to breathe while sleeping.",
             es: "Las lentes Orto-K aplican una presión suave sobre la córnea, alterando su contorno. Están fabricadas con materiales de alto DK (altamente permeable al oxígeno), permitiendo que los ojos respiren mientras duermen.",
-            ca: "Les lents Orto-K apliquen una pressió suau sobre la còrnia, alterant el seu contorn. Són fabricades amb materials d'alt DK (altament permeable a l'oxigen), permetent que els ulls respirin mentre dormen."
+            ca: "Les lents Orto-K apliquen una pressió suau sobre la còrnia, alterant el seu contorn. Són fabricades amb materials d'alt DK (altament permeable a l'oxigen), permetent que els ulls respirin mentre dormen.",
+            de: "Ortho-K-Linsen üben sanften Druck auf die Hornhaut aus und verändern deren Kontur. Sie bestehen aus Materialien mit hohem DK-Wert (hochsauerstoffdurchlässig), wodurch die Augen während des Schlafs atmen können."
           },
           icon: <Moon className="w-6 h-6 text-white" />
         },
@@ -101,12 +104,14 @@ const OrtoK = () => {
           title: {
             en: "During the day",
             es: "Durante el día",
-            ca: "Durant el dia"
+            ca: "Durant el dia",
+            de: "Während des Tages"
           },
           description: {
             en: "Upon waking and removing the lenses, the cornea maintains its new shape, providing clear vision throughout the day without the need for additional visual correction.",
             es: "Al despertar y retirar las lentes, la córnea mantiene su nueva forma, proporcionando una visión clara durante todo el día sin necesidad de corrección visual adicional.",
-            ca: "En despertar i retirar les lents, la còrnia manté la seva nova forma, proporcionant una visió clara durant tot el dia sense necessitat de correcció visual addicional."
+            ca: "En despertar i retirar les lents, la còrnia manté la seva nova forma, proporcionant una visió clara durant tot el dia sense necessitat de correcció visual addicional.",
+            de: "Nach dem Aufwachen und Entfernen der Linsen behält die Hornhaut ihre neue Form bei und bietet den ganzen Tag über klares Sehen ohne zusätzliche Sehkorrektur."
           },
           icon: <Sun className="w-6 h-6 text-white" />
         },
@@ -114,12 +119,14 @@ const OrtoK = () => {
           title: {
             en: "Cumulative results",
             es: "Resultados acumulativos",
-            ca: "Resultats acumulatius"
+            ca: "Resultats acumulatius",
+            de: "Kumulative Ergebnisse"
           },
           description: {
             en: "With continued use, many patients experience more stable and lasting results. Some may even space out the use of lenses to every other night while maintaining good vision.",
             es: "Con el uso continuado, muchos pacientes experimentan resultados más estables y duraderos. Algunos pueden incluso espaciar el uso de las lentes a cada dos noches manteniendo una buena visión.",
-            ca: "Amb l'ús continuat, molts pacients experimenten resultats més estables i duradors. Alguns poden fins i tot espaiar l'ús de les lents a cada dues nits mantenint una bona visió."
+            ca: "Amb l'ús continuat, molts pacients experimenten resultats més estables i duradors. Alguns poden fins i tot espaiar l'ús de les lents a cada dues nits mantenint una bona visió.",
+            de: "Bei fortgesetzter Anwendung erleben viele Patienten stabilere und länger anhaltende Ergebnisse. Einige können die Linsen sogar nur jede zweite Nacht tragen und dabei gutes Sehen beibehalten."
           },
           icon: <Target className="w-6 h-6 text-white" />
         },
@@ -127,12 +134,14 @@ const OrtoK = () => {
           title: {
             en: "Temporary effects",
             es: "Efectos temporales",
-            ca: "Efectes temporals"
+            ca: "Efectes temporals",
+            de: "Temporäre Effekte"
           },
           description: {
             en: "The effects are completely reversible. If you stop using Ortho-K lenses, the cornea will gradually return to its original shape and vision will return to its previous state.",
             es: "Los efectos son completamente reversibles. Si deja de utilizar las lentes Orto-K, la córnea volverá gradualmente a su forma original y la visión volverá a su estado previo.",
-            ca: "Els efectes són completament reversibles. Si deixa d'utilitzar les lents Orto-K, la còrnia tornarà gradualment a la seva forma original i la visió tornarà al seu estat previ."
+            ca: "Els efectes són completament reversibles. Si deixa d'utilitzar les lents Orto-K, la còrnia tornarà gradualment a la seva forma original i la visió tornarà al seu estat previ.",
+            de: "Die Effekte sind vollständig reversibel. Wenn Sie die Ortho-K-Linsen nicht mehr verwenden, kehrt die Hornhaut allmählich zu ihrer ursprünglichen Form zurück und das Sehvermögen kehrt in seinen vorherigen Zustand zurück."
           },
           icon: <Clock className="w-6 h-6 text-white" />
         }
@@ -154,7 +163,8 @@ const OrtoK = () => {
           description: {
             en: "Ideal for athletes, swimmers, and people with active lifestyles who find glasses or contact lenses uncomfortable during certain activities.",
             es: "Ideal para deportistas, nadadores y personas con estilos de vida activos que encuentran las gafas o lentes de contacto incómodas durante ciertas actividades.",
-            ca: "Ideal per a esportistes, nedadors i persones amb estils de vida actius que troben les ulleres o lents de contacte incòmodes durant certes activitats."
+            ca: "Ideal per a esportistes, nedadors i persones amb estils de vida actius que troben les ulleres o lents de contacte incòmodes durant certes activitats.",
+            de: "Ideal für Sportler, Schwimmer und Menschen mit aktiven Lebensstilen, die Brillen oder Kontaktlinsen bei bestimmten Aktivitäten als unbequem empfinden."
           }
         },
         {
@@ -166,7 +176,8 @@ const OrtoK = () => {
           description: {
             en: "Studies have shown that Ortho-K can help slow the progression of myopia in children and adolescents, making it a valuable tool for myopia management.",
             es: "Estudios han demostrado que Orto-K puede ayudar a frenar la progresión de la miopía en niños y adolescentes, convirtiéndose en una herramienta valiosa para la gestión de la miopía.",
-            ca: "Estudis han demostrat que l'Orto-K pot ajudar a frenar la progressió de la miopia en nens i adolescents, convertint-se en una eina valuosa per a la gestió de la miopia."
+            ca: "Estudis han demostrat que l'Orto-K pot ajudar a frenar la progressió de la miopia en nens i adolescents, convertint-se en una eina valuosa per a la gestió de la miopia.",
+            de: "Studien haben gezeigt, dass Ortho-K helfen kann, das Fortschreiten der Kurzsichtigkeit bei Kindern und Jugendlichen zu verlangsamen, was es zu einem wertvollen Werkzeug für das Myopie-Management macht."
           }
         },
         {
@@ -178,7 +189,8 @@ const OrtoK = () => {
           description: {
             en: "Provides many of the benefits of refractive surgery without the risks associated with surgical procedures and with completely reversible results.",
             es: "Proporciona muchos de los beneficios de la cirugía refractiva sin los riesgos asociados a los procedimientos quirúrgicos y con resultados completamente reversibles.",
-            ca: "Proporciona molts dels beneficis de la cirurgia refractiva sense els riscos associats als procediments quirúrgics i amb resultats completament reversibles."
+            ca: "Proporciona molts dels beneficis de la cirurgia refractiva sense els riscos associats als procediments quirúrgics i amb resultats completament reversibles.",
+            de: "Bietet viele Vorteile der refraktiven Chirurgie ohne die mit chirurgischen Eingriffen verbundenen Risiken und mit vollständig reversiblen Ergebnissen."
           }
         },
         {
@@ -190,7 +202,8 @@ const OrtoK = () => {
           description: {
             en: "Frees patients from the constant dependence on glasses or daytime contact lenses, simplifying their daily routine.",
             es: "Libera a los pacientes de la dependencia constante de gafas o lentes de contacto diurnas, simplificando su rutina diaria.",
-            ca: "Allibera als pacients de la dependència constant d'ulleres o lents de contacte diürnes, simplificant la seva rutina diària."
+            ca: "Allibera als pacients de la dependència constant d'ulleres o lents de contacte diürnes, simplificant la seva rutina diària.",
+            de: "Befreit Patienten von der ständigen Abhängigkeit von Brillen oder Tages-Kontaktlinsen und vereinfacht ihre tägliche Routine."
           }
         }
       ]
@@ -204,7 +217,8 @@ const OrtoK = () => {
       intro: {
         en: "At Looptica, we have highly specialized optometrists in orthokeratology who have helped numerous patients achieve clear vision without daytime corrections. Our adaptation process includes:",
         es: "En Looptica, contamos con optometristas altamente especializados en ortoqueratología que han ayudado a numerosos pacientes a conseguir una visión clara sin correcciones diurnas. Nuestro proceso de adaptación incluye:",
-        ca: "A Looptica, comptem amb optometristes altament especialitzats en ortoqueratologia que han ajudat nombrosos pacients a aconseguir una visió clara sense correccions diürnes. El nostre procés d'adaptació inclou:"
+        ca: "A Looptica, comptem amb optometristes altament especialitzats en ortoqueratologia que han ajudat nombrosos pacients a aconseguir una visió clara sense correccions diürnes. El nostre procés d'adaptació inclou:",
+        de: "Bei Looptica haben wir hochspezialisierte Optometristen für Orthokeratologie, die zahlreichen Patienten geholfen haben, klares Sehen ohne Tageskorrekturen zu erreichen. Unser Anpassungsprozess umfasst:"
       },
       steps: {
         en: [
@@ -272,19 +286,43 @@ const OrtoK = () => {
             title: "Suport continu:",
             description: "El nostre equip està sempre disponible per atendre qualsevol consulta o preocupació que pugui tenir."
           }
+        ],
+        de: [
+          {
+            title: "Erstbewertung:",
+            description: "Eine umfassende Augenuntersuchung, um festzustellen, ob Sie ein guter Kandidat für Ortho-K sind. Wir bewerten die Hornhauttopographie, Augengesundheit und Ihre Verschreibung."
+          },
+          {
+            title: "Individuelles Design:",
+            description: "Mit fortschrittlicher Hornhauttopographie-Technologie entwerfen wir Ortho-K-Linsen speziell für Ihre Augen."
+          },
+          {
+            title: "Gebrauchsanweisung:",
+            description: "Wir zeigen Ihnen, wie Sie Ihre Ortho-K-Linsen richtig einsetzen, entfernen und pflegen."
+          },
+          {
+            title: "Regelmäßige Überwachung:",
+            description: "Wir planen Nachsorgetermine, um Ihren Fortschritt zu überwachen und bei Bedarf Anpassungen vorzunehmen."
+          },
+          {
+            title: "Kontinuierliche Unterstützung:",
+            description: "Unser Team steht Ihnen jederzeit zur Verfügung, um alle Fragen oder Bedenken zu beantworten."
+          }
         ]
       },
       candidateInfo: {
         title: {
           en: "Are you a good candidate for Ortho-K?",
           es: "¿Es usted un buen candidato para Orto-K?",
-          ca: "És vostè un bon candidat per a l'Orto-K?"
+          ca: "És vostè un bon candidat per a l'Orto-K?",
+          de: "Sind Sie ein guter Kandidat für Ortho-K?"
         },
         suitableFor: {
           intro: {
             en: "Ortho-K is suitable for people with:",
             es: "Orto-K es adecuado para personas con:",
-            ca: "L'Orto-K és adequat per a persones amb:"
+            ca: "L'Orto-K és adequat per a persones amb:",
+            de: "Ortho-K ist geeignet für Menschen mit:"
           },
           conditions: {
             en: [
@@ -304,6 +342,12 @@ const OrtoK = () => {
               "Astigmatisme lleu (fins a -1.75 diòptries)",
               "Hipermetropia lleu (fins a +3.00 diòptries)",
               "Còrnies saludables i ulls lliures de malalties"
+            ],
+            de: [
+              "Leichte bis mittlere Kurzsichtigkeit (bis zu -6,00 Dioptrien)",
+              "Leichter Astigmatismus (bis zu -1,75 Dioptrien)",
+              "Leichte Weitsichtigkeit (bis zu +3,00 Dioptrien)",
+              "Gesunde Hornhäute und krankheitsfreie Augen"
             ]
           }
         },
@@ -311,7 +355,8 @@ const OrtoK = () => {
           intro: {
             en: "It is especially beneficial for:",
             es: "Es especialmente beneficioso para:",
-            ca: "És especialment beneficiós per a:"
+            ca: "És especialment beneficiós per a:",
+            de: "Es ist besonders vorteilhaft für:"
           },
           profiles: {
             en: [
@@ -331,6 +376,12 @@ const OrtoK = () => {
               "Esportistes i persones amb estils de vida actius",
               "Persones que treballen en entorns polsosos o secs que fan incòmode l'ús de lents de contacte convencionals",
               "Aquells que no són candidats adequats per a la cirurgia refractiva"
+            ],
+            de: [
+              "Kinder und Jugendliche mit fortschreitender Kurzsichtigkeit",
+              "Sportler und Menschen mit aktiven Lebensstilen",
+              "Menschen, die in staubigen oder trockenen Umgebungen arbeiten, die herkömmliche Kontaktlinsen unbequem machen",
+              "Diejenigen, die keine geeigneten Kandidaten für refraktive Chirurgie sind"
             ]
           }
         }
