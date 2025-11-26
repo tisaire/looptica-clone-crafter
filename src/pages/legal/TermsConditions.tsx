@@ -159,6 +159,56 @@ const TermsConditions = () => {
         <h3>11. LEGISLACIÓ APLICABLE I JURISDICCIÓ</h3>
         <p>La relació entre LOOPTICA POBLENOU S.L. i l'USUARI es regirà per la normativa espanyola vigent i qualsevol controvèrsia se sotmetrà als Jutjats i tribunals de la ciutat de Barcelona.</p>
       `
+    },
+    de: {
+      title: "Allgemeine Geschäftsbedingungen",
+      metaDescription: "Lesen Sie die Allgemeinen Geschäftsbedingungen von Looptica für die Nutzung unserer Website und Dienstleistungen.",
+      heading: "Allgemeine Geschäftsbedingungen",
+      lastUpdated: "Letzte Aktualisierung: April 2023",
+      content: `
+        <h2>RECHTLICHER HINWEIS</h2>
+        
+        <h3>1. IDENTIFIKATIONSDATEN</h3>
+        <p>In Erfüllung der Informationspflicht gemäß Artikel 10 des Gesetzes 34/2002 vom 11. Juli über Dienste der Informationsgesellschaft und elektronischen Handel sind im Folgenden die folgenden Informationen aufgeführt: Das Unternehmen, das Eigentümer dieser Website ist, ist LOOPTICA POBLENOU S.L., mit CIF B02745636 und Adresse für Benachrichtigungen in RAMBLA DEL POBLENOU, 48 LOCAL, 08005, BARCELONA, BARCELONA. Die Kontakt-E-Mail-Adresse des Unternehmens lautet: info@looptica.com.</p>
+        
+        <h3>2. BENUTZER</h3>
+        <p>Der Zugriff auf und/oder die Nutzung dieser Website von LOOPTICA POBLENOU S.L. verleiht die Eigenschaft eines BENUTZERS, der durch diesen Zugriff und/oder diese Nutzung die hier wiedergegebenen Allgemeinen Nutzungsbedingungen akzeptiert. Diese Bedingungen gelten unabhängig von den Allgemeinen Vertragsbedingungen, die gegebenenfalls zwingend sind.</p>
+        
+        <h3>3. NUTZUNG DES PORTALS</h3>
+        <p>www.looptica.com bietet Zugang zu einer Vielzahl von Informationen, Diensten, Programmen oder Daten (im Folgenden "die Inhalte") im Internet, die LOOPTICA POBLENOU S.L. oder seinen Lizenzgebern gehören und auf die der BENUTZER Zugriff haben kann. Der BENUTZER übernimmt die Verantwortung für die Nutzung des Portals.</p>
+        <p>Der BENUTZER verpflichtet sich, die Inhalte und Dienste, die LOOPTICA POBLENOU S.L. über seine Website anbieten kann, angemessen zu nutzen und mit aufzählendem, aber nicht einschränkendem Charakter, sich zu verpflichten, sie nicht zu verwenden, um:</p>
+        <ul>
+          <li>Illegale, rechtswidrige oder gegen Treu und Glauben und die öffentliche Ordnung verstoßende Aktivitäten durchzuführen;</li>
+          <li>Inhalte oder Propaganda rassistischer, fremdenfeindlicher oder pornografisch-illegaler Natur, Befürwortung des Terrorismus oder Angriffe auf die Menschenrechte zu verbreiten;</li>
+          <li>Schäden an den physischen und logischen Systemen von LOOPTICA POBLENOU S.L., seinen Lieferanten oder Dritten zu verursachen, Computerviren oder andere physische oder logische Systeme einzuführen oder zu verbreiten, die wahrscheinlich die oben genannten Schäden verursachen;</li>
+          <li>Zu versuchen, auf die E-Mail-Konten anderer Benutzer zuzugreifen und gegebenenfalls deren Nachrichten zu ändern oder zu manipulieren.</li>
+        </ul>
+        <p>LOOPTICA POBLENOU S.L. behält sich das Recht vor, alle Kommentare und Beiträge zu entfernen, die die Würde der Person verletzen, diskriminierend, fremdenfeindlich, rassistisch, pornografisch sind, gegen die Jugend oder Kindheit, die öffentliche Ordnung oder Sicherheit verstoßen oder nach seinem Urteil nicht zur Veröffentlichung geeignet sind. In jedem Fall ist LOOPTICA POBLENOU S.L. nicht verantwortlich für die von Benutzern über Foren, Chats oder andere Beteiligungswerkzeuge geäußerten Meinungen.</p>
+        
+        <h3>4. DATENSCHUTZ</h3>
+        <p>LOOPTICA POBLENOU S.L. erfüllt die Richtlinien des Organgesetzes 3/2018 vom 5. Dezember über den Schutz personenbezogener Daten und die Garantie digitaler Rechte und der Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr (DSGVO) und sorgt für die ordnungsgemäße Verwendung und Behandlung personenbezogener Daten des Benutzers. Zu diesem Zweck werden neben jedem Formular zur Erfassung personenbezogener Daten in den Diensten, die der Benutzer bei info@looptica.com anfordern kann, die gesetzlich vorgeschriebenen Informationen zur Verarbeitung personenbezogener Daten aufgenommen. LOOPTICA POBLENOU S.L. wird die über seine Website erhaltenen Daten ohne ausdrückliche Zustimmung des Benutzers nicht an Dritte weitergeben. Der Benutzer hat das Recht auf Zugang, Berichtigung, Löschung, Widerspruch, Einschränkung und Übertragbarkeit seiner personenbezogenen Daten, indem er dies schriftlich per E-Mail an info@looptica.com sendet und die gesetzlich festgelegten Anforderungen erfüllt.</p>
+        
+        <h3>5. GEISTIGES UND GEWERBLICHES EIGENTUM</h3>
+        <p>LOOPTICA POBLENOU S.L. ist selbst oder als Abtretungsempfänger Eigentümer aller geistigen und gewerblichen Eigentumsrechte seiner Website sowie der darin enthaltenen Elemente (z.B. Bilder, Ton, Audio, Video, Software oder Texte; Marken oder Logos, Farbkombinationen, Struktur und Design, Auswahl der verwendeten Materialien, Computerprogramme, die für deren Betrieb, Zugriff und Nutzung erforderlich sind usw.), die LOOPTICA POBLENOU S.L. oder seinen Lizenzgebern gehören. Alle Rechte vorbehalten. Gemäß den Bestimmungen der Artikel 8 und 32.1, zweiter Absatz, des Gesetzes über geistiges Eigentum sind die Vervielfältigung, Verbreitung und öffentliche Zugänglichmachung, einschließlich der Bereitstellung, aller oder eines Teils der Inhalte dieser Website zu kommerziellen Zwecken, auf jedem Medium und mit jedem technischen Mittel ohne die Genehmigung von LOOPTICA POBLENOU S.L. ausdrücklich verboten. Der BENUTZER verpflichtet sich, die geistigen und gewerblichen Eigentumsrechte von LOOPTICA POBLENOU S.L. zu respektieren. Der BENUTZER kann die Elemente des Portals anzeigen und sogar drucken, kopieren und auf der Festplatte seines Computers oder auf einem anderen physischen Medium speichern, sofern dies ausschließlich für seinen persönlichen und privaten Gebrauch erfolgt. Der BENUTZER muss davon absehen, irgendwelche Schutzvorrichtungen oder Sicherheitssysteme, die auf den Seiten von LOOPTICA POBLENOU S.L. installiert sind, zu löschen, zu ändern, zu umgehen oder zu manipulieren.</p>
+        
+        <h3>6. HAFTUNGSAUSSCHLUSS</h3>
+        <p>LOOPTICA POBLENOU S.L. ist in keinem Fall für Schäden jeglicher Art verantwortlich, die beispielsweise verursacht werden können durch: Fehler oder Auslassungen in den Inhalten, Nichtverfügbarkeit des Portals oder die Übertragung von Viren oder schädlichen oder schädlichen Programmen in den Inhalten, trotz aller notwendigen technologischen Maßnahmen, um dies zu verhindern.</p>
+        
+        <h3>7. ÄNDERUNGEN</h3>
+        <p>LOOPTICA POBLENOU S.L. behält sich das Recht vor, ohne vorherige Ankündigung die Änderungen vorzunehmen, die es für angemessen hält auf seinem Portal, wobei es die Inhalte und Dienste, die darüber bereitgestellt werden, sowie die Art und Weise, wie sie auf seinem Portal präsentiert oder lokalisiert werden, ändern, löschen oder hinzufügen kann.</p>
+        
+        <h3>8. LINKS</h3>
+        <p>Falls auf www.looptica.com Links oder Hyperlinks zu anderen Internet-Websites vorhanden sind, übt LOOPTICA POBLENOU S.L. keine Kontrolle über diese Websites und Inhalte aus. In keinem Fall übernimmt LOOPTICA POBLENOU S.L. die Verantwortung für die Inhalte eines Links, der zu einer Website Dritter gehört, noch garantiert es die technische Verfügbarkeit, Qualität, Zuverlässigkeit, Genauigkeit, Umfang, Wahrhaftigkeit, Gültigkeit und Verfassungsmäßigkeit von Material oder Informationen, die in keinem dieser Hyperlinks oder anderen Internet-Websites enthalten sind. Ebenso impliziert die Aufnahme dieser externen Verbindungen keine Art von Verbindung, Fusion oder Beteiligung mit den verbundenen Einheiten.</p>
+        
+        <h3>9. AUSSCHLUSSRECHT</h3>
+        <p>LOOPTICA POBLENOU S.L. behält sich das Recht vor, den Zugang zum Portal und/oder die angebotenen Dienste ohne vorherige Ankündigung zu verweigern oder zu entziehen, auf eigenen Wunsch oder auf Wunsch eines Dritten, für Benutzer, die diese Allgemeinen Nutzungsbedingungen nicht einhalten.</p>
+        
+        <h3>10. ALLGEMEINES</h3>
+        <p>LOOPTICA POBLENOU S.L. wird die Nichteinhaltung dieser Bedingungen sowie jede missbräuchliche Nutzung seines Portals verfolgen und alle zivil- und strafrechtlichen Maßnahmen ergreifen, die ihm gesetzlich zustehen.</p>
+        
+        <h3>11. ANWENDBARES RECHT UND GERICHTSBARKEIT</h3>
+        <p>Die Beziehung zwischen LOOPTICA POBLENOU S.L. und dem BENUTZER unterliegt den geltenden spanischen Vorschriften, und jede Kontroverse wird den Gerichten und Tribunalen von Barcelona vorgelegt.</p>
+      `
     }
   };
 
