@@ -23,13 +23,18 @@ const About = () => {
       ca: {
         title: "Sobre Looptica | Especialistes en Visió i Audició a Barcelona",
         description: "Conegui el nostre experimentat equip d'especialistes en visió i audició a Looptica Barcelona. Oferint atenció òptica i audiològica personalitzada des de 2018."
+      },
+      de: {
+        title: "Über Looptica | Seh- und Hörspezialisten in Barcelona",
+        description: "Lernen Sie unser erfahrenes Team von Seh- und Hörspezialisten bei Looptica Barcelona kennen. Seit 2018 bieten wir persönliche optische und audiologische Betreuung."
       }
     },
     page: {
       title: {
         en: "About Us",
         es: "Quien somos",
-        ca: "Qui som"
+        ca: "Qui som",
+        de: "Über Uns"
       }
     },
     teamMembers: [

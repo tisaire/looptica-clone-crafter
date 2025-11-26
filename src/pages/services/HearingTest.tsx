@@ -13,16 +13,19 @@ const HearingTest = () => {
       en: 'Professional Hearing Tests',
       es: 'Pruebas Auditivas Profesionales',
       ca: 'Proves Auditives Professionals',
+      de: 'Professionelle Hörtests',
     },
     subtitle: {
       en: 'Comprehensive audiological assessments by experienced specialists at our Barcelona Poblenou hearing center',
       es: 'Evaluaciones audiológicas completas por especialistas experimentados en nuestro centro auditivo de Barcelona Poblenou',
       ca: 'Avaluacions audiològiques completes per especialistes experimentats al nostre centre auditiu de Barcelona Poblenou',
+      de: 'Umfassende audiologische Untersuchungen durch erfahrene Spezialisten in unserem Hörzentrum Barcelona Poblenou',
     },
     appointmentSubject: {
       en: 'Hearing Test at Looptica Barcelona Poblenou Audiology Center',
       es: 'Prueba Auditiva en Looptica Centro de Audiología Barcelona Poblenou',
       ca: 'Prova Auditiva a Looptica Centre d\'Audiologia Barcelona Poblenou',
+      de: 'Hörtest im Looptica Audiologiezentrum Barcelona Poblenou',
     },
     understanding: {
       en: 'Understanding Our Clinical Audiology Tests',
