@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, ShoppingBag, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -12,8 +12,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const { t, language } = useLanguage(); // Get current language
   const location = useLocation();
-  // const { lang: langFromParams } = useParams<{ lang: string }>(); // lang from URL
-  // const currentLang = (langFromParams || language) as Language; // Prioritize URL lang
+  const navigate = useNavigate();
 
   // Check if we're on the homepage for the current language
   const isHomePage = location.pathname === `/${language}` || location.pathname === `/${language}/`;
@@ -140,7 +139,16 @@ const Navbar = () => {
             variant="default" 
             size="sm" 
             className="bg-[#55afa9] hover:bg-[#ca6664] text-white transition-all"
-            // onClick={() => navigate(`/${language}/#contact`)} // Example if button leads to a page/section
+            onClick={() => {
+              if (isHomePage) {
+                const contactElement = document.getElementById('contact');
+                if (contactElement) {
+                  contactElement.scrollIntoView({ behavior: 'smooth' });
+                }
+              } else {
+                navigate(`/${language}/#contact`);
+              }
+            }}
           >
             <ShoppingBag className="h-4 w-4 mr-2" />
             {t('shopNow')}
@@ -187,8 +195,15 @@ const Navbar = () => {
               variant="default" 
               className="mt-4 w-full max-w-[200px] bg-[#55afa9] hover:bg-[#ca6664] text-white"
               onClick={() => {
-                // navigate(`/${language}/#contact`); // Example
                 closeMenu();
+                if (isHomePage) {
+                  const contactElement = document.getElementById('contact');
+                  if (contactElement) {
+                    contactElement.scrollIntoView({ behavior: 'smooth' });
+                  }
+                } else {
+                  navigate(`/${language}/#contact`);
+                }
               }}
             >
               <ShoppingBag className="h-5 w-5 mr-2" />
