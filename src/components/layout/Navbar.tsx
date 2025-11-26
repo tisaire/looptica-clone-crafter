@@ -61,6 +61,15 @@ const Navbar = () => {
     if (href) {
       const [pathPart, hashPart] = href.split('#');
       
+      // Check if clicking home link while already on homepage - scroll to top
+      if (!hashPart && (pathPart === `/${language}` || pathPart === `/${language}/`)) {
+        if (location.pathname === `/${language}` || location.pathname === `/${language}/`) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          return;
+        }
+      }
+      
       // Check if it's an internal link to the current page's language root with a hash
       if (hashPart && (pathPart === `/${language}` || pathPart === `/${language}/` || pathPart === '')) {
          // If current page is already the target language's homepage
