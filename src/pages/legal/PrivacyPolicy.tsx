@@ -187,6 +187,65 @@ const PrivacyPolicy = () => {
         <h3>ACCEPTACIÓ D'AQUESTA POLÍTICA DE PRIVACITAT</h3>
         <p>L'usuari reconeix haver llegit aquest document i manifesta estar conforme amb la totalitat dels seus termes, acceptant-lo lliure, expressa i inequívocament.</p>
       `
+    },
+    de: {
+      title: "Datenschutzrichtlinie",
+      metaDescription: "Lesen Sie die Datenschutzrichtlinie von Looptica, um zu verstehen, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen.",
+      heading: "Datenschutzrichtlinie",
+      lastUpdated: "Zuletzt aktualisiert: April 2023",
+      content: `
+        <h2>DATENSCHUTZRICHTLINIE</h2>
+        <p>Gemäß den Bestimmungen der geltenden Vorschriften zum Schutz personenbezogener Daten und des Gesetzes über Dienste der Informationsgesellschaft und elektronischen Geschäftsverkehr informieren wir Sie darüber, dass die über diese Website bereitgestellten personenbezogenen Daten von LOOPTICA POBLENOU S.L., CIF B02745636, verarbeitet werden, deren Daten im Impressum verfügbar sind.</p>
+        
+        <h3>VERANTWORTLICHER FÜR DIE VERARBEITUNG</h3>
+        <ul>
+          <li>Identität: LOOPTICA POBLENOU S.L.</li>
+          <li>CIF: B02745636</li>
+          <li>Adresse: RAMBLA DEL POBLENOU, 48 LOCAL, 08005, BARCELONA, BARCELONA</li>
+          <li>E-Mail: info@looptica.com</li>
+        </ul>
+        
+        <h3>ZWECK DER VERARBEITUNG</h3>
+        <p>Bei LOOPTICA POBLENOU S.L. verarbeiten wir die von interessierten Personen bereitgestellten Informationen für folgende Zwecke:</p>
+        <ul>
+          <li>Verwaltung der Bereitstellung der beauftragten Dienstleistungen.</li>
+          <li>Beantwortung von Anfragen, Anträgen oder Konsultationen.</li>
+          <li>Versand kommerzieller Mitteilungen über Produkte oder Dienstleistungen, die für den Benutzer von Interesse sein könnten.</li>
+        </ul>
+        
+        <h3>KRITERIEN FÜR DIE AUFBEWAHRUNG VON DATEN</h3>
+        <p>Die Daten werden so lange aufbewahrt, wie die Geschäftsbeziehung aufrechterhalten wird oder während der Jahre, die zur Erfüllung der gesetzlichen Verpflichtungen erforderlich sind. Die Daten werden nicht an Dritte weitergegeben, außer in Fällen, in denen eine gesetzliche Verpflichtung besteht. Sie haben das Recht, eine Bestätigung darüber zu erhalten, ob LOOPTICA POBLENOU S.L. Ihre personenbezogenen Daten verarbeitet, daher haben Sie das Recht, auf Ihre personenbezogenen Daten zuzugreifen, ungenaue Daten zu berichtigen oder deren Löschung zu beantragen, wenn die Daten nicht mehr erforderlich sind.</p>
+        
+        <h3>RECHTSGRUNDLAGE</h3>
+        <p>Die Rechtsgrundlage für die Verarbeitung Ihrer Daten ist die Ausführung der Bereitstellung der angeforderten Dienstleistung und/oder des Produkts, das berechtigte Interesse des Unternehmens und in bestimmten Fällen Ihre Einwilligung. In Fällen, in denen eine Vertragsbeziehung besteht, stellen auch die Erbringung von Dienstleistungen und die Entwicklung der Vertragsbeziehung eine Rechtsgrundlage dar.</p>
+        
+        <h3>DATENÜBERMITTLUNG</h3>
+        <p>Ihre Daten werden nicht ohne Ihre vorherige Zustimmung an Dritte weitergegeben, außer in Fällen, in denen eine gesetzliche Verpflichtung besteht. In einigen Fällen kann es erforderlich sein, Ihre Daten an Lieferanten als Auftragsverarbeiter weiterzugeben, mit denen wir den entsprechenden Vertrag abgeschlossen haben.</p>
+        
+        <h3>RECHTE</h3>
+        <p>Jede Person hat das Recht, eine Bestätigung darüber zu erhalten, ob LOOPTICA POBLENOU S.L. personenbezogene Daten verarbeitet, die sie betreffen oder nicht.</p>
+        <p>Interessierte Personen haben das Recht:</p>
+        <ul>
+          <li>Zugang zu personenbezogenen Daten zu beantragen, die sie betreffen.</li>
+          <li>Deren Berichtigung oder Löschung zu beantragen.</li>
+          <li>Die Einschränkung ihrer Verarbeitung zu beantragen.</li>
+          <li>Der Verarbeitung zu widersprechen.</li>
+          <li>Die Übertragbarkeit der Daten zu beantragen.</li>
+        </ul>
+        <p>Interessierte können auf ihre personenbezogenen Daten zugreifen sowie die Berichtigung ungenauer Daten oder gegebenenfalls deren Löschung beantragen, wenn unter anderem die Daten für die Zwecke, für die sie erhoben wurden, nicht mehr erforderlich sind. Unter bestimmten Umständen können Interessierte die Einschränkung der Verarbeitung ihrer Daten beantragen, in diesem Fall bewahren wir sie nur zur Geltendmachung oder Verteidigung von Ansprüchen auf.</p>
+        <p>Unter bestimmten Umständen und aus Gründen, die mit ihrer besonderen Situation zusammenhängen, können Interessierte der Verarbeitung ihrer Daten widersprechen. LOOPTICA POBLENOU S.L. wird die Verarbeitung der Daten einstellen, außer aus zwingenden berechtigten Gründen oder zur Ausübung oder Verteidigung möglicher Ansprüche. Sie können Ihre Rechte materiell ausüben, indem Sie eine E-Mail an info@looptica.com senden und sich mit Ihrem Personalausweis oder einem gleichwertigen Dokument identifizieren.</p>
+        <p>Wenn Sie Ihre Einwilligung für einen bestimmten Zweck erteilt haben, haben Sie das Recht, die erteilte Einwilligung jederzeit zu widerrufen, ohne dass dies die Rechtmäßigkeit der Verarbeitung auf der Grundlage der Einwilligung vor deren Widerruf berührt.</p>
+        <p>Falls Sie sich in Ihren Rechten hinsichtlich des Schutzes Ihrer personenbezogenen Daten verletzt fühlen, insbesondere wenn Sie bei der Ausübung Ihrer Rechte keine Zufriedenheit erlangt haben, können Sie eine Beschwerde bei der zuständigen Datenschutzkontrollbehörde einreichen.</p>
+        
+        <h3>GENAUIGKEIT UND RICHTIGKEIT DER DATEN</h3>
+        <p>Der Benutzer garantiert, dass die bereitgestellten personenbezogenen Daten wahrheitsgemäß sind, und ist dafür verantwortlich, jegliche Änderungen mitzuteilen. Der Benutzer ist für die Richtigkeit der bereitgestellten personenbezogenen Daten verantwortlich und verpflichtet sich, diese ordnungsgemäß aktuell zu halten. Der Benutzer garantiert, dass alle bereitgestellten Informationen korrekt, wahr und vollständig sind, und verpflichtet sich, sie ordnungsgemäß aktuell zu halten. Der Benutzer ist allein verantwortlich für alle Schäden oder Verletzungen, direkt oder indirekt, die LOOPTICA POBLENOU S.L. oder Dritten durch das Ausfüllen von Formularen mit falschen, ungenauen, unvollständigen oder nicht aktualisierten Daten entstehen könnten.</p>
+        
+        <h3>SICHERHEITSMASSNAHMEN</h3>
+        <p>LOOPTICA POBLENOU S.L. hat alle technischen und organisatorischen Maßnahmen getroffen, die erforderlich sind, um die Sicherheit und Integrität der von ihr verarbeiteten personenbezogenen Daten zu gewährleisten sowie deren Verlust, Änderung und/oder unbefugten Zugriff durch Dritte zu verhindern. Beachten Sie jedoch, dass keine Methode der Datenübertragung über das Internet oder elektronische Speichermethode zu 100 % sicher ist.</p>
+        
+        <h3>ANNAHME DIESER DATENSCHUTZRICHTLINIE</h3>
+        <p>Der Benutzer bestätigt, dieses Dokument gelesen zu haben, und erklärt sich mit allen seinen Bedingungen einverstanden und akzeptiert sie frei, ausdrücklich und eindeutig.</p>
+      `
     }
   };
 

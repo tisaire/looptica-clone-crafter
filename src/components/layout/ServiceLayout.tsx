@@ -48,16 +48,19 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
       en: "Ready to Schedule Your Appointment?",
       es: "¿Listo para Programar su Cita?",
       ca: "Preparat per Programar la Seva Cita?",
+      de: "Bereit, Ihren Termin zu vereinbaren?",
     },
     scheduleDescription: {
       en: "Book your appointment today to experience our personalized service and expert care.",
       es: "Reserve su cita hoy para experimentar nuestro servicio personalizado y atención experta.",
       ca: "Reservi la seva cita avui per experimentar el nostre servei personalitzat i atenció experta.",
+      de: "Buchen Sie heute Ihren Termin, um unseren personalisierten Service und fachkundige Betreuung zu erleben.",
     },
     buttonText: {
       en: "Schedule Appointment",
       es: "Programar Cita",
       ca: "Programar Cita",
+      de: "Termin vereinbaren",
     },
   };
 

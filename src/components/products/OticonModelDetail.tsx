@@ -435,7 +435,7 @@ const OticonModelDetail: React.FC = () => {
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-3xl font-bold mb-4">{sharedContent.notFound[language]}</h1>
             <Link 
-              to="/products/oticon-models" 
+              to={`/${language}/products/oticon-models`} 
               className="text-[#55afa9] hover:underline flex items-center justify-center gap-2"
             >
               <ChevronLeft size={20} />
@@ -461,7 +461,7 @@ const OticonModelDetail: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="mb-6">
             <Link 
-              to="/products/oticon-models" 
+              to={`/${language}/products/oticon-models`} 
               className="text-[#55afa9] hover:underline flex items-center gap-2"
             >
               <ChevronLeft size={20} />

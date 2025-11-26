@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 
 const OpticalServices = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const opticalServices = [
     {
@@ -16,35 +16,35 @@ const OpticalServices = () => {
       title: t('visualHealth'),
       description: t('visualHealthDesc'),
       image: "/images/_DSC4696.jpg",
-      path: "/services/salut-visual"
+      path: `/${language}/services/salut-visual`
     },
     {
       icon: <Contact className="w-10 h-10 text-[#55afa9]" />,
       title: t('contactLenses'),
       description: t('contactLensesDesc'),
       image: "/images/adobestock-226007711_orig.jpeg",
-      path: "/services/lents-contacte"
+      path: `/${language}/services/lents-contacte`
     },
     {
       icon: <Moon className="w-10 h-10 text-[#55afa9]" />,
       title: t('orthoK'),
       description: t('orthoKDesc'),
       image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
-      path: "/services/orto-k"
+      path: `/${language}/services/orto-k`
     },
     {
       icon: <User className="w-10 h-10 text-[#55afa9]" />,
       title: t('imageConsulting'),
       description: t('imageConsultingDesc'),
       image: "/lovable-uploads/45087a9c-489a-4d48-82fb-d857e7bf306a.jpg",
-      path: "/services/image-consulting"
+      path: `/${language}/services/image-consulting`
     },
     {
       icon: <Glasses className="w-10 h-10 text-[#55afa9]" />,
       title: t('lensConsulting'),
       description: t('lensConsultingDesc'),
       image: "/lovable-uploads/a99c44aa-a4a4-45a4-9616-1ef080bd49db.jpeg",
-      path: "/services/lens-consulting"
+      path: `/${language}/services/lens-consulting`
     }
   ];
 

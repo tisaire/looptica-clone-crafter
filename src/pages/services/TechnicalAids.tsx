@@ -414,7 +414,7 @@ const TechnicalAids = () => {
                 </div>
                 
                 <div className="flex justify-center">
-                  <Link to="/services/hearing-aids">
+                  <Link to={`/${language}/services/hearing-aids`}>
                     <Button className="bg-[#55afa9] hover:bg-[#3d7d78]">
                       {content.audiofonsDigitals[language].buttonText}
                     </Button>

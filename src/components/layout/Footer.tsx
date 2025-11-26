@@ -12,34 +12,34 @@ const Footer = () => {
   const getFooterLinks = () => {
     return [
       {
-        title: language === 'en' ? 'Visual Services' : (language === 'es' ? 'Servicios Visuales' : 'Serveis Visuals'),
+        title: language === 'en' ? 'Visual Services' : language === 'es' ? 'Servicios Visuales' : language === 'de' ? 'Visuelle Dienste' : 'Serveis Visuals',
         links: [
-          { name: t('eyeglasses'), path: '/services/eyeglasses' },
-          { name: t('sunglasses'), path: '/services/sunglasses' },
-          { name: t('contactLenses'), path: '/services/contact-lenses' },
-          { name: t('visualHealth'), path: '/services/salut-visual' },
-          { name: t('ortoK'), path: '/services/orto-k' },
-          { name: t('imageConsulting'), path: '/services/image-consulting' },
-          { name: t('lensConsulting'), path: '/services/lens-consulting' },
+          { name: t('eyeglasses'), path: `/${language}/services/eyeglasses` },
+          { name: t('sunglasses'), path: `/${language}/services/sunglasses` },
+          { name: t('contactLenses'), path: `/${language}/services/contact-lenses` },
+          { name: t('visualHealth'), path: `/${language}/services/salut-visual` },
+          { name: t('ortoK'), path: `/${language}/services/orto-k` },
+          { name: t('imageConsulting'), path: `/${language}/services/image-consulting` },
+          { name: t('lensConsulting'), path: `/${language}/services/lens-consulting` },
         ],
       },
       {
-        title: language === 'en' ? 'Auditory Services' : (language === 'es' ? 'Servicios Auditivos' : 'Serveis Auditius'),
+        title: language === 'en' ? 'Auditory Services' : language === 'es' ? 'Servicios Auditivos' : language === 'de' ? 'Auditive Dienste' : 'Serveis Auditius',
         links: [
-          { name: t('hearingTest'), path: '/services/hearing-test' },
-          { name: t('hearingAids'), path: '/services/hearing-aids' },
-          { name: t('customEarProtection'), path: '/services/ear-protection' },
-          { name: t('technicalAids'), path: '/services/technical-aids' },
-          { name: t('subvenciones'), path: '/services/subvenciones' },
+          { name: t('hearingTest'), path: `/${language}/services/hearing-test` },
+          { name: t('hearingAids'), path: `/${language}/services/hearing-aids` },
+          { name: t('customEarProtection'), path: `/${language}/services/ear-protection` },
+          { name: t('technicalAids'), path: `/${language}/services/technical-aids` },
+          { name: t('subvenciones'), path: `/${language}/services/subvenciones` },
         ],
       },
       {
-        title: language === 'en' ? 'Support' : (language === 'es' ? 'Soporte' : 'Suport'),
+        title: language === 'en' ? 'Support' : language === 'es' ? 'Soporte' : language === 'de' ? 'Unterstützung' : 'Suport',
         links: [
-          { name: t('contact'), path: '/#contact' },
-          { name: t('shopNow'), path: '/#products' },
-          { name: language === 'en' ? 'FAQ' : (language === 'es' ? 'Preguntas frecuentes' : 'Preguntes freqüents'), path: '/#contact' },
-          { name: language === 'en' ? 'Where we are' : (language === 'es' ? 'Dónde estamos' : 'On som'), path: '/#contact' },
+          { name: t('contact'), path: `/${language}/#contact` },
+          { name: t('shopNow'), path: `/${language}/#products` },
+          { name: language === 'en' ? 'FAQ' : language === 'es' ? 'Preguntas frecuentes' : language === 'de' ? 'Häufig gestellte Fragen' : 'Preguntes freqüents', path: `/${language}/#contact` },
+          { name: language === 'en' ? 'Where we are' : language === 'es' ? 'Dónde estamos' : language === 'de' ? 'Wo wir sind' : 'On som', path: `/${language}/#contact` },
         ],
       },
     ];
@@ -57,7 +57,7 @@ const Footer = () => {
   const handleAnchorClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const href = e.currentTarget.getAttribute('href');
     
-    if (href && href.includes('#') && window.location.pathname === '/') {
+    if (href && href.includes('#') && window.location.pathname === `/${language}`) {
       e.preventDefault();
       const targetId = href.substring(href.indexOf('#') + 1);
       const targetElement = document.getElementById(targetId);
@@ -75,7 +75,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
             {/* Brand Column */}
             <div>
-              <Link to="/" className="mb-6 inline-block">
+              <Link to={`/${language}`} className="mb-6 inline-block">
                 <img 
                   src="/images/looptica_logo_text.png" 
                   alt="Looptica" 
@@ -86,9 +86,11 @@ const Footer = () => {
               <p className="text-gray-300 mb-6 max-w-xs">
                 {language === 'en' 
                   ? 'High-quality visual and auditory solutions for those who value professionalism and good service.' 
-                  : (language === 'es' 
+                  : language === 'es' 
                     ? 'Soluciones visuales y auditivas de alta calidad para quienes valoran la profesionalidad y el buen servicio.'
-                    : 'Solucions visuals i auditives d\'alta qualitat per a aquells que valoren la professionalitat i el bon servei.')}
+                    : language === 'de'
+                    ? 'Hochwertige visuelle und auditive Lösungen für diejenigen, die Professionalität und guten Service schätzen.'
+                    : 'Solucions visuals i auditives d\'alta qualitat per a aquells que valoren la professionalitat i el bon servei.'}
               </p>
               <div className="flex space-x-4">
                 {socialLinks.map((social) => (
@@ -167,18 +169,18 @@ const Footer = () => {
           <div className="pt-8 border-t border-gray-700">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-sm text-gray-400">
-                © {currentYear} Looptica. {language === 'en' ? 'All rights reserved.' : (language === 'es' ? 'Todos los derechos reservados.' : 'Tots els drets reservats.')}
+                © {currentYear} Looptica. {language === 'en' ? 'All rights reserved.' : language === 'es' ? 'Todos los derechos reservados.' : language === 'de' ? 'Alle Rechte vorbehalten.' : 'Tots els drets reservats.'}
               </p>
 
               <div className="flex space-x-6 text-sm text-gray-400">
-                <Link to="/legal/privacy-policy" className="hover:text-[#55afa9] transition-colors duration-200">
-                  {language === 'en' ? 'Privacy Policy' : (language === 'es' ? 'Política de Privacidad' : 'Política de Privacitat')}
+                <Link to={`/${language}/legal/privacy-policy`} className="hover:text-[#55afa9] transition-colors duration-200">
+                  {language === 'en' ? 'Privacy Policy' : language === 'es' ? 'Política de Privacidad' : language === 'de' ? 'Datenschutzrichtlinie' : 'Política de Privacitat'}
                 </Link>
-                <Link to="/legal/terms-conditions" className="hover:text-[#55afa9] transition-colors duration-200">
-                  {language === 'en' ? 'Terms & Conditions' : (language === 'es' ? 'Términos y Condiciones' : 'Termes i Condicions')}
+                <Link to={`/${language}/legal/terms-conditions`} className="hover:text-[#55afa9] transition-colors duration-200">
+                  {language === 'en' ? 'Terms & Conditions' : language === 'es' ? 'Términos y Condiciones' : language === 'de' ? 'Allgemeine Geschäftsbedingungen' : 'Termes i Condicions'}
                 </Link>
-                <Link to="/legal/cookies-policy" className="hover:text-[#55afa9] transition-colors duration-200">
-                  {language === 'en' ? 'Cookies' : (language === 'es' ? 'Cookies' : 'Cookies')}
+                <Link to={`/${language}/legal/cookies-policy`} className="hover:text-[#55afa9] transition-colors duration-200">
+                  Cookies
                 </Link>
               </div>
             </div>

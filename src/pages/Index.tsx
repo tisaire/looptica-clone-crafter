@@ -130,7 +130,7 @@ const DeferredContent = () => {
       <div id="audiology">
         <Audiology />
         <div className="container mx-auto px-4 mt-4 text-center">
-          <Link to="/services/audiologia-centro" className="text-[#55afa9] hover:underline">
+          <Link to={`/${language}/services/audiologia-centro`} className="text-[#55afa9] hover:underline">
             {content.audiologyLink[language as keyof typeof content.audiologyLink]}
           </Link>
         </div>
