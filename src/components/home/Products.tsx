@@ -5,7 +5,7 @@ import { ShoppingBag } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 
 const Products = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const navigate = useNavigate();
 
   const products = [
@@ -15,7 +15,7 @@ const Products = () => {
       category: t('eyeglasses'),
       price: '89€',
       image: '/lovable-uploads/45087a9c-489a-4d48-82fb-d857e7bf306a.jpg',
-      link: '/services/eyeglasses'
+      link: `/${language}/services/eyeglasses`
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const Products = () => {
       category: t('contactLenses'),
       price: '26€',
       image: '/images/adobestock-226007711_orig.jpeg',
-      link: '/services/contact-lenses'
+      link: `/${language}/services/contact-lenses`
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const Products = () => {
       category: t('sunglasses'),
       price: '49€',
       image: '/lovable-uploads/e288806f-89cb-4ae0-9a88-6b52ee0ccc4b.png',
-      link: '/services/sunglasses'
+      link: `/${language}/services/sunglasses`
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const Products = () => {
       category: t('audiologyServices'),
       price: '90€/mes',
       image: '/images/oticon_xceed_connectivity_iphone_x_nds_199359.jpg',
-      link: '/services/hearing-aids'
+      link: `/${language}/services/hearing-aids`
     },
   ];
 

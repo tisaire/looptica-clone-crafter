@@ -59,6 +59,12 @@ const Hero = () => {
                 variant="outline" 
                 size="lg"
                 className="border-[#55afa9] text-[#55afa9] hover:bg-[#55afa9]/10"
+                onClick={() => {
+                  const opticalSection = document.getElementById('optical');
+                  if (opticalSection) {
+                    opticalSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
               >
                 {t('viewCollection')}
               </Button>

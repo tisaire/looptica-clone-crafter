@@ -81,19 +81,22 @@ const SalutVisual = () => {
       title: {
         en: "Our visual examination process",
         es: "Nuestro proceso de examen visual",
-        ca: "El nostre procés d'examen visual"
+        ca: "El nostre procés d'examen visual",
+        de: "Unser Sehuntersuchungsprozess"
       },
       steps: [
         {
           title: {
             en: "Medical history",
             es: "Anamnesis",
-            ca: "Anamnesi"
+            ca: "Anamnesi",
+            de: "Anamnese"
           },
           description: {
             en: "Detailed review of your medical, ocular, and family history, including current medications and lifestyle that might affect your vision.",
             es: "Revisión detallada de su historial médico, ocular y familiar, incluyendo medicamentos actuales y estilo de vida que podrían afectar su visión.",
-            ca: "Revisió detallada del seu historial mèdic, ocular i familiar, incloent medicaments actuals i estil de vida que podrien afectar la seva visió."
+            ca: "Revisió detallada del seu historial mèdic, ocular i familiar, incloent medicaments actuals i estil de vida que podrien afectar la seva visió.",
+            de: "Detaillierte Überprüfung Ihrer medizinischen, okularen und Familiengeschichte, einschließlich aktueller Medikamente und Lebensstil, die Ihr Sehvermögen beeinflussen könnten."
           },
           icon: <Eye className="w-6 h-6 text-white" />
         },
@@ -101,12 +104,14 @@ const SalutVisual = () => {
           title: {
             en: "Preliminary exams",
             es: "Exámenes preliminares",
-            ca: "Exàmens preliminars"
+            ca: "Exàmens preliminars",
+            de: "Voruntersuchungen"
           },
           description: {
             en: "Assessment of visual acuity, color perception, peripheral vision, and intraocular pressure to detect early signs of problems.",
             es: "Evaluación de la agudeza visual, percepción de colores, visión periférica y presión intraocular para detectar signos tempranos de problemas.",
-            ca: "Avaluació de l'agudesa visual, percepció de colors, visió perifèrica i pressió intraocular per detectar signes primerencs de problemes."
+            ca: "Avaluació de l'agudesa visual, percepció de colors, visió perifèrica i pressió intraocular per detectar signes primerencs de problemes.",
+            de: "Bewertung der Sehschärfe, Farbwahrnehmung, peripheren Sicht und des Augeninnendrucks zur Erkennung früher Anzeichen von Problemen."
           },
           icon: <CheckSquare className="w-6 h-6 text-white" />
         },
@@ -114,12 +119,14 @@ const SalutVisual = () => {
           title: {
             en: "Refraction",
             es: "Refracción",
-            ca: "Refracció"
+            ca: "Refracció",
+            de: "Refraktion"
           },
           description: {
             en: "Precise determination of your lens prescription using objective and subjective methods to ensure the best possible visual correction.",
             es: "Determinación precisa de su prescripción de lentes utilizando métodos objetivos y subjetivos para garantizar la mejor corrección visual posible.",
-            ca: "Determinació precisa de la seva prescripció de lents utilitzant mètodes objectius i subjectius per garantir la millor correcció visual possible."
+            ca: "Determinació precisa de la seva prescripció de lents utilitzant mètodes objectius i subjectius per garantir la millor correcció visual possible.",
+            de: "Präzise Bestimmung Ihrer Linsenverordnung unter Verwendung objektiver und subjektiver Methoden, um die bestmögliche Sehkorrektur zu gewährleisten."
           },
           icon: <Shield className="w-6 h-6 text-white" />
         },
@@ -127,12 +134,14 @@ const SalutVisual = () => {
           title: {
             en: "Eye health evaluation",
             es: "Evaluación de la salud ocular",
-            ca: "Avaluació de la salut ocular"
+            ca: "Avaluació de la salut ocular",
+            de: "Augengesundheitsbewertung"
           },
           description: {
             en: "Comprehensive examination of the internal and external structures of the eye to detect diseases such as glaucoma, cataracts, macular degeneration, and diabetic retinopathy.",
             es: "Examen completo de las estructuras internas y externas del ojo para detectar enfermedades como glaucoma, cataratas, degeneración macular y retinopatía diabética.",
-            ca: "Examen complet de les estructures internes i externes de l'ull per detectar malalties com glaucoma, cataractes, degeneració macular i retinopatia diabètica."
+            ca: "Examen complet de les estructures internes i externes de l'ull per detectar malalties com glaucoma, cataractes, degeneració macular i retinopatia diabètica.",
+            de: "Umfassende Untersuchung der inneren und äußeren Strukturen des Auges zur Erkennung von Krankheiten wie Glaukom, Katarakt, Makuladegeneration und diabetischer Retinopathie."
           },
           icon: <Award className="w-6 h-6 text-white" />
         }
@@ -142,7 +151,8 @@ const SalutVisual = () => {
       title: {
         en: "Why are regular eye exams important?",
         es: "¿Por qué son importantes los exámenes visuales regulares?",
-        ca: "Per què són importants els exàmens visuals regulars?"
+        ca: "Per què són importants els exàmens visuals regulars?",
+        de: "Warum sind regelmäßige Augenuntersuchungen wichtig?"
       },
       paragraphs: {
         en: [
@@ -153,13 +163,17 @@ const SalutVisual = () => {
         ],
         ca: [
           "Moltes malalties oculars no presenten símptomes en les seves etapes inicials. Els exàmens regulars poden detectar problemes abans que causin danys irreversibles o pèrdua de visió. A més, els ulls poden revelar signes de condicions de salut sistèmiques com diabetis, hipertensió i colesterol alt."
+        ],
+        de: [
+          "Viele Augenkrankheiten zeigen in ihren frühen Stadien keine Symptome. Regelmäßige Untersuchungen können Probleme erkennen, bevor sie irreversible Schäden oder Sehverlust verursachen. Darüber hinaus können die Augen Anzeichen systemischer Gesundheitszustände wie Diabetes, Bluthochdruck und hohem Cholesterinspiegel offenbaren."
         ]
       },
       recommendations: {
         intro: {
           en: "We recommend comprehensive eye exams:",
           es: "Recomendamos exámenes visuales completos:",
-          ca: "Recomanem exàmens visuals complets:"
+          ca: "Recomanem exàmens visuals complets:",
+          de: "Wir empfehlen umfassende Augenuntersuchungen:"
         },
         items: {
           en: [
@@ -179,6 +193,12 @@ const SalutVisual = () => {
             "Anualment per a persones de més de 60 anys",
             "Anualment per a persones de qualsevol edat que portin lents de contacte, tinguin factors de risc o condicions mèdiques existents",
             "Segons les recomanacions del seu optometrista o oftalmòleg per a nens i adolescents"
+          ],
+          de: [
+            "Alle 2 Jahre für Erwachsene im Alter von 18-60 Jahren ohne Sehprobleme oder Risikofaktoren",
+            "Jährlich für Menschen über 60 Jahre",
+            "Jährlich für Menschen jeden Alters, die Kontaktlinsen tragen, Risikofaktoren haben oder bestehende medizinische Zustände",
+            "Gemäß den Empfehlungen Ihres Optometristen oder Augenarztes für Kinder und Jugendliche"
           ]
         }
       }
@@ -187,55 +207,64 @@ const SalutVisual = () => {
       title: {
         en: "Advanced Technology at Looptica",
         es: "Tecnología avanzada en Looptica",
-        ca: "Tecnologia avançada a Looptica"
+        ca: "Tecnologia avançada a Looptica",
+        de: "Fortschrittliche Technologie bei Looptica"
       },
       items: [
         {
           title: {
             en: "Optical Coherence Tomography (OCT)",
             es: "Tomografía de Coherencia Óptica (OCT)",
-            ca: "Tomografia de Coherència Òptica (OCT)"
+            ca: "Tomografia de Coherència Òptica (OCT)",
+            de: "Optische Kohärenztomographie (OCT)"
           },
           description: {
             en: "Allows us to obtain cross-sectional images of the retina, providing details about its structure with microscopic precision.",
             es: "Nos permite obtener imágenes de la retina en secciones transversales, proporcionando detalles sobre su estructura con precisión microscópica.",
-            ca: "Ens permet obtenir imatges de la retina en seccions transversals, proporcionant detalls sobre la seva estructura amb precisió microscòpica."
+            ca: "Ens permet obtenir imatges de la retina en seccions transversals, proporcionant detalls sobre la seva estructura amb precisió microscòpica.",
+            de: "Ermöglicht es uns, Querschnittsbilder der Netzhaut zu erhalten und Details über ihre Struktur mit mikroskopischer Präzision zu liefern."
           }
         },
         {
           title: {
             en: "Corneal Topography",
             es: "Topografía Corneal",
-            ca: "Topografia Corneal"
+            ca: "Topografia Corneal",
+            de: "Hornhauttopographie"
           },
           description: {
             en: "Creates a 3D map of the cornea's surface, essential for contact lens fitting and detection of corneal disorders.",
             es: "Crea un mapa 3D de la superficie de la córnea, esencial para la adaptación de lentes de contacto y la detección de trastornos corneales.",
-            ca: "Crea un mapa 3D de la superfície de la còrnia, essencial per a l'adaptació de lents de contacte i la detecció de trastorns corneals."
+            ca: "Crea un mapa 3D de la superfície de la còrnia, essencial per a l'adaptació de lents de contacte i la detecció de trastorns corneals.",
+            de: "Erstellt eine 3D-Karte der Hornhautoberfläche, wesentlich für die Anpassung von Kontaktlinsen und die Erkennung von Hornhautstörungen."
           }
         },
         {
           title: {
             en: "State-of-the-art Autorefractometers",
             es: "Autorrefractómetros de última generación",
-            ca: "Autorefractòmetres d'última generació"
+            ca: "Autorefractòmetres d'última generació",
+            de: "Modernste Autorefraktometer"
           },
           description: {
             en: "Provides objective measurements of the eye's refractive error, speeding up and improving the accuracy of the prescription process.",
             es: "Proporciona mediciones objetivas del error de refracción del ojo, acelerando y mejorando la precisión del proceso de prescripción.",
-            ca: "Proporciona mesuraments objectius de l'error de refracció de l'ull, accelerant i millorant la precisió del procés de prescripció."
+            ca: "Proporciona mesuraments objectius de l'error de refracció de l'ull, accelerant i millorant la precisió del procés de prescripció.",
+            de: "Liefert objektive Messungen des Brechungsfehlers des Auges, beschleunigt und verbessert die Genauigkeit des Verschreibungsprozesses."
           }
         },
         {
           title: {
             en: "Digital Slit Lamp Examination",
             es: "Examen con lámpara de hendidura digital",
-            ca: "Examen amb làmpada de fenedura digital"
+            ca: "Examen amb làmpada de fenedura digital",
+            de: "Digitale Spaltlampenuntersuchung"
           },
           description: {
             en: "Allows detailed examination and photographic documentation of anterior and posterior eye structures.",
             es: "Permite el examen detallado y documentación fotográfica de las estructuras oculares anteriores y posteriores.",
-            ca: "Permet l'examen detallat i documentació fotogràfica de les estructures oculars anteriors i posteriors."
+            ca: "Permet l'examen detallat i documentació fotogràfica de les estructures oculars anteriors i posteriors.",
+            de: "Ermöglicht eine detaillierte Untersuchung und fotografische Dokumentation der vorderen und hinteren Augenstrukturen."
           }
         }
       ]

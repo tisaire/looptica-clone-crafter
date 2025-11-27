@@ -93,11 +93,15 @@ FileETag None
   # Legacy URL Redirects to new language-prefixed structure
   # Contact lenses
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
-  RewriteRule ^en/contact-lenses-poblenou-barcelona/?$ /en/services/lents-contacte [R=301,L,NE]
+  RewriteRule ^en/contact-lenses-poblenou-barcelona/?$ /en/services/contact-lenses [R=301,L,NE]
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
-  RewriteRule ^lentillas-poblenou-barcelona/?$ /es/services/lents-contacte [R=301,L,NE]
+  RewriteRule ^lentillas-poblenou-barcelona/?$ /es/services/contact-lenses [R=301,L,NE]
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
-  RewriteRule ^kontaktlinsen-poblenou-barcelona/?$ /de/services/lents-contacte [R=301,L,NE]
+  RewriteRule ^kontaktlinsen-poblenou-barcelona/?$ /de/services/contact-lenses [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^lentilles-poblenou-barcelona/?$ /ca/services/lents-contacte [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^ca/cat/lentilles-poblenou-barcelona/?$ /ca/services/lents-contacte [R=301,L,NE]
   
   # Orto-K
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]

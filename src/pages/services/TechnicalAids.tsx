@@ -28,6 +28,10 @@ const TechnicalAids = () => {
       ca: {
         title: "Ajudes Tècniques per a Pèrdua Auditiva | Looptica Barcelona",
         description: "Descobreix la nostra gamma d'ajudes tècniques especialitzades per a pèrdua auditiva, incloent Oticon EduMic, ConnectClip, TV Adapter, Control Remot i més a Looptica Barcelona."
+      },
+      de: {
+        title: "Technische Hilfsmittel für Hörverlust | Looptica Barcelona",
+        description: "Entdecken Sie unser Sortiment an spezialisierten technischen Hilfsmitteln für Hörverlust, einschließlich Oticon EduMic, ConnectClip, TV Adapter, Fernbedienung und mehr bei Looptica Barcelona."
       }
     },
     audiofonsDigitals: {
@@ -84,6 +88,24 @@ const TechnicalAids = () => {
           "Millor qualitat de vida en general"
         ],
         buttonText: "Explorar Audiòfons Digitals"
+      },
+      de: {
+        title: "Digitale Hörgeräte",
+        description: "Hochmoderne digitale Hörgeräte, die fortschrittliche Klangverarbeitung, Konnektivitätsfunktionen und personalisierte Hörerlebnisse für verschiedene Hörverlustsituationen bieten.",
+        features: [
+          "Fortschrittliche digitale Klangverarbeitungstechnologie",
+          "Bluetooth-Konnektivität für nahtloses Geräte-Pairing",
+          "Aufladbare Optionen mit langer Batterielaufzeit",
+          "Diskrete und komfortable Designs für ganztägiges Tragen"
+        ],
+        benefits: [
+          "Verbesserte Sprachverständlichkeit auch in lauten Umgebungen",
+          "Personalisierte Klangprofile, angepasst an individuelle Hörbedürfnisse",
+          "Direktes Streaming von Smartphones und anderen digitalen Geräten",
+          "Reduzierte Höranstrengung und Ermüdung",
+          "Verbesserte allgemeine Lebensqualität"
+        ],
+        buttonText: "Digitale Hörgeräte erkunden"
       }
     },
     edumic: {
@@ -137,6 +159,23 @@ const TechnicalAids = () => {
           "Fàcil d'utilitzar amb una interfície intuïtiva",
           "Disseny durador per a ús diari a l'aula"
         ]
+      },
+      de: {
+        title: "Oticon EduMic",
+        description: "EduMic ist ein kabelloses Fernmikrofon, das speziell für Bildungsumgebungen entwickelt wurde und Schülern mit Hörverlust hilft, mit der Stimme ihres Lehrers im Klassenzimmer verbunden zu bleiben.",
+        features: [
+          "Richtmikrofon-Technologie fokussiert auf die Stimme des Sprechers",
+          "Streamt hochwertigen Klang direkt zu Oticon Hörgeräten",
+          "Verbindet sich mit Klassenzimmer-Audiosystemen, Computern und Tablets",
+          "Wiederaufladbare Batterie für einen ganzen Schultag"
+        ],
+        benefits: [
+          "Verbessert das Sprachverständnis in lauten Klassenzimmern",
+          "Reduziert die Höranstrengung für Schüler mit Hörverlust",
+          "Unterstützt bessere Lernergebnisse durch klare Kommunikation",
+          "Einfach zu bedienen mit intuitiver Benutzeroberfläche",
+          "Robustes Design für den täglichen Einsatz im Klassenzimmer"
+        ]
       }
     },
     connectClip: {
@@ -186,6 +225,22 @@ const TechnicalAids = () => {
           "Amplia el rang d'audició fins a 20 metres amb línia de visió clara",
           "Fàcil d'utilitzar amb controls de botons simples",
           "Llarga durada de bateria amb fins a 8 hores de temps de transmissió"
+        ]
+      },
+      de: {
+        title: "Oticon ConnectClip",
+        description: "ConnectClip ist ein vielseitiges Zubehör, das Oticon Hörgeräte in ein hochwertiges Headset für Freisprechanrufe und Audio-Streaming verwandelt.",
+        features: [
+          "Streamt Telefonanrufe direkt zu beiden Hörgeräten",
+          "Funktioniert als Fernmikrofon für besseres Hören auf Distanz",
+          "Ermöglicht Freisprechanrufe von fast jedem Smartphone",
+          "Streamt Musik, GPS-Anweisungen und andere Audioinhalte"
+        ],
+        benefits: [
+          "Klarer Klang für Anrufe und Gespräche auch in lauten Umgebungen",
+          "Erweitert die Hörreichweite um bis zu 20 Meter bei freier Sichtlinie",
+          "Einfach zu bedienen mit einfachen Tastenbedienungen",
+          "Lange Batterielaufzeit mit bis zu 8 Stunden Streaming-Zeit"
         ]
       }
     },
@@ -237,6 +292,22 @@ const TechnicalAids = () => {
           "Gaudeixi de converses durant la visualització de TV sense treure's els audiòfons",
           "Configuració simple d'una sola vegada sense ajustos diaris necessaris"
         ]
+      },
+      de: {
+        title: "Oticon TV Adapter",
+        description: "Der TV Adapter ermöglicht drahtloses Streaming direkt von Ihrem Fernseher zu Ihren Oticon Hörgeräten und bietet ein personalisiertes Klangerlebnis, ohne die Fernsehlautstärke für andere zu beeinträchtigen.",
+        features: [
+          "Streamt hochwertigen Dolby Digital Stereo-Sound",
+          "Verbindet sich mit praktisch jedem Audiogerät mit digitaler oder analoger Ausgabe",
+          "Ermöglicht persönliche Lautstärkeanpassung unabhängig vom TV-Lautsprecher",
+          "Unterstützt mehrere Hörgerätebenutzer gleichzeitig"
+        ],
+        benefits: [
+          "Kristallklarer TV-Sound direkt zu den Hörgeräten",
+          "Keine Notwendigkeit, die TV-Lautstärke auf unangenehme Pegel für andere zu erhöhen",
+          "Genießen Sie Gespräche während des Fernsehens, ohne die Hörgeräte zu entfernen",
+          "Einfaches einmaliges Setup ohne tägliche Anpassungen erforderlich"
+        ]
       }
     },
     remoteControl: {
@@ -287,6 +358,22 @@ const TechnicalAids = () => {
           "Confirmació visual de la configuració de l'audiòfon mitjançant indicadors LED",
           "Llarga durada de la bateria utilitzant bateria estàndard de botó"
         ]
+      },
+      de: {
+        title: "Oticon Fernbedienung",
+        description: "Die Fernbedienung bietet eine diskrete Möglichkeit, Ihre Oticon Hörgeräte anzupassen, ohne sie zu berühren, und bietet einfachen Zugriff auf Lautstärkeregler und Programmwechsel.",
+        features: [
+          "Einfache, intuitive Benutzeroberfläche mit großen, taktilen Tasten",
+          "Steuern Sie Lautstärke, wechseln Sie Programme und schalten Sie Hörgeräte stumm",
+          "Kleines, taschenfreundliches Design für diskrete Nutzung",
+          "Kompatibel mit allen kabellosen Oticon Hörgeräten"
+        ],
+        benefits: [
+          "Einfache Steuerung für Benutzer mit eingeschränkter Geschicklichkeit",
+          "Diskrete Anpassung ohne Aufmerksamkeit zu erregen",
+          "Visuelle Bestätigung der Hörgeräteeinstellungen über LED-Anzeigen",
+          "Lange Batterielaufzeit mit Standard-Knopfzellenbatterie"
+        ]
       }
     },
     charger: {
@@ -336,6 +423,22 @@ const TechnicalAids = () => {
           "Tres càrregues completes per als seus audiòfons quan està en moviment",
           "Assecat automàtic per estendre la vida dels seus audiòfons",
           "Disseny compacte cap fàcilment a la butxaca o bossa"
+        ]
+      },
+      de: {
+        title: "Oticon SmartCharger",
+        description: "Der SmartCharger ist eine tragbare Powerbank und Ladegerät für aufladbare Oticon Hörgeräte und bietet bis zu drei vollständige Ladungen ohne Zugang zu einer Steckdose.",
+        features: [
+          "Tragbares Ladeetui mit integrierter Powerbank",
+          "Schnellladung von 30 Minuten bietet 6 Stunden Nutzung",
+          "Vollständige Ladung in 3 Stunden bietet ganzen Tag Hören",
+          "Trocknungsfunktion entfernt Feuchtigkeit von Hörgeräten"
+        ],
+        benefits: [
+          "Freiheit zu reisen, ohne sich um Steckdosen sorgen zu müssen",
+          "Drei vollständige Ladungen für Ihre Hörgeräte unterwegs",
+          "Automatische Trocknung zur Verlängerung der Lebensdauer Ihrer Hörgeräte",
+          "Kompaktes Design passt leicht in Tasche oder Handtasche"
         ]
       }
     }
@@ -414,7 +517,7 @@ const TechnicalAids = () => {
                 </div>
                 
                 <div className="flex justify-center">
-                  <Link to="/services/hearing-aids">
+                  <Link to={`/${language}/services/hearing-aids`}>
                     <Button className="bg-[#55afa9] hover:bg-[#3d7d78]">
                       {content.audiofonsDigitals[language].buttonText}
                     </Button>

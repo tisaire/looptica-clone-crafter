@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation, useParams } from 'react-router-dom';
-import { Menu, X, ShoppingBag, Phone } from 'lucide-react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Menu, X, Calendar, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -12,8 +12,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const { t, language } = useLanguage(); // Get current language
   const location = useLocation();
-  // const { lang: langFromParams } = useParams<{ lang: string }>(); // lang from URL
-  // const currentLang = (langFromParams || language) as Language; // Prioritize URL lang
+  const navigate = useNavigate();
 
   // Check if we're on the homepage for the current language
   const isHomePage = location.pathname === `/${language}` || location.pathname === `/${language}/`;
@@ -60,6 +59,15 @@ const Navbar = () => {
 
     if (href) {
       const [pathPart, hashPart] = href.split('#');
+      
+      // Check if clicking home link while already on homepage - scroll to top
+      if (!hashPart && (pathPart === `/${language}` || pathPart === `/${language}/`)) {
+        if (location.pathname === `/${language}` || location.pathname === `/${language}/`) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          return;
+        }
+      }
       
       // Check if it's an internal link to the current page's language root with a hash
       if (hashPart && (pathPart === `/${language}` || pathPart === `/${language}/` || pathPart === '')) {
@@ -131,9 +139,11 @@ const Navbar = () => {
             variant="default" 
             size="sm" 
             className="bg-[#55afa9] hover:bg-[#ca6664] text-white transition-all"
-            // onClick={() => navigate(`/${language}/#contact`)} // Example if button leads to a page/section
+            onClick={() => {
+              window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1X2ujdqOmHen2LFMc3Ki4s-Vx6l7uZapLzO6jrbmdMMxLr2RxC_PZKluTKrCqgrHUEGnbF62NO', '_blank');
+            }}
           >
-            <ShoppingBag className="h-4 w-4 mr-2" />
+            <Calendar className="h-4 w-4 mr-2" />
             {t('shopNow')}
           </Button>
         </div>
@@ -178,11 +188,11 @@ const Navbar = () => {
               variant="default" 
               className="mt-4 w-full max-w-[200px] bg-[#55afa9] hover:bg-[#ca6664] text-white"
               onClick={() => {
-                // navigate(`/${language}/#contact`); // Example
                 closeMenu();
+                window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1X2ujdqOmHen2LFMc3Ki4s-Vx6l7uZapLzO6jrbmdMMxLr2RxC_PZKluTKrCqgrHUEGnbF62NO', '_blank');
               }}
             >
-              <ShoppingBag className="h-5 w-5 mr-2" />
+              <Calendar className="h-5 w-5 mr-2" />
               {t('shopNow')}
             </Button>
           </div>

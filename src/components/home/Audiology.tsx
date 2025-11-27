@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 
 const Audiology = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const audiologyServices = [
     {
@@ -15,35 +15,35 @@ const Audiology = () => {
       title: t('hearingTest'),
       description: t('hearingTestDesc'),
       image: "/images/oticon_act_key_visual_woman_in-anechoic_chamber_as_453913390_as_190510297.jpg",
-      path: "/services/hearing-test"
+      path: `/${language}/services/hearing-test`
     },
     {
       icon: <HeadphonesIcon className="w-10 h-10 text-[#55afa9]" />,
       title: t('hearingAids'),
       description: t('hearingAidsDesc'),
       image: "/images/oticon_xceed_connectivity_iphone_x_nds_199359.jpg",
-      path: "/services/hearing-aids"
+      path: `/${language}/services/hearing-aids`
     },
     {
       icon: <Zap className="w-10 h-10 text-[#55afa9]" />,
       title: t('technicalAids'),
       description: t('technicalAidsDesc'),
       image: "/images/edumic-press-release.jpg",
-      path: "/services/technical-aids"
+      path: `/${language}/services/technical-aids`
     },
     {
       icon: <ShieldCheck className="w-10 h-10 text-[#55afa9]" />,
       title: t('customEarProtection'),
       description: t('earProtectionDesc'),
       image: "/images/moldes-a-medida-1.jpg",
-      path: "/services/ear-protection"
+      path: `/${language}/services/ear-protection`
     },
     {
       icon: <BadgeDollarSign className="w-10 h-10 text-[#55afa9]" />,
       title: t('subvenciones'),
       description: t('subvencionesDesc'),
       image: "/images/oticonopnscoupleincitymg9377300dpicoticon2.jpg",
-      path: "/services/subvenciones"
+      path: `/${language}/services/subvenciones`
     }
   ];
 
@@ -100,7 +100,7 @@ const Audiology = () => {
         <ScrollReveal delay={0.4}>
           <div className="text-center">
             <Button asChild size="lg" className="bg-[#55afa9] hover:bg-[#ca6664] text-white">
-              <Link to="/services/audiologia-centro">
+              <Link to={`/${language}/services/audiologia-centro`}>
                 {t('scheduleConsultation')}
               </Link>
             </Button>

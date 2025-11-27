@@ -23,13 +23,18 @@ const About = () => {
       ca: {
         title: "Sobre Looptica | Especialistes en Visió i Audició a Barcelona",
         description: "Conegui el nostre experimentat equip d'especialistes en visió i audició a Looptica Barcelona. Oferint atenció òptica i audiològica personalitzada des de 2018."
+      },
+      de: {
+        title: "Über Looptica | Seh- und Hörspezialisten in Barcelona",
+        description: "Lernen Sie unser erfahrenes Team von Seh- und Hörspezialisten bei Looptica Barcelona kennen. Seit 2018 bieten wir persönliche optische und audiologische Betreuung."
       }
     },
     page: {
       title: {
         en: "About Us",
         es: "Quien somos",
-        ca: "Qui som"
+        ca: "Qui som",
+        de: "Über Uns"
       }
     },
     teamMembers: [
@@ -38,7 +43,8 @@ const About = () => {
         role: {
           en: "Owner\n\nOptician Optometrist",
           es: "Propietaria\n\nÓptica Optometrista",
-          ca: "Propietària\n\nÒptica Optometrista"
+          ca: "Propietària\n\nÒptica Optometrista",
+          de: "Inhaberin\n\nOptikerin Optometristin"
         },
         image: "/images/_DSC4776.jpg",
         bio: {
@@ -53,6 +59,10 @@ const About = () => {
           ca: [
             "Com a propietària de Looptica, Elena aporta més de 15 anys d'experiència en optometria. Amb el seu ampli coneixement i dedicació, ha convertit Looptica en un centre optomètric i audiològic de referència al barri del Poblenou a Barcelona.",
             "Li apassiona oferir solucions personalitzades de cura ocular per a cada client."
+          ],
+          de: [
+            "Als Inhaberin von Looptica bringt Elena über 15 Jahre Erfahrung in der Optometrie mit. Mit ihrem umfassenden Wissen und ihrer Hingabe an die Kundenbetreuung hat sie Looptica zu einem vertrauenswürdigen Namen für optische und audiologische Dienstleistungen in Barcelona gemacht.",
+            "Elena ist spezialisiert auf die Bereitstellung personalisierter Augenpflegelösungen für jeden Kunden."
           ]
         }
       },
@@ -61,7 +71,8 @@ const About = () => {
         role: {
           en: "Contactologist\n\nOptician Optometrist",
           es: "Contactóloga\n\nÓptica Optometrista",
-          ca: "Contactòloga\n\nÒptica Optometrista"
+          ca: "Contactòloga\n\nÒptica Optometrista",
+          de: "Kontaktologin\n\nOptikerin Optometristin"
         },
         image: "/images/irene.jpg",
         bio: {
@@ -73,6 +84,9 @@ const About = () => {
           ],
           ca: [
             "Irene és la nostra òptica optometrista especialitzada en contactologia avançada. La seva àmplia trajectòria s'ha centrat en contactologia pediàtrica i adaptacions especials com orto-k, queratocon, control de miopia, lents de contacte esclerals i altres solucions individualitzades. Amb gran coneixement del mercat actual, ofereix un excel·lent assessorament segons les necessitats visuals del pacient."
+          ],
+          de: [
+            "Irene ist unsere Optikerin und Optometristin, spezialisiert auf fortgeschrittene Kontaktologie. Ihre umfangreiche Karriere konzentrierte sich auf pädiatrische Kontaktologie und spezielle Anpassungen wie Ortho-K, Keratokonus, Myopiekontrolle, sklerale Kontaktlinsen und andere individualisierte Lösungen. Mit großem Wissen über den aktuellen Markt bietet sie hervorragende Beratung entsprechend den visuellen Bedürfnissen des Patienten."
           ]
         }
       },
@@ -81,7 +95,8 @@ const About = () => {
         role: {
           en: "Audiologist\n\nOptician Optometrist",
           es: "Audióloga\n\nÓptica Optometrista",
-          ca: "Audiòloga\n\nÒptica Optometrista"
+          ca: "Audiòloga\n\nÒptica Optometrista",
+          de: "Audiologin\n\nOptikerin Optometristin"
         },
         image: "/images/lorena2.png",
         bio: {
@@ -93,6 +108,9 @@ const About = () => {
           ],
           ca: [
             "Lorena és la nostra òptica optometrista i audiòloga amb un interès especial en la rehabilitació auditiva. El seu enfocament amable i pacient ajuda els clients a sentir-se còmodes en abordar les seves necessitats específiques. Amb formació avançada en les últimes tecnologies i el seu interès per les tendències, li permeten oferir un enfocament integral a la salut visual i auditiva dels seus pacients."
+          ],
+          de: [
+            "Lorena ist unsere Optikerin, Optometristin und Audiologin mit besonderem Interesse an Hörrehabilitation. Ihr freundlicher und geduldiger Ansatz hilft Kunden, sich wohl zu fühlen, wenn sie ihre spezifischen Bedürfnisse ansprechen. Mit fortgeschrittener Ausbildung in den neuesten Technologien und ihrem Interesse an Trends kann sie einen umfassenden Ansatz für die visuelle und auditive Gesundheit ihrer Patienten bieten."
           ]
         }
       }
@@ -101,7 +119,8 @@ const About = () => {
       title: {
         en: "Our Philosophy",
         es: "Nuestra Filosofía",
-        ca: "La Nostra Filosofia"
+        ca: "La Nostra Filosofia",
+        de: "Unsere Philosophie"
       },
       content: {
         en: [
@@ -115,6 +134,10 @@ const About = () => {
         ca: [
           "A Looptica, creiem que la cura ocular i auditiva de qualitat ha de ser accessible, personalitzada i lliurada amb el més alt nivell de professionalisme. El nostre equip està compromès amb l'aprenentatge continu i mantenir-se actualitzat amb els últims avenços en cura òptica i audiològica.",
           "Ens enorgullim del nostre enfocament centrat en el pacient, enfocant-nos a construir relacions a llarg termini amb els nostres clients basades en la confiança, l'experiència i el servei excepcional."
+        ],
+        de: [
+          "Bei Looptica glauben wir, dass qualitativ hochwertige Augen- und Ohrenpflege zugänglich, personalisiert und mit höchstem Professionalitätsniveau geliefert werden sollte. Unser Team ist dem kontinuierlichen Lernen und der Aktualisierung mit den neuesten Fortschritten in der optischen und audiologischen Versorgung verpflichtet.",
+          "Wir sind stolz auf unseren patientenzentrierten Ansatz und konzentrieren uns darauf, langfristige Beziehungen zu unseren Kunden aufzubauen, die auf Vertrauen, Fachwissen und außergewöhnlichem Service basieren."
         ]
       }
     }

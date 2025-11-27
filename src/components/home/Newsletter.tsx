@@ -28,6 +28,9 @@ const Newsletter = () => {
       } else if (language === 'es') {
         successMessage = "¡Suscripción completada!";
         descMessage = "Gracias por suscribirte a nuestro boletín.";
+      } else if (language === 'de') {
+        successMessage = "Abonnement abgeschlossen!";
+        descMessage = "Vielen Dank für Ihr Abonnement unseres Newsletters.";
       }
       
       toast({
