@@ -29,7 +29,7 @@ const OpticalServices = () => {
       icon: <Moon className="w-10 h-10 text-[#55afa9]" />,
       title: t('orthoK'),
       description: t('orthoKDesc'),
-      image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
+      image: "/images/ortok_resize.jpg",
       path: `/${language}/services/orto-k`
     },
     {
