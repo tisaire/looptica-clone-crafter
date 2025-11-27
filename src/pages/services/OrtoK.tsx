@@ -398,7 +398,7 @@ const OrtoK = () => {
       <ServiceLayout
         title={content.hero[language].title}
         subtitle={content.hero[language].subtitle}
-        image="/lovable-uploads/45087a9c-489a-4d48-82fb-d857e7bf306a.jpg"
+        image="/images/ortok.jpg"
         appointmentSubject={content.hero[language].appointmentSubject}
       >
         <ScrollReveal>
