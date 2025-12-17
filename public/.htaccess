@@ -79,6 +79,10 @@ FileETag None
   RewriteEngine On
   RewriteBase /
 
+  # Force www redirect - CRITICAL for SEO
+  RewriteCond %{HTTP_HOST} ^looptica\.com [NC]
+  RewriteRule ^(.*)$ https://www.looptica.com/$1 [L,R=301]
+
   # Redirect old language paths to new prefixed structure (assuming 'ca' as default for these old structures)
   # The React app will handle redirect from / to /ca/ internally
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]

@@ -211,10 +211,10 @@ const Index = () => {
         <title>{content.meta[language as keyof typeof content.meta].title}</title>
         <meta name="description" content={content.meta[language as keyof typeof content.meta].description} />
         <meta name="keywords" content={content.meta[language as keyof typeof content.meta].keywords} />
-        <link rel="canonical" href="https://www.looptica.com/" />
+        <link rel="canonical" href={`https://www.looptica.com/${language}/`} />
         <meta property="og:title" content={content.meta[language as keyof typeof content.meta].title} />
         <meta property="og:description" content={content.meta[language as keyof typeof content.meta].description} />
-        <meta property="og:url" content="https://www.looptica.com/" />
+        <meta property="og:url" content={`https://www.looptica.com/${language}/`} />
       </Helmet>
       <Navbar />
       <div className="min-h-screen flex flex-col">

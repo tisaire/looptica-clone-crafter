@@ -254,6 +254,7 @@ const PrivacyPolicy = () => {
       <Helmet>
         <title>{content[language].title} | Looptica</title>
         <meta name="description" content={content[language].metaDescription} />
+        <link rel="canonical" href={`https://www.looptica.com/${language}/legal/privacy-policy`} />
       </Helmet>
       
       <Navbar />

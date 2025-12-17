@@ -219,6 +219,7 @@ const OticonModels = () => {
         <title>{content.title[language]} | Looptica</title>
         <meta name="description" content={content.subtitle[language]} />
         <meta name="robots" content="noindex, nofollow" />
+        <link rel="canonical" href={`https://www.looptica.com/${language}/products/oticon-models`} />
       </Helmet>
       <Navbar />
       <main className="flex-grow pt-24 pb-16">

@@ -454,6 +454,7 @@ const OticonModelDetail: React.FC = () => {
         <title>{model.name} | Looptica</title>
         <meta name="description" content={model.description[language]} />
         <meta name="robots" content="noindex, nofollow" />
+        <link rel="canonical" href={`https://www.looptica.com/${language}/products/oticon-models/${id}`} />
       </Helmet>
       <Navbar />
       
