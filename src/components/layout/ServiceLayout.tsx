@@ -17,6 +17,7 @@ interface ServiceLayoutProps {
   appointmentSubject?: string;
   pageTitle?: { [key in Language]: string }; // SEO titles for each language
   pageDescription?: { [key in Language]: string }; // SEO descriptions for each language
+  hideCTA?: boolean; // Hide the appointment CTA section at the bottom
 }
 
 const ServiceLayout: React.FC<ServiceLayoutProps> = ({
@@ -27,6 +28,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   appointmentSubject = 'Looptica Consultation',
   pageTitle, // Use this for <title> tag
   pageDescription, // Use this for meta description
+  hideCTA = false,
 }) => {
   const { language } = useLanguage();
   const [loadedImage, setLoadedImage] = useState('');
@@ -130,19 +132,21 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
               {children}
               
               {/* Appointment CTA */}
-              <ScrollReveal>
-                <div className="mt-16 bg-gray-50 rounded-xl p-8 text-center shadow-sm">
-                  <h3 className="text-2xl font-semibold mb-4">{ctaContent.readyToSchedule[language as keyof typeof ctaContent.readyToSchedule]}</h3>
-                  <p className="text-gray-600 mb-6">{ctaContent.scheduleDescription[language as keyof typeof ctaContent.scheduleDescription]}</p>
-                  <GoogleCalendarButton
-                    subject={appointmentSubject}
-                    description={`Appointment for ${title} at Looptica`}
-                    className="mx-auto"
-                  >
-                    {ctaContent.buttonText[language as keyof typeof ctaContent.buttonText]}
-                  </GoogleCalendarButton>
-                </div>
-              </ScrollReveal>
+              {!hideCTA && (
+                <ScrollReveal>
+                  <div className="mt-16 bg-gray-50 rounded-xl p-8 text-center shadow-sm">
+                    <h3 className="text-2xl font-semibold mb-4">{ctaContent.readyToSchedule[language as keyof typeof ctaContent.readyToSchedule]}</h3>
+                    <p className="text-gray-600 mb-6">{ctaContent.scheduleDescription[language as keyof typeof ctaContent.scheduleDescription]}</p>
+                    <GoogleCalendarButton
+                      subject={appointmentSubject}
+                      description={`Appointment for ${title} at Looptica`}
+                      className="mx-auto"
+                    >
+                      {ctaContent.buttonText[language as keyof typeof ctaContent.buttonText]}
+                    </GoogleCalendarButton>
+                  </div>
+                </ScrollReveal>
+              )}
             </div>
           </div>
         </main>

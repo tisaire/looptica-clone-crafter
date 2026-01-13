@@ -888,4 +888,50 @@
     <priority>0.3</priority>
   </url>
 
+  <!-- Optical Services: Plan VEO -->
+  <url>
+    <loc>https://www.looptica.com/ca/services/plan-veo</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/plan-veo"/>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.looptica.com/es/services/plan-veo</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/plan-veo"/>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.looptica.com/en/services/plan-veo</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/plan-veo"/>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.looptica.com/de/services/plan-veo</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/plan-veo"/>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>

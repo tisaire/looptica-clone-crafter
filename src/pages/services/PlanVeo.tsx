@@ -4,8 +4,9 @@ import Navbar from '@/components/layout/Navbar';
 import { useLanguage } from '@/contexts/LanguageContext';
 import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Card, CardContent } from '@/components/ui/card';
-import { BadgeEuro, Users, FileText, ClipboardCheck, ExternalLink } from 'lucide-react';
+import { BadgeEuro, Users, FileText, ClipboardCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 
 const PlanVeo = () => {
   const { language } = useLanguage();
@@ -191,25 +192,25 @@ const PlanVeo = () => {
       en: {
         title: 'Apply for Plan VEO at Looptica',
         description: 'Visit our store in Barcelona Poblenou to apply for the Plan VEO subsidy. Our team will guide you through the process and help you choose the perfect eyewear for your child.',
-        button: 'Find Participating Opticians',
+        button: 'Schedule Appointment',
         contact: 'Contact Us for More Information',
       },
       es: {
         title: 'Solicita el Plan VEO en Looptica',
         description: 'Visita nuestra tienda en Barcelona Poblenou para solicitar la subvención del Plan VEO. Nuestro equipo te guiará en el proceso y te ayudará a elegir las gafas perfectas para tu hijo.',
-        button: 'Buscar Ópticas Participantes',
+        button: 'Programar Cita',
         contact: 'Contáctanos para Más Información',
       },
       ca: {
         title: 'Sol·licita el Pla VEO a Looptica',
         description: 'Visita la nostra botiga a Barcelona Poblenou per sol·licitar la subvenció del Pla VEO. El nostre equip et guiarà en el procés i t\'ajudarà a escollir les ulleres perfectes pel teu fill.',
-        button: 'Buscar Òptiques Participants',
+        button: 'Programar Cita',
         contact: 'Contacta\'ns per a Més Informació',
       },
       de: {
         title: 'Beantragen Sie Plan VEO bei Looptica',
         description: 'Besuchen Sie unser Geschäft in Barcelona Poblenou, um die Plan VEO Beihilfe zu beantragen. Unser Team führt Sie durch den Prozess und hilft Ihnen, die perfekte Brille für Ihr Kind auszuwählen.',
-        button: 'Teilnehmende Optiker Finden',
+        button: 'Termin vereinbaren',
         contact: 'Kontaktieren Sie Uns für Weitere Informationen',
       },
     },
@@ -248,6 +249,7 @@ const PlanVeo = () => {
         title={currentContent.hero.title}
         subtitle={currentContent.hero.subtitle}
         image="/images/_DSC4696.jpg"
+        hideCTA={true}
       >
         {/* Introduction */}
         <div className="prose max-w-none mb-12">
@@ -311,12 +313,9 @@ const PlanVeo = () => {
             {currentContent.cta.description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="gap-2">
-              <a href="https://planveo.cgcoo.es/buscador/" target="_blank" rel="noopener noreferrer">
-                <ExternalLink className="w-4 h-4" />
-                {currentContent.cta.button}
-              </a>
-            </Button>
+            <GoogleCalendarButton size="lg">
+              {currentContent.cta.button}
+            </GoogleCalendarButton>
             <Button asChild variant="outline" size="lg">
               <a href={`/${language}/#contact`}>
                 {currentContent.cta.contact}
