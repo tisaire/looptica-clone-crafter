@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Eye, Contact, Moon, User, Glasses } from 'lucide-react';
+import { Eye, Contact, Moon, User, Glasses, BadgeEuro } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -45,6 +45,13 @@ const OpticalServices = () => {
       description: t('lensConsultingDesc'),
       image: "/lovable-uploads/a99c44aa-a4a4-45a4-9616-1ef080bd49db.jpeg",
       path: `/${language}/services/lens-consulting`
+    },
+    {
+      icon: <BadgeEuro className="w-10 h-10 text-[#55afa9]" />,
+      title: t('planVeo'),
+      description: t('planVeoDesc'),
+      image: "/images/_DSC4696.jpg",
+      path: `/${language}/services/plan-veo`
     }
   ];
 
@@ -65,7 +72,7 @@ const OpticalServices = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.2}>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-12">
             {opticalServices.map((service, index) => (
               <div 
                 key={index} 

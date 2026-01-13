@@ -564,6 +564,18 @@ export const translations: Translations = {
     ca: 'Un sistema versàtil de micròfon remot sense fils dissenyat per a entorns educatius, ajudant a estudiants amb pèrdua auditiva.',
     de: 'Ein vielseitiges drahtloses Fernmikrofonsystem für Bildungseinrichtungen, das Schülern mit Hörverlust hilft.',
   },
+  planVeo: {
+    en: 'Plan VEO',
+    es: 'Plan VEO',
+    ca: 'Pla VEO',
+    de: 'Plan VEO',
+  },
+  planVeoDesc: {
+    en: 'Up to €100/year subsidy for glasses and contact lenses for children up to 16 years',
+    es: 'Hasta 100€/año de ayuda para gafas y lentillas para menores de 16 años',
+    ca: 'Fins a 100€/any d\'ajuda per a ulleres i lents de contacte per a menors de 16 anys',
+    de: 'Bis zu 100€/Jahr Beihilfe für Brillen und Kontaktlinsen für Kinder bis 16 Jahre',
+  },
 };
 
 

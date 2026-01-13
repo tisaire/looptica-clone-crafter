@@ -39,6 +39,7 @@ const TechnicalAids = lazy(() => import('./pages/services/TechnicalAids'));
 const Subvenciones = lazy(() => import('./pages/services/Subvenciones'));
 const ImageConsulting = lazy(() => import('./pages/services/ImageConsulting'));
 const LensConsulting = lazy(() => import('./pages/services/LensConsulting'));
+const PlanVeo = lazy(() => import('./pages/services/PlanVeo'));
 const About = lazy(() => import('./pages/About'));
 const AudiologiaCentro = lazy(() => import('./pages/services/AudiologiaCentro'));
 const PrivacyPolicy = lazy(() => import('./pages/legal/PrivacyPolicy'));
@@ -113,6 +114,7 @@ function App() {
                 <Route path="services/contact-lenses" element={<Suspense fallback={<PageLoader />}><ContactLenses /></Suspense>} />
                 <Route path="services/image-consulting" element={<Suspense fallback={<PageLoader />}><ImageConsulting /></Suspense>} />
                 <Route path="services/lens-consulting" element={<Suspense fallback={<PageLoader />}><LensConsulting /></Suspense>} />
+                <Route path="services/plan-veo" element={<Suspense fallback={<PageLoader />}><PlanVeo /></Suspense>} />
 
                 {/* Audiology Services */}
                 <Route path="services/hearing-test" element={<Suspense fallback={<PageLoader />}><HearingTest /></Suspense>} />
