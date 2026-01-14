@@ -24,8 +24,8 @@ const PlanVeo = () => {
         description: 'Obtén hasta 100€/año para gafas o lentillas para menores de 16 años. Subvención del Plan VEO disponible en Looptica Barcelona.',
       },
       ca: {
-        title: 'Pla VEO - Ajudes per a Ulleres Infantils | Looptica Barcelona',
-        description: 'Obtén fins a 100€/any per a ulleres o lents de contacte per a menors de 16 anys. Subvenció del Pla VEO disponible a Looptica Barcelona.',
+        title: 'Plan VEO - Ajudes per a Ulleres Infantils | Looptica Barcelona',
+        description: 'Obtén fins a 100€/any per a ulleres o lents de contacte per a menors de 16 anys. Subvenció del Plan VEO disponible a Looptica Barcelona.',
       },
       de: {
         title: 'Plan VEO - Zuschüsse für Kinderbrillen | Looptica Barcelona',
@@ -42,7 +42,7 @@ const PlanVeo = () => {
         subtitle: 'Ayudas para Gafas y Lentillas Infantiles',
       },
       ca: {
-        title: 'Pla VEO',
+        title: 'Plan VEO',
         subtitle: 'Ajudes per a Ulleres i Lents de Contacte Infantils',
       },
       de: {
@@ -53,7 +53,7 @@ const PlanVeo = () => {
     intro: {
       en: 'Plan VEO is a Spanish government initiative providing financial assistance of up to €100 per year for glasses or contact lenses for children and teenagers up to 16 years of age with vision problems. At Looptica, we are an authorized participating optician where you can directly apply for this subsidy.',
       es: 'El Plan VEO es una iniciativa del gobierno español que ofrece una ayuda económica de hasta 100€ al año para gafas o lentillas para niños y adolescentes de hasta 16 años con problemas de visión. En Looptica, somos una óptica participante autorizada donde puedes solicitar directamente esta subvención.',
-      ca: 'El Pla VEO és una iniciativa del govern espanyol que ofereix una ajuda econòmica de fins a 100€ l\'any per a ulleres o lents de contacte per a nens i adolescents de fins a 16 anys amb problemes de visió. A Looptica, som una òptica participant autoritzada on pots sol·licitar directament aquesta subvenció.',
+      ca: 'El Plan VEO és una iniciativa del govern espanyol que ofereix una ajuda econòmica de fins a 100€ l\'any per a ulleres o lents de contacte per a nens i adolescents de fins a 16 anys amb problemes de visió. A Looptica, som una òptica participant autoritzada on pots sol·licitar directament aquesta subvenció.',
       de: 'Plan VEO ist eine spanische Regierungsinitiative, die finanzielle Unterstützung von bis zu 100€ pro Jahr für Brillen oder Kontaktlinsen für Kinder und Jugendliche bis 16 Jahre mit Sehproblemen bietet. Bei Looptica sind wir ein autorisierter teilnehmender Optiker, bei dem Sie diese Beihilfe direkt beantragen können.',
     },
     whatIs: {
@@ -66,8 +66,8 @@ const PlanVeo = () => {
         description: 'El Plan VEO (Visión y Equipamiento Óptico) es un programa gubernamental que cubre hasta 100€ al año para equipamiento óptico correctivo para menores. El programa es válido hasta el 31 de diciembre de 2026.',
       },
       ca: {
-        title: 'Què és el Pla VEO?',
-        description: 'El Pla VEO (Visió i Equipament Òptic) és un programa governamental que cobreix fins a 100€ l\'any per a equipament òptic correctiu per a menors. El programa és vàlid fins al 31 de desembre de 2026.',
+        title: 'Què és el Plan VEO?',
+        description: 'El Plan VEO (Visión y Equipamiento Óptico) és un programa governamental que cobreix fins a 100€ l\'any per a equipament òptic correctiu per a menors. El programa és vàlid fins al 31 de desembre de 2026.',
       },
       de: {
         title: 'Was ist Plan VEO?',
@@ -269,15 +269,15 @@ const PlanVeo = () => {
         title: 'Preguntes Freqüents',
         questions: [
           {
-            question: 'Què és el Pla VEO?',
-            answer: 'El Pla VEO (Visió i Equipament Òptic) és un programa del govern espanyol que proporciona fins a 100€ l\'any per a equipament òptic correctiu (ulleres o lents de contacte) per a nens i adolescents de fins a 16 anys amb problemes de visió.',
+            question: 'Què és el Plan VEO?',
+            answer: 'El Plan VEO (Visión y Equipamiento Óptico) és un programa del govern espanyol que proporciona fins a 100€ l\'any per a equipament òptic correctiu (ulleres o lents de contacte) per a nens i adolescents de fins a 16 anys amb problemes de visió.',
           },
           {
-            question: 'Qui pot sol·licitar la subvenció del Pla VEO?',
+            question: 'Qui pot sol·licitar la subvenció del Plan VEO?',
             answer: 'Nens i adolescents de 0 a 16 anys diagnosticats amb errors refractius (miopia, hipermetropia, astigmatisme) que siguin beneficiaris del Sistema Nacional de Salut (SNS) o mutualistes de MUFACE, MUGEJU o ISFAS.',
           },
           {
-            question: 'Quins productes cobreix el Pla VEO?',
+            question: 'Quins productes cobreix el Plan VEO?',
             answer: 'La subvenció cobreix ulleres graduades (muntures i vidres) o lents de contacte. Pots triar l\'un o l\'altre, però no ambdós el mateix any.',
           },
           {
@@ -286,7 +286,7 @@ const PlanVeo = () => {
           },
           {
             question: 'Puc comprar productes de més de 100€?',
-            answer: 'Sí, pots comprar ulleres que costin més de 100€. La subvenció del Pla VEO cobrirà fins a 100€ i tu pagues la diferència.',
+            answer: 'Sí, pots comprar ulleres que costin més de 100€. La subvenció del Plan VEO cobrirà fins a 100€ i tu pagues la diferència.',
           },
           {
             question: 'Puc guardar el saldo no utilitzat per a altres compres?',
@@ -294,11 +294,11 @@ const PlanVeo = () => {
           },
           {
             question: 'Puc tornar a sol·licitar la subvenció l\'any vinent?',
-            answer: 'Sí, la subvenció del Pla VEO es pot sol·licitar una vegada per any natural fins que el nen compleixi 17 anys, sempre que el programa segueixi actiu.',
+            answer: 'Sí, la subvenció del Plan VEO es pot sol·licitar una vegada per any natural fins que el nen compleixi 17 anys, sempre que el programa segueixi actiu.',
           },
           {
-            question: 'Fins quan està vigent el Pla VEO?',
-            answer: 'El Pla VEO està vigent actualment fins al 31 de desembre de 2026. El programa pot ser estès pel govern.',
+            question: 'Fins quan està vigent el Plan VEO?',
+            answer: 'El Plan VEO està vigent actualment fins al 31 de desembre de 2026. El programa pot ser estès pel govern.',
           },
         ],
       },
@@ -354,8 +354,8 @@ const PlanVeo = () => {
         contact: 'Contáctanos para Más Información',
       },
       ca: {
-        title: 'Sol·licita el Pla VEO a Looptica',
-        description: 'Visita la nostra botiga a Barcelona Poblenou per sol·licitar la subvenció del Pla VEO. El nostre equip et guiarà en el procés i t\'ajudarà a escollir les ulleres perfectes pel teu fill.',
+        title: 'Sol·licita el Plan VEO a Looptica',
+        description: 'Visita la nostra botiga a Barcelona Poblenou per sol·licitar la subvenció del Plan VEO. El nostre equip et guiarà en el procés i t\'ajudarà a escollir les ulleres perfectes pel teu fill.',
         button: 'Programar Cita',
         contact: 'Contacta\'ns per a Més Informació',
       },
