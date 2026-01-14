@@ -1,24 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) - deferred loading -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H170LQBT19"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-H170LQBT19', { 'send_page_view': false });
-      // Delayed send of pageview after critical content loads
-      window.addEventListener('load', function() {
-        setTimeout(function() {
-          gtag('event', 'page_view', {
-            page_title: document.title,
-            page_location: window.location.href
-          });
-        }, 2000);
-      });
-    </script>
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -207,11 +193,31 @@
       }
     </script>
   </head>
-
   <body>
     <div id="root"></div>
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Google Analytics - loaded after main content for better FCP -->
+    <script>
+      // Defer Google Analytics loading until after first paint
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-H170LQBT19';
+          script.async = true;
+          document.head.appendChild(script);
+          
+          script.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', 'G-H170LQBT19');
+          };
+        }, 100);
+      });
+    </script>
   </body>
 </html>
