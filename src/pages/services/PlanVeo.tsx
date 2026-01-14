@@ -4,9 +4,11 @@ import Navbar from '@/components/layout/Navbar';
 import { useLanguage } from '@/contexts/LanguageContext';
 import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Card, CardContent } from '@/components/ui/card';
-import { BadgeEuro, Users, FileText, ClipboardCheck } from 'lucide-react';
+import { BadgeEuro, Users, FileText, ClipboardCheck, HelpCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const PlanVeo = () => {
   const { language } = useLanguage();
@@ -188,6 +190,156 @@ const PlanVeo = () => {
         ],
       },
     },
+    faq: {
+      en: {
+        title: 'Frequently Asked Questions',
+        questions: [
+          {
+            question: 'What is Plan VEO?',
+            answer: 'Plan VEO (Visión y Equipamiento Óptico) is a Spanish government program that provides up to €100 per year for corrective eyewear (glasses or contact lenses) for children and teenagers up to 16 years old with vision problems.',
+          },
+          {
+            question: 'Who can apply for the Plan VEO subsidy?',
+            answer: 'Children and teenagers from 0 to 16 years old who are diagnosed with refractive errors (myopia, hyperopia, astigmatism) and are beneficiaries of the Spanish National Health System (SNS) or members of MUFACE, MUGEJU, or ISFAS mutual funds.',
+          },
+          {
+            question: 'What products are covered by Plan VEO?',
+            answer: 'The subsidy covers prescription glasses (frames and lenses) or contact lenses. You can choose one or the other, but not both in the same year.',
+          },
+          {
+            question: 'What documents do I need to apply?',
+            answer: 'For children up to 5 years: Health card with CIPA code. For children 6-16 years: Health card, optical prescription from an ophthalmologist or optometrist, and ID of the legal representative.',
+          },
+          {
+            question: 'Can I buy products costing more than €100?',
+            answer: 'Yes, you can purchase eyewear costing more than €100. The Plan VEO subsidy will cover up to €100, and you pay the difference.',
+          },
+          {
+            question: 'Can I save unused balance for later purchases?',
+            answer: 'No, the €100 subsidy cannot be accumulated. It must be used in a single purchase within the calendar year. Any unused amount is forfeited.',
+          },
+          {
+            question: 'Can I apply for the subsidy again next year?',
+            answer: 'Yes, the Plan VEO subsidy can be requested once per calendar year until the child turns 17 years old, as long as the program remains active.',
+          },
+          {
+            question: 'Until when is Plan VEO valid?',
+            answer: 'Plan VEO is currently valid until December 31, 2026. The program may be extended by the government.',
+          },
+        ],
+      },
+      es: {
+        title: 'Preguntas Frecuentes',
+        questions: [
+          {
+            question: '¿Qué es el Plan VEO?',
+            answer: 'El Plan VEO (Visión y Equipamiento Óptico) es un programa del gobierno español que proporciona hasta 100€ al año para equipamiento óptico correctivo (gafas o lentillas) para niños y adolescentes de hasta 16 años con problemas de visión.',
+          },
+          {
+            question: '¿Quién puede solicitar la subvención del Plan VEO?',
+            answer: 'Niños y adolescentes de 0 a 16 años diagnosticados con errores refractivos (miopía, hipermetropía, astigmatismo) que sean beneficiarios del Sistema Nacional de Salud (SNS) o mutualistas de MUFACE, MUGEJU o ISFAS.',
+          },
+          {
+            question: '¿Qué productos cubre el Plan VEO?',
+            answer: 'La subvención cubre gafas graduadas (monturas y cristales) o lentes de contacto. Puedes elegir uno u otro, pero no ambos en el mismo año.',
+          },
+          {
+            question: '¿Qué documentos necesito para solicitar?',
+            answer: 'Para menores de hasta 5 años: Tarjeta sanitaria con código CIPA. Para niños de 6-16 años: Tarjeta sanitaria, prescripción óptica de un oftalmólogo u optometrista, y DNI del representante legal.',
+          },
+          {
+            question: '¿Puedo comprar productos de más de 100€?',
+            answer: 'Sí, puedes comprar gafas que cuesten más de 100€. La subvención del Plan VEO cubrirá hasta 100€ y tú pagas la diferencia.',
+          },
+          {
+            question: '¿Puedo guardar el saldo no utilizado para otras compras?',
+            answer: 'No, la subvención de 100€ no se puede acumular. Debe utilizarse en una sola compra dentro del año natural. Cualquier cantidad no utilizada se pierde.',
+          },
+          {
+            question: '¿Puedo volver a solicitar la subvención el próximo año?',
+            answer: 'Sí, la subvención del Plan VEO se puede solicitar una vez por año natural hasta que el niño cumpla 17 años, siempre que el programa siga activo.',
+          },
+          {
+            question: '¿Hasta cuándo está vigente el Plan VEO?',
+            answer: 'El Plan VEO está vigente actualmente hasta el 31 de diciembre de 2026. El programa puede ser extendido por el gobierno.',
+          },
+        ],
+      },
+      ca: {
+        title: 'Preguntes Freqüents',
+        questions: [
+          {
+            question: 'Què és el Pla VEO?',
+            answer: 'El Pla VEO (Visió i Equipament Òptic) és un programa del govern espanyol que proporciona fins a 100€ l\'any per a equipament òptic correctiu (ulleres o lents de contacte) per a nens i adolescents de fins a 16 anys amb problemes de visió.',
+          },
+          {
+            question: 'Qui pot sol·licitar la subvenció del Pla VEO?',
+            answer: 'Nens i adolescents de 0 a 16 anys diagnosticats amb errors refractius (miopia, hipermetropia, astigmatisme) que siguin beneficiaris del Sistema Nacional de Salut (SNS) o mutualistes de MUFACE, MUGEJU o ISFAS.',
+          },
+          {
+            question: 'Quins productes cobreix el Pla VEO?',
+            answer: 'La subvenció cobreix ulleres graduades (muntures i vidres) o lents de contacte. Pots triar l\'un o l\'altre, però no ambdós el mateix any.',
+          },
+          {
+            question: 'Quins documents necessito per sol·licitar?',
+            answer: 'Per a menors de fins a 5 anys: Targeta sanitària amb codi CIPA. Per a nens de 6-16 anys: Targeta sanitària, prescripció òptica d\'un oftalmòleg o optometrista, i DNI del representant legal.',
+          },
+          {
+            question: 'Puc comprar productes de més de 100€?',
+            answer: 'Sí, pots comprar ulleres que costin més de 100€. La subvenció del Pla VEO cobrirà fins a 100€ i tu pagues la diferència.',
+          },
+          {
+            question: 'Puc guardar el saldo no utilitzat per a altres compres?',
+            answer: 'No, la subvenció de 100€ no es pot acumular. S\'ha d\'utilitzar en una sola compra dins de l\'any natural. Qualsevol quantitat no utilitzada es perd.',
+          },
+          {
+            question: 'Puc tornar a sol·licitar la subvenció l\'any vinent?',
+            answer: 'Sí, la subvenció del Pla VEO es pot sol·licitar una vegada per any natural fins que el nen compleixi 17 anys, sempre que el programa segueixi actiu.',
+          },
+          {
+            question: 'Fins quan està vigent el Pla VEO?',
+            answer: 'El Pla VEO està vigent actualment fins al 31 de desembre de 2026. El programa pot ser estès pel govern.',
+          },
+        ],
+      },
+      de: {
+        title: 'Häufig Gestellte Fragen',
+        questions: [
+          {
+            question: 'Was ist Plan VEO?',
+            answer: 'Plan VEO (Visión y Equipamiento Óptico) ist ein spanisches Regierungsprogramm, das bis zu 100€ pro Jahr für korrigierende Sehhilfen (Brillen oder Kontaktlinsen) für Kinder und Jugendliche bis 16 Jahre mit Sehproblemen bereitstellt.',
+          },
+          {
+            question: 'Wer kann die Plan VEO Beihilfe beantragen?',
+            answer: 'Kinder und Jugendliche von 0 bis 16 Jahren, die mit Refraktionsfehlern (Kurzsichtigkeit, Weitsichtigkeit, Astigmatismus) diagnostiziert wurden und Begünstigte des spanischen Nationalen Gesundheitssystems (SNS) sind oder Mitglieder der MUFACE, MUGEJU oder ISFAS Versicherungen.',
+          },
+          {
+            question: 'Welche Produkte werden von Plan VEO abgedeckt?',
+            answer: 'Die Beihilfe deckt Korrekturbrillen (Fassungen und Gläser) oder Kontaktlinsen ab. Sie können das eine oder das andere wählen, aber nicht beides im selben Jahr.',
+          },
+          {
+            question: 'Welche Dokumente benötige ich für den Antrag?',
+            answer: 'Für Kinder bis 5 Jahre: Gesundheitskarte mit CIPA-Code. Für Kinder 6-16 Jahre: Gesundheitskarte, optische Verordnung eines Augenarztes oder Optometristen und Ausweis des gesetzlichen Vertreters.',
+          },
+          {
+            question: 'Kann ich Produkte über 100€ kaufen?',
+            answer: 'Ja, Sie können Brillen kaufen, die mehr als 100€ kosten. Die Plan VEO Beihilfe deckt bis zu 100€ ab und Sie zahlen die Differenz.',
+          },
+          {
+            question: 'Kann ich nicht genutztes Guthaben für spätere Käufe aufbewahren?',
+            answer: 'Nein, die 100€ Beihilfe kann nicht angespart werden. Sie muss in einem einzigen Kauf innerhalb des Kalenderjahres verwendet werden. Jeder nicht genutzte Betrag verfällt.',
+          },
+          {
+            question: 'Kann ich die Beihilfe nächstes Jahr erneut beantragen?',
+            answer: 'Ja, die Plan VEO Beihilfe kann einmal pro Kalenderjahr beantragt werden, bis das Kind 17 Jahre alt wird, solange das Programm aktiv bleibt.',
+          },
+          {
+            question: 'Bis wann ist Plan VEO gültig?',
+            answer: 'Plan VEO ist derzeit bis zum 31. Dezember 2026 gültig. Das Programm kann von der Regierung verlängert werden.',
+          },
+        ],
+      },
+    },
     cta: {
       en: {
         title: 'Apply for Plan VEO at Looptica',
@@ -223,10 +375,25 @@ const PlanVeo = () => {
     whatIs: content.whatIs[language as keyof typeof content.whatIs],
     cards: content.cards[language as keyof typeof content.cards],
     eligibility: content.eligibility[language as keyof typeof content.eligibility],
+    faq: content.faq[language as keyof typeof content.faq],
     cta: content.cta[language as keyof typeof content.cta],
   };
 
   const languages = ['en', 'es', 'ca', 'de'];
+
+  // Generate FAQ schema for JSON-LD
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": currentContent.faq.questions.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  };
 
   return (
     <>
@@ -243,12 +410,15 @@ const PlanVeo = () => {
           />
         ))}
         <link rel="alternate" hrefLang="x-default" href="https://www.looptica.com/ca/services/plan-veo" />
+        <script type="application/ld+json">
+          {JSON.stringify(faqSchema)}
+        </script>
       </Helmet>
 
       <ServiceLayout
         title={currentContent.hero.title}
         subtitle={currentContent.hero.subtitle}
-        image="/images/_DSC4696.jpg"
+        image="/images/veo_crop_square.jpeg"
         hideCTA={true}
       >
         {/* Introduction */}
@@ -307,7 +477,7 @@ const PlanVeo = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-primary/5 rounded-lg p-8 text-center">
+        <div className="bg-primary/5 rounded-lg p-8 text-center mb-12">
           <h2 className="text-2xl font-bold mb-4">{currentContent.cta.title}</h2>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             {currentContent.cta.description}
@@ -323,6 +493,28 @@ const PlanVeo = () => {
             </Button>
           </div>
         </div>
+
+        {/* FAQ Section */}
+        <ScrollReveal>
+          <div>
+            <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+              <HelpCircle className="w-6 h-6 text-primary" />
+              {currentContent.faq.title}
+            </h2>
+            <Accordion type="single" collapsible className="w-full">
+              {currentContent.faq.questions.map((item, index) => (
+                <AccordionItem key={index} value={`item-${index}`}>
+                  <AccordionTrigger className="text-left font-medium">
+                    {item.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">
+                    {item.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </ScrollReveal>
       </ServiceLayout>
     </>
   );
