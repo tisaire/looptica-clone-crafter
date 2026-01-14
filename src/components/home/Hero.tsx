@@ -1,36 +1,23 @@
 
-import { useState, useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 
-// Optimized Hero component to improve LCP
+// Optimized Hero component to improve LCP - no JS-controlled opacity to prevent render delay
 const Hero = () => {
   const { t } = useLanguage();
-  const [imageLoaded, setImageLoaded] = useState(false);
-  const heroImageRef = useRef<HTMLImageElement>(null);
-  
-  useEffect(() => {
-    // Check if image is already loaded from cache
-    if (heroImageRef.current && heroImageRef.current.complete) {
-      setImageLoaded(true);
-    }
-  }, []);
 
   return (
     <section className="relative min-h-[80vh] flex items-center pt-24 pb-16 px-6 lg:px-12 overflow-hidden">
-      {/* Replace background image with proper img element for better LCP */}
+      {/* LCP-critical image - no JS opacity control to prevent render delay */}
       <img
-        ref={heroImageRef}
         src="/images/DSC4608_compressed.jpg"
         alt="Looptica Hero"
-        onLoad={() => setImageLoaded(true)}
         className="absolute inset-0 w-full h-full object-cover"
         width={1920}
         height={1080}
         fetchPriority="high"
-        style={{ opacity: imageLoaded ? 1 : 0, transition: 'opacity 0.3s' }}
+        decoding="sync"
       />
       
       {/* Semi-transparent overlay with reduced opacity */}
