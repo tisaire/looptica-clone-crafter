@@ -1,13 +1,7 @@
-
 import { useLanguage } from '@/contexts/LanguageContext';
 import ScrollReveal from '@/components/ui/ScrollReveal';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+import { LazyCarousel } from "@/components/ui/LazyCarousel";
+import { CarouselItem } from "@/components/ui/carousel";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 // Updated brands array using JPG files
@@ -68,40 +62,39 @@ const Brands = () => {
         </ScrollReveal>
 
         <ScrollReveal origin="bottom" delay={200} className="w-full max-w-5xl mx-auto">
-          <Carousel 
+          <LazyCarousel 
             className="w-full pb-10"
             opts={{
               align: "start",
               loop: true,
             }}
+            previousClassName="absolute left-0 top-1/2 -translate-y-1/2"
+            nextClassName="absolute right-0 top-1/2 -translate-y-1/2"
           >
-            <CarouselContent>
-              {brands.map((brand) => (
-                <CarouselItem key={brand.id} className="basis-full md:basis-1/2 lg:basis-1/3 p-4">
-                  <div className="overflow-hidden rounded-lg border border-gray-200 shadow-sm">
-                    <div className="group relative cursor-pointer">
-                      <AspectRatio ratio={4/3}>
-                        <img
-                          src={brand.logo}
-                          alt={brand.name}
-                          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
-                        />
-                      </AspectRatio>
-                      
-                      {/* Overlay on hover */}
-                      <div className="absolute inset-0 bg-black/0 flex items-center justify-center transition-all duration-300 group-hover:bg-black/60">
-                        <h3 className="text-white font-semibold text-xl opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-                          {brand.name}
-                        </h3>
-                      </div>
+            {brands.map((brand) => (
+              <CarouselItem key={brand.id} className="basis-full md:basis-1/2 lg:basis-1/3 p-4">
+                <div className="overflow-hidden rounded-lg border border-gray-200 shadow-sm">
+                  <div className="group relative cursor-pointer">
+                    <AspectRatio ratio={4/3}>
+                      <img
+                        src={brand.logo}
+                        alt={brand.name}
+                        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+                        loading="lazy"
+                      />
+                    </AspectRatio>
+                    
+                    {/* Overlay on hover */}
+                    <div className="absolute inset-0 bg-black/0 flex items-center justify-center transition-all duration-300 group-hover:bg-black/60">
+                      <h3 className="text-white font-semibold text-xl opacity-0 transform translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+                        {brand.name}
+                      </h3>
                     </div>
                   </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2" />
-            <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2" />
-          </Carousel>
+                </div>
+              </CarouselItem>
+            ))}
+          </LazyCarousel>
         </ScrollReveal>
       </div>
     </section>
