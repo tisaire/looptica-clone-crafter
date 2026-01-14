@@ -476,9 +476,27 @@ const PlanVeo = () => {
           </ul>
         </div>
 
+        {/* CTA Section */}
+        <div className="bg-primary/5 rounded-lg p-8 text-center mb-12">
+          <h2 className="text-2xl font-bold mb-4">{currentContent.cta.title}</h2>
+          <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+            {currentContent.cta.description}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <GoogleCalendarButton size="lg">
+              {currentContent.cta.button}
+            </GoogleCalendarButton>
+            <Button asChild variant="outline" size="lg">
+              <a href={`/${language}/#contact`}>
+                {currentContent.cta.contact}
+              </a>
+            </Button>
+          </div>
+        </div>
+
         {/* FAQ Section */}
         <ScrollReveal>
-          <div className="mb-12">
+          <div>
             <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
               <HelpCircle className="w-6 h-6 text-primary" />
               {currentContent.faq.title}
@@ -497,24 +515,6 @@ const PlanVeo = () => {
             </Accordion>
           </div>
         </ScrollReveal>
-
-        {/* CTA Section */}
-        <div className="bg-primary/5 rounded-lg p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">{currentContent.cta.title}</h2>
-          <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            {currentContent.cta.description}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <GoogleCalendarButton size="lg">
-              {currentContent.cta.button}
-            </GoogleCalendarButton>
-            <Button asChild variant="outline" size="lg">
-              <a href={`/${language}/#contact`}>
-                {currentContent.cta.contact}
-              </a>
-            </Button>
-          </div>
-        </div>
       </ServiceLayout>
     </>
   );
