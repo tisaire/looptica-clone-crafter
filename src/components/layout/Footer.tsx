@@ -21,6 +21,7 @@ const Footer = () => {
           { name: t('ortoK'), path: `/${language}/services/orto-k` },
           { name: t('imageConsulting'), path: `/${language}/services/image-consulting` },
           { name: t('lensConsulting'), path: `/${language}/services/lens-consulting` },
+          { name: t('planVeo'), path: `/${language}/services/plan-veo` },
         ],
       },
       {
