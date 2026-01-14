@@ -567,7 +567,7 @@ export const translations: Translations = {
   planVeo: {
     en: 'Plan VEO',
     es: 'Plan VEO',
-    ca: 'Pla VEO',
+    ca: 'Plan VEO',
     de: 'Plan VEO',
   },
   planVeoDesc: {
