@@ -50,7 +50,7 @@ const OpticalServices = () => {
       icon: <BadgeEuro className="w-10 h-10 text-[#55afa9]" />,
       title: t('planVeo'),
       description: t('planVeoDesc'),
-      image: "/images/_DSC4696.jpg",
+      image: "/images/veo_crop_square.jpeg",
       path: `/${language}/services/plan-veo`
     }
   ];
