@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import DOMPurify from 'dompurify';
 import { ScrollReveal } from '@/components/ui';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Navbar from '@/components/layout/Navbar';
@@ -228,9 +228,10 @@ const TermsConditions = () => {
             <h1 className="text-3xl font-bold mb-2 text-gray-900">{content[language].heading}</h1>
             <p className="text-gray-500 mb-8">{content[language].lastUpdated}</p>
             
+            {/* SECURITY: Content is sanitized with DOMPurify to prevent XSS attacks */}
             <div 
               className="prose prose-gray max-w-none prose-headings:text-gray-900 prose-headings:font-semibold prose-h2:text-2xl prose-h3:text-xl prose-h3:mt-6 prose-p:text-gray-600 prose-a:text-[#55afa9] prose-a:no-underline hover:prose-a:text-[#ca6664]"
-              dangerouslySetInnerHTML={{ __html: content[language].content }}
+              dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(content[language].content) }}
             />
           </ScrollReveal>
         </div>
