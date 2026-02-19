@@ -212,6 +212,11 @@ const Index = () => {
         <meta name="description" content={content.meta[language as keyof typeof content.meta].description} />
         <meta name="keywords" content={content.meta[language as keyof typeof content.meta].keywords} />
         <link rel="canonical" href={`https://www.looptica.com/${language}/`} />
+        <link rel="alternate" hrefLang="es" href="https://www.looptica.com/es/" />
+        <link rel="alternate" hrefLang="ca" href="https://www.looptica.com/ca/" />
+        <link rel="alternate" hrefLang="en" href="https://www.looptica.com/en/" />
+        <link rel="alternate" hrefLang="de" href="https://www.looptica.com/de/" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.looptica.com/ca/" />
         <meta property="og:title" content={content.meta[language as keyof typeof content.meta].title} />
         <meta property="og:description" content={content.meta[language as keyof typeof content.meta].description} />
         <meta property="og:url" content={`https://www.looptica.com/${language}/`} />
