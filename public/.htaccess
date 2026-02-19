@@ -131,6 +131,40 @@ FileETag None
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
   RewriteRule ^technische-hilfsmittel/?$ /de/services/technical-aids [R=301,L,NE]
 
+  # Legacy WordPress blog redirects
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^blog/orto-k-barcelona/?$ /ca/services/orto-k [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^blog/examen-visual-en-poblenou/?$ /ca/services/salut-visual [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^blog/?(.*)$ /ca/ [R=301,L,NE]
+
+  # Legacy WordPress legal page redirects
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^politica-de-privacidad/?$ /ca/legal/privacy-policy [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^politica-de-privacidad-3/?$ /ca/legal/privacy-policy [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^aviso-legal/?$ /es/legal/terms-conditions [R=301,L,NE]
+
+  # Legacy WordPress appointment/calendar pages
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^calendario/?$ /ca/ [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^gestiona-tu-cita/?$ /ca/ [R=301,L,NE]
+
+  # Legacy Catalan sub-pages (before generic cat->ca rule)
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^cat/salut-visual-poblenou/?$ /ca/services/salut-visual [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^cat/sample-page/?$ /ca/ [R=301,L,NE]
+
+  # WordPress admin/system pages
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^wp-admin/?$ /ca/ [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^wp-login\.php$ /ca/ [R=301,L,NE]
+
   # Handle SPA routing:
   # If the request is not for an existing file or directory
   RewriteCond %{REQUEST_FILENAME} !-f

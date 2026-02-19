@@ -47,7 +47,37 @@ const RedirectHandler = () => {
       '/technical-aids': `/${DEFAULT_LANGUAGE}/services/technical-aids`,
       '/ayudas-tecnicas': '/es/services/technical-aids',
       '/ajudes-tecniques': '/ca/services/technical-aids',
-      '/technische-hilfsmittel': '/de/services/technical-aids', // German
+      '/technische-hilfsmittel': '/de/services/technical-aids',
+
+      // Legacy WordPress blog redirects
+      '/blog/orto-k-barcelona': '/ca/services/orto-k',
+      '/blog/orto-k-barcelona/': '/ca/services/orto-k',
+      '/blog/examen-visual-en-poblenou': '/ca/services/salut-visual',
+      '/blog/examen-visual-en-poblenou/': '/ca/services/salut-visual',
+
+      // Legacy WordPress legal page redirects
+      '/politica-de-privacidad': '/ca/legal/privacy-policy',
+      '/politica-de-privacidad/': '/ca/legal/privacy-policy',
+      '/politica-de-privacidad-3': '/ca/legal/privacy-policy',
+      '/politica-de-privacidad-3/': '/ca/legal/privacy-policy',
+      '/aviso-legal': '/es/legal/terms-conditions',
+      '/aviso-legal/': '/es/legal/terms-conditions',
+
+      // Legacy WordPress appointment/calendar pages
+      '/calendario': `/${DEFAULT_LANGUAGE}/`,
+      '/calendario/': `/${DEFAULT_LANGUAGE}/`,
+      '/gestiona-tu-cita': `/${DEFAULT_LANGUAGE}/`,
+      '/gestiona-tu-cita/': `/${DEFAULT_LANGUAGE}/`,
+
+      // Legacy Catalan sub-pages
+      '/cat/salut-visual-poblenou': '/ca/services/salut-visual',
+      '/cat/salut-visual-poblenou/': '/ca/services/salut-visual',
+      '/cat/sample-page': `/${DEFAULT_LANGUAGE}/`,
+      '/cat/sample-page/': `/${DEFAULT_LANGUAGE}/`,
+
+      // WordPress admin/system pages
+      '/wp-admin': `/${DEFAULT_LANGUAGE}/`,
+      '/wp-admin/': `/${DEFAULT_LANGUAGE}/`,
 
       // Specific query parameter redirects
       // These are tricky, ensure they don't conflict with new structure.
