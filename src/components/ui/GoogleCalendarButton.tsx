@@ -26,7 +26,11 @@ const GoogleCalendarButton = ({
 
   const handleAppointmentClick = () => {
     try {
-      // Open the provided Google Calendar appointment link
+      // Track event
+      window.gtag?.('event', 'demana_cita_click', {
+        location: window.location.pathname,
+        subject: subject
+      });
       window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1X2ujdqOmHen2LFMc3Ki4s-Vx6l7uZapLzO6jrbmdMMxLr2RxC_PZKluTKrCqgrHUEGnbF62NO', '_blank');
       
       // Show toast
