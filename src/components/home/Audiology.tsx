@@ -69,6 +69,12 @@ const Audiology = () => {
               <div 
                 key={index} 
                 className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col overflow-hidden"
+                onClick={() => {
+                  window.gtag?.('event', 'service_card_click', {
+                    location: 'audiology_services',
+                    service_name: service.title
+                  });
+                }}
               >
                 <Link to={service.path} className="w-full h-48 overflow-hidden">
                   <img 
@@ -100,7 +106,15 @@ const Audiology = () => {
         <ScrollReveal delay={0.4}>
           <div className="text-center">
             <Button asChild size="lg" className="bg-[#55afa9] hover:bg-[#ca6664] text-white">
-              <Link to={`/${language}/services/audiologia-centro`}>
+              <Link 
+                to={`/${language}/services/audiologia-centro`}
+                onClick={() => {
+                  window.gtag?.('event', 'demana_cita_click', {
+                    location: 'audiology_section',
+                    subject: 'audiologia-centro'
+                  });
+                }}
+              >
                 {t('scheduleConsultation')}
               </Link>
             </Button>

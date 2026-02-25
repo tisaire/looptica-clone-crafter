@@ -77,6 +77,12 @@ const OpticalServices = () => {
               <div 
                 key={index} 
                 className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col overflow-hidden"
+                onClick={() => {
+                  window.gtag?.('event', 'service_card_click', {
+                    location: 'optical_services',
+                    service_name: service.title
+                  });
+                }}
               >
                 <Link to={service.path} className="w-full h-48 overflow-hidden">
                   <img 
