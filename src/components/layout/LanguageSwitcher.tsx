@@ -31,7 +31,7 @@ const LanguageSwitcher = () => {
     // For the root path of the default language 'ca', we want /ca not /ca/
     const finalPath = `/${newLang}${basePath === "/" ? "" : basePath}${location.search}${location.hash}`;
     
-    console.log(`LanguageSwitcher: Navigating from ${location.pathname} to ${finalPath}`);
+    if (import.meta.env.DEV) console.log(`LanguageSwitcher: Navigating from ${location.pathname} to ${finalPath}`);
     navigate(finalPath);
   };
 

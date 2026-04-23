@@ -11,12 +11,12 @@ const LanguageWrapper: React.FC = () => {
   const location = useLocation();
 
   useEffect(() => {
-    console.log(`LanguageWrapper: Processing route with lang=${lang}, path=${location.pathname}`);
+    if (import.meta.env.DEV) console.log(`LanguageWrapper: Processing route with lang=${lang}, path=${location.pathname}`);
     
     const newLang = lang as Language;
     if (lang && SUPPORTED_LANGUAGES.includes(newLang)) {
       if (newLang !== currentContextLang) {
-        console.log(`LanguageWrapper: Setting language to ${newLang} from URL`);
+        if (import.meta.env.DEV) console.log(`LanguageWrapper: Setting language to ${newLang} from URL`);
         setLanguage(newLang, true); 
       }
     } else {
@@ -33,7 +33,7 @@ const LanguageWrapper: React.FC = () => {
       // Special handling for the root of the default language 'ca' to be /ca instead of /ca/
       const newRedirectPath = `/${DEFAULT_LANGUAGE}${fullPathToPreserve === '/' && DEFAULT_LANGUAGE === 'ca' ? '' : fullPathToPreserve}${location.search}${location.hash}`;
       
-      console.warn(`LanguageWrapper: Invalid language segment "${lang}" in URL "${location.pathname}". Redirecting to "${newRedirectPath}".`);
+      if (import.meta.env.DEV) console.warn(`LanguageWrapper: Invalid language segment "${lang}" in URL "${location.pathname}". Redirecting to "${newRedirectPath}".`);
       navigate(newRedirectPath, { replace: true });
     }
   }, [lang, setLanguage, navigate, location, currentContextLang, DEFAULT_LANGUAGE]); // Added DEFAULT_LANGUAGE to dependencies
