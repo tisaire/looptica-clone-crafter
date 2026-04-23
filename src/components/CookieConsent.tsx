@@ -76,7 +76,7 @@ const CookieConsent = () => {
     setShowConsent(false);
     // Initialize all cookies/tracking
     enableGoogleAnalytics();
-    console.log('All cookies accepted');
+    if (import.meta.env.DEV) console.log('All cookies accepted');
   };
 
   const handleSavePreferences = () => {
@@ -88,7 +88,7 @@ const CookieConsent = () => {
     if (cookiePreferences.analytics) {
       enableGoogleAnalytics();
     }
-    console.log('Saved cookie preferences:', cookiePreferences);
+    if (import.meta.env.DEV) console.log('Saved cookie preferences:', cookiePreferences);
   };
 
   const togglePreference = (key: 'analytics' | 'marketing') => {

@@ -41,8 +41,6 @@ const SeoContent = ({ language }: { language: string }) => {
       <p>
         {content.seo.text[language as keyof typeof content.seo.text]}
       </p>
-      {/* Version tracking for development debugging */}
-      <span data-version={CURRENT_VERSION}>Version: {CURRENT_VERSION}</span>
     </div>
   );
 };
@@ -201,8 +199,7 @@ const Index = () => {
     // Scroll to top when component mounts
     window.scrollTo(0, 0);
     
-    // Log version and component mounting
-    console.log(`Index component mounted - ${CURRENT_VERSION}`);
+    if (import.meta.env.DEV) console.log(`Index component mounted - ${CURRENT_VERSION}`);
   }, []);
 
   return (
