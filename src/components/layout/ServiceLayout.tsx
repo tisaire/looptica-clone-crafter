@@ -41,8 +41,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
     setLoadedImage(image);
     setIsImageLoaded(true);
     
-    // Debug log to help diagnose issues
-    console.log(`ServiceLayout mounted: language=${language}, path=${location.pathname}, params lang=${langFromParams}`);
+    if (import.meta.env.DEV) console.log(`ServiceLayout mounted: language=${language}, path=${location.pathname}, params lang=${langFromParams}`);
   }, [image, language, location.pathname, langFromParams]);
 
   const ctaContent = {

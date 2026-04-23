@@ -57,7 +57,7 @@ const NotFound = () => {
         </Link>
         
         {/* Add a small debug note that shows the path in development */}
-        {process.env.NODE_ENV === 'development' && (
+        {import.meta.env.DEV && (
           <div className="mt-16 text-xs text-gray-400">
             <p>{content.debug[language]}: {location.pathname}</p>
           </div>

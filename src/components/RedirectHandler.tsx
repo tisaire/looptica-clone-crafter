@@ -89,7 +89,7 @@ const RedirectHandler = () => {
     // Special case from .htaccess, should be removed if .htaccess handles it
     // This type of redirect should ideally be a 301 in .htaccess or server config.
     if (pathname === '/cat/' && search === '?noredirect=ca-ES') {
-        console.log(`RedirectHandler: Special query redirect from ${pathname}${search} to /${DEFAULT_LANGUAGE}/`);
+        if (import.meta.env.DEV) console.log(`RedirectHandler: Special query redirect from ${pathname}${search} to /${DEFAULT_LANGUAGE}/`);
         navigate(`/${DEFAULT_LANGUAGE}/`, { replace: true });
         return;
     }
@@ -102,12 +102,11 @@ const RedirectHandler = () => {
 
     if (redirects[pathname] || redirects[normalizedPathname]) {
       const targetPath = redirects[pathname] || redirects[normalizedPathname];
-      console.log(`RedirectHandler: Redirecting from ${pathname} to ${targetPath}`);
+      if (import.meta.env.DEV) console.log(`RedirectHandler: Redirecting from ${pathname} to ${targetPath}`);
       navigate(targetPath, { replace: true });
     }
     
-    // Debug
-    console.log(`RedirectHandler: Checking path '${pathname}', no redirect applied`);
+    if (import.meta.env.DEV) console.log(`RedirectHandler: Checking path '${pathname}', no redirect applied`);
     
   }, [pathname, search, navigate]);
 
