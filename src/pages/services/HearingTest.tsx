@@ -4,6 +4,7 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Ear, FileText, Activity, BarChart3 } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Helmet } from 'react-helmet-async';
 
 const HearingTest = () => {
   const { language } = useLanguage();
