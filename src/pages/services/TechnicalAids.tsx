@@ -26,7 +26,7 @@ const TechnicalAids = () => {
         description: "Descubra nuestra gama de ayudas técnicas especializadas para pérdida auditiva, incluyendo Oticon EduMic, ConnectClip, TV Adapter, Control Remoto y más en Looptica Barcelona."
       },
       ca: {
-        title: "Ajudes Tècniques per a Pèrdua Auditiva | Looptica Barcelona",
+        title: "Ajudes Tècniques Auditives | Looptica Barcelona",
         description: "Descobreix la nostra gamma d'ajudes tècniques especialitzades per a pèrdua auditiva, incloent Oticon EduMic, ConnectClip, TV Adapter, Control Remot i més a Looptica Barcelona."
       },
       de: {

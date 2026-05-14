@@ -13,19 +13,19 @@ const OrtoK = () => {
   const content = {
     meta: {
       en: {
-        title: "Ortho-K in Barcelona · Looptica Poblenou | Overnight Vision Correction",
+        title: "Ortho-K Barcelona | Looptica Poblenou",
         description: "Ortho-K treatment in Barcelona with overnight vision correction. Certified specialists in Looptica Poblenou. Safe, reversible and ideal for myopia. Book now."
       },
       es: {
-        title: "Orto-K en Barcelona · Looptica Poblenou | Corrección Visual Nocturna",
+        title: "Orto-K Barcelona | Looptica Poblenou",
         description: "Tratamiento Orto-K en Barcelona con corrección visual nocturna. Especialistas certificados en Looptica Poblenou. Seguro, reversible e ideal para miopía."
       },
       ca: {
-        title: "Orto-K a Barcelona · Looptica Poblenou | Correcció Visual Nocturna",
+        title: "Orto-K Barcelona | Looptica Poblenou",
         description: "Tractament Orto-K a Barcelona amb correcció visual nocturna. Especialistes certificats a Looptica Poblenou. Segur, reversible i ideal per a miopia."
       },
       de: {
-        title: "Ortho-K in Barcelona · Looptica Poblenou | Nächtliche Sehkorrektur",
+        title: "Ortho-K Barcelona | Looptica Poblenou",
         description: "Ortho-K-Behandlung in Barcelona mit nächtlicher Sehkorrektur. Zertifizierte Spezialisten bei Looptica Poblenou. Sicher, reversibel und ideal für Kurzsichtigkeit."
       }
     },

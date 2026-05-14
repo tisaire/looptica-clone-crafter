@@ -87,19 +87,23 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
       <Helmet>
         <title>{currentSeoTitle} - Looptica</title>
         <meta name="description" content={currentSeoDescription} />
-        <link rel="canonical" href={`https://www.looptica.com/${language}${basePath === "/" ? "" : basePath}`} />
+        <meta property="og:title" content={`${currentSeoTitle} - Looptica`} />
+        <meta property="og:description" content={currentSeoDescription} />
+        <meta property="og:url" content={`https://looptica.com/${language}${basePath === "/" ? "" : basePath}`} />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href={`https://looptica.com/${language}${basePath === "/" ? "" : basePath}`} />
         {SUPPORTED_LANGUAGES.map(langCode => (
           <link
             key={langCode}
             rel="alternate"
             hrefLang={langCode}
-            href={`https://www.looptica.com/${langCode}${basePath === "/" ? "" : basePath}`}
+            href={`https://looptica.com/${langCode}${basePath === "/" ? "" : basePath}`}
           />
         ))}
         <link
             rel="alternate"
             hrefLang="x-default"
-            href={`https://www.looptica.com/ca${basePath === "/" ? "" : basePath}`} 
+            href={`https://looptica.com/ca${basePath === "/" ? "" : basePath}`} 
         />
       </Helmet>
       <div className="min-h-screen flex flex-col">

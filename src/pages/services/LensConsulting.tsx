@@ -17,11 +17,11 @@ const LensConsulting = () => {
         description: "Expert lens consulting and high-tech ophthalmic lens solutions at Looptica Barcelona. Find the perfect lenses for your prescription and lifestyle."
       },
       es: {
-        title: "Servicios Avanzados de Asesoramiento de Lentes | Looptica Barcelona",
+        title: "Asesoramiento de Lentes | Looptica Barcelona",
         description: "Asesoramiento experto en lentes y soluciones oftálmicas de alta tecnología en Looptica Barcelona. Encuentra las lentes perfectas para tu prescripción y estilo de vida."
       },
       ca: {
-        title: "Serveis Avançats d'Assessorament de Lents | Looptica Barcelona",
+        title: "Assessorament de Lents | Looptica Barcelona",
         description: "Assessorament expert en lents i solucions oftàlmiques d'alta tecnologia a Looptica Barcelona. Troba les lents perfectes per a la teva prescripció i estil de vida."
       },
       de: {

@@ -1,0 +1,21 @@
+# Looptica
+
+> Specialized optical and audiology center in Barcelona Poblenou offering eye exams, prescription glasses, contact lenses, hearing tests, and digital hearing aids.
+
+Looptica is a Barcelona-based clinic providing personalized optical and audiological services. The center features experienced optometrists and audiologists, offering everything from routine eye exams and contact lens fittings to hearing tests and hearing aid fittings.
+
+## Pages
+
+- [Home](/): Optical and audiology services in Barcelona Poblenou.
+- [About](/about): Meet the Looptica team of vision and hearing specialists.
+- [Eye Health](/services/salut-visual): Comprehensive eye exams and vision care.
+- [Contact Lenses](/services/lents-contacte): Contact lens fittings and consultations.
+- [Ortho-K](/services/orto-k): Orthokeratology overnight lens treatment.
+- [Eyeglasses](/services/eyeglasses): Prescription glasses and frames.
+- [Sunglasses](/services/sunglasses): Prescription and fashion sunglasses.
+- [Hearing Test](/services/hearing-test): Professional hearing evaluations.
+- [Hearing Aids](/services/hearing-aids): Digital hearing aid fitting and adjustment.
+- [Audiology Center](/services/audiologia-centro): Complete audiology services.
+- [Tinnitus Treatment](/services/tinnitus-treatment): Tinnitus assessment and management.
+- [Ear Protection](/services/ear-protection): Custom ear protection solutions.
+- [Oticon Hearing Aids](/products/oticon-models): Oticon hearing aid models and features.

@@ -11,7 +11,7 @@ const LentsContacte = () => {
     seoTitle: {
       en: "Contact Lenses in Barcelona · Looptica Poblenou",
       es: "Lentillas en Barcelona · Óptica en Poblenou | Looptica",
-      ca: "Lents de Contacte a Barcelona · Òptica a Poblenou | Looptica",
+      ca: "Lents de Contacte Barcelona | Looptica",
       de: "Kontaktlinsen in Barcelona · Optik in Poblenou | Looptica",
     },
     seoDescription: {

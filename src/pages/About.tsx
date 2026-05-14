@@ -152,7 +152,11 @@ const About = () => {
       <Helmet>
         <title>{content.meta[language as keyof typeof content.meta].title}</title>
         <meta name="description" content={content.meta[language as keyof typeof content.meta].description} />
-        <link rel="canonical" href={`https://www.looptica.com/${language}/about`} />
+        <meta property="og:title" content={content.meta[language as keyof typeof content.meta].title} />
+        <meta property="og:description" content={content.meta[language as keyof typeof content.meta].description} />
+        <meta property="og:url" content={`https://looptica.com/${language}/about`} />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href={`https://looptica.com/${language}/about`} />
       </Helmet>
       <Navbar />
       <main className="flex-grow pt-24">

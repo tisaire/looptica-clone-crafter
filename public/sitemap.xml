@@ -4,1012 +4,1012 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://www.looptica.com/ca/</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- About Page -->
   <url>
-    <loc>https://www.looptica.com/ca/about</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/about"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/about"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/about"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/about</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/about"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/about</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/about"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/about"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/about"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/about</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/about"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/about</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/about"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/about"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/about"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/about"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/about</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/about"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/about"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/about"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/about</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/about"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Optical Services: Salut Visual -->
   <url>
-    <loc>https://www.looptica.com/ca/services/salut-visual</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/salut-visual"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/salut-visual</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/salut-visual"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/salut-visual</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/salut-visual"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/salut-visual</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/salut-visual"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/salut-visual</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/salut-visual"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/salut-visual</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/salut-visual"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/salut-visual</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/salut-visual"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/salut-visual"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/salut-visual</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/salut-visual"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Optical Services: Lents Contacte -->
   <url>
-    <loc>https://www.looptica.com/ca/services/lents-contacte</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/lents-contacte"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/lents-contacte</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/lents-contacte</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/lents-contacte"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/lents-contacte</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/lents-contacte</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/lents-contacte"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/lents-contacte</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/lents-contacte</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/lents-contacte"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/lents-contacte"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/lents-contacte</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Optical Services: Orto-K -->
   <url>
-    <loc>https://www.looptica.com/ca/services/orto-k</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/orto-k"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/orto-k</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/orto-k"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/orto-k</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/orto-k"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/orto-k</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/orto-k"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/orto-k</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/orto-k"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/orto-k</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/orto-k"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/orto-k</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/orto-k"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/orto-k"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/orto-k</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/orto-k"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Optical Services: Eyeglasses -->
   <url>
-    <loc>https://www.looptica.com/ca/services/eyeglasses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/eyeglasses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/eyeglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/eyeglasses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/eyeglasses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/eyeglasses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/eyeglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/eyeglasses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/eyeglasses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/eyeglasses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/eyeglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/eyeglasses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/eyeglasses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/eyeglasses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/eyeglasses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/eyeglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/eyeglasses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Optical Services: Sunglasses -->
   <url>
-    <loc>https://www.looptica.com/ca/services/sunglasses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/sunglasses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/sunglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/sunglasses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/sunglasses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/sunglasses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/sunglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/sunglasses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/sunglasses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/sunglasses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/sunglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/sunglasses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/sunglasses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/sunglasses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/sunglasses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/sunglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/sunglasses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Optical Services: Contact Lenses -->
   <url>
-    <loc>https://www.looptica.com/ca/services/contact-lenses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/contact-lenses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/contact-lenses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/contact-lenses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/contact-lenses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/contact-lenses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/contact-lenses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/contact-lenses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/contact-lenses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/contact-lenses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/contact-lenses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/contact-lenses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/contact-lenses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/contact-lenses"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/contact-lenses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/contact-lenses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/contact-lenses"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Optical Services: Image Consulting -->
   <url>
-    <loc>https://www.looptica.com/ca/services/image-consulting</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/image-consulting"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/image-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/image-consulting"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/image-consulting</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/image-consulting"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/image-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/image-consulting"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/image-consulting</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/image-consulting"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/image-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/image-consulting"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/image-consulting</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/image-consulting"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/image-consulting"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/image-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/image-consulting"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Optical Services: Lens Consulting -->
   <url>
-    <loc>https://www.looptica.com/ca/services/lens-consulting</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/lens-consulting"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/lens-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lens-consulting"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/lens-consulting</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/lens-consulting"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/lens-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lens-consulting"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/lens-consulting</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/lens-consulting"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/lens-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lens-consulting"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/lens-consulting</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/lens-consulting"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/lens-consulting"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/lens-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lens-consulting"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Audiology Services: Centro -->
   <url>
-    <loc>https://www.looptica.com/ca/services/audiologia-centro</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/audiologia-centro"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/audiologia-centro</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/audiologia-centro</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/audiologia-centro"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/audiologia-centro</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/audiologia-centro</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/audiologia-centro"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/audiologia-centro</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/audiologia-centro</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/audiologia-centro"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/audiologia-centro"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/audiologia-centro</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Audiology Services: Hearing Test -->
   <url>
-    <loc>https://www.looptica.com/ca/services/hearing-test</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/hearing-test"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/hearing-test</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-test"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/hearing-test</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/hearing-test"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/hearing-test</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-test"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/hearing-test</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/hearing-test"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/hearing-test</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-test"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/hearing-test</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/hearing-test"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/hearing-test"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/hearing-test</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-test"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Audiology Services: Hearing Aids -->
   <url>
-    <loc>https://www.looptica.com/ca/services/hearing-aids</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/hearing-aids"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/hearing-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-aids"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/hearing-aids</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/hearing-aids"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/hearing-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-aids"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/hearing-aids</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/hearing-aids"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/hearing-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-aids"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/hearing-aids</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/hearing-aids"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/hearing-aids"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/hearing-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-aids"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Audiology Services: Tinnitus Treatment -->
   <url>
-    <loc>https://www.looptica.com/ca/services/tinnitus-treatment</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/tinnitus-treatment"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/tinnitus-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/tinnitus-treatment</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/tinnitus-treatment"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/tinnitus-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/tinnitus-treatment</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/tinnitus-treatment"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/tinnitus-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/tinnitus-treatment</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/tinnitus-treatment"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/tinnitus-treatment"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/tinnitus-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Audiology Services: Ear Protection -->
   <url>
-    <loc>https://www.looptica.com/ca/services/ear-protection</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/ear-protection"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/ear-protection</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/ear-protection"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/ear-protection</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/ear-protection"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/ear-protection</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/ear-protection"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/ear-protection</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/ear-protection"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/ear-protection</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/ear-protection"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/ear-protection</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/ear-protection"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/ear-protection"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/ear-protection</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/ear-protection"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Audiology Services: Technical Aids -->
   <url>
-    <loc>https://www.looptica.com/ca/services/technical-aids</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/technical-aids"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/technical-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/technical-aids"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/technical-aids</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/technical-aids"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/technical-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/technical-aids"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/technical-aids</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/technical-aids"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/technical-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/technical-aids"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/technical-aids</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/technical-aids"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/technical-aids"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/technical-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/technical-aids"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Audiology Services: Subvenciones -->
   <url>
-    <loc>https://www.looptica.com/ca/services/subvenciones</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/subvenciones"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/subvenciones</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/subvenciones"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/subvenciones</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/subvenciones"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/subvenciones</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/subvenciones"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/subvenciones</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/subvenciones"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/subvenciones</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/subvenciones"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/subvenciones</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/subvenciones"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/subvenciones"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/subvenciones</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/subvenciones"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Product Pages: Oticon Models -->
   <url>
-    <loc>https://www.looptica.com/ca/products/oticon-models</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/products/oticon-models"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/products/oticon-models</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/products/oticon-models"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/products/oticon-models</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/products/oticon-models"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/products/oticon-models</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/products/oticon-models"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/products/oticon-models</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/products/oticon-models"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/products/oticon-models</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/products/oticon-models"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/products/oticon-models</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/products/oticon-models"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/products/oticon-models</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/products/oticon-models"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/products/oticon-models"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Legal: Privacy Policy -->
   <url>
-    <loc>https://www.looptica.com/ca/legal/privacy-policy</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/privacy-policy"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/legal/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/privacy-policy"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/legal/privacy-policy</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/privacy-policy"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/legal/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/privacy-policy"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/legal/privacy-policy</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/privacy-policy"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/legal/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/privacy-policy"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/legal/privacy-policy</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/privacy-policy"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/legal/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/privacy-policy"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <!-- Legal: Terms & Conditions -->
   <url>
-    <loc>https://www.looptica.com/ca/legal/terms-conditions</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/terms-conditions"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/legal/terms-conditions</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/terms-conditions"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/legal/terms-conditions</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/terms-conditions"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/legal/terms-conditions</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/terms-conditions"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/legal/terms-conditions</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/terms-conditions"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/legal/terms-conditions</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/terms-conditions"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/legal/terms-conditions</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/terms-conditions"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/terms-conditions"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/legal/terms-conditions</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/terms-conditions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/terms-conditions"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <!-- Legal: Cookies Policy -->
   <url>
-    <loc>https://www.looptica.com/ca/legal/cookies-policy</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/cookies-policy"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/legal/cookies-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/cookies-policy"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/legal/cookies-policy</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/cookies-policy"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/legal/cookies-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/cookies-policy"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/legal/cookies-policy</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/cookies-policy"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/legal/cookies-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/cookies-policy"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/legal/cookies-policy</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/legal/cookies-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/legal/cookies-policy"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/legal/cookies-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/legal/cookies-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/legal/cookies-policy"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <!-- Optical Services: Plan VEO -->
   <url>
-    <loc>https://www.looptica.com/ca/services/plan-veo</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/plan-veo"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/ca/services/plan-veo</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/plan-veo"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/es/services/plan-veo</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/plan-veo"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/es/services/plan-veo</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/plan-veo"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/en/services/plan-veo</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/plan-veo"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/en/services/plan-veo</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/plan-veo"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.looptica.com/de/services/plan-veo</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://www.looptica.com/ca/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.looptica.com/es/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.looptica.com/en/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.looptica.com/de/services/plan-veo"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.looptica.com/ca/services/plan-veo"/>
-    <lastmod>2026-02-19</lastmod>
+    <loc>https://looptica.com/de/services/plan-veo</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/plan-veo"/>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

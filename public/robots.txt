@@ -14,4 +14,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.looptica.com/sitemap.xml
+Sitemap: https://looptica.com/sitemap.xml

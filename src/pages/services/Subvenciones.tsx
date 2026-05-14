@@ -14,19 +14,19 @@ const Subvenciones = () => {
   const content = {
     meta: {
       en: {
-        title: "Hearing Aid Subsidies Barcelona - Financial Aid for Hearing Devices | Looptica",
+        title: "Hearing Aid Subsidies | Looptica Barcelona",
         description: "Information about available subsidies and financial aid for hearing aids and hearing assistance devices in Barcelona. Learn about eligibility requirements and application process.",
       },
       es: {
-        title: "Subvenciones para Audífonos Barcelona - Ayuda Financiera para Dispositivos Auditivos | Looptica",
+        title: "Subvenciones para Audífonos | Looptica Barcelona",
         description: "Información sobre subvenciones y ayudas financieras disponibles para audífonos y dispositivos de asistencia auditiva en Barcelona. Conozca los requisitos de elegibilidad y el proceso de solicitud.",
       },
       ca: {
-        title: "Subvencions per a Audiòfons Barcelona - Ajuda Financera per a Dispositius Auditius | Looptica",
+        title: "Subvencions per a Audiòfons | Looptica Barcelona",
         description: "Informació sobre subvencions i ajudes financeres disponibles per a audiòfons i dispositius d'assistència auditiva a Barcelona. Conegui els requisits d'elegibilitat i el procés de sol·licitud.",
       },
       de: {
-        title: "Hörgeräte-Subventionen Barcelona - Finanzielle Hilfe für Hörgeräte | Looptica",
+        title: "Hörgeräte-Subventionen | Looptica Barcelona",
         description: "Informationen über verfügbare Subventionen und finanzielle Hilfen für Hörgeräte und Hörhilfen in Barcelona. Erfahren Sie mehr über Berechtigungsvoraussetzungen und Antragsverfahren.",
       }
     },
