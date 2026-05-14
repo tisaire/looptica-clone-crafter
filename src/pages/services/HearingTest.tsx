@@ -4,6 +4,7 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Ear, FileText, Activity, BarChart3 } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Helmet } from 'react-helmet-async';
 
 const HearingTest = () => {
   const { language } = useLanguage();
@@ -245,13 +246,44 @@ const HearingTest = () => {
     },
   };
   
+  const baseUrl = 'https://looptica.com';
+
+  const medicalProcedureSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'MedicalProcedure',
+    name: content.title[language],
+    description: content.subtitle[language],
+    procedureType: 'Diagnostic Procedure',
+    medicalSpecialty: {
+      '@type': 'MedicalSpecialty',
+      name: 'Audiology'
+    },
+    provider: {
+      '@type': 'MedicalBusiness',
+      name: 'Looptica',
+      url: baseUrl,
+      telephone: '+34933009064',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Rambla del Poblenou 48',
+        addressLocality: 'Barcelona',
+        postalCode: '08005',
+        addressCountry: 'ES'
+      }
+    }
+  };
+
   return (
-    <ServiceLayout
-      title={content.title[language]}
-      subtitle={content.subtitle[language]}
-      image="/images/oticon_act_key_visual_woman_in-anechoic_chamber_as_453913390_as_190510297.jpg"
-      appointmentSubject={content.appointmentSubject[language]}
-    >
+    <>
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify(medicalProcedureSchema)}</script>
+      </Helmet>
+      <ServiceLayout
+        title={content.title[language]}
+        subtitle={content.subtitle[language]}
+        image="/images/oticon_act_key_visual_woman_in-anechoic_chamber_as_453913390_as_190510297.jpg"
+        appointmentSubject={content.appointmentSubject[language]}
+      >
       <ScrollReveal>
         <div className="prose prose-lg max-w-none mb-12">
           <h2>{content.understanding[language]}</h2>
@@ -381,6 +413,7 @@ const HearingTest = () => {
         </div>
       </ScrollReveal>
     </ServiceLayout>
+    </>
   );
 };
 

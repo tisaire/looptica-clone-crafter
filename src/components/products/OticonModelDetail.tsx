@@ -427,6 +427,15 @@ const OticonModelDetail: React.FC = () => {
   const { language } = useLanguage();
   const model = id ? getModelById(id) : undefined;
 
+  // Helper to extract price range numbers for structured data
+  const extractPriceRange = (priceStr: string): { low?: string; high?: string } => {
+    const nums = priceStr.match(/[\d.]+/g);
+    if (nums && nums.length >= 2) {
+      return { low: nums[0], high: nums[1] };
+    }
+    return {};
+  };
+
   if (!model) {
     return (
       <div className="min-h-screen flex flex-col bg-gray-50">
@@ -448,13 +457,57 @@ const OticonModelDetail: React.FC = () => {
     );
   }
 
+  const baseUrl = 'https://looptica.com';
+  const productImages = [model.heroImage, ...model.images].map(img => `${baseUrl}${img}`);
+  const priceRange = extractPriceRange(model.price.range[language]);
+
+  const productSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: model.name,
+    description: model.description[language],
+    image: productImages,
+    brand: {
+      '@type': 'Brand',
+      name: 'Oticon'
+    },
+    ...(priceRange.low && priceRange.high
+      ? {
+          offers: {
+            '@type': 'AggregateOffer',
+            lowPrice: priceRange.low,
+            highPrice: priceRange.high,
+            priceCurrency: 'EUR',
+            availability: 'https://schema.org/InStock',
+            seller: {
+              '@type': 'MedicalBusiness',
+              name: 'Looptica',
+              url: baseUrl
+            }
+          }
+        }
+      : {
+          offers: {
+            '@type': 'Offer',
+            priceCurrency: 'EUR',
+            availability: 'https://schema.org/InStock',
+            seller: {
+              '@type': 'MedicalBusiness',
+              name: 'Looptica',
+              url: baseUrl
+            }
+          }
+        })
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Helmet>
         <title>{model.name} | Looptica</title>
         <meta name="description" content={model.description[language]} />
         <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href={`https://www.looptica.com/${language}/products/oticon-models/${id}`} />
+        <link rel="canonical" href={`https://looptica.com/${language}/products/oticon-models/${id}`} />
+        <script type="application/ld+json">{JSON.stringify(productSchema)}</script>
       </Helmet>
       <Navbar />
       
