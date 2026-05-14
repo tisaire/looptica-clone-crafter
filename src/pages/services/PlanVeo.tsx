@@ -20,15 +20,15 @@ const PlanVeo = () => {
         description: 'Get up to €100/year for glasses or contact lenses for children up to 16 years. Plan VEO government subsidy available at Looptica Barcelona.',
       },
       es: {
-        title: 'Plan VEO - Ayudas para Gafas Infantiles | Looptica Barcelona',
+        title: "Plan VEO - Ayudas para Gafas Infantiles | Looptica",
         description: 'Obtén hasta 100€/año para gafas o lentillas para menores de 16 años. Subvención del Plan VEO disponible en Looptica Barcelona.',
       },
       ca: {
-        title: 'Plan VEO - Ajudes per a Ulleres Infantils | Looptica Barcelona',
+        title: "Plan VEO - Ajudes per a Ulleres Infantils | Looptica",
         description: 'Obtén fins a 100€/any per a ulleres o lents de contacte per a menors de 16 anys. Subvenció del Plan VEO disponible a Looptica Barcelona.',
       },
       de: {
-        title: 'Plan VEO - Zuschüsse für Kinderbrillen | Looptica Barcelona',
+        title: "Plan VEO - Zuschüsse für Kinderbrillen | Looptica",
         description: 'Erhalten Sie bis zu 100€/Jahr für Brillen oder Kontaktlinsen für Kinder bis 16 Jahre. Plan VEO Beihilfe bei Looptica Barcelona.',
       },
     },
