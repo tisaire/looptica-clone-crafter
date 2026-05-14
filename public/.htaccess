@@ -83,11 +83,11 @@ FileETag None
   RewriteCond %{QUERY_STRING} (^|&)noredirect=[^&]* [NC]
   RewriteRule ^(.*)$ /$1? [R=301,L,NE]
 
-  # Force HTTPS + www in one combined rule (handles http/https + www/non-www)
+  # Force HTTPS without www in one combined rule (handles http/https + www/non-www)
   RewriteCond %{HTTPS} off [OR]
-  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
-  RewriteRule ^(.*)$ https://www.looptica.com/$1 [R=301,L,NE]
+  RewriteRule ^(.*)$ https://looptica.com/$1 [R=301,L,NE]
 
   # Normalize language root URLs: /ca -> /ca/, /en -> /en/, etc.
   RewriteRule ^(en|es|ca|de)$ /$1/ [R=301,L,NE]

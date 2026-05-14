@@ -2,6 +2,7 @@
 import { useLocation, Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Helmet } from 'react-helmet-async';
 
 const NotFound = () => {
   const location = useLocation();
@@ -43,27 +44,41 @@ const NotFound = () => {
     }
   };
 
+  const seoTitle = `${content.title[language]} | Looptica`;
+  const seoDescription = content.message[language];
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white py-32 px-4">
-      <div className="text-center max-w-md mx-auto">
-        <h1 className="text-6xl font-bold mb-8 text-[#1a2b3c]">404</h1>
-        <h2 className="text-2xl font-medium mb-4 text-[#1a2b3c]">{content.title[language]}</h2>
-        <p className="text-lg text-gray-600 mb-8">{content.message[language]}</p>
-        <Link 
-          to={`/${language}`} 
-          className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#55afa9] hover:bg-[#ca6664] transition-colors"
-        >
-          {content.button[language]}
-        </Link>
-        
-        {/* Add a small debug note that shows the path in development */}
-        {import.meta.env.DEV && (
-          <div className="mt-16 text-xs text-gray-400">
-            <p>{content.debug[language]}: {location.pathname}</p>
-          </div>
-        )}
+    <>
+      <Helmet>
+        <title>{seoTitle}</title>
+        <meta name="description" content={seoDescription} />
+        <meta property="og:title" content={seoTitle} />
+        <meta property="og:description" content={seoDescription} />
+        <meta property="og:url" content={`https://looptica.com${location.pathname}`} />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href={`https://looptica.com${location.pathname}`} />
+      </Helmet>
+      <div className="min-h-screen flex items-center justify-center bg-white py-32 px-4">
+        <div className="text-center max-w-md mx-auto">
+          <h1 className="text-6xl font-bold mb-8 text-[#1a2b3c]">404</h1>
+          <h2 className="text-2xl font-medium mb-4 text-[#1a2b3c]">{content.title[language]}</h2>
+          <p className="text-lg text-gray-600 mb-8">{content.message[language]}</p>
+          <Link 
+            to={`/${language}`} 
+            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#55afa9] hover:bg-[#ca6664] transition-colors"
+          >
+            {content.button[language]}
+          </Link>
+          
+          {/* Add a small debug note that shows the path in development */}
+          {import.meta.env.DEV && (
+            <div className="mt-16 text-xs text-gray-400">
+              <p>{content.debug[language]}: {location.pathname}</p>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
