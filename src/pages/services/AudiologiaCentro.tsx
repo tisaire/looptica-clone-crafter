@@ -10,7 +10,7 @@ const AudiologiaCentro = () => {
   const content = {
     seoTitle: {
       en: "Audiology Center in Barcelona · Looptica Poblenou",
-      es: "Audiólogo en Barcelona · Pruebas de Audición en Poblenou | Looptica",
+      es: "Audiólogo Barcelona Poblenou | Looptica",
       ca: "Audiòleg a Barcelona · Proves d'Audició a Poblenou | Looptica",
       de: "Audiologe in Barcelona · Hörtests in Poblenou | Looptica"
     },
