@@ -14,7 +14,7 @@ const Subvenciones = () => {
   const content = {
     meta: {
       en: {
-        title: "Hearing Aid Subsidies Barcelona - Financial Aid for Hearing Devices | Looptica",
+        title: "Hearing Aid Subsidies | Looptica Barcelona",
         description: "Information about available subsidies and financial aid for hearing aids and hearing assistance devices in Barcelona. Learn about eligibility requirements and application process.",
       },
       es: {

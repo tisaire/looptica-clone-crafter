@@ -11,7 +11,7 @@ const ContactLenses = () => {
   
   const content = {
     seoTitle: {
-      en: "Contact Lenses in Barcelona · Looptica Poblenou | Eye Exams & Fitting",
+      en: "Contact Lenses Barcelona | Looptica",
       es: "Lentes de Contacto en Barcelona · Looptica Poblenou",
       ca: "Lents de Contacte a Barcelona · Looptica Poblenou",
       de: "Kontaktlinsen in Barcelona · Looptica Poblenou",

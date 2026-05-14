@@ -16,7 +16,7 @@ const PlanVeo = () => {
   const content = {
     meta: {
       en: {
-        title: 'Plan VEO - Subsidies for Children\'s Glasses | Looptica Barcelona',
+        title: "Plan VEO - Subsidies for Kids' Glasses | Looptica",
         description: 'Get up to €100/year for glasses or contact lenses for children up to 16 years. Plan VEO government subsidy available at Looptica Barcelona.',
       },
       es: {

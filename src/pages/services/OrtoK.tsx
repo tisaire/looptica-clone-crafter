@@ -13,7 +13,7 @@ const OrtoK = () => {
   const content = {
     meta: {
       en: {
-        title: "Ortho-K in Barcelona · Looptica Poblenou | Overnight Vision Correction",
+        title: "Ortho-K Barcelona | Looptica Poblenou",
         description: "Ortho-K treatment in Barcelona with overnight vision correction. Certified specialists in Looptica Poblenou. Safe, reversible and ideal for myopia. Book now."
       },
       es: {
