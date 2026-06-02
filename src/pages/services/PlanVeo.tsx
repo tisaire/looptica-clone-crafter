@@ -400,16 +400,16 @@ const PlanVeo = () => {
       <Helmet>
         <title>{currentContent.meta.title}</title>
         <meta name="description" content={currentContent.meta.description} />
-        <link rel="canonical" href={`https://www.looptica.com/${language}/services/plan-veo`} />
+        <link rel="canonical" href={`https://looptica.com/${language}/services/plan-veo`} />
         {languages.map((lang) => (
           <link
             key={lang}
             rel="alternate"
             hrefLang={lang}
-            href={`https://www.looptica.com/${lang}/services/plan-veo`}
+            href={`https://looptica.com/${lang}/services/plan-veo`}
           />
         ))}
-        <link rel="alternate" hrefLang="x-default" href="https://www.looptica.com/ca/services/plan-veo" />
+        <link rel="alternate" hrefLang="x-default" href="https://looptica.com/ca/services/plan-veo" />
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}
         </script>
