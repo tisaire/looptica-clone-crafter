@@ -13,41 +13,41 @@ const OrtoK = () => {
   const content = {
     meta: {
       en: {
-        title: "Ortho-K Barcelona | Looptica Poblenou",
-        description: "Ortho-K treatment in Barcelona with overnight vision correction. Certified specialists in Looptica Poblenou. Safe, reversible and ideal for myopia. Book now."
+        title: "Ortho-K Lenses Barcelona | Overnight Contact Lenses | Looptica",
+        description: "Ortho-K overnight contact lenses in Barcelona: correct myopia and astigmatism while you sleep. Certified Ortho-K specialists in Poblenou. Free consultation."
       },
       es: {
-        title: "Orto-K Barcelona | Looptica Poblenou",
-        description: "Tratamiento Orto-K en Barcelona con corrección visual nocturna. Especialistas certificados en Looptica Poblenou. Seguro, reversible e ideal para miopía."
+        title: "Lentillas Orto-K Barcelona | Lentes Nocturnas | Looptica Poblenou",
+        description: "Lentillas Orto-K en Barcelona: corrige miopía y astigmatismo mientras duermes. Especialistas en ortoqueratología en Poblenou. Consulta y presupuesto sin compromiso."
       },
       ca: {
-        title: "Orto-K Barcelona | Looptica Poblenou",
-        description: "Tractament Orto-K a Barcelona amb correcció visual nocturna. Especialistes certificats a Looptica Poblenou. Segur, reversible i ideal per a miopia."
+        title: "Lents Orto-K Barcelona | Lentilles Nocturnes | Looptica Poblenou",
+        description: "Lents Orto-K a Barcelona: corregeix miopia i astigmatisme mentre dorms. Especialistes en ortoqueratologia a Poblenou. Consulta i pressupost sense compromís."
       },
       de: {
-        title: "Ortho-K Barcelona | Looptica Poblenou",
-        description: "Ortho-K-Behandlung in Barcelona mit nächtlicher Sehkorrektur. Zertifizierte Spezialisten bei Looptica Poblenou. Sicher, reversibel und ideal für Kurzsichtigkeit."
+        title: "Ortho-K Linsen Barcelona | Nachtlinsen | Looptica Poblenou",
+        description: "Ortho-K Nachtlinsen in Barcelona: Korrektur von Kurzsichtigkeit und Astigmatismus im Schlaf. Zertifizierte Spezialisten in Poblenou. Kostenlose Beratung."
       }
     },
     hero: {
       en: {
-        title: "Orthokeratology (Ortho-K)",
-        subtitle: "Clear vision without glasses or lenses during the day",
+        title: "Ortho-K Lenses: Overnight Contact Lenses in Barcelona",
+        subtitle: "Correct myopia while you sleep — see clearly all day without glasses or daytime contact lenses.",
         appointmentSubject: "Orthokeratology Consultation at Looptica"
       },
       es: {
-        title: "Ortoqueratología (Orto-K)",
-        subtitle: "Visión clara sin gafas ni lentes durante el día",
+        title: "Lentillas Orto-K: lentes de contacto nocturnas en Barcelona",
+        subtitle: "Corrige la miopía mientras duermes — ve con claridad todo el día sin gafas ni lentillas diurnas.",
         appointmentSubject: "Consulta de Ortoqueratología en Looptica"
       },
       ca: {
-        title: "Ortoqueratologia (Orto-K)",
-        subtitle: "Visió clara sense ulleres ni lents durant el dia",
+        title: "Lents Orto-K: lentilles de contacte nocturnes a Barcelona",
+        subtitle: "Corregeix la miopia mentre dorms — hi veus amb claredat tot el dia sense ulleres ni lentilles diürnes.",
         appointmentSubject: "Consulta d'Ortoqueratologia a Looptica"
       },
       de: {
-        title: "Orthokeratologie (Ortho-K)",
-        subtitle: "Klares Sehen ohne Brille oder Linsen tagsüber",
+        title: "Ortho-K Linsen: Nachtkontaktlinsen in Barcelona",
+        subtitle: "Korrigieren Sie Kurzsichtigkeit im Schlaf — sehen Sie den ganzen Tag klar ohne Brille oder Tageslinsen.",
         appointmentSubject: "Orthokeratologie-Beratung bei Looptica"
       }
     },
