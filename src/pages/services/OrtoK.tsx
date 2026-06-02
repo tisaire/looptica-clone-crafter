@@ -548,6 +548,23 @@ const OrtoK = () => {
             </ul>
           </div>
         </ScrollReveal>
+
+        <ScrollReveal>
+          <div className="mb-12">
+            <h2 className="text-2xl font-semibold mb-6">{content.faqs.title[language]}</h2>
+            <div className="space-y-4">
+              {content.faqs.items[language].map((faq, index) => (
+                <details key={index} className="bg-white p-5 rounded-lg shadow-sm group">
+                  <summary className="font-medium text-lg cursor-pointer list-none flex justify-between items-center">
+                    <span>{faq.q}</span>
+                    <span className="ml-4 text-[#55afa9] group-open:rotate-45 transition-transform">+</span>
+                  </summary>
+                  <p className="mt-3 text-gray-700">{faq.a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </ScrollReveal>
       </ServiceLayout>
     </>
   );
