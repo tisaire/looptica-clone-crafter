@@ -5,6 +5,7 @@ import { Eye, Shield, CheckSquare, Award } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const SalutVisual = () => {
   const { language } = useLanguage();
@@ -324,6 +325,12 @@ const SalutVisual = () => {
                 <li key={index}>{item}</li>
               ))}
             </ul>
+            <p>
+              {language === 'en' && <>If your child shows progressive myopia, learn how <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">Ortho-K overnight lenses</Link> can help slow myopia progression while providing clear daytime vision.</>}
+              {language === 'es' && <>Si tu hijo presenta miopía progresiva, descubre cómo las <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lentillas Orto-K nocturnas</Link> ayudan al control de la miopía infantil mientras proporcionan una visión clara durante el día.</>}
+              {language === 'ca' && <>Si el teu fill presenta miopia progressiva, descobreix com les <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lents Orto-K nocturnes</Link> ajuden al control de la miopia infantil mentre proporcionen una visió clara durant el dia.</>}
+              {language === 'de' && <>Wenn Ihr Kind eine fortschreitende Kurzsichtigkeit zeigt, erfahren Sie, wie <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">Ortho-K Nachtlinsen</Link> das Fortschreiten der Myopie verlangsamen und tagsüber klares Sehen bieten.</>}
+            </p>
           </div>
         </ScrollReveal>
 
