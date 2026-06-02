@@ -3,6 +3,7 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Eye, RotateCcw, ThumbsUp, AlertCircle } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Link } from 'react-router-dom';
 
 const LentsContacte = () => {
   const { language } = useLanguage();
@@ -374,6 +375,12 @@ const LentsContacte = () => {
           <h2>{content.lensCareTtl[language]}</h2>
           <p>
             {content.lensCareP1[language]}
+          </p>
+          <p>
+            {language === 'en' && <>Looking for an alternative to daytime lenses? Discover our <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">Ortho-K overnight contact lenses</Link> — reshape your cornea while you sleep and enjoy clear vision all day without glasses.</>}
+            {language === 'es' && <>¿Buscas una alternativa a las lentillas diurnas? Descubre nuestras <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lentillas Orto-K nocturnas</Link> — remodelan la córnea mientras duermes para que veas con nitidez todo el día sin gafas.</>}
+            {language === 'ca' && <>Busques una alternativa a les lentilles diürnes? Descobreix les nostres <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lents Orto-K nocturnes</Link> — remodelen la còrnia mentre dorms perquè hi vegis amb nitidesa tot el dia sense ulleres.</>}
+            {language === 'de' && <>Auf der Suche nach einer Alternative zu Tageslinsen? Entdecken Sie unsere <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">Ortho-K Nachtkontaktlinsen</Link> — sie formen Ihre Hornhaut im Schlaf und sorgen für klares Sehen den ganzen Tag ohne Brille.</>}
           </p>
         </div>
       </ScrollReveal>
