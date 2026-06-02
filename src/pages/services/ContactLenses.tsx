@@ -3,6 +3,7 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Eye, Shield, Clock, ThumbsUp } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const ContactLenses = () => {
@@ -404,6 +405,12 @@ const ContactLenses = () => {
           
           <p>
             {content.finalP[language]}
+          </p>
+          <p>
+            {language === 'en' && <>For an alternative to daytime contact lenses, explore our <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">Ortho-K overnight lenses</Link> — ideal for myopia control in children and active adults.</>}
+            {language === 'es' && <>Como alternativa a las lentes de contacto diurnas, conoce nuestras <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lentillas Orto-K nocturnas</Link> — ideales para el control de miopía en niños y adultos activos.</>}
+            {language === 'ca' && <>Com a alternativa a les lents de contacte diürnes, coneix les nostres <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lents Orto-K nocturnes</Link> — ideals per al control de miopia en nens i adults actius.</>}
+            {language === 'de' && <>Als Alternative zu Tageslinsen entdecken Sie unsere <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">Ortho-K Nachtlinsen</Link> — ideal für die Myopie-Kontrolle bei Kindern und aktiven Erwachsenen.</>}
           </p>
         </div>
       </ScrollReveal>
