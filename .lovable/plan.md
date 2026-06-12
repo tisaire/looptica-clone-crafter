@@ -1,41 +1,57 @@
-## Context
+# Plan: Option A — Strip duplicate static meta from `index.html`, ensure every page has Helmet
 
-GSC's URL Inspection tool says the Orto-K URL is "not in sitemap." This is a **stale reading**, not a real problem:
+## Goal
 
-- `public/sitemap.xml` already contains all 4 language variants (`/ca`, `/es`, `/en`, `/de`) of `/services/orto-k`, each with full `hreflang` annotations.
-- The live file at `https://looptica.com/sitemap.xml` confirms this (24 `orto-k` matches).
+Stop serving the same `<title>` and `<meta description>` on every URL. Let `react-helmet-async` (already wired up) be the single source of per-route meta. Googlebot executes JS and reads Helmet output; the duplicate static head was masking that.
 
-Google's URL Inspection "Sitemaps" field updates only after Googlebot re-fetches and re-parses the sitemap. Until then it still shows the previous snapshot. Our job is to nudge that refresh.
+## Changes
 
-## Plan
+### 1. `index.html` — keep only sitewide tags
 
-### 1. Bump `lastmod` on Orto-K entries in `public/sitemap.xml`
-Update the 4 Orto-K `<url>` blocks (ca/es/en/de) to today's date (`2026-06-12`). A newer `lastmod` is the strongest signal that tells Google to re-process those entries.
+Remove from `<head>`:
+- `<title>` (Helmet sets it per route)
+- `<meta name="description">`
+- `<meta name="keywords">`
+- All `<meta property="og:title|og:description|og:url">` (kept generic ones are fine as social-crawler fallback, but currently they're optical-shop-specific — replace with neutral brand-level fallback)
+- `<meta name="twitter:title|twitter:description">`
 
-### 2. Bump `lastmod` on the contact-lens pages too
-The recent internal links we added live on these pages, so their `lastmod` should also reflect today:
-- `/ca/services/lents-contacte`
-- `/es/services/contact-lenses`
-- `/en/services/contact-lenses`
-- `/de/services/contact-lenses` (if present)
+Keep:
+- charset, viewport, robots, author, google-site-verification
+- favicon, font preloads, preconnects, critical CSS
+- `og:image`, `og:type`, `twitter:card`, `twitter:image` (sitewide fallback for social crawlers)
+- `<meta property="og:title">` and `og:description` replaced with **brand-level** generic text ("Looptica") so social previews on un-rendered pages still look sane
+- Organization JSON-LD (sitewide)
+- GA loader
 
-### 3. Re-submit the sitemap to GSC
-After deploy, call the Search Console API to re-submit `https://looptica.com/sitemap.xml`. This puts the sitemap back into Google's priority queue.
+Set a neutral brand `<title>` like `Looptica` as fallback only.
 
-### 4. Confirm via API what Google currently knows
-Call the Sitemaps GET endpoint after submission to read back Google's `lastSubmitted` / `lastDownloaded` / warnings. Surface that to you so you can see when Google actually re-fetches.
+### 2. Audit pages for `<Helmet>` coverage
 
-### 5. Re-check URL Inspection in 24–48 h
-The "not in sitemap" line should flip to listing `/sitemap.xml` once Google re-processes. No further code action needed.
+`ServiceLayout` already injects per-route Helmet — all 16 service pages are covered. Verify and add Helmet to:
+- `src/pages/Index.tsx` (home)
+- `src/pages/About.tsx`
+- `src/pages/products/OticonModels.tsx`
+- `src/pages/products/OticonModelPage.tsx` (per-model title/description)
+- `src/pages/legal/PrivacyPolicy.tsx`
+- `src/pages/legal/TermsConditions.tsx`
+- `src/pages/legal/CookiesPolicy.tsx`
+- `src/pages/NotFound.tsx` (with `<meta name="robots" content="noindex">`)
 
-## What I will NOT do
-- Re-architect the sitemap (it's already correct).
-- Add a sitemap-generator script (current static file is fine for this site's size).
-- Touch `robots.txt` (already allows everything and references the sitemap correctly).
+Each Helmet block: `<title>`, `<meta name="description">`, `<link rel="canonical">`, `og:title`, `og:description`, `og:url`, hreflang alternates (same pattern as `ServiceLayout`).
 
-## Files to edit
-- `public/sitemap.xml` — update `<lastmod>` on the 4 Orto-K entries + the contact-lens entries.
+### 3. Verification
 
-## Post-deploy actions (run after publish)
-- `POST .../webmasters/v3/sites/https%3A%2F%2Flooptica.com%2F/sitemaps/https%3A%2F%2Flooptica.com%2Fsitemap.xml`
-- `GET` the same path to read back Google's state.
+After build, `curl https://looptica.com/en/services/orto-k` should show distinct `<title>` in raw HTML (from Helmet hydration in static HTML it won't — but at least no conflicting one). Then request re-indexing in GSC.
+
+## Honest caveat
+
+With pure SPA + Helmet, Googlebot still has to render JS to see the per-route title. That works (Google does render), but slower than SSG. If after 3 weeks Orto-K is still "Discovered – not indexed," fall back to Option B (`vite-react-ssg`).
+
+## Files touched
+
+- `index.html` (trim)
+- `src/pages/Index.tsx`, `src/pages/About.tsx`, `src/pages/NotFound.tsx`
+- `src/pages/products/OticonModels.tsx`, `src/pages/products/OticonModelPage.tsx` (+ `src/components/products/OticonModelDetail.tsx` if needed)
+- `src/pages/legal/PrivacyPolicy.tsx`, `TermsConditions.tsx`, `CookiesPolicy.tsx`
+
+No new dependencies, no build pipeline changes, no `.htaccess` changes.
