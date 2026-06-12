@@ -315,8 +315,20 @@ const LentsContacte = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h4 className="text-xl font-medium mb-2">{content.orthoKLenses[language]}</h4>
+              <h4 className="text-xl font-medium mb-2">
+                <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">
+                  {content.orthoKLenses[language]}
+                </Link>
+              </h4>
               <p>{content.orthoKLensesDesc[language]}</p>
+              <p className="mt-3">
+                <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">
+                  {language === 'en' && 'Learn more about Ortho-K →'}
+                  {language === 'es' && 'Más información sobre Orto-K →'}
+                  {language === 'ca' && 'Més informació sobre Orto-K →'}
+                  {language === 'de' && 'Mehr über Ortho-K →'}
+                </Link>
+              </p>
             </div>
           </div>
         </div>

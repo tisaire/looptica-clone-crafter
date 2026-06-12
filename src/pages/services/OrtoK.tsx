@@ -5,6 +5,7 @@ import { Moon, Sun, Target, Clock } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const OrtoK = () => {
   const { language } = useLanguage();
@@ -546,6 +547,17 @@ const OrtoK = () => {
                 <li key={index}>{profile}</li>
               ))}
             </ul>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <div className="bg-[#e8f6f5] p-6 rounded-lg mb-12">
+            <p className="text-lg">
+              {language === 'en' && <>Interested in daytime contact lenses? Explore our <Link to={`/${language}/services/contact-lenses`} className="text-[#55afa9] underline font-medium">full range of contact lenses</Link> — from daily disposables to toric and multifocal options.</>}
+              {language === 'es' && <>¿Te interesan las lentillas diurnas? Descubre nuestra <Link to={`/${language}/services/contact-lenses`} className="text-[#55afa9] underline font-medium">amplia gama de lentes de contacto</Link> — desde desechables diarias hasta opciones tóricas y multifocales.</>}
+              {language === 'ca' && <>T'interessen les lentilles diürnes? Descobreix la nostra <Link to={`/${language}/services/lents-contacte`} className="text-[#55afa9] underline font-medium">àmplia gamma de lents de contacte</Link> — des d'opcions d'un sol ús diàries fins a tòriques i multifocals.</>}
+              {language === 'de' && <>Interessieren Sie sich für Tageskontaktlinsen? Entdecken Sie unser <Link to={`/${language}/services/contact-lenses`} className="text-[#55afa9] underline font-medium">vollständiges Sortiment an Kontaktlinsen</Link> — von Tageslinsen bis hin zu torischen und multifokalen Optionen.</>}
+            </p>
           </div>
         </ScrollReveal>
 
