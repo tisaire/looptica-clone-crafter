@@ -5,6 +5,7 @@ import { Moon, Sun, Target, Clock } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const OrtoK = () => {
   const { language } = useLanguage();
