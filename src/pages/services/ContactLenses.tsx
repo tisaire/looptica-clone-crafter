@@ -372,6 +372,14 @@ const ContactLenses = () => {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-medium mb-2">{content.specialty[language]}</h4>
               <p>{content.specialtyDesc[language]}</p>
+              <p className="mt-3">
+                <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">
+                  {language === 'en' && 'Learn more about Ortho-K overnight lenses →'}
+                  {language === 'es' && 'Más información sobre lentillas Orto-K nocturnas →'}
+                  {language === 'ca' && 'Més informació sobre lents Orto-K nocturnes →'}
+                  {language === 'de' && 'Mehr über Ortho-K Nachtlinsen →'}
+                </Link>
+              </p>
             </div>
           </div>
         </div>
