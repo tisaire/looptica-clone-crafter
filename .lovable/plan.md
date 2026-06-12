@@ -1,76 +1,41 @@
-## Goal
+## Context
 
-Produce a downloadable Orto-K SEO performance report covering **June 2, 2026 → today (June 12, 2026)** for the three Orto-K pages:
+GSC's URL Inspection tool says the Orto-K URL is "not in sitemap." This is a **stale reading**, not a real problem:
 
-- `https://looptica.com/es/services/orto-k`
-- `https://looptica.com/ca/services/orto-k`
-- `https://looptica.com/en/services/orto-k`
+- `public/sitemap.xml` already contains all 4 language variants (`/ca`, `/es`, `/en`, `/de`) of `/services/orto-k`, each with full `hreflang` annotations.
+- The live file at `https://looptica.com/sitemap.xml` confirms this (24 `orto-k` matches).
 
-Delivered as two artifacts in `/mnt/documents`:
-- `orto-k-seo-report.pdf` — narrative + charts + tables
-- `orto-k-seo-report.csv` — raw daily rows for the user's own analysis
+Google's URL Inspection "Sitemaps" field updates only after Googlebot re-fetches and re-parses the sitemap. Until then it still shows the previous snapshot. Our job is to nudge that refresh.
 
-No changes to the site code.
+## Plan
 
-## Data sources
+### 1. Bump `lastmod` on Orto-K entries in `public/sitemap.xml`
+Update the 4 Orto-K `<url>` blocks (ca/es/en/de) to today's date (`2026-06-12`). A newer `lastmod` is the strongest signal that tells Google to re-process those entries.
 
-**Google Search Console** (connected, via gateway `searchanalytics/query`)
-- Property: `https://looptica.com/`
-- Date range A: `2026-06-02 → 2026-06-12` (post-change)
-- Date range B (baseline): `2026-05-22 → 2026-06-01` (11 days pre-change, same length)
-- Pull 4 slices for each window:
-  1. By **page** (filter: page CONTAINS `/services/orto-k`) — totals per URL
-  2. By **query** (same page filter) — top queries driving impressions/clicks
-  3. By **date** (same page filter) — daily trend
-  4. By **query + page** — to attribute queries to the right language URL
+### 2. Bump `lastmod` on the contact-lens pages too
+The recent internal links we added live on these pages, so their `lastmod` should also reflect today:
+- `/ca/services/lents-contacte`
+- `/es/services/contact-lenses`
+- `/en/services/contact-lenses`
+- `/de/services/contact-lenses` (if present)
 
-**Semrush** (built-in tools, ES database)
-- `page_analysis` on each of the 3 URLs — current ranking keywords + positions
-- `keyword_research` on `ortok`, `orto-k`, `ortoqueratología`, `ortho-k`, `orto k barcelona` for context (volume, KDI)
-- Note: latest Semrush snapshot is May 15, so this section is labeled "keyword universe & current positions" rather than "movement". Real movement comes from GSC's avg-position delta.
+### 3. Re-submit the sitemap to GSC
+After deploy, call the Search Console API to re-submit `https://looptica.com/sitemap.xml`. This puts the sitemap back into Google's priority queue.
 
-## Report structure (PDF)
+### 4. Confirm via API what Google currently knows
+Call the Sitemaps GET endpoint after submission to read back Google's `lastSubmitted` / `lastDownloaded` / warnings. Surface that to you so you can see when Google actually re-fetches.
 
-1. **Executive summary** — 4-tile KPIs: clicks, impressions, CTR, avg position. Each shows post-change value + delta vs baseline.
-2. **Daily trend chart** — impressions & clicks per day, June 2 onward, with a vertical marker on June 2.
-3. **Per-URL breakdown table** — one row per `/es`, `/ca`, `/en` URL: clicks, impressions, CTR, avg position, delta vs baseline.
-4. **Top queries table** (top 20 by impressions, post-change window) — query, page, clicks, impressions, CTR, avg position.
-5. **New queries since June 2** — queries with impressions in window A but zero in window B.
-6. **Lost queries** — queries with impressions in window B but zero in window A.
-7. **Semrush keyword universe** — current ranking keywords per URL (positions, volume, KDI) + ranking targets not yet captured.
-8. **Methodology & caveats** — GSC 2-day data lag, short window, Semrush snapshot date.
-
-## Technical approach
-
-```text
-1. Python script /tmp/orto_k_report.py
-   ├── GSC fetch via curl-equivalent (requests) to connector-gateway
-   │     POST /webmasters/v3/sites/{encoded}/searchAnalytics/query
-   │     ├── 4 calls × 2 windows = 8 GSC calls
-   │     └── filter: { dimension: page, operator: contains, expression: /services/orto-k }
-   ├── Semrush via the agent's built-in tools (called from chat, not script)
-   │     └── results pasted into the script as a small JSON literal
-   ├── Build pandas DataFrames + compute deltas
-   ├── Write CSV (daily rows + per-URL summary + queries) → /mnt/documents/orto-k-seo-report.csv
-   └── Render PDF with reportlab (Platypus) + matplotlib chart embedded as PNG
-2. QA: pdftoppm the PDF, view every page, fix any layout issues, re-render
-3. Emit <presentation-artifact> tags for PDF and CSV
-```
-
-Auth headers for GSC calls:
-- `Authorization: Bearer $LOVABLE_API_KEY`
-- `X-Connection-Api-Key: $GOOGLE_SEARCH_CONSOLE_API_KEY`
-
-## Caveats to surface in the report
-
-- GSC has a 2–3 day data freshness lag, so June 10–12 may be partial.
-- 11-day windows are short; treat deltas as directional, not statistically significant.
-- Semrush's latest snapshot (May 15) predates June 2, so its data reflects pre-change positions only — use GSC's avg-position field for actual movement.
-- If GSC returns no rows for the Orto-K pages, the report will say so explicitly rather than fabricate data.
+### 5. Re-check URL Inspection in 24–48 h
+The "not in sitemap" line should flip to listing `/sitemap.xml` once Google re-processes. No further code action needed.
 
 ## What I will NOT do
+- Re-architect the sitemap (it's already correct).
+- Add a sitemap-generator script (current static file is fine for this site's size).
+- Touch `robots.txt` (already allows everything and references the sitemap correctly).
 
-- No code changes to the site.
-- No new in-app dashboard.
-- No Search Console property reverification (already verified).
-- No attempt to backfill missing Semrush data — the May 15 snapshot is the latest available.
+## Files to edit
+- `public/sitemap.xml` — update `<lastmod>` on the 4 Orto-K entries + the contact-lens entries.
+
+## Post-deploy actions (run after publish)
+- `POST .../webmasters/v3/sites/https%3A%2F%2Flooptica.com%2F/sitemaps/https%3A%2F%2Flooptica.com%2Fsitemap.xml`
+- `GET` the same path to read back Google's state.
