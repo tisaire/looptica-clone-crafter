@@ -577,6 +577,25 @@ const OrtoK = () => {
             </div>
           </div>
         </ScrollReveal>
+
+        <ScrollReveal>
+          <div className="bg-[#e8f6f5] p-6 rounded-lg mb-12 text-center">
+            <p className="text-lg">
+              {language === 'en' && <>More information: </>}
+              {language === 'es' && <>Más información: </>}
+              {language === 'ca' && <>Més informació: </>}
+              {language === 'de' && <>Weitere Informationen: </>}
+              <a
+                href="https://ortok-barcelona.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#55afa9] underline font-medium"
+              >
+                ortok barcelona
+              </a>
+            </p>
+          </div>
+        </ScrollReveal>
       </ServiceLayout>
     </>
   );
