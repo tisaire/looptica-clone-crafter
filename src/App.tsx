@@ -9,7 +9,6 @@ import { Toaster } from './components/ui/sonner';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 import CookieConsent from './components/CookieConsent';
 import CriticalStyles from './components/CriticalStyles';
-import RedirectHandler from './components/RedirectHandler';
 import LanguageWrapper from './components/layout/LanguageWrapper'; // Import the new wrapper
 import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, Language } from './config/languages';
 
@@ -93,7 +92,6 @@ function App() {
       <LanguageProvider>
         <CriticalStyles />
         <Router>
-          <RedirectHandler /> {/* Handles old URL redirects */}
           <Routes>
             {/* Redirect root to default language */}
             <Route path="/" element={<Navigate to={`/${DEFAULT_LANGUAGE}`} replace />} />
