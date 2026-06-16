@@ -36,6 +36,8 @@ const RedirectHandler = () => {
       '/en/orto-k-in-poblenou-barcelona/': '/en/services/orto-k',
       '/de/orto-k-in-poblenou-barcelona': '/de/services/orto-k', // German
       '/de/orto-k-in-poblenou-barcelona/': '/de/services/orto-k',
+      '/ca/orto-k-poblenou-barcelona': '/ca/services/orto-k',
+      '/ca/orto-k-poblenou-barcelona/': '/ca/services/orto-k',
       
       // Salud visual redirect
       '/salud-visual-poblenou-barcelona': '/es/services/salut-visual', // Assuming Spanish

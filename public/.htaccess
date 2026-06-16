@@ -123,6 +123,8 @@ FileETag None
   RewriteRule ^en/orto-k-in-poblenou-barcelona/?$ /en/services/orto-k [R=301,L,NE]
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
   RewriteRule ^de/orto-k-in-poblenou-barcelona/?$ /de/services/orto-k [R=301,L,NE]
+  RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
+  RewriteRule ^ca/orto-k-poblenou-barcelona/?$ /ca/services/orto-k [R=301,L,NE]
   
   # Salud visual
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
