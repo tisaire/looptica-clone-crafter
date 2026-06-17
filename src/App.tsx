@@ -29,7 +29,6 @@ const LentsContacte = lazy(() => import('./pages/services/LentsContacte'));
 const OrtoK = lazy(() => import('./pages/services/OrtoK'));
 const Eyeglasses = lazy(() => import('./pages/services/Eyeglasses'));
 const Sunglasses = lazy(() => import('./pages/services/Sunglasses'));
-const ContactLenses = lazy(() => import('./pages/services/ContactLenses'));
 const HearingTest = lazy(() => import('./pages/services/HearingTest'));
 const HearingAids = lazy(() => import('./pages/services/HearingAids'));
 const TinnitusTreatment = lazy(() => import('./pages/services/TinnitusTreatment'));
@@ -109,7 +108,8 @@ function App() {
                 <Route path="services/orto-k" element={<Suspense fallback={<PageLoader />}><OrtoK /></Suspense>} />
                 <Route path="services/eyeglasses" element={<Suspense fallback={<PageLoader />}><Eyeglasses /></Suspense>} />
                 <Route path="services/sunglasses" element={<Suspense fallback={<PageLoader />}><Sunglasses /></Suspense>} />
-                <Route path="services/contact-lenses" element={<Suspense fallback={<PageLoader />}><ContactLenses /></Suspense>} />
+                {/* Legacy slug redirect: contact-lenses → lents-contacte (canonical) */}
+                <Route path="services/contact-lenses" element={<Navigate to="../lents-contacte" replace />} />
                 <Route path="services/image-consulting" element={<Suspense fallback={<PageLoader />}><ImageConsulting /></Suspense>} />
                 <Route path="services/lens-consulting" element={<Suspense fallback={<PageLoader />}><LensConsulting /></Suspense>} />
                 <Route path="services/plan-veo" element={<Suspense fallback={<PageLoader />}><PlanVeo /></Suspense>} />
@@ -137,8 +137,21 @@ function App() {
               </Route>
             </Route>
             
-            {/* Fallback for non-language-prefixed paths not caught by root redirect (e.g. if someone types /xyz directly) */}
-            {/* This could also redirect to a generic 404 or a language-prefixed 404 */}
+            {/* Legacy WordPress URLs (pre-React migration) — redirect to canonical language-prefixed routes */}
+            <Route path="/orto-k-poblenou-barcelona" element={<Navigate to="/es/services/orto-k" replace />} />
+            <Route path="/lentillas-poblenou-barcelona" element={<Navigate to="/es/services/lents-contacte" replace />} />
+            <Route path="/lentilles-poblenou-barcelona" element={<Navigate to="/ca/services/lents-contacte" replace />} />
+            <Route path="/kontaktlinsen-poblenou-barcelona" element={<Navigate to="/de/services/lents-contacte" replace />} />
+            <Route path="/contact-lenses-poblenou-barcelona" element={<Navigate to="/en/services/lents-contacte" replace />} />
+            <Route path="/salud-visual-poblenou-barcelona" element={<Navigate to="/es/services/salut-visual" replace />} />
+            <Route path="/sehgesundheit-poblenou-barcelona" element={<Navigate to="/de/services/salut-visual" replace />} />
+
+            {/* Legal pages without language prefix → default language (CA) */}
+            <Route path="/legal/privacy-policy" element={<Navigate to={`/${DEFAULT_LANGUAGE}/legal/privacy-policy`} replace />} />
+            <Route path="/legal/terms-conditions" element={<Navigate to={`/${DEFAULT_LANGUAGE}/legal/terms-conditions`} replace />} />
+            <Route path="/legal/cookies-policy" element={<Navigate to={`/${DEFAULT_LANGUAGE}/legal/cookies-policy`} replace />} />
+
+            {/* Fallback for non-language-prefixed paths not caught by root redirect */}
             <Route path="*" element={<Navigate to={`/${DEFAULT_LANGUAGE}/404`} replace />} /> 
           </Routes>
         </Router>
