@@ -18,8 +18,8 @@ const Subvenciones = () => {
         description: "Information about available subsidies and financial aid for hearing aids and hearing assistance devices in Barcelona. Learn about eligibility requirements and application process.",
       },
       es: {
-        title: "Subvenciones para Audífonos | Looptica Barcelona",
-        description: "Información sobre subvenciones y ayudas financieras disponibles para audífonos y dispositivos de asistencia auditiva en Barcelona. Conozca los requisitos de elegibilidad y el proceso de solicitud.",
+        title: "Subvenciones para audífonos en Cataluña | Looptica Barcelona",
+        description: "Subvenciones y ayudas para la compra de audífonos en Cataluña. Te informamos y ayudamos con los trámites en Looptica Barcelona Poblenou.",
       },
       ca: {
         title: "Subvencions per a Audiòfons | Looptica Barcelona",

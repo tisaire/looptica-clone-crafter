@@ -11,13 +11,13 @@ const LentsContacte = () => {
   const content = {
     seoTitle: {
       en: "Contact Lenses in Barcelona · Looptica Poblenou",
-      es: "Lentillas en Barcelona · Óptica en Poblenou | Looptica",
+      es: "Lentillas en Barcelona y Poblenou | Adaptación personalizada",
       ca: "Lents de Contacte Barcelona | Looptica",
       de: "Kontaktlinsen in Barcelona · Optik in Poblenou | Looptica",
     },
     seoDescription: {
       en: "Contact lenses in Barcelona with professional fitting and complete eye exam. Looptica Poblenou offers daily, monthly, toric and Ortho-K lenses. Book online.",
-      es: "Adaptación de lentillas en Barcelona con revisión visual completa. En Looptica Poblenou ofrecemos lentes diarias, mensuales, tóricas y Orto-K. Reserva online.",
+      es: "Adaptación personalizada de lentillas en Barcelona Poblenou: diarias, mensuales, tóricas, multifocales y Orto-K. Revisión visual completa en Looptica.",
       ca: "Adaptació de lents de contacte a Barcelona amb revisió visual completa. A Looptica Poblenou oferim lents diàries, mensuals, tòriques i Orto-K. Reserva online.",
       de: "Kontaktlinsen in Barcelona mit professioneller Anpassung und kompletter Augenuntersuchung. Looptica Poblenou bietet tägliche, monatliche, torische und Ortho-K-Linsen.",
     },
