@@ -18,4 +18,3 @@ Looptica is a Barcelona-based clinic providing personalized optical and audiolog
 - [Audiology Center](/services/audiologia-centro): Complete audiology services.
 - [Tinnitus Treatment](/services/tinnitus-treatment): Tinnitus assessment and management.
 - [Ear Protection](/services/ear-protection): Custom ear protection solutions.
-- [Oticon Hearing Aids](/products/oticon-models): Oticon hearing aid models and features.
