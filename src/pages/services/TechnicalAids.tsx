@@ -581,7 +581,7 @@ const TechnicalAids = () => {
                 
                 <div className="mt-6">
                   <img 
-                    src="/images/brands/oticon/Oticon_EduMic_1000x1000.webp" 
+                    src={eduMicAsset.url} 
                     alt="Oticon EduMic device"
                     className="w-full h-64 object-contain rounded-lg shadow-md my-8"
                     loading="lazy"
@@ -640,7 +640,7 @@ const TechnicalAids = () => {
                 
                 <div className="mt-6">
                   <img 
-                    src="/images/brands/oticon/connectclip-2-900-638x638.jpg" 
+                    src={connectClipAsset.url} 
                     alt="Oticon ConnectClip device"
                     className="w-full h-64 object-contain rounded-lg shadow-md my-8"
                     loading="lazy"
@@ -699,7 +699,7 @@ const TechnicalAids = () => {
                 
                 <div className="mt-6">
                   <img 
-                    src="/images/brands/oticon/connect-tv-3.0-1.webp" 
+                    src={connectTvAsset.url} 
                     alt="Oticon TV Adapter device"
                     className="w-full h-64 object-contain rounded-lg shadow-md my-8"
                     loading="lazy"
@@ -817,7 +817,7 @@ const TechnicalAids = () => {
                 
                 <div className="mt-6">
                   <img 
-                    src="/images/brands/oticon/Oticon-Smart_Charger_angled.png" 
+                    src={smartChargerAsset.url} 
                     alt="Oticon SmartCharger device"
                     className="w-full h-64 object-contain rounded-lg shadow-md my-8"
                     loading="lazy"
