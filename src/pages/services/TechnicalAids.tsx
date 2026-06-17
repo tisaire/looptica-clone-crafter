@@ -11,6 +11,10 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 // Removed Footer import as it's handled globally by App.tsx
 import { Link } from 'react-router-dom';
 import remoteControl30Asset from '@/assets/oticon-remote-control-30.webp.asset.json';
+import eduMicAsset from '@/assets/Oticon_EduMic_1000x1000.webp.asset.json';
+import connectClipAsset from '@/assets/connectclip-2-900-638x638.jpg.asset.json';
+import connectTvAsset from '@/assets/connect-tv-3.0-1.webp.asset.json';
+import smartChargerAsset from '@/assets/Oticon-Smart_Charger_angled.png.asset.json';
 
 const TechnicalAids = () => {
   const { t, language } = useLanguage();
