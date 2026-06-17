@@ -4,11 +4,30 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Volume2, Music, Zap, Brain } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Helmet } from 'react-helmet-async';
 
 const TinnitusTreatment = () => {
   const { language } = useLanguage();
   
   const content = {
+    meta: {
+      en: {
+        title: 'Tinnitus treatment in Poblenou, Barcelona | Looptica',
+        description: 'Tinnitus treatment in Poblenou, Barcelona: audiological assessment, sound therapy and hearing aids with tinnitus relief. Personalized care at Looptica.',
+      },
+      es: {
+        title: 'Tratamiento de tinnitus en Poblenou, Barcelona | Looptica',
+        description: 'Tratamiento del tinnitus en Poblenou, Barcelona: evaluación audiológica, terapia sonora y audífonos con generador. Alivio personalizado en Looptica.',
+      },
+      ca: {
+        title: 'Tractament de tinnitus a Poblenou, Barcelona | Looptica',
+        description: 'Tractament del tinnitus a Poblenou, Barcelona: avaluació audiològica, teràpia sonora i audiòfons amb generador. Alleujament personalitzat a Looptica.',
+      },
+      de: {
+        title: 'Tinnitus-Behandlung in Poblenou, Barcelona | Looptica',
+        description: 'Tinnitus-Behandlung in Poblenou, Barcelona: audiologische Untersuchung, Klangtherapie und Hörgeräte mit Tinnitus-Noiser. Persönliche Betreuung bei Looptica.',
+      },
+    },
     title: {
       en: 'Tinnitus Treatment',
       es: 'Tratamiento del Tinnitus',
@@ -210,6 +229,13 @@ const TinnitusTreatment = () => {
   };
   
   return (
+    <>
+      <Helmet>
+        <title>{content.meta[language].title}</title>
+        <meta name="description" content={content.meta[language].description} />
+        <meta property="og:title" content={content.meta[language].title} />
+        <meta property="og:description" content={content.meta[language].description} />
+      </Helmet>
     <ServiceLayout
       title={content.title[language]}
       subtitle={content.subtitle[language]}
