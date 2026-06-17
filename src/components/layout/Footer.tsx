@@ -16,7 +16,7 @@ const Footer = () => {
         links: [
           { name: t('eyeglasses'), path: `/${language}/services/eyeglasses` },
           { name: t('sunglasses'), path: `/${language}/services/sunglasses` },
-          { name: t('contactLenses'), path: `/${language}/services/contact-lenses` },
+          { name: t('contactLenses'), path: `/${language}/services/lents-contacte` },
           { name: t('visualHealth'), path: `/${language}/services/salut-visual` },
           { name: t('ortoK'), path: `/${language}/services/orto-k` },
           { name: t('imageConsulting'), path: `/${language}/services/image-consulting` },

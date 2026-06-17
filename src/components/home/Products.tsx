@@ -23,7 +23,7 @@ const Products = () => {
       category: t('contactLenses'),
       price: '26€',
       image: '/images/adobestock-226007711_orig.jpeg',
-      link: `/${language}/services/contact-lenses`
+      link: `/${language}/services/lents-contacte`
     },
     {
       id: 3,
