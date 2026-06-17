@@ -52,6 +52,7 @@ const NotFound = () => {
       <Helmet>
         <title>{seoTitle}</title>
         <meta name="description" content={seoDescription} />
+        <meta name="robots" content="noindex, nofollow" />
         <meta property="og:title" content={seoTitle} />
         <meta property="og:description" content={seoDescription} />
         <meta property="og:url" content={`https://looptica.com${location.pathname}`} />
