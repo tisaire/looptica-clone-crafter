@@ -3,11 +3,30 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Sun, Shield, Zap, Heart } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Helmet } from 'react-helmet-async';
 
 const Sunglasses = () => {
   const { t, language } = useLanguage();
   
   const content = {
+    meta: {
+      en: {
+        title: 'Sunglasses in Poblenou, Barcelona | Looptica',
+        description: 'Prescription and designer sunglasses in Poblenou, Barcelona. 100% UV protection, style consulting and a wide selection at Looptica. Book your visit.',
+      },
+      es: {
+        title: 'Gafas de sol en Poblenou, Barcelona | Looptica',
+        description: 'Gafas de sol graduadas y de marca en Poblenou, Barcelona. Protección UV 100%, asesoramiento de estilo y amplia selección en Looptica. Pide cita.',
+      },
+      ca: {
+        title: 'Ulleres de sol a Poblenou, Barcelona | Looptica',
+        description: "Ulleres de sol graduades i de marca a Poblenou, Barcelona. Protecció UV 100%, assessorament d'estil i àmplia selecció a Looptica. Demana cita.",
+      },
+      de: {
+        title: 'Sonnenbrillen in Poblenou, Barcelona | Looptica',
+        description: 'Sonnenbrillen mit Sehstärke und Designermarken in Poblenou, Barcelona. 100% UV-Schutz, Stilberatung und große Auswahl bei Looptica. Termin buchen.',
+      },
+    },
     subtitle: {
       en: "Protection and style for every season",
       es: "Protección y estilo para cada temporada",
@@ -269,6 +288,13 @@ const Sunglasses = () => {
   };
   
   return (
+    <>
+      <Helmet>
+        <title>{content.meta[language].title}</title>
+        <meta name="description" content={content.meta[language].description} />
+        <meta property="og:title" content={content.meta[language].title} />
+        <meta property="og:description" content={content.meta[language].description} />
+      </Helmet>
     <ServiceLayout
       title={t('sunglasses')}
       subtitle={content.subtitle[language]}
