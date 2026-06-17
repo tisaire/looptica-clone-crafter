@@ -1,47 +1,10 @@
+## Plan: Añadir imagen Remote Control 3.0
 
-# Eliminar apartado Oticon dedicado
+Imagen recibida correctamente (Oticon Remote Control 3.0 con audífonos). Pasos:
 
-Solo se borra el apartado **/products/oticon-models**. Las menciones a Oticon en TechnicalAids (EduMic, ConnectClip…) y las fotos de stock con prefijo `oticon_*` en otras páginas se mantienen.
+1. Subir `oticon-oticon-remote-control-30-remote-control.webp` al CDN con `lovable-assets create` desde `/mnt/user-uploads/`.
+2. Guardar el pointer en `src/assets/oticon-remote-control-30.webp.asset.json`.
+3. En `src/pages/services/TechnicalAids.tsx`, reemplazar la ruta actual `/images/brands/oticon/oticon-oticon-remote-control-30-remote-control.webp` por la URL del asset (importando el JSON).
+4. Verificar visualmente en `/ca/services/technical-aids` que la imagen del Remote Control 3.0 se muestra junto a las otras 4 (EduMic, ConnectClip, TV Adapter, Smart Charger).
 
-## Cambios
-
-### 1. Borrar archivos
-- `src/pages/products/OticonModels.tsx`
-- `src/pages/products/OticonModelPage.tsx`
-- `src/components/products/OticonModelDetail.tsx`
-- Carpeta entera `public/images/brands/oticon/` (7 imágenes solo usadas por las páginas borradas)
-
-Y si la carpeta `src/pages/products/` queda vacía, borrarla también.
-
-### 2. `src/App.tsx`
-- Quitar los 2 `lazy(() => import('./pages/products/OticonModels'))` y `OticonModelPage`.
-- Quitar las 2 rutas:
-  ```tsx
-  <Route path="products/oticon-models" … />
-  <Route path="products/oticon-models/:id" … />
-  ```
-- Añadir redirect 301-equivalente a la home del idioma para no perder la URL ya indexada:
-  ```tsx
-  <Route path="products/oticon-models" element={<Navigate to=".." replace />} />
-  <Route path="products/oticon-models/:id" element={<Navigate to="../.." replace />} />
-  ```
-
-### 3. `public/sitemap.xml`
-- Eliminar el bloque `<url>` de `oticon-models` (4 entradas, una por idioma).
-
-### 4. `public/llms.txt`
-- Quitar la línea `- [Oticon Hearing Aids](/products/oticon-models): …`.
-
-## No se toca
-- `src/pages/services/TechnicalAids.tsx` (mantiene productos Oticon EduMic/ConnectClip/etc.)
-- `src/contexts/LanguageContext.tsx` (traducciones "Oticon EduMic/TwinLink")
-- Imágenes `public/images/oticon_*.jpg` (usadas como stock en Audiology, HearingAids, HearingTest, Subvenciones, Products)
-- Ningún otro componente
-
-## Verificación
-- `rg "oticon-models|OticonModel"` debe devolver 0 resultados tras los cambios.
-- Build pasa (lo verifica el harness).
-
-## Archivos modificados (resumen)
-- Eliminados: 3 .tsx + carpeta `public/images/brands/oticon/`
-- Editados: `src/App.tsx`, `public/sitemap.xml`, `public/llms.txt`
+Sin cambios de copy ni de layout.
