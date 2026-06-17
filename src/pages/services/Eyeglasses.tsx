@@ -3,12 +3,31 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Glasses, PenTool, Shapes, BarChart3 } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Helmet } from 'react-helmet-async';
 
 const Eyeglasses = () => {
   const { language } = useLanguage();
   
   // Translations for this page
   const content = {
+    meta: {
+      en: {
+        title: 'Prescription glasses in Poblenou, Barcelona | Looptica',
+        description: 'Prescription glasses in Poblenou, Barcelona: designer frames, progressive and anti-fatigue lenses. Eye exam included and expert advice at Looptica.',
+      },
+      es: {
+        title: 'Gafas graduadas en Poblenou, Barcelona | Looptica',
+        description: 'Gafas graduadas en Poblenou, Barcelona: monturas de diseño, lentes progresivas y antifatiga. Examen visual incluido y asesoramiento experto en Looptica.',
+      },
+      ca: {
+        title: 'Ulleres graduades a Poblenou, Barcelona | Looptica',
+        description: 'Ulleres graduades a Poblenou, Barcelona: muntures de disseny, lents progressives i antifatiga. Examen visual inclòs i assessorament expert a Looptica.',
+      },
+      de: {
+        title: 'Brillen in Poblenou, Barcelona | Looptica',
+        description: 'Brillen mit Sehstärke in Poblenou, Barcelona: Designerfassungen, Gleitsicht- und Entspannungsgläser. Sehtest inklusive und Expertenberatung bei Looptica.',
+      },
+    },
     title: {
       en: 'Premium Eyeglasses Collection',
       es: 'Colección Premium de Gafas',
@@ -246,6 +265,13 @@ const Eyeglasses = () => {
   };
   
   return (
+    <>
+      <Helmet>
+        <title>{content.meta[language].title}</title>
+        <meta name="description" content={content.meta[language].description} />
+        <meta property="og:title" content={content.meta[language].title} />
+        <meta property="og:description" content={content.meta[language].description} />
+      </Helmet>
     <ServiceLayout
       title={content.title[language]}
       subtitle={content.subtitle[language]}
@@ -383,6 +409,7 @@ const Eyeglasses = () => {
         </div>
       </ScrollReveal>
     </ServiceLayout>
+    </>
   );
 };
 
