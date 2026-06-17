@@ -18,44 +18,38 @@ const Testimonials = () => {
   const testimonials: Testimonial[] = [
     {
       id: 1,
-      name: "Gerard S.",
+      name: "Maria R. N.",
       rating: 5,
-      comment: "Una òptica per recomanar. En el meu cas em vaig fer les lents de contacte orto-k, i els resultats van ser millors dels esperats (a causa de la meva graduació). Destacaria la gran professionalitat i l'atenció que brinden, a més, tenen molt bona relació qualitat-preu. Us mereixeu totes les ressenyes positives. Per part meva he quedat molt satisfet.",
-      date: "2024-7-17"
+      comment: "El nivel de profesionalidad es excelente! Gran vocación por el sector de la visión y de la audición. Siempre ha sido mi óptica de referencia, porque te aconsejan y te ofrecen las mejores calidades para tus necesidades. Con el centro auditivo, me han acabado de ganar. El servicio es exquisito, la calidad de los audífonos inmejorable y la facilidad en el pago aún mejor. He podido probar los audífonos antes de comprarlos y ha sido la mejor experiencia que he tenido.",
+      date: "2025-10-12"
     },
     {
       id: 2,
-      name: "Carlota F",
+      name: "Merve B.",
       rating: 5,
-      comment: "Best Optical Shop In Poblenou 😎❣️✨\n" +
-        "The girls are super nice, they sell really good products and they help you with everything❤️🧡💖\n" +
-        "They are super sincere about everything, they don't ever try to sell u things just to make money. 👏🏻\n" +
-        "They care about the client🍀🌸✨\n" +
-        "They sell really good brands made in Barcelona. I recommend them  💯!!!!\n" +
-        "They do have really nice and good quality Sunglasses for the summer !!! ✨🕶️🌴🏖️🍹🥥🍸✨🌞🌊⛵🐚 🏄🏻‍♀️🩴🏖️✨",
-      date: "2024-09-15"
+      comment: "Excelente atención, super recomendable! Me hice la revisión visual y posteriormente las gafas con Elena, Lorena e Irene. Las tres son muy amables y profesionales. Gracias a ellas pude tener las gafas listas el mismo día.",
+      date: "2026-02-18"
     },
     {
       id: 3,
-      name: "Anna A.",
+      name: "Mariana A. V.",
       rating: 5,
-      comment: "Fa 3 anys em vaig comprar les ulleres diaries i les de sol, la meva parella igual. Vam sortir molt contentes! Però fa uns 10 dies se'm va trencar el flexo d'una de les varilles i, tot ser estiu i la complexitat que això suposa, m'ho van solucionar amb menys de 24h.\n" +
-        "Òptica de confiança i tracte proper",
-      date: "2024-10-22"
+      comment: "Lorena ha sido un amor! Me ha atendido increíble y me ha ayudado mucho para saber el porqué de algunos síntomas que tenía. Me han hecho los lentes en tiempo récord! Muy recomendado.",
+      date: "2026-04-05"
     },
     {
       id: 4,
-      name: "Olga L.",
+      name: "Jordi C. I.",
       rating: 5,
-      comment: "Big thank you to Ms. Elena Sentis who helped me to choose very beautiful sunglasses. She was very professional and helpful. She showed me several sunglasses and recommended the most suitable in very honest way. I'm very happy with my purchase which is a local brand as well so I will remember my trip to Barcelona :) Thank you Elena!",
-      date: "2022-11-05"
+      comment: "He vingut tres vegades a que m'ajustin les ulleres i cadascuna d'elles me les han deixat perfectes i m'han donat un tracte excel·lent. Són molt professionals i tenen l'art (o do) de saber tractar les ulleres, a diferència d'altres òptiques on només són venedores, no expertes. Les pròximes ulleres sens dubte les compraré aquí.",
+      date: "2025-12-09"
     },
     {
       id: 5,
-      name: "Cecilia T.",
+      name: "Odol B.",
       rating: 5,
-      comment: "Absolutely wonderful services, client treatment and attention to details!  I have been an eyeglasses wearer for decades, and I have always been pushed to buy the most expensive frames and lens and this is the first time where I feel like they are really looking out for me, my vision and my pocket and not trying to max their profit.  They are very knowledgable in all aspects, and I even learned about how i can minimise the effect of rings on thick lens (something that I hate) by a special treatment that really upgraded my look.  I am super happy to have found an eyeglasses specialist that I can trust.",
-      date: "2023-12-18"
+      comment: "Que gran atención! El ejemplo claro de porque hay que apostar más por tiendas de barrio y no por grandes superficies. Rapidez, precio, material de calidad destacando una vez más, la atención. Mil gracias!",
+      date: "2026-05-22"
     }
     
   ];
