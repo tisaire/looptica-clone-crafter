@@ -784,52 +784,6 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Product Pages: Oticon Models -->
-  <url>
-    <loc>https://looptica.com/ca/products/oticon-models</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/products/oticon-models"/>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://looptica.com/es/products/oticon-models</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/products/oticon-models"/>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://looptica.com/en/products/oticon-models</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/products/oticon-models"/>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://looptica.com/de/products/oticon-models</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/products/oticon-models"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/products/oticon-models"/>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Legal: Privacy Policy -->
   <url>
     <loc>https://looptica.com/ca/legal/privacy-policy</loc>

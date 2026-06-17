@@ -43,8 +43,6 @@ const AudiologiaCentro = lazy(() => import('./pages/services/AudiologiaCentro'))
 const PrivacyPolicy = lazy(() => import('./pages/legal/PrivacyPolicy'));
 const TermsConditions = lazy(() => import('./pages/legal/TermsConditions'));
 const CookiesPolicy = lazy(() => import('./pages/legal/CookiesPolicy'));
-const OticonModels = lazy(() => import('./pages/products/OticonModels'));
-const OticonModelPage = lazy(() => import('./pages/products/OticonModelPage'));
 
 
 // Google Analytics page tracker component
@@ -123,9 +121,9 @@ function App() {
                 <Route path="services/subvenciones" element={<Suspense fallback={<PageLoader />}><Subvenciones /></Suspense>} />
                 <Route path="services/audiologia-centro" element={<Suspense fallback={<PageLoader />}><AudiologiaCentro /></Suspense>} />
 
-                {/* Oticon Models Pages */}
-                <Route path="products/oticon-models" element={<Suspense fallback={<PageLoader />}><OticonModels /></Suspense>} />
-                <Route path="products/oticon-models/:id" element={<Suspense fallback={<PageLoader />}><OticonModelPage /></Suspense>} />
+                {/* Removed Oticon section — redirect to language home */}
+                <Route path="products/oticon-models" element={<Navigate to=".." replace />} />
+                <Route path="products/oticon-models/:id" element={<Navigate to="../.." replace />} />
 
                 {/* Legal Pages */}
                 <Route path="legal/privacy-policy" element={<Suspense fallback={<PageLoader />}><PrivacyPolicy /></Suspense>} />
