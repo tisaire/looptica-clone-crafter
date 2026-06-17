@@ -18,8 +18,8 @@ const OrtoK = () => {
         description: "Ortho-K overnight contact lenses in Barcelona: correct myopia and astigmatism while you sleep. Certified Ortho-K specialists in Poblenou. Free consultation."
       },
       es: {
-        title: "Lentillas Orto-K Barcelona | Lentes Nocturnas | Looptica Poblenou",
-        description: "Lentillas Orto-K en Barcelona: corrige miopía y astigmatismo mientras duermes. Especialistas en ortoqueratología en Poblenou. Consulta y presupuesto sin compromiso."
+        title: "Orto-K en Poblenou, Barcelona | Lentes nocturnas",
+        description: "Lentes nocturnas Orto-K en Poblenou, Barcelona: corrige la miopía mientras duermes. Especialistas en ortoqueratología. Consulta sin compromiso en Looptica."
       },
       ca: {
         title: "Lents Orto-K Barcelona | Lentilles Nocturnes | Looptica Poblenou",

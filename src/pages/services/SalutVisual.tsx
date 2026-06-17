@@ -18,8 +18,8 @@ const SalutVisual = () => {
         description: "Comprehensive visual health exams and eye care at Looptica Barcelona. Expert optometrists, advanced technology, and personalized vision solutions."
       },
       es: {
-        title: "Servicios de Salud Visual | Looptica Barcelona",
-        description: "Exámenes completos de salud visual y cuidado ocular en Looptica Barcelona. Optometristas expertos, tecnología avanzada y soluciones de visión personalizadas."
+        title: "Revisión visual en Poblenou | Salud ocular y optometría",
+        description: "Revisión visual completa en Poblenou, Barcelona: optometría, salud ocular y detección precoz con tecnología avanzada. Pide cita en Looptica."
       },
       ca: {
         title: "Serveis de Salut Visual | Looptica Barcelona",

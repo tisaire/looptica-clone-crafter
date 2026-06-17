@@ -10,13 +10,13 @@ const AudiologiaCentro = () => {
   const content = {
     seoTitle: {
       en: "Audiology Center in Barcelona · Looptica Poblenou",
-      es: "Audiólogo Barcelona Poblenou | Looptica",
+      es: "Audiólogo en Poblenou, Barcelona | Prueba auditiva y audífonos",
       ca: "Audiòleg Barcelona Poblenou | Looptica",
       de: "Audiologe in Barcelona · Hörtests in Poblenou | Looptica"
     },
     seoDescription: {
       en: "Professional hearing tests, hearing aid fitting and follow-up in Barcelona. Audiologist in Poblenou with advanced technology and personalized care.",
-      es: "Pruebas auditivas, adaptación de audífonos y seguimiento profesional en Barcelona. Audiólogo en Poblenou con tecnología avanzada y atención personalizada.",
+      es: "Audiólogo en Poblenou, Barcelona: pruebas auditivas, adaptación de audífonos y seguimiento personalizado con tecnología avanzada en Looptica.",
       ca: "Proves auditives, adaptació d'audiòfons i seguiment professional a Barcelona. Audiòleg a Poblenou amb tecnologia avançada i atenció personalitzada.",
       de: "Professionelle Hörtests, Hörgeräte-Anpassung und Nachsorge in Barcelona. Audiologe in Poblenou mit fortschrittlicher Technologie und persönlicher Betreuung."
     },

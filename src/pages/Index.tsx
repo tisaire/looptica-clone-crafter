@@ -158,8 +158,8 @@ const Index = () => {
         keywords: "optical, audiology, eyeglasses, contactLenses, hearingAids, barcelona, poblenou, audiology barcelona poblenou, hearing aids barcelona poblenou, hearing loss, hearing test barcelona poblenou, clinical audiology barcelona poblenou, hearing center barcelona poblenou"
       },
       es: {
-        title: "Óptica Barcelona Poblenou | Looptica",
-        description: "Óptica en Poblenou con revisión visual profesional, lentillas, gafas graduadas y Orto-K. Looptica en Barcelona: atención personalizada y reserva fácil online.",
+        title: "Óptica en Poblenou, Barcelona | Gafas, Lentillas y Audiología",
+        description: "Óptica y centro auditivo en Poblenou, Barcelona. Gafas graduadas, lentillas, Orto-K, revisión visual y audífonos. Atención personalizada en Looptica.",
         keywords: "optica poblenou, looptica, optica barcelona, audiología barcelona poblenou, audífonos barcelona poblenou, pérdida auditiva, prueba auditiva barcelona poblenou, audiología clínica barcelona poblenou, centro auditivo barcelona poblenou"
       },
       ca: {
