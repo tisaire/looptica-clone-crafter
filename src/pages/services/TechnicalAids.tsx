@@ -10,6 +10,7 @@ import { Zap, Headphones, Radio, Wifi, Smartphone, Award, Monitor, Bluetooth, Ea
 import ScrollReveal from '@/components/ui/ScrollReveal';
 // Removed Footer import as it's handled globally by App.tsx
 import { Link } from 'react-router-dom';
+import remoteControl30Asset from '@/assets/oticon-remote-control-30.webp.asset.json';
 
 const TechnicalAids = () => {
   const { t, language } = useLanguage();
@@ -753,7 +754,7 @@ const TechnicalAids = () => {
                 
                 <div className="mt-6">
                   <img 
-                    src="/images/brands/oticon/oticon-oticon-remote-control-30-remote-control.webp" 
+                    src={remoteControl30Asset.url}
                     alt="Oticon Remote Control device"
                     className="w-full h-64 object-contain rounded-lg shadow-md my-8"
                     loading="lazy"
