@@ -13,20 +13,20 @@ const About = () => {
   const content = {
     meta: {
       en: {
-        title: "About Looptica | Vision and Hearing Specialists in Barcelona",
-        description: "Learn about our experienced team of vision and hearing specialists at Looptica Barcelona. Providing personalized optical and audiological care since 2018."
+        title: "About Looptica | Optics and audiology in Poblenou, Barcelona",
+        description: "Meet the Looptica team in Poblenou, Barcelona: optometrists and audiologists offering personalized vision and hearing care since 2018."
       },
       es: {
-        title: "Sobre Looptica | Especialistas en Visión y Audición en Barcelona",
-        description: "Conozca a nuestro experimentado equipo de especialistas en visión y audición en Looptica Barcelona. Brindando atención óptica y audiológica personalizada desde 2018."
+        title: "Sobre Looptica | Óptica y audiología en Poblenou, Barcelona",
+        description: "Conoce al equipo de Looptica en Poblenou, Barcelona: ópticos optometristas y audiólogos con atención personalizada en visión y audición desde 2018."
       },
       ca: {
-        title: "Sobre Looptica | Especialistes en Visió i Audició a Barcelona",
-        description: "Conegui el nostre experimentat equip d'especialistes en visió i audició a Looptica Barcelona. Oferint atenció òptica i audiològica personalitzada des de 2018."
+        title: "Sobre Looptica | Òptica i audiologia a Poblenou, Barcelona",
+        description: "Coneix l'equip de Looptica a Poblenou, Barcelona: òptics optometristes i audiòlegs amb atenció personalitzada en visió i audició des de 2018."
       },
       de: {
-        title: "Über Looptica | Seh- und Hörspezialisten in Barcelona",
-        description: "Lernen Sie unser erfahrenes Team von Seh- und Hörspezialisten bei Looptica Barcelona kennen. Seit 2018 bieten wir persönliche optische und audiologische Betreuung."
+        title: "Über Looptica | Optik und Audiologie in Poblenou, Barcelona",
+        description: "Lernen Sie das Looptica-Team in Poblenou, Barcelona kennen: Optometristen und Audiologen mit persönlicher Seh- und Hörberatung seit 2018."
       }
     },
     page: {
