@@ -26,7 +26,7 @@ const TermsConditions = () => {
         <p>Access to and/or use of this website of LOOPTICA POBLENOU S.L. confers the condition of USER, who accepts, from said access and/or use, the General Conditions of Use reflected here. These conditions will apply regardless of the General Conditions of Contract that in their case are mandatory.</p>
         
         <h3>3. USE OF THE PORTAL</h3>
-        <p>www.looptica.com provides access to information, services, programs or data (hereinafter, "the contents") on the Internet belonging to LOOPTICA POBLENOU S.L. or to its licensors to which the USER can have access. The USER assumes responsibility for the use of the portal.</p>
+        <p>looptica.com provides access to information, services, programs or data (hereinafter, "the contents") on the Internet belonging to LOOPTICA POBLENOU S.L. or to its licensors to which the USER can have access. The USER assumes responsibility for the use of the portal.</p>
         <p>The USER undertakes to make appropriate use of the contents and services that LOOPTICA POBLENOU S.L. may offer through its website and with an enunciative, but not limiting, character, agrees not to use them to:</p>
         <ul>
           <li>Engage in illegal activities, illegal or contrary to good faith and public order;</li>
@@ -49,7 +49,7 @@ const TermsConditions = () => {
         <p>LOOPTICA POBLENOU S.L. reserves the right to make the modifications it deems appropriate on its website without prior notice, being able to change, delete or add both the contents and services provided through it and the way in which they are presented or located on its website.</p>
         
         <h3>8. LINKS</h3>
-        <p>In the case that the www.looptica.com website contains links or hyperlinks to other Internet sites, LOOPTICA POBLENOU S.L. will not exercise any type of control over said sites and contents. In no case will LOOPTICA POBLENOU S.L. assume any responsibility for the contents of any link belonging to a third-party website, nor will it guarantee the technical availability, quality, reliability, accuracy, breadth, veracity, validity and constitutionality of any material or information contained in none of said hyperlinks or other Internet sites. Likewise, the inclusion of these external connections will not imply any type of association, merger or participation with the connected entities.</p>
+        <p>In the case that the looptica.com website contains links or hyperlinks to other Internet sites, LOOPTICA POBLENOU S.L. will not exercise any type of control over said sites and contents. In no case will LOOPTICA POBLENOU S.L. assume any responsibility for the contents of any link belonging to a third-party website, nor will it guarantee the technical availability, quality, reliability, accuracy, breadth, veracity, validity and constitutionality of any material or information contained in none of said hyperlinks or other Internet sites. Likewise, the inclusion of these external connections will not imply any type of association, merger or participation with the connected entities.</p>
         
         <h3>9. RIGHT OF EXCLUSION</h3>
         <p>LOOPTICA POBLENOU S.L. reserves the right to deny or withdraw access to the portal and/or the services offered without prior notice, at its own request or that of a third party, to those users who fail to comply with these General Conditions of Use.</p>
@@ -75,7 +75,7 @@ const TermsConditions = () => {
         <p>El acceso y/o uso de este portal de LOOPTICA POBLENOU S.L. atribuye la condición de USUARIO, que acepta, desde dicho acceso y/o uso, las Condiciones Generales de Uso aquí reflejadas. Las citadas Condiciones serán de aplicación independientemente de las Condiciones Generales de Contratación que en su caso resulten de obligado cumplimiento.</p>
         
         <h3>3. USO DEL PORTAL</h3>
-        <p>www.looptica.com proporciona el acceso a multitud de informaciones, servicios, programas o datos (en adelante, "los contenidos") en Internet pertenecientes a LOOPTICA POBLENOU S.L. o a sus licenciantes a los que el USUARIO pueda tener acceso. El USUARIO asume la responsabilidad del uso del portal.</p>
+        <p>looptica.com proporciona el acceso a multitud de informaciones, servicios, programas o datos (en adelante, "los contenidos") en Internet pertenecientes a LOOPTICA POBLENOU S.L. o a sus licenciantes a los que el USUARIO pueda tener acceso. El USUARIO asume la responsabilidad del uso del portal.</p>
         <p>El USUARIO se compromete a hacer un uso adecuado de los contenidos y servicios que LOOPTICA POBLENOU S.L. pueda ofrecer a través de su web y con carácter enunciativo pero no limitativo, a no emplearlos para:</p>
         <ul>
           <li>Incurrir en actividades ilícitas, ilegales o contrarias a la buena fe y al orden público;</li>
@@ -98,7 +98,7 @@ const TermsConditions = () => {
         <p>LOOPTICA POBLENOU S.L. se reserva el derecho de efectuar sin previo aviso las modificaciones que considere oportunas en su portal, pudiendo cambiar, suprimir o añadir tanto los contenidos y servicios que se presten a través de la misma como la forma en la que éstos aparezcan presentados o localizados en su portal.</p>
         
         <h3>8. ENLACES</h3>
-        <p>En el caso de que en www.looptica.com se dispusiesen enlaces o hipervínculos hacía otros sitios de Internet, LOOPTICA POBLENOU S.L. no ejercerá ningún tipo de control sobre dichos sitios y contenidos. En ningún caso LOOPTICA POBLENOU S.L. asumirá responsabilidad alguna por los contenidos de algún enlace perteneciente a un sitio web ajeno, ni garantizará la disponibilidad técnica, calidad, fiabilidad, exactitud, amplitud, veracidad, validez y constitucionalidad de cualquier material o información contenida en ninguno de dichos hipervínculos u otros sitios de Internet. Igualmente la inclusión de estas conexiones externas no implicará ningún tipo de asociación, fusión o participación con las entidades conectadas.</p>
+        <p>En el caso de que en looptica.com se dispusiesen enlaces o hipervínculos hacía otros sitios de Internet, LOOPTICA POBLENOU S.L. no ejercerá ningún tipo de control sobre dichos sitios y contenidos. En ningún caso LOOPTICA POBLENOU S.L. asumirá responsabilidad alguna por los contenidos de algún enlace perteneciente a un sitio web ajeno, ni garantizará la disponibilidad técnica, calidad, fiabilidad, exactitud, amplitud, veracidad, validez y constitucionalidad de cualquier material o información contenida en ninguno de dichos hipervínculos u otros sitios de Internet. Igualmente la inclusión de estas conexiones externas no implicará ningún tipo de asociación, fusión o participación con las entidades conectadas.</p>
         
         <h3>9. DERECHO DE EXCLUSIÓN</h3>
         <p>LOOPTICA POBLENOU S.L. se reserva el derecho a denegar o retirar el acceso a portal y/o los servicios ofrecidos sin necesidad de preaviso, a instancia propia o de un tercero, a aquellos usuarios que incumplan las presentes Condiciones Generales de Uso.</p>
@@ -125,7 +125,7 @@ const TermsConditions = () => {
         <p>L'accés i/o ús d'aquest portal de LOOPTICA POBLENOU S.L. atribueix la condició d'USUARI, que accepta, des de dit accés i/o ús, les Condicions Generals d'Ús aquí reflectides. Les citades Condicions seran d'aplicació independentment de les Condicions Generals de Contractació que en el seu cas resultin d'obligat compliment.</p>
         
         <h3>3. ÚS DEL PORTAL</h3>
-        <p>www.looptica.com proporciona l'accés a multitud d'informacions, serveis, programes o dades (en endavant, "els continguts") a Internet pertanyents a LOOPTICA POBLENOU S.L. o als seus llicenciants als quals l'USUARI pugui tenir accés. L'USUARI assumeix la responsabilitat de l'ús del portal.</p>
+        <p>looptica.com proporciona l'accés a multitud d'informacions, serveis, programes o dades (en endavant, "els continguts") a Internet pertanyents a LOOPTICA POBLENOU S.L. o als seus llicenciants als quals l'USUARI pugui tenir accés. L'USUARI assumeix la responsabilitat de l'ús del portal.</p>
         <p>L'USUARI es compromet a fer un ús adequat dels continguts i serveis que LOOPTICA POBLENOU S.L. pugui oferir a través de la seva web i amb caràcter enunciatiu però no limitatiu, a no emprar-los per a:</p>
         <ul>
           <li>Incórrer en activitats il·lícites, il·legals o contràries a la bona fe i a l'ordre públic;</li>
@@ -148,7 +148,7 @@ const TermsConditions = () => {
         <p>LOOPTICA POBLENOU S.L. es reserva el dret d'efectuar sense previ avís les modificacions que consideri oportunes en el seu portal, podent canviar, suprimir o afegir tant els continguts i serveis que es prestin a través de la mateixa com la forma en què aquests apareguin presentats o localitzats en el seu portal.</p>
         
         <h3>8. ENLLAÇOS</h3>
-        <p>En el cas que a www.looptica.com es disposessin enllaços o hipervincles cap a altres llocs d'Internet, LOOPTICA POBLENOU S.L. no exercirà cap tipus de control sobre aquests llocs i continguts. En cap cas LOOPTICA POBLENOU S.L. assumirà responsabilitat alguna pels continguts d'algun enllaç pertanyent a un lloc web aliè, ni garantirà la disponibilitat tècnica, qualitat, fiabilitat, exactitud, amplitud, veracitat, validesa i constitucionalitat de qualsevol material o informació continguda en cap dels esmentats hipervincles o altres llocs d'Internet. Igualment la inclusió d'aquestes connexions externes no implicarà cap tipus d'associació, fusió o participació amb les entitats connectades.</p>
+        <p>En el cas que a looptica.com es disposessin enllaços o hipervincles cap a altres llocs d'Internet, LOOPTICA POBLENOU S.L. no exercirà cap tipus de control sobre aquests llocs i continguts. En cap cas LOOPTICA POBLENOU S.L. assumirà responsabilitat alguna pels continguts d'algun enllaç pertanyent a un lloc web aliè, ni garantirà la disponibilitat tècnica, qualitat, fiabilitat, exactitud, amplitud, veracitat, validesa i constitucionalitat de qualsevol material o informació continguda en cap dels esmentats hipervincles o altres llocs d'Internet. Igualment la inclusió d'aquestes connexions externes no implicarà cap tipus d'associació, fusió o participació amb les entitats connectades.</p>
         
         <h3>9. DRET D'EXCLUSIÓ</h3>
         <p>LOOPTICA POBLENOU S.L. es reserva el dret a denegar o retirar l'accés a portal i/o els serveis oferts sense necessitat de preavís, a instància pròpia o d'un tercer, a aquells usuaris que incompleixin les presents Condicions Generals d'Ús.</p>
@@ -175,7 +175,7 @@ const TermsConditions = () => {
         <p>Der Zugriff auf und/oder die Nutzung dieser Website von LOOPTICA POBLENOU S.L. verleiht die Eigenschaft eines BENUTZERS, der durch diesen Zugriff und/oder diese Nutzung die hier wiedergegebenen Allgemeinen Nutzungsbedingungen akzeptiert. Diese Bedingungen gelten unabhängig von den Allgemeinen Vertragsbedingungen, die gegebenenfalls zwingend sind.</p>
         
         <h3>3. NUTZUNG DES PORTALS</h3>
-        <p>www.looptica.com bietet Zugang zu einer Vielzahl von Informationen, Diensten, Programmen oder Daten (im Folgenden "die Inhalte") im Internet, die LOOPTICA POBLENOU S.L. oder seinen Lizenzgebern gehören und auf die der BENUTZER Zugriff haben kann. Der BENUTZER übernimmt die Verantwortung für die Nutzung des Portals.</p>
+        <p>looptica.com bietet Zugang zu einer Vielzahl von Informationen, Diensten, Programmen oder Daten (im Folgenden "die Inhalte") im Internet, die LOOPTICA POBLENOU S.L. oder seinen Lizenzgebern gehören und auf die der BENUTZER Zugriff haben kann. Der BENUTZER übernimmt die Verantwortung für die Nutzung des Portals.</p>
         <p>Der BENUTZER verpflichtet sich, die Inhalte und Dienste, die LOOPTICA POBLENOU S.L. über seine Website anbieten kann, angemessen zu nutzen und mit aufzählendem, aber nicht einschränkendem Charakter, sich zu verpflichten, sie nicht zu verwenden, um:</p>
         <ul>
           <li>Illegale, rechtswidrige oder gegen Treu und Glauben und die öffentliche Ordnung verstoßende Aktivitäten durchzuführen;</li>
@@ -198,7 +198,7 @@ const TermsConditions = () => {
         <p>LOOPTICA POBLENOU S.L. behält sich das Recht vor, ohne vorherige Ankündigung die Änderungen vorzunehmen, die es für angemessen hält auf seinem Portal, wobei es die Inhalte und Dienste, die darüber bereitgestellt werden, sowie die Art und Weise, wie sie auf seinem Portal präsentiert oder lokalisiert werden, ändern, löschen oder hinzufügen kann.</p>
         
         <h3>8. LINKS</h3>
-        <p>Falls auf www.looptica.com Links oder Hyperlinks zu anderen Internet-Websites vorhanden sind, übt LOOPTICA POBLENOU S.L. keine Kontrolle über diese Websites und Inhalte aus. In keinem Fall übernimmt LOOPTICA POBLENOU S.L. die Verantwortung für die Inhalte eines Links, der zu einer Website Dritter gehört, noch garantiert es die technische Verfügbarkeit, Qualität, Zuverlässigkeit, Genauigkeit, Umfang, Wahrhaftigkeit, Gültigkeit und Verfassungsmäßigkeit von Material oder Informationen, die in keinem dieser Hyperlinks oder anderen Internet-Websites enthalten sind. Ebenso impliziert die Aufnahme dieser externen Verbindungen keine Art von Verbindung, Fusion oder Beteiligung mit den verbundenen Einheiten.</p>
+        <p>Falls auf looptica.com Links oder Hyperlinks zu anderen Internet-Websites vorhanden sind, übt LOOPTICA POBLENOU S.L. keine Kontrolle über diese Websites und Inhalte aus. In keinem Fall übernimmt LOOPTICA POBLENOU S.L. die Verantwortung für die Inhalte eines Links, der zu einer Website Dritter gehört, noch garantiert es die technische Verfügbarkeit, Qualität, Zuverlässigkeit, Genauigkeit, Umfang, Wahrhaftigkeit, Gültigkeit und Verfassungsmäßigkeit von Material oder Informationen, die in keinem dieser Hyperlinks oder anderen Internet-Websites enthalten sind. Ebenso impliziert die Aufnahme dieser externen Verbindungen keine Art von Verbindung, Fusion oder Beteiligung mit den verbundenen Einheiten.</p>
         
         <h3>9. AUSSCHLUSSRECHT</h3>
         <p>LOOPTICA POBLENOU S.L. behält sich das Recht vor, den Zugang zum Portal und/oder die angebotenen Dienste ohne vorherige Ankündigung zu verweigern oder zu entziehen, auf eigenen Wunsch oder auf Wunsch eines Dritten, für Benutzer, die diese Allgemeinen Nutzungsbedingungen nicht einhalten.</p>
