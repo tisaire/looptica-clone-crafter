@@ -1,24 +1,82 @@
-## Objetivo
+# Auditoría de dominio canónico y hreflangs (v2)
 
-Reemplazar las 5 reseñas hardcodeadas en `src/components/home/Testimonials.tsx` (actualmente de 2022-2024) por reseñas más recientes y positivas (todas 5★), extraídas hoy del agregador público de la ficha de Google Maps de Looptica Poblenou (puntuación media 4,9/5, 128 opiniones).
+## Estado actual confirmado
 
-## Reseñas seleccionadas (todas 5★)
+- **Cero referencias a `https://www.looptica.com`** en Helmet, JSON-LD, sitemap, og:url o twitter meta. Todo apunta ya a `https://looptica.com`.
+- Únicas apariciones de `www.looptica.com` (texto plano, sin esquema): 8 ocurrencias en el copy legal de `TermsConditions.tsx` (en/es/ca/de). Se normalizarán a `looptica.com`.
+- `sitemap.xml`: ya solo `https://looptica.com`. ✅
+- `PlanVeo.tsx`: duplica canonical + bloque hreflang (también los emite `ServiceLayout`).
+- `About.tsx`: tiene canonical absoluto self-referencial ✅ pero **no** emite hreflang.
+- Páginas legales (`PrivacyPolicy`, `TermsConditions`, `CookiesPolicy`): tienen canonical absoluto self-referencial ✅ pero **no** emiten hreflang ni og:url.
 
-1. **Maria R. N.** — "El nivel de profesionalidad es excelente! Gran vocación por el sector de la visión y de la audición. Siempre ha sido mi óptica de referencia, porque te aconsejan y te ofrecen las mejores calidades para tus necesidades. Con el centro auditivo, me han acabado de ganar. El servicio es exquisito, la calidad de los audífonos inmejorable y la facilidad en el pago aún mejor. He podido probar los audífonos antes de comprarlos y ha sido la mejor experiencia que he tenido."
-2. **Merve B.** — "Excelente atención, super recomendable! Me hice la revisión visual y posteriormente las gafas con Elena, Lorena e Irene. Las tres son muy amables y profesionales. Gracias a ellas pude tener las gafas listas el mismo día."
-3. **Mariana A. V.** — "Lorena ha sido un amor! Me ha atendido increíble y me ha ayudado mucho para saber el porqué de algunos síntomas que tenía. Me han hecho los lentes en tiempo récord! Muy recomendado."
-4. **Jordi C. I.** — "He venido tres veces a que me ajusten las gafas y cada una de ellas me las han dejado perfectas y me han dado un trato excelente. Son muy profesionales y tienen el arte (o don) de saber tratar las gafas, a diferencia de otras ópticas donde solo son vendedoras, no expertas. Las próximas gafas sin duda las compraré aquí."
-5. **Odol B.** — "Que gran atención! El ejemplo claro de porque hay que apostar más por tiendas de barrio y no por grandes superficies. Rapidez, precio, material de calidad destacando una vez más, la atención. Mil gracias!"
+Versión: `v2.3.0-canonical-nonwww-cleanup`.
 
-Se conserva la reseña destacada de **Gerard S.** únicamente si lo prefieres; por defecto sale del listado para refrescar completamente.
+## Cambios a aplicar
 
-## Notas técnicas
+### 1. `src/pages/services/PlanVeo.tsx`
+`ServiceLayout` ya emite, para esta ruta:
+- `<link rel="canonical" href="https://looptica.com/{lang}/services/plan-veo">` (self-referencial)
+- 4 `<link rel="alternate" hrefLang>` absolutos + `x-default` → `/ca/services/plan-veo`
+- `<meta property="og:url">` self-referencial
 
-- Único archivo modificado: `src/components/home/Testimonials.tsx` — solo el array `testimonials` (texto, nombre, fecha).
-- Fechas: el agregador no expone la fecha exacta, así que se asignarán fechas representativas de 2025 (Q1-Q4) coherentes con que son las últimas mostradas en la ficha pública hoy. Si prefieres fechas reales exactas, hace falta abrir Google Maps manualmente o conectar Google Places API.
-- Sin cambios de layout, estilos, traducciones ni de otros componentes.
-- Versión en `src/pages/Index.tsx` se incrementará a `v2.2.1-reviews-refresh`.
+Por tanto, eliminar del `<Helmet>` local: `<link rel="canonical">`, el `.map(languages)` de hreflang y el `x-default`. **Conservar**: `<title>`, `<meta name="description">` y `<script type="application/ld+json">` del FAQ.
 
-## Validación
+Resultado: exactamente un canonical y un único bloque hreflang completo, todos absolutos, sin www.
 
-Revisar visualmente `/ca` (sección "Què diuen els nostres clients") para confirmar que se renderizan las 5 nuevas tarjetas correctamente.
+### 2. `src/pages/About.tsx`
+- Confirmar canonical existente: `https://looptica.com/${language}/about` ✅ (ya presente).
+- Añadir bucle `SUPPORTED_LANGUAGES.map` con `<link rel="alternate" hrefLang>` absolutos + `x-default → https://looptica.com/ca/about`.
+- Importar `SUPPORTED_LANGUAGES` de `@/config/languages`.
+
+### 3. `src/pages/legal/PrivacyPolicy.tsx`
+- Confirmar canonical: `https://looptica.com/${language}/legal/privacy-policy` ✅.
+- Añadir: `<meta property="og:title">`, `<meta property="og:description">`, `<meta property="og:url" content="https://looptica.com/${language}/legal/privacy-policy">`, `<meta property="og:type" content="website">`.
+- Añadir bucle hreflang + `x-default → /ca/legal/privacy-policy`.
+
+### 4. `src/pages/legal/TermsConditions.tsx`
+- Mismas adiciones que (3) con path `/legal/terms-conditions`.
+- Reemplazar las 8 ocurrencias de `www.looptica.com` por `looptica.com` en el copy legal (en/es/ca/de).
+
+### 5. `src/pages/legal/CookiesPolicy.tsx`
+- Mismas adiciones que (3) con path `/legal/cookies-policy`.
+
+### 6. `src/pages/Index.tsx`
+- Bump de versión a `v2.3.0-canonical-nonwww-cleanup`.
+- Helmet ya correcto (canonical, 4 hreflang, x-default, og:url) — sin cambios.
+
+## No se cambia
+
+- `index.html`, `sitemap.xml`, `ServiceLayout.tsx`, `Index.tsx` (Helmet), JSON-LD de `OrtoK.tsx` y `HearingTest.tsx`: ya correctos.
+- Slugs, rutas, contenido visual, traducciones (excepto la normalización `www.looptica.com` → `looptica.com` en el copy legal, solicitada explícitamente en el punto 4 del primer brief).
+- `x-default` se mantiene apuntando a `ca` en todas las páginas.
+
+## Verificación post-implementación
+
+Para cada página, comprobaré en el código fuente generado por React Helmet y mostraré el `<head>` efectivo de:
+
+1. `https://looptica.com/ca/` — emitido por `Index.tsx`
+2. `https://looptica.com/es/services/orto-k` — emitido por `ServiceLayout` + JSON-LD de `OrtoK.tsx`
+3. `https://looptica.com/es/services/plan-veo` — emitido únicamente por `ServiceLayout` + FAQ JSON-LD que queda en `PlanVeo.tsx`
+4. `https://looptica.com/es/about` — emitido por `About.tsx` (con el nuevo bloque hreflang)
+5. `https://looptica.com/es/legal/privacy-policy` — emitido por `PrivacyPolicy.tsx` (con og:* y hreflang añadidos)
+
+Para cada una verificaré:
+
+```text
+[ ] Canonical absoluto, self-referencial, sin www
+[ ] Exactamente UN <link rel="canonical">
+[ ] 4 hreflang absolutos (ca, es, en, de) + 1 x-default → /ca
+[ ] Ningún hreflang relativo
+[ ] Ningún hreflang duplicado
+[ ] og:url absoluto, self-referencial, sin www
+[ ] Ninguna mención de https://www.looptica.com
+```
+
+## Archivos modificados (resumen)
+
+1. `src/pages/services/PlanVeo.tsx` — eliminar bloque duplicado canonical+hreflang
+2. `src/pages/About.tsx` — añadir bucle hreflang + x-default
+3. `src/pages/legal/PrivacyPolicy.tsx` — añadir og:* + hreflang
+4. `src/pages/legal/TermsConditions.tsx` — añadir og:* + hreflang + normalizar `www.looptica.com` en copy
+5. `src/pages/legal/CookiesPolicy.tsx` — añadir og:* + hreflang
+6. `src/pages/Index.tsx` — solo bump de versión

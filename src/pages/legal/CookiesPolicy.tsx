@@ -5,6 +5,7 @@ import { ScrollReveal } from '@/components/ui';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
+import { SUPPORTED_LANGUAGES } from '@/config/languages';
 
 const CookiesPolicy = () => {
   const { language } = useLanguage();
@@ -215,6 +216,19 @@ const CookiesPolicy = () => {
         <title>{content[language].title} | Looptica</title>
         <meta name="description" content={content[language].metaDescription} />
         <link rel="canonical" href={`https://looptica.com/${language}/legal/cookies-policy`} />
+        <meta property="og:title" content={`${content[language].title} | Looptica`} />
+        <meta property="og:description" content={content[language].metaDescription} />
+        <meta property="og:url" content={`https://looptica.com/${language}/legal/cookies-policy`} />
+        <meta property="og:type" content="website" />
+        {SUPPORTED_LANGUAGES.map((lang) => (
+          <link
+            key={lang}
+            rel="alternate"
+            hrefLang={lang}
+            href={`https://looptica.com/${lang}/legal/cookies-policy`}
+          />
+        ))}
+        <link rel="alternate" hrefLang="x-default" href="https://looptica.com/ca/legal/cookies-policy" />
       </Helmet>
       
       <Navbar />

@@ -5,6 +5,7 @@ import Footer from '@/components/layout/Footer';
 import { ScrollReveal, FloatingWhatsApp } from '@/components/ui';
 import { Helmet } from 'react-helmet-async';
 import { whatsappTranslations } from '@/config/whatsappConfig';
+import { SUPPORTED_LANGUAGES } from '@/config/languages';
 
 const About = () => {
   const { language } = useLanguage();
@@ -157,6 +158,15 @@ const About = () => {
         <meta property="og:url" content={`https://looptica.com/${language}/about`} />
         <meta property="og:type" content="website" />
         <link rel="canonical" href={`https://looptica.com/${language}/about`} />
+        {SUPPORTED_LANGUAGES.map((lang) => (
+          <link
+            key={lang}
+            rel="alternate"
+            hrefLang={lang}
+            href={`https://looptica.com/${lang}/about`}
+          />
+        ))}
+        <link rel="alternate" hrefLang="x-default" href="https://looptica.com/ca/about" />
       </Helmet>
       <Navbar />
       <main className="flex-grow pt-24">
