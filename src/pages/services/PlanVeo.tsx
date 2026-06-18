@@ -379,8 +379,6 @@ const PlanVeo = () => {
     cta: content.cta[language as keyof typeof content.cta],
   };
 
-  const languages = ['en', 'es', 'ca', 'de'];
-
   // Generate FAQ schema for JSON-LD
   const faqSchema = {
     "@context": "https://schema.org",
@@ -398,18 +396,6 @@ const PlanVeo = () => {
   return (
     <>
       <Helmet>
-        <title>{currentContent.meta.title}</title>
-        <meta name="description" content={currentContent.meta.description} />
-        <link rel="canonical" href={`https://looptica.com/${language}/services/plan-veo`} />
-        {languages.map((lang) => (
-          <link
-            key={lang}
-            rel="alternate"
-            hrefLang={lang}
-            href={`https://looptica.com/${lang}/services/plan-veo`}
-          />
-        ))}
-        <link rel="alternate" hrefLang="x-default" href="https://looptica.com/ca/services/plan-veo" />
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}
         </script>

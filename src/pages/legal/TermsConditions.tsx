@@ -5,6 +5,7 @@ import { ScrollReveal } from '@/components/ui';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
+import { SUPPORTED_LANGUAGES } from '@/config/languages';
 
 const TermsConditions = () => {
   const { language } = useLanguage();
@@ -218,6 +219,19 @@ const TermsConditions = () => {
         <title>{content[language].title} | Looptica</title>
         <meta name="description" content={content[language].metaDescription} />
         <link rel="canonical" href={`https://looptica.com/${language}/legal/terms-conditions`} />
+        <meta property="og:title" content={`${content[language].title} | Looptica`} />
+        <meta property="og:description" content={content[language].metaDescription} />
+        <meta property="og:url" content={`https://looptica.com/${language}/legal/terms-conditions`} />
+        <meta property="og:type" content="website" />
+        {SUPPORTED_LANGUAGES.map((lang) => (
+          <link
+            key={lang}
+            rel="alternate"
+            hrefLang={lang}
+            href={`https://looptica.com/${lang}/legal/terms-conditions`}
+          />
+        ))}
+        <link rel="alternate" hrefLang="x-default" href="https://looptica.com/ca/legal/terms-conditions" />
       </Helmet>
       
       <Navbar />
