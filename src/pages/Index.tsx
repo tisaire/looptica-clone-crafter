@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.3.0-canonical-nonwww-cleanup"; // Canonical/hreflang/og:url normalized to https://looptica.com (no www); hreflang added to About + legal pages; duplicate hreflang removed from PlanVeo
+const CURRENT_VERSION = "v2.4.0-breadcrumbs"; // Card-style breadcrumb bar with BreadcrumbList JSON-LD on services, about and legal pages
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
