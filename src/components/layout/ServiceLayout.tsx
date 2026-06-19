@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Navbar from './Navbar';
+import Breadcrumbs from './Breadcrumbs';
 import { ScrollReveal, FloatingWhatsApp } from '@/components/ui';
 import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -18,6 +19,7 @@ interface ServiceLayoutProps {
   pageTitle?: { [key in Language]: string }; // SEO titles for each language
   pageDescription?: { [key in Language]: string }; // SEO descriptions for each language
   hideCTA?: boolean; // Hide the appointment CTA section at the bottom
+  breadcrumbLabel?: string; // Optional shorter label for the current-page breadcrumb crumb
 }
 
 const ServiceLayout: React.FC<ServiceLayoutProps> = ({
@@ -29,8 +31,9 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   pageTitle, // Use this for <title> tag
   pageDescription, // Use this for meta description
   hideCTA = false,
+  breadcrumbLabel,
 }) => {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const [loadedImage, setLoadedImage] = useState('');
   const [isImageLoaded, setIsImageLoaded] = useState(false);
   const location = useLocation();
@@ -108,8 +111,17 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
       </Helmet>
       <div className="min-h-screen flex flex-col">
         <Navbar />
-        
-        <main className="flex-grow pt-24">
+        <div className="pt-24">
+          <Breadcrumbs
+            currentPath={basePath}
+            items={[
+              { label: t('breadcrumbServices') },
+              { label: breadcrumbLabel || title },
+            ]}
+          />
+        </div>
+
+        <main className="flex-grow">
           {/* Hero Banner */}
           <section 
             className="relative h-[50vh] flex items-center justify-center"
