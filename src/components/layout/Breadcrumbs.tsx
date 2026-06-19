@@ -25,26 +25,22 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, currentPath, schemaIte
   const { t, language } = useLanguage();
 
   const homeLabel = t('home');
-  const homePath = `/${language}`;
+  const homeAbsoluteUrl = `${BASE_URL}/${language}`;
 
-  // Visible UI crumbs: Home first, then provided items. Last item = current page (not a link).
-  const visibleCrumbs: BreadcrumbItem[] = [
-    { label: homeLabel, path: homePath },
-    ...items,
-  ];
+  // Build absolute URL helper for locale-relative paths like "/services/orto-k".
+  const toAbsolute = (localePath: string) =>
+    `${BASE_URL}/${language}${localePath.startsWith('/') ? localePath : `/${localePath}`}`;
 
   // JSON-LD items: only include entries with real URLs. Always include Home and the current page.
   const lastItem = items[items.length - 1];
-  const currentAbsoluteUrl = `${BASE_URL}/${language}${currentPath.startsWith('/') ? currentPath : `/${currentPath}`}`.replace(/\/+$/, (m) => (currentPath === '/' ? m : ''));
 
   const derivedSchema: BreadcrumbItem[] = [
-    { label: homeLabel, path: `${BASE_URL}${homePath}` },
-    // Include only intermediate items with real paths (skip visual-only)
-    ...items.slice(0, -1)
+    { label: homeLabel, path: homeAbsoluteUrl },
+    ...items
+      .slice(0, -1)
       .filter((it) => !!it.path)
-      .map((it) => ({ label: it.label, path: `${BASE_URL}/${language}${it.path}` })),
-    // Current page (last) — always include with absolute URL
-    { label: lastItem?.label ?? '', path: currentAbsoluteUrl },
+      .map((it) => ({ label: it.label, path: toAbsolute(it.path as string) })),
+    { label: lastItem?.label ?? '', path: toAbsolute(currentPath) },
   ];
 
   const schemaSource = schemaItems ?? derivedSchema;
@@ -69,23 +65,20 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, currentPath, schemaIte
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-3">
           <nav aria-label="Breadcrumb">
             <ol className="flex flex-wrap items-center gap-2 text-sm">
-              {visibleCrumbs.map((crumb, idx) => {
-                const isLast = idx === visibleCrumbs.length - 1;
-                const fullPath = crumb.path
-                  ? crumb.path.startsWith('/')
-                    ? crumb.path === homePath
-                      ? homePath
-                      : `/${language}${crumb.path === homePath ? '' : crumb.path}`
-                    : crumb.path
-                  : undefined;
-                // For Home crumb, path already includes language; avoid double-prefix
-                const linkTo = crumb.path === homePath ? homePath : fullPath;
-
+              {/* Home crumb (always first, always a link) */}
+              <li className="flex items-center gap-2">
+                <Link
+                  to={`/${language}`}
+                  className="bg-white px-3 py-1 rounded-md shadow-sm text-gray-700 hover:text-[#55afa9] transition-colors"
+                >
+                  {homeLabel}
+                </Link>
+              </li>
+              {items.map((crumb, idx) => {
+                const isLast = idx === items.length - 1;
                 return (
                   <li key={`${crumb.label}-${idx}`} className="flex items-center gap-2">
-                    {idx > 0 && (
-                      <ChevronRight className="h-4 w-4 text-gray-400" aria-hidden="true" />
-                    )}
+                    <ChevronRight className="h-4 w-4 text-gray-400" aria-hidden="true" />
                     {isLast ? (
                       <span
                         aria-current="page"
@@ -95,7 +88,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, currentPath, schemaIte
                       </span>
                     ) : crumb.path ? (
                       <Link
-                        to={linkTo as string}
+                        to={`/${language}${crumb.path}`}
                         className="bg-white px-3 py-1 rounded-md shadow-sm text-gray-700 hover:text-[#55afa9] transition-colors"
                       >
                         {crumb.label}
