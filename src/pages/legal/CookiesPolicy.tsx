@@ -5,10 +5,11 @@ import { ScrollReveal } from '@/components/ui';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
+import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import { SUPPORTED_LANGUAGES } from '@/config/languages';
 
 const CookiesPolicy = () => {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
 
   // Content based on language
   const content = {
@@ -232,8 +233,18 @@ const CookiesPolicy = () => {
       </Helmet>
       
       <Navbar />
-      
-      <main className="pt-24 px-6 lg:px-12 bg-gray-50">
+
+      <div className="pt-24">
+        <Breadcrumbs
+          currentPath="/legal/cookies-policy"
+          items={[
+            { label: t('breadcrumbLegal') },
+            { label: t('cookiesPolicy') },
+          ]}
+        />
+      </div>
+
+      <main className="px-6 lg:px-12 bg-gray-50">
         <div className="max-w-4xl mx-auto py-12">
           <ScrollReveal>
             <h1 className="text-3xl font-bold mb-2 text-gray-900">{content[language].heading}</h1>

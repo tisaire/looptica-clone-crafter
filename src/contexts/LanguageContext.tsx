@@ -17,6 +17,36 @@ export const translations: Translations = {
     ca: 'Inici',
     de: 'Startseite',
   },
+  breadcrumbServices: {
+    en: 'Services',
+    es: 'Servicios',
+    ca: 'Serveis',
+    de: 'Dienstleistungen',
+  },
+  breadcrumbLegal: {
+    en: 'Legal',
+    es: 'Legal',
+    ca: 'Legal',
+    de: 'Rechtliches',
+  },
+  privacyPolicy: {
+    en: 'Privacy Policy',
+    es: 'Política de Privacidad',
+    ca: 'Política de Privacitat',
+    de: 'Datenschutzrichtlinie',
+  },
+  termsConditions: {
+    en: 'Terms & Conditions',
+    es: 'Términos y Condiciones',
+    ca: 'Termes i Condicions',
+    de: 'Allgemeine Geschäftsbedingungen',
+  },
+  cookiesPolicy: {
+    en: 'Cookies Policy',
+    es: 'Política de Cookies',
+    ca: 'Política de Cookies',
+    de: 'Cookie-Richtlinie',
+  },
   products: {
     en: 'Products',
     es: 'Productos',

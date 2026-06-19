@@ -2,13 +2,14 @@ import React, { useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
+import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import { ScrollReveal, FloatingWhatsApp } from '@/components/ui';
 import { Helmet } from 'react-helmet-async';
 import { whatsappTranslations } from '@/config/whatsappConfig';
 import { SUPPORTED_LANGUAGES } from '@/config/languages';
 
 const About = () => {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   
   // Content organized by section first, then by language
   const content = {
@@ -169,7 +170,13 @@ const About = () => {
         <link rel="alternate" hrefLang="x-default" href="https://looptica.com/ca/about" />
       </Helmet>
       <Navbar />
-      <main className="flex-grow pt-24">
+      <div className="pt-24">
+        <Breadcrumbs
+          currentPath="/about"
+          items={[{ label: t('about') }]}
+        />
+      </div>
+      <main className="flex-grow">
         <section className="py-16 px-6 lg:px-12" id="about">
           <div className="max-w-7xl mx-auto">
             <ScrollReveal>
