@@ -92,30 +92,6 @@ const About = () => {
           ]
         }
       },
-      {
-        name: "Lorena",
-        role: {
-          en: "Audiologist\n\nOptician Optometrist",
-          es: "Audióloga\n\nÓptica Optometrista",
-          ca: "Audiòloga\n\nÒptica Optometrista",
-          de: "Audiologin\n\nOptikerin Optometristin"
-        },
-        image: "/images/lorena2.png",
-        bio: {
-          en: [
-            "Lorena is our optical optometrist and audiologist with a special interest in hearing rehabilitation. Her kind and patient approach helps clients feel comfortable when addressing their specific needs. With advanced training in the latest technologies and her interest in trends, she is able to provide a comprehensive approach to her patients' visual and auditory health."
-          ],
-          es: [
-            "Lorena es nuestra optica optometrista y audióloga con un interés especial en la rehabilitación auditiva. Su enfoque amable y paciente ayuda a los clientes a sentirse cómodos al abordar sus necesidades específicas. Con formación avanzada en las últimas tecnologías y su interés por las tendencias, le permiten brindar un enfoque integral a la salud visual y auditiva de sus pacientes."
-          ],
-          ca: [
-            "Lorena és la nostra òptica optometrista i audiòloga amb un interès especial en la rehabilitació auditiva. El seu enfocament amable i pacient ajuda els clients a sentir-se còmodes en abordar les seves necessitats específiques. Amb formació avançada en les últimes tecnologies i el seu interès per les tendències, li permeten oferir un enfocament integral a la salut visual i auditiva dels seus pacients."
-          ],
-          de: [
-            "Lorena ist unsere Optikerin, Optometristin und Audiologin mit besonderem Interesse an Hörrehabilitation. Ihr freundlicher und geduldiger Ansatz hilft Kunden, sich wohl zu fühlen, wenn sie ihre spezifischen Bedürfnisse ansprechen. Mit fortgeschrittener Ausbildung in den neuesten Technologien und ihrem Interesse an Trends kann sie einen umfassenden Ansatz für die visuelle und auditive Gesundheit ihrer Patienten bieten."
-          ]
-        }
-      }
     ],
     philosophy: {
       title: {
@@ -185,9 +161,9 @@ const About = () => {
               </h1>
             </ScrollReveal>
             
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 max-w-5xl mx-auto">
               {content.teamMembers.map((member, index) => (
-                <ScrollReveal key={member.name} origin={index === 0 ? "left" : (index === 2 ? "right" : undefined)}>
+                <ScrollReveal key={member.name} origin={index === 0 ? "left" : "right"}>
                   <div className="bg-white p-8 rounded-xl shadow-md h-full flex flex-col">
                     <div className="flex-shrink-0 flex justify-center">
                       <img 
