@@ -29,10 +29,21 @@ const FloatingWhatsApp = ({
 }: FloatingWhatsAppProps) => {
   const { t } = useLanguage();
   const [isVisible, setIsVisible] = useState(true);
-  
+  const [cookieBannerVisible, setCookieBannerVisible] = useState(false);
+
   useEffect(() => {
     setIsVisible(true);
+    // Initial state: banner shows only when no consent stored yet
+    setCookieBannerVisible(!localStorage.getItem('cookieConsent'));
+
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent<{ visible: boolean }>).detail;
+      setCookieBannerVisible(Boolean(detail?.visible));
+    };
+    window.addEventListener('cookie-consent-change', handler);
+    return () => window.removeEventListener('cookie-consent-change', handler);
   }, []);
+  
   
   return (
     <a
