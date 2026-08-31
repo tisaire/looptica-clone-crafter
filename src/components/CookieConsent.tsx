@@ -62,6 +62,13 @@ const CookieConsent = () => {
     }
   }, []);
 
+  // Notify other floating UI (e.g. WhatsApp button) about banner visibility
+  useEffect(() => {
+    window.dispatchEvent(
+      new CustomEvent('cookie-consent-change', { detail: { visible: showConsent } })
+    );
+  }, [showConsent]);
+
   const enableGoogleAnalytics = () => {
     // Enable Google Analytics tracking
     if (window.gtag && typeof window.gtag === 'function') {
@@ -189,7 +196,7 @@ const CookieConsent = () => {
   // Main banner
   if (showConsent && !showSettings) {
     return (
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-white shadow-lg border-t border-gray-200 p-4">
+      <div className="fixed bottom-0 left-0 right-0 z-[60] bg-white shadow-lg border-t border-gray-200 p-4">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div className="flex-1">

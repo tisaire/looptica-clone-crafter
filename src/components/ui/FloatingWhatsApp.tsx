@@ -29,10 +29,21 @@ const FloatingWhatsApp = ({
 }: FloatingWhatsAppProps) => {
   const { t } = useLanguage();
   const [isVisible, setIsVisible] = useState(true);
-  
+  const [cookieBannerVisible, setCookieBannerVisible] = useState(false);
+
   useEffect(() => {
     setIsVisible(true);
+    // Initial state: banner shows only when no consent stored yet
+    setCookieBannerVisible(!localStorage.getItem('cookieConsent'));
+
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent<{ visible: boolean }>).detail;
+      setCookieBannerVisible(Boolean(detail?.visible));
+    };
+    window.addEventListener('cookie-consent-change', handler);
+    return () => window.removeEventListener('cookie-consent-change', handler);
   }, []);
+  
   
   return (
     <a
@@ -44,7 +55,9 @@ const FloatingWhatsApp = ({
           location: window.location.pathname
         });
       }}
-      className={`fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:bg-[#128C7E] hover:scale-110 ${
+      className={`fixed right-6 z-[70] bg-[#25D366] text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:bg-[#128C7E] hover:scale-110 ${
+        cookieBannerVisible ? 'bottom-40 md:bottom-28' : 'bottom-6'
+      } ${
         isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'
       }`}
       aria-label={t('contactViaWhatsApp')}
