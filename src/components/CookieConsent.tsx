@@ -62,6 +62,13 @@ const CookieConsent = () => {
     }
   }, []);
 
+  // Notify other floating UI (e.g. WhatsApp button) about banner visibility
+  useEffect(() => {
+    window.dispatchEvent(
+      new CustomEvent('cookie-consent-change', { detail: { visible: showConsent } })
+    );
+  }, [showConsent]);
+
   const enableGoogleAnalytics = () => {
     // Enable Google Analytics tracking
     if (window.gtag && typeof window.gtag === 'function') {
