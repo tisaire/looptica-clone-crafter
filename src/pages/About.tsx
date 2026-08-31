@@ -161,9 +161,9 @@ const About = () => {
               </h1>
             </ScrollReveal>
             
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 max-w-5xl mx-auto">
               {content.teamMembers.map((member, index) => (
-                <ScrollReveal key={member.name} origin={index === 0 ? "left" : (index === 2 ? "right" : undefined)}>
+                <ScrollReveal key={member.name} origin={index === 0 ? "left" : "right"}>
                   <div className="bg-white p-8 rounded-xl shadow-md h-full flex flex-col">
                     <div className="flex-shrink-0 flex justify-center">
                       <img 
