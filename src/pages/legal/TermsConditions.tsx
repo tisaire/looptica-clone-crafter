@@ -4,7 +4,6 @@ import DOMPurify from 'dompurify';
 import { ScrollReveal } from '@/components/ui';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import { SUPPORTED_LANGUAGES } from '@/config/languages';
 
@@ -262,7 +261,6 @@ const TermsConditions = () => {
         </div>
       </main>
       
-      <Footer />
     </>
   );
 };

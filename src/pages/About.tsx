@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import { ScrollReveal, FloatingWhatsApp } from '@/components/ui';
 import { Helmet } from 'react-helmet-async';
@@ -203,7 +202,6 @@ const About = () => {
           </div>
         </section>
       </main>
-      <Footer />
       <FloatingWhatsApp 
         phoneNumber="34699594064"
         accountName="Looptica"
