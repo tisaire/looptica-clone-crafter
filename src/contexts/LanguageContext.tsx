@@ -17,6 +17,12 @@ export const translations: Translations = {
     ca: 'Inici',
     de: 'Startseite',
   },
+  childrenVision: {
+    en: "Children's vision",
+    es: 'Visión infantil',
+    ca: 'Visió infantil',
+    de: 'Kindersehen',
+  },
   breadcrumbServices: {
     en: 'Services',
     es: 'Servicios',
