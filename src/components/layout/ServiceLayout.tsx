@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Breadcrumbs from './Breadcrumbs';
 import { ScrollReveal, FloatingWhatsApp } from '@/components/ui';
 import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
+import ReviewedByElena from '@/components/ReviewedByElena';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { whatsappTranslations } from '@/config/whatsappConfig';
 import { Helmet } from 'react-helmet-async';
