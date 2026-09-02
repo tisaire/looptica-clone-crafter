@@ -83,16 +83,20 @@ const About = () => {
         image: "/images/irene.jpg",
         bio: {
           en: [
-            "Irene is our optical optometrist specialized in advanced contactology. Her extensive career has focused on pediatric contactology and special adaptations such as ortho-k, keratoconus, myopia control, scleral contact lenses, and other individualized solutions. With great knowledge of the current market, she offers excellent advice according to the patient's visual needs."
+            "Irene is our optical optometrist specialized in advanced contactology. Her extensive career has focused on pediatric contactology and special adaptations such as ortho-k, keratoconus, myopia control, scleral contact lenses, and other individualized solutions. With great knowledge of the current market, she offers excellent advice according to the patient's visual needs.",
+            "Licensed Optician Optometrist — Col. 17739."
           ],
           es: [
-            "Irene es nuestra óptica optometrista especializada en contactología avanzada. Su amplia trayectoria se ha centrado en la contactología pediátrica y adaptaciones especiales como orto-k, queratocono, control de miopía, lentes de contacto esclerales, y otras soluciones individualizadas. Con gran conocimiento del mercado actual, ofrece un excelente asesoramiento segun las necesidades visuales del paciente."
+            "Irene es nuestra óptica optometrista especializada en contactología avanzada. Su amplia trayectoria se ha centrado en la contactología pediátrica y adaptaciones especiales como orto-k, queratocono, control de miopía, lentes de contacto esclerales, y otras soluciones individualizadas. Con gran conocimiento del mercado actual, ofrece un excelente asesoramiento segun las necesidades visuales del paciente.",
+            "Óptica Optometrista Colegiada — Col. 17739."
           ],
           ca: [
-            "Irene és la nostra òptica optometrista especialitzada en contactologia avançada. La seva àmplia trajectòria s'ha centrat en contactologia pediàtrica i adaptacions especials com orto-k, queratocon, control de miopia, lents de contacte esclerals i altres solucions individualitzades. Amb gran coneixement del mercat actual, ofereix un excel·lent assessorament segons les necessitats visuals del pacient."
+            "Irene és la nostra òptica optometrista especialitzada en contactologia avançada. La seva àmplia trajectòria s'ha centrat en contactologia pediàtrica i adaptacions especials com orto-k, queratocon, control de miopia, lents de contacte esclerals i altres solucions individualitzades. Amb gran coneixement del mercat actual, ofereix un excel·lent assessorament segons les necessitats visuals del pacient.",
+            "Òptica Optometrista Col·legiada — Col. 17739."
           ],
           de: [
-            "Irene ist unsere Optikerin und Optometristin, spezialisiert auf fortgeschrittene Kontaktologie. Ihre umfangreiche Karriere konzentrierte sich auf pädiatrische Kontaktologie und spezielle Anpassungen wie Ortho-K, Keratokonus, Myopiekontrolle, sklerale Kontaktlinsen und andere individualisierte Lösungen. Mit großem Wissen über den aktuellen Markt bietet sie hervorragende Beratung entsprechend den visuellen Bedürfnissen des Patienten."
+            "Irene ist unsere Optikerin und Optometristin, spezialisiert auf fortgeschrittene Kontaktologie. Ihre umfangreiche Karriere konzentrierte sich auf pädiatrische Kontaktologie und spezielle Anpassungen wie Ortho-K, Keratokonus, Myopiekontrolle, sklerale Kontaktlinsen und andere individualisierte Lösungen. Mit großem Wissen über den aktuellen Markt bietet sie hervorragende Beratung entsprechend den visuellen Bedürfnissen des Patienten.",
+            "Optikerin Optometristin, Mitglied der Berufskammer — Col. 17739."
           ]
         }
       },
