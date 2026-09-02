@@ -562,6 +562,18 @@ const OrtoK = () => {
         </ScrollReveal>
 
         <ScrollReveal>
+          <div className="bg-[#e8f6f5] p-6 rounded-lg mb-12">
+            <p className="text-lg">
+              {language === 'en' && <>Is it for a child? See all the options in our guide to <Link to={`/${language}/visio-infantil/control-miopia`} className="text-[#55afa9] underline font-medium">childhood myopia control</Link>.</>}
+              {language === 'es' && <>¿Es para un niño? Consulta todas las opciones en nuestra guía de <Link to={`/${language}/visio-infantil/control-miopia`} className="text-[#55afa9] underline font-medium">control de la miopía infantil</Link>.</>}
+              {language === 'ca' && <>És per a un nen? Consulta totes les opcions a la nostra guia de <Link to={`/${language}/visio-infantil/control-miopia`} className="text-[#55afa9] underline font-medium">control de la miopia infantil</Link>.</>}
+              {language === 'de' && <>Für ein Kind? Alle Optionen finden Sie in unserem Leitfaden zur <Link to={`/${language}/visio-infantil/control-miopia`} className="text-[#55afa9] underline font-medium">Myopiekontrolle bei Kindern</Link>.</>}
+            </p>
+          </div>
+        </ScrollReveal>
+
+
+        <ScrollReveal>
           <div className="mb-12">
             <h2 className="text-2xl font-semibold mb-6">{content.faqs.title[language]}</h2>
             <div className="space-y-4">

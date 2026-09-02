@@ -44,6 +44,10 @@ const AudiologiaCentro = lazyWithRetry(() => import('./pages/services/Audiologia
 const PrivacyPolicy = lazyWithRetry(() => import('./pages/legal/PrivacyPolicy'));
 const TermsConditions = lazyWithRetry(() => import('./pages/legal/TermsConditions'));
 const CookiesPolicy = lazyWithRetry(() => import('./pages/legal/CookiesPolicy'));
+const VisioInfantil = lazyWithRetry(() => import('./pages/vision-infantil/VisioInfantil'));
+const ControlMiopia = lazyWithRetry(() => import('./pages/vision-infantil/ControlMiopia'));
+const UllGandul = lazyWithRetry(() => import('./pages/vision-infantil/UllGandul'));
+const UlleresNens = lazyWithRetry(() => import('./pages/vision-infantil/UlleresNens'));
 
 
 
@@ -126,6 +130,14 @@ function App() {
                 <Route path="services/image-consulting" element={<Suspense fallback={<PageLoader />}><ImageConsulting /></Suspense>} />
                 <Route path="services/lens-consulting" element={<Suspense fallback={<PageLoader />}><LensConsulting /></Suspense>} />
                 <Route path="services/plan-veo" element={<Suspense fallback={<PageLoader />}><PlanVeo /></Suspense>} />
+
+                {/* Children's vision hub */}
+                <Route path="visio-infantil" element={<Suspense fallback={<PageLoader />}><VisioInfantil /></Suspense>} />
+                <Route path="visio-infantil/control-miopia" element={<Suspense fallback={<PageLoader />}><ControlMiopia /></Suspense>} />
+                <Route path="visio-infantil/ull-gandul" element={<Suspense fallback={<PageLoader />}><UllGandul /></Suspense>} />
+                <Route path="visio-infantil/ulleres-nens" element={<Suspense fallback={<PageLoader />}><UlleresNens /></Suspense>} />
+
+
 
                 {/* Audiology Services */}
                 <Route path="services/hearing-test" element={<Suspense fallback={<PageLoader />}><HearingTest /></Suspense>} />
