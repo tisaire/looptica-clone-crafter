@@ -31,20 +31,25 @@ const intro = {
   ca: [
     "Quan un nen es fa miop, la graduació sol continuar pujant any rere any mentre l'ull creix. No es tracta només de canviar d'ulleres més sovint: una miopia elevada a l'edat adulta s'associa a més risc de problemes oculars al llarg de la vida, com el despreniment de retina o la miopia magna.",
     "Per això el control de la miopia no busca només veure-hi bé avui, sinó que la graduació final sigui la més baixa possible. Com abans es comença, més marge hi ha.",
+    "Un aclariment important: si el nen no s'ha examinat mai, la primera exploració la fa l'oftalmòleg, que descarta patologies i estableix el diagnòstic. A Looptica ens ocupem de la solució òptica —ulleres i lents de control, lentilles i lents nocturnes Orto-K— i del seguiment coordinat amb ell. No fem teràpia visual ni tractaments mèdics.",
   ],
   es: [
     "Cuando un niño se hace miope, la graduación suele seguir subiendo año tras año mientras el ojo crece. No se trata solo de cambiar de gafas más a menudo: una miopía elevada en la edad adulta se asocia a más riesgo de problemas oculares a lo largo de la vida, como el desprendimiento de retina o la miopía magna.",
     "Por eso el control de la miopía no busca solo ver bien hoy, sino que la graduación final sea la más baja posible. Cuanto antes se empieza, más margen hay.",
+    "Una aclaración importante: si el niño nunca ha sido examinado, la primera exploración la hace el oftalmólogo, que descarta patologías y establece el diagnóstico. En Looptica nos ocupamos de la solución óptica —gafas y lentes de control, lentillas y lentes nocturnas Orto-K— y del seguimiento coordinado con él. No hacemos terapia visual ni tratamientos médicos.",
   ],
   en: [
     "Once a child becomes short-sighted, the prescription usually keeps rising year after year while the eye grows. It isn't only about changing glasses more often: high myopia in adulthood is linked to a higher lifetime risk of eye problems such as retinal detachment.",
     "Myopia control is therefore not only about seeing well today, but about ending up with the lowest possible final prescription. The earlier you start, the more room there is.",
+    "One important clarification: if the child has never been examined, the first examination is done by the ophthalmologist, who rules out pathology and makes the diagnosis. At Looptica we handle the optical solution — glasses and control lenses, contact lenses and Ortho-K overnight lenses — and the follow-up in coordination with them. We do not provide vision therapy or medical treatments.",
   ],
   de: [
     "Wird ein Kind kurzsichtig, steigen die Werte meist Jahr für Jahr weiter, während das Auge wächst. Es geht nicht nur um häufigere Brillenwechsel: Hohe Myopie im Erwachsenenalter ist mit einem höheren Risiko für Augenerkrankungen wie Netzhautablösung verbunden.",
     "Myopiekontrolle zielt daher nicht nur auf gutes Sehen heute ab, sondern auf möglichst niedrige Endwerte. Je früher man beginnt, desto größer der Spielraum.",
+    "Wichtig: War das Kind noch nie untersucht, führt der Augenarzt die Erstuntersuchung durch, schließt Erkrankungen aus und stellt die Diagnose. Bei Looptica übernehmen wir die optische Lösung — Brillen und Kontrollgläser, Kontaktlinsen und Ortho-K-Nachtlinsen — und die Nachbetreuung in Abstimmung mit ihm. Sehtherapie oder medizinische Behandlungen bieten wir nicht an.",
   ],
 };
+
 
 const optionsTitle = {
   ca: "Les opcions que treballem a Looptica",
@@ -132,11 +137,12 @@ const followTitle = {
 };
 
 const follow = {
-  ca: "El control de la miopia és un procés, no una compra. Fem una avaluació inicial completa (graduació, topografia corneal i salut ocular), triem l'opció que millor encaixa amb l'edat i la rutina del nen, i programem revisions periòdiques per comprovar si la progressió s'està frenant i ajustar el que calgui.",
-  es: "El control de la miopía es un proceso, no una compra. Hacemos una evaluación inicial completa (graduación, topografía corneal y salud ocular), elegimos la opción que mejor encaja con la edad y la rutina del niño, y programamos revisiones periódicas para comprobar si la progresión se está frenando y ajustar lo que haga falta.",
-  en: "Myopia control is a process, not a purchase. We run a full initial assessment (prescription, corneal topography and eye health), choose the option that best fits the child's age and routine, and schedule regular reviews to check whether progression is slowing and adjust as needed.",
-  de: "Myopiekontrolle ist ein Prozess, kein Kauf. Wir führen eine vollständige Erstuntersuchung durch (Werte, Hornhauttopographie, Augengesundheit), wählen die zum Alter und Alltag passende Option und planen regelmäßige Kontrollen, um die Progression zu prüfen und anzupassen.",
+  ca: "El control de la miopia és un procés, no una compra. Partim sempre del diagnòstic i la prescripció de l'oftalmòleg: si el nen no s'ha examinat mai, el derivem primer perquè descarti patologies. Amb aquesta base prenem les mesures òptiques necessàries per a l'adaptació (graduació de referència, topografia corneal en el cas de l'Orto-K i paràmetres de muntatge), triem l'opció que millor encaixa amb l'edat i la rutina del nen, i programem revisions periòdiques per comprovar si la progressió s'està frenant i ajustar el que calgui, informant l'oftalmòleg.",
+  es: "El control de la miopía es un proceso, no una compra. Partimos siempre del diagnóstico y la prescripción del oftalmólogo: si el niño nunca ha sido examinado, lo derivamos primero para que descarte patologías. Con esa base tomamos las medidas ópticas necesarias para la adaptación (graduación de referencia, topografía corneal en el caso de la Orto-K y parámetros de montaje), elegimos la opción que mejor encaja con la edad y la rutina del niño, y programamos revisiones periódicas para comprobar si la progresión se está frenando y ajustar lo que haga falta, informando al oftalmólogo.",
+  en: "Myopia control is a process, not a purchase. We always start from the ophthalmologist's diagnosis and prescription: if the child has never been examined, we refer them first so pathology can be ruled out. On that basis we take the optical measurements needed for the fitting (reference prescription, corneal topography for Ortho-K and fitting parameters), choose the option that best fits the child's age and routine, and schedule regular reviews to check whether progression is slowing and adjust as needed, reporting back to the ophthalmologist.",
+  de: "Myopiekontrolle ist ein Prozess, kein Kauf. Ausgangspunkt sind immer Diagnose und Verordnung des Augenarztes: War das Kind noch nie untersucht, überweisen wir es zuerst, damit Erkrankungen ausgeschlossen werden. Auf dieser Basis nehmen wir die für die Anpassung nötigen optischen Messungen vor (Referenzwerte, Hornhauttopographie bei Ortho-K, Einschleifparameter), wählen die zum Alter und Alltag passende Option und planen regelmäßige Kontrollen, um die Progression zu prüfen und anzupassen — mit Rückmeldung an den Augenarzt.",
 };
+
 
 const faqTitle = {
   ca: "Preguntes freqüents",
@@ -150,24 +156,28 @@ const faqs = {
     { q: "Es pot curar la miopia d'un nen?", a: "No. La miopia no es cura, però sí que es pot frenar la seva progressió amb mètodes òptics de control i amb hàbits visuals adequats. L'objectiu és arribar a l'edat adulta amb la graduació més baixa possible." },
     { q: "A quina edat es pot començar?", a: "Depèn del mètode. Les lents de gafa de desenfocament perifèric es poden posar des dels 6 anys; l'Orto-K i les lentilles de control acostumen a començar cap als 8-9 anys, quan el nen té prou autonomia per manipular-les amb higiene." },
     { q: "Feu servir atropina?", a: "No. A Looptica treballem amb mètodes òptics. Si el cas requereix tractament farmacològic, el derivem a l'oftalmòleg." },
+    { q: "Feu teràpia visual?", a: "No. No fem teràpia visual ni tractaments mèdics. La nostra intervenció és òptica: lents i lentilles de control de la miopia, ajust i seguiment, sempre a partir del diagnòstic i la prescripció de l'oftalmòleg." },
     { q: "Quantes revisions calen?", a: "Programem controls periòdics durant tot el procés per mesurar la progressió i ajustar el tractament. La freqüència exacta la definim en la primera visita segons el cas." },
   ],
   es: [
     { q: "¿Se puede curar la miopía de un niño?", a: "No. La miopía no se cura, pero sí se puede frenar su progresión con métodos ópticos de control y con hábitos visuales adecuados. El objetivo es llegar a la edad adulta con la graduación más baja posible." },
     { q: "¿A qué edad se puede empezar?", a: "Depende del método. Las lentes de gafa de desenfoque periférico se pueden poner desde los 6 años; la Orto-K y las lentillas de control suelen empezar hacia los 8-9 años, cuando el niño tiene suficiente autonomía para manipularlas con higiene." },
     { q: "¿Usáis atropina?", a: "No. En Looptica trabajamos con métodos ópticos. Si el caso requiere tratamiento farmacológico, lo derivamos al oftalmólogo." },
+    { q: "¿Hacéis terapia visual?", a: "No. No hacemos terapia visual ni tratamientos médicos. Nuestra intervención es óptica: lentes y lentillas de control de la miopía, ajuste y seguimiento, siempre a partir del diagnóstico y la prescripción del oftalmólogo." },
     { q: "¿Cuántas revisiones hacen falta?", a: "Programamos controles periódicos durante todo el proceso para medir la progresión y ajustar el tratamiento. La frecuencia exacta la definimos en la primera visita según el caso." },
   ],
   en: [
     { q: "Can a child's myopia be cured?", a: "No. Myopia cannot be cured, but its progression can be slowed with optical control methods and good visual habits. The goal is to reach adulthood with the lowest possible prescription." },
     { q: "At what age can we start?", a: "It depends on the method. Peripheral defocus spectacle lenses can be fitted from age 6; Ortho-K and control contact lenses usually start around 8-9, when the child can handle them hygienically." },
     { q: "Do you use atropine?", a: "No. At Looptica we work with optical methods. If a case requires pharmacological treatment, we refer to an ophthalmologist." },
+    { q: "Do you offer vision therapy?", a: "No. We do not provide vision therapy or medical treatment. Our role is optical: myopia control spectacle and contact lenses, fitting and follow-up, always based on the ophthalmologist's diagnosis and prescription." },
     { q: "How many check-ups are needed?", a: "We schedule regular reviews throughout the process to measure progression and adjust the treatment. The exact frequency is set at the first visit." },
   ],
   de: [
     { q: "Kann Kurzsichtigkeit bei Kindern geheilt werden?", a: "Nein. Myopie ist nicht heilbar, aber ihr Fortschreiten lässt sich mit optischen Kontrollmethoden und guten Sehgewohnheiten bremsen. Ziel sind möglichst niedrige Werte im Erwachsenenalter." },
     { q: "Ab welchem Alter kann man beginnen?", a: "Je nach Methode. Defokus-Brillengläser ab 6 Jahren; Ortho-K und Kontrolllinsen meist ab 8-9 Jahren, wenn das Kind sie hygienisch handhaben kann." },
     { q: "Verwenden Sie Atropin?", a: "Nein. Wir arbeiten mit optischen Methoden. Ist eine medikamentöse Behandlung nötig, überweisen wir an den Augenarzt." },
+    { q: "Bieten Sie Sehtherapie an?", a: "Nein. Wir bieten keine Sehtherapie und keine medizinischen Behandlungen an. Unsere Aufgabe ist optisch: Brillengläser und Kontaktlinsen zur Myopiekontrolle, Anpassung und Nachsorge — stets auf Basis von Diagnose und Verordnung des Augenarztes." },
     { q: "Wie viele Kontrollen sind nötig?", a: "Wir planen regelmäßige Kontrollen, um die Progression zu messen und die Versorgung anzupassen. Die genaue Frequenz legen wir beim Ersttermin fest." },
   ],
 };

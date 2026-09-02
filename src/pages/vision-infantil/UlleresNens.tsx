@@ -124,22 +124,23 @@ const lensesTitle = {
 
 const lenses = {
   ca: [
-    "A Looptica adaptem lentilles de contacte a nens des dels 0 anys. Això inclou lents pediàtriques per a casos com la catarata congènita, en què després de la cirurgia cal compensar òpticament l'ull operat perquè el sistema visual es pugui desenvolupar amb normalitat.",
+    "A Looptica adaptem lentilles de contacte a nens des dels 0 anys, sempre per prescripció i indicació de l'oftalmòleg. Això inclou lents pediàtriques per a casos com la catarata congènita, en què després de la cirurgia cal compensar òpticament l'ull operat perquè el sistema visual es pugui desenvolupar amb normalitat.",
     "Són adaptacions delicades, que fem en coordinació amb l'oftalmòleg i amb un seguiment estret: els paràmetres de l'ull d'un nadó canvien ràpid i cal revisar-los sovint. També ensenyem als pares a manipular i mantenir les lents amb seguretat.",
     "En nens més grans, les lentilles solen aparèixer per l'esport, per una diferència de graduació important entre els dos ulls o com a part d'un programa de control de la miopia. No hi ha una edat màgica: el que compta és la responsabilitat i la higiene, i això ho valorem cas per cas.",
   ],
   es: [
-    "En Looptica adaptamos lentes de contacto a niños desde los 0 años. Esto incluye lentes pediátricas para casos como la catarata congénita, en los que tras la cirugía hay que compensar ópticamente el ojo operado para que el sistema visual pueda desarrollarse con normalidad.",
+    "En Looptica adaptamos lentes de contacto a niños desde los 0 años, siempre por prescripción e indicación del oftalmólogo. Esto incluye lentes pediátricas para casos como la catarata congénita, en los que tras la cirugía hay que compensar ópticamente el ojo operado para que el sistema visual pueda desarrollarse con normalidad.",
     "Son adaptaciones delicadas, que hacemos en coordinación con el oftalmólogo y con un seguimiento estrecho: los parámetros del ojo de un bebé cambian rápido y hay que revisarlos a menudo. También enseñamos a los padres a manipular y mantener las lentes con seguridad.",
     "En niños más mayores, las lentillas suelen aparecer por el deporte, por una diferencia de graduación importante entre ambos ojos o como parte de un programa de control de la miopía. No hay una edad mágica: lo que cuenta es la responsabilidad y la higiene, y eso lo valoramos caso por caso.",
   ],
   en: [
-    "At Looptica we fit contact lenses for children from age 0. That includes paediatric lenses for cases such as congenital cataract, where after surgery the operated eye must be optically compensated so the visual system can develop normally.",
+    "At Looptica we fit contact lenses for children from age 0, always on the ophthalmologist's prescription and indication. That includes paediatric lenses for cases such as congenital cataract, where after surgery the operated eye must be optically compensated so the visual system can develop normally.",
     "These are delicate fittings, done in coordination with the ophthalmologist and with close follow-up: a baby's eye parameters change quickly and need frequent review. We also teach parents to handle and care for the lenses safely.",
     "In older children, contact lenses usually come up for sport, for a significant difference in prescription between the eyes, or as part of a myopia control programme. There is no magic age: what counts is responsibility and hygiene, assessed case by case.",
   ],
   de: [
-    "Bei Looptica passen wir Kontaktlinsen für Kinder ab 0 Jahren an. Dazu gehören pädiatrische Linsen bei angeborenem Katarakt, wo das operierte Auge nach dem Eingriff optisch ausgeglichen werden muss, damit sich das Sehsystem normal entwickeln kann.",
+    "Bei Looptica passen wir Kontaktlinsen für Kinder ab 0 Jahren an — immer auf Verordnung und Anweisung des Augenarztes. Dazu gehören pädiatrische Linsen bei angeborenem Katarakt, wo das operierte Auge nach dem Eingriff optisch ausgeglichen werden muss, damit sich das Sehsystem normal entwickeln kann.",
+
     "Das sind anspruchsvolle Anpassungen, die wir in Abstimmung mit dem Augenarzt und mit enger Nachkontrolle durchführen: Die Augenwerte eines Säuglings ändern sich schnell. Wir zeigen den Eltern außerdem den sicheren Umgang und die Pflege.",
     "Bei älteren Kindern kommen Kontaktlinsen meist wegen Sport, großer Werteunterschiede zwischen den Augen oder im Rahmen der Myopiekontrolle ins Spiel. Ein magisches Alter gibt es nicht: Entscheidend sind Verantwortung und Hygiene.",
   ],
@@ -155,25 +156,25 @@ const faqTitle = {
 const faqs = {
   ca: [
     { q: "El meu fill no es vol posar les ulleres. Què faig?", a: "Gairebé sempre és una qüestió d'ajust o d'elecció. Revisem que no premin ni rellisquin i deixem que triï la muntura entre opcions adequades. Passa't per la botiga i ho ajustem sense compromís." },
-    { q: "Quantes vegades cal canviar les ulleres?", a: "Depèn del creixement i dels canvis de graduació. En nens en edat de creixement recomanem revisar la graduació i l'ajust un cop l'any com a mínim." },
+    { q: "Quantes vegades cal canviar les ulleres?", a: "Depèn del creixement i dels canvis de graduació. En nens en edat de creixement recomanem una revisió anual amb l'oftalmòleg; a l'òptica comprovem l'ajust i actualitzem les lents segons la seva prescripció." },
     { q: "A partir de quina edat pot portar lentilles?", a: "Adaptem lentilles des dels 0 anys quan hi ha una indicació clínica, com la catarata congènita. Per a ús habitual en nens sans, valorem la maduresa i la higiene de cada cas." },
     { q: "Feu lents pediàtriques per a catarata congènita?", a: "Sí. És una de les adaptacions especials que fem, sempre en coordinació amb l'oftalmòleg i amb revisions freqüents." },
   ],
   es: [
     { q: "Mi hijo no se quiere poner las gafas. ¿Qué hago?", a: "Casi siempre es una cuestión de ajuste o de elección. Revisamos que no aprieten ni resbalen y dejamos que elija la montura entre opciones adecuadas. Pásate por la tienda y lo ajustamos sin compromiso." },
-    { q: "¿Cada cuánto hay que cambiar las gafas?", a: "Depende del crecimiento y de los cambios de graduación. En niños en edad de crecimiento recomendamos revisar la graduación y el ajuste una vez al año como mínimo." },
+    { q: "¿Cada cuánto hay que cambiar las gafas?", a: "Depende del crecimiento y de los cambios de graduación. En niños en edad de crecimiento recomendamos una revisión anual con el oftalmólogo; en la óptica comprobamos el ajuste y actualizamos las lentes según su prescripción." },
     { q: "¿A partir de qué edad puede llevar lentillas?", a: "Adaptamos lentillas desde los 0 años cuando hay una indicación clínica, como la catarata congénita. Para uso habitual en niños sanos, valoramos la madurez y la higiene de cada caso." },
     { q: "¿Hacéis lentes pediátricas para catarata congénita?", a: "Sí. Es una de las adaptaciones especiales que hacemos, siempre en coordinación con el oftalmólogo y con revisiones frecuentes." },
   ],
   en: [
     { q: "My child refuses to wear their glasses. What can I do?", a: "It is almost always a matter of fit or of choice. We check they don't pinch or slip, and let the child pick the frame from suitable options. Drop by the shop and we'll adjust them, no obligation." },
-    { q: "How often should glasses be replaced?", a: "It depends on growth and prescription changes. For growing children we recommend checking the prescription and the fit at least once a year." },
+    { q: "How often should glasses be replaced?", a: "It depends on growth and prescription changes. For growing children we recommend a yearly review with the ophthalmologist; in store we check the fit and update the lenses to their prescription." },
     { q: "From what age can a child wear contact lenses?", a: "We fit contact lenses from age 0 when there is a clinical indication, such as congenital cataract. For routine wear in healthy children, we assess maturity and hygiene case by case." },
     { q: "Do you fit paediatric lenses for congenital cataract?", a: "Yes. It is one of the special fittings we do, always coordinated with the ophthalmologist and with frequent reviews." },
   ],
   de: [
     { q: "Mein Kind will die Brille nicht tragen. Was tun?", a: "Fast immer liegt es an der Passform oder an der Auswahl. Wir prüfen, dass nichts drückt oder rutscht, und lassen das Kind aus geeigneten Modellen wählen. Kommen Sie unverbindlich vorbei." },
-    { q: "Wie oft muss die Brille gewechselt werden?", a: "Das hängt vom Wachstum und von Werteänderungen ab. Bei wachsenden Kindern empfehlen wir mindestens jährlich eine Kontrolle von Werten und Passform." },
+    { q: "Wie oft muss die Brille gewechselt werden?", a: "Das hängt vom Wachstum und von Werteänderungen ab. Bei wachsenden Kindern empfehlen wir eine jährliche Kontrolle beim Augenarzt; im Geschäft prüfen wir die Passform und aktualisieren die Gläser gemäß Verordnung." },
     { q: "Ab welchem Alter sind Kontaktlinsen möglich?", a: "Bei klinischer Indikation wie angeborenem Katarakt ab 0 Jahren. Für den Alltagsgebrauch bei gesunden Kindern beurteilen wir Reife und Hygiene individuell." },
     { q: "Fertigen Sie pädiatrische Linsen bei angeborenem Katarakt an?", a: "Ja. Das ist eine unserer Spezialanpassungen, immer in Abstimmung mit dem Augenarzt und mit engmaschigen Kontrollen." },
   ],
