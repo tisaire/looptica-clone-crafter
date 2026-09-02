@@ -32,22 +32,22 @@ const intro = {
   ca: [
     "Els nens no diuen que hi veuen malament: s'hi acostumen. Per això bona part dels problemes visuals de la infància es detecten a l'escola, quan ja fa temps que hi són. Estar atent als senyals i actuar aviat és la manera més senzilla d'evitar-ho.",
     "A Looptica no fem la primera exploració visual d'un nen petit que no s'ha examinat mai. En aquests casos recomanem i derivem primer a l'oftalmòleg, que és qui ha de descartar possibles patologies i establir el diagnòstic i el tractament.",
-    "A partir d'aquí és on entrem nosaltres: proporcionem la solució òptica adequada segons la prescripció —ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K— i fem el seguiment de manera coordinada amb l'oftalmòleg i seguint les seves indicacions. No fem teràpia visual.",
+    "A partir d'aquí és on entrem nosaltres: proporcionem la solució òptica adequada segons la prescripció —ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K— i fem el seguiment de manera coordinada amb l'oftalmòleg i seguint les seves indicacions. La teràpia visual i els tractaments mèdics són responsabilitat de l'oftalmòleg.",
   ],
   es: [
     "Los niños no dicen que ven mal: se acostumbran. Por eso buena parte de los problemas visuales de la infancia se detectan en el colegio, cuando ya llevan tiempo ahí. Estar atento a las señales y actuar pronto es la forma más sencilla de evitarlo.",
     "En Looptica no realizamos la primera exploración visual de un niño pequeño que nunca ha sido examinado. En estos casos recomendamos y derivamos primero al oftalmólogo, que es quien debe descartar posibles patologías y establecer el diagnóstico y el tratamiento.",
-    "A partir de ahí entramos nosotros: proporcionamos la solución óptica adecuada según la prescripción —gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K— y hacemos el seguimiento de forma coordinada con el oftalmólogo y según sus indicaciones. No realizamos terapia visual.",
+    "A partir de ahí entramos nosotros: proporcionamos la solución óptica adecuada según la prescripción —gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K— y hacemos el seguimiento de forma coordinada con el oftalmólogo y según sus indicaciones. La terapia visual y los tratamientos médicos son responsabilidad del oftalmólogo.",
   ],
   en: [
     "Children rarely say they can't see well — they simply adapt. That is why many childhood vision problems are only spotted at school, long after they started. Watching for the warning signs and acting early is the simplest way to avoid that.",
     "At Looptica we do not carry out the first eye examination of a young child who has never been examined. In those cases we recommend and refer to an ophthalmologist first, as they are the ones who must rule out any pathology and set the diagnosis and treatment.",
-    "That is where we come in afterwards: we provide the right optical solution according to the prescription — glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses — and follow up in coordination with the ophthalmologist and according to their instructions. We do not provide vision therapy.",
+    "That is where we come in afterwards: we provide the right optical solution according to the prescription — glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses — and follow up in coordination with the ophthalmologist and according to their instructions. Vision therapy and medical treatments are the ophthalmologist's responsibility.",
   ],
   de: [
     "Kinder sagen nicht, dass sie schlecht sehen — sie gewöhnen sich daran. Deshalb werden viele Sehprobleme erst in der Schule bemerkt. Auf Warnzeichen zu achten und früh zu handeln ist der einfachste Weg, das zu vermeiden.",
     "Bei Looptica führen wir die erste Augenuntersuchung eines noch nie untersuchten kleinen Kindes nicht durch. In solchen Fällen empfehlen wir und überweisen zunächst an den Augenarzt, der mögliche Erkrankungen ausschließen und Diagnose sowie Behandlung festlegen muss.",
-    "Danach kommen wir ins Spiel: Wir liefern die passende optische Lösung gemäß Verordnung — Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen — und begleiten den Verlauf in Abstimmung mit dem Augenarzt und nach seinen Vorgaben. Sehtherapie bieten wir nicht an.",
+    "Danach kommen wir ins Spiel: Wir liefern die passende optische Lösung gemäß Verordnung — Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen — und begleiten den Verlauf in Abstimmung mit dem Augenarzt und nach seinen Vorgaben. Sehtherapie und medizinische Behandlungen liegen in der Verantwortung des Augenarztes.",
   ],
 };
 
