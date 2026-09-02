@@ -156,24 +156,28 @@ const faqs = {
     { q: "Es pot curar la miopia d'un nen?", a: "No. La miopia no es cura, però sí que es pot frenar la seva progressió amb mètodes òptics de control i amb hàbits visuals adequats. L'objectiu és arribar a l'edat adulta amb la graduació més baixa possible." },
     { q: "A quina edat es pot començar?", a: "Depèn del mètode. Les lents de gafa de desenfocament perifèric es poden posar des dels 6 anys; l'Orto-K i les lentilles de control acostumen a començar cap als 8-9 anys, quan el nen té prou autonomia per manipular-les amb higiene." },
     { q: "Feu servir atropina?", a: "No. A Looptica treballem amb mètodes òptics. Si el cas requereix tractament farmacològic, el derivem a l'oftalmòleg." },
+    { q: "Feu teràpia visual?", a: "No. No fem teràpia visual ni tractaments mèdics. La nostra intervenció és òptica: lents i lentilles de control de la miopia, ajust i seguiment, sempre a partir del diagnòstic i la prescripció de l'oftalmòleg." },
     { q: "Quantes revisions calen?", a: "Programem controls periòdics durant tot el procés per mesurar la progressió i ajustar el tractament. La freqüència exacta la definim en la primera visita segons el cas." },
   ],
   es: [
     { q: "¿Se puede curar la miopía de un niño?", a: "No. La miopía no se cura, pero sí se puede frenar su progresión con métodos ópticos de control y con hábitos visuales adecuados. El objetivo es llegar a la edad adulta con la graduación más baja posible." },
     { q: "¿A qué edad se puede empezar?", a: "Depende del método. Las lentes de gafa de desenfoque periférico se pueden poner desde los 6 años; la Orto-K y las lentillas de control suelen empezar hacia los 8-9 años, cuando el niño tiene suficiente autonomía para manipularlas con higiene." },
     { q: "¿Usáis atropina?", a: "No. En Looptica trabajamos con métodos ópticos. Si el caso requiere tratamiento farmacológico, lo derivamos al oftalmólogo." },
+    { q: "¿Hacéis terapia visual?", a: "No. No hacemos terapia visual ni tratamientos médicos. Nuestra intervención es óptica: lentes y lentillas de control de la miopía, ajuste y seguimiento, siempre a partir del diagnóstico y la prescripción del oftalmólogo." },
     { q: "¿Cuántas revisiones hacen falta?", a: "Programamos controles periódicos durante todo el proceso para medir la progresión y ajustar el tratamiento. La frecuencia exacta la definimos en la primera visita según el caso." },
   ],
   en: [
     { q: "Can a child's myopia be cured?", a: "No. Myopia cannot be cured, but its progression can be slowed with optical control methods and good visual habits. The goal is to reach adulthood with the lowest possible prescription." },
     { q: "At what age can we start?", a: "It depends on the method. Peripheral defocus spectacle lenses can be fitted from age 6; Ortho-K and control contact lenses usually start around 8-9, when the child can handle them hygienically." },
     { q: "Do you use atropine?", a: "No. At Looptica we work with optical methods. If a case requires pharmacological treatment, we refer to an ophthalmologist." },
+    { q: "Do you offer vision therapy?", a: "No. We do not provide vision therapy or medical treatment. Our role is optical: myopia control spectacle and contact lenses, fitting and follow-up, always based on the ophthalmologist's diagnosis and prescription." },
     { q: "How many check-ups are needed?", a: "We schedule regular reviews throughout the process to measure progression and adjust the treatment. The exact frequency is set at the first visit." },
   ],
   de: [
     { q: "Kann Kurzsichtigkeit bei Kindern geheilt werden?", a: "Nein. Myopie ist nicht heilbar, aber ihr Fortschreiten lässt sich mit optischen Kontrollmethoden und guten Sehgewohnheiten bremsen. Ziel sind möglichst niedrige Werte im Erwachsenenalter." },
     { q: "Ab welchem Alter kann man beginnen?", a: "Je nach Methode. Defokus-Brillengläser ab 6 Jahren; Ortho-K und Kontrolllinsen meist ab 8-9 Jahren, wenn das Kind sie hygienisch handhaben kann." },
     { q: "Verwenden Sie Atropin?", a: "Nein. Wir arbeiten mit optischen Methoden. Ist eine medikamentöse Behandlung nötig, überweisen wir an den Augenarzt." },
+    { q: "Bieten Sie Sehtherapie an?", a: "Nein. Wir bieten keine Sehtherapie und keine medizinischen Behandlungen an. Unsere Aufgabe ist optisch: Brillengläser und Kontaktlinsen zur Myopiekontrolle, Anpassung und Nachsorge — stets auf Basis von Diagnose und Verordnung des Augenarztes."),
     { q: "Wie viele Kontrollen sind nötig?", a: "Wir planen regelmäßige Kontrollen, um die Progression zu messen und die Versorgung anzupassen. Die genaue Frequenz legen wir beim Ersttermin fest." },
   ],
 };
