@@ -5,6 +5,7 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Language } from '@/config/languages';
+import heroImage from '@/assets/ulleres-nens-hero.jpg';
 
 const pageTitle: { [key in Language]: string } = {
   ca: "Ulleres i Lentilles per a Nens a Barcelona Poblenou",
@@ -214,7 +215,7 @@ const UlleresNens = () => {
       <ServiceLayout
         title={hero[lang].title}
         subtitle={hero[lang].subtitle}
-        image="/lovable-uploads/45087a9c-489a-4d48-82fb-d857e7bf306a.jpg"
+        image={heroImage}
         pageTitle={pageTitle}
         pageDescription={pageDescription}
         appointmentSubject="Ulleres i lentilles infantils a Looptica"

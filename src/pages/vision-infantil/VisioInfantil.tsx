@@ -5,6 +5,7 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Language } from '@/config/languages';
+import heroImage from '@/assets/vision-infantil-hero.jpg';
 
 const pageTitle: { [key in Language]: string } = {
   ca: "Òptica Infantil Barcelona Poblenou | Revisió Visual de Nens",
@@ -208,7 +209,7 @@ const VisioInfantil = () => {
       <ServiceLayout
         title={hero[lang].title}
         subtitle={hero[lang].subtitle}
-        image="/images/DSC4608_compressed.jpg"
+        image={heroImage}
         pageTitle={pageTitle}
         pageDescription={pageDescription}
         appointmentSubject="Revisió visual infantil a Looptica"
