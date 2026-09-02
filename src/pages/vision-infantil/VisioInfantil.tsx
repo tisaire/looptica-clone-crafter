@@ -187,13 +187,13 @@ const faqs = {
   en: [
     { q: "Do you carry out a young child's first eye exam?", a: "No. If the child has never been examined, we recommend and refer to an ophthalmologist first to rule out any pathology. Once we have their diagnosis and prescription, we take care of the optical solution and the follow-up." },
     { q: "How do you coordinate with the ophthalmologist?", a: "We work to their instructions: we fit the prescribed correction, monitor how the prescription evolves and pass on the information from our check-ups so they can review the case with up-to-date data." },
-    { q: "Do you offer vision therapy?", a: "No. Looptica does not provide vision therapy. Our role is limited to the optical solution: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses." },
+    { q: "Do you offer vision therapy?", a: "At Looptica we focus on the optical side: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses, fitting and follow-up, always following the ophthalmologist's prescription. Vision therapy and medical treatments are the ophthalmologist's responsibility." },
     { q: "Which languages do you work in?", a: "Catalan, Spanish, English and German." },
   ],
   de: [
     { q: "Führen Sie die erste Augenuntersuchung bei kleinen Kindern durch?", a: "Nein. War das Kind noch nie untersucht, empfehlen wir und überweisen zunächst an den Augenarzt, um Erkrankungen auszuschließen. Mit seiner Diagnose und Verordnung übernehmen wir die optische Lösung und die Nachbetreuung." },
     { q: "Wie stimmen Sie sich mit dem Augenarzt ab?", a: "Wir arbeiten nach seinen Vorgaben: Wir passen die verordnete Korrektion an, kontrollieren die Werteentwicklung und übermitteln die Ergebnisse unserer Kontrollen, damit er den Fall mit aktuellen Daten beurteilen kann." },
-    { q: "Bieten Sie Sehtherapie an?", a: "Nein. Looptica bietet keine Sehtherapie an. Unsere Aufgabe ist die optische Lösung: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen." },
+    { q: "Bieten Sie Sehtherapie an?", a: "Bei Looptica konzentrieren wir uns auf die optische Seite: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, Anpassung und Nachsorge, immer nach augenärztlicher Verordnung. Sehtherapie und medizinische Behandlungen liegen in der Verantwortung des Augenarztes." },
     { q: "In welchen Sprachen beraten Sie?", a: "Katalanisch, Spanisch, Englisch und Deutsch." },
   ],
 };
