@@ -125,17 +125,44 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              to={link.path}
-              className="text-sm font-medium transition-all hover:text-[#55afa9] text-gray-900 drop-shadow-sm"
-              onClick={handleAnchorClick} // Use unified handler
-            >
-              {link.name}
-            </Link>
-          ))}
+          {navLinks.map((link) =>
+            link.children ? (
+              <div key={link.name} className="relative group">
+                <button
+                  type="button"
+                  className="flex items-center text-sm font-medium transition-all hover:text-[#55afa9] text-gray-900 drop-shadow-sm"
+                >
+                  {link.name}
+                  <ChevronDown className="ml-1 h-4 w-4" />
+                </button>
+                <div className="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block">
+                  <div className="min-w-[220px] bg-white rounded-lg shadow-lg border border-gray-100 py-2">
+                    {link.children.map((child) => (
+                      <Link
+                        key={child.name}
+                        to={child.path}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#55afa9]/10 hover:text-[#55afa9]"
+                        onClick={handleAnchorClick}
+                      >
+                        {child.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <Link
+                key={link.name}
+                to={link.path!}
+                className="text-sm font-medium transition-all hover:text-[#55afa9] text-gray-900 drop-shadow-sm"
+                onClick={handleAnchorClick} // Use unified handler
+              >
+                {link.name}
+              </Link>
+            )
+          )}
         </div>
+
 
         {/* Call to Action Buttons and Language Switcher */}
         <div className="hidden md:flex items-center space-x-4">
