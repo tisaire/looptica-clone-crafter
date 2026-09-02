@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, Calendar, Phone } from 'lucide-react';
+import { Menu, X, Calendar, Phone, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -205,16 +205,32 @@ const Navbar = () => {
           )}
         >
           <div className="h-full flex flex-col items-center justify-center space-y-8 p-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                to={link.path}
-                className="text-xl font-medium transition-all hover:text-[#55afa9] text-gray-800"
-                onClick={handleAnchorClick} // Use unified handler
-              >
-                {link.name}
-              </Link>
-            ))}
+            {navLinks.map((link) =>
+              link.children ? (
+                <div key={link.name} className="flex flex-col items-center space-y-3">
+                  <span className="text-xl font-medium text-gray-800">{link.name}</span>
+                  {link.children.map((child) => (
+                    <Link
+                      key={child.name}
+                      to={child.path}
+                      className="text-base text-gray-600 transition-all hover:text-[#55afa9]"
+                      onClick={handleAnchorClick}
+                    >
+                      {child.name}
+                    </Link>
+                  ))}
+                </div>
+              ) : (
+                <Link
+                  key={link.name}
+                  to={link.path!}
+                  className="text-xl font-medium transition-all hover:text-[#55afa9] text-gray-800"
+                  onClick={handleAnchorClick} // Use unified handler
+                >
+                  {link.name}
+                </Link>
+              )
+            )}
             <a href="tel:+34933009064" className="flex items-center text-gray-700 hover:text-[#55afa9]">
               <Phone className="h-5 w-5 mr-2" />
               <span className="text-lg font-medium">933 00 90 64</span>
