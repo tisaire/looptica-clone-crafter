@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Navbar from '@/components/layout/Navbar';
 import Hero from '@/components/home/Hero';
-import Products from '@/components/home/Products';
+import ChildrenVision from '@/components/home/ChildrenVision';
 import OpticalServices from '@/components/home/OpticalServices';
 import Audiology from '@/components/home/Audiology';
 import Testimonials from '@/components/home/Testimonials';
@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.5.3-remove-vision-therapy-responsibility"; // Removed explicit ophthalmologist responsibility line from children's vision pages
+const CURRENT_VERSION = "v2.6.0-simplified-architecture"; // Merged Products into Optical services, added Children's vision home block, Services dropdown in navbar
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
@@ -119,12 +119,10 @@ const DeferredContent = () => {
 
   return (
     <>
-      <div id="products">
-        <Products />
-      </div>
       <div id="optical">
         <OpticalServices />
       </div>
+      <ChildrenVision />
       <div id="audiology">
         <Audiology />
         <div className="container mx-auto px-4 mt-4 text-center">

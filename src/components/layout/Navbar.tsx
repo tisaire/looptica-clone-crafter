@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, Calendar, Phone } from 'lucide-react';
+import { Menu, X, Calendar, Phone, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -17,14 +17,23 @@ const Navbar = () => {
   // Check if we're on the homepage for the current language
   const isHomePage = location.pathname === `/${language}` || location.pathname === `/${language}/`;
 
-  const navLinks = [
+  type NavChild = { name: string; path: string };
+  type NavLink = { name: string; path?: string; children?: NavChild[] };
+
+  const navLinks: NavLink[] = [
     { name: t('home'), path: `/${language}` },
-    { name: t('opticalServices'), path: isHomePage ? `/${language}/#optical` : `/${language}/#optical` },
-    { name: t('audiologyServices'), path: isHomePage ? `/${language}/#audiology` : `/${language}/#audiology` },
-    { name: t('childrenVision'), path: `/${language}/visio-infantil` },
+    {
+      name: t('breadcrumbServices'),
+      children: [
+        { name: t('opticalServices'), path: `/${language}/#optical` },
+        { name: t('childrenVision'), path: `/${language}/visio-infantil` },
+        { name: t('audiologyServices'), path: `/${language}/#audiology` },
+      ],
+    },
     { name: t('about'), path: `/${language}/about` },
     { name: t('contact'), path: isHomePage ? `/${language}/#contact` : `/${language}/#contact` },
   ];
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -116,17 +125,44 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              to={link.path}
-              className="text-sm font-medium transition-all hover:text-[#55afa9] text-gray-900 drop-shadow-sm"
-              onClick={handleAnchorClick} // Use unified handler
-            >
-              {link.name}
-            </Link>
-          ))}
+          {navLinks.map((link) =>
+            link.children ? (
+              <div key={link.name} className="relative group">
+                <button
+                  type="button"
+                  className="flex items-center text-sm font-medium transition-all hover:text-[#55afa9] text-gray-900 drop-shadow-sm"
+                >
+                  {link.name}
+                  <ChevronDown className="ml-1 h-4 w-4" />
+                </button>
+                <div className="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block">
+                  <div className="min-w-[220px] bg-white rounded-lg shadow-lg border border-gray-100 py-2">
+                    {link.children.map((child) => (
+                      <Link
+                        key={child.name}
+                        to={child.path}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#55afa9]/10 hover:text-[#55afa9]"
+                        onClick={handleAnchorClick}
+                      >
+                        {child.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <Link
+                key={link.name}
+                to={link.path!}
+                className="text-sm font-medium transition-all hover:text-[#55afa9] text-gray-900 drop-shadow-sm"
+                onClick={handleAnchorClick} // Use unified handler
+              >
+                {link.name}
+              </Link>
+            )
+          )}
         </div>
+
 
         {/* Call to Action Buttons and Language Switcher */}
         <div className="hidden md:flex items-center space-x-4">
@@ -169,16 +205,32 @@ const Navbar = () => {
           )}
         >
           <div className="h-full flex flex-col items-center justify-center space-y-8 p-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                to={link.path}
-                className="text-xl font-medium transition-all hover:text-[#55afa9] text-gray-800"
-                onClick={handleAnchorClick} // Use unified handler
-              >
-                {link.name}
-              </Link>
-            ))}
+            {navLinks.map((link) =>
+              link.children ? (
+                <div key={link.name} className="flex flex-col items-center space-y-3">
+                  <span className="text-xl font-medium text-gray-800">{link.name}</span>
+                  {link.children.map((child) => (
+                    <Link
+                      key={child.name}
+                      to={child.path}
+                      className="text-base text-gray-600 transition-all hover:text-[#55afa9]"
+                      onClick={handleAnchorClick}
+                    >
+                      {child.name}
+                    </Link>
+                  ))}
+                </div>
+              ) : (
+                <Link
+                  key={link.name}
+                  to={link.path!}
+                  className="text-xl font-medium transition-all hover:text-[#55afa9] text-gray-800"
+                  onClick={handleAnchorClick} // Use unified handler
+                >
+                  {link.name}
+                </Link>
+              )
+            )}
             <a href="tel:+34933009064" className="flex items-center text-gray-700 hover:text-[#55afa9]">
               <Phone className="h-5 w-5 mr-2" />
               <span className="text-lg font-medium">933 00 90 64</span>
