@@ -156,25 +156,25 @@ const faqTitle = {
 const faqs = {
   ca: [
     { q: "El meu fill no es vol posar les ulleres. Què faig?", a: "Gairebé sempre és una qüestió d'ajust o d'elecció. Revisem que no premin ni rellisquin i deixem que triï la muntura entre opcions adequades. Passa't per la botiga i ho ajustem sense compromís." },
-    { q: "Quantes vegades cal canviar les ulleres?", a: "Depèn del creixement i dels canvis de graduació. En nens en edat de creixement recomanem revisar la graduació i l'ajust un cop l'any com a mínim." },
+    { q: "Quantes vegades cal canviar les ulleres?", a: "Depèn del creixement i dels canvis de graduació. En nens en edat de creixement recomanem una revisió anual amb l'oftalmòleg; a l'òptica comprovem l'ajust i actualitzem les lents segons la seva prescripció." },
     { q: "A partir de quina edat pot portar lentilles?", a: "Adaptem lentilles des dels 0 anys quan hi ha una indicació clínica, com la catarata congènita. Per a ús habitual en nens sans, valorem la maduresa i la higiene de cada cas." },
     { q: "Feu lents pediàtriques per a catarata congènita?", a: "Sí. És una de les adaptacions especials que fem, sempre en coordinació amb l'oftalmòleg i amb revisions freqüents." },
   ],
   es: [
     { q: "Mi hijo no se quiere poner las gafas. ¿Qué hago?", a: "Casi siempre es una cuestión de ajuste o de elección. Revisamos que no aprieten ni resbalen y dejamos que elija la montura entre opciones adecuadas. Pásate por la tienda y lo ajustamos sin compromiso." },
-    { q: "¿Cada cuánto hay que cambiar las gafas?", a: "Depende del crecimiento y de los cambios de graduación. En niños en edad de crecimiento recomendamos revisar la graduación y el ajuste una vez al año como mínimo." },
+    { q: "¿Cada cuánto hay que cambiar las gafas?", a: "Depende del crecimiento y de los cambios de graduación. En niños en edad de crecimiento recomendamos una revisión anual con el oftalmólogo; en la óptica comprobamos el ajuste y actualizamos las lentes según su prescripción." },
     { q: "¿A partir de qué edad puede llevar lentillas?", a: "Adaptamos lentillas desde los 0 años cuando hay una indicación clínica, como la catarata congénita. Para uso habitual en niños sanos, valoramos la madurez y la higiene de cada caso." },
     { q: "¿Hacéis lentes pediátricas para catarata congénita?", a: "Sí. Es una de las adaptaciones especiales que hacemos, siempre en coordinación con el oftalmólogo y con revisiones frecuentes." },
   ],
   en: [
     { q: "My child refuses to wear their glasses. What can I do?", a: "It is almost always a matter of fit or of choice. We check they don't pinch or slip, and let the child pick the frame from suitable options. Drop by the shop and we'll adjust them, no obligation." },
-    { q: "How often should glasses be replaced?", a: "It depends on growth and prescription changes. For growing children we recommend checking the prescription and the fit at least once a year." },
+    { q: "How often should glasses be replaced?", a: "It depends on growth and prescription changes. For growing children we recommend a yearly review with the ophthalmologist; in store we check the fit and update the lenses to their prescription." },
     { q: "From what age can a child wear contact lenses?", a: "We fit contact lenses from age 0 when there is a clinical indication, such as congenital cataract. For routine wear in healthy children, we assess maturity and hygiene case by case." },
     { q: "Do you fit paediatric lenses for congenital cataract?", a: "Yes. It is one of the special fittings we do, always coordinated with the ophthalmologist and with frequent reviews." },
   ],
   de: [
     { q: "Mein Kind will die Brille nicht tragen. Was tun?", a: "Fast immer liegt es an der Passform oder an der Auswahl. Wir prüfen, dass nichts drückt oder rutscht, und lassen das Kind aus geeigneten Modellen wählen. Kommen Sie unverbindlich vorbei." },
-    { q: "Wie oft muss die Brille gewechselt werden?", a: "Das hängt vom Wachstum und von Werteänderungen ab. Bei wachsenden Kindern empfehlen wir mindestens jährlich eine Kontrolle von Werten und Passform." },
+    { q: "Wie oft muss die Brille gewechselt werden?", a: "Das hängt vom Wachstum und von Werteänderungen ab. Bei wachsenden Kindern empfehlen wir eine jährliche Kontrolle beim Augenarzt; im Geschäft prüfen wir die Passform und aktualisieren die Gläser gemäß Verordnung." },
     { q: "Ab welchem Alter sind Kontaktlinsen möglich?", a: "Bei klinischer Indikation wie angeborenem Katarakt ab 0 Jahren. Für den Alltagsgebrauch bei gesunden Kindern beurteilen wir Reife und Hygiene individuell." },
     { q: "Fertigen Sie pädiatrische Linsen bei angeborenem Katarakt an?", a: "Ja. Das ist eine unserer Spezialanpassungen, immer in Abstimmung mit dem Augenarzt und mit engmaschigen Kontrollen." },
   ],
