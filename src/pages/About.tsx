@@ -43,10 +43,10 @@ const About = () => {
       {
         name: "Elena",
         role: {
-          en: "Owner\n\nOptician Optometrist",
-          es: "Propietaria\n\nÓptica Optometrista",
-          ca: "Propietària\n\nÒptica Optometrista",
-          de: "Inhaberin\n\nOptikerin Optometristin"
+          en: "Owner\n\nOptician Optometrist\n\nLicensed Optician Optometrist Col. 18568",
+          es: "Propietaria\n\nÓptica Optometrista\n\nColegiada Col. 18568",
+          ca: "Propietària\n\nÒptica Optometrista\n\nCol·legiada Col. 18568",
+          de: "Inhaberin\n\nOptikerin Optometristin\n\nMitglied der Berufskammer Col. 18568"
         },
         image: "/images/_DSC4776.jpg",
         bio: {
