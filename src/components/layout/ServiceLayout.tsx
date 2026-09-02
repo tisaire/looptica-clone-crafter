@@ -165,9 +165,10 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
               )}
             </div>
           </div>
+          <ReviewedByElena />
         </main>
         
-        <FloatingWhatsApp 
+        <FloatingWhatsApp
           phoneNumber="34699594064"
           accountName="Looptica"
           statusMessage={whatsappTranslations.statusMessage[language as keyof typeof whatsappTranslations.statusMessage]}
