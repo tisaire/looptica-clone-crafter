@@ -2,7 +2,7 @@ import { Baby, Eye, Glasses } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
-import controlMiopiaImage from '@/assets/control-miopia-card.jpg';
+import visionInfantilHeroImage from '@/assets/vision-infantil-hero.jpg';
 import ullGandulImage from '@/assets/ull-gandul-card.jpg';
 import ulleresNensImage from '@/assets/ulleres-nens-hero.jpg';
 
