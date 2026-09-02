@@ -7,10 +7,10 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Language } from '@/config/languages';
 
 const pageTitle: { [key in Language]: string } = {
-  ca: "Ulleres i Lentilles per a Nens a Barcelona | Looptica Poblenou",
-  es: "Gafas y Lentillas para Niños en Barcelona | Looptica Poblenou",
-  en: "Kids' Glasses and Contact Lenses in Barcelona | Looptica Poblenou",
-  de: "Kinderbrillen und Kontaktlinsen in Barcelona | Looptica Poblenou",
+  ca: "Ulleres i Lentilles per a Nens a Barcelona Poblenou",
+  es: "Gafas y Lentillas para Niños en Barcelona Poblenou",
+  en: "Kids' Glasses and Contact Lenses in Barcelona Poblenou",
+  de: "Kinderbrillen und Kontaktlinsen in Barcelona Poblenou",
 };
 
 const pageDescription: { [key in Language]: string } = {

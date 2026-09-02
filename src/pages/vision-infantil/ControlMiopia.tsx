@@ -7,10 +7,10 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Language } from '@/config/languages';
 
 const pageTitle: { [key in Language]: string } = {
-  ca: "Control de la Miopia Infantil a Barcelona | Looptica Poblenou",
-  es: "Control de la Miopía Infantil en Barcelona | Looptica Poblenou",
-  en: "Childhood Myopia Control in Barcelona | Looptica Poblenou",
-  de: "Myopiekontrolle bei Kindern in Barcelona | Looptica Poblenou",
+  ca: "Control de la Miopia Infantil a Barcelona Poblenou",
+  es: "Control de la Miopía Infantil en Barcelona Poblenou",
+  en: "Childhood Myopia Control in Barcelona Poblenou",
+  de: "Myopiekontrolle bei Kindern in Barcelona Poblenou",
 };
 
 const pageDescription: { [key in Language]: string } = {

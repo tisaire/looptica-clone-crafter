@@ -7,10 +7,10 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Language } from '@/config/languages';
 
 const pageTitle: { [key in Language]: string } = {
-  ca: "Ull Gandul i Teràpia Visual a Barcelona | Looptica Poblenou",
-  es: "Ojo Vago y Terapia Visual en Barcelona | Looptica Poblenou",
-  en: "Lazy Eye and Vision Therapy in Barcelona | Looptica Poblenou",
-  de: "Schwachsichtigkeit und Sehtherapie in Barcelona | Looptica Poblenou",
+  ca: "Ull Gandul i Teràpia Visual a Barcelona Poblenou",
+  es: "Ojo Vago y Terapia Visual en Barcelona Poblenou",
+  en: "Lazy Eye and Vision Therapy in Barcelona Poblenou",
+  de: "Schwachsichtigkeit und Sehtherapie in Barcelona Poblenou",
 };
 
 const pageDescription: { [key in Language]: string } = {
