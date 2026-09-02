@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Navbar from '@/components/layout/Navbar';
 import Hero from '@/components/home/Hero';
-import Products from '@/components/home/Products';
+import ChildrenVision from '@/components/home/ChildrenVision';
 import OpticalServices from '@/components/home/OpticalServices';
 import Audiology from '@/components/home/Audiology';
 import Testimonials from '@/components/home/Testimonials';
@@ -119,11 +119,11 @@ const DeferredContent = () => {
 
   return (
     <>
-      <div id="products">
-        <Products />
-      </div>
       <div id="optical">
         <OpticalServices />
+      </div>
+      <div id="children-vision">
+        <ChildrenVision />
       </div>
       <div id="audiology">
         <Audiology />
