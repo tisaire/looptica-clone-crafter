@@ -21,6 +21,8 @@ interface ServiceLayoutProps {
   pageDescription?: { [key in Language]: string }; // SEO descriptions for each language
   hideCTA?: boolean; // Hide the appointment CTA section at the bottom
   breadcrumbLabel?: string; // Optional shorter label for the current-page breadcrumb crumb
+  /** Optional parent crumbs replacing the default "Services" crumb (e.g. the children's vision hub). */
+  breadcrumbParents?: { label: string; path?: string }[];
 }
 
 const ServiceLayout: React.FC<ServiceLayoutProps> = ({
@@ -33,6 +35,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   pageDescription, // Use this for meta description
   hideCTA = false,
   breadcrumbLabel,
+  breadcrumbParents,
 }) => {
   const { language, t } = useLanguage();
   const [loadedImage, setLoadedImage] = useState('');
@@ -116,10 +119,11 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
           <Breadcrumbs
             currentPath={basePath}
             items={[
-              { label: t('breadcrumbServices') },
+              ...(breadcrumbParents ?? [{ label: t('breadcrumbServices') }]),
               { label: breadcrumbLabel || title },
             ]}
           />
+
         </div>
 
         <main className="flex-grow">
