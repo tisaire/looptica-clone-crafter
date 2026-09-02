@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import controlMiopiaImage from '@/assets/control-miopia-card.jpg';
+import ullGandulImage from '@/assets/ull-gandul-card.jpg';
 import ulleresNensImage from '@/assets/ulleres-nens-hero.jpg';
 
 const content = {
@@ -66,7 +67,7 @@ const icons = [
   <Glasses key="glasses" className="w-10 h-10 text-[#55afa9]" />,
 ];
 
-const images = [controlMiopiaImage, '/images/_DSC4696.jpg', ulleresNensImage];
+const images = [controlMiopiaImage, ullGandulImage, ulleresNensImage];
 
 const ChildrenVision = () => {
   const { language } = useLanguage();
