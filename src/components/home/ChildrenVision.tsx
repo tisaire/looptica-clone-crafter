@@ -67,7 +67,7 @@ const icons = [
   <Glasses key="glasses" className="w-10 h-10 text-[#55afa9]" />,
 ];
 
-const images = [controlMiopiaImage, ullGandulImage, ulleresNensImage];
+const images = [visionInfantilHeroImage, ullGandulImage, ulleresNensImage];
 
 const ChildrenVision = () => {
   const { language } = useLanguage();
