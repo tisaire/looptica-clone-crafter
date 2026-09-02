@@ -166,25 +166,25 @@ const faqTitle = {
 
 const faqs = {
   ca: [
-    { q: "Feu teràpia visual?", a: "No. A Looptica no fem teràpia visual. La nostra intervenció es limita a la solució òptica: ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K, sempre segons la prescripció de l'oftalmòleg." },
+    { q: "Feu teràpia visual?", a: "A Looptica ens centrem en la part òptica: ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K, ajust i seguiment, sempre segons la prescripció de l'oftalmòleg. La teràpia visual i els tractaments mèdics són responsabilitat de l'oftalmòleg." },
     { q: "L'ull gandul es cura només amb el pegat?", a: "El pegat (oclusió) és una part habitual del tractament que pauta l'oftalmòleg, però normalment cal, a més, portar la correcció òptica adequada i ben adaptada. D'aquesta part ens encarreguem nosaltres." },
     { q: "Qui ha de fer el diagnòstic?", a: "L'oftalmòleg. És qui explora el nen, descarta patologies, confirma l'ambliopia i decideix el tractament. Nosaltres som òptics optometristes i treballem després, de manera coordinada i segons les seves indicacions." },
     { q: "Fins a quina edat es pot tractar?", a: "Com més aviat, millor pronòstic; tot i això, hi ha casos que milloren també en edats més avançades. Aquesta valoració la fa l'oftalmòleg en la seva exploració." },
   ],
   es: [
-    { q: "¿Hacéis terapia visual?", a: "No. En Looptica no realizamos terapia visual. Nuestra intervención se limita a la solución óptica: gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K, siempre según la prescripción del oftalmólogo." },
+    { q: "¿Hacéis terapia visual?", a: "En Looptica nos centramos en la parte óptica: gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K, ajuste y seguimiento, siempre según la prescripción del oftalmólogo. La terapia visual y los tratamientos médicos son responsabilidad del oftalmólogo." },
     { q: "¿El ojo vago se cura solo con el parche?", a: "El parche (oclusión) es una parte habitual del tratamiento que pauta el oftalmólogo, pero normalmente hace falta además llevar la corrección óptica adecuada y bien adaptada. De esa parte nos encargamos nosotros." },
     { q: "¿Quién debe hacer el diagnóstico?", a: "El oftalmólogo. Es quien explora al niño, descarta patologías, confirma la ambliopía y decide el tratamiento. Nosotros somos ópticos optometristas y trabajamos después, de forma coordinada y según sus indicaciones." },
     { q: "¿Hasta qué edad se puede tratar?", a: "Cuanto antes, mejor pronóstico; aun así, hay casos que mejoran también en edades más avanzadas. Esa valoración la hace el oftalmólogo en su exploración." },
   ],
   en: [
-    { q: "Do you offer vision therapy?", a: "No. Looptica does not provide vision therapy. Our role is limited to the optical solution: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses, always following the ophthalmologist's prescription." },
+    { q: "Do you offer vision therapy?", a: "At Looptica we focus on the optical side: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses, fitting and follow-up, always following the ophthalmologist's prescription. Vision therapy and medical treatments are the ophthalmologist's responsibility." },
     { q: "Is patching enough to fix a lazy eye?", a: "Patching (occlusion) is a common part of the treatment the ophthalmologist prescribes, but wearing the right, well-fitted optical correction is usually needed too. That part is ours." },
     { q: "Who should make the diagnosis?", a: "The ophthalmologist. They examine the child, rule out pathology, confirm the amblyopia and decide the treatment. We are optometrists and step in afterwards, working in coordination and to their instructions." },
     { q: "Up to what age can it be treated?", a: "The earlier the better the prognosis; even so, some cases improve at older ages. That assessment is made by the ophthalmologist during their examination." },
   ],
   de: [
-    { q: "Bieten Sie Sehtherapie an?", a: "Nein. Looptica bietet keine Sehtherapie an. Unsere Aufgabe ist die optische Lösung: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, immer nach augenärztlicher Verordnung." },
+    { q: "Bieten Sie Sehtherapie an?", a: "Bei Looptica konzentrieren wir uns auf die optische Seite: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, Anpassung und Nachsorge, immer nach augenärztlicher Verordnung. Sehtherapie und medizinische Behandlungen liegen in der Verantwortung des Augenarztes." },
     { q: "Reicht das Abkleben beim schwachen Auge?", a: "Okklusion ist ein üblicher Teil der vom Augenarzt verordneten Behandlung, meist braucht es zusätzlich die passende und gut angepasste optische Korrektion. Dafür sind wir zuständig." },
     { q: "Wer stellt die Diagnose?", a: "Der Augenarzt. Er untersucht das Kind, schließt Erkrankungen aus, bestätigt die Amblyopie und legt die Behandlung fest. Wir sind Optometristen und kommen danach hinzu, abgestimmt und nach seinen Vorgaben." },
     { q: "Bis zu welchem Alter ist eine Behandlung möglich?", a: "Je früher, desto besser die Prognose; dennoch verbessern sich manche Fälle auch später. Diese Beurteilung trifft der Augenarzt bei seiner Untersuchung." },
