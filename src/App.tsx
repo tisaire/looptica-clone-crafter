@@ -13,7 +13,8 @@ import LanguageWrapper from './components/layout/LanguageWrapper'; // Import the
 import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, Language } from './config/languages';
 
 // Lazy load non-critical pages
-import { lazy, Suspense } from 'react';
+import { Suspense } from 'react';
+import { lazyWithRetry } from './lib/lazyWithRetry';
 import './App.css';
 
 // Create a loading component for Suspense
