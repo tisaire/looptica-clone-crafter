@@ -1,97 +1,33 @@
-# Simplificar la arquitectura del sitio para reforzar el mensaje principal
+# Arreglar footer duplicado y tipografía de las páginas legales
 
-## Contexto
-El sitio actual tiene una estructura amplia que, aunque funcional, puede diluir el mensaje principal de Looptica como centro de óptica y audiología en Poblenou. El usuario quiere mantener la estructura general pero reducir la sensación de "demasiadas secciones".
+## Problema 1: footer duplicado
 
-## Diagnóstico de la estructura actual
+`App.tsx` ya renderiza `<Footer />` para todas las rutas (dentro de `MainLayout`), pero además lo renderizan por su cuenta:
 
-### Páginas existentes
-- **Home**: 7 secciones visibles (Hero, Productos, Servicios Óptica, Servicios Audilogía, Testimonios, Marcas, Ubicación).
-- **About**: equipo y filosofía.
-- **Servicios de óptica**: 9 páginas (salut-visual, lents-contacte, orto-k, eyeglasses, sunglasses, image-consulting, lens-consulting, plan-veo).
-- **Servicios de audiología**: 7 páginas (hearing-test, hearing-aids, tinnitus-treatment, ear-protection, technical-aids, subvenciones, audiologia-centro).
-- **Legales**: 3 páginas.
-- **Total**: ~22 rutas × 4 idiomas = ~88 URLs.
+- `src/pages/legal/CookiesPolicy.tsx`
+- `src/pages/legal/PrivacyPolicy.tsx`
+- `src/pages/legal/TermsConditions.tsx`
+- `src/pages/About.tsx`
 
-### Problemas detectados
-1. **Homepage duplica intenciones**: la sección "Productos" muestra gafas, lentillas, gafas de sol y audífonos, que ya aparecen como servicios en las secciones de Óptica y Audilogía. Esto confunde al usuario sobre si debe "comprar" o "reservar cita".
-2. **Navegación con 3 anclas distintas**: Inicio, Productos, Óptica, Audilogía, About, Contacto. Tres de ellas apuntan a anclas del home, lo que fragmenta el mensaje.
-3. **Sección Newsletter construida pero no usada**: el componente existe pero no se importa en `Index.tsx`.
-4. **Falta una página intermedia**: no hay landing de "Óptica" ni "Audilogía" que agrupe servicios; el home asume toda la carga explicativa.
+Resultado: dos footers apilados en esas cuatro páginas.
 
-## Propuesta recomendada (Opción B: arquitectura centrada en servicios)
+**Solución:** eliminar el `<Footer />` local y su import en esas cuatro páginas. El `Navbar` sí se mantiene (no está en el layout global, cada página lo pone).
 
-### Objetivo
-Reforzar el mensaje: "En Looptica cuidamos tu visión y tu audición". Eliminar duplicidades, simplificar la navegación y dar a cada servicio su propio espacio sin saturar el home.
+## Problema 2: ratios tipográficos desproporcionados
 
-### Cambios en la home
-1. **Eliminar la sección "Productos"** del `Index.tsx`.
-   - Rationale: duplica servicios y desvía la atención de la cita.
-   - Las 4 tarjetas de productos (gafas, lentillas, gafas de sol, audífonos) ya tienen su página de servicio correspondiente.
-2. **Reordenar las secciones restantes** para contar una historia clara:
-   - Hero (CTA cita + CTA secundario a servicios)
-   - Servicios de óptica (6 tarjetas)
-   - Servicios de audiología (5 tarjetas + enlace al centro)
-   - Testimonios (prueba social)
-   - Marcas (confianza)
-   - Ubicación / contacto
-3. **Añadir el componente Newsletter** al final del `main`, antes del footer, para captar leads.
-4. **Revisar los textos del Hero** para que el mensaje principal combine visión + audición, no solo una de ellas.
+El contenido legal se renderiza como HTML sanitizado dentro de un `div` con clases `prose prose-gray prose-h2:text-2xl prose-h3:text-xl prose-p:text-gray-600 ...`.
 
-### Cambios en navegación
-1. **Simplificar el menú** a 4 elementos principales:
-   - Inicio
-   - Servicios (dropdown o mega-menú con Óptica y Audilogía)
-   - Sobre nosotros
-   - Contacto
-2. **Eliminar el enlace directo "Productos"** del Navbar.
-3. **Mantener los anclajes internos** solo cuando el usuario está en home (Inicio, Servicios → #optical, Contacto → #contact).
+El paquete `@tailwindcss/typography` está instalado en `package.json`, pero **no está registrado** en `plugins` de `tailwind.config.ts` (solo está `tailwindcss-animate`). Por eso todas las clases `prose*` se ignoran y los `h2`, `h3`, `p`, `ul` del HTML inyectado salen con los tamaños por defecto del navegador (h2 enorme, listas sin margen, saltos de escala incoherentes con el resto del sitio).
 
-### Cambios en servicios
-1. **No eliminar páginas de servicio**: mantener las URLs por SEO y campañas.
-2. **Agrupar visualmente** en la home con dos bloques bien diferenciados (Óptica / Audilogía), como ya está.
-3. **Opcional**: crear dos páginas agrupadoras `/optica` y `/audiologia` que resuman los servicios de cada área y enlacen a las páginas específicas. Esto alivia la home y mejora la navegación desde el menú desplegable.
+**Solución:** registrar el plugin en `tailwind.config.ts`:
 
-### Cambios en SEO y sitemap
-1. Actualizar `public/sitemap.xml` si se crean o eliminan rutas.
-2. Mantener hreflang en todas las rutas activas.
-3. No tocar las páginas legales ni el 404.
+```ts
+plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+```
 
-## Alternativas descartadas (para registro)
-- **Opción A (mínima)**: solo quitar Productos y añadir Newsletter. Menos impacto, pero no resuelve la navegación fragmentada.
-- **Opción C (landing de conversión)**: reducir la home a Hero + 2 bloques de servicios + testimonios + contacto, y mover todo el detalle a páginas secundarias. Más agresivo; se descarta porque el usuario quiere mantener la estructura general.
+Con eso las clases `prose-h2:text-2xl`, `prose-h3:text-xl`, `prose-p:text-gray-600` ya existentes toman efecto y la escala queda alineada con la del resto de la web (Poppins, grises del sistema, enlaces teal).
 
-## Plan de implementación
+## Verificación
 
-### Paso 1: Home
-- Editar `src/pages/Index.tsx`:
-  - Eliminar import y uso de `<Products />`.
-  - Importar y renderizar `<Newsletter />` después de `StoreLocation`.
-  - Ajustar `DeferredContent` para reflejar el nuevo orden.
-  - Revisar textos del Hero si es necesario (consultar con el usuario).
-
-### Paso 2: Navegación
-- Editar `src/components/layout/Navbar.tsx`:
-  - Reducir `navLinks` a Inicio, Servicios, Sobre nosotros, Contacto.
-  - Implementar dropdown simple para "Servicios" con Óptica y Audilogía (o enlaces directos a anclas en home).
-  - Eliminar enlace "Productos".
-
-### Paso 3: Páginas agrupadoras (opcional, decidido en aprobación)
-- Crear `src/pages/Optica.tsx` y `src/pages/Audiologia.tsx` como landings de categoría.
-- Añadir rutas en `src/App.tsx`.
-- Actualizar Navbar para enlazar a estas páginas en el dropdown.
-
-### Paso 4: SEO
-- Actualizar `public/sitemap.xml` si hay nuevas rutas.
-- Revisar meta tags de la home para que el título refleje óptica + audiología.
-
-### Paso 5: Verificación
+- Revisar `/ca/legal/cookies-policy`, `/ca/legal/privacy-policy`, `/ca/legal/terms-conditions` y `/ca/about`: un solo footer y jerarquía de títulos coherente.
 - `bun run build` limpio.
-- Revisar en preview `/ca` que la home no muestre Productos, que Newsletter aparezca y que la navegación sea clara.
-- Verificar que las URLs de servicio siguen funcionando.
-
-## No incluido
-- Rediseño visual profundo (colores, tipografía).
-- Eliminación de páginas de servicio individuales.
-- Cambios en el contenido de cada página de servicio.
-- Modificaciones en el footer, WhatsApp o cookies.
