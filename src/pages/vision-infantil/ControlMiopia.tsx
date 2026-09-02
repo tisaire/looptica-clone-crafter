@@ -31,22 +31,22 @@ const intro = {
   ca: [
     "Quan un nen es fa miop, la graduació sol continuar pujant any rere any mentre l'ull creix. No es tracta només de canviar d'ulleres més sovint: una miopia elevada a l'edat adulta s'associa a més risc de problemes oculars al llarg de la vida, com el despreniment de retina o la miopia magna.",
     "Per això el control de la miopia no busca només veure-hi bé avui, sinó que la graduació final sigui la més baixa possible. Com abans es comença, més marge hi ha.",
-    "Un aclariment important: si el nen no s'ha examinat mai, la primera exploració la fa l'oftalmòleg, que descarta patologies i estableix el diagnòstic. A Looptica ens ocupem de la solució òptica —ulleres i lents de control, lentilles i lents nocturnes Orto-K— i del seguiment coordinat amb ell. No fem teràpia visual ni tractaments mèdics.",
+    "Un aclariment important: si el nen no s'ha examinat mai, la primera exploració la fa l'oftalmòleg, que descarta patologies i estableix el diagnòstic. A Looptica ens ocupem de la solució òptica —ulleres i lents de control, lentilles i lents nocturnes Orto-K— i del seguiment coordinat amb ell. La teràpia visual i els tractaments mèdics són responsabilitat de l'oftalmòleg.",
   ],
   es: [
     "Cuando un niño se hace miope, la graduación suele seguir subiendo año tras año mientras el ojo crece. No se trata solo de cambiar de gafas más a menudo: una miopía elevada en la edad adulta se asocia a más riesgo de problemas oculares a lo largo de la vida, como el desprendimiento de retina o la miopía magna.",
     "Por eso el control de la miopía no busca solo ver bien hoy, sino que la graduación final sea la más baja posible. Cuanto antes se empieza, más margen hay.",
-    "Una aclaración importante: si el niño nunca ha sido examinado, la primera exploración la hace el oftalmólogo, que descarta patologías y establece el diagnóstico. En Looptica nos ocupamos de la solución óptica —gafas y lentes de control, lentillas y lentes nocturnas Orto-K— y del seguimiento coordinado con él. No hacemos terapia visual ni tratamientos médicos.",
+    "Una aclaración importante: si el niño nunca ha sido examinado, la primera exploración la hace el oftalmólogo, que descarta patologías y establece el diagnóstico. En Looptica nos ocupamos de la solución óptica —gafas y lentes de control, lentillas y lentes nocturnas Orto-K— y del seguimiento coordinado con él. La terapia visual y los tratamientos médicos son responsabilidad del oftalmólogo.",
   ],
   en: [
     "Once a child becomes short-sighted, the prescription usually keeps rising year after year while the eye grows. It isn't only about changing glasses more often: high myopia in adulthood is linked to a higher lifetime risk of eye problems such as retinal detachment.",
     "Myopia control is therefore not only about seeing well today, but about ending up with the lowest possible final prescription. The earlier you start, the more room there is.",
-    "One important clarification: if the child has never been examined, the first examination is done by the ophthalmologist, who rules out pathology and makes the diagnosis. At Looptica we handle the optical solution — glasses and control lenses, contact lenses and Ortho-K overnight lenses — and the follow-up in coordination with them. We do not provide vision therapy or medical treatments.",
+    "One important clarification: if the child has never been examined, the first examination is done by the ophthalmologist, who rules out pathology and makes the diagnosis. At Looptica we handle the optical solution — glasses and control lenses, contact lenses and Ortho-K overnight lenses — and the follow-up in coordination with them. Vision therapy and medical treatments are the ophthalmologist's responsibility.",
   ],
   de: [
     "Wird ein Kind kurzsichtig, steigen die Werte meist Jahr für Jahr weiter, während das Auge wächst. Es geht nicht nur um häufigere Brillenwechsel: Hohe Myopie im Erwachsenenalter ist mit einem höheren Risiko für Augenerkrankungen wie Netzhautablösung verbunden.",
     "Myopiekontrolle zielt daher nicht nur auf gutes Sehen heute ab, sondern auf möglichst niedrige Endwerte. Je früher man beginnt, desto größer der Spielraum.",
-    "Wichtig: War das Kind noch nie untersucht, führt der Augenarzt die Erstuntersuchung durch, schließt Erkrankungen aus und stellt die Diagnose. Bei Looptica übernehmen wir die optische Lösung — Brillen und Kontrollgläser, Kontaktlinsen und Ortho-K-Nachtlinsen — und die Nachbetreuung in Abstimmung mit ihm. Sehtherapie oder medizinische Behandlungen bieten wir nicht an.",
+    "Wichtig: War das Kind noch nie untersucht, führt der Augenarzt die Erstuntersuchung durch, schließt Erkrankungen aus und stellt die Diagnose. Bei Looptica übernehmen wir die optische Lösung — Brillen und Kontrollgläser, Kontaktlinsen und Ortho-K-Nachtlinsen — und die Nachbetreuung in Abstimmung mit ihm. Sehtherapie und medizinische Behandlungen liegen in der Verantwortung des Augenarztes.",
   ],
 };
 
