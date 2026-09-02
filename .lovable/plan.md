@@ -38,20 +38,24 @@ Contenido: por qué revisar la vista antes de empezar el colegio, señales de al
 
 ### 2. Control de miopía
 Objetivo: "control de miopía", "miopía en niños" (400/mo combinado).
-Contenido: por qué avanza la miopía infantil, qué opciones existen (Orto-K, lentes de control, gafas de desenfoque periférico, hábitos y luz natural), cuándo empezar, tabla comparativa de opciones. Enlace bidireccional con la página Orto-K actual, que hoy está en posición 69 y ganaría enlaces internos.
+Contenido: por qué avanza la miopía infantil, las opciones que Looptica sí trabaja —Orto-K, lentes de gafa de desenfoque periférico y lentillas blandas de desenfoque— cuándo empezar, y hábitos y luz natural como apoyo. Tabla comparativa de las tres opciones (edad, uso diurno/nocturno, mantenimiento).
+Se indicará explícitamente que Looptica **no** utiliza atropina, y que en ese caso se deriva al oftalmólogo. Enlace bidireccional con la página Orto-K actual, que hoy está en posición 69 y ganaría enlaces internos.
 
 ### 3. Ojo vago y terapia visual
 Objetivo: "ambliopía", "ojo vago tratamiento", "terapia visual infantil" (2.960/mo combinado).
-Contenido: qué es la ambliopía, cómo se detecta en casa, por qué importa la edad, en qué consiste la terapia visual, relación entre visión y aprendizaje escolar.
-Nota: solo publicamos esta página si Looptica realmente hace terapia visual o deriva a un especialista concreto. Si no, la reenfocamos a detección y derivación, sin prometer tratamiento.
+Contenido: qué es la ambliopía, cómo se detecta en casa, por qué importa la edad, en qué consiste la terapia visual en Looptica, relación entre visión y aprendizaje escolar.
+Looptica sí ofrece terapia visual, así que la página se escribe como servicio propio con CTA a Demana cita.
 
 ### 4. Gafas y lentillas para niños
 Objetivo: "gafas para niños", "gafas graduadas niños", "lentillas para niños" (1.370/mo combinado).
-Contenido: cómo elegir montura por edad, materiales flexibles y seguridad, cristales resistentes y filtros, a partir de qué edad se pueden usar lentillas, mantenimiento y garantía de rotura. Enlaces a Ulleres graduades y Lents de contacte.
+Contenido: cómo elegir montura por edad, materiales flexibles y seguridad, cristales resistentes y filtros, mantenimiento.
+Marcas infantiles que se mencionarán: **Nano** (Looptica es distribuidor oficial), **Polaroid** y **Centrostyle**.
+Adaptación de lentillas **desde los 0 años**, incluyendo lentes pediátricas para catarata congénita: este es un diferenciador fuerte y muy poco común en ópticas de barrio. Le damos su propio bloque destacado dentro de la página, con enlace desde el hub.
+Enlaces a Ulleres graduades y Lents de contacte.
 
 ## Enfoque de contenido
 
-- Contenido útil y verificable, sin cifras clínicas inventadas: precios, garantías de rotura, marcas de montura infantil y si se ofrece terapia visual me los tienes que confirmar tú.
+- Contenido útil y verificable. Los precios y las garantías de rotura quedan fuera hasta que los confirmes.
 - Cuando citemos datos clínicos (progresión de miopía, edades de detección de ambliopía), enlazamos a la fuente.
 - Los cuatro idiomas (es, ca, en, de), con `de` obligatorio.
 - Sello "Revisado por Elena" en las cuatro páginas: refuerza E-E-A-T, que es lo que más pesa en contenido de salud.
@@ -67,9 +71,7 @@ Contenido: cómo elegir montura por edad, materiales flexibles y seguridad, cris
 - JSON-LD `FAQPage` en el hub y en Control de miopía con las preguntas reales que devuelve Semrush.
 - Subir la versión en `src/pages/Index.tsx`.
 
-## Qué necesito de ti antes de escribir
+## Pendiente (no bloquea)
 
-1. ¿Looptica ofrece terapia visual, o solo detecta y deriva?
-2. ¿Qué opciones de control de miopía trabajáis además de Orto-K (lentes de desenfoque, atropina en colaboración con oftalmólogo)?
-3. ¿Hay marcas de montura infantil o garantía de rotura que se puedan mencionar?
-4. ¿A partir de qué edad adaptáis lentillas?
+Precios y garantía de rotura: si me los pasas, los añado; si no, las páginas se publican sin cifras.
+
