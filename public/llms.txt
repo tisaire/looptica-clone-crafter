@@ -8,6 +8,10 @@ Looptica is a Barcelona-based clinic providing personalized optical and audiolog
 
 - [Home](/): Optical and audiology services in Barcelona Poblenou.
 - [About](/about): Meet the Looptica team of vision and hearing specialists.
+- [Children's Vision](/visio-infantil): Kids' eye exams, warning signs by age and paediatric services.
+- [Myopia Control](/visio-infantil/control-miopia): Ortho-K, peripheral defocus lenses and control contact lenses for children.
+- [Lazy Eye & Vision Therapy](/visio-infantil/ull-gandul): Amblyopia detection and vision therapy.
+- [Kids' Glasses & Contact Lenses](/visio-infantil/ulleres-nens): Nano, Polaroid and Centrostyle frames; contact lens fitting from age 0.
 - [Eye Health](/services/salut-visual): Comprehensive eye exams and vision care.
 - [Contact Lenses](/services/lents-contacte): Contact lens fittings and consultations.
 - [Ortho-K](/services/orto-k): Orthokeratology overnight lens treatment.
