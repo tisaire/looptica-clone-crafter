@@ -177,7 +177,7 @@ const faqs = {
     { q: "Kann Kurzsichtigkeit bei Kindern geheilt werden?", a: "Nein. Myopie ist nicht heilbar, aber ihr Fortschreiten lässt sich mit optischen Kontrollmethoden und guten Sehgewohnheiten bremsen. Ziel sind möglichst niedrige Werte im Erwachsenenalter." },
     { q: "Ab welchem Alter kann man beginnen?", a: "Je nach Methode. Defokus-Brillengläser ab 6 Jahren; Ortho-K und Kontrolllinsen meist ab 8-9 Jahren, wenn das Kind sie hygienisch handhaben kann." },
     { q: "Verwenden Sie Atropin?", a: "Nein. Wir arbeiten mit optischen Methoden. Ist eine medikamentöse Behandlung nötig, überweisen wir an den Augenarzt." },
-    { q: "Bieten Sie Sehtherapie an?", a: "Nein. Wir bieten keine Sehtherapie und keine medizinischen Behandlungen an. Unsere Aufgabe ist optisch: Brillengläser und Kontaktlinsen zur Myopiekontrolle, Anpassung und Nachsorge — stets auf Basis von Diagnose und Verordnung des Augenarztes."),
+    { q: "Bieten Sie Sehtherapie an?", a: "Nein. Wir bieten keine Sehtherapie und keine medizinischen Behandlungen an. Unsere Aufgabe ist optisch: Brillengläser und Kontaktlinsen zur Myopiekontrolle, Anpassung und Nachsorge — stets auf Basis von Diagnose und Verordnung des Augenarztes." },
     { q: "Wie viele Kontrollen sind nötig?", a: "Wir planen regelmäßige Kontrollen, um die Progression zu messen und die Versorgung anzupassen. Die genaue Frequenz legen wir beim Ersttermin fest." },
   ],
 };
