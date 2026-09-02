@@ -968,4 +968,183 @@
     <priority>0.7</priority>
   </url>
 
+
+  <!-- Children's vision -->
+  <url>
+    <loc>https://looptica.com/ca/visio-infantil</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/es/visio-infantil</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/en/visio-infantil</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/de/visio-infantil</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/ca/visio-infantil/control-miopia</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/es/visio-infantil/control-miopia</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/en/visio-infantil/control-miopia</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/de/visio-infantil/control-miopia</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/ca/visio-infantil/ull-gandul</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/es/visio-infantil/ull-gandul</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/en/visio-infantil/ull-gandul</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/de/visio-infantil/ull-gandul</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/ca/visio-infantil/ulleres-nens</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/es/visio-infantil/ulleres-nens</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/en/visio-infantil/ulleres-nens</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/de/visio-infantil/ulleres-nens</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
