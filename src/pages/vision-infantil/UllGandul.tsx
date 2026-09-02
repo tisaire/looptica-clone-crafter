@@ -121,25 +121,25 @@ const role = {
     "La nostra feina comença quan ja hi ha un diagnòstic i una prescripció de l'oftalmòleg. A partir d'aquí ens ocupem de la solució òptica i del seguiment, sempre segons les seves indicacions.",
     "Adaptem la correcció òptica prescrita amb lents ben calculades i centrades, muntades en una muntura còmoda i estable: en una ambliopia, que les ulleres estiguin sempre a la posició correcta és part del tractament que ha pautat l'oftalmòleg.",
     "Quan l'especialista ho indica, adaptem lentilles en lloc d'ulleres, i controlem l'evolució de la graduació amb revisions periòdiques, informant-lo del que anem observant.",
-    "El que no fem: explorar per primera vegada un nen que no s'ha examinat mai, diagnosticar o descartar patologies, aplicar tractaments mèdics ni fer teràpia visual.",
+    "Aquestes actuacions les lidera l'oftalmòleg: explorar per primera vegada un nen que no s'ha examinat mai, diagnosticar o descartar patologies, aplicar tractaments mèdics i fer teràpia visual.",
   ],
   es: [
     "Nuestro trabajo empieza cuando ya hay un diagnóstico y una prescripción del oftalmólogo. A partir de ahí nos ocupamos de la solución óptica y del seguimiento, siempre según sus indicaciones.",
     "Adaptamos la corrección óptica prescrita con lentes bien calculadas y centradas, montadas en una montura cómoda y estable: en una ambliopía, que las gafas estén siempre en la posición correcta es parte del tratamiento pautado por el oftalmólogo.",
     "Cuando el especialista lo indica, adaptamos lentillas en lugar de gafas, y controlamos la evolución de la graduación con revisiones periódicas, informándole de lo que observamos.",
-    "Lo que no hacemos: explorar por primera vez a un niño que nunca ha sido examinado, diagnosticar o descartar patologías, aplicar tratamientos médicos ni hacer terapia visual.",
+    "Estas actuaciones las lidera el oftalmólogo: explorar por primera vez a un niño que nunca ha sido examinado, diagnosticar o descartar patologías, aplicar tratamientos médicos y hacer terapia visual.",
   ],
   en: [
     "Our work starts once there is a diagnosis and a prescription from the ophthalmologist. From there we handle the optical solution and the follow-up, always according to their instructions.",
     "We fit the prescribed correction with accurately calculated and centred lenses in a comfortable, stable frame: with amblyopia, keeping the glasses in the right position is part of the treatment the ophthalmologist has set.",
     "When the specialist indicates it, we fit contact lenses instead of glasses, and we monitor how the prescription evolves with regular check-ups, reporting back what we observe.",
-    "What we don't do: examine a child for the first time, diagnose or rule out pathology, apply medical treatments, or provide vision therapy.",
+    "These actions are led by the ophthalmologist: examining a child for the first time, diagnosing or ruling out pathology, applying medical treatments, or providing vision therapy.",
   ],
   de: [
     "Unsere Arbeit beginnt, wenn Diagnose und Verordnung des Augenarztes vorliegen. Danach übernehmen wir die optische Lösung und die Nachbetreuung, stets nach seinen Vorgaben.",
     "Wir setzen die verordnete Korrektion mit korrekt berechneten und zentrierten Gläsern in einer bequemen, stabilen Fassung um: Bei Amblyopie gehört der richtige Sitz der Brille zur vom Augenarzt festgelegten Behandlung.",
     "Wenn der Facharzt es vorsieht, passen wir Kontaktlinsen statt einer Brille an und kontrollieren die Werteentwicklung regelmäßig, mit Rückmeldung an ihn.",
-    "Was wir nicht tun: ein noch nie untersuchtes Kind erstmals untersuchen, Erkrankungen diagnostizieren oder ausschließen, medizinische Behandlungen durchführen oder Sehtherapie anbieten.",
+    "Diese Maßnahmen führt der Augenarzt durch: ein noch nie untersuchtes Kind erstmals untersuchen, Erkrankungen diagnostizieren oder ausschließen, medizinische Behandlungen anwenden oder Sehtherapie anbieten.",
   ],
 };
 
