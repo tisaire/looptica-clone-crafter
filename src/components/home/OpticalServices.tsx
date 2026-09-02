@@ -5,7 +5,6 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
 
 const OpticalServices = () => {
   const { t, language } = useLanguage();
@@ -89,9 +88,10 @@ const OpticalServices = () => {
         <ScrollReveal delay={0.2}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {opticalServices.map((service, index) => (
-              <div 
-                key={index} 
-                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col overflow-hidden"
+              <Link
+                key={index}
+                to={service.path}
+                className="group bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col overflow-hidden"
                 onClick={() => {
                   window.gtag?.('event', 'service_card_click', {
                     location: 'optical_services',
@@ -99,29 +99,27 @@ const OpticalServices = () => {
                   });
                 }}
               >
-                <Link to={service.path} className="w-full h-48 overflow-hidden">
+                <div className="w-full h-48 overflow-hidden">
                   <img 
                     src={service.image} 
                     alt={service.title} 
-                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
+                    className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-500"
                     loading="lazy"
                     onError={(e) => {
                       console.error(`Failed to load image: ${service.image}`);
                       e.currentTarget.src = '/placeholder.svg';
                     }}
                   />
-                </Link>
+                </div>
                 <div className="p-6 flex flex-col items-center text-center flex-grow">
                   <div className="mb-4">{service.icon}</div>
                   <h3 className="text-lg font-semibold mb-2 text-gray-900">{service.title}</h3>
                   <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <Link to={service.path} className="mt-auto">
-                    <Button variant="outline" size="sm" className="border-[#55afa9] text-[#55afa9] hover:bg-[#55afa9]/10">
-                      {t('viewDetails')}
-                    </Button>
-                  </Link>
+                  <span className="mt-auto inline-flex items-center justify-center h-9 px-3 rounded-md border border-[#55afa9] text-[#55afa9] text-sm font-medium group-hover:bg-[#55afa9]/10 transition-colors">
+                    {t('viewDetails')}
+                  </span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </ScrollReveal>
