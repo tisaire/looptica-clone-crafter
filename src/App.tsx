@@ -13,7 +13,8 @@ import LanguageWrapper from './components/layout/LanguageWrapper'; // Import the
 import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, Language } from './config/languages';
 
 // Lazy load non-critical pages
-import { lazy, Suspense } from 'react';
+import { Suspense } from 'react';
+import { lazyWithRetry } from './lib/lazyWithRetry';
 import './App.css';
 
 // Create a loading component for Suspense
@@ -24,25 +25,26 @@ const PageLoader = () => (
 );
 
 // lazy loaded component imports
-const SalutVisual = lazy(() => import('./pages/services/SalutVisual'));
-const LentsContacte = lazy(() => import('./pages/services/LentsContacte'));
-const OrtoK = lazy(() => import('./pages/services/OrtoK'));
-const Eyeglasses = lazy(() => import('./pages/services/Eyeglasses'));
-const Sunglasses = lazy(() => import('./pages/services/Sunglasses'));
-const HearingTest = lazy(() => import('./pages/services/HearingTest'));
-const HearingAids = lazy(() => import('./pages/services/HearingAids'));
-const TinnitusTreatment = lazy(() => import('./pages/services/TinnitusTreatment'));
-const EarProtection = lazy(() => import('./pages/services/EarProtection'));
-const TechnicalAids = lazy(() => import('./pages/services/TechnicalAids'));
-const Subvenciones = lazy(() => import('./pages/services/Subvenciones'));
-const ImageConsulting = lazy(() => import('./pages/services/ImageConsulting'));
-const LensConsulting = lazy(() => import('./pages/services/LensConsulting'));
-const PlanVeo = lazy(() => import('./pages/services/PlanVeo'));
-const About = lazy(() => import('./pages/About'));
-const AudiologiaCentro = lazy(() => import('./pages/services/AudiologiaCentro'));
-const PrivacyPolicy = lazy(() => import('./pages/legal/PrivacyPolicy'));
-const TermsConditions = lazy(() => import('./pages/legal/TermsConditions'));
-const CookiesPolicy = lazy(() => import('./pages/legal/CookiesPolicy'));
+const SalutVisual = lazyWithRetry(() => import('./pages/services/SalutVisual'));
+const LentsContacte = lazyWithRetry(() => import('./pages/services/LentsContacte'));
+const OrtoK = lazyWithRetry(() => import('./pages/services/OrtoK'));
+const Eyeglasses = lazyWithRetry(() => import('./pages/services/Eyeglasses'));
+const Sunglasses = lazyWithRetry(() => import('./pages/services/Sunglasses'));
+const HearingTest = lazyWithRetry(() => import('./pages/services/HearingTest'));
+const HearingAids = lazyWithRetry(() => import('./pages/services/HearingAids'));
+const TinnitusTreatment = lazyWithRetry(() => import('./pages/services/TinnitusTreatment'));
+const EarProtection = lazyWithRetry(() => import('./pages/services/EarProtection'));
+const TechnicalAids = lazyWithRetry(() => import('./pages/services/TechnicalAids'));
+const Subvenciones = lazyWithRetry(() => import('./pages/services/Subvenciones'));
+const ImageConsulting = lazyWithRetry(() => import('./pages/services/ImageConsulting'));
+const LensConsulting = lazyWithRetry(() => import('./pages/services/LensConsulting'));
+const PlanVeo = lazyWithRetry(() => import('./pages/services/PlanVeo'));
+const About = lazyWithRetry(() => import('./pages/About'));
+const AudiologiaCentro = lazyWithRetry(() => import('./pages/services/AudiologiaCentro'));
+const PrivacyPolicy = lazyWithRetry(() => import('./pages/legal/PrivacyPolicy'));
+const TermsConditions = lazyWithRetry(() => import('./pages/legal/TermsConditions'));
+const CookiesPolicy = lazyWithRetry(() => import('./pages/legal/CookiesPolicy'));
+
 
 
 // Google Analytics page tracker component
