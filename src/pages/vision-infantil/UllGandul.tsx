@@ -31,22 +31,22 @@ const intro = {
   ca: [
     "L'ull gandul, o ambliopia, és la pèrdua de capacitat visual d'un ull que estructuralment està sa. Passa quan, durant els primers anys de vida, el cervell rep una imatge pitjor d'un ull i acaba prioritzant l'altre. Les causes més habituals són una diferència de graduació entre els dos ulls, un estrabisme o una obstrucció visual.",
     "El problema és que és silenciós: el nen hi veu bé amb l'ull dominant i no es queixa de res. Sovint només es descobreix quan un professional l'explora, o quan es tapa un ull per casualitat i s'adona que amb l'altre no hi veu.",
-    "Si sospites que el teu fill pot tenir un ull gandul, el primer pas és l'oftalmòleg: és qui ha d'explorar, descartar patologies, fer el diagnòstic i pautar el tractament. A Looptica no fem aquesta primera exploració ni fem teràpia visual.",
+    "Si sospites que el teu fill pot tenir un ull gandul, el primer pas és l'oftalmòleg: és qui ha d'explorar, descartar patologies, fer el diagnòstic i pautar el tractament. A Looptica no fem aquesta primera exploració; la teràpia visual i el tractament de l'ambliopia són responsabilitat de l'oftalmòleg.",
   ],
   es: [
     "El ojo vago, o ambliopía, es la pérdida de capacidad visual de un ojo que estructuralmente está sano. Ocurre cuando, durante los primeros años de vida, el cerebro recibe una imagen peor de un ojo y acaba priorizando el otro. Las causas más habituales son una diferencia de graduación entre ambos ojos, un estrabismo o una obstrucción visual.",
     "El problema es que es silencioso: el niño ve bien con el ojo dominante y no se queja de nada. A menudo solo se descubre cuando un profesional lo explora, o cuando se tapa un ojo por casualidad y se da cuenta de que con el otro no ve.",
-    "Si sospechas que tu hijo puede tener un ojo vago, el primer paso es el oftalmólogo: es quien debe explorar, descartar patologías, hacer el diagnóstico y pautar el tratamiento. En Looptica no realizamos esa primera exploración ni hacemos terapia visual.",
+    "Si sospechas que tu hijo puede tener un ojo vago, el primer paso es el oftalmólogo: es quien debe explorar, descartar patologías, hacer el diagnóstico y pautar el tratamiento. En Looptica no realizamos esa primera exploración; la terapia visual y el tratamiento de la ambliopía son responsabilidad del oftalmólogo.",
   ],
   en: [
     "Lazy eye, or amblyopia, is reduced vision in an eye that is structurally healthy. It happens when, in the first years of life, the brain receives a poorer image from one eye and starts favouring the other. The usual causes are a difference in prescription between the eyes, a squint, or a visual obstruction.",
     "The problem is that it is silent: the child sees well with the dominant eye and doesn't complain. It is often found only when a professional examines them, or by chance when one eye gets covered.",
-    "If you suspect your child has a lazy eye, the first step is the ophthalmologist: they are the ones who must examine, rule out pathology, diagnose and prescribe treatment. Looptica does not carry out that first examination, and we do not provide vision therapy.",
+    "If you suspect your child has a lazy eye, the first step is the ophthalmologist: they are the ones who must examine, rule out pathology, diagnose and prescribe treatment. Looptica does not carry out that first examination; vision therapy and amblyopia treatment are the ophthalmologist's responsibility.",
   ],
   de: [
     "Schwachsichtigkeit (Amblyopie) ist die verminderte Sehleistung eines strukturell gesunden Auges. Sie entsteht, wenn das Gehirn in den ersten Lebensjahren von einem Auge ein schlechteres Bild erhält und das andere bevorzugt. Häufige Ursachen sind unterschiedliche Werte beider Augen, Schielen oder eine Sichtbehinderung.",
     "Das Tückische: Sie verläuft unbemerkt. Das Kind sieht mit dem dominanten Auge gut und klagt nicht. Oft wird sie erst bei einer fachlichen Untersuchung entdeckt.",
-    "Bei Verdacht auf ein schwaches Auge ist der Augenarzt der erste Schritt: Er untersucht, schließt Erkrankungen aus, stellt die Diagnose und legt die Behandlung fest. Looptica führt diese Erstuntersuchung nicht durch und bietet keine Sehtherapie an.",
+    "Bei Verdacht auf ein schwaches Auge ist der Augenarzt der erste Schritt: Er untersucht, schließt Erkrankungen aus, stellt die Diagnose und legt die Behandlung fest. Looptica führt diese Erstuntersuchung nicht durch; Sehtherapie und die Behandlung der Amblyopie liegen in der Verantwortung des Augenarztes.",
   ],
 };
 
