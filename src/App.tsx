@@ -44,6 +44,10 @@ const AudiologiaCentro = lazyWithRetry(() => import('./pages/services/Audiologia
 const PrivacyPolicy = lazyWithRetry(() => import('./pages/legal/PrivacyPolicy'));
 const TermsConditions = lazyWithRetry(() => import('./pages/legal/TermsConditions'));
 const CookiesPolicy = lazyWithRetry(() => import('./pages/legal/CookiesPolicy'));
+const VisioInfantil = lazyWithRetry(() => import('./pages/vision-infantil/VisioInfantil'));
+const ControlMiopia = lazyWithRetry(() => import('./pages/vision-infantil/ControlMiopia'));
+const UllGandul = lazyWithRetry(() => import('./pages/vision-infantil/UllGandul'));
+const UlleresNens = lazyWithRetry(() => import('./pages/vision-infantil/UlleresNens'));
 
 
 
