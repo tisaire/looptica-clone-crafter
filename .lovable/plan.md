@@ -1,56 +1,23 @@
-# Lista de recrawl para Google Search Console
+# Revisión del sitemap
 
-Orden de solicitud en la Inspección de URLs ("Solicitar indexación"). Google limita a ~10 solicitudes al día por propiedad, así que va por bloques.
+## Qué está bien
 
-## Día 1 — páginas con cambios de contenido recientes (prioridad alta)
+- 100 URLs, 25 páginas x 4 idiomas (ca, es, en, de), todas con bloque `hreflang` completo incluido `x-default` → `/ca/`.
+- Coinciden con las rutas reales de la aplicación: home, `about`, 16 servicios, los 4 de visió infantil y las 3 legales.
+- No quedan restos de las páginas de Oticon eliminadas.
+- Los `loc` coinciden con los `canonical` que emite la app: home con barra final (`/ca/`), el resto sin barra final. Dominio non-www y https, correcto.
+- Las landings de redirección (`/orto-k-poblenou-barcelona`, `/lentillas-poblenou-barcelona`, etc.) están fuera del sitemap, que es lo correcto.
 
-1. https://looptica.com/ca/visio-infantil
-2. https://looptica.com/es/visio-infantil
-3. https://looptica.com/ca/visio-infantil/control-miopia
-4. https://looptica.com/es/visio-infantil/control-miopia
-5. https://looptica.com/ca/visio-infantil/ull-gandul
-6. https://looptica.com/es/visio-infantil/ull-gandul
-7. https://looptica.com/ca/visio-infantil/ulleres-nens
-8. https://looptica.com/es/visio-infantil/ulleres-nens
-9. https://looptica.com/ca/about
-10. https://looptica.com/es/about
+## Problema real: páginas legales con noindex dentro del sitemap
 
-## Día 2 — versiones EN/DE de visión infantil
+`CookiesPolicy`, `PrivacyPolicy` y `TermsConditions` emiten `noindex, follow`, pero sus 12 URLs siguen en el sitemap. Es una señal contradictoria para Google y genera avisos de "Página excluida por etiqueta noindex" sobre URLs enviadas.
 
-1. https://looptica.com/en/visio-infantil
-2. https://looptica.com/de/visio-infantil
-3. https://looptica.com/en/visio-infantil/control-miopia
-4. https://looptica.com/de/visio-infantil/control-miopia
-5. https://looptica.com/en/visio-infantil/ull-gandul
-6. https://looptica.com/de/visio-infantil/ull-gandul
-7. https://looptica.com/en/visio-infantil/ulleres-nens
-8. https://looptica.com/de/visio-infantil/ulleres-nens
-9. https://looptica.com/en/about
-10. https://looptica.com/de/about
+Cambio propuesto: eliminar de `public/sitemap.xml` los 12 bloques `<url>` de `/legal/cookies-policy`, `/legal/privacy-policy` y `/legal/terms-conditions` (quedarían 88 URLs).
 
-## Día 3 — home y servicios tocados (meta, breadcrumbs, enlaces cruzados)
+## Punto menor: lastmod
 
-1. https://looptica.com/ca
-2. https://looptica.com/es
-3. https://looptica.com/ca/services/orto-k
-4. https://looptica.com/es/services/orto-k
-5. https://looptica.com/ca/services/contact-lenses
-6. https://looptica.com/es/services/contact-lenses
-7. https://looptica.com/ca/services/eyeglasses
-8. https://looptica.com/es/services/eyeglasses
-9. https://looptica.com/ca/services/audiologia-centro
-10. https://looptica.com/es/services/audiologia-centro
+Fechas actuales: 72 URLs en `2026-05-14`, 12 en `2026-06-12`, 16 en `2026-09-02` (visió infantil). Las páginas de visió infantil se editaron hoy, así que su fecha es correcta. Las demás no se tocan; no invento fechas nuevas.
 
-## Notas de ejecución
+## Después del cambio
 
-- Antes de pedir recrawl, publicar los cambios: Google indexa la versión en producción, no la preview.
-- Reenviar el sitemap una sola vez después de publicar (`https://looptica.com/sitemap.xml`) — cubre las 100 URLs y evita gastar cuota de inspección.
-- Páginas legales (cookies, privacitat, termes, avís legal) llevan `noindex`: no pedir recrawl.
-- Las URLs eliminadas de Oticon redirigen al home del idioma; no hace falta inspeccionarlas.
-- Verificar en la inspección que el canonical declarado coincide con la URL non-www antes de solicitar indexación.
-
-## Detalles técnicos
-
-- Propiedad: URL-prefix `https://looptica.com/`.
-- Ruta en GSC: Inspección de URLs → pegar URL → "Solicitar indexación".
-- Opcional: si prefieres no hacerlo a mano, puedo comprobar el estado de indexación de estas URLs vía la API de Search Console (solo lectura; la API no permite solicitar recrawl).
+Reenviar el sitemap una vez desde Search Console tras publicar. No hace falta pedir recrawl de las legales.
