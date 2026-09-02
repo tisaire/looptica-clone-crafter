@@ -31,22 +31,22 @@ const intro = {
   ca: [
     "L'ull gandul, o ambliopia, és la pèrdua de capacitat visual d'un ull que estructuralment està sa. Passa quan, durant els primers anys de vida, el cervell rep una imatge pitjor d'un ull i acaba prioritzant l'altre. Les causes més habituals són una diferència de graduació entre els dos ulls, un estrabisme o una obstrucció visual.",
     "El problema és que és silenciós: el nen hi veu bé amb l'ull dominant i no es queixa de res. Sovint només es descobreix quan un professional l'explora, o quan es tapa un ull per casualitat i s'adona que amb l'altre no hi veu.",
-    "Si sospites que el teu fill pot tenir un ull gandul, el primer pas és l'oftalmòleg: és qui ha d'explorar, descartar patologies, fer el diagnòstic i pautar el tractament. A Looptica no fem aquesta primera exploració ni fem teràpia visual.",
+    "Si sospites que el teu fill pot tenir un ull gandul, el primer pas és l'oftalmòleg: és qui ha d'explorar, descartar patologies, fer el diagnòstic i pautar el tractament. A Looptica no fem aquesta primera exploració; la teràpia visual i el tractament de l'ambliopia són responsabilitat de l'oftalmòleg.",
   ],
   es: [
     "El ojo vago, o ambliopía, es la pérdida de capacidad visual de un ojo que estructuralmente está sano. Ocurre cuando, durante los primeros años de vida, el cerebro recibe una imagen peor de un ojo y acaba priorizando el otro. Las causas más habituales son una diferencia de graduación entre ambos ojos, un estrabismo o una obstrucción visual.",
     "El problema es que es silencioso: el niño ve bien con el ojo dominante y no se queja de nada. A menudo solo se descubre cuando un profesional lo explora, o cuando se tapa un ojo por casualidad y se da cuenta de que con el otro no ve.",
-    "Si sospechas que tu hijo puede tener un ojo vago, el primer paso es el oftalmólogo: es quien debe explorar, descartar patologías, hacer el diagnóstico y pautar el tratamiento. En Looptica no realizamos esa primera exploración ni hacemos terapia visual.",
+    "Si sospechas que tu hijo puede tener un ojo vago, el primer paso es el oftalmólogo: es quien debe explorar, descartar patologías, hacer el diagnóstico y pautar el tratamiento. En Looptica no realizamos esa primera exploración; la terapia visual y el tratamiento de la ambliopía son responsabilidad del oftalmólogo.",
   ],
   en: [
     "Lazy eye, or amblyopia, is reduced vision in an eye that is structurally healthy. It happens when, in the first years of life, the brain receives a poorer image from one eye and starts favouring the other. The usual causes are a difference in prescription between the eyes, a squint, or a visual obstruction.",
     "The problem is that it is silent: the child sees well with the dominant eye and doesn't complain. It is often found only when a professional examines them, or by chance when one eye gets covered.",
-    "If you suspect your child has a lazy eye, the first step is the ophthalmologist: they are the ones who must examine, rule out pathology, diagnose and prescribe treatment. Looptica does not carry out that first examination, and we do not provide vision therapy.",
+    "If you suspect your child has a lazy eye, the first step is the ophthalmologist: they are the ones who must examine, rule out pathology, diagnose and prescribe treatment. Looptica does not carry out that first examination; vision therapy and amblyopia treatment are the ophthalmologist's responsibility.",
   ],
   de: [
     "Schwachsichtigkeit (Amblyopie) ist die verminderte Sehleistung eines strukturell gesunden Auges. Sie entsteht, wenn das Gehirn in den ersten Lebensjahren von einem Auge ein schlechteres Bild erhält und das andere bevorzugt. Häufige Ursachen sind unterschiedliche Werte beider Augen, Schielen oder eine Sichtbehinderung.",
     "Das Tückische: Sie verläuft unbemerkt. Das Kind sieht mit dem dominanten Auge gut und klagt nicht. Oft wird sie erst bei einer fachlichen Untersuchung entdeckt.",
-    "Bei Verdacht auf ein schwaches Auge ist der Augenarzt der erste Schritt: Er untersucht, schließt Erkrankungen aus, stellt die Diagnose und legt die Behandlung fest. Looptica führt diese Erstuntersuchung nicht durch und bietet keine Sehtherapie an.",
+    "Bei Verdacht auf ein schwaches Auge ist der Augenarzt der erste Schritt: Er untersucht, schließt Erkrankungen aus, stellt die Diagnose und legt die Behandlung fest. Looptica führt diese Erstuntersuchung nicht durch; Sehtherapie und die Behandlung der Amblyopie liegen in der Verantwortung des Augenarztes.",
   ],
 };
 
@@ -121,25 +121,25 @@ const role = {
     "La nostra feina comença quan ja hi ha un diagnòstic i una prescripció de l'oftalmòleg. A partir d'aquí ens ocupem de la solució òptica i del seguiment, sempre segons les seves indicacions.",
     "Adaptem la correcció òptica prescrita amb lents ben calculades i centrades, muntades en una muntura còmoda i estable: en una ambliopia, que les ulleres estiguin sempre a la posició correcta és part del tractament que ha pautat l'oftalmòleg.",
     "Quan l'especialista ho indica, adaptem lentilles en lloc d'ulleres, i controlem l'evolució de la graduació amb revisions periòdiques, informant-lo del que anem observant.",
-    "El que no fem: explorar per primera vegada un nen que no s'ha examinat mai, diagnosticar o descartar patologies, aplicar tractaments mèdics ni fer teràpia visual.",
+    "Aquestes actuacions les lidera l'oftalmòleg: explorar per primera vegada un nen que no s'ha examinat mai, diagnosticar o descartar patologies, aplicar tractaments mèdics i fer teràpia visual.",
   ],
   es: [
     "Nuestro trabajo empieza cuando ya hay un diagnóstico y una prescripción del oftalmólogo. A partir de ahí nos ocupamos de la solución óptica y del seguimiento, siempre según sus indicaciones.",
     "Adaptamos la corrección óptica prescrita con lentes bien calculadas y centradas, montadas en una montura cómoda y estable: en una ambliopía, que las gafas estén siempre en la posición correcta es parte del tratamiento pautado por el oftalmólogo.",
     "Cuando el especialista lo indica, adaptamos lentillas en lugar de gafas, y controlamos la evolución de la graduación con revisiones periódicas, informándole de lo que observamos.",
-    "Lo que no hacemos: explorar por primera vez a un niño que nunca ha sido examinado, diagnosticar o descartar patologías, aplicar tratamientos médicos ni hacer terapia visual.",
+    "Estas actuaciones las lidera el oftalmólogo: explorar por primera vez a un niño que nunca ha sido examinado, diagnosticar o descartar patologías, aplicar tratamientos médicos y hacer terapia visual.",
   ],
   en: [
     "Our work starts once there is a diagnosis and a prescription from the ophthalmologist. From there we handle the optical solution and the follow-up, always according to their instructions.",
     "We fit the prescribed correction with accurately calculated and centred lenses in a comfortable, stable frame: with amblyopia, keeping the glasses in the right position is part of the treatment the ophthalmologist has set.",
     "When the specialist indicates it, we fit contact lenses instead of glasses, and we monitor how the prescription evolves with regular check-ups, reporting back what we observe.",
-    "What we don't do: examine a child for the first time, diagnose or rule out pathology, apply medical treatments, or provide vision therapy.",
+    "These actions are led by the ophthalmologist: examining a child for the first time, diagnosing or ruling out pathology, applying medical treatments, or providing vision therapy.",
   ],
   de: [
     "Unsere Arbeit beginnt, wenn Diagnose und Verordnung des Augenarztes vorliegen. Danach übernehmen wir die optische Lösung und die Nachbetreuung, stets nach seinen Vorgaben.",
     "Wir setzen die verordnete Korrektion mit korrekt berechneten und zentrierten Gläsern in einer bequemen, stabilen Fassung um: Bei Amblyopie gehört der richtige Sitz der Brille zur vom Augenarzt festgelegten Behandlung.",
     "Wenn der Facharzt es vorsieht, passen wir Kontaktlinsen statt einer Brille an und kontrollieren die Werteentwicklung regelmäßig, mit Rückmeldung an ihn.",
-    "Was wir nicht tun: ein noch nie untersuchtes Kind erstmals untersuchen, Erkrankungen diagnostizieren oder ausschließen, medizinische Behandlungen durchführen oder Sehtherapie anbieten.",
+    "Diese Maßnahmen führt der Augenarzt durch: ein noch nie untersuchtes Kind erstmals untersuchen, Erkrankungen diagnostizieren oder ausschließen, medizinische Behandlungen anwenden oder Sehtherapie anbieten.",
   ],
 };
 
@@ -166,25 +166,25 @@ const faqTitle = {
 
 const faqs = {
   ca: [
-    { q: "Feu teràpia visual?", a: "No. A Looptica no fem teràpia visual. La nostra intervenció es limita a la solució òptica: ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K, sempre segons la prescripció de l'oftalmòleg." },
+    { q: "Feu teràpia visual?", a: "A Looptica ens centrem en la part òptica: ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K, ajust i seguiment, sempre segons la prescripció de l'oftalmòleg. La teràpia visual i els tractaments mèdics són responsabilitat de l'oftalmòleg." },
     { q: "L'ull gandul es cura només amb el pegat?", a: "El pegat (oclusió) és una part habitual del tractament que pauta l'oftalmòleg, però normalment cal, a més, portar la correcció òptica adequada i ben adaptada. D'aquesta part ens encarreguem nosaltres." },
     { q: "Qui ha de fer el diagnòstic?", a: "L'oftalmòleg. És qui explora el nen, descarta patologies, confirma l'ambliopia i decideix el tractament. Nosaltres som òptics optometristes i treballem després, de manera coordinada i segons les seves indicacions." },
     { q: "Fins a quina edat es pot tractar?", a: "Com més aviat, millor pronòstic; tot i això, hi ha casos que milloren també en edats més avançades. Aquesta valoració la fa l'oftalmòleg en la seva exploració." },
   ],
   es: [
-    { q: "¿Hacéis terapia visual?", a: "No. En Looptica no realizamos terapia visual. Nuestra intervención se limita a la solución óptica: gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K, siempre según la prescripción del oftalmólogo." },
+    { q: "¿Hacéis terapia visual?", a: "En Looptica nos centramos en la parte óptica: gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K, ajuste y seguimiento, siempre según la prescripción del oftalmólogo. La terapia visual y los tratamientos médicos son responsabilidad del oftalmólogo." },
     { q: "¿El ojo vago se cura solo con el parche?", a: "El parche (oclusión) es una parte habitual del tratamiento que pauta el oftalmólogo, pero normalmente hace falta además llevar la corrección óptica adecuada y bien adaptada. De esa parte nos encargamos nosotros." },
     { q: "¿Quién debe hacer el diagnóstico?", a: "El oftalmólogo. Es quien explora al niño, descarta patologías, confirma la ambliopía y decide el tratamiento. Nosotros somos ópticos optometristas y trabajamos después, de forma coordinada y según sus indicaciones." },
     { q: "¿Hasta qué edad se puede tratar?", a: "Cuanto antes, mejor pronóstico; aun así, hay casos que mejoran también en edades más avanzadas. Esa valoración la hace el oftalmólogo en su exploración." },
   ],
   en: [
-    { q: "Do you offer vision therapy?", a: "No. Looptica does not provide vision therapy. Our role is limited to the optical solution: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses, always following the ophthalmologist's prescription." },
+    { q: "Do you offer vision therapy?", a: "At Looptica we focus on the optical side: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses, fitting and follow-up, always following the ophthalmologist's prescription. Vision therapy and medical treatments are the ophthalmologist's responsibility." },
     { q: "Is patching enough to fix a lazy eye?", a: "Patching (occlusion) is a common part of the treatment the ophthalmologist prescribes, but wearing the right, well-fitted optical correction is usually needed too. That part is ours." },
     { q: "Who should make the diagnosis?", a: "The ophthalmologist. They examine the child, rule out pathology, confirm the amblyopia and decide the treatment. We are optometrists and step in afterwards, working in coordination and to their instructions." },
     { q: "Up to what age can it be treated?", a: "The earlier the better the prognosis; even so, some cases improve at older ages. That assessment is made by the ophthalmologist during their examination." },
   ],
   de: [
-    { q: "Bieten Sie Sehtherapie an?", a: "Nein. Looptica bietet keine Sehtherapie an. Unsere Aufgabe ist die optische Lösung: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, immer nach augenärztlicher Verordnung." },
+    { q: "Bieten Sie Sehtherapie an?", a: "Bei Looptica konzentrieren wir uns auf die optische Seite: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, Anpassung und Nachsorge, immer nach augenärztlicher Verordnung. Sehtherapie und medizinische Behandlungen liegen in der Verantwortung des Augenarztes." },
     { q: "Reicht das Abkleben beim schwachen Auge?", a: "Okklusion ist ein üblicher Teil der vom Augenarzt verordneten Behandlung, meist braucht es zusätzlich die passende und gut angepasste optische Korrektion. Dafür sind wir zuständig." },
     { q: "Wer stellt die Diagnose?", a: "Der Augenarzt. Er untersucht das Kind, schließt Erkrankungen aus, bestätigt die Amblyopie und legt die Behandlung fest. Wir sind Optometristen und kommen danach hinzu, abgestimmt und nach seinen Vorgaben." },
     { q: "Bis zu welchem Alter ist eine Behandlung möglich?", a: "Je früher, desto besser die Prognose; dennoch verbessern sich manche Fälle auch später. Diese Beurteilung trifft der Augenarzt bei seiner Untersuchung." },
