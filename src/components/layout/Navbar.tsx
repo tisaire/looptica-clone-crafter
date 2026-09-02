@@ -17,14 +17,23 @@ const Navbar = () => {
   // Check if we're on the homepage for the current language
   const isHomePage = location.pathname === `/${language}` || location.pathname === `/${language}/`;
 
-  const navLinks = [
+  type NavChild = { name: string; path: string };
+  type NavLink = { name: string; path?: string; children?: NavChild[] };
+
+  const navLinks: NavLink[] = [
     { name: t('home'), path: `/${language}` },
-    { name: t('opticalServices'), path: isHomePage ? `/${language}/#optical` : `/${language}/#optical` },
-    { name: t('audiologyServices'), path: isHomePage ? `/${language}/#audiology` : `/${language}/#audiology` },
-    { name: t('childrenVision'), path: `/${language}/visio-infantil` },
+    {
+      name: t('breadcrumbServices'),
+      children: [
+        { name: t('opticalServices'), path: `/${language}/#optical` },
+        { name: t('childrenVision'), path: `/${language}/visio-infantil` },
+        { name: t('audiologyServices'), path: `/${language}/#audiology` },
+      ],
+    },
     { name: t('about'), path: `/${language}/about` },
     { name: t('contact'), path: isHomePage ? `/${language}/#contact` : `/${language}/#contact` },
   ];
+
 
   useEffect(() => {
     const handleScroll = () => {
