@@ -142,7 +142,59 @@ const CookiesPolicy = () => {
       heading: "Política de Cookies",
       lastUpdated: "Darrera actualització: Abril 2023",
       content: `
-...
+        <h2>POLÍTICA DE COOKIES</h2>
+        
+        <p>Una cookie és un fitxer que es descarrega al seu ordinador en accedir a determinades pàgines web. Les cookies permeten a una pàgina web, entre altres coses, emmagatzemar i recuperar informació sobre els hàbits de navegació d'un usuari o del seu equip i, depenent de la informació que continguin i de la forma en què utilitzi el seu equip, poden utilitzar-se per reconèixer l'usuari.</p>
+        
+        <p>De conformitat amb la Secció Segona de l'Article 22 de la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic (d'ara endavant, LSSI), LOOPTICA POBLENOU S.L. informa de la següent manera:</p>
+        
+        <h3>1. COOKIES UTILITZADES EN AQUEST LLOC WEB</h3>
+        
+        <p>LOOPTICA POBLENOU S.L. utilitza un conjunt de cookies en el present lloc web que ens permet oferir un millor servei als nostres usuaris.</p>
+        
+        <p>Les cookies utilitzades en aquest lloc web són:</p>
+        
+        <h4>Cookies tècniques:</h4>
+        <p>Són aquelles que permeten a l'usuari la navegació a través d'una pàgina web, plataforma o aplicació i la utilització de les diferents opcions o serveis que en ella existeixin com, per exemple, controlar el trànsit i la comunicació de dades, identificar la sessió, accedir a parts d'accés restringit, utilitzar elements de seguretat durant la navegació o compartir continguts a través de xarxes socials.</p>
+        
+        <h4>Cookies de personalització:</h4>
+        <p>Són aquelles que permeten a l'usuari accedir al servei amb algunes característiques de caràcter general predefinides en funció d'una sèrie de criteris en el terminal de l'usuari com per exemple serien l'idioma, el tipus de navegador a través del qual accedeix al servei, la configuració regional des d'on accedeix al servei, etc.</p>
+        
+        <h4>Cookies d'anàlisi:</h4>
+        <p>Són aquelles que permeten al responsable d'aquestes, el seguiment i anàlisi del comportament dels usuaris dels llocs web als quals estan vinculades. La informació recollida mitjançant aquest tipus de cookies s'utilitza en el mesurament de l'activitat dels llocs web, aplicació o plataforma i per a l'elaboració de perfils de navegació dels usuaris d'aquests llocs, aplicacions i plataformes, amb la finalitat d'introduir millores en funció de l'anàlisi de les dades d'ús que fan els usuaris del servei.</p>
+        
+        <h3>2. COOKIES DE TERCERS</h3>
+        
+        <p>Aquest lloc web utilitza cookies de tercers. Concretament, aquest lloc web utilitza Google Analytics, un servei d'analítica web desenvolupat per Google, Inc. amb domicili als Estats Units. Per a la prestació d'aquests serveis, utilitzen cookies que recopilen informació, inclosa l'adreça IP de l'usuari, que serà transmesa, tractada i emmagatzemada per Google en els termes fixats a la web Google.com. Això inclou la possible transmissió d'aquesta informació a tercers per raons d'exigència legal o quan aquests tercers processin la informació per compte de Google.</p>
+        
+        <h3>3. ACCEPTACIÓ O REBUIG DE COOKIES</h3>
+        
+        <p>Aquest lloc web mostra informació sobre la seva Política de Cookies a la part inferior de qualsevol pàgina del portal amb cada inici de sessió perquè vostè en sigui conscient.</p>
+        
+        <p>Davant d'aquesta informació és possible dur a terme les següents accions:</p>
+        <ul>
+          <li>Acceptar cookies: no es tornarà a visualitzar aquest avís en accedir a qualsevol pàgina del portal durant la present sessió.</li>
+          <li>Tancar: s'oculta l'avís a la present pàgina.</li>
+          <li>Més informació: podrà obtenir més informació sobre què són les cookies, conèixer la Política de Cookies de LOOPTICA POBLENOU S.L. i modificar la configuració del seu navegador.</li>
+        </ul>
+        
+        <h3>4. DESACTIVACIÓ I BLOQUEIG DE COOKIES</h3>
+        
+        <p>En qualsevol cas, l'usuari pot permetre, bloquejar o eliminar aquestes cookies instal·lades al seu equip mitjançant la configuració de les opcions del navegador instal·lat al seu ordinador:</p>
+        <ul>
+          <li>Microsoft Internet Explorer: menú Eines > Opcions d'Internet > Privacitat > Configuració.</li>
+          <li>Firefox: menú Eines > Opcions > Privacitat > Cookies.</li>
+          <li>Chrome: Menú > Configuració > Mostrar opcions avançades > Privacitat > Configuració de contingut.</li>
+          <li>Safari: Edició > Preferències > Privacitat.</li>
+          <li>Opera: Menú > Preferències > Avançat > Privacitat.</li>
+        </ul>
+        
+        <p>Si bloqueja l'ús de cookies al seu navegador és possible que alguns serveis o funcionalitats de la pàgina web no estiguin disponibles.</p>
+        
+        <h3>5. CANVIS EN LA POLÍTICA DE COOKIES</h3>
+        
+        <p>És possible que la Política de Cookies d'aquest lloc web canviï o s'actualitzi, per això és recomanable que revisi aquesta política cada vegada que accedeixi al nostre lloc web amb l'objectiu d'estar adequadament informat sobre com i per a què fem servir les cookies.</p>
+        
         <p>Quan es produeixin canvis significatius en aquesta Política de Cookies, es comunicaran als usuaris bé mitjançant la web o a través de correu electrònic als usuaris registrats.</p>
       `
     },
