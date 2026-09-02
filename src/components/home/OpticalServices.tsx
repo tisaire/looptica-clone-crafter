@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Eye, Contact, Moon, User, Glasses, BadgeEuro } from 'lucide-react';
+import { Eye, Contact, Moon, User, Glasses, BadgeEuro, Sun } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -47,6 +47,20 @@ const OpticalServices = () => {
       path: `/${language}/services/lens-consulting`
     },
     {
+      icon: <Glasses className="w-10 h-10 text-[#55afa9]" />,
+      title: t('eyeglasses'),
+      description: t('eyeglassesSubtitle'),
+      image: "/lovable-uploads/45087a9c-489a-4d48-82fb-d857e7bf306a.jpg",
+      path: `/${language}/services/eyeglasses`
+    },
+    {
+      icon: <Sun className="w-10 h-10 text-[#55afa9]" />,
+      title: t('sunglassesService'),
+      description: t('sunglassesServiceDesc'),
+      image: "/lovable-uploads/e288806f-89cb-4ae0-9a88-6b52ee0ccc4b.png",
+      path: `/${language}/services/sunglasses`
+    },
+    {
       icon: <BadgeEuro className="w-10 h-10 text-[#55afa9]" />,
       title: t('planVeo'),
       description: t('planVeoDesc'),
@@ -54,6 +68,7 @@ const OpticalServices = () => {
       path: `/${language}/services/plan-veo`
     }
   ];
+
 
   return (
     <section className="py-16 bg-white" id="optical">
