@@ -43,28 +43,32 @@ const About = () => {
       {
         name: "Elena",
         role: {
-          en: "Owner\n\nLicensed Optician Optometrist Col. 18568",
-          es: "Propietaria\n\nÓptica Optometrista Colegiada Col. 18568",
-          ca: "Propietària\n\nÒptica Optometrista Col·legiada Col. 18568",
-          de: "Inhaberin\n\nOptikerin Optometristin Mitglied der Berufskammer Col. 18568"
+          en: "Owner\n\nOptician Optometrist",
+          es: "Propietaria\n\nÓptica Optometrista",
+          ca: "Propietària\n\nÒptica Optometrista",
+          de: "Inhaberin\n\nOptikerin Optometristin"
         },
         image: "/images/_DSC4776.jpg",
         bio: {
           en: [
             "As the owner of Looptica, Elena brings over 15 years of experience in optometry. With her extensive knowledge and dedication to customer care, she has built Looptica into a trusted name for optical and audiological services in Barcelona.",
-            "Elena specializes in providing personalized eye care solutions for each client."
+            "Elena specializes in providing personalized eye care solutions for each client.",
+            "Licensed Optician Optometrist — Col. 18568."
           ],
           es: [
             "Como propietaria de Looptica, Elena aporta más de 15 años de experiencia en optometría. Con su amplio conocimiento y dedicación, ha convertido a Looptica en un centro optométrico y audiológico de referencia en el barrio del Poblenou en Barcelona.",
-            "Le apasiona brindar soluciones personalizadas de cuidado ocular para cada cliente."
+            "Le apasiona brindar soluciones personalizadas de cuidado ocular para cada cliente.",
+            "Óptica Optometrista Colegiada — Col. 18568."
           ],
           ca: [
             "Com a propietària de Looptica, Elena aporta més de 15 anys d'experiència en optometria. Amb el seu ampli coneixement i dedicació, ha convertit Looptica en un centre optomètric i audiològic de referència al barri del Poblenou a Barcelona.",
-            "Li apassiona oferir solucions personalitzades de cura ocular per a cada client."
+            "Li apassiona oferir solucions personalitzades de cura ocular per a cada client.",
+            "Òptica Optometrista Col·legiada — Col. 18568."
           ],
           de: [
             "Als Inhaberin von Looptica bringt Elena über 15 Jahre Erfahrung in der Optometrie mit. Mit ihrem umfassenden Wissen und ihrer Hingabe an die Kundenbetreuung hat sie Looptica zu einem vertrauenswürdigen Namen für optische und audiologische Dienstleistungen in Barcelona gemacht.",
-            "Elena ist spezialisiert auf die Bereitstellung personalisierter Augenpflegelösungen für jeden Kunden."
+            "Elena ist spezialisiert auf die Bereitstellung personalisierter Augenpflegelösungen für jeden Kunden.",
+            "Optikerin Optometristin, Mitglied der Berufskammer — Col. 18568."
           ]
         }
       },
