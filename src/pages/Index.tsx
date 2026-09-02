@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.5.2-soft-vision-therapy"; // Softer wording for vision therapy scope across children's vision pages
+const CURRENT_VERSION = "v2.5.3-remove-vision-therapy-responsibility"; // Removed explicit ophthalmologist responsibility line from children's vision pages
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
