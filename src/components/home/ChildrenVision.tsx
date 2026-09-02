@@ -1,8 +1,8 @@
 import { Baby, Eye, Glasses } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ScrollReveal from '@/components/ui/ScrollReveal';
-import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
+import ulleresNensImage from '@/assets/ulleres-nens-hero.jpg';
 
 const content = {
   ca: {
@@ -65,6 +65,8 @@ const icons = [
   <Glasses key="glasses" className="w-10 h-10 text-[#55afa9]" />,
 ];
 
+const images = ['/images/ortok_resize.jpg', '/images/_DSC4696.jpg', ulleresNensImage];
+
 const ChildrenVision = () => {
   const { language } = useLanguage();
   const c = content[language as keyof typeof content] ?? content.ca;
@@ -86,19 +88,28 @@ const ChildrenVision = () => {
         <ScrollReveal delay={0.2}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             {c.cards.map((card, index) => (
-              <div
+              <Link
                 key={card.to}
-                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6 flex flex-col items-center text-center"
+                to={`/${language}${card.to}`}
+                className="group bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col overflow-hidden"
               >
-                <div className="mb-4">{icons[index]}</div>
-                <h3 className="text-lg font-semibold mb-2 text-gray-900">{card.title}</h3>
-                <p className="text-gray-600 text-sm mb-4">{card.text}</p>
-                <Link to={`/${language}${card.to}`} className="mt-auto">
-                  <Button variant="outline" size="sm" className="border-[#55afa9] text-[#55afa9] hover:bg-[#55afa9]/10">
+                <div className="w-full h-48 overflow-hidden">
+                  <img
+                    src={images[index]}
+                    alt={card.title}
+                    className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-500"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-6 flex flex-col items-center text-center flex-grow">
+                  <div className="mb-4">{icons[index]}</div>
+                  <h3 className="text-lg font-semibold mb-2 text-gray-900">{card.title}</h3>
+                  <p className="text-gray-600 text-sm mb-4">{card.text}</p>
+                  <span className="mt-auto inline-flex items-center justify-center h-9 px-3 rounded-md border border-[#55afa9] text-[#55afa9] text-sm font-medium group-hover:bg-[#55afa9]/10 transition-colors">
                     {c.details}
-                  </Button>
-                </Link>
-              </div>
+                  </span>
+                </div>
+              </Link>
             ))}
           </div>
         </ScrollReveal>
