@@ -72,11 +72,23 @@ const PageTracker = () => {
   return null;
 };
 
+// Scrolls to the top of the page on every route change
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 // Layout component that includes Footer, Toaster, CookieConsent
 // This helps to ensure these are applied consistently within language-wrapped routes
 const MainLayout = () => {
   return (
     <>
+      <ScrollToTop />
       <Outlet /> {/* Page content will be rendered here */}
       <Footer />
       <Toaster />
@@ -84,6 +96,7 @@ const MainLayout = () => {
     </>
   );
 };
+
 
 function App() {
   return (
