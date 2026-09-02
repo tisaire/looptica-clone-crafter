@@ -19,7 +19,6 @@ const Navbar = () => {
 
   const navLinks = [
     { name: t('home'), path: `/${language}` },
-    { name: t('products'), path: isHomePage ? `/${language}/#products` : `/${language}/#products` },
     { name: t('opticalServices'), path: isHomePage ? `/${language}/#optical` : `/${language}/#optical` },
     { name: t('audiologyServices'), path: isHomePage ? `/${language}/#audiology` : `/${language}/#audiology` },
     { name: t('childrenVision'), path: `/${language}/visio-infantil` },
