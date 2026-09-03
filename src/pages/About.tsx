@@ -123,6 +123,8 @@ const About = () => {
           ]
         }
       },
+    ],
+
 
     philosophy: {
       title: {
