@@ -99,7 +99,33 @@ const About = () => {
           ]
         }
       },
+      {
+        name: "Esther",
+        role: {
+          en: "Audiologist\n\nHearing Aid Specialist",
+          es: "Audióloga\n\nAudioprotesista",
+          ca: "Audiòloga\n\nAudioprotesista",
+          de: "Audiologin\n\nHörgeräteakustikerin"
+        },
+        image: "/images/esther_resize.jpeg",
+        bio: {
+          en: [
+            "Esther is our hearing aid specialist and audiologist with a special interest in hearing rehabilitation. Her kind and patient approach helps clients feel comfortable when addressing their specific needs. With advanced training in the latest technologies and her interest in trends, she is able to provide a comprehensive approach to her patients' hearing health."
+          ],
+          es: [
+            "Esther es nuestra audioprotesista y audióloga con un interés especial en la rehabilitación auditiva. Su enfoque amable y paciente ayuda a los clientes a sentirse cómodos al abordar sus necesidades específicas. Con formación avanzada en las últimas tecnologías y su interés por las tendencias, le permiten ofrecer un enfoque integral a la salud auditiva de sus pacientes."
+          ],
+          ca: [
+            "L'Esther és la nostra audioprotesista i audiòloga amb un interès especial en la rehabilitació auditiva. El seu enfocament amable i pacient ajuda els clients a sentir-se còmodes en abordar les seves necessitats específiques. Amb formació avançada en les últimes tecnologies i el seu interès per les tendències, li permeten oferir un enfocament integral a la salut auditiva dels seus pacients."
+          ],
+          de: [
+            "Esther ist unsere Hörgeräteakustikerin und Audiologin mit besonderem Interesse an Hörrehabilitation. Ihr freundlicher und geduldiger Ansatz hilft den Klienten, sich wohl zu fühlen, wenn sie ihre spezifischen Bedürfnisse ansprechen. Mit fortgeschrittener Ausbildung in den neuesten Technologien und ihrem Interesse an Trends kann sie einen umfassenden Ansatz für die Hörgesundheit ihrer Patienten bieten."
+          ]
+        }
+      },
     ],
+
+
     philosophy: {
       title: {
         en: "Our Philosophy",
@@ -168,7 +194,7 @@ const About = () => {
               </h1>
             </ScrollReveal>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 max-w-6xl mx-auto">
               {content.teamMembers.map((member, index) => (
                 <ScrollReveal key={member.name} origin={index === 0 ? "left" : "right"}>
                   <div className="bg-white p-8 rounded-xl shadow-md h-full flex flex-col">
