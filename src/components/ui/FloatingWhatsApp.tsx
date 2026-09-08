@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { X } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 interface FloatingWhatsAppProps {
@@ -20,6 +21,17 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
+const closeLabels: Record<string, string> = {
+  ca: 'Tanca el missatge',
+  es: 'Cerrar el mensaje',
+  en: 'Close message',
+  de: 'Nachricht schließen',
+};
+
+const BUBBLE_DELAY_MS = 4000;
+const PULSE_DURATION_MS = 2000;
+const STORAGE_KEY = 'wa-bubble-shown';
+
 const FloatingWhatsApp = ({
   phoneNumber,
   accountName,
@@ -27,9 +39,11 @@ const FloatingWhatsApp = ({
   chatMessage,
   placeholder
 }: FloatingWhatsAppProps) => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [isVisible, setIsVisible] = useState(true);
   const [cookieBannerVisible, setCookieBannerVisible] = useState(false);
+  const [showBubble, setShowBubble] = useState(false);
+  const [isPulsing, setIsPulsing] = useState(false);
 
   useEffect(() => {
     setIsVisible(true);
@@ -43,28 +57,75 @@ const FloatingWhatsApp = ({
     window.addEventListener('cookie-consent-change', handler);
     return () => window.removeEventListener('cookie-consent-change', handler);
   }, []);
-  
-  
+
+  // Show the invitation bubble once per session, after a short delay
+  useEffect(() => {
+    if (sessionStorage.getItem(STORAGE_KEY)) return;
+
+    const showTimer = setTimeout(() => {
+      setShowBubble(true);
+      setIsPulsing(true);
+      sessionStorage.setItem(STORAGE_KEY, '1');
+    }, BUBBLE_DELAY_MS);
+
+    return () => clearTimeout(showTimer);
+  }, []);
+
+  // Stop the pulse shortly after it starts
+  useEffect(() => {
+    if (!isPulsing) return;
+    const stopTimer = setTimeout(() => setIsPulsing(false), PULSE_DURATION_MS);
+    return () => clearTimeout(stopTimer);
+  }, [isPulsing]);
+
+  const dismissBubble = () => {
+    setShowBubble(false);
+    setIsPulsing(false);
+  };
+
+  const bottomClass = cookieBannerVisible ? 'bottom-40 md:bottom-28' : 'bottom-6';
+
   return (
-    <a
-      href={`https://wa.me/${phoneNumber}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      onClick={() => {
-        window.gtag?.('event', 'whatsapp_click', {
-          location: window.location.pathname
-        });
-      }}
-      className={`fixed right-6 z-[70] bg-[#25D366] text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:bg-[#128C7E] hover:scale-110 ${
-        cookieBannerVisible ? 'bottom-40 md:bottom-28' : 'bottom-6'
-      } ${
-        isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'
-      }`}
-      aria-label={t('contactViaWhatsApp')}
-      title={`${chatMessage} - ${accountName}`}
-    >
-      <WhatsAppIcon className="h-6 w-6" />
-    </a>
+    <div className={`fixed right-6 z-[70] flex items-end gap-3 transition-all duration-300 ${bottomClass}`}>
+      {showBubble && (
+        <div
+          role="status"
+          className="animate-scale-in relative mb-1 max-w-[240px] rounded-2xl rounded-br-sm bg-white p-4 shadow-xl border border-gray-100"
+        >
+          <button
+            type="button"
+            onClick={dismissBubble}
+            aria-label={closeLabels[language] ?? closeLabels.en}
+            className="absolute right-2 top-2 text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            <X className="h-4 w-4" />
+          </button>
+          <p className="text-sm font-semibold text-gray-900 pr-5">{accountName}</p>
+          <p className="text-xs text-gray-500 mb-1.5">{statusMessage}</p>
+          <p className="text-sm text-gray-700">{chatMessage}</p>
+        </div>
+      )}
+      <a
+        href={`https://wa.me/${phoneNumber}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => {
+          dismissBubble();
+          window.gtag?.('event', 'whatsapp_click', {
+            location: window.location.pathname
+          });
+        }}
+        className={`bg-[#25D366] text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:bg-[#128C7E] hover:scale-110 ${
+          isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'
+        } ${
+          isPulsing ? 'motion-safe:animate-[pulse_1s_cubic-bezier(0.4,0,0.6,1)_2]' : ''
+        }`}
+        aria-label={t('contactViaWhatsApp')}
+        title={`${chatMessage} - ${accountName}`}
+      >
+        <WhatsAppIcon className="h-6 w-6" />
+      </a>
+    </div>
   );
 };
 
