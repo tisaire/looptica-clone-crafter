@@ -58,7 +58,9 @@ const FloatingWhatsApp = ({
     return () => window.removeEventListener('cookie-consent-change', handler);
   }, []);
 
-  // Show the invitation bubble once per session, after a short delay
+  // Show the invitation bubble once per page view, after a short delay.
+  // The flag is cleared on unload so a page refresh shows it again,
+  // while SPA navigation (no unload) keeps it hidden.
   useEffect(() => {
     if (sessionStorage.getItem(STORAGE_KEY)) return;
 
@@ -68,7 +70,13 @@ const FloatingWhatsApp = ({
       sessionStorage.setItem(STORAGE_KEY, '1');
     }, BUBBLE_DELAY_MS);
 
-    return () => clearTimeout(showTimer);
+    const clearOnUnload = () => sessionStorage.removeItem(STORAGE_KEY);
+    window.addEventListener('beforeunload', clearOnUnload);
+
+    return () => {
+      clearTimeout(showTimer);
+      window.removeEventListener('beforeunload', clearOnUnload);
+    };
   }, []);
 
   // Stop the pulse shortly after it starts
