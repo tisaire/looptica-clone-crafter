@@ -240,7 +240,7 @@ const VisioInfantil = () => {
         <ScrollReveal>
           <div className="mb-12">
             <h2 className="text-2xl font-semibold mb-6">{topicsTitle[lang]}</h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {topics[lang].map((topic) => (
                 <Link
                   key={topic.to}
