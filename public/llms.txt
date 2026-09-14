@@ -16,6 +16,7 @@ Looptica is a Barcelona-based clinic providing personalized optical and audiolog
 - [Eye Health](/services/salut-visual): Comprehensive eye exams and vision care.
 - [Contact Lenses](/services/lents-contacte): Contact lens fittings and consultations.
 - [Ortho-K](/services/orto-k): Orthokeratology overnight lens treatment.
+- [Multifocal contact lenses](/services/lents-contacte-multifocals): Fitting of multifocal (progressive) contact lenses for presbyopia.
 - [Eyeglasses](/services/eyeglasses): Prescription glasses and frames.
 - [Sunglasses](/services/sunglasses): Prescription and fashion sunglasses.
 - [Hearing Test](/services/hearing-test): Professional hearing evaluations.

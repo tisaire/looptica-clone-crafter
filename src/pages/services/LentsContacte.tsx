@@ -305,8 +305,20 @@ const LentsContacte = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h4 className="text-xl font-medium mb-2">{content.multifocalLenses[language]}</h4>
+              <h4 className="text-xl font-medium mb-2">
+                <Link to={`/${language}/services/lents-contacte-multifocals`} className="text-[#55afa9] underline font-medium">
+                  {content.multifocalLenses[language]}
+                </Link>
+              </h4>
               <p>{content.multifocalLensesDesc[language]}</p>
+              <p className="mt-3">
+                <Link to={`/${language}/services/lents-contacte-multifocals`} className="text-[#55afa9] underline font-medium">
+                  {language === 'en' && 'Discover multifocal contact lenses →'}
+                  {language === 'es' && 'Descubre las lentillas multifocales →'}
+                  {language === 'ca' && 'Descobreix les lents multifocals →'}
+                  {language === 'de' && 'Multifokale Kontaktlinsen entdecken →'}
+                </Link>
+              </p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm">
