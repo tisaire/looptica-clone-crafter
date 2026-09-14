@@ -99,7 +99,7 @@ const followUp = {
   ca: [
     "En els primers anys de vida l'ull del nadó creix ràpidament. Una lentilla que encaixava bé fa tres mesos pot necessitar canvis de paràmetres, diàmetre o graduació.",
     "Per això treballem amb revisions programades i en coordinació amb l'oftalmòleg: cada control aporta dades que ajuden a decidir si la correcció òptica cal ajustar-la o si l'evolució és la correcta.",
-    "Els pares també tenen un paper clínic: el compliment de les hores de portada de la lentilla i la cura diària influeixen directament en el desenvolupament visual del nadó.",
+    "Els pares també tenen un paper clínic: el compliment de les hores d'ús de la lentilla i la cura diària influeixen directament en el desenvolupament visual del nadó.",
   ],
   es: [
     "En los primeros años de vida el ojo del bebé crece rápidamente. Una lentilla que encajaba bien hace tres meses puede necesitar cambios de parámetros, diámetro o graduación.",
