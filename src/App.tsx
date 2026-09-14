@@ -48,6 +48,7 @@ const VisioInfantil = lazyWithRetry(() => import('./pages/vision-infantil/VisioI
 const ControlMiopia = lazyWithRetry(() => import('./pages/vision-infantil/ControlMiopia'));
 const UllGandul = lazyWithRetry(() => import('./pages/vision-infantil/UllGandul'));
 const UlleresNens = lazyWithRetry(() => import('./pages/vision-infantil/UlleresNens'));
+const CatarataCongenita = lazyWithRetry(() => import('./pages/vision-infantil/CatarataCongenita'));
 
 
 
