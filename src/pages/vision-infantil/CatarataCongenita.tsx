@@ -8,21 +8,21 @@ import { Language } from '@/config/languages';
 import heroAsset from '@/assets/catarata-congenita-barcelona-hero.jpg.asset.json';
 
 const pageTitle: { [key in Language]: string } = {
-  ca: "Catarata Congènita Barcelona Poblenou | Lentilles Pediàtriques per a Nadons",
+  ca: "Cataracta Congènita Barcelona Poblenou | Lentilles Pediàtriques per a Nadons",
   es: "Catarata Congénita Barcelona Poblenou | Lentes Pediátricas para Bebés",
   en: "Congenital Cataract Barcelona Poblenou | Paediatric Contact Lenses for Babies",
   de: "Angeborener Katarakt Barcelona Poblenou | Pädiatrische Kontaktlinsen für Babys",
 };
 
 const pageDescription: { [key in Language]: string } = {
-  ca: "Adaptació de lentilles pediàtriques per a nadons amb catarata congènita a Poblenou. Treballem sota prescripció de l'oftalmòleg, amb seguiment estret des dels 0 anys.",
+  ca: "Adaptació de lentilles pediàtriques per a nadons amb cataracta congènita a Poblenou. Treballem sota prescripció de l'oftalmòleg, amb seguiment continuat des dels 0 anys.",
   es: "Adaptación de lentes pediátricas para bebés con catarata congénita en Poblenou. Trabajamos bajo prescripción del oftalmólogo, con seguimiento estrecho desde los 0 años.",
   en: "Paediatric contact lens fitting for babies with congenital cataract in Poblenou. We work to the ophthalmologist's prescription with close follow-up from age 0.",
   de: "Pädiatrische Kontaktlinsenanpassung für Babys mit angeborenem Katarakt in Poblenou. Wir arbeiten nach augenärztlicher Verordnung mit enger Nachbetreuung ab 0 Jahren.",
 };
 
 const hero = {
-  ca: { title: "Catarata congènita", subtitle: "Lentilles pediàtriques per a nadons, adaptades des dels 0 anys sota prescripció oftalmològica." },
+  ca: { title: "Cataracta congènita", subtitle: "Lentilles pediàtriques per a nadons, adaptades des dels 0 anys sota prescripció oftalmològica." },
   es: { title: "Catarata congénita", subtitle: "Lentes pediátricas para bebés, adaptadas desde los 0 años bajo prescripción oftalmológica." },
   en: { title: "Congenital cataract", subtitle: "Paediatric contact lenses for babies, fitted from age 0 on the ophthalmologist's prescription." },
   de: { title: "Angeborener Katarakt", subtitle: "Pädiatrische Kontaktlinsen für Babys, ab 0 Jahren auf augenärztliche Verordnung." },
@@ -30,7 +30,7 @@ const hero = {
 
 const intro = {
   ca: [
-    "La catarata congènita és l'opacitat del cristal·lí d'un nadó. Pot ser present ja al néixer o aparèixer durant els primers mesos de vida, i afecta el desenvolupament normal de la visió.",
+    "La cataracta congènita és l'opacitat del cristal·lí d'un nadó. Pot ser present ja al néixer o aparèixer durant els primers mesos de vida, i afecta el desenvolupament normal de la visió.",
     "La decisió de si cal cirurgia i quan fer-la correspon sempre a l'oftalmòleg. Un cop operat l'ull, el bebè necessita una correcció òptica que compensi el cristal·lí extret i permeti que el sistema visual es desenvolupi amb normalitat.",
     "A Looptica fem aquesta correcció amb lentilles pediàtriques de contacte, adaptades des dels 0 anys, sempre seguint la prescripció i les indicacions de l'oftalmòleg.",
   ],
@@ -61,8 +61,7 @@ const whatWeDoTitle = {
 const whatWeDo = {
   ca: [
     "Adaptació de lentilles pediàtriques segons la prescripció de l'oftalmòleg.",
-    "Mesura dels paràmetres de la còrnia amb instruments adaptats als nadons.",
-    "Seguiment estret: els valors de l'ull d'un bebè canvien ràpid i cal revisar-los sovint.",
+    "Seguiment continuat: els valors de l'ull d'un bebè canvien ràpid i cal revisar-los sovint.",
     "Formació dels pares en la manipulació, la col·locació i la higiene de les lents.",
     "Comunicació constant amb l'oftalmòleg per ajustar la correcció segons l'evolució.",
   ],
@@ -100,7 +99,7 @@ const followUp = {
   ca: [
     "En els primers anys de vida l'ull del nadó creix ràpidament. Una lentilla que encaixava bé fa tres mesos pot necessitar canvis de paràmetres, diàmetre o graduació.",
     "Per això treballem amb revisions programades i en coordinació amb l'oftalmòleg: cada control aporta dades que ajuden a decidir si la correcció òptica cal ajustar-la o si l'evolució és la correcta.",
-    "Els pares també tenen un paper clínic: el compliment de les hores de portada de la lentilla i la cura diària influeixen directament en el desenvolupament visual del nadó.",
+    "Els pares també tenen un paper clínic: el compliment de les hores d'ús de la lentilla i la cura diària influeixen directament en el desenvolupament visual del nadó.",
   ],
   es: [
     "En los primeros años de vida el ojo del bebé crece rápidamente. Una lentilla que encajaba bien hace tres meses puede necesitar cambios de parámetros, diámetro o graduación.",
@@ -135,7 +134,7 @@ const faqTitle = {
 
 const faqs = {
   ca: [
-    { q: "Què és la catarata congènita?", a: "És l'opacitat del cristal·lí d'un nadó. Pot ser congènita (present al néixer) o desenvolupar-se durant els primers mesos. La detecció i el tractament els gestiona l'oftalmòleg." },
+    { q: "Què és la cataracta congènita?", a: "És l'opacitat del cristal·lí d'un nadó. Pot ser congènita (present al néixer) o desenvolupar-se durant els primers mesos. La detecció i el tractament els gestiona l'oftalmòleg." },
     { q: "Qui decideix si cal cirurgia?", a: "La cirurgia la decideix i la realitza l'oftalmòleg. A Looptica entrem després, quan cal adaptar la correcció òptica amb lentilles pediàtriques." },
     { q: "Des de quina edat podeu adaptar lentilles?", a: "Des dels 0 anys, sempre amb prescripció i indicació de l'oftalmòleg." },
     { q: "Quin seguiment necessita un bebè amb lentilles?", a: "Un seguiment freqüent, ja que l'ull del nadó creix i els paràmetres canvien. Treballem coordinadament amb l'oftalmòleg per revisar i ajustar la lentilla." },
@@ -196,7 +195,7 @@ const CatarataCongenita = () => {
         image={heroAsset.url}
         pageTitle={pageTitle}
         pageDescription={pageDescription}
-        appointmentSubject="Catarata congènita i lentilles pediàtriques a Looptica"
+        appointmentSubject="Cataracta congènita i lentilles pediàtriques a Looptica"
         breadcrumbParents={[{ label: parentCrumb[lang], path: '/visio-infantil' }]}
       >
         <ScrollReveal>
