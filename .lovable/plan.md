@@ -6,7 +6,7 @@ Crear una página hija más dentro del hub de visión infantil para la **catarat
 ## Estructura de la nueva URL
 
 ```text
-/:lang/visio-infantil/catarata-congenita
+/:lang/visio-infantil/catarata-congenita-barcelona
 ```
 
 El slug se mantiene en los cuatro idiomas (es/ca/en/de) igual que el resto de páginas del hub.
