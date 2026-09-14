@@ -134,7 +134,7 @@ const faqTitle = {
 
 const faqs = {
   ca: [
-    { q: "Què és la catarata congènita?", a: "És l'opacitat del cristal·lí d'un nadó. Pot ser congènita (present al néixer) o desenvolupar-se durant els primers mesos. La detecció i el tractament els gestiona l'oftalmòleg." },
+    { q: "Què és la cataracta congènita?", a: "És l'opacitat del cristal·lí d'un nadó. Pot ser congènita (present al néixer) o desenvolupar-se durant els primers mesos. La detecció i el tractament els gestiona l'oftalmòleg." },
     { q: "Qui decideix si cal cirurgia?", a: "La cirurgia la decideix i la realitza l'oftalmòleg. A Looptica entrem després, quan cal adaptar la correcció òptica amb lentilles pediàtriques." },
     { q: "Des de quina edat podeu adaptar lentilles?", a: "Des dels 0 anys, sempre amb prescripció i indicació de l'oftalmòleg." },
     { q: "Quin seguiment necessita un bebè amb lentilles?", a: "Un seguiment freqüent, ja que l'ull del nadó creix i els paràmetres canvien. Treballem coordinadament amb l'oftalmòleg per revisar i ajustar la lentilla." },
