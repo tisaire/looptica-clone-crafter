@@ -1,10 +1,11 @@
-import { Baby, Eye, Glasses } from 'lucide-react';
+import { Baby, Eye, Glasses, Stethoscope } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import visionInfantilHeroImage from '@/assets/vision-infantil-hero.jpg';
 import ullGandulImage from '@/assets/ull-gandul-card.jpg';
 import ulleresNensImage from '@/assets/ulleres-nens-hero.jpg';
+import catarataCardImage from '@/assets/catarata-congenita-barcelona-card.jpg.asset.json';
 
 const content = {
   ca: {
