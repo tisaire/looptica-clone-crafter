@@ -137,7 +137,7 @@ function App() {
                 <Route path="visio-infantil/control-miopia" element={<Suspense fallback={<PageLoader />}><ControlMiopia /></Suspense>} />
                 <Route path="visio-infantil/ull-gandul" element={<Suspense fallback={<PageLoader />}><UllGandul /></Suspense>} />
                 <Route path="visio-infantil/ulleres-nens" element={<Suspense fallback={<PageLoader />}><UlleresNens /></Suspense>} />
-
+                <Route path="visio-infantil/catarata-congenita-barcelona" element={<Suspense fallback={<PageLoader />}><CatarataCongenita /></Suspense>} />
 
 
                 {/* Audiology Services */}
