@@ -17,6 +17,7 @@ const content = {
       { title: 'Control de la miopia', text: 'Orto-K, lents de desenfocament perifèric i lentilles de control.', to: '/visio-infantil/control-miopia' },
       { title: 'Ull gandul (ambliopia)', text: 'La correcció òptica que aportem un cop hi ha diagnòstic mèdic.', to: '/visio-infantil/ull-gandul' },
       { title: 'Ulleres i lentilles per a nens', text: 'Muntures Nano, Polaroid i Centrostyle, i lentilles per prescripció.', to: '/visio-infantil/ulleres-nens' },
+      { title: 'Catarata congènita', text: 'Lentilles pediàtriques per a nadons des dels 0 anys, sota prescripció oftalmològica.', to: '/visio-infantil/catarata-congenita-barcelona' },
     ],
     cta: 'Veure tot el que fem en visió infantil',
     details: 'Veure detalls',
