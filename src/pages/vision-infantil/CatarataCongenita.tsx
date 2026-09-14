@@ -82,7 +82,7 @@ const whatWeDo = {
   de: [
     "Anpassung pädiatrischer Kontaktlinsen nach augenärztlicher Verordnung.",
     "Messung der Hornhautparameter mit für Babys geeigneten Geräten.",
-    "Enge Nachbetreuung: Das Auge eines Babys verändert sich schnell, daher sind häufige Kontrollen nötig.",
+    "Kontinuierliche Nachbetreuung: Das Auge eines Babys verändert sich schnell, daher sind häufige Kontrollen nötig.",
     "Anleitung der Eltern zum sicheren Einsetzen, Entfernen und Reinigen der Linsen.",
     "Kontinuierlicher Austausch mit dem Augenarzt, um die Korrektion an die Entwicklung anzupassen.",
   ],
