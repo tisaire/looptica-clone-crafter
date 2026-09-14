@@ -195,7 +195,7 @@ const CatarataCongenita = () => {
         image={heroAsset.url}
         pageTitle={pageTitle}
         pageDescription={pageDescription}
-        appointmentSubject="Catarata congènita i lentilles pediàtriques a Looptica"
+        appointmentSubject="Cataracta congènita i lentilles pediàtriques a Looptica"
         breadcrumbParents={[{ label: parentCrumb[lang], path: '/visio-infantil' }]}
       >
         <ScrollReveal>
