@@ -124,6 +124,7 @@ function App() {
                 {/* Optical Services */}
                 <Route path="services/salut-visual" element={<Suspense fallback={<PageLoader />}><SalutVisual /></Suspense>} />
                 <Route path="services/lents-contacte" element={<Suspense fallback={<PageLoader />}><LentsContacte /></Suspense>} />
+                <Route path="services/lents-contacte-multifocals" element={<Suspense fallback={<PageLoader />}><LentsContacteMultifocals /></Suspense>} />
                 <Route path="services/orto-k" element={<Suspense fallback={<PageLoader />}><OrtoK /></Suspense>} />
                 <Route path="services/eyeglasses" element={<Suspense fallback={<PageLoader />}><Eyeglasses /></Suspense>} />
                 <Route path="services/sunglasses" element={<Suspense fallback={<PageLoader />}><Sunglasses /></Suspense>} />
