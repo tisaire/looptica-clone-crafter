@@ -61,8 +61,7 @@ const whatWeDoTitle = {
 const whatWeDo = {
   ca: [
     "Adaptació de lentilles pediàtriques segons la prescripció de l'oftalmòleg.",
-    "Mesura dels paràmetres de la còrnia amb instruments adaptats als nadons.",
-    "Seguiment estret: els valors de l'ull d'un bebè canvien ràpid i cal revisar-los sovint.",
+    "Seguiment continuat: els valors de l'ull d'un bebè canvien ràpid i cal revisar-los sovint.",
     "Formació dels pares en la manipulació, la col·locació i la higiene de les lents.",
     "Comunicació constant amb l'oftalmòleg per ajustar la correcció segons l'evolució.",
   ],
