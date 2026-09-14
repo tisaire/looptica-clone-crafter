@@ -68,7 +68,7 @@ const whatWeDo = {
   es: [
     "Adaptación de lentes pediátricas según la prescripción del oftalmólogo.",
     "Medida de los parámetros de la córnea con instrumentos adaptados a los bebés.",
-    "Seguimiento estrecho: los valores del ojo de un bebé cambian rápido y hay que revisarlos a menudo.",
+    "Seguimiento continuado: los valores del ojo de un bebé cambian rápido y hay que revisarlos a menudo.",
     "Formación de los padres en la manipulación, la colocación y la higiene de las lentes.",
     "Comunicación constante con el oftalmólogo para ajustar la corrección según la evolución.",
   ],
