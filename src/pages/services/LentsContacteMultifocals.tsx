@@ -60,7 +60,7 @@ const LentsContacteMultifocals = () => {
 
   const copy: Record<Language, Copy> = {
     ca: {
-      metaTitle: 'Lents de Contacte Multifocals Barcelona | Presbícia · Looptica',
+      metaTitle: 'Lents de Contacte Multifocals Barcelona | Presbícia',
       metaDescription:
         "Adaptació personalitzada de lents de contacte multifocals i progressives a Barcelona. Estudi visual, proves i seguiment a Looptica Poblenou. Demana cita.",
       heroTitle: 'Lents de contacte multifocals a Barcelona',
@@ -202,7 +202,7 @@ const LentsContacteMultifocals = () => {
       ),
     },
     es: {
-      metaTitle: 'Lentillas Progresivas en Barcelona | Adaptación · Looptica',
+      metaTitle: 'Lentillas Progresivas y Multifocales en Barcelona | Adaptación',
       metaDescription:
         'Adaptación personalizada de lentillas progresivas y multifocales en Barcelona. Estudio visual, pruebas y seguimiento en Looptica Poblenou. Pide cita.',
       heroTitle: 'Lentillas progresivas y multifocales en Barcelona',
@@ -344,7 +344,7 @@ const LentsContacteMultifocals = () => {
       ),
     },
     en: {
-      metaTitle: 'Multifocal Contact Lenses Barcelona | Presbyopia · Looptica',
+      metaTitle: 'Multifocal Contact Lenses Barcelona | Presbyopia Fitting',
       metaDescription:
         'Personalised fitting of multifocal (progressive) contact lenses in Barcelona. Visual assessment, trial lenses and follow-up at Looptica Poblenou. Book now.',
       heroTitle: 'Multifocal contact lenses in Barcelona',
@@ -486,7 +486,7 @@ const LentsContacteMultifocals = () => {
       ),
     },
     de: {
-      metaTitle: 'Multifokale Kontaktlinsen Barcelona | Alterssichtigkeit · Looptica',
+      metaTitle: 'Multifokale Kontaktlinsen Barcelona | Alterssichtigkeit',
       metaDescription:
         'Individuelle Anpassung multifokaler (Gleitsicht-)Kontaktlinsen in Barcelona. Sehanalyse, Testlinsen und Nachsorge bei Looptica Poblenou. Termin buchen.',
       heroTitle: 'Multifokale Kontaktlinsen in Barcelona',
