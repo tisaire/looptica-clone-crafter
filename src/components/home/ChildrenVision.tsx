@@ -45,6 +45,7 @@ const content = {
       { title: 'Myopia control', text: 'Ortho-K, peripheral defocus lenses and control contact lenses.', to: '/visio-infantil/control-miopia' },
       { title: 'Lazy eye (amblyopia)', text: 'The optical correction we provide once there is a medical diagnosis.', to: '/visio-infantil/ull-gandul' },
       { title: "Children's glasses and contact lenses", text: 'Nano, Polaroid and Centrostyle frames, and lenses by prescription.', to: '/visio-infantil/ulleres-nens' },
+      { title: 'Congenital cataract', text: 'Paediatric contact lenses for babies from age 0, on the ophthalmologist\'s prescription.', to: '/visio-infantil/catarata-congenita-barcelona' },
     ],
     cta: "See everything we do in children's vision",
     details: 'View details',
