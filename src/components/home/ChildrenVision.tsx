@@ -59,6 +59,7 @@ const content = {
       { title: 'Myopiekontrolle', text: 'Ortho-K, Linsen mit peripherem Defokus und Kontrolllinsen.', to: '/visio-infantil/control-miopia' },
       { title: 'Schwachsichtigkeit (Amblyopie)', text: 'Die optische Korrektion nach der medizinischen Diagnose.', to: '/visio-infantil/ull-gandul' },
       { title: 'Brillen und Kontaktlinsen für Kinder', text: 'Nano-, Polaroid- und Centrostyle-Fassungen sowie Linsen auf Rezept.', to: '/visio-infantil/ulleres-nens' },
+      { title: 'Angeborener Katarakt', text: 'Pädiatrische Kontaktlinsen für Babys ab 0 Jahren auf augenärztliche Verordnung.', to: '/visio-infantil/catarata-congenita-barcelona' },
     ],
     cta: 'Alles zum Kindersehen ansehen',
     details: 'Details ansehen',
