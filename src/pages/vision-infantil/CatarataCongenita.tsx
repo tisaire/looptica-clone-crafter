@@ -8,14 +8,14 @@ import { Language } from '@/config/languages';
 import heroAsset from '@/assets/catarata-congenita-barcelona-hero.jpg.asset.json';
 
 const pageTitle: { [key in Language]: string } = {
-  ca: "Catarata Congènita Barcelona Poblenou | Lentilles Pediàtriques per a Nadons",
+  ca: "Cataracta Congènita Barcelona Poblenou | Lentilles Pediàtriques per a Nadons",
   es: "Catarata Congénita Barcelona Poblenou | Lentes Pediátricas para Bebés",
   en: "Congenital Cataract Barcelona Poblenou | Paediatric Contact Lenses for Babies",
   de: "Angeborener Katarakt Barcelona Poblenou | Pädiatrische Kontaktlinsen für Babys",
 };
 
 const pageDescription: { [key in Language]: string } = {
-  ca: "Adaptació de lentilles pediàtriques per a nadons amb catarata congènita a Poblenou. Treballem sota prescripció de l'oftalmòleg, amb seguiment estret des dels 0 anys.",
+  ca: "Adaptació de lentilles pediàtriques per a nadons amb cataracta congènita a Poblenou. Treballem sota prescripció de l'oftalmòleg, amb seguiment continuat des dels 0 anys.",
   es: "Adaptación de lentes pediátricas para bebés con catarata congénita en Poblenou. Trabajamos bajo prescripción del oftalmólogo, con seguimiento estrecho desde los 0 años.",
   en: "Paediatric contact lens fitting for babies with congenital cataract in Poblenou. We work to the ophthalmologist's prescription with close follow-up from age 0.",
   de: "Pädiatrische Kontaktlinsenanpassung für Babys mit angeborenem Katarakt in Poblenou. Wir arbeiten nach augenärztlicher Verordnung mit enger Nachbetreuung ab 0 Jahren.",
