@@ -32,7 +32,7 @@ const intro = {
   ca: [
     "La cataracta congènita és l'opacitat del cristal·lí d'un nadó. Pot ser present ja al néixer o aparèixer durant els primers mesos de vida, i afecta el desenvolupament normal de la visió.",
     "La decisió de si cal cirurgia i quan fer-la correspon sempre a l'oftalmòleg. Un cop operat l'ull, el bebè necessita una correcció òptica que compensi el cristal·lí extret i permeti que el sistema visual es desenvolupi amb normalitat.",
-    "A Looptica fem aquesta correcció amb lentilles pediàtriques de contacte, adaptades des dels 0 anys, sempre seguint la prescripció i les indicacions de l'oftalmòleg.",
+    "A Looptica fem aquesta correcció amb lentilles de contacte pediàtriques, adaptades des dels 0 anys, sempre seguint la prescripció i les indicacions de l'oftalmòleg.",
   ],
   es: [
     "La catarata congénita es la opacidad del cristalino de un bebé. Puede estar presente ya al nacer o aparecer durante los primeros meses de vida, y afecta el desarrollo normal de la visión.",
