@@ -22,7 +22,7 @@ const pageDescription: { [key in Language]: string } = {
 };
 
 const hero = {
-  ca: { title: "Catarata congènita", subtitle: "Lentilles pediàtriques per a nadons, adaptades des dels 0 anys sota prescripció oftalmològica." },
+  ca: { title: "Cataracta congènita", subtitle: "Lentilles pediàtriques per a nadons, adaptades des dels 0 anys sota prescripció oftalmològica." },
   es: { title: "Catarata congénita", subtitle: "Lentes pediátricas para bebés, adaptadas desde los 0 años bajo prescripción oftalmológica." },
   en: { title: "Congenital cataract", subtitle: "Paediatric contact lenses for babies, fitted from age 0 on the ophthalmologist's prescription." },
   de: { title: "Angeborener Katarakt", subtitle: "Pädiatrische Kontaktlinsen für Babys, ab 0 Jahren auf augenärztliche Verordnung." },
