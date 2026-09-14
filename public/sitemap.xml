@@ -1051,4 +1051,48 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://looptica.com/ca/services/lents-contacte-multifocals</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/es/services/lents-contacte-multifocals</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/en/services/lents-contacte-multifocals</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/de/services/lents-contacte-multifocals</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
