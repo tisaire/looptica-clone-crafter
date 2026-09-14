@@ -27,6 +27,7 @@ const PageLoader = () => (
 // lazy loaded component imports
 const SalutVisual = lazyWithRetry(() => import('./pages/services/SalutVisual'));
 const LentsContacte = lazyWithRetry(() => import('./pages/services/LentsContacte'));
+const LentsContacteMultifocals = lazyWithRetry(() => import('./pages/services/LentsContacteMultifocals'));
 const OrtoK = lazyWithRetry(() => import('./pages/services/OrtoK'));
 const Eyeglasses = lazyWithRetry(() => import('./pages/services/Eyeglasses'));
 const Sunglasses = lazyWithRetry(() => import('./pages/services/Sunglasses'));

@@ -689,6 +689,7 @@ const LentsContacteMultifocals = () => {
         pageDescription={metaDescriptions}
         breadcrumbLabel={c.breadcrumbLabel}
         breadcrumbParents={[{ label: c.parentCrumb, path: '/services/lents-contacte' }]}
+        hideCTA
       >
         {/* Intro + CTAs */}
         <ScrollReveal>
