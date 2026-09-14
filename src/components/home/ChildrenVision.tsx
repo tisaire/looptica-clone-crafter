@@ -70,9 +70,10 @@ const icons = [
   <Eye key="eye" className="w-10 h-10 text-[#55afa9]" />,
   <Baby key="baby" className="w-10 h-10 text-[#55afa9]" />,
   <Glasses key="glasses" className="w-10 h-10 text-[#55afa9]" />,
+  <Stethoscope key="cataract" className="w-10 h-10 text-[#55afa9]" />,
 ];
 
-const images = [visionInfantilHeroImage, ullGandulImage, ulleresNensImage];
+const images = [visionInfantilHeroImage, ullGandulImage, ulleresNensImage, catarataCardImage.url];
 
 const ChildrenVision = () => {
   const { language } = useLanguage();
