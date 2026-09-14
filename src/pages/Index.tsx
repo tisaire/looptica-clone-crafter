@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.6.1-whatsapp-bubble"; // WhatsApp floating button: pulse + invitation bubble once per session
+const CURRENT_VERSION = "v2.7.0-catarata-congenita"; // Added congenital cataract paediatric contact lens service
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {

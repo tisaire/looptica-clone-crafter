@@ -1,10 +1,11 @@
-import { Baby, Eye, Glasses } from 'lucide-react';
+import { Baby, Eye, Glasses, Stethoscope } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import visionInfantilHeroImage from '@/assets/vision-infantil-hero.jpg';
 import ullGandulImage from '@/assets/ull-gandul-card.jpg';
 import ulleresNensImage from '@/assets/ulleres-nens-hero.jpg';
+import catarataCardImage from '@/assets/catarata-congenita-barcelona-card.jpg.asset.json';
 
 const content = {
   ca: {
@@ -16,6 +17,7 @@ const content = {
       { title: 'Control de la miopia', text: 'Orto-K, lents de desenfocament perifèric i lentilles de control.', to: '/visio-infantil/control-miopia' },
       { title: 'Ull gandul (ambliopia)', text: 'La correcció òptica que aportem un cop hi ha diagnòstic mèdic.', to: '/visio-infantil/ull-gandul' },
       { title: 'Ulleres i lentilles per a nens', text: 'Muntures Nano, Polaroid i Centrostyle, i lentilles per prescripció.', to: '/visio-infantil/ulleres-nens' },
+      { title: 'Catarata congènita', text: 'Lentilles pediàtriques per a nadons des dels 0 anys, sota prescripció oftalmològica.', to: '/visio-infantil/catarata-congenita-barcelona' },
     ],
     cta: 'Veure tot el que fem en visió infantil',
     details: 'Veure detalls',
@@ -29,6 +31,7 @@ const content = {
       { title: 'Control de la miopía', text: 'Orto-K, lentes de desenfoque periférico y lentillas de control.', to: '/visio-infantil/control-miopia' },
       { title: 'Ojo vago (ambliopía)', text: 'La corrección óptica que aportamos una vez hay diagnóstico médico.', to: '/visio-infantil/ull-gandul' },
       { title: 'Gafas y lentillas para niños', text: 'Monturas Nano, Polaroid y Centrostyle, y lentillas por prescripción.', to: '/visio-infantil/ulleres-nens' },
+      { title: 'Catarata congénita', text: 'Lentes pediátricas para bebés desde los 0 años, bajo prescripción oftalmológica.', to: '/visio-infantil/catarata-congenita-barcelona' },
     ],
     cta: 'Ver todo lo que hacemos en visión infantil',
     details: 'Ver detalles',
@@ -42,6 +45,7 @@ const content = {
       { title: 'Myopia control', text: 'Ortho-K, peripheral defocus lenses and control contact lenses.', to: '/visio-infantil/control-miopia' },
       { title: 'Lazy eye (amblyopia)', text: 'The optical correction we provide once there is a medical diagnosis.', to: '/visio-infantil/ull-gandul' },
       { title: "Children's glasses and contact lenses", text: 'Nano, Polaroid and Centrostyle frames, and lenses by prescription.', to: '/visio-infantil/ulleres-nens' },
+      { title: 'Congenital cataract', text: 'Paediatric contact lenses for babies from age 0, on the ophthalmologist\'s prescription.', to: '/visio-infantil/catarata-congenita-barcelona' },
     ],
     cta: "See everything we do in children's vision",
     details: 'View details',
@@ -55,6 +59,7 @@ const content = {
       { title: 'Myopiekontrolle', text: 'Ortho-K, Linsen mit peripherem Defokus und Kontrolllinsen.', to: '/visio-infantil/control-miopia' },
       { title: 'Schwachsichtigkeit (Amblyopie)', text: 'Die optische Korrektion nach der medizinischen Diagnose.', to: '/visio-infantil/ull-gandul' },
       { title: 'Brillen und Kontaktlinsen für Kinder', text: 'Nano-, Polaroid- und Centrostyle-Fassungen sowie Linsen auf Rezept.', to: '/visio-infantil/ulleres-nens' },
+      { title: 'Angeborener Katarakt', text: 'Pädiatrische Kontaktlinsen für Babys ab 0 Jahren auf augenärztliche Verordnung.', to: '/visio-infantil/catarata-congenita-barcelona' },
     ],
     cta: 'Alles zum Kindersehen ansehen',
     details: 'Details ansehen',
@@ -65,9 +70,10 @@ const icons = [
   <Eye key="eye" className="w-10 h-10 text-[#55afa9]" />,
   <Baby key="baby" className="w-10 h-10 text-[#55afa9]" />,
   <Glasses key="glasses" className="w-10 h-10 text-[#55afa9]" />,
+  <Stethoscope key="cataract" className="w-10 h-10 text-[#55afa9]" />,
 ];
 
-const images = [visionInfantilHeroImage, ullGandulImage, ulleresNensImage];
+const images = [visionInfantilHeroImage, ullGandulImage, ulleresNensImage, catarataCardImage.url];
 
 const ChildrenVision = () => {
   const { language } = useLanguage();
@@ -88,7 +94,7 @@ const ChildrenVision = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.2}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
             {c.cards.map((card, index) => (
               <Link
                 key={card.to}

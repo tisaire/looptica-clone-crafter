@@ -181,10 +181,10 @@ const faqs = {
 };
 
 const relatedLinks = {
-  ca: <>Més informació sobre <Link to="/ca/services/eyeglasses" className="text-[#55afa9] underline font-medium">ulleres graduades</Link> i <Link to="/ca/services/lents-contacte" className="text-[#55afa9] underline font-medium">lents de contacte</Link>.</>,
-  es: <>Más información sobre <Link to="/es/services/eyeglasses" className="text-[#55afa9] underline font-medium">gafas graduadas</Link> y <Link to="/es/services/lents-contacte" className="text-[#55afa9] underline font-medium">lentes de contacto</Link>.</>,
-  en: <>More about <Link to="/en/services/eyeglasses" className="text-[#55afa9] underline font-medium">prescription glasses</Link> and <Link to="/en/services/lents-contacte" className="text-[#55afa9] underline font-medium">contact lenses</Link>.</>,
-  de: <>Mehr zu <Link to="/de/services/eyeglasses" className="text-[#55afa9] underline font-medium">Korrektionsbrillen</Link> und <Link to="/de/services/lents-contacte" className="text-[#55afa9] underline font-medium">Kontaktlinsen</Link>.</>,
+  ca: <>Més informació sobre <Link to="/ca/services/eyeglasses" className="text-[#55afa9] underline font-medium">ulleres graduades</Link>, <Link to="/ca/services/lents-contacte" className="text-[#55afa9] underline font-medium">lents de contacte</Link> i <Link to="/ca/visio-infantil/catarata-congenita-barcelona" className="text-[#55afa9] underline font-medium">catarata congènita</Link>.</>,
+  es: <>Más información sobre <Link to="/es/services/eyeglasses" className="text-[#55afa9] underline font-medium">gafas graduadas</Link>, <Link to="/es/services/lents-contacte" className="text-[#55afa9] underline font-medium">lentes de contacto</Link> y <Link to="/es/visio-infantil/catarata-congenita-barcelona" className="text-[#55afa9] underline font-medium">catarata congénita</Link>.</>,
+  en: <>More about <Link to="/en/services/eyeglasses" className="text-[#55afa9] underline font-medium">prescription glasses</Link>, <Link to="/en/services/lents-contacte" className="text-[#55afa9] underline font-medium">contact lenses</Link> and <Link to="/en/visio-infantil/catarata-congenita-barcelona" className="text-[#55afa9] underline font-medium">congenital cataract</Link>.</>,
+  de: <>Mehr zu <Link to="/de/services/eyeglasses" className="text-[#55afa9] underline font-medium">Korrektionsbrillen</Link>, <Link to="/de/services/lents-contacte" className="text-[#55afa9] underline font-medium">Kontaktlinsen</Link> und <Link to="/de/visio-infantil/catarata-congenita-barcelona" className="text-[#55afa9] underline font-medium">angeborener Katarakt</Link>.</>,
 };
 
 const parentCrumb = {

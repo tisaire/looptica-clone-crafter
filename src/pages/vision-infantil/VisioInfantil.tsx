@@ -104,21 +104,25 @@ const topics = {
     { to: "/visio-infantil/control-miopia", title: "Control de la miopia", text: "Orto-K, lents de desenfocament perifèric i lentilles de control per frenar l'avanç de la miopia." },
     { to: "/visio-infantil/ull-gandul", title: "Ull gandul (ambliopia)", text: "Què és, com detectar-ho a casa i quina correcció òptica aportem un cop l'oftalmòleg ha fet el diagnòstic." },
     { to: "/visio-infantil/ulleres-nens", title: "Ulleres i lentilles per a nens", text: "Muntures Nano, Polaroid i Centrostyle, i adaptació de lentilles des dels 0 anys per prescripció mèdica." },
+    { to: "/visio-infantil/catarata-congenita-barcelona", title: "Catarata congènita", text: "Lentilles pediàtriques de contacte per a nadons, adaptades des dels 0 anys després de la cirurgia." },
   ],
   es: [
     { to: "/visio-infantil/control-miopia", title: "Control de la miopía", text: "Orto-K, lentes de desenfoque periférico y lentillas de control para frenar el avance de la miopía." },
     { to: "/visio-infantil/ull-gandul", title: "Ojo vago (ambliopía)", text: "Qué es, cómo detectarlo en casa y qué corrección óptica aportamos una vez el oftalmólogo ha hecho el diagnóstico." },
     { to: "/visio-infantil/ulleres-nens", title: "Gafas y lentillas para niños", text: "Monturas Nano, Polaroid y Centrostyle, y adaptación de lentillas desde los 0 años por prescripción médica." },
+    { to: "/visio-infantil/catarata-congenita-barcelona", title: "Catarata congénita", text: "Lentes pediátricas de contacto para bebés, adaptadas desde los 0 años tras la cirugía." },
   ],
   en: [
     { to: "/visio-infantil/control-miopia", title: "Myopia control", text: "Ortho-K, peripheral defocus lenses and control contact lenses to slow myopia progression." },
     { to: "/visio-infantil/ull-gandul", title: "Lazy eye (amblyopia)", text: "What it is, how to spot it at home, and the optical correction we provide once the ophthalmologist has made the diagnosis." },
     { to: "/visio-infantil/ulleres-nens", title: "Kids' glasses and contact lenses", text: "Nano, Polaroid and Centrostyle frames, and contact lens fitting from age 0 on medical prescription." },
+    { to: "/visio-infantil/catarata-congenita-barcelona", title: "Congenital cataract", text: "Paediatric contact lenses for babies, fitted from age 0 after surgery." },
   ],
   de: [
     { to: "/visio-infantil/control-miopia", title: "Myopiekontrolle", text: "Ortho-K, Brillengläser mit peripherem Defokus und Kontrolllinsen gegen fortschreitende Kurzsichtigkeit." },
     { to: "/visio-infantil/ull-gandul", title: "Schwachsichtigkeit (Amblyopie)", text: "Was sie ist, wie man sie zu Hause erkennt und welche optische Korrektion wir nach der augenärztlichen Diagnose liefern." },
     { to: "/visio-infantil/ulleres-nens", title: "Kinderbrillen und Kontaktlinsen", text: "Fassungen von Nano, Polaroid und Centrostyle sowie Kontaktlinsenanpassung ab 0 Jahren auf Verordnung." },
+    { to: "/visio-infantil/catarata-congenita-barcelona", title: "Angeborener Katarakt", text: "Pädiatrische Kontaktlinsen für Babys, ab 0 Jahren nach dem Eingriff angepasst." },
   ],
 };
 
@@ -236,7 +240,7 @@ const VisioInfantil = () => {
         <ScrollReveal>
           <div className="mb-12">
             <h2 className="text-2xl font-semibold mb-6">{topicsTitle[lang]}</h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {topics[lang].map((topic) => (
                 <Link
                   key={topic.to}
