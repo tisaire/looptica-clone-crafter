@@ -6,7 +6,7 @@ Crear una página hija más dentro del hub de visión infantil para la **catarat
 ## Estructura de la nueva URL
 
 ```text
-/:lang/visio-infantil/catarata-congenita
+/:lang/visio-infantil/catarata-congenita-barcelona
 ```
 
 El slug se mantiene en los cuatro idiomas (es/ca/en/de) igual que el resto de páginas del hub.
@@ -28,11 +28,11 @@ El slug se mantiene en los cuatro idiomas (es/ca/en/de) igual que el resto de p�
 3. **Hub**: añadir la cuarta tarjeta en `src/pages/vision-infantil/VisioInfantil.tsx` y cambiar la rejilla de 3 a 4 columnas en escritorio (`md:grid-cols-2 lg:grid-cols-4`).
 4. **Home**: añadir la cuarta tarjeta en `src/components/home/ChildrenVision.tsx`, actualizando arrays de iconos e imágenes y la rejilla a 4 columnas en escritorio.
 5. **Enlaces cruzados**: en `src/pages/vision-infantil/UlleresNens.tsx`, convertir la mención a catarata congénita en enlace a la nueva página y añadir una pregunta frecuente o enlace relacionado.
-6. **Imágenes**: generar o seleccionar una imagen de hero para la nueva página (`src/assets/catarata-congenita-hero.jpg`) y una imagen de tarjeta para la home. Si no hay foto propia, se generará una imagen acorde al estilo del resto del hub.
-7. **Sitemap**: añadir 4 URLs (ca/es/en/de) con hreflang completo y `x-default` apuntando a `/ca/visio-infantil/catarata-congenita`.
+6. **Imágenes**: generar o seleccionar una imagen de hero para la nueva página (`src/assets/catarata-congenita-barcelona-hero.jpg`) y una imagen de tarjeta para la home. Si no hay foto propia, se generará una imagen acorde al estilo del resto del hub.
+7. **Sitemap**: añadir 4 URLs (ca/es/en/de) con hreflang completo y `x-default` apuntando a `/ca/visio-infantil/catarata-congenita-barcelona`.
 8. **llms.txt**: añadir línea descriptiva de la nueva página en inglés.
 9. **Versión**: subir la versión mostrada en `src/pages/Index.tsx`.
-10. **Verificación**: ejecutar `bun run build` y comprobar que `/ca/visio-infantil/catarata-congenita` carga, muestra breadcrumb correcto y no hay errores de consola.
+10. **Verificación**: ejecutar `bun run build` y comprobar que `/ca/visio-infantil/catarata-congenita-barcelona` carga, muestra breadcrumb correcto y no hay errores de consola.
 
 ## Notas
 
