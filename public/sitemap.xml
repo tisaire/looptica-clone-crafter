@@ -1007,5 +1007,48 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/es/visio-infantil/catarata-congenita-barcelona</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/en/visio-infantil/catarata-congenita-barcelona</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/de/visio-infantil/catarata-congenita-barcelona</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
