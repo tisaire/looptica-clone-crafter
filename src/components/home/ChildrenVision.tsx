@@ -31,6 +31,7 @@ const content = {
       { title: 'Control de la miopía', text: 'Orto-K, lentes de desenfoque periférico y lentillas de control.', to: '/visio-infantil/control-miopia' },
       { title: 'Ojo vago (ambliopía)', text: 'La corrección óptica que aportamos una vez hay diagnóstico médico.', to: '/visio-infantil/ull-gandul' },
       { title: 'Gafas y lentillas para niños', text: 'Monturas Nano, Polaroid y Centrostyle, y lentillas por prescripción.', to: '/visio-infantil/ulleres-nens' },
+      { title: 'Catarata congénita', text: 'Lentes pediátricas para bebés desde los 0 años, bajo prescripción oftalmológica.', to: '/visio-infantil/catarata-congenita-barcelona' },
     ],
     cta: 'Ver todo lo que hacemos en visión infantil',
     details: 'Ver detalles',
