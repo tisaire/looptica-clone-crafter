@@ -49,8 +49,7 @@ const OpticalServices = () => {
       icon: <Glasses className="w-10 h-10 text-[#55afa9]" />,
       title: t('eyeglasses'),
       description: t('eyeglassesSubtitle'),
-      image: "/lovable-uploads/45087a9c-489a-4d48-82fb-d857e7bf306a.jpg",
-      path: `/${language}/services/eyeglasses`
+      image: "/lovable-uploads/58f8dffc-9095-4ff8-a7d3-4aa204a74b55.jpeg",
     },
     {
       icon: <Sun className="w-10 h-10 text-[#55afa9]" />,
