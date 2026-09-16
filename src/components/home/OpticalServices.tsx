@@ -50,6 +50,7 @@ const OpticalServices = () => {
       title: t('eyeglasses'),
       description: t('eyeglassesSubtitle'),
       image: "/lovable-uploads/58f8dffc-9095-4ff8-a7d3-4aa204a74b55.jpeg",
+      path: `/${language}/services/eyeglasses`
     },
     {
       icon: <Sun className="w-10 h-10 text-[#55afa9]" />,
