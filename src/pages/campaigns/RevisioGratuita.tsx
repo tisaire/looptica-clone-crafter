@@ -37,7 +37,7 @@ const copy: Record<Language, Copy> = {
   ca: {
     metaTitle: 'Revisió visual gratuïta a Looptica | Poblenou, Barcelona',
     metaDescription:
-      "Fa més de 2 anys que no et revises la vista? A Looptica Poblenou t'convidem a una revisió visual gratuïta, sense compromís. Reserva la teva cita.",
+      "Fa més de 2 anys que no et revises la vista? A Looptica Poblenou et convidem a una revisió visual gratuïta, sense compromís. Reserva la teva cita.",
     eyebrow: 'Una invitació per a tu',
     h1: 'Fa més de 2 anys que no et revises la vista?',
     intro:

@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.8.0-lents-multifocals"; // Added multifocal contact lens landing page
+const CURRENT_VERSION = "v2.9.0-revisio-gratuita"; // Added free eye exam reactivation landing page
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
