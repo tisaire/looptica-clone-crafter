@@ -50,6 +50,7 @@ const ControlMiopia = lazyWithRetry(() => import('./pages/vision-infantil/Contro
 const UllGandul = lazyWithRetry(() => import('./pages/vision-infantil/UllGandul'));
 const UlleresNens = lazyWithRetry(() => import('./pages/vision-infantil/UlleresNens'));
 const CatarataCongenita = lazyWithRetry(() => import('./pages/vision-infantil/CatarataCongenita'));
+const RevisioGratuita = lazyWithRetry(() => import('./pages/campaigns/RevisioGratuita'));
 
 
 
@@ -154,6 +155,13 @@ function App() {
                 {/* Removed Oticon section — redirect to language home */}
                 <Route path="products/oticon-models" element={<Navigate to=".." replace />} />
                 <Route path="products/oticon-models/:id" element={<Navigate to="../.." replace />} />
+
+                {/* WhatsApp reactivation campaign landing (noindex, not in sitemap) */}
+                <Route path="revisio-gratuita" element={<Suspense fallback={<PageLoader />}><RevisioGratuita /></Suspense>} />
+                {/* Localized campaign links → canonical landing in the same language */}
+                <Route path="revision-gratuita" element={<Navigate to="../revisio-gratuita" replace />} />
+                <Route path="free-eye-exam" element={<Navigate to="../revisio-gratuita" replace />} />
+                <Route path="kostenloser-sehtest" element={<Navigate to="../revisio-gratuita" replace />} />
 
                 {/* Legal Pages */}
                 <Route path="legal/privacy-policy" element={<Suspense fallback={<PageLoader />}><PrivacyPolicy /></Suspense>} />
