@@ -73,7 +73,7 @@ const icons = [
   <Stethoscope key="cataract" className="w-10 h-10 text-[#55afa9]" />,
 ];
 
-const images = [visionInfantilHeroImage, ullGandulImage, ulleresNensImage, catarataCardImage.url];
+const images = [visionInfantilHeroImage, ullGandulImage, ulleresNensImage, catarataImage.url];
 
 const ChildrenVision = () => {
   const { language } = useLanguage();
