@@ -119,10 +119,10 @@ const DeferredContent = () => {
 
   return (
     <>
+      <ChildrenVision />
       <div id="optical">
         <OpticalServices />
       </div>
-      <ChildrenVision />
       <div id="audiology">
         <Audiology />
         <div className="container mx-auto px-4 mt-4 text-center">
