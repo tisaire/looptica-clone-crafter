@@ -219,6 +219,13 @@
     
     <!-- Google Analytics - loaded after main content for better FCP -->
     <script>
+      // Create dataLayer and gtag immediately so events fired before gtag.js
+      // loads (e.g. a fast click on a booking button) are queued, not lost.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = window.gtag || gtag;
+      gtag('js', new Date());
+
       // Defer Google Analytics loading until after first paint
       window.addEventListener('load', function() {
         setTimeout(function() {
@@ -228,10 +235,6 @@
           document.head.appendChild(script);
           
           script.onload = function() {
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            window.gtag = gtag;
-            gtag('js', new Date());
             gtag('config', 'G-H170LQBT19');
           };
         }, 100);
