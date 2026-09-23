@@ -61,12 +61,12 @@ const optionsTitle = {
 const options = {
   ca: [
     { name: "Orto-K (lents nocturnes)", when: "A partir dels 8-9 anys, segons maduresa", use: "Es porten dormint; el dia és lliure d'ulleres", care: "Neteja diària i revisions periòdiques" },
-    { name: "Lents de gafa de desenfocament perifèric", when: "Des dels 6 anys", use: "Ús diürn, com unes ulleres normals", care: "Manteniment habitual d'unes ulleres" },
+    { name: "Lents d'ulleres de desenfocament perifèric", when: "Des dels 6 anys", use: "Ús diürn, com unes ulleres normals", care: "Manteniment habitual d'unes ulleres" },
     { name: "Lentilles toves de control", when: "Des dels 8 anys, o abans amb bona rutina", use: "Ús diürn, ideal per a esport", care: "Recanvi diari o mensual segons el tipus" },
   ],
   es: [
     { name: "Orto-K (lentes nocturnas)", when: "A partir de los 8-9 años, según madurez", use: "Se llevan durmiendo; el día es libre de gafas", care: "Limpieza diaria y revisiones periódicas" },
-    { name: "Lentes de gafa de desenfoque periférico", when: "Desde los 6 años", use: "Uso diurno, como unas gafas normales", care: "Mantenimiento habitual de unas gafas" },
+    { name: "Lentes de gafas de desenfoque periférico", when: "Desde los 6 años", use: "Uso diurno, como unas gafas normales", care: "Mantenimiento habitual de unas gafas" },
     { name: "Lentillas blandas de control", when: "Desde los 8 años, o antes con buena rutina", use: "Uso diurno, ideal para deporte", care: "Recambio diario o mensual según el tipo" },
   ],
   en: [
@@ -154,14 +154,14 @@ const faqTitle = {
 const faqs = {
   ca: [
     { q: "Es pot curar la miopia d'un nen?", a: "No. La miopia no es cura, però sí que es pot frenar la seva progressió amb mètodes òptics de control i amb hàbits visuals adequats. L'objectiu és arribar a l'edat adulta amb la graduació més baixa possible." },
-    { q: "A quina edat es pot començar?", a: "Depèn del mètode. Les lents de gafa de desenfocament perifèric es poden posar des dels 6 anys; l'Orto-K i les lentilles de control acostumen a començar cap als 8-9 anys, quan el nen té prou autonomia per manipular-les amb higiene." },
+    { q: "A quina edat es pot començar?", a: "Depèn del mètode. Les lents d'ulleres de desenfocament perifèric es poden posar des dels 6 anys; l'Orto-K i les lentilles de control acostumen a començar cap als 8-9 anys, quan el nen té prou autonomia per manipular-les amb higiene." },
     { q: "Feu servir atropina?", a: "No. A Looptica treballem amb mètodes òptics. Si el cas requereix tractament farmacològic, el derivem a l'oftalmòleg." },
     { q: "Feu teràpia visual?", a: "A Looptica ens centrem en la part òptica: lents i lentilles de control de la miopia, ajust i seguiment, sempre a partir del diagnòstic i la prescripció de l'oftalmòleg." },
     { q: "Quantes revisions calen?", a: "Programem controls periòdics durant tot el procés per mesurar la progressió i ajustar el tractament. La freqüència exacta la definim en la primera visita segons el cas." },
   ],
   es: [
     { q: "¿Se puede curar la miopía de un niño?", a: "No. La miopía no se cura, pero sí se puede frenar su progresión con métodos ópticos de control y con hábitos visuales adecuados. El objetivo es llegar a la edad adulta con la graduación más baja posible." },
-    { q: "¿A qué edad se puede empezar?", a: "Depende del método. Las lentes de gafa de desenfoque periférico se pueden poner desde los 6 años; la Orto-K y las lentillas de control suelen empezar hacia los 8-9 años, cuando el niño tiene suficiente autonomía para manipularlas con higiene." },
+    { q: "¿A qué edad se puede empezar?", a: "Depende del método. Las lentes de gafas de desenfoque periférico se pueden poner desde los 6 años; la Orto-K y las lentillas de control suelen empezar hacia los 8-9 años, cuando el niño tiene suficiente autonomía para manipularlas con higiene." },
     { q: "¿Usáis atropina?", a: "No. En Looptica trabajamos con métodos ópticos. Si el caso requiere tratamiento farmacológico, lo derivamos al oftalmólogo." },
     { q: "¿Hacéis terapia visual?", a: "En Looptica nos centramos en la parte óptica: lentes y lentillas de control de la miopía, ajuste y seguimiento, siempre a partir del diagnóstico y la prescripción del oftalmólogo." },
     { q: "¿Cuántas revisiones hacen falta?", a: "Programamos controles periódicos durante todo el proceso para medir la progresión y ajustar el tratamiento. La frecuencia exacta la definimos en la primera visita según el caso." },
