@@ -2,7 +2,7 @@ import { Baby, Eye, Glasses, Stethoscope } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
-import visionInfantilHeroImage from '@/assets/vision-infantil-hero.jpg';
+import controlMiopiaImage from '@/assets/control-miopia-hero.jpg.asset.json';
 import ullGandulImage from '@/assets/ull-gandul-card.jpg';
 import ulleresNensImage from '@/assets/ulleres-nens-hero.jpg';
 import catarataImage from '@/assets/catarata-congenita-barcelona-hero.jpg.asset.json';
@@ -73,7 +73,7 @@ const icons = [
   <Stethoscope key="cataract" className="w-10 h-10 text-[#55afa9]" />,
 ];
 
-const images = [visionInfantilHeroImage, ullGandulImage, ulleresNensImage, catarataImage.url];
+const images = [controlMiopiaImage.url, ullGandulImage, ulleresNensImage, catarataImage.url];
 
 const ChildrenVision = () => {
   const { language } = useLanguage();

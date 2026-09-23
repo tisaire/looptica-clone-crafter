@@ -218,7 +218,7 @@ const ControlMiopia = () => {
       <ServiceLayout
         title={hero[lang].title}
         subtitle={hero[lang].subtitle}
-        image="/images/ortok_resize.jpg"
+        image="/__l5e/assets-v1/c0456b82-6ddb-4984-82e9-4121642db3ae/control-miopia-hero.jpg"
         pageTitle={pageTitle}
         pageDescription={pageDescription}
         appointmentSubject="Control de la miopia infantil a Looptica"

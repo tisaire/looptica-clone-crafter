@@ -9,6 +9,13 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    // Dev-only: serve CDN assets via the published domain (hosting handles /__l5e in production)
+    proxy: {
+      "/__l5e/assets-v1": {
+        target: "https://looptica.com",
+        changeOrigin: true,
+      },
+    },
   },
   plugins: [
     react(),

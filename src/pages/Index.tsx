@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.9.1-fix-gtag-queue"; // Queue GA events fired before gtag.js loads
+const CURRENT_VERSION = "v2.9.2-control-miopia-img"; // New myopia control image (card + hero)
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
