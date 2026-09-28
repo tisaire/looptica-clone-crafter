@@ -222,6 +222,11 @@ const RevisioGratuita = () => {
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-5">
                 {c.h1}
               </h1>
+              {c.explanation.map((paragraph) => (
+                <p key={paragraph} className="text-base sm:text-lg text-gray-600 mb-3">
+                  {paragraph}
+                </p>
+              ))}
               <p className="text-base sm:text-lg text-gray-600 mb-5">{c.intro}</p>
               <p className="text-xl sm:text-2xl font-bold text-[#55afa9] uppercase tracking-wide mb-8">
                 {c.highlight}
@@ -260,18 +265,6 @@ const RevisioGratuita = () => {
                   );
                 })}
               </div>
-            </div>
-          </section>
-
-          {/* Context */}
-          <section className="px-6 lg:px-12 py-14 bg-gray-50">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">{c.contextTitle}</h2>
-              {c.contextText.map((paragraph) => (
-                <p key={paragraph} className="text-gray-600 text-base sm:text-lg mb-4 last:mb-0">
-                  {paragraph}
-                </p>
-              ))}
             </div>
           </section>
 
