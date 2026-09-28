@@ -222,7 +222,7 @@ const RevisioGratuita = () => {
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-5">
                 {c.h1}
               </h1>
-              {c.explanation.map((paragraph) => (
+              {(c.explanation ?? []).map((paragraph) => (
                 <p key={paragraph} className="text-base sm:text-lg text-gray-600 mb-3">
                   {paragraph}
                 </p>
