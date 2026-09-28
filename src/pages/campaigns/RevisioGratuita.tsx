@@ -268,25 +268,8 @@ const RevisioGratuita = () => {
             </div>
           </section>
 
-          {/* Final CTA */}
-          <section className="px-6 lg:px-12 py-16">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">{c.finalTitle}</h2>
-              <p className="text-gray-600 text-base sm:text-lg mb-8">{c.finalText}</p>
-              <GoogleCalendarButton
-                subject={c.appointmentSubject}
-                description={c.appointmentSubject}
-                size="lg"
-                className="w-full sm:w-auto text-base px-8 py-6 h-auto"
-              >
-                {c.cta}
-              </GoogleCalendarButton>
-              <p className="mt-4 text-sm text-gray-500">{c.ctaNote}</p>
-            </div>
-          </section>
-
           {/* Closing — personal */}
-          <section className="px-6 lg:px-12 pb-16">
+          <section className="px-6 lg:px-12 pb-4">
             <div className="max-w-xl mx-auto text-center bg-white rounded-xl border border-gray-100 shadow-sm p-8">
               <div className="flex items-center justify-center gap-4 mb-5">
                 <img
@@ -306,6 +289,24 @@ const RevisioGratuita = () => {
               <p className="text-lg font-semibold text-[#55afa9] mt-1">{c.closingSignature}</p>
             </div>
           </section>
+
+          {/* Final CTA */}
+          <section className="px-6 lg:px-12 py-16">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">{c.finalTitle}</h2>
+              <p className="text-gray-600 text-base sm:text-lg mb-8">{c.finalText}</p>
+              <GoogleCalendarButton
+                subject={c.appointmentSubject}
+                description={c.appointmentSubject}
+                size="lg"
+                className="w-full sm:w-auto text-base px-8 py-6 h-auto"
+              >
+                {c.cta}
+              </GoogleCalendarButton>
+              <p className="mt-4 text-sm text-gray-500">{c.ctaNote}</p>
+            </div>
+          </section>
+
 
           <StoreLocation />
         </main>
