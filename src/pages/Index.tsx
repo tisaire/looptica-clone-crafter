@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.9.2-control-miopia-img"; // New myopia control image (card + hero)
+const CURRENT_VERSION = "v2.9.3-revisio-copy"; // Revisio gratuita copy restructured (context block merged into hero)
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {

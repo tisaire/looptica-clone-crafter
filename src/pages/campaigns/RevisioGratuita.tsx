@@ -24,8 +24,7 @@ type Copy = {
   ctaNote: string;
   benefitsTitle: string;
   benefits: { title: string; text: string }[];
-  contextTitle: string;
-  contextText: string[];
+  explanation: string[];
   finalTitle: string;
   finalText: string;
   closingText: string;
@@ -60,8 +59,7 @@ const copy: Record<Language, Copy> = {
         text: 'No implica cap compra ni obligació posterior.',
       },
     ],
-    contextTitle: 'Han passat més de 2 anys?',
-    contextText: [
+    explanation: [
       'La visió pot canviar amb el temps, fins i tot quan no notes cap problema evident.',
       'Si fa temps que no ens visites, aquesta és una bona ocasió per comprovar que tot continua bé.',
     ],
@@ -97,8 +95,7 @@ const copy: Record<Language, Copy> = {
         text: 'No implica ninguna compra ni obligación posterior.',
       },
     ],
-    contextTitle: '¿Han pasado más de 2 años?',
-    contextText: [
+    explanation: [
       'La visión puede cambiar con el tiempo, incluso cuando no notas ningún problema evidente.',
       'Si hace tiempo que no nos visitas, esta es una buena ocasión para comprobar que todo sigue bien.',
     ],
@@ -134,8 +131,7 @@ const copy: Record<Language, Copy> = {
         text: 'There is no requirement to make a purchase afterwards.',
       },
     ],
-    contextTitle: 'Has it been more than 2 years?',
-    contextText: [
+    explanation: [
       'Your vision can change over time, even when you do not notice any obvious problems.',
       'If it has been a while since your last visit, this is a good opportunity to check that everything is still fine.',
     ],
@@ -171,8 +167,7 @@ const copy: Record<Language, Copy> = {
         text: 'Es besteht keine Verpflichtung zu einem anschließenden Kauf.',
       },
     ],
-    contextTitle: 'Sind mehr als 2 Jahre vergangen?',
-    contextText: [
+    explanation: [
       'Das Sehvermögen kann sich mit der Zeit verändern, auch wenn du selbst keine offensichtlichen Veränderungen bemerkst.',
       'Wenn dein letzter Besuch schon eine Weile zurückliegt, ist dies eine gute Gelegenheit zu überprüfen, ob weiterhin alles in Ordnung ist.',
     ],
@@ -227,6 +222,11 @@ const RevisioGratuita = () => {
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-5">
                 {c.h1}
               </h1>
+              {(c.explanation ?? []).map((paragraph) => (
+                <p key={paragraph} className="text-base sm:text-lg text-gray-600 mb-3">
+                  {paragraph}
+                </p>
+              ))}
               <p className="text-base sm:text-lg text-gray-600 mb-5">{c.intro}</p>
               <p className="text-xl sm:text-2xl font-bold text-[#55afa9] uppercase tracking-wide mb-8">
                 {c.highlight}
@@ -265,18 +265,6 @@ const RevisioGratuita = () => {
                   );
                 })}
               </div>
-            </div>
-          </section>
-
-          {/* Context */}
-          <section className="px-6 lg:px-12 py-14 bg-gray-50">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">{c.contextTitle}</h2>
-              {c.contextText.map((paragraph) => (
-                <p key={paragraph} className="text-gray-600 text-base sm:text-lg mb-4 last:mb-0">
-                  {paragraph}
-                </p>
-              ))}
             </div>
           </section>
 
