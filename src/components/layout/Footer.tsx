@@ -1,7 +1,7 @@
 import React from 'react'; // Keep React for React.MouseEvent
 import { Link } from 'react-router-dom';
 import { ScrollReveal } from '@/components/ui'; // Standardized import
-import { Instagram, Twitter, Facebook, MapPin, Phone, Mail } from 'lucide-react';
+import { Instagram, MapPin, Phone, Mail } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const Footer = () => {
@@ -49,9 +49,7 @@ const Footer = () => {
   const footerLinks = getFooterLinks();
   
   const socialLinks = [
-    { name: 'Instagram', icon: <Instagram className="h-5 w-5" />, path: 'https://www.instagram.com/' },
-    { name: 'Twitter', icon: <Twitter className="h-5 w-5" />, path: 'https://twitter.com/' },
-    { name: 'Facebook', icon: <Facebook className="h-5 w-5" />, path: 'https://www.facebook.com/' },
+    { name: 'Instagram', icon: <Instagram className="h-5 w-5" />, path: 'https://www.instagram.com/looptica/' },
   ];
 
   // Function to handle anchor link clicks
