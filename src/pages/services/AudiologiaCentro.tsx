@@ -7,6 +7,7 @@ import TeamSpotlight from '@/components/TeamSpotlight';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Ear, Headphones, HandCoins, Activity, ShieldCheck, Radio } from 'lucide-react';
 import centreAuditiuHero from '@/assets/centre_auditiu-hero.webp.asset.json';
+import centreAuditiuHeroMobile from '@/assets/centre_auditiu-hero-mobile.webp.asset.json';
 
 const AudiologiaCentro = () => {
   const { language } = useLanguage();
@@ -160,7 +161,8 @@ const AudiologiaCentro = () => {
     <ServiceLayout
       title={content.title[language]}
       subtitle={content.subtitle[language]}
-      image={centreAuditiuHero.url}
+            image={centreAuditiuHero.url}
+            imageMobile={centreAuditiuHeroMobile.url}
       appointmentSubject={content.appointmentSubject[language]}
       pageTitle={content.seoTitle}
       pageDescription={content.seoDescription}

@@ -128,15 +128,25 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
 
         <main className="flex-grow">
           {/* Hero Banner */}
-          <section 
-            className="relative h-[50vh] flex items-center justify-center"
-            style={{
-              backgroundImage: `url(${loadedImage})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              transition: isImageLoaded ? 'background-image 0.5s ease-in' : 'none'
-            }}
-          >
+          <section className="relative h-[50vh] flex items-center justify-center">
+            <div
+              className="absolute inset-0 hidden md:block"
+              style={{
+                backgroundImage: `url(${loadedImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                transition: isImageLoaded ? 'background-image 0.5s ease-in' : 'none'
+              }}
+            />
+            <div
+              className="absolute inset-0 md:hidden"
+              style={{
+                backgroundImage: `url(${loadedMobileImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                transition: isImageLoaded ? 'background-image 0.5s ease-in' : 'none'
+              }}
+            />
             {/* Add an img tag for error handling if direct bg image error handling is tricky */}
             <img src={loadedImage} alt="" onError={handleImageError} style={{display: 'none'}} />
             <div className="absolute inset-0 bg-black/40"></div>
