@@ -4,28 +4,29 @@ import { Eye, RotateCcw, ThumbsUp, AlertCircle } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Link } from 'react-router-dom';
+import TeamSpotlight from '@/components/TeamSpotlight';
 
 const LentsContacte = () => {
   const { language } = useLanguage();
   
   const content = {
     seoTitle: {
-      en: "Contact Lenses in Barcelona · Looptica Poblenou",
-      es: "Lentillas en Barcelona y Poblenou | Adaptación personalizada",
-      ca: "Lents de Contacte Barcelona | Looptica",
-      de: "Kontaktlinsen in Barcelona · Optik in Poblenou | Looptica",
+      en: "Contact Lenses in Barcelona | Poblenou Fitting | Looptica",
+      es: "Lentillas en Barcelona | Adaptación en Poblenou | Looptica",
+      ca: "Lents de contacte a Barcelona | Lentilles a Poblenou | Looptica",
+      de: "Kontaktlinsen in Barcelona | Anpassung in Poblenou | Looptica",
     },
     seoDescription: {
-      en: "Contact lenses in Barcelona with professional fitting and complete eye exam. Looptica Poblenou offers daily, monthly, toric and Ortho-K lenses. Book online.",
-      es: "Adaptación personalizada de lentillas en Barcelona Poblenou: diarias, mensuales, tóricas, multifocales y Orto-K. Revisión visual completa en Looptica.",
-      ca: "Adaptació de lents de contacte a Barcelona amb revisió visual completa. A Looptica Poblenou oferim lents diàries, mensuals, tòriques i Orto-K. Reserva online.",
-      de: "Kontaktlinsen in Barcelona mit professioneller Anpassung und kompletter Augenuntersuchung. Looptica Poblenou bietet tägliche, monatliche, torische und Ortho-K-Linsen.",
+      en: "Professional contact lens fitting in Barcelona Poblenou: daily, toric, multifocal and specialty lenses, with a full eye exam by registered optometrists. Book online.",
+      es: "Adaptación profesional de lentillas en Barcelona Poblenou: diarias, tóricas, multifocales y especiales, con revisión visual completa por ópticas optometristas colegiadas.",
+      ca: "Adaptació professional de lents de contacte a Barcelona Poblenou: diàries, tòriques, multifocals i especials, amb revisió visual completa per òptiques optometristes col·legiades.",
+      de: "Professionelle Kontaktlinsenanpassung in Barcelona Poblenou: Tages-, torische, multifokale und Speziallinsen mit kompletter Sehprüfung durch zugelassene Optometristinnen."
     },
     title: {
-      en: "Contact Lenses",
-      es: "Lentes de Contacto",
-      ca: "Lents de Contacte",
-      de: "Kontaktlinsen"
+      en: "Contact lenses in Barcelona",
+      es: "Lentillas en Barcelona",
+      ca: "Lents de contacte a Barcelona",
+      de: "Kontaktlinsen in Barcelona"
     },
     subtitle: {
       en: "Personalized solutions for every lifestyle",
@@ -437,8 +438,29 @@ const LentsContacte = () => {
              language === 'ca' ? 'A Looptica, el nostre equip d\'especialistes té experiència en l\'adaptació de lents de contacte per a nens amb cataractes congènites. Treballem estretament amb oftalmòlegs per proporcionar la millor solució òptica per a cada cas.' :
              'Bei Looptica verfügt unser Spezialistenteam über Erfahrung in der Anpassung von Kontaktlinsen für Kinder mit angeborenen Katarakten. Wir arbeiten eng mit Augenärzten zusammen, um für jeden Fall die beste optische Lösung zu bieten.'}
           </p>
+          <p className="mt-4">
+            <Link to={`/${language}/visio-infantil/catarata-congenita-barcelona`} className="text-[#55afa9] underline font-medium">
+              {language === 'en' && 'Paediatric contact lenses after congenital cataract →'}
+              {language === 'es' && 'Lentillas pediátricas tras catarata congénita →'}
+              {language === 'ca' && 'Lents de contacte pediàtriques després de cataracta congènita →'}
+              {language === 'de' && 'Kinderkontaktlinsen nach angeborenem Katarakt →'}
+            </Link>
+          </p>
         </div>
       </ScrollReveal>
+
+      <TeamSpotlight
+        heading={{ en: 'Who will fit your lenses', es: 'Quién adaptará tus lentillas', ca: 'Qui adaptarà les teves lents', de: 'Wer Ihre Linsen anpasst' }}
+        name="Irene"
+        image="/images/irene.jpg"
+        role={{ en: 'Registered Optometrist — Col. 17739', es: 'Óptica Optometrista Colegiada — Col. 17739', ca: 'Òptica Optometrista Col·legiada — Col. 17739', de: 'Zugelassene Optometristin — Col. 17739' }}
+        bio={{
+          en: 'Irene carries out every contact lens fitting at Looptica Poblenou: eye exam, choice of lens, trial period and follow-up visits until you see and feel comfortable.',
+          es: 'Irene realiza cada adaptación de lentillas en Looptica Poblenou: revisión visual, elección de la lente, periodo de prueba y revisiones de seguimiento hasta que veas bien y estés cómodo.',
+          ca: "La Irene fa cada adaptació de lents de contacte a Looptica Poblenou: revisió visual, elecció de la lent, període de prova i revisions de seguiment fins que hi vegis bé i estiguis còmode.",
+          de: 'Irene übernimmt jede Kontaktlinsenanpassung bei Looptica Poblenou: Sehprüfung, Linsenwahl, Probephase und Nachkontrollen, bis Sie gut und bequem sehen.'
+        }}
+      />
     </ServiceLayout>
   );
 };

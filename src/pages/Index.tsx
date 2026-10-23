@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.9.4-social-links"; // Footer: Instagram only, Facebook and Twitter removed
+const CURRENT_VERSION = "v2.9.5-gsc-lentilles-audio"; // GSC: lentilles + audiologia titles, team blocks, internal links
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
