@@ -14,10 +14,10 @@ const pageTitle: { [key in Language]: string } = {
 };
 
 const pageDescription: { [key in Language]: string } = {
-  ca: "Frena l'avanç de la miopia dels teus fills a Poblenou: Orto-K, lents de desenfocament perifèric i lentilles de control. Sense atropina.",
-  es: "Frena el avance de la miopía de tus hijos en Poblenou: Orto-K, lentes de desenfoque periférico y lentillas de control. Sin atropina.",
-  en: "Slow your child's myopia in Poblenou, Barcelona: Ortho-K, peripheral defocus spectacle lenses and control contact lenses. No atropine.",
-  de: "Bremsen Sie die Kurzsichtigkeit Ihres Kindes in Poblenou: Ortho-K, Brillengläser mit peripherem Defokus und Kontrolllinsen. Ohne Atropin.",
+  ca: "Control de miopia infantil a Poblenou, Barcelona: lents Stellest, MyoCare i MiYOSMART, Orto-K i lentilles, amb seguiment coordinat amb l'oftalmòleg.",
+  es: "Control de miopía infantil en Poblenou, Barcelona: lentes Stellest, MyoCare y MiYOSMART, Orto-K y lentillas, con seguimiento junto al oftalmólogo.",
+  en: "Childhood myopia control in Poblenou, Barcelona: Stellest, MyoCare and MiYOSMART glasses, Ortho-K and contact lenses, with ophthalmologist follow-up.",
+  de: "Myopiekontrolle für Kinder in Poblenou, Barcelona: Stellest, MyoCare und MiYOSMART, Ortho-K und Kontaktlinsen, mit Nachsorge in Abstimmung mit dem Augenarzt.",
 };
 
 const hero = {
@@ -88,6 +88,29 @@ const tableHeads = {
   de: ["Option", "Richtalter", "Anwendung", "Pflege"],
 };
 
+const spectacleLenses = {
+  ca: {
+    title: "Stellest, MyoCare i MiYOSMART a Poblenou",
+    intro: "A Looptica adaptem lents d'ulleres per al control de la miopia infantil com Stellest d'Essilor, MyoCare de ZEISS i MiYOSMART de HOYA. Estan dissenyades per corregir la visió i ajudar a alentir la progressió de la miopia; no la curen ni garanteixen el mateix resultat en tots els nens.",
+    selection: "Cada marca utilitza un disseny òptic propi. La tria parteix del diagnòstic i la prescripció de l'oftalmòleg i es valora segons la graduació, l'evolució de la miopia i les necessitats del nen. T'ajudem amb l'elecció de la muntura, el centrat i l'adaptació, i programem el seguiment coordinat amb l'oftalmòleg.",
+  },
+  es: {
+    title: "Stellest, MyoCare y MiYOSMART en Poblenou",
+    intro: "En Looptica adaptamos lentes de gafas para el control de la miopía infantil como Stellest de Essilor, MyoCare de ZEISS y MiYOSMART de HOYA. Están diseñadas para corregir la visión y ayudar a ralentizar la progresión de la miopía; no la curan ni garantizan el mismo resultado en todos los niños.",
+    selection: "Cada marca utiliza un diseño óptico propio. La elección parte del diagnóstico y la prescripción del oftalmólogo y se valora según la graduación, la evolución de la miopía y las necesidades del niño. Te ayudamos con la elección de la montura, el centrado y la adaptación, y programamos el seguimiento coordinado con el oftalmólogo.",
+  },
+  en: {
+    title: "Stellest, MyoCare and MiYOSMART in Poblenou",
+    intro: "At Looptica we fit spectacle lenses for childhood myopia control, including Essilor Stellest, ZEISS MyoCare and HOYA MiYOSMART. They are designed to correct vision and help slow myopia progression; they do not cure it or guarantee the same result for every child.",
+    selection: "Each brand uses its own optical design. Selection starts with the ophthalmologist's diagnosis and prescription and takes into account the prescription, myopia progression and the child's needs. We help with frame selection, lens centration and fitting, and arrange follow-up in coordination with the ophthalmologist.",
+  },
+  de: {
+    title: "Stellest, MyoCare und MiYOSMART in Poblenou",
+    intro: "Bei Looptica passen wir Brillengläser zur Myopiekontrolle bei Kindern an, darunter Stellest von Essilor, MyoCare von ZEISS und MiYOSMART von HOYA. Sie sollen die Sicht korrigieren und das Fortschreiten der Myopie verlangsamen; sie heilen sie nicht und garantieren nicht bei jedem Kind dasselbe Ergebnis.",
+    selection: "Jede Marke verwendet ein eigenes optisches Design. Die Auswahl basiert auf Diagnose und Verordnung des Augenarztes und berücksichtigt die Sehstärke, den Verlauf der Myopie und die Bedürfnisse des Kindes. Wir helfen bei Fassungswahl, Zentrierung und Anpassung und planen die Nachsorge in Abstimmung mit dem Augenarzt.",
+  },
+};
+
 const atropineNote = {
   ca: "A Looptica no utilitzem atropina en baixa concentració. El nostre enfocament és òptic: Orto-K, lents de desenfocament perifèric i lentilles de control. Si el cas requereix tractament farmacològic, et derivem a l'oftalmòleg i seguim col·laborant en el control òptic.",
   es: "En Looptica no utilizamos atropina en baja concentración. Nuestro enfoque es óptico: Orto-K, lentes de desenfoque periférico y lentillas de control. Si el caso requiere tratamiento farmacológico, te derivamos al oftalmólogo y seguimos colaborando en el control óptico.",
@@ -153,6 +176,7 @@ const faqTitle = {
 
 const faqs = {
   ca: [
+    { q: "Quina diferència hi ha entre Stellest, MyoCare i MiYOSMART?", a: "Són lents d'ulleres d'Essilor, ZEISS i HOYA, respectivament, amb dissenys òptics diferents per ajudar a alentir la progressió de la miopia infantil. No hi ha una opció millor per a tots els nens: la tria es valora segons el diagnòstic, la prescripció i l'evolució de cada cas, amb seguiment coordinat amb l'oftalmòleg." },
     { q: "Es pot curar la miopia d'un nen?", a: "No. La miopia no es cura, però sí que es pot frenar la seva progressió amb mètodes òptics de control i amb hàbits visuals adequats. L'objectiu és arribar a l'edat adulta amb la graduació més baixa possible." },
     { q: "A quina edat es pot començar?", a: "Depèn del mètode. Les lents d'ulleres de desenfocament perifèric es poden posar des dels 6 anys; l'Orto-K i les lentilles de control acostumen a començar cap als 8-9 anys, quan el nen té prou autonomia per manipular-les amb higiene." },
     { q: "Feu servir atropina?", a: "No. A Looptica treballem amb mètodes òptics. Si el cas requereix tractament farmacològic, el derivem a l'oftalmòleg." },
@@ -160,6 +184,7 @@ const faqs = {
     { q: "Quantes revisions calen?", a: "Programem controls periòdics durant tot el procés per mesurar la progressió i ajustar el tractament. La freqüència exacta la definim en la primera visita segons el cas." },
   ],
   es: [
+    { q: "¿Qué diferencia hay entre Stellest, MyoCare y MiYOSMART?", a: "Son lentes de gafas de Essilor, ZEISS y HOYA, respectivamente, con diseños ópticos diferentes para ayudar a ralentizar la progresión de la miopía infantil. No hay una opción mejor para todos los niños: la elección se valora según el diagnóstico, la prescripción y la evolución de cada caso, con seguimiento coordinado con el oftalmólogo." },
     { q: "¿Se puede curar la miopía de un niño?", a: "No. La miopía no se cura, pero sí se puede frenar su progresión con métodos ópticos de control y con hábitos visuales adecuados. El objetivo es llegar a la edad adulta con la graduación más baja posible." },
     { q: "¿A qué edad se puede empezar?", a: "Depende del método. Las lentes de gafas de desenfoque periférico se pueden poner desde los 6 años; la Orto-K y las lentillas de control suelen empezar hacia los 8-9 años, cuando el niño tiene suficiente autonomía para manipularlas con higiene." },
     { q: "¿Usáis atropina?", a: "No. En Looptica trabajamos con métodos ópticos. Si el caso requiere tratamiento farmacológico, lo derivamos al oftalmólogo." },
@@ -167,6 +192,7 @@ const faqs = {
     { q: "¿Cuántas revisiones hacen falta?", a: "Programamos controles periódicos durante todo el proceso para medir la progresión y ajustar el tratamiento. La frecuencia exacta la definimos en la primera visita según el caso." },
   ],
   en: [
+    { q: "What is the difference between Stellest, MyoCare and MiYOSMART?", a: "They are spectacle lenses from Essilor, ZEISS and HOYA respectively, using different optical designs to help slow childhood myopia progression. No single option is best for every child: selection considers the diagnosis, prescription and progression in each case, with follow-up coordinated with the ophthalmologist." },
     { q: "Can a child's myopia be cured?", a: "No. Myopia cannot be cured, but its progression can be slowed with optical control methods and good visual habits. The goal is to reach adulthood with the lowest possible prescription." },
     { q: "At what age can we start?", a: "It depends on the method. Peripheral defocus spectacle lenses can be fitted from age 6; Ortho-K and control contact lenses usually start around 8-9, when the child can handle them hygienically." },
     { q: "Do you use atropine?", a: "No. At Looptica we work with optical methods. If a case requires pharmacological treatment, we refer to an ophthalmologist." },
@@ -174,6 +200,7 @@ const faqs = {
     { q: "How many check-ups are needed?", a: "We schedule regular reviews throughout the process to measure progression and adjust the treatment. The exact frequency is set at the first visit." },
   ],
   de: [
+    { q: "Was unterscheidet Stellest, MyoCare und MiYOSMART?", a: "Es handelt sich um Brillengläser von Essilor, ZEISS beziehungsweise HOYA mit unterschiedlichen optischen Designs, die das Fortschreiten der Myopie bei Kindern verlangsamen sollen. Es gibt keine für alle Kinder beste Option: Die Auswahl berücksichtigt Diagnose, Verordnung und Verlauf im Einzelfall, mit Nachsorge in Abstimmung mit dem Augenarzt." },
     { q: "Kann Kurzsichtigkeit bei Kindern geheilt werden?", a: "Nein. Myopie ist nicht heilbar, aber ihr Fortschreiten lässt sich mit optischen Kontrollmethoden und guten Sehgewohnheiten bremsen. Ziel sind möglichst niedrige Werte im Erwachsenenalter." },
     { q: "Ab welchem Alter kann man beginnen?", a: "Je nach Methode. Defokus-Brillengläser ab 6 Jahren; Ortho-K und Kontrolllinsen meist ab 8-9 Jahren, wenn das Kind sie hygienisch handhaben kann." },
     { q: "Verwenden Sie Atropin?", a: "Nein. Wir arbeiten mit optischen Methoden. Ist eine medikamentöse Behandlung nötig, überweisen wir an den Augenarzt." },
@@ -257,6 +284,14 @@ const ControlMiopia = () => {
               </table>
             </div>
           </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <section className="prose prose-lg max-w-none mb-12" aria-labelledby="myopia-spectacle-lenses">
+            <h2 id="myopia-spectacle-lenses">{spectacleLenses[lang].title}</h2>
+            <p>{spectacleLenses[lang].intro}</p>
+            <p>{spectacleLenses[lang].selection}</p>
+          </section>
         </ScrollReveal>
 
         <ScrollReveal>
