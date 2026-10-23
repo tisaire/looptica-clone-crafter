@@ -9,3 +9,8 @@
 - [x] Add prominent links to all six existing audiology services in CA, ES, EN and DE.
 - [x] Replace the lengthy subsidies section with a summary and a link to the complete guide.
 - [x] Verify all destinations, imagery and layout on desktop and mobile.
+# Audiology centre hero image
+
+- [x] Use the uploaded clinic photo as the hero background of the audiology centre page.
+- [x] Keep the page title readable: open wall behind the headline, square crop on phones.
+- [x] Verify the hero on desktop and phone and confirm other service pages are unchanged.
