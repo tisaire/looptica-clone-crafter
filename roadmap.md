@@ -19,4 +19,4 @@
 
 - [x] Keep a single descriptive homepage H1 in all four languages and mark its background image decorative.
 - [x] Keep each legal page H1 visible independently of scroll animation and repair the malformed English terms heading.
-- [ ] Verify heading counts, legal nesting and image alternative text across all four languages.
+- [x] Verify heading counts, legal nesting and image alternative text across all four languages.
