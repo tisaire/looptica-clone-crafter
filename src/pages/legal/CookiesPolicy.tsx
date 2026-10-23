@@ -298,8 +298,8 @@ const CookiesPolicy = () => {
 
       <main className="px-6 lg:px-12 bg-gray-50">
         <div className="max-w-4xl mx-auto py-12">
+          <h1 className="text-3xl font-bold mb-2 text-foreground">{content[language].heading}</h1>
           <ScrollReveal>
-            <h1 className="text-3xl font-bold mb-2 text-gray-900">{content[language].heading}</h1>
             <p className="text-gray-500 mb-8">{content[language].lastUpdated}</p>
             
             {/* SECURITY: Content is sanitized with DOMPurify to prevent XSS attacks */}
