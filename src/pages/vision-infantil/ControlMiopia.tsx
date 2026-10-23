@@ -287,6 +287,12 @@ const ControlMiopia = () => {
         </ScrollReveal>
 
         <ScrollReveal>
+          <div className="bg-gray-50 p-6 rounded-lg mb-12">
+            <p className="text-gray-700">{atropineNote[lang]}</p>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
           <section className="prose prose-lg max-w-none mb-12" aria-labelledby="myopia-spectacle-lenses">
             <h2 id="myopia-spectacle-lenses">{spectacleLenses[lang].title}</h2>
             <p>{spectacleLenses[lang].intro}</p>
@@ -294,11 +300,6 @@ const ControlMiopia = () => {
           </section>
         </ScrollReveal>
 
-        <ScrollReveal>
-          <div className="bg-gray-50 p-6 rounded-lg mb-12">
-            <p className="text-gray-700">{atropineNote[lang]}</p>
-          </div>
-        </ScrollReveal>
 
         <ScrollReveal>
           <div className="prose prose-lg max-w-none mb-12">
