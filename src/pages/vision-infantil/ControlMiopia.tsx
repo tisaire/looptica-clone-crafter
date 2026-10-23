@@ -92,22 +92,22 @@ const spectacleLenses = {
   ca: {
     title: "Stellest, MyoCare i MiYOSMART a Poblenou",
     intro: "A Looptica adaptem lents d'ulleres per al control de la miopia infantil com Stellest d'Essilor, MyoCare de ZEISS i MiYOSMART de HOYA. Estan dissenyades per corregir la visió i ajudar a alentir la progressió de la miopia; no la curen ni garanteixen el mateix resultat en tots els nens.",
-    selection: "Cada marca utilitza un disseny òptic propi. La tria parteix del diagnòstic i la prescripció de l'oftalmòleg i es valora segons la graduació, l'evolució de la miopia i les necessitats del nen. T'ajudem amb l'elecció de la muntura, el centrat i l'adaptació, i programem el seguiment coordinat amb l'oftalmòleg.",
+    selection: "Cada marca utilitza un disseny òptic propi de desenfocament perifèric: H.A.L.T. (Stellest), C.A.R.E. (MyoCare) i D.I.M.S. (MiYOSMART). La tria parteix del diagnòstic i la prescripció de l'oftalmòleg i es valora segons la graduació, l'evolució de la miopia i les necessitats del nen. T'ajudem amb l'elecció de la muntura, el centrat i l'adaptació, i programem el seguiment coordinat amb l'oftalmòleg.",
   },
   es: {
     title: "Stellest, MyoCare y MiYOSMART en Poblenou",
     intro: "En Looptica adaptamos lentes de gafas para el control de la miopía infantil como Stellest de Essilor, MyoCare de ZEISS y MiYOSMART de HOYA. Están diseñadas para corregir la visión y ayudar a ralentizar la progresión de la miopía; no la curan ni garantizan el mismo resultado en todos los niños.",
-    selection: "Cada marca utiliza un diseño óptico propio. La elección parte del diagnóstico y la prescripción del oftalmólogo y se valora según la graduación, la evolución de la miopía y las necesidades del niño. Te ayudamos con la elección de la montura, el centrado y la adaptación, y programamos el seguimiento coordinado con el oftalmólogo.",
+    selection: "Cada marca utiliza un diseño óptico propio de desenfoque periférico: H.A.L.T. (Stellest), C.A.R.E. (MyoCare) y D.I.M.S. (MiYOSMART). La elección parte del diagnóstico y la prescripción del oftalmólogo y se valora según la graduación, la evolución de la miopía y las necesidades del niño. Te ayudamos con la elección de la montura, el centrado y la adaptación, y programamos el seguimiento coordinado con el oftalmólogo.",
   },
   en: {
     title: "Stellest, MyoCare and MiYOSMART in Poblenou",
     intro: "At Looptica we fit spectacle lenses for childhood myopia control, including Essilor Stellest, ZEISS MyoCare and HOYA MiYOSMART. They are designed to correct vision and help slow myopia progression; they do not cure it or guarantee the same result for every child.",
-    selection: "Each brand uses its own optical design. Selection starts with the ophthalmologist's diagnosis and prescription and takes into account the prescription, myopia progression and the child's needs. We help with frame selection, lens centration and fitting, and arrange follow-up in coordination with the ophthalmologist.",
+    selection: "Each brand uses its own peripheral defocus design: H.A.L.T. (Stellest), C.A.R.E. (MyoCare) and D.I.M.S. (MiYOSMART). Selection starts with the ophthalmologist's diagnosis and prescription and takes into account the prescription, myopia progression and the child's needs. We help with frame selection, lens centration and fitting, and arrange follow-up in coordination with the ophthalmologist.",
   },
   de: {
     title: "Stellest, MyoCare und MiYOSMART in Poblenou",
     intro: "Bei Looptica passen wir Brillengläser zur Myopiekontrolle bei Kindern an, darunter Stellest von Essilor, MyoCare von ZEISS und MiYOSMART von HOYA. Sie sollen die Sicht korrigieren und das Fortschreiten der Myopie verlangsamen; sie heilen sie nicht und garantieren nicht bei jedem Kind dasselbe Ergebnis.",
-    selection: "Jede Marke verwendet ein eigenes optisches Design. Die Auswahl basiert auf Diagnose und Verordnung des Augenarztes und berücksichtigt die Sehstärke, den Verlauf der Myopie und die Bedürfnisse des Kindes. Wir helfen bei Fassungswahl, Zentrierung und Anpassung und planen die Nachsorge in Abstimmung mit dem Augenarzt.",
+    selection: "Jede Marke verwendet ein eigenes Defokus-Design: H.A.L.T. (Stellest), C.A.R.E. (MyoCare) und D.I.M.S. (MiYOSMART). Die Auswahl basiert auf Diagnose und Verordnung des Augenarztes und berücksichtigt die Sehstärke, den Verlauf der Myopie und die Bedürfnisse des Kindes. Wir helfen bei Fassungswahl, Zentrierung und Anpassung und planen die Nachsorge in Abstimmung mit dem Augenarzt.",
   },
 };
 
