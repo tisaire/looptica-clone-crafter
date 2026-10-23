@@ -14,3 +14,9 @@
 - [x] Use the uploaded clinic photo as the hero background of the audiology centre page.
 - [x] Keep the page title readable: open wall behind the headline, square crop on phones.
 - [x] Verify the hero on desktop and phone and confirm other service pages are unchanged.
+
+# SEO main headings
+
+- [x] Keep a single descriptive homepage H1 in all four languages and mark its background image decorative.
+- [x] Keep each legal page H1 visible independently of scroll animation and repair the malformed English terms heading.
+- [ ] Verify heading counts, legal nesting and image alternative text across all four languages.

@@ -55,7 +55,8 @@ const TermsConditions = () => {
         <h3>9. RIGHT OF EXCLUSION</h3>
         <p>LOOPTICA POBLENOU S.L. reserves the right to deny or withdraw access to the portal and/or the services offered without prior notice, at its own request or that of a third party, to those users who fail to comply with these General Conditions of Use.</p>
         
-        <h3>10. GENERALITIESLOOPTICA POBLENOU S.L. will pursue the breach of these conditions as well as any improper use of its website exercising all civil and criminal actions that may correspond to it by law.</p>
+        <h3>10. GENERALITIES</h3>
+        <p>LOOPTICA POBLENOU S.L. will pursue the breach of these conditions as well as any improper use of its website exercising all civil and criminal actions that may correspond to it by law.</p>
         
         <h3>11. APPLICABLE LEGISLATION AND JURISDICTION</h3>
         <p>The relationship between LOOPTICA POBLENOU S.L. and the USER will be governed by current Spanish regulations and any controversy will be submitted to the Courts and Tribunals of Barcelona.</p>
@@ -249,8 +250,8 @@ const TermsConditions = () => {
 
       <main className="px-6 lg:px-12 bg-gray-50">
         <div className="max-w-4xl mx-auto py-12">
+          <h1 className="text-3xl font-bold mb-2 text-foreground">{content[language].heading}</h1>
           <ScrollReveal>
-            <h1 className="text-3xl font-bold mb-2 text-gray-900">{content[language].heading}</h1>
             <p className="text-gray-500 mb-8">{content[language].lastUpdated}</p>
             
             {/* SECURITY: Content is sanitized with DOMPurify to prevent XSS attacks */}

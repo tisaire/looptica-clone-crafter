@@ -5,14 +5,20 @@ import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 
 // Optimized Hero component to improve LCP - no JS-controlled opacity to prevent render delay
 const Hero = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const headings = {
+    ca: 'Òptica i audiologia a Poblenou, Barcelona',
+    es: 'Óptica y audiología en Poblenou, Barcelona',
+    en: 'Optometry and audiology in Poblenou, Barcelona',
+    de: 'Optik und Audiologie in Poblenou, Barcelona',
+  };
 
   return (
     <section className="relative min-h-[80vh] flex items-center pt-24 pb-16 px-6 lg:px-12 overflow-hidden">
       {/* LCP-critical image - no JS opacity control to prevent render delay */}
       <img
         src="/images/DSC4608_compressed.jpg"
-        alt="Looptica Hero"
+        alt=""
         className="absolute inset-0 w-full h-full object-cover"
         width={1920}
         height={1080}
@@ -28,7 +34,7 @@ const Hero = () => {
         <div className="order-2 lg:order-1">
           <div className="glass px-8 py-10 rounded-xl shadow-md w-[80%]">
             <h1 className="text-balance font-bold text-4xl sm:text-5xl lg:text-5xl leading-tight mb-6 text-gray-900 drop-shadow-sm">
-              {t('heroTitle')}
+              {headings[language]}
             </h1>
             
             <p className="text-gray-800 text-lg mb-8 max-w-xl text-balance drop-shadow-sm">
