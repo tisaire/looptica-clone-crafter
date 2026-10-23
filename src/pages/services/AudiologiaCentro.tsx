@@ -6,6 +6,8 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import TeamSpotlight from '@/components/TeamSpotlight';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Ear, Headphones, HandCoins, Activity, ShieldCheck, Radio } from 'lucide-react';
+import centreAuditiuHero from '@/assets/centre_auditiu-hero.webp.asset.json';
+import centreAuditiuHeroMobile from '@/assets/centre_auditiu-hero-mobile.webp.asset.json';
 
 const AudiologiaCentro = () => {
   const { language } = useLanguage();
@@ -159,7 +161,8 @@ const AudiologiaCentro = () => {
     <ServiceLayout
       title={content.title[language]}
       subtitle={content.subtitle[language]}
-      image="/lovable-uploads/4e50b490-59f3-40a9-a3a6-a1c02cf017a3.jpg"
+            image={centreAuditiuHero.url}
+            imageMobile={centreAuditiuHeroMobile.url}
       appointmentSubject={content.appointmentSubject[language]}
       pageTitle={content.seoTitle}
       pageDescription={content.seoDescription}
