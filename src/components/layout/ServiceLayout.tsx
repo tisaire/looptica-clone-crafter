@@ -16,6 +16,8 @@ interface ServiceLayoutProps {
   title: string; // This is the title in the current language
   subtitle: string; // This is the subtitle in the current language
   image: string;
+  /** Square crop shown instead of `image` on phones, where a wide banner gets over-cropped. */
+  imageMobile?: string;
   appointmentSubject?: string;
   pageTitle?: { [key in Language]: string }; // SEO titles for each language
   pageDescription?: { [key in Language]: string }; // SEO descriptions for each language
@@ -30,6 +32,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   title,
   subtitle,
   image,
+  imageMobile,
   appointmentSubject = 'Looptica Consultation',
   pageTitle, // Use this for <title> tag
   pageDescription, // Use this for meta description
@@ -39,6 +42,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
 }) => {
   const { language, t } = useLanguage();
   const [loadedImage, setLoadedImage] = useState('');
+  const [loadedMobileImage, setLoadedMobileImage] = useState('');
   const [isImageLoaded, setIsImageLoaded] = useState(false);
   const location = useLocation();
   const { lang: langFromParams } = useParams<{ lang: string }>();
@@ -46,10 +50,11 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   useEffect(() => {
     window.scrollTo(0, 0);
     setLoadedImage(image);
+    setLoadedMobileImage(imageMobile ?? image);
     setIsImageLoaded(true);
     
     if (import.meta.env.DEV) console.log(`ServiceLayout mounted: language=${language}, path=${location.pathname}, params lang=${langFromParams}`);
-  }, [image, language, location.pathname, langFromParams]);
+  }, [image, imageMobile, language, location.pathname, langFromParams]);
 
   const ctaContent = {
     readyToSchedule: {
