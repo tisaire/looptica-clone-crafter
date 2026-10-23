@@ -6,7 +6,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import TeamSpotlight from '@/components/TeamSpotlight';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Ear, Headphones, HandCoins, Activity, ShieldCheck, Radio } from 'lucide-react';
-import centreAuditiuHero from '@/assets/centre_auditiu.webp.asset.json';
+import centreAuditiuHero from '@/assets/centre_auditiu-hero.webp.asset.json';
 
 const AudiologiaCentro = () => {
   const { language } = useLanguage();
