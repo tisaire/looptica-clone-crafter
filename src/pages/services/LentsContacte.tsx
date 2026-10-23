@@ -285,6 +285,19 @@ const LentsContacte = () => {
         </div>
       </ScrollReveal>
 
+      <TeamSpotlight
+        heading={{ en: 'Who will fit your lenses', es: 'Quién adaptará tus lentillas', ca: 'Qui adaptarà les teves lents', de: 'Wer Ihre Linsen anpasst' }}
+        name="Irene"
+        image="/images/irene.jpg"
+        role={{ en: 'Registered Optometrist — Col. 17739', es: 'Óptica Optometrista Colegiada — Col. 17739', ca: 'Òptica Optometrista Col·legiada — Col. 17739', de: 'Zugelassene Optometristin — Col. 17739' }}
+        bio={{
+          en: 'Irene carries out every contact lens fitting at Looptica Poblenou: eye exam, choice of lens, trial period and follow-up visits until you see and feel comfortable.',
+          es: 'Irene realiza cada adaptación de lentillas en Looptica Poblenou: revisión visual, elección de la lente, periodo de prueba y revisiones de seguimiento hasta que veas bien y estés cómodo.',
+          ca: "La Irene fa cada adaptació de lents de contacte a Looptica Poblenou: revisió visual, elecció de la lent, període de prova i revisions de seguiment fins que hi vegis bé i estiguis còmode.",
+          de: 'Irene übernimmt jede Kontaktlinsenanpassung bei Looptica Poblenou: Sehprüfung, Linsenwahl, Probephase und Nachkontrollen, bis Sie gut und bequem sehen.'
+        }}
+      />
+
       <ScrollReveal>
         <div className="bg-gray-50 p-8 rounded-lg mb-12">
           <h3 className="text-2xl font-semibold mb-6">{content.typesTitle[language]}</h3>
@@ -448,19 +461,6 @@ const LentsContacte = () => {
           </p>
         </div>
       </ScrollReveal>
-
-      <TeamSpotlight
-        heading={{ en: 'Who will fit your lenses', es: 'Quién adaptará tus lentillas', ca: 'Qui adaptarà les teves lents', de: 'Wer Ihre Linsen anpasst' }}
-        name="Irene"
-        image="/images/irene.jpg"
-        role={{ en: 'Registered Optometrist — Col. 17739', es: 'Óptica Optometrista Colegiada — Col. 17739', ca: 'Òptica Optometrista Col·legiada — Col. 17739', de: 'Zugelassene Optometristin — Col. 17739' }}
-        bio={{
-          en: 'Irene carries out every contact lens fitting at Looptica Poblenou: eye exam, choice of lens, trial period and follow-up visits until you see and feel comfortable.',
-          es: 'Irene realiza cada adaptación de lentillas en Looptica Poblenou: revisión visual, elección de la lente, periodo de prueba y revisiones de seguimiento hasta que veas bien y estés cómodo.',
-          ca: "La Irene fa cada adaptació de lents de contacte a Looptica Poblenou: revisió visual, elecció de la lent, període de prova i revisions de seguiment fins que hi vegis bé i estiguis còmode.",
-          de: 'Irene übernimmt jede Kontaktlinsenanpassung bei Looptica Poblenou: Sehprüfung, Linsenwahl, Probephase und Nachkontrollen, bis Sie gut und bequem sehen.'
-        }}
-      />
     </ServiceLayout>
   );
 };
