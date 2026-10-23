@@ -3,16 +3,17 @@ import { Link } from 'react-router-dom';
 import ServiceLayout from '@/components/layout/ServiceLayout';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
+import TeamSpotlight from '@/components/TeamSpotlight';
 
 const AudiologiaCentro = () => {
   const { language } = useLanguage();
   
   const content = {
     seoTitle: {
-      en: "Audiology Center in Barcelona · Looptica Poblenou",
-      es: "Audiólogo en Poblenou, Barcelona | Prueba auditiva y audífonos",
-      ca: "Audiòleg Barcelona Poblenou | Looptica",
-      de: "Audiologe in Barcelona · Hörtests in Poblenou | Looptica"
+      en: "Audiologist in Barcelona | Hearing Tests & Hearing Aids | Looptica",
+      es: "Audiólogo en Barcelona | Audífonos y prueba auditiva | Looptica",
+      ca: "Audiòleg a Barcelona | Audiòfons i prova auditiva | Looptica",
+      de: "Audiologe in Barcelona | Hörtest & Hörgeräte | Looptica"
     },
     seoDescription: {
       en: "Professional hearing tests, hearing aid fitting and follow-up in Barcelona. Audiologist in Poblenou with advanced technology and personalized care.",
@@ -21,10 +22,10 @@ const AudiologiaCentro = () => {
       de: "Professionelle Hörtests, Hörgeräte-Anpassung und Nachsorge in Barcelona. Audiologe in Poblenou mit fortschrittlicher Technologie und persönlicher Betreuung."
     },
     title: {
-      en: "Audiology Center",
-      es: "Centro de Audiología",
-      ca: "Centre d'Audiologia",
-      de: "Audiologie-Zentrum"
+      en: "Audiology centre in Barcelona",
+      es: "Centro de audiología en Barcelona",
+      ca: "Centre d'audiologia a Barcelona",
+      de: "Audiologie-Zentrum in Barcelona"
     },
     subtitle: {
       en: "Comprehensive hearing care solutions",
@@ -202,6 +203,14 @@ const AudiologiaCentro = () => {
               <li key={idx}>{item}</li>
             ))}
           </ul>
+          <p className="mt-6">
+            <Link to={`/${language}/services/subvenciones`} className="text-[#55afa9] underline font-medium">
+              {language === 'en' && 'All hearing aid subsidies explained →'}
+              {language === 'es' && 'Todas las ayudas para audífonos →'}
+              {language === 'ca' && 'Totes les ajudes per a audiòfons →'}
+              {language === 'de' && 'Alle Zuschüsse für Hörgeräte →'}
+            </Link>
+          </p>
         </div>
       </ScrollReveal>
       <ScrollReveal>
@@ -222,6 +231,7 @@ const AudiologiaCentro = () => {
         <div className="bg-gray-50 p-8 rounded-lg mb-12">
           <h3 className="text-2xl font-semibold mb-6">{content.tinnitusTreatment[language]}</h3>
           <p>{content.tinnitusTreatmentDesc[language]}</p>
+          <p className="mt-3"><Link to={`/${language}/services/tinnitus-treatment`} className="text-[#55afa9] underline font-medium">{language === 'en' ? 'More about tinnitus →' : language === 'es' ? 'Más sobre acúfenos →' : language === 'ca' ? 'Més sobre acúfens →' : 'Mehr über Tinnitus →'}</Link></p>
         </div>
       </ScrollReveal>
 
@@ -231,7 +241,19 @@ const AudiologiaCentro = () => {
           <p>{content.earProtectionDesc[language]}</p>
         </div>
       </ScrollReveal>
-      
+
+      <TeamSpotlight
+        heading={{ en: 'Your audiologist in Poblenou', es: 'Tu audióloga en Poblenou', ca: 'La teva audiòloga a Poblenou', de: 'Ihre Audiologin in Poblenou' }}
+        name="Esther"
+        image="/images/esther_resize.jpeg"
+        role={{ en: 'Audiologist & Hearing Aid Specialist', es: 'Audióloga y Audioprotesista', ca: 'Audiòloga i Audioprotesista', de: 'Audiologin & Hörakustikerin' }}
+        bio={{
+          en: 'Esther specialises in hearing rehabilitation. She performs the hearing test, fits your hearing aids and follows up with you, with a kind and patient approach.',
+          es: 'Esther está especializada en rehabilitación auditiva. Realiza la prueba auditiva, adapta tus audífonos y te acompaña en el seguimiento, con un trato cercano y paciente.',
+          ca: "L'Esther està especialitzada en rehabilitació auditiva. Fa la prova auditiva, adapta els teus audiòfons i t'acompanya en el seguiment, amb un tracte proper i pacient.",
+          de: 'Esther ist auf Hörrehabilitation spezialisiert. Sie führt den Hörtest durch, passt Ihre Hörgeräte an und begleitet Sie in der Nachsorge – freundlich und geduldig.'
+        }}
+      />
     </ServiceLayout>
   );
 };
