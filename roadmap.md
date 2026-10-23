@@ -8,4 +8,4 @@
 - [x] Move Esther's introduction above the services.
 - [x] Add prominent links to all six existing audiology services in CA, ES, EN and DE.
 - [x] Replace the lengthy subsidies section with a summary and a link to the complete guide.
-- [ ] Verify all destinations, imagery and layout on desktop and mobile.
+- [x] Verify all destinations, imagery and layout on desktop and mobile.
