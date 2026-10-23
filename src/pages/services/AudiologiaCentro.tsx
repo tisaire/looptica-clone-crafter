@@ -4,6 +4,8 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import TeamSpotlight from '@/components/TeamSpotlight';
+import { Button } from '@/components/ui/button';
+import { ArrowRight, Ear, Headphones, HandCoins, Activity, ShieldCheck, Radio } from 'lucide-react';
 
 const AudiologiaCentro = () => {
   const { language } = useLanguage();
@@ -99,77 +101,59 @@ const AudiologiaCentro = () => {
       ca: "Taps per a les orelles i motlles per a les orelles fets a mida per a músics, treballadors industrials i qualsevol persona exposada a sorolls forts.",
       de: "Maßgefertigte Ohrstöpsel und Ohrpassstücke für Musiker, Industriearbeiter und alle, die lauten Geräuschen ausgesetzt sind."
     },
-    subsidies: {
-      title: {
-        en: "Aid and Subsidies for Hearing Aids in Catalonia",
-        es: "Ayudas y Subvenciones para la compra de Audífonos en Cataluña",
-        ca: "Ajudes i Subvencions per a la compra d'Audiòfons a Catalunya",
-        de: "Hilfen und Zuschüsse für Hörgeräte in Katalonien"
-      },
-      content: {
-        en: [
-          "The purchase of hearing aids is an important investment for those with hearing loss. In Catalonia, there are several aid and subsidy programs that can help reduce these costs.",
-          "The healthcare system in Spain and Catalonia currently offers financial aid for hearing aids under certain conditions. Those under 26 years of age can receive significant subsidies, with each hearing aid receiving up to €1,000 in aid.",
-          "For people over 26 years old with recognized disability and specific forms of hearing loss, audiological support is also available from Social Security.",
-          "Additionally, there are various local administrations (town halls, provincial councils) that offer specific grants for hearing aids, especially for older people or those with limited resources.",
-          "At Looptica, we offer comprehensive advice on the subsidies available for hearing aids and help you with all necessary procedures to apply for these grants."
-        ],
-        es: [
-          "La compra de audífonos supone una inversión importante para aquellas personas con pérdida auditiva. En Cataluña, existen varios programas de ayudas y subvenciones que pueden ayudar a reducir estos costes.",
-          "El sistema sanitario en España y Cataluña actualmente ofrece ayudas económicas para audífonos bajo ciertas condiciones. Las personas menores de 26 años pueden recibir subvenciones importantes, recibiendo cada audífono hasta 1.000€ de ayuda.",
-          "Para las personas mayores de 26 años con discapacidad reconocida y formas específicas de pérdida auditiva, también está disponible el apoyo audiológico de la Seguridad Social.",
-          "Además, existen varias administraciones locales (ayuntamientos, diputaciones) que ofrecen subvenciones específicas para audífonos, especialmente para personas mayores o con recursos limitados.",
-          "En Looptica, ofrecemos asesoramiento integral sobre las subvenciones disponibles para audífonos y te ayudamos con todos los trámites necesarios para solicitar estas ayudas."
-        ],
-        ca: [
-          "La compra d'audiòfons suposa una inversió important per a aquelles persones amb pèrdua auditiva. A Catalunya, existeixen diversos programes d'ajudes i subvencions que poden ajudar a reduir aquests costos.",
-          "El sistema sanitari a Espanya i Catalunya actualment ofereix ajudes econòmiques per a audiòfons sota certes condicions. Les persones menors de 26 anys poden rebre subvencions importants, rebent cada audiòfon fins a 1.000€ d'ajuda.",
-          "Per a les persones majors de 26 anys amb discapacitat reconeguda i formes específiques de pèrdua auditiva, també està disponible el suport audiològic de la Seguretat Social.",
-          "A més, existeixen diverses administracions locals (ajuntaments, diputacions) que ofereixen subvencions específiques per a audiòfons, especialment per a persones grans o amb recursos limitats.",
-          "A Looptica, oferim assessorament integral sobre les subvencions disponibles per a audiòfons i t'ajudem amb tots els tràmits necessaris per sol·licitar aquestes ajudes."
-        ],
-        de: [
-          "Der Kauf von Hörgeräten ist eine wichtige Investition für Menschen mit Hörverlust. In Katalonien gibt es mehrere Hilfs- und Subventionsprogramme, die dabei helfen können, diese Kosten zu reduzieren.",
-          "Das Gesundheitssystem in Spanien und Katalonien bietet derzeit unter bestimmten Bedingungen finanzielle Hilfe für Hörgeräte. Personen unter 26 Jahren können erhebliche Zuschüsse erhalten, wobei jedes Hörgerät bis zu 1.000€ Unterstützung erhält.",
-          "Für Personen über 26 Jahre mit anerkannter Behinderung und spezifischen Formen des Hörverlusts ist auch audiologische Unterstützung von der Sozialversicherung verfügbar.",
-          "Zusätzlich gibt es verschiedene lokale Verwaltungen (Rathäuser, Provinzräte), die spezifische Zuschüsse für Hörgeräte anbieten, insbesondere für ältere Menschen oder solche mit begrenzten Ressourcen.",
-          "Bei Looptica bieten wir umfassende Beratung zu den verfügbaren Subventionen für Hörgeräte und helfen Ihnen bei allen notwendigen Verfahren zur Beantragung dieser Zuschüsse."
-        ]
-      },
-      eligibility: {
-        en: "Who can access these subsidies?",
-        es: "¿Quién puede acceder a estas subvenciones?",
-        ca: "Qui pot accedir a aquestes subvencions?",
-        de: "Wer kann auf diese Subventionen zugreifen?"
-      },
-      eligibilityContent: {
-        en: [
-          "People under 26 years of age with hearing loss",
-          "People with recognized disability and specific hearing loss profiles",
-          "Older adults (requirements vary depending on the municipality)",
-          "People with limited financial resources (subject to income assessment)"
-        ],
-        es: [
-          "Personas menores de 26 años con pérdida auditiva",
-          "Personas con discapacidad reconocida y perfiles específicos de pérdida auditiva",
-          "Adultos mayores (requisitos varían según el municipio)",
-          "Personas con recursos económicos limitados (sujeto a evaluación de ingresos)"
-        ],
-        ca: [
-          "Persones menors de 26 anys amb pèrdua auditiva",
-          "Persones amb discapacitat reconeguda i perfils específics de pèrdua auditiva",
-          "Adults grans (requisits varien segons el municipi)",
-          "Persones amb recursos econòmics limitats (subjecte a avaluació d'ingressos)"
-        ],
-        de: [
-          "Personen unter 26 Jahren mit Hörverlust",
-          "Personen mit anerkannter Behinderung und spezifischen Hörverlustprofilen",
-          "Ältere Erwachsene (Anforderungen variieren je nach Gemeinde)",
-          "Personen mit begrenzten finanziellen Ressourcen (vorbehaltlich Einkommensprüfung)"
-        ]
-      }
+    technicalAids: {
+      ca: "Ajudes tècniques i accessoris",
+      es: "Ayudas técnicas y accesorios",
+      en: "Assistive devices and accessories",
+      de: "Technische Hilfen und Zubehör"
+    },
+    technicalAidsDesc: {
+      ca: "Accessoris per escoltar millor la televisió, el telèfon i les converses, i per cuidar els teus audiòfons.",
+      es: "Accesorios para escuchar mejor la televisión, el teléfono y las conversaciones, y para cuidar tus audífonos.",
+      en: "Accessories for hearing the TV, phone and conversations more clearly, and for caring for your hearing aids.",
+      de: "Zubehör für besseres Hören beim Fernsehen, Telefonieren und in Gesprächen sowie zur Pflege Ihrer Hörgeräte."
+    },
+    subsidiesTitle: {
+      ca: "Ajudes i subvencions",
+      es: "Ayudas y subvenciones",
+      en: "Financial aid and subsidies",
+      de: "Finanzielle Hilfen und Zuschüsse"
+    },
+    subsidiesDesc: {
+      ca: "T'orientem sobre les ajudes per a audiòfons i els tràmits necessaris per sol·licitar-les.",
+      es: "Te orientamos sobre las ayudas para audífonos y los trámites necesarios para solicitarlas.",
+      en: "Guidance on hearing aid funding and the paperwork needed to apply.",
+      de: "Beratung zu Zuschüssen für Hörgeräte und den erforderlichen Antragsunterlagen."
+    },
+    subsidiesHeading: {
+      ca: "Ajudes per a audiòfons: t'acompanyem amb els tràmits",
+      es: "Ayudas para audífonos: te acompañamos con los trámites",
+      en: "Hearing aid funding: support with your application",
+      de: "Hörgeräte-Zuschüsse: Unterstützung bei Ihrem Antrag"
+    },
+    subsidiesSummary: {
+      ca: "Les ajudes de CatSalut i altres programes tenen requisits específics segons l'edat, la pèrdua auditiva i la situació personal. A Looptica t'orientem sobre les opcions disponibles i la documentació necessària. Consulta la guia completa per conèixer les condicions de cada programa.",
+      es: "Las ayudas de CatSalut y otros programas tienen requisitos específicos según la edad, la pérdida auditiva y la situación personal. En Looptica te orientamos sobre las opciones disponibles y la documentación necesaria. Consulta la guía completa para conocer las condiciones de cada programa.",
+      en: "CatSalut funding and other programmes have specific requirements depending on age, hearing loss and personal circumstances. At Looptica, we guide you through the available options and required documents. See the full guide for the conditions of each programme.",
+      de: "CatSalut-Zuschüsse und andere Programme haben spezifische Voraussetzungen je nach Alter, Hörverlust und persönlicher Situation. Bei Looptica beraten wir Sie zu den verfügbaren Möglichkeiten und erforderlichen Unterlagen. Die vollständige Übersicht erklärt die Bedingungen der einzelnen Programme."
+    },
+    subsidiesLink: {
+      ca: "Consulta les ajudes i els requisits",
+      es: "Consulta las ayudas y los requisitos",
+      en: "View funding and requirements",
+      de: "Zuschüsse und Voraussetzungen ansehen"
     }
+
   };
+
+  const services = [
+    { path: 'hearing-test', title: content.hearingTests[language], description: content.hearingTestsDesc[language], icon: Ear },
+    { path: 'hearing-aids', title: content.hearingAids[language], description: content.hearingAidsDesc[language], icon: Headphones },
+    { path: 'subvenciones', title: content.subsidiesTitle[language], description: content.subsidiesDesc[language], icon: HandCoins },
+    { path: 'tinnitus-treatment', title: content.tinnitusTreatment[language], description: content.tinnitusTreatmentDesc[language], icon: Activity },
+    { path: 'ear-protection', title: content.earProtection[language], description: content.earProtectionDesc[language], icon: ShieldCheck },
+    { path: 'technical-aids', title: content.technicalAids[language], description: content.technicalAidsDesc[language], icon: Radio }
+  ];
 
   return (
     <ServiceLayout
@@ -180,68 +164,6 @@ const AudiologiaCentro = () => {
       pageTitle={content.seoTitle}
       pageDescription={content.seoDescription}
     >
-      <ScrollReveal>
-        <div className="prose prose-lg max-w-none mb-12">
-          <h2>{content.servicesTitle[language]}</h2>
-          <p>{content.servicesDescription[language]}</p>
-        </div>
-      </ScrollReveal>
-      {/* Subsidies Section with ID for direct linking */}
-      <ScrollReveal>
-        <div id="subsidies" className="bg-gray-50 p-8 rounded-lg mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-gray-900">{content.subsidies.title[language]}</h2>
-          
-          <div className="prose prose-lg max-w-none mb-6">
-            {content.subsidies.content[language].map((paragraph, idx) => (
-              <p key={idx} className="mb-4">{paragraph}</p>
-            ))}
-          </div>
-          
-          <h3 className="text-xl font-medium mb-4">{content.subsidies.eligibility[language]}</h3>
-          <ul className="list-disc pl-6 space-y-2">
-            {content.subsidies.eligibilityContent[language].map((item, idx) => (
-              <li key={idx}>{item}</li>
-            ))}
-          </ul>
-          <p className="mt-6">
-            <Link to={`/${language}/services/subvenciones`} className="text-[#55afa9] underline font-medium">
-              {language === 'en' && 'All hearing aid subsidies explained →'}
-              {language === 'es' && 'Todas las ayudas para audífonos →'}
-              {language === 'ca' && 'Totes les ajudes per a audiòfons →'}
-              {language === 'de' && 'Alle Zuschüsse für Hörgeräte →'}
-            </Link>
-          </p>
-        </div>
-      </ScrollReveal>
-      <ScrollReveal>
-        <div className="bg-gray-50 p-8 rounded-lg mb-12">
-          <h3 className="text-2xl font-semibold mb-6">{content.hearingTests[language]}</h3>
-          <p>{content.hearingTestsDesc[language]}</p>
-        </div>
-      </ScrollReveal>
-
-      <ScrollReveal>
-        <div className="bg-gray-50 p-8 rounded-lg mb-12">
-          <h3 className="text-2xl font-semibold mb-6">{content.hearingAids[language]}</h3>
-          <p>{content.hearingAidsDesc[language]}</p>
-        </div>
-      </ScrollReveal>
-
-      <ScrollReveal>
-        <div className="bg-gray-50 p-8 rounded-lg mb-12">
-          <h3 className="text-2xl font-semibold mb-6">{content.tinnitusTreatment[language]}</h3>
-          <p>{content.tinnitusTreatmentDesc[language]}</p>
-          <p className="mt-3"><Link to={`/${language}/services/tinnitus-treatment`} className="text-[#55afa9] underline font-medium">{language === 'en' ? 'More about tinnitus →' : language === 'es' ? 'Más sobre acúfenos →' : language === 'ca' ? 'Més sobre acúfens →' : 'Mehr über Tinnitus →'}</Link></p>
-        </div>
-      </ScrollReveal>
-
-      <ScrollReveal>
-        <div className="bg-gray-50 p-8 rounded-lg mb-12">
-          <h3 className="text-2xl font-semibold mb-6">{content.earProtection[language]}</h3>
-          <p>{content.earProtectionDesc[language]}</p>
-        </div>
-      </ScrollReveal>
-
       <TeamSpotlight
         heading={{ en: 'Your audiologist in Poblenou', es: 'Tu audióloga en Poblenou', ca: 'La teva audiòloga a Poblenou', de: 'Ihre Audiologin in Poblenou' }}
         name="Esther"
@@ -254,6 +176,48 @@ const AudiologiaCentro = () => {
           de: 'Esther ist auf Hörrehabilitation spezialisiert. Sie führt den Hörtest durch, passt Ihre Hörgeräte an und begleitet Sie in der Nachsorge – freundlich und geduldig.'
         }}
       />
+
+      <ScrollReveal>
+        <section aria-labelledby="audiology-services-title" className="mb-12">
+          <h2 id="audiology-services-title" className="text-2xl font-semibold tracking-normal mb-4">
+            {content.servicesTitle[language]}
+          </h2>
+          <p className="text-muted-foreground mb-6">{content.servicesDescription[language]}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {services.map(({ path, title, description, icon: Icon }) => (
+              <Button
+                key={path}
+                asChild
+                variant="outline"
+                className="group h-auto min-w-0 whitespace-normal items-stretch justify-start p-6 rounded-lg border-border bg-card text-card-foreground hover:border-primary hover:bg-accent motion-reduce:transition-none"
+              >
+                <Link to={`/${language}/services/${path}`} className="flex flex-col text-left">
+                  <Icon aria-hidden="true" className="mb-4 text-primary !size-7" />
+                  <h3 className="text-xl font-medium tracking-normal mb-3">{title}</h3>
+                  <p className="text-sm font-normal text-muted-foreground mb-5">{description}</p>
+                  <ArrowRight aria-hidden="true" className="mt-auto self-end text-primary motion-safe:transition-transform motion-safe:group-hover:translate-x-1" />
+                </Link>
+              </Button>
+            ))}
+          </div>
+        </section>
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <section id="subsidies" className="border-t border-border py-8 scroll-mt-24">
+          <div className="flex items-start gap-4 mb-4">
+            <HandCoins aria-hidden="true" className="size-8 shrink-0 text-secondary" />
+            <h2 className="text-2xl font-semibold tracking-normal">{content.subsidiesHeading[language]}</h2>
+          </div>
+          <p className="text-muted-foreground mb-6">{content.subsidiesSummary[language]}</p>
+          <Button asChild className="h-auto min-h-11 whitespace-normal text-left">
+            <Link to={`/${language}/services/subvenciones`}>
+              {content.subsidiesLink[language]}
+              <ArrowRight aria-hidden="true" />
+            </Link>
+          </Button>
+        </section>
+      </ScrollReveal>
     </ServiceLayout>
   );
 };
