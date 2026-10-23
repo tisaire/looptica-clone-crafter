@@ -27,7 +27,7 @@ const Navbar = () => {
       children: [
         { name: t('opticalServices'), path: `/${language}/#optical` },
         { name: t('childrenVision'), path: `/${language}/visio-infantil` },
-        { name: t('audiologyServices'), path: `/${language}/#audiology` },
+        { name: { ca: 'Centre d’Audiologia', es: 'Centro de Audiología', en: 'Audiology Centre', de: 'Audiologie-Zentrum' }[language], path: `/${language}/services/audiologia-centro` },
       ],
     },
     { name: t('about'), path: `/${language}/about` },
@@ -153,7 +153,7 @@ const Navbar = () => {
             ) : (
               <Link
                 key={link.name}
-                to={link.path!}
+                to={link.path ?? `/${language}/`}
                 className="text-sm font-medium transition-all hover:text-[#55afa9] text-gray-900 drop-shadow-sm"
                 onClick={handleAnchorClick} // Use unified handler
               >
@@ -223,7 +223,7 @@ const Navbar = () => {
               ) : (
                 <Link
                   key={link.name}
-                  to={link.path!}
+                  to={link.path ?? `/${language}/`}
                   className="text-xl font-medium transition-all hover:text-[#55afa9] text-gray-800"
                   onClick={handleAnchorClick} // Use unified handler
                 >

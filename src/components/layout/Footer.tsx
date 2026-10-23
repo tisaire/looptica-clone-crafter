@@ -27,6 +27,7 @@ const Footer = () => {
       {
         title: language === 'en' ? 'Auditory Services' : language === 'es' ? 'Servicios Auditivos' : language === 'de' ? 'Auditive Dienste' : 'Serveis Auditius',
         links: [
+          { name: { ca: 'Centre d’Audiologia', es: 'Centro de Audiología', en: 'Audiology Centre', de: 'Audiologie-Zentrum' }[language], path: `/${language}/services/audiologia-centro` },
           { name: t('hearingTest'), path: `/${language}/services/hearing-test` },
           { name: t('hearingAids'), path: `/${language}/services/hearing-aids` },
           { name: t('customEarProtection'), path: `/${language}/services/ear-protection` },
