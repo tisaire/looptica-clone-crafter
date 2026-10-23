@@ -20,3 +20,8 @@
 - [x] Keep a single descriptive homepage H1 in all four languages and mark its background image decorative.
 - [x] Keep each legal page H1 visible independently of scroll animation and repair the malformed English terms heading.
 - [x] Verify heading counts, legal nesting and image alternative text across all four languages.
+
+# Contactology specialist introduction
+
+- [x] Move Irene's introduction on the contact lens page to immediately after the opening text, above the lens types.
+- [x] Verify the new position, photo and team link in all four languages.
