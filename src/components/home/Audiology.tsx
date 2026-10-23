@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Ear, HeadphonesIcon, Zap, ShieldCheck, BadgeDollarSign, ArrowRight } from 'lucide-react';
+import { Ear, HeadphonesIcon, Zap, ShieldCheck, BadgeDollarSign, ArrowRight, Building2 } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Link } from 'react-router-dom';
@@ -93,7 +93,7 @@ const Audiology = () => {
         <ScrollReveal delay={0.2}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             <div className="bg-card rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col overflow-hidden ring-2 ring-primary">
-              <Link to={`/${language}/services/audiologia-centro`} className="w-full h-48 overflow-hidden">
+              <Link to={`/${language}/services/audiologia-centro`} className="w-full h-64 overflow-hidden">
                 <img
                   src="/images/esther_resize.jpeg"
                   alt={centre.role}
@@ -102,6 +102,7 @@ const Audiology = () => {
                 />
               </Link>
               <div className="p-6 flex flex-col items-center text-center flex-grow">
+                <div className="mb-4"><Building2 className="w-10 h-10 text-primary" aria-hidden="true" /></div>
                 <h3 className="text-lg font-semibold mb-1 text-foreground">{centre.title}</h3>
                 <p className="text-sm font-medium text-primary mb-2">{centre.role}</p>
                 <p className="text-muted-foreground text-sm mb-4">{centre.description}</p>
@@ -124,7 +125,7 @@ const Audiology = () => {
                   });
                 }}
               >
-                <Link to={service.path} className="w-full h-48 overflow-hidden">
+                <Link to={service.path} className="w-full h-64 overflow-hidden">
                   <img 
                     src={service.image} 
                     alt={service.title} 
