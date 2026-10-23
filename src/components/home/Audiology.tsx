@@ -90,32 +90,29 @@ const Audiology = () => {
           </div>
         </ScrollReveal>
 
-        <ScrollReveal>
-          <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-10 border-y border-border py-8 mb-12">
-            <Link to={`/${language}/services/audiologia-centro`} className="shrink-0 rounded-lg overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
-              <img
-                src="/images/esther_resize.jpeg"
-                alt={centre.role}
-                loading="lazy"
-                className="w-44 h-52 sm:w-48 sm:h-56 object-cover"
-              />
-            </Link>
-            <div className="min-w-0 text-center sm:text-left">
-              <h3 className="text-2xl sm:text-3xl font-semibold text-foreground mb-3">{centre.title}</h3>
-              <p className="font-medium text-foreground mb-3">{centre.role}</p>
-              <p className="text-muted-foreground max-w-2xl mb-5">{centre.description}</p>
-              <Button asChild size="lg" className="h-auto min-h-11 whitespace-normal text-left hover:bg-secondary">
-                <Link to={`/${language}/services/audiologia-centro`}>
-                  {centre.link}
-                  <ArrowRight className="ml-2 h-4 w-4 shrink-0" aria-hidden="true" />
-                </Link>
-              </Button>
-            </div>
-          </div>
-        </ScrollReveal>
-
         <ScrollReveal delay={0.2}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div className="bg-card rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col overflow-hidden ring-2 ring-primary">
+              <Link to={`/${language}/services/audiologia-centro`} className="w-full h-48 overflow-hidden">
+                <img
+                  src="/images/esther_resize.jpeg"
+                  alt={centre.role}
+                  loading="lazy"
+                  className="w-full h-full object-cover object-top transition-transform hover:scale-105 duration-500"
+                />
+              </Link>
+              <div className="p-6 flex flex-col items-center text-center flex-grow">
+                <h3 className="text-lg font-semibold mb-1 text-foreground">{centre.title}</h3>
+                <p className="text-sm font-medium text-primary mb-2">{centre.role}</p>
+                <p className="text-muted-foreground text-sm mb-4">{centre.description}</p>
+                <Button asChild size="sm" className="mt-auto h-auto min-h-9 whitespace-normal">
+                  <Link to={`/${language}/services/audiologia-centro`}>
+                    {centre.link}
+                    <ArrowRight className="ml-1 h-4 w-4 shrink-0" aria-hidden="true" />
+                  </Link>
+                </Button>
+              </div>
+            </div>
             {audiologyServices.map((service, index) => (
               <div 
                 key={index} 
