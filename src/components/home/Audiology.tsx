@@ -98,7 +98,7 @@ const Audiology = () => {
                   src="/images/esther_resize.jpeg"
                   alt={centre.role}
                   loading="lazy"
-                  className="w-full h-full object-cover object-top transition-transform hover:scale-105 duration-500"
+                  className="w-full h-full object-cover object-[center_18%] transition-transform hover:scale-105 duration-500"
                 />
               </Link>
               <div className="p-6 flex flex-col items-center text-center flex-grow">
