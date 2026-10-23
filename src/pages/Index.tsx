@@ -11,10 +11,10 @@ import Brands from '@/components/home/Brands';
 import StoreLocation from '@/components/home/StoreLocation';
 import FloatingWhatsApp from '@/components/ui/FloatingWhatsApp';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.9.5-gsc-lentilles-audio"; // GSC: lentilles + audiologia titles, team blocks, internal links
+const CURRENT_VERSION = "v2.9.6-audiologia-visible";
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
@@ -47,17 +47,7 @@ const SeoContent = ({ language }: { language: string }) => {
 
 // Create a component for non-critical sections that will be loaded after hero
 const DeferredContent = () => {
-  const { language } = useLanguage();
   const navigate = useNavigate();
-
-  const content = {
-    audiologyLink: {
-      en: "Visit our Audiology Page",
-      es: "Visitar nuestra página de Audiología",
-      ca: "Visitar la nostra pàgina d'Audiología",
-      de: "Besuchen Sie unsere Audiologie-Seite"
-    },
-  };
 
   useEffect(() => {
     // Lazy load all images except for critical ones
@@ -123,14 +113,7 @@ const DeferredContent = () => {
       <div id="optical">
         <OpticalServices />
       </div>
-      <div id="audiology">
-        <Audiology />
-        <div className="container mx-auto px-4 mt-4 text-center">
-          <Link to={`/${language}/services/audiologia-centro`} className="text-[#55afa9] hover:underline">
-            {content.audiologyLink[language as keyof typeof content.audiologyLink]}
-          </Link>
-        </div>
-      </div>
+      <Audiology />
       <div id="testimonials">
         <Testimonials />
       </div>

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Ear, HeadphonesIcon, Zap, ShieldCheck, BadgeDollarSign } from 'lucide-react';
+import { Ear, HeadphonesIcon, Zap, ShieldCheck, BadgeDollarSign, ArrowRight } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Link } from 'react-router-dom';
@@ -8,6 +8,33 @@ import { Button } from '@/components/ui/button';
 
 const Audiology = () => {
   const { t, language } = useLanguage();
+
+  const centre = {
+    ca: {
+      title: "Centre d’Audiologia a Poblenou",
+      role: 'Esther · Audiòloga i Audioprotesista',
+      description: "Proves auditives, adaptació d’audiòfons i seguiment continuat amb l’Esther, amb un tracte proper i pacient.",
+      link: "Coneix el Centre d’Audiologia",
+    },
+    es: {
+      title: 'Centro de Audiología en Poblenou',
+      role: 'Esther · Audióloga y Audioprotesista',
+      description: 'Pruebas auditivas, adaptación de audífonos y seguimiento continuado con Esther, con un trato cercano y paciente.',
+      link: 'Conoce el Centro de Audiología',
+    },
+    en: {
+      title: 'Audiology Centre in Poblenou',
+      role: 'Esther · Audiologist & Hearing Aid Specialist',
+      description: 'Hearing tests, hearing aid fitting and ongoing follow-up with Esther, with a kind and patient approach.',
+      link: 'Explore our Audiology Centre',
+    },
+    de: {
+      title: 'Audiologie-Zentrum in Poblenou',
+      role: 'Esther · Audiologin & Hörakustikerin',
+      description: 'Hörtests, Hörgeräteanpassung und kontinuierliche Nachbetreuung mit Esther – persönlich und geduldig.',
+      link: 'Unser Audiologie-Zentrum kennenlernen',
+    },
+  }[language];
 
   const audiologyServices = [
     {
@@ -48,7 +75,7 @@ const Audiology = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-50" id="audiology">
+    <section className="py-16 bg-muted/40 scroll-mt-24" id="audiology">
       <div className="container mx-auto px-4">
         <ScrollReveal>
           <div className="text-center mb-12">
@@ -60,6 +87,30 @@ const Audiology = () => {
             <p className="max-w-2xl mx-auto text-gray-600">
               {t('audiologyDescription')}
             </p>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-10 border-y border-border py-8 mb-12">
+            <Link to={`/${language}/services/audiologia-centro`} className="shrink-0 rounded-lg overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
+              <img
+                src="/images/esther_resize.jpeg"
+                alt={centre.role}
+                loading="lazy"
+                className="w-44 h-52 sm:w-48 sm:h-56 object-cover"
+              />
+            </Link>
+            <div className="min-w-0 text-center sm:text-left">
+              <h3 className="text-2xl sm:text-3xl font-semibold text-foreground mb-3">{centre.title}</h3>
+              <p className="font-medium text-foreground mb-3">{centre.role}</p>
+              <p className="text-muted-foreground max-w-2xl mb-5">{centre.description}</p>
+              <Button asChild size="lg" className="h-auto min-h-11 whitespace-normal text-left hover:bg-secondary">
+                <Link to={`/${language}/services/audiologia-centro`}>
+                  {centre.link}
+                  <ArrowRight className="ml-2 h-4 w-4 shrink-0" aria-hidden="true" />
+                </Link>
+              </Button>
+            </div>
           </div>
         </ScrollReveal>
 
@@ -103,23 +154,6 @@ const Audiology = () => {
           </div>
         </ScrollReveal>
 
-        <ScrollReveal delay={0.4}>
-          <div className="text-center">
-            <Button asChild size="lg" className="bg-[#55afa9] hover:bg-[#ca6664] text-white">
-              <Link 
-                to={`/${language}/services/audiologia-centro`}
-                onClick={() => {
-                  window.gtag?.('event', 'demana_cita_click', {
-                    location: 'audiology_section',
-                    subject: 'audiologia-centro'
-                  });
-                }}
-              >
-                {t('scheduleConsultation')}
-              </Link>
-            </Button>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );
