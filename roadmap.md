@@ -33,6 +33,6 @@
 
 # Legacy contact-lens redirect
 
-- [ ] Correct the old service destination and synchronize the Apache redirect.
-- [ ] Remove obsolete contact-lens aliases from the sitemap, preserving its canonical entries.
-- [ ] Run a regression check for all four languages and trailing slashes.
+- [x] Correct the old service destination and synchronize the Apache redirect.
+- [x] Remove obsolete contact-lens aliases from the sitemap, preserving its canonical entries.
+- [x] Run a regression check for all four languages and trailing slashes.
