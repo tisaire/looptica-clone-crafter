@@ -30,3 +30,9 @@
 
 - [x] Align explanations, options, follow-up and FAQs with the supplied text in all four languages, keeping the existing technology mentions and routes.
 - [x] Verify the page, matching FAQ data and appointment links.
+
+# Legacy contact-lens redirect
+
+- [ ] Correct the old service destination and synchronize the Apache redirect.
+- [ ] Remove obsolete contact-lens aliases from the sitemap, preserving its canonical entries.
+- [ ] Run a regression check for all four languages and trailing slashes.
