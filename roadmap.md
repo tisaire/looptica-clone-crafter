@@ -25,3 +25,8 @@
 
 - [x] Move Irene's introduction on the contact lens page to immediately after the opening text, above the lens types.
 - [x] Verify the new position, photo and team link in all four languages.
+
+# Myopia control editorial revision
+
+- [x] Align explanations, options, follow-up and FAQs with the supplied text in all four languages, keeping the existing technology mentions and routes.
+- [x] Verify the page, matching FAQ data and appointment links.
