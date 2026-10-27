@@ -28,5 +28,5 @@
 
 # Myopia control editorial revision
 
-- [ ] Align explanations, options, follow-up and FAQs with the supplied text in all four languages, keeping the existing technology mentions and routes.
-- [ ] Verify the page, matching FAQ data and appointment links.
+- [x] Align explanations, options, follow-up and FAQs with the supplied text in all four languages, keeping the existing technology mentions and routes.
+- [x] Verify the page, matching FAQ data and appointment links.
