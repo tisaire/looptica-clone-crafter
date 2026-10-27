@@ -324,52 +324,6 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Optical Services: Contact Lenses -->
-  <url>
-    <loc>https://looptica.com/ca/services/contact-lenses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/contact-lenses"/>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://looptica.com/es/services/contact-lenses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/contact-lenses"/>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://looptica.com/en/services/contact-lenses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/contact-lenses"/>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://looptica.com/de/services/contact-lenses</loc>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/contact-lenses"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/contact-lenses"/>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Optical Services: Image Consulting -->
   <url>
     <loc>https://looptica.com/ca/services/image-consulting</loc>

@@ -92,6 +92,9 @@ FileETag None
   # Normalize language root URLs: /ca -> /ca/, /en -> /en/, etc.
   RewriteRule ^(en|es|ca|de)$ /$1/ [R=301,L,NE]
 
+  # Legacy contact-lens service slug: preserve the language, before generic language rewrites
+  RewriteRule ^(ca|es|en|de)/services/contact-lenses/?$ /$1/services/lents-contacte [R=301,L,NE]
+
   # Redirect old language paths to new prefixed structure (assuming 'ca' as default for these old structures)
   # The React app will handle redirect from / to /ca/ internally
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
@@ -106,11 +109,11 @@ FileETag None
   # Legacy URL Redirects to new language-prefixed structure
   # Contact lenses
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
-  RewriteRule ^en/contact-lenses-poblenou-barcelona/?$ /en/services/contact-lenses [R=301,L,NE]
+  RewriteRule ^en/contact-lenses-poblenou-barcelona/?$ /en/services/lents-contacte [R=301,L,NE]
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
-  RewriteRule ^lentillas-poblenou-barcelona/?$ /es/services/contact-lenses [R=301,L,NE]
+  RewriteRule ^lentillas-poblenou-barcelona/?$ /es/services/lents-contacte [R=301,L,NE]
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
-  RewriteRule ^kontaktlinsen-poblenou-barcelona/?$ /de/services/contact-lenses [R=301,L,NE]
+  RewriteRule ^kontaktlinsen-poblenou-barcelona/?$ /de/services/lents-contacte [R=301,L,NE]
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]
   RewriteRule ^lentilles-poblenou-barcelona/?$ /ca/services/lents-contacte [R=301,L,NE]
   RewriteCond %{HTTP_HOST} ^(www\.)?looptica\.com$ [NC]

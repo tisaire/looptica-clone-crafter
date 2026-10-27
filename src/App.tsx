@@ -130,7 +130,7 @@ function App() {
                 <Route path="services/eyeglasses" element={<Suspense fallback={<PageLoader />}><Eyeglasses /></Suspense>} />
                 <Route path="services/sunglasses" element={<Suspense fallback={<PageLoader />}><Sunglasses /></Suspense>} />
                 {/* Legacy slug redirect: contact-lenses → lents-contacte (canonical) */}
-                <Route path="services/contact-lenses" element={<Navigate to="../lents-contacte" replace />} />
+                <Route path="services/contact-lenses" element={<Navigate to="../services/lents-contacte" replace />} />
                 <Route path="services/image-consulting" element={<Suspense fallback={<PageLoader />}><ImageConsulting /></Suspense>} />
                 <Route path="services/lens-consulting" element={<Suspense fallback={<PageLoader />}><LensConsulting /></Suspense>} />
                 <Route path="services/plan-veo" element={<Suspense fallback={<PageLoader />}><PlanVeo /></Suspense>} />
