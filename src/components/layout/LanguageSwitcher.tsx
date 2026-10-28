@@ -4,6 +4,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Globe } from 'lucide-react';
 import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import { Language, SUPPORTED_LANGUAGES } from '@/config/languages';
+import { ZEISS_SLUGS } from '@/config/zeissSlugs';
 
 const LanguageSwitcher = () => {
   const { language, setLanguage } = useLanguage();
@@ -28,6 +29,11 @@ const LanguageSwitcher = () => {
         basePath = `/${basePath}`;
     }
     
+    // Localized ZEISS slug: swap to the target language's slug
+    if (Object.values(ZEISS_SLUGS).includes(basePath.replace(/^\//, '').replace(/\/$/, ''))) {
+      basePath = `/${ZEISS_SLUGS[newLang]}`;
+    }
+
     // For the root path of the default language 'ca', we want /ca not /ca/
     const finalPath = `/${newLang}${basePath === "/" ? "" : basePath}${location.search}${location.hash}`;
     

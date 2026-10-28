@@ -1,3 +1,4 @@
+import { zeissPath } from '@/config/zeissSlugs';
 import React from 'react'; // Keep React for React.MouseEvent
 import { Link } from 'react-router-dom';
 import { ScrollReveal } from '@/components/ui'; // Standardized import
@@ -21,7 +22,7 @@ const Footer = () => {
           { name: t('ortoK'), path: `/${language}/services/orto-k` },
           { name: t('planVeo'), path: `/${language}/services/plan-veo` },
           { name: language === "ca" ? "Ulleres per a l'ordinador" : language === "es" ? "Gafas para ordenador" : language === "de" ? "Bildschirmbrillen" : "Computer glasses", path: `/${language}/services/computer-glasses` },
-          { name: language === "de" ? "ZEISS Gleitsichtgläser" : language === "en" ? "ZEISS progressive lenses" : language === "es" ? "Lentes progresivas ZEISS" : "Lents progressives ZEISS", path: `/${language}/services/zeiss-progressive-lenses` },
+          { name: language === "de" ? "ZEISS Gleitsichtgläser" : language === "en" ? "ZEISS progressive lenses" : language === "es" ? "Lentes progresivas ZEISS" : "Lents progressives ZEISS", path: zeissPath(language) },
         ],
       },
       {

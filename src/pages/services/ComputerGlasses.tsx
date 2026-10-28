@@ -1,3 +1,4 @@
+import { zeissPath } from '@/config/zeissSlugs';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
@@ -553,7 +554,7 @@ const ComputerGlasses: React.FC = () => {
             <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-6">
               <BookingBtn location="comparison" label={c.compareCta[lang]} />
               <Link
-                to={`/${lang}/services/zeiss-progressive-lenses`}
+                to={zeissPath(lang)}
                 className={`text-[#55afa9] font-semibold underline underline-offset-4 hover:no-underline`}
               >
                 {c.zeissLink[lang]}

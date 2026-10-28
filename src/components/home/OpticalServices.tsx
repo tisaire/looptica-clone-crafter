@@ -1,3 +1,4 @@
+import { zeissPath } from '@/config/zeissSlugs';
 
 import React from 'react';
 import { Eye, Contact, Moon, Monitor, Glasses, BadgeEuro, Sun } from 'lucide-react';
@@ -55,7 +56,7 @@ const OpticalServices = () => {
         de: 'Nah-, Zwischen- und Fernsicht mit individuellen ZEISS-Gläsern.',
       } as Record<string, string>)[language],
       image: zeissHero,
-      path: `/${language}/services/zeiss-progressive-lenses`
+      path: zeissPath(language)
     },
     {
       icon: <Glasses className="w-10 h-10 text-[#55afa9]" />,
