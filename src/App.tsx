@@ -39,6 +39,8 @@ const TechnicalAids = lazyWithRetry(() => import('./pages/services/TechnicalAids
 const Subvenciones = lazyWithRetry(() => import('./pages/services/Subvenciones'));
 const ImageConsulting = lazyWithRetry(() => import('./pages/services/ImageConsulting'));
 const LensConsulting = lazyWithRetry(() => import('./pages/services/LensConsulting'));
+const ZeissProgressive = lazyWithRetry(() => import('./pages/services/ZeissProgressive'));
+const ComputerGlasses = lazyWithRetry(() => import('./pages/services/ComputerGlasses'));
 const PlanVeo = lazyWithRetry(() => import('./pages/services/PlanVeo'));
 const About = lazyWithRetry(() => import('./pages/About'));
 const AudiologiaCentro = lazyWithRetry(() => import('./pages/services/AudiologiaCentro'));
@@ -133,6 +135,8 @@ function App() {
                 <Route path="services/contact-lenses" element={<Navigate to="../services/lents-contacte" replace />} />
                 <Route path="services/image-consulting" element={<Suspense fallback={<PageLoader />}><ImageConsulting /></Suspense>} />
                 <Route path="services/lens-consulting" element={<Suspense fallback={<PageLoader />}><LensConsulting /></Suspense>} />
+                <Route path="services/zeiss-progressive-lenses" element={<Suspense fallback={<PageLoader />}><ZeissProgressive /></Suspense>} />
+                <Route path="services/computer-glasses" element={<Suspense fallback={<PageLoader />}><ComputerGlasses /></Suspense>} />
                 <Route path="services/plan-veo" element={<Suspense fallback={<PageLoader />}><PlanVeo /></Suspense>} />
 
                 {/* Children's vision hub */}
