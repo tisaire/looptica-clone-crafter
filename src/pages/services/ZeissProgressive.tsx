@@ -10,8 +10,8 @@ import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Language } from '@/config/languages';
 const trackEvent = (name: string, params: Record<string, unknown>) => { (window as any).gtag?.('event', name, params); };
-import zeissHero from '@/assets/zeiss-hero.jpg';
-import zeissLens from '@/assets/zeiss-lens.jpg';
+import zeissHeroAsset from '@/assets/cmpal-stage.jpg.asset.json';
+import zeissLensAsset from '@/assets/zeiss-lens-2.jpg.asset.json';
 
 type L = Record<Language, string>;
 type LL = Record<Language, string[]>;
@@ -381,7 +381,7 @@ const ZeissProgressive: React.FC = () => {
             </div>
             <div className="relative min-h-[280px] md:min-h-[520px]">
               <img
-                src={zeissHero}
+                src={zeissHeroAsset.url}
                 alt={c.heroAlt[lang]}
                 width={1920}
                 height={1280}
@@ -434,7 +434,7 @@ const ZeissProgressive: React.FC = () => {
               </div>
             </div>
             <img
-              src={zeissLens}
+              src={zeissLensAsset.url}
               alt={c.lensAlt[lang]}
               width={1600}
               height={1067}
