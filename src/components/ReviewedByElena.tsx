@@ -5,19 +5,19 @@ import { BadgeCheck } from 'lucide-react';
 
 const reviewedByTranslations = {
   es: {
-    text: 'Contenido revisado por Elena Sentís — Óptica Optometrista · Col. 18568 · Directora Técnica de Looptica',
+    text: 'Contenido revisado por Elena Sentís — Óptica Optometrista · Col. 18568 · Directora Técnica de looptica',
     linkLabel: 'Ver perfil de Elena',
   },
   ca: {
-    text: 'Contingut revisat per Elena Sentís — Òptica Optometrista · Col. 18568 · Directora Tècnica de Looptica',
+    text: 'Contingut revisat per Elena Sentís — Òptica Optometrista · Col. 18568 · Directora Tècnica de looptica',
     linkLabel: 'Veure perfil d\'Elena',
   },
   en: {
-    text: 'Content reviewed by Elena Sentís — Optician Optometrist · Col. 18568 · Technical Director of Looptica',
+    text: 'Content reviewed by Elena Sentís — Optician Optometrist · Col. 18568 · Technical Director of looptica',
     linkLabel: 'View Elena\'s profile',
   },
   de: {
-    text: 'Inhalt geprüft von Elena Sentís — Optikerin Optometristin · Col. 18568 · Technische Leiterin von Looptica',
+    text: 'Inhalt geprüft von Elena Sentís — Optikerin Optometristin · Col. 18568 · Technische Leiterin von looptica',
     linkLabel: 'Elenas Profil ansehen',
   },
 };

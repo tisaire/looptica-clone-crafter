@@ -31,22 +31,22 @@ const hero = {
 const intro = {
   ca: [
     "Els nens no diuen que hi veuen malament: s'hi acostumen. Per això bona part dels problemes visuals de la infància es detecten a l'escola, quan ja fa temps que hi són. Estar atent als senyals i actuar aviat és la manera més senzilla d'evitar-ho.",
-    "A Looptica no fem la primera exploració visual d'un nen petit que no s'ha examinat mai. En aquests casos recomanem i derivem primer a l'oftalmòleg, que és qui ha de descartar possibles patologies i establir el diagnòstic i el tractament.",
+    "A looptica no fem la primera exploració visual d'un nen petit que no s'ha examinat mai. En aquests casos recomanem i derivem primer a l'oftalmòleg, que és qui ha de descartar possibles patologies i establir el diagnòstic i el tractament.",
     "A partir d'aquí és on entrem nosaltres: proporcionem la solució òptica adequada segons la prescripció —ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K— i fem el seguiment de manera coordinada amb l'oftalmòleg i seguint les seves indicacions.",
   ],
   es: [
     "Los niños no dicen que ven mal: se acostumbran. Por eso buena parte de los problemas visuales de la infancia se detectan en el colegio, cuando ya llevan tiempo ahí. Estar atento a las señales y actuar pronto es la forma más sencilla de evitarlo.",
-    "En Looptica no realizamos la primera exploración visual de un niño pequeño que nunca ha sido examinado. En estos casos recomendamos y derivamos primero al oftalmólogo, que es quien debe descartar posibles patologías y establecer el diagnóstico y el tratamiento.",
+    "En looptica no realizamos la primera exploración visual de un niño pequeño que nunca ha sido examinado. En estos casos recomendamos y derivamos primero al oftalmólogo, que es quien debe descartar posibles patologías y establecer el diagnóstico y el tratamiento.",
     "A partir de ahí entramos nosotros: proporcionamos la solución óptica adecuada según la prescripción —gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K— y hacemos el seguimiento de forma coordinada con el oftalmólogo y según sus indicaciones.",
   ],
   en: [
     "Children rarely say they can't see well — they simply adapt. That is why many childhood vision problems are only spotted at school, long after they started. Watching for the warning signs and acting early is the simplest way to avoid that.",
-    "At Looptica we do not carry out the first eye examination of a young child who has never been examined. In those cases we recommend and refer to an ophthalmologist first, as they are the ones who must rule out any pathology and set the diagnosis and treatment.",
+    "At looptica we do not carry out the first eye examination of a young child who has never been examined. In those cases we recommend and refer to an ophthalmologist first, as they are the ones who must rule out any pathology and set the diagnosis and treatment.",
     "That is where we come in afterwards: we provide the right optical solution according to the prescription — glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses — and follow up in coordination with the ophthalmologist and according to their instructions.",
   ],
   de: [
     "Kinder sagen nicht, dass sie schlecht sehen — sie gewöhnen sich daran. Deshalb werden viele Sehprobleme erst in der Schule bemerkt. Auf Warnzeichen zu achten und früh zu handeln ist der einfachste Weg, das zu vermeiden.",
-    "Bei Looptica führen wir die erste Augenuntersuchung eines noch nie untersuchten kleinen Kindes nicht durch. In solchen Fällen empfehlen wir und überweisen zunächst an den Augenarzt, der mögliche Erkrankungen ausschließen und Diagnose sowie Behandlung festlegen muss.",
+    "Bei looptica führen wir die erste Augenuntersuchung eines noch nie untersuchten kleinen Kindes nicht durch. In solchen Fällen empfehlen wir und überweisen zunächst an den Augenarzt, der mögliche Erkrankungen ausschließen und Diagnose sowie Behandlung festlegen muss.",
     "Danach kommen wir ins Spiel: Wir liefern die passende optische Lösung gemäß Verordnung — Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen — und begleiten den Verlauf in Abstimmung mit dem Augenarzt und nach seinen Vorgaben.",
   ],
 };
@@ -179,25 +179,25 @@ const faqs = {
   ca: [
     { q: "Feu la primera revisió visual als nens petits?", a: "No. Si el nen no s'ha examinat mai, recomanem i derivem primer a l'oftalmòleg per descartar possibles patologies. Un cop tenim el seu diagnòstic i la prescripció, ens ocupem de la solució òptica i del seguiment." },
     { q: "Com us coordineu amb l'oftalmòleg?", a: "Treballem segons les seves indicacions: adaptem la correcció prescrita, controlem l'evolució de la graduació i li fem arribar la informació de les revisions perquè pugui valorar el cas amb dades actualitzades." },
-    { q: "Feu teràpia visual?", a: "No. A Looptica no fem teràpia visual. La nostra intervenció es limita a la solució òptica: ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K." },
+    { q: "Feu teràpia visual?", a: "No. A looptica no fem teràpia visual. La nostra intervenció es limita a la solució òptica: ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K." },
     { q: "En quins idiomes atendreu la família?", a: "Atenem en català, castellà, anglès i alemany." },
   ],
   es: [
     { q: "¿Hacéis la primera revisión visual a los niños pequeños?", a: "No. Si el niño nunca ha sido examinado, recomendamos y derivamos primero al oftalmólogo para descartar posibles patologías. Una vez tenemos su diagnóstico y la prescripción, nos ocupamos de la solución óptica y del seguimiento." },
     { q: "¿Cómo os coordináis con el oftalmólogo?", a: "Trabajamos según sus indicaciones: adaptamos la corrección prescrita, controlamos la evolución de la graduación y le hacemos llegar la información de las revisiones para que pueda valorar el caso con datos actualizados." },
-    { q: "¿Hacéis terapia visual?", a: "No. En Looptica no realizamos terapia visual. Nuestra intervención se limita a la solución óptica: gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K." },
+    { q: "¿Hacéis terapia visual?", a: "No. En looptica no realizamos terapia visual. Nuestra intervención se limita a la solución óptica: gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K." },
     { q: "¿En qué idiomas atendéis a la familia?", a: "Atendemos en catalán, castellano, inglés y alemán." },
   ],
   en: [
     { q: "Do you carry out a young child's first eye exam?", a: "No. If the child has never been examined, we recommend and refer to an ophthalmologist first to rule out any pathology. Once we have their diagnosis and prescription, we take care of the optical solution and the follow-up." },
     { q: "How do you coordinate with the ophthalmologist?", a: "We work to their instructions: we fit the prescribed correction, monitor how the prescription evolves and pass on the information from our check-ups so they can review the case with up-to-date data." },
-    { q: "Do you offer vision therapy?", a: "At Looptica we focus on the optical side: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses, fitting and follow-up, always following the ophthalmologist's prescription." },
+    { q: "Do you offer vision therapy?", a: "At looptica we focus on the optical side: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses, fitting and follow-up, always following the ophthalmologist's prescription." },
     { q: "Which languages do you work in?", a: "Catalan, Spanish, English and German." },
   ],
   de: [
     { q: "Führen Sie die erste Augenuntersuchung bei kleinen Kindern durch?", a: "Nein. War das Kind noch nie untersucht, empfehlen wir und überweisen zunächst an den Augenarzt, um Erkrankungen auszuschließen. Mit seiner Diagnose und Verordnung übernehmen wir die optische Lösung und die Nachbetreuung." },
     { q: "Wie stimmen Sie sich mit dem Augenarzt ab?", a: "Wir arbeiten nach seinen Vorgaben: Wir passen die verordnete Korrektion an, kontrollieren die Werteentwicklung und übermitteln die Ergebnisse unserer Kontrollen, damit er den Fall mit aktuellen Daten beurteilen kann." },
-    { q: "Bieten Sie Sehtherapie an?", a: "Bei Looptica konzentrieren wir uns auf die optische Seite: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, Anpassung und Nachsorge, immer nach augenärztlicher Verordnung." },
+    { q: "Bieten Sie Sehtherapie an?", a: "Bei looptica konzentrieren wir uns auf die optische Seite: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, Anpassung und Nachsorge, immer nach augenärztlicher Verordnung." },
     { q: "In welchen Sprachen beraten Sie?", a: "Katalanisch, Spanisch, Englisch und Deutsch." },
   ],
 };
@@ -227,7 +227,7 @@ const VisioInfantil = () => {
         image={heroImage}
         pageTitle={pageTitle}
         pageDescription={pageDescription}
-        appointmentSubject="Ulleres i lentilles per a nens a Looptica"
+        appointmentSubject="Ulleres i lentilles per a nens a looptica"
       >
         <ScrollReveal>
           <div className="prose prose-lg max-w-none mb-12">

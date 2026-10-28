@@ -14,20 +14,20 @@ const About = () => {
   const content = {
     meta: {
       en: {
-        title: "About Looptica | Optics and audiology in Poblenou, Barcelona",
-        description: "Meet the Looptica team in Poblenou, Barcelona: optometrists and audiologists offering personalized vision and hearing care since 2018."
+        title: "About looptica | Optics and audiology in Poblenou, Barcelona",
+        description: "Meet the looptica team in Poblenou, Barcelona: optometrists and audiologists offering personalized vision and hearing care since 2018."
       },
       es: {
-        title: "Sobre Looptica | Óptica y audiología en Poblenou, Barcelona",
-        description: "Conoce al equipo de Looptica en Poblenou, Barcelona: ópticos optometristas y audiólogos con atención personalizada en visión y audición desde 2018."
+        title: "Sobre looptica | Óptica y audiología en Poblenou, Barcelona",
+        description: "Conoce al equipo de looptica en Poblenou, Barcelona: ópticos optometristas y audiólogos con atención personalizada en visión y audición desde 2018."
       },
       ca: {
-        title: "Sobre Looptica | Òptica i audiologia a Poblenou, Barcelona",
-        description: "Coneix l'equip de Looptica a Poblenou, Barcelona: òptics optometristes i audiòlegs amb atenció personalitzada en visió i audició des de 2018."
+        title: "Sobre looptica | Òptica i audiologia a Poblenou, Barcelona",
+        description: "Coneix l'equip de looptica a Poblenou, Barcelona: òptics optometristes i audiòlegs amb atenció personalitzada en visió i audició des de 2018."
       },
       de: {
-        title: "Über Looptica | Optik und Audiologie in Poblenou, Barcelona",
-        description: "Lernen Sie das Looptica-Team in Poblenou, Barcelona kennen: Optometristen und Audiologen mit persönlicher Seh- und Hörberatung seit 2018."
+        title: "Über looptica | Optik und Audiologie in Poblenou, Barcelona",
+        description: "Lernen Sie das looptica-Team in Poblenou, Barcelona kennen: Optometristen und Audiologen mit persönlicher Seh- und Hörberatung seit 2018."
       }
     },
     page: {
@@ -50,22 +50,22 @@ const About = () => {
         image: "/images/_DSC4776.jpg",
         bio: {
           en: [
-            "As the owner of Looptica, Elena brings over 15 years of experience in optometry. With her extensive knowledge and dedication to customer care, she has built Looptica into a trusted name for optical and audiological services in Barcelona.",
+            "As the owner of looptica, Elena brings over 15 years of experience in optometry. With her extensive knowledge and dedication to customer care, she has built looptica into a trusted name for optical and audiological services in Barcelona.",
             "Elena specializes in providing personalized eye care solutions for each client.",
             "Licensed Optician Optometrist — Col. 18568."
           ],
           es: [
-            "Como propietaria de Looptica, Elena aporta más de 15 años de experiencia en optometría. Con su amplio conocimiento y dedicación, ha convertido a Looptica en un centro optométrico y audiológico de referencia en el barrio del Poblenou en Barcelona.",
+            "Como propietaria de looptica, Elena aporta más de 15 años de experiencia en optometría. Con su amplio conocimiento y dedicación, ha convertido a looptica en un centro optométrico y audiológico de referencia en el barrio del Poblenou en Barcelona.",
             "Le apasiona brindar soluciones personalizadas de cuidado ocular para cada cliente.",
             "Óptica Optometrista Colegiada — Col. 18568."
           ],
           ca: [
-            "Com a propietària de Looptica, Elena aporta més de 15 anys d'experiència en optometria. Amb el seu ampli coneixement i dedicació, ha convertit Looptica en un centre optomètric i audiològic de referència al barri del Poblenou a Barcelona.",
+            "Com a propietària de looptica, Elena aporta més de 15 anys d'experiència en optometria. Amb el seu ampli coneixement i dedicació, ha convertit looptica en un centre optomètric i audiològic de referència al barri del Poblenou a Barcelona.",
             "Li apassiona oferir solucions personalitzades de cura ocular per a cada client.",
             "Òptica Optometrista Col·legiada — Col. 18568."
           ],
           de: [
-            "Als Inhaberin von Looptica bringt Elena über 15 Jahre Erfahrung in der Optometrie mit. Mit ihrem umfassenden Wissen und ihrer Hingabe an die Kundenbetreuung hat sie Looptica zu einem vertrauenswürdigen Namen für optische und audiologische Dienstleistungen in Barcelona gemacht.",
+            "Als Inhaberin von looptica bringt Elena über 15 Jahre Erfahrung in der Optometrie mit. Mit ihrem umfassenden Wissen und ihrer Hingabe an die Kundenbetreuung hat sie looptica zu einem vertrauenswürdigen Namen für optische und audiologische Dienstleistungen in Barcelona gemacht.",
             "Elena ist spezialisiert auf die Bereitstellung personalisierter Augenpflegelösungen für jeden Kunden.",
             "Optikerin Optometristin, Mitglied der Berufskammer — Col. 18568."
           ]
@@ -135,19 +135,19 @@ const About = () => {
       },
       content: {
         en: [
-          "At Looptica, we believe that quality eye and ear care should be accessible, personalized, and delivered with the highest level of professionalism. Our team is committed to continuous learning and staying updated with the latest advancements in optical and audiological care.",
+          "At looptica, we believe that quality eye and ear care should be accessible, personalized, and delivered with the highest level of professionalism. Our team is committed to continuous learning and staying updated with the latest advancements in optical and audiological care.",
           "We take pride in our patient-centered approach, focusing on building long-term relationships with our clients based on trust, expertise, and exceptional service."
         ],
         es: [
-          "En Looptica, creemos que el cuidado ocular y auditivo de calidad debe ser accesible, personalizado y entregado con el más alto nivel de profesionalismo. Nuestro equipo está comprometido con el aprendizaje continuo y mantenerse actualizado con los últimos avances en cuidado óptico y audiológico.",
+          "En looptica, creemos que el cuidado ocular y auditivo de calidad debe ser accesible, personalizado y entregado con el más alto nivel de profesionalismo. Nuestro equipo está comprometido con el aprendizaje continuo y mantenerse actualizado con los últimos avances en cuidado óptico y audiológico.",
           "Nos enorgullecemos de nuestro enfoque centrado en el paciente, enfocándonos en construir relaciones a largo plazo con nuestros clientes basadas en la confianza, la experiencia y el servicio excepcional."
         ],
         ca: [
-          "A Looptica, creiem que la cura ocular i auditiva de qualitat ha de ser accessible, personalitzada i lliurada amb el més alt nivell de professionalisme. El nostre equip està compromès amb l'aprenentatge continu i mantenir-se actualitzat amb els últims avenços en cura òptica i audiològica.",
+          "A looptica, creiem que la cura ocular i auditiva de qualitat ha de ser accessible, personalitzada i lliurada amb el més alt nivell de professionalisme. El nostre equip està compromès amb l'aprenentatge continu i mantenir-se actualitzat amb els últims avenços en cura òptica i audiològica.",
           "Ens enorgullim del nostre enfocament centrat en el pacient, enfocant-nos a construir relacions a llarg termini amb els nostres clients basades en la confiança, l'experiència i el servei excepcional."
         ],
         de: [
-          "Bei Looptica glauben wir, dass qualitativ hochwertige Augen- und Ohrenpflege zugänglich, personalisiert und mit höchstem Professionalitätsniveau geliefert werden sollte. Unser Team ist dem kontinuierlichen Lernen und der Aktualisierung mit den neuesten Fortschritten in der optischen und audiologischen Versorgung verpflichtet.",
+          "Bei looptica glauben wir, dass qualitativ hochwertige Augen- und Ohrenpflege zugänglich, personalisiert und mit höchstem Professionalitätsniveau geliefert werden sollte. Unser Team ist dem kontinuierlichen Lernen und der Aktualisierung mit den neuesten Fortschritten in der optischen und audiologischen Versorgung verpflichtet.",
           "Wir sind stolz auf unseren patientenzentrierten Ansatz und konzentrieren uns darauf, langfristige Beziehungen zu unseren Kunden aufzubauen, die auf Vertrauen, Fachwissen und außergewöhnlichem Service basieren."
         ]
       }
@@ -230,7 +230,7 @@ const About = () => {
       </main>
       <FloatingWhatsApp 
         phoneNumber="34699594064"
-        accountName="Looptica"
+        accountName="looptica"
         statusMessage={whatsappTranslations.statusMessage[language as keyof typeof whatsappTranslations.statusMessage]}
         chatMessage={whatsappTranslations.chatMessage[language as keyof typeof whatsappTranslations.chatMessage]}
         placeholder={whatsappTranslations.placeholder[language as keyof typeof whatsappTranslations.placeholder]}

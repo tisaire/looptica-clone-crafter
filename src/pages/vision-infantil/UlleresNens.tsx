@@ -31,11 +31,11 @@ const hero = {
 const intro = {
   ca: [
     "Unes ulleres infantils no són unes ulleres d'adult més petites. Han d'aguantar caigudes i patis, no han de relliscar quan el nen corre i, sobretot, s'han de portar: si molesten, acaben a la motxilla i la correcció no serveix de res.",
-    "Per això, a Looptica dediquem temps a l'ajust: mesurem bé el centrat, adaptem el pont i les varetes al cap del nen i revisem l'ajust cada vegada que veniu, perquè el cap creix.",
+    "Per això, a looptica dediquem temps a l'ajust: mesurem bé el centrat, adaptem el pont i les varetes al cap del nen i revisem l'ajust cada vegada que veniu, perquè el cap creix.",
   ],
   es: [
     "Unas gafas infantiles no son unas gafas de adulto más pequeñas. Tienen que aguantar caídas y patios, no deben resbalar cuando el niño corre y, sobre todo, se tienen que llevar puestas: si molestan, acaban en la mochila y la corrección no sirve de nada.",
-    "Por eso, en Looptica dedicamos tiempo al ajuste: medimos bien el centrado, adaptamos el puente y las varillas a la cabeza del niño y revisamos el ajuste cada vez que venís, porque la cabeza crece.",
+    "Por eso, en looptica dedicamos tiempo al ajuste: medimos bien el centrado, adaptamos el puente y las varillas a la cabeza del niño y revisamos el ajuste cada vez que venís, porque la cabeza crece.",
   ],
   en: [
     "Children's glasses are not smaller adult glasses. They have to survive drops and playgrounds, they mustn't slip when the child runs and, above all, they have to be worn: if they are uncomfortable, they end up in the backpack and the correction is useless.",
@@ -124,22 +124,22 @@ const lensesTitle = {
 
 const lenses = {
   ca: [
-    "A Looptica adaptem lentilles de contacte a nens des dels 0 anys, sempre per prescripció i indicació de l'oftalmòleg. Això inclou lents pediàtriques per a casos com la catarata congènita, en què després de la cirurgia cal compensar òpticament l'ull operat perquè el sistema visual es pugui desenvolupar amb normalitat.",
+    "A looptica adaptem lentilles de contacte a nens des dels 0 anys, sempre per prescripció i indicació de l'oftalmòleg. Això inclou lents pediàtriques per a casos com la catarata congènita, en què després de la cirurgia cal compensar òpticament l'ull operat perquè el sistema visual es pugui desenvolupar amb normalitat.",
     "Són adaptacions delicades, que fem en coordinació amb l'oftalmòleg i amb un seguiment estret: els paràmetres de l'ull d'un nadó canvien ràpid i cal revisar-los sovint. També ensenyem als pares a manipular i mantenir les lents amb seguretat.",
     "En nens més grans, les lentilles solen aparèixer per l'esport, per una diferència de graduació important entre els dos ulls o com a part d'un programa de control de la miopia. No hi ha una edat màgica: el que compta és la responsabilitat i la higiene, i això ho valorem cas per cas.",
   ],
   es: [
-    "En Looptica adaptamos lentes de contacto a niños desde los 0 años, siempre por prescripción e indicación del oftalmólogo. Esto incluye lentes pediátricas para casos como la catarata congénita, en los que tras la cirugía hay que compensar ópticamente el ojo operado para que el sistema visual pueda desarrollarse con normalidad.",
+    "En looptica adaptamos lentes de contacto a niños desde los 0 años, siempre por prescripción e indicación del oftalmólogo. Esto incluye lentes pediátricas para casos como la catarata congénita, en los que tras la cirugía hay que compensar ópticamente el ojo operado para que el sistema visual pueda desarrollarse con normalidad.",
     "Son adaptaciones delicadas, que hacemos en coordinación con el oftalmólogo y con un seguimiento estrecho: los parámetros del ojo de un bebé cambian rápido y hay que revisarlos a menudo. También enseñamos a los padres a manipular y mantener las lentes con seguridad.",
     "En niños más mayores, las lentillas suelen aparecer por el deporte, por una diferencia de graduación importante entre ambos ojos o como parte de un programa de control de la miopía. No hay una edad mágica: lo que cuenta es la responsabilidad y la higiene, y eso lo valoramos caso por caso.",
   ],
   en: [
-    "At Looptica we fit contact lenses for children from age 0, always on the ophthalmologist's prescription and indication. That includes paediatric lenses for cases such as congenital cataract, where after surgery the operated eye must be optically compensated so the visual system can develop normally.",
+    "At looptica we fit contact lenses for children from age 0, always on the ophthalmologist's prescription and indication. That includes paediatric lenses for cases such as congenital cataract, where after surgery the operated eye must be optically compensated so the visual system can develop normally.",
     "These are delicate fittings, done in coordination with the ophthalmologist and with close follow-up: a baby's eye parameters change quickly and need frequent review. We also teach parents to handle and care for the lenses safely.",
     "In older children, contact lenses usually come up for sport, for a significant difference in prescription between the eyes, or as part of a myopia control programme. There is no magic age: what counts is responsibility and hygiene, assessed case by case.",
   ],
   de: [
-    "Bei Looptica passen wir Kontaktlinsen für Kinder ab 0 Jahren an — immer auf Verordnung und Anweisung des Augenarztes. Dazu gehören pädiatrische Linsen bei angeborenem Katarakt, wo das operierte Auge nach dem Eingriff optisch ausgeglichen werden muss, damit sich das Sehsystem normal entwickeln kann.",
+    "Bei looptica passen wir Kontaktlinsen für Kinder ab 0 Jahren an — immer auf Verordnung und Anweisung des Augenarztes. Dazu gehören pädiatrische Linsen bei angeborenem Katarakt, wo das operierte Auge nach dem Eingriff optisch ausgeglichen werden muss, damit sich das Sehsystem normal entwickeln kann.",
 
     "Das sind anspruchsvolle Anpassungen, die wir in Abstimmung mit dem Augenarzt und mit enger Nachkontrolle durchführen: Die Augenwerte eines Säuglings ändern sich schnell. Wir zeigen den Eltern außerdem den sicheren Umgang und die Pflege.",
     "Bei älteren Kindern kommen Kontaktlinsen meist wegen Sport, großer Werteunterschiede zwischen den Augen oder im Rahmen der Myopiekontrolle ins Spiel. Ein magisches Alter gibt es nicht: Entscheidend sind Verantwortung und Hygiene.",
@@ -219,7 +219,7 @@ const UlleresNens = () => {
         image={heroImage}
         pageTitle={pageTitle}
         pageDescription={pageDescription}
-        appointmentSubject="Ulleres i lentilles infantils a Looptica"
+        appointmentSubject="Ulleres i lentilles infantils a looptica"
         breadcrumbParents={[{ label: parentCrumb[lang], path: '/visio-infantil' }]}
       >
         <ScrollReveal>

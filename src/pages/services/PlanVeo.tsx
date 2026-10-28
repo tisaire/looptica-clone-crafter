@@ -16,20 +16,20 @@ const PlanVeo = () => {
   const content = {
     meta: {
       en: {
-        title: "Plan VEO - Subsidies for Kids' Glasses | Looptica",
-        description: 'Get up to €100/year for glasses or contact lenses for children up to 16 years. Plan VEO government subsidy available at Looptica Barcelona.',
+        title: "Plan VEO - Subsidies for Kids' Glasses | looptica",
+        description: 'Get up to €100/year for glasses or contact lenses for children up to 16 years. Plan VEO government subsidy available at looptica Barcelona.',
       },
       es: {
-        title: "Plan VEO - Ayudas para Gafas Infantiles | Looptica",
-        description: 'Obtén hasta 100€/año para gafas o lentillas para menores de 16 años. Subvención del Plan VEO disponible en Looptica Barcelona.',
+        title: "Plan VEO - Ayudas para Gafas Infantiles | looptica",
+        description: 'Obtén hasta 100€/año para gafas o lentillas para menores de 16 años. Subvención del Plan VEO disponible en looptica Barcelona.',
       },
       ca: {
-        title: "Plan VEO - Ajudes per a Ulleres Infantils | Looptica",
-        description: 'Obtén fins a 100€/any per a ulleres o lents de contacte per a menors de 16 anys. Subvenció del Plan VEO disponible a Looptica Barcelona.',
+        title: "Plan VEO - Ajudes per a Ulleres Infantils | looptica",
+        description: 'Obtén fins a 100€/any per a ulleres o lents de contacte per a menors de 16 anys. Subvenció del Plan VEO disponible a looptica Barcelona.',
       },
       de: {
-        title: "Plan VEO - Zuschüsse für Kinderbrillen | Looptica",
-        description: 'Erhalten Sie bis zu 100€/Jahr für Brillen oder Kontaktlinsen für Kinder bis 16 Jahre. Plan VEO Beihilfe bei Looptica Barcelona.',
+        title: "Plan VEO - Zuschüsse für Kinderbrillen | looptica",
+        description: 'Erhalten Sie bis zu 100€/Jahr für Brillen oder Kontaktlinsen für Kinder bis 16 Jahre. Plan VEO Beihilfe bei looptica Barcelona.',
       },
     },
     hero: {
@@ -51,10 +51,10 @@ const PlanVeo = () => {
       },
     },
     intro: {
-      en: 'Plan VEO is a Spanish government initiative providing financial assistance of up to €100 per year for glasses or contact lenses for children and teenagers up to 16 years of age with vision problems. At Looptica, we are an authorized participating optician where you can directly apply for this subsidy.',
-      es: 'El Plan VEO es una iniciativa del gobierno español que ofrece una ayuda económica de hasta 100€ al año para gafas o lentillas para niños y adolescentes de hasta 16 años con problemas de visión. En Looptica, somos una óptica participante autorizada donde puedes solicitar directamente esta subvención.',
-      ca: 'El Plan VEO és una iniciativa del govern espanyol que ofereix una ajuda econòmica de fins a 100€ l\'any per a ulleres o lents de contacte per a nens i adolescents de fins a 16 anys amb problemes de visió. A Looptica, som una òptica participant autoritzada on pots sol·licitar directament aquesta subvenció.',
-      de: 'Plan VEO ist eine spanische Regierungsinitiative, die finanzielle Unterstützung von bis zu 100€ pro Jahr für Brillen oder Kontaktlinsen für Kinder und Jugendliche bis 16 Jahre mit Sehproblemen bietet. Bei Looptica sind wir ein autorisierter teilnehmender Optiker, bei dem Sie diese Beihilfe direkt beantragen können.',
+      en: 'Plan VEO is a Spanish government initiative providing financial assistance of up to €100 per year for glasses or contact lenses for children and teenagers up to 16 years of age with vision problems. At looptica, we are an authorized participating optician where you can directly apply for this subsidy.',
+      es: 'El Plan VEO es una iniciativa del gobierno español que ofrece una ayuda económica de hasta 100€ al año para gafas o lentillas para niños y adolescentes de hasta 16 años con problemas de visión. En looptica, somos una óptica participante autorizada donde puedes solicitar directamente esta subvención.',
+      ca: 'El Plan VEO és una iniciativa del govern espanyol que ofereix una ajuda econòmica de fins a 100€ l\'any per a ulleres o lents de contacte per a nens i adolescents de fins a 16 anys amb problemes de visió. A looptica, som una òptica participant autoritzada on pots sol·licitar directament aquesta subvenció.',
+      de: 'Plan VEO ist eine spanische Regierungsinitiative, die finanzielle Unterstützung von bis zu 100€ pro Jahr für Brillen oder Kontaktlinsen für Kinder und Jugendliche bis 16 Jahre mit Sehproblemen bietet. Bei looptica sind wir ein autorisierter teilnehmender Optiker, bei dem Sie diese Beihilfe direkt beantragen können.',
     },
     whatIs: {
       en: {
@@ -89,7 +89,7 @@ const PlanVeo = () => {
         {
           icon: ClipboardCheck,
           title: 'How to Apply',
-          description: 'Visit Looptica with the required documents. We will process the subsidy directly at our store. No need to apply online or visit government offices.',
+          description: 'Visit looptica with the required documents. We will process the subsidy directly at our store. No need to apply online or visit government offices.',
         },
       ],
       es: [
@@ -106,7 +106,7 @@ const PlanVeo = () => {
         {
           icon: ClipboardCheck,
           title: 'Cómo Solicitarlo',
-          description: 'Visita Looptica con los documentos necesarios. Tramitamos la subvención directamente en nuestra tienda. No es necesario solicitar online ni visitar oficinas gubernamentales.',
+          description: 'Visita looptica con los documentos necesarios. Tramitamos la subvención directamente en nuestra tienda. No es necesario solicitar online ni visitar oficinas gubernamentales.',
         },
       ],
       ca: [
@@ -123,7 +123,7 @@ const PlanVeo = () => {
         {
           icon: ClipboardCheck,
           title: 'Com Sol·licitar-ho',
-          description: 'Visita Looptica amb els documents necessaris. Tramitem la subvenció directament a la nostra botiga. No cal sol·licitar online ni visitar oficines governamentals.',
+          description: 'Visita looptica amb els documents necessaris. Tramitem la subvenció directament a la nostra botiga. No cal sol·licitar online ni visitar oficines governamentals.',
         },
       ],
       de: [
@@ -140,7 +140,7 @@ const PlanVeo = () => {
         {
           icon: ClipboardCheck,
           title: 'Wie Beantragen',
-          description: 'Besuchen Sie Looptica mit den erforderlichen Dokumenten. Wir bearbeiten die Beihilfe direkt in unserem Geschäft. Kein Online-Antrag oder Behördenbesuch erforderlich.',
+          description: 'Besuchen Sie looptica mit den erforderlichen Dokumenten. Wir bearbeiten die Beihilfe direkt in unserem Geschäft. Kein Online-Antrag oder Behördenbesuch erforderlich.',
         },
       ],
     },
@@ -342,25 +342,25 @@ const PlanVeo = () => {
     },
     cta: {
       en: {
-        title: 'Apply for Plan VEO at Looptica',
+        title: 'Apply for Plan VEO at looptica',
         description: 'Visit our store in Barcelona Poblenou to apply for the Plan VEO subsidy. Our team will guide you through the process and help you choose the perfect eyewear for your child.',
         button: 'Schedule Appointment',
         contact: 'Contact Us for More Information',
       },
       es: {
-        title: 'Solicita el Plan VEO en Looptica',
+        title: 'Solicita el Plan VEO en looptica',
         description: 'Visita nuestra tienda en Barcelona Poblenou para solicitar la subvención del Plan VEO. Nuestro equipo te guiará en el proceso y te ayudará a elegir las gafas perfectas para tu hijo.',
         button: 'Programar Cita',
         contact: 'Contáctanos para Más Información',
       },
       ca: {
-        title: 'Sol·licita el Plan VEO a Looptica',
+        title: 'Sol·licita el Plan VEO a looptica',
         description: 'Visita la nostra botiga a Barcelona Poblenou per sol·licitar la subvenció del Plan VEO. El nostre equip et guiarà en el procés i t\'ajudarà a escollir les ulleres perfectes pel teu fill.',
         button: 'Programar Cita',
         contact: 'Contacta\'ns per a Més Informació',
       },
       de: {
-        title: 'Beantragen Sie Plan VEO bei Looptica',
+        title: 'Beantragen Sie Plan VEO bei looptica',
         description: 'Besuchen Sie unser Geschäft in Barcelona Poblenou, um die Plan VEO Beihilfe zu beantragen. Unser Team führt Sie durch den Prozess und hilft Ihnen, die perfekte Brille für Ihr Kind auszuwählen.',
         button: 'Termin vereinbaren',
         contact: 'Kontaktieren Sie Uns für Weitere Informationen',

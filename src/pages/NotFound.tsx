@@ -44,7 +44,7 @@ const NotFound = () => {
     }
   };
 
-  const seoTitle = `${content.title[language]} | Looptica`;
+  const seoTitle = `${content.title[language]} | looptica`;
   const seoDescription = content.message[language];
 
   return (

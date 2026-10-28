@@ -13,42 +13,42 @@ const LensConsulting = () => {
   const content = {
     meta: {
       en: {
-        title: "Advanced Lens Consulting Services | Looptica Barcelona",
-        description: "Expert lens consulting and high-tech ophthalmic lens solutions at Looptica Barcelona. Find the perfect lenses for your prescription and lifestyle."
+        title: "Advanced Lens Consulting Services | looptica Barcelona",
+        description: "Expert lens consulting and high-tech ophthalmic lens solutions at looptica Barcelona. Find the perfect lenses for your prescription and lifestyle."
       },
       es: {
-        title: "Asesoramiento de Lentes | Looptica Barcelona",
-        description: "Asesoramiento experto en lentes y soluciones oftálmicas de alta tecnología en Looptica Barcelona. Encuentra las lentes perfectas para tu prescripción y estilo de vida."
+        title: "Asesoramiento de Lentes | looptica Barcelona",
+        description: "Asesoramiento experto en lentes y soluciones oftálmicas de alta tecnología en looptica Barcelona. Encuentra las lentes perfectas para tu prescripción y estilo de vida."
       },
       ca: {
-        title: "Assessorament de Lents | Looptica Barcelona",
-        description: "Assessorament expert en lents i solucions oftàlmiques d'alta tecnologia a Looptica Barcelona. Troba les lents perfectes per a la teva prescripció i estil de vida."
+        title: "Assessorament de Lents | looptica Barcelona",
+        description: "Assessorament expert en lents i solucions oftàlmiques d'alta tecnologia a looptica Barcelona. Troba les lents perfectes per a la teva prescripció i estil de vida."
       },
       de: {
-        title: "Erweiterte Linsenberatung | Looptica Barcelona",
-        description: "Expertenberatung für Linsen und hochmoderne ophthalmische Linsenlösungen bei Looptica Barcelona. Finden Sie die perfekten Linsen für Ihre Verschreibung und Ihren Lebensstil."
+        title: "Erweiterte Linsenberatung | looptica Barcelona",
+        description: "Expertenberatung für Linsen und hochmoderne ophthalmische Linsenlösungen bei looptica Barcelona. Finden Sie die perfekten Linsen für Ihre Verschreibung und Ihren Lebensstil."
       }
     },
     hero: {
       en: {
         title: "Lens Consulting",
         subtitle: "Advanced solutions for your visual needs",
-        appointmentSubject: "Lens Consulting Appointment at Looptica"
+        appointmentSubject: "Lens Consulting Appointment at looptica"
       },
       es: {
         title: "Asesoramiento de Lentes",
         subtitle: "Soluciones avanzadas para tus necesidades visuales",
-        appointmentSubject: "Consulta de Asesoramiento de Lentes en Looptica"
+        appointmentSubject: "Consulta de Asesoramiento de Lentes en looptica"
       },
       ca: {
         title: "Assessorament de Lents",
         subtitle: "Solucions avançades per a les teves necessitats visuals",
-        appointmentSubject: "Consulta d'Assessorament de Lents a Looptica"
+        appointmentSubject: "Consulta d'Assessorament de Lents a looptica"
       },
       de: {
         title: "Linsenberatung",
         subtitle: "Erweiterte Lösungen für Ihre visuellen Bedürfnisse",
-        appointmentSubject: "Linsenberatungstermin bei Looptica"
+        appointmentSubject: "Linsenberatungstermin bei looptica"
       }
     },
     intro: {
@@ -60,19 +60,19 @@ const LensConsulting = () => {
       },
       paragraphs: {
         en: [
-          "At Looptica, we specialize in high-tech ophthalmic lenses designed to deliver the best visual clarity, comfort, and protection. Modern lenses are much more than simple pieces of glass or plastic; they are precision products that integrate advanced technologies to meet the specific visual needs of each individual.",
+          "At looptica, we specialize in high-tech ophthalmic lenses designed to deliver the best visual clarity, comfort, and protection. Modern lenses are much more than simple pieces of glass or plastic; they are precision products that integrate advanced technologies to meet the specific visual needs of each individual.",
           "Our lens consulting service is designed to guide you through the numerous options available, ensuring you get the most suitable lenses for your prescription, lifestyle, and personal preferences. Using cutting-edge technology and our expert knowledge, we customize lens solutions to deliver an optimal visual experience."
         ],
         es: [
-          "En Looptica, somos especialistas en lentes oftálmicas de alta tecnología diseñadas para ofrecer la mejor claridad visual, comodidad y protección. Las lentes modernas son mucho más que simples piezas de vidrio o plástico; son productos de precisión que integran tecnologías avanzadas para satisfacer las necesidades visuales específicas de cada individuo.",
+          "En looptica, somos especialistas en lentes oftálmicas de alta tecnología diseñadas para ofrecer la mejor claridad visual, comodidad y protección. Las lentes modernas son mucho más que simples piezas de vidrio o plástico; son productos de precisión que integran tecnologías avanzadas para satisfacer las necesidades visuales específicas de cada individuo.",
           "Nuestro servicio de asesoramiento de lentes está diseñado para guiarte a través de las numerosas opciones disponibles, asegurando que obtengas las lentes más adecuadas para tu prescripción, estilo de vida y preferencias personales. Utilizando tecnología de vanguardia y nuestro conocimiento experto, personalizamos las soluciones de lentes para ofrecer una experiencia visual óptima."
         ],
         ca: [
-          "A Looptica, som especialistes en lents oftàlmiques d'alta tecnologia dissenyades per oferir la millor claredat visual, comoditat i protecció. Les lents modernes són molt més que simples peces de vidre o plàstic; són productes de precisió que integren tecnologies avançades per satisfer les necessitats visuals específiques de cada individu.",
+          "A looptica, som especialistes en lents oftàlmiques d'alta tecnologia dissenyades per oferir la millor claredat visual, comoditat i protecció. Les lents modernes són molt més que simples peces de vidre o plàstic; són productes de precisió que integren tecnologies avançades per satisfer les necessitats visuals específiques de cada individu.",
           "El nostre servei d'assessorament de lents està dissenyat per guiar-te a través de les nombroses opcions disponibles, assegurant que obtinguis les lents més adequades per a la teva prescripció, estil de vida i preferències personals. Utilitzant tecnologia d'avantguarda i el nostre coneixement expert, personalitzem les solucions de lents per oferir una experiència visual òptima."
         ],
         de: [
-          "Bei Looptica sind wir Spezialisten für hochmoderne ophthalmische Linsen, die beste Sehschärfe, Komfort und Schutz bieten. Moderne Linsen sind viel mehr als einfache Glas- oder Kunststoffstücke; sie sind Präzisionsprodukte, die fortschrittliche Technologien integrieren, um die spezifischen visuellen Bedürfnisse jedes Einzelnen zu erfüllen.",
+          "Bei looptica sind wir Spezialisten für hochmoderne ophthalmische Linsen, die beste Sehschärfe, Komfort und Schutz bieten. Moderne Linsen sind viel mehr als einfache Glas- oder Kunststoffstücke; sie sind Präzisionsprodukte, die fortschrittliche Technologien integrieren, um die spezifischen visuellen Bedürfnisse jedes Einzelnen zu erfüllen.",
           "Unser Linsenberatungsservice ist darauf ausgelegt, Sie durch die zahlreichen verfügbaren Optionen zu führen und sicherzustellen, dass Sie die am besten geeigneten Linsen für Ihre Verschreibung, Ihren Lebensstil und Ihre persönlichen Vorlieben erhalten. Mit modernster Technologie und unserem Expertenwissen passen wir Linsenlösungen an, um ein optimales Seherlebnis zu liefern."
         ]
       }

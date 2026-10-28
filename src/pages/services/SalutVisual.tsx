@@ -14,42 +14,42 @@ const SalutVisual = () => {
   const content = {
     meta: {
       en: {
-        title: "Visual Health Services | Looptica Barcelona",
-        description: "Comprehensive visual health exams and eye care at Looptica Barcelona. Expert optometrists, advanced technology, and personalized vision solutions."
+        title: "Visual Health Services | looptica Barcelona",
+        description: "Comprehensive visual health exams and eye care at looptica Barcelona. Expert optometrists, advanced technology, and personalized vision solutions."
       },
       es: {
         title: "Revisión visual en Poblenou | Salud ocular y optometría",
-        description: "Revisión visual completa en Poblenou, Barcelona: optometría, salud ocular y detección precoz con tecnología avanzada. Pide cita en Looptica."
+        description: "Revisión visual completa en Poblenou, Barcelona: optometría, salud ocular y detección precoz con tecnología avanzada. Pide cita en looptica."
       },
       ca: {
-        title: "Serveis de Salut Visual | Looptica Barcelona",
-        description: "Exàmens complets de salut visual i cura ocular a Looptica Barcelona. Optometristes experts, tecnologia avançada i solucions de visió personalitzades."
+        title: "Serveis de Salut Visual | looptica Barcelona",
+        description: "Exàmens complets de salut visual i cura ocular a looptica Barcelona. Optometristes experts, tecnologia avançada i solucions de visió personalitzades."
       },
       de: {
-        title: "Sehgesundheitsdienste | Looptica Barcelona",
-        description: "Umfassende Sehgesundheitsuntersuchungen und Augenpflege bei Looptica Barcelona. Experten-Optometristen, fortschrittliche Technologie und personalisierte Sehlösungen."
+        title: "Sehgesundheitsdienste | looptica Barcelona",
+        description: "Umfassende Sehgesundheitsuntersuchungen und Augenpflege bei looptica Barcelona. Experten-Optometristen, fortschrittliche Technologie und personalisierte Sehlösungen."
       }
     },
     hero: {
       en: {
         title: "Visual Health",
         subtitle: "We take care of your eyes with the best technology and professionals",
-        appointmentSubject: "Visual Health Exam at Looptica"
+        appointmentSubject: "Visual Health Exam at looptica"
       },
       es: {
         title: "Salud Visual",
         subtitle: "Cuidamos de tus ojos con la mejor tecnología y profesionales",
-        appointmentSubject: "Examen de Salud Visual en Looptica"
+        appointmentSubject: "Examen de Salud Visual en looptica"
       },
       ca: {
         title: "Salut Visual",
         subtitle: "Cuidem dels teus ulls amb la millor tecnologia i professionals",
-        appointmentSubject: "Examen de Salut Visual a Looptica"
+        appointmentSubject: "Examen de Salut Visual a looptica"
       },
       de: {
         title: "Sehgesundheit",
         subtitle: "Wir kümmern uns um Ihre Augen mit der besten Technologie und Fachkräften",
-        appointmentSubject: "Sehgesundheitsuntersuchung bei Looptica"
+        appointmentSubject: "Sehgesundheitsuntersuchung bei looptica"
       }
     },
     whatIs: {
@@ -62,19 +62,19 @@ const SalutVisual = () => {
       paragraphs: {
         en: [
           "A visual health exam is a comprehensive assessment of the state of your eyes and vision performed by eye health professionals. It goes beyond a simple vision test; it's a complete review that examines general eye health, visual function, and detects possible eye problems or systemic diseases that can affect the eyes.",
-          "At Looptica, we believe that preventive care is essential to maintaining good vision throughout life. Our comprehensive vision exams use cutting-edge technology to provide a detailed assessment of all aspects of your eye health."
+          "At looptica, we believe that preventive care is essential to maintaining good vision throughout life. Our comprehensive vision exams use cutting-edge technology to provide a detailed assessment of all aspects of your eye health."
         ],
         es: [
           "Un examen de salud visual es una evaluación integral del estado de sus ojos y de su visión realizada por profesionales de la salud ocular. Va más allá de una simple prueba de visión; es una revisión completa que examina la salud ocular general, la función visual y detecta posibles problemas oculares o enfermedades sistémicas que pueden afectar los ojos.",
-          "En Looptica, creemos que la atención preventiva es fundamental para mantener una buena visión durante toda la vida. Nuestros exámenes visuales completos utilizan tecnología de vanguardia para proporcionar una evaluación detallada de todos los aspectos de su salud ocular."
+          "En looptica, creemos que la atención preventiva es fundamental para mantener una buena visión durante toda la vida. Nuestros exámenes visuales completos utilizan tecnología de vanguardia para proporcionar una evaluación detallada de todos los aspectos de su salud ocular."
         ],
         ca: [
           "Un examen de salut visual és una avaluació integral de l'estat dels seus ulls i de la seva visió realitzada per professionals de la salut ocular. Va més enllà d'una simple prova de visió; és una revisió completa que examina la salut ocular general, la funció visual i detecta possibles problemes oculars o malalties sistèmiques que poden afectar els ulls.",
-          "A Looptica, creiem que l'atenció preventiva és fonamental per mantenir una bona visió durant tota la vida. Els nostres exàmens visuals complets utilitzen tecnologia d'avantguarda per proporcionar una avaluació detallada de tots els aspectes de la seva salut ocular."
+          "A looptica, creiem que l'atenció preventiva és fonamental per mantenir una bona visió durant tota la vida. Els nostres exàmens visuals complets utilitzen tecnologia d'avantguarda per proporcionar una avaluació detallada de tots els aspectes de la seva salut ocular."
         ],
         de: [
           "Eine Sehgesundheitsuntersuchung ist eine umfassende Bewertung des Zustands Ihrer Augen und Ihres Sehvermögens, die von Augengesundheitsfachkräften durchgeführt wird. Sie geht über einen einfachen Sehtest hinaus; es ist eine vollständige Überprüfung, die die allgemeine Augengesundheit, die Sehfunktion untersucht und mögliche Augenprobleme oder systemische Krankheiten erkennt, die die Augen beeinträchtigen können.",
-          "Bei Looptica glauben wir, dass Vorsorge wesentlich ist, um ein Leben lang gutes Sehen zu erhalten. Unsere umfassenden Sehuntersuchungen verwenden modernste Technologie, um eine detaillierte Bewertung aller Aspekte Ihrer Augengesundheit zu bieten."
+          "Bei looptica glauben wir, dass Vorsorge wesentlich ist, um ein Leben lang gutes Sehen zu erhalten. Unsere umfassenden Sehuntersuchungen verwenden modernste Technologie, um eine detaillierte Bewertung aller Aspekte Ihrer Augengesundheit zu bieten."
         ]
       }
     },
@@ -206,10 +206,10 @@ const SalutVisual = () => {
     },
     technology: {
       title: {
-        en: "Advanced Technology at Looptica",
-        es: "Tecnología avanzada en Looptica",
-        ca: "Tecnologia avançada a Looptica",
-        de: "Fortschrittliche Technologie bei Looptica"
+        en: "Advanced Technology at looptica",
+        es: "Tecnología avanzada en looptica",
+        ca: "Tecnologia avançada a looptica",
+        de: "Fortschrittliche Technologie bei looptica"
       },
       items: [
         {

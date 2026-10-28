@@ -12,20 +12,20 @@ const Eyeglasses = () => {
   const content = {
     meta: {
       en: {
-        title: 'Prescription glasses in Poblenou, Barcelona | Looptica',
-        description: 'Prescription glasses in Poblenou, Barcelona: designer frames, progressive and anti-fatigue lenses. Eye exam included and expert advice at Looptica.',
+        title: 'Prescription glasses in Poblenou, Barcelona | looptica',
+        description: 'Prescription glasses in Poblenou, Barcelona: designer frames, progressive and anti-fatigue lenses. Eye exam included and expert advice at looptica.',
       },
       es: {
-        title: 'Gafas graduadas en Poblenou, Barcelona | Looptica',
-        description: 'Gafas graduadas en Poblenou, Barcelona: monturas de diseño, lentes progresivas y antifatiga. Examen visual incluido y asesoramiento experto en Looptica.',
+        title: 'Gafas graduadas en Poblenou, Barcelona | looptica',
+        description: 'Gafas graduadas en Poblenou, Barcelona: monturas de diseño, lentes progresivas y antifatiga. Examen visual incluido y asesoramiento experto en looptica.',
       },
       ca: {
-        title: 'Ulleres graduades a Poblenou, Barcelona | Looptica',
-        description: 'Ulleres graduades a Poblenou, Barcelona: muntures de disseny, lents progressives i antifatiga. Examen visual inclòs i assessorament expert a Looptica.',
+        title: 'Ulleres graduades a Poblenou, Barcelona | looptica',
+        description: 'Ulleres graduades a Poblenou, Barcelona: muntures de disseny, lents progressives i antifatiga. Examen visual inclòs i assessorament expert a looptica.',
       },
       de: {
-        title: 'Brillen in Poblenou, Barcelona | Looptica',
-        description: 'Brillen mit Sehstärke in Poblenou, Barcelona: Designerfassungen, Gleitsicht- und Entspannungsgläser. Sehtest inklusive und Expertenberatung bei Looptica.',
+        title: 'Brillen in Poblenou, Barcelona | looptica',
+        description: 'Brillen mit Sehstärke in Poblenou, Barcelona: Designerfassungen, Gleitsicht- und Entspannungsgläser. Sehtest inklusive und Expertenberatung bei looptica.',
       },
     },
     title: {
@@ -41,16 +41,16 @@ const Eyeglasses = () => {
       de: 'Finden Sie die perfekten Fassungen für Ihren Stil und Ihre Sehbedürfnisse',
     },
     appointmentSubject: {
-      en: 'Eyeglasses Consultation at Looptica',
-      es: 'Consulta de Gafas en Looptica',
-      ca: 'Consulta d\'Ulleres a Looptica',
-      de: 'Brillenberatung bei Looptica',
+      en: 'Eyeglasses Consultation at looptica',
+      es: 'Consulta de Gafas en looptica',
+      ca: 'Consulta d\'Ulleres a looptica',
+      de: 'Brillenberatung bei looptica',
     },
     intro1: {
-      en: 'At Looptica, we believe that eyeglasses are more than just a visual aid—they\'re an extension of your personality and style. Our carefully curated collection features frames from the world\'s most prestigious designers and brands, ensuring that you\'ll find the perfect pair that complements your face shape, lifestyle, and personal aesthetic.',
-      es: 'En Looptica, creemos que las gafas son mucho más que una ayuda visual; son una extensión de tu personalidad y estilo. Nuestra colección cuidadosamente seleccionada presenta monturas de los diseñadores y marcas más prestigiosos del mundo, asegurando que encontrarás el par perfecto que complementa la forma de tu rostro, estilo de vida y estética personal.',
-      ca: 'A Looptica, creiem que les ulleres són molt més que una ajuda visual; són una extensió de la teva personalitat i estil. La nostra col·lecció acuradament seleccionada presenta muntures dels dissenyadors i marques més prestigiosos del món, assegurant que trobaràs el parell perfecte que complementa la forma del teu rostre, estil de vida i estètica personal.',
-      de: 'Bei Looptica glauben wir, dass Brillen mehr als nur eine Sehhilfe sind – sie sind eine Erweiterung Ihrer Persönlichkeit und Ihres Stils. Unsere sorgfältig kuratierte Kollektion umfasst Fassungen von den prestigeträchtigsten Designern und Marken der Welt und stellt sicher, dass Sie das perfekte Paar finden, das Ihre Gesichtsform, Ihren Lebensstil und Ihre persönliche Ästhetik ergänzt.',
+      en: 'At looptica, we believe that eyeglasses are more than just a visual aid—they\'re an extension of your personality and style. Our carefully curated collection features frames from the world\'s most prestigious designers and brands, ensuring that you\'ll find the perfect pair that complements your face shape, lifestyle, and personal aesthetic.',
+      es: 'En looptica, creemos que las gafas son mucho más que una ayuda visual; son una extensión de tu personalidad y estilo. Nuestra colección cuidadosamente seleccionada presenta monturas de los diseñadores y marcas más prestigiosos del mundo, asegurando que encontrarás el par perfecto que complementa la forma de tu rostro, estilo de vida y estética personal.',
+      ca: 'A looptica, creiem que les ulleres són molt més que una ajuda visual; són una extensió de la teva personalitat i estil. La nostra col·lecció acuradament seleccionada presenta muntures dels dissenyadors i marques més prestigiosos del món, assegurant que trobaràs el parell perfecte que complementa la forma del teu rostre, estil de vida i estètica personal.',
+      de: 'Bei looptica glauben wir, dass Brillen mehr als nur eine Sehhilfe sind – sie sind eine Erweiterung Ihrer Persönlichkeit und Ihres Stils. Unsere sorgfältig kuratierte Kollektion umfasst Fassungen von den prestigeträchtigsten Designern und Marken der Welt und stellt sicher, dass Sie das perfekte Paar finden, das Ihre Gesichtsform, Ihren Lebensstil und Ihre persönliche Ästhetik ergänzt.',
     },
     intro2: {
       en: 'Each frame in our collection is selected for its exceptional quality, innovative design, and comfortable fit. Whether you\'re looking for something classic and understated or bold and fashion-forward, our extensive range has options to suit every preference.',
@@ -161,10 +161,10 @@ const Eyeglasses = () => {
       de: 'Unser personalisierter Anpassungsprozess',
     },
     fittingDesc: {
-      en: 'At Looptica, we understand that properly fitted eyeglasses are essential not only for optimal vision but also for comfort and appearance. Our comprehensive fitting process ensures that your new eyeglasses will work perfectly for your specific needs:',
-      es: 'En Looptica, entendemos que unas gafas correctamente ajustadas son esenciales no solo para una visión óptima, sino también para la comodidad y la apariencia. Nuestro proceso de adaptación integral asegura que sus nuevas gafas funcionarán perfectamente para sus necesidades específicas:',
-      ca: 'A Looptica, entenem que unes ulleres correctament ajustades són essencials no només per a una visió òptima, sinó també per a la comoditat i l\'aparença. El nostre procés d\'adaptació integral assegura que les seves noves ulleres funcionaran perfectament per a les seves necessitats específiques:',
-      de: 'Bei Looptica verstehen wir, dass richtig angepasste Brillen nicht nur für optimales Sehen, sondern auch für Komfort und Aussehen unerlässlich sind. Unser umfassender Anpassungsprozess stellt sicher, dass Ihre neue Brille perfekt für Ihre spezifischen Bedürfnisse funktioniert:',
+      en: 'At looptica, we understand that properly fitted eyeglasses are essential not only for optimal vision but also for comfort and appearance. Our comprehensive fitting process ensures that your new eyeglasses will work perfectly for your specific needs:',
+      es: 'En looptica, entendemos que unas gafas correctamente ajustadas son esenciales no solo para una visión óptima, sino también para la comodidad y la apariencia. Nuestro proceso de adaptación integral asegura que sus nuevas gafas funcionarán perfectamente para sus necesidades específicas:',
+      ca: 'A looptica, entenem que unes ulleres correctament ajustades són essencials no només per a una visió òptima, sinó també per a la comoditat i l\'aparença. El nostre procés d\'adaptació integral assegura que les seves noves ulleres funcionaran perfectament per a les seves necessitats específiques:',
+      de: 'Bei looptica verstehen wir, dass richtig angepasste Brillen nicht nur für optimales Sehen, sondern auch für Komfort und Aussehen unerlässlich sind. Unser umfassender Anpassungsprozess stellt sicher, dass Ihre neue Brille perfekt für Ihre spezifischen Bedürfnisse funktioniert:',
     },
     faceShape: {
       en: 'Face Shape Analysis',
@@ -233,10 +233,10 @@ const Eyeglasses = () => {
       de: 'Qualitätsgarantie',
     },
     guaranteeDesc: {
-      en: 'Every pair of eyeglasses from Looptica comes with our comprehensive quality guarantee:',
-      es: 'Cada par de gafas de Looptica incluye nuestra garantía de calidad integral:',
-      ca: 'Cada parell d\'ulleres de Looptica inclou la nostra garantia de qualitat integral:',
-      de: 'Jede Brille von Looptica kommt mit unserer umfassenden Qualitätsgarantie:',
+      en: 'Every pair of eyeglasses from looptica comes with our comprehensive quality guarantee:',
+      es: 'Cada par de gafas de looptica incluye nuestra garantía de calidad integral:',
+      ca: 'Cada parell d\'ulleres de looptica inclou la nostra garantia de qualitat integral:',
+      de: 'Jede Brille von looptica kommt mit unserer umfassenden Qualitätsgarantie:',
     },
     guarantee1: {
       en: '30-day adaptation guarantee for progressive lenses',

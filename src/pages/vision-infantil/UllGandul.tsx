@@ -7,10 +7,10 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Language } from '@/config/languages';
 
 const pageTitle: { [key in Language]: string } = {
-  ca: "Ull Gandul (Ambliopia) a Barcelona Poblenou | Looptica",
-  es: "Ojo Vago (Ambliopía) en Barcelona Poblenou | Looptica",
-  en: "Lazy Eye (Amblyopia) in Barcelona Poblenou | Looptica",
-  de: "Schwachsichtigkeit (Amblyopie) in Barcelona Poblenou | Looptica",
+  ca: "Ull Gandul (Ambliopia) a Barcelona Poblenou | looptica",
+  es: "Ojo Vago (Ambliopía) en Barcelona Poblenou | looptica",
+  en: "Lazy Eye (Amblyopia) in Barcelona Poblenou | looptica",
+  de: "Schwachsichtigkeit (Amblyopie) in Barcelona Poblenou | looptica",
 };
 
 const pageDescription: { [key in Language]: string } = {
@@ -110,10 +110,10 @@ const ageText = {
 };
 
 const roleTitle = {
-  ca: "Què podem fer a Looptica",
-  es: "Qué podemos hacer en Looptica",
-  en: "What we can do at Looptica",
-  de: "Was wir bei Looptica tun können",
+  ca: "Què podem fer a looptica",
+  es: "Qué podemos hacer en looptica",
+  en: "What we can do at looptica",
+  de: "Was wir bei looptica tun können",
 };
 
 const role = {
@@ -166,25 +166,25 @@ const faqTitle = {
 
 const faqs = {
   ca: [
-    { q: "Feu teràpia visual?", a: "A Looptica ens centrem en la part òptica: ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K, ajust i seguiment, sempre segons la prescripció de l'oftalmòleg." },
+    { q: "Feu teràpia visual?", a: "A looptica ens centrem en la part òptica: ulleres i lents per a la correcció i el control de la miopia, lentilles i lents nocturnes Orto-K, ajust i seguiment, sempre segons la prescripció de l'oftalmòleg." },
     { q: "L'ull gandul es cura només amb el pegat?", a: "El pegat (oclusió) és una part habitual del tractament que pauta l'oftalmòleg, però normalment cal, a més, portar la correcció òptica adequada i ben adaptada. D'aquesta part ens encarreguem nosaltres." },
     { q: "Qui ha de fer el diagnòstic?", a: "L'oftalmòleg. És qui explora el nen, descarta patologies, confirma l'ambliopia i decideix el tractament. Nosaltres som òptics optometristes i treballem després, de manera coordinada i segons les seves indicacions." },
     { q: "Fins a quina edat es pot tractar?", a: "Com més aviat, millor pronòstic; tot i això, hi ha casos que milloren també en edats més avançades. Aquesta valoració la fa l'oftalmòleg en la seva exploració." },
   ],
   es: [
-    { q: "¿Hacéis terapia visual?", a: "En Looptica nos centramos en la parte óptica: gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K, ajuste y seguimiento, siempre según la prescripción del oftalmólogo." },
+    { q: "¿Hacéis terapia visual?", a: "En looptica nos centramos en la parte óptica: gafas y lentes para la corrección y el control de la miopía, lentillas y lentes nocturnas Orto-K, ajuste y seguimiento, siempre según la prescripción del oftalmólogo." },
     { q: "¿El ojo vago se cura solo con el parche?", a: "El parche (oclusión) es una parte habitual del tratamiento que pauta el oftalmólogo, pero normalmente hace falta además llevar la corrección óptica adecuada y bien adaptada. De esa parte nos encargamos nosotros." },
     { q: "¿Quién debe hacer el diagnóstico?", a: "El oftalmólogo. Es quien explora al niño, descarta patologías, confirma la ambliopía y decide el tratamiento. Nosotros somos ópticos optometristas y trabajamos después, de forma coordinada y según sus indicaciones." },
     { q: "¿Hasta qué edad se puede tratar?", a: "Cuanto antes, mejor pronóstico; aun así, hay casos que mejoran también en edades más avanzadas. Esa valoración la hace el oftalmólogo en su exploración." },
   ],
   en: [
-    { q: "Do you offer vision therapy?", a: "At Looptica we focus on the optical side: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses, fitting and follow-up, always following the ophthalmologist's prescription." },
+    { q: "Do you offer vision therapy?", a: "At looptica we focus on the optical side: glasses and lenses for correction and myopia control, contact lenses and Ortho-K overnight lenses, fitting and follow-up, always following the ophthalmologist's prescription." },
     { q: "Is patching enough to fix a lazy eye?", a: "Patching (occlusion) is a common part of the treatment the ophthalmologist prescribes, but wearing the right, well-fitted optical correction is usually needed too. That part is ours." },
     { q: "Who should make the diagnosis?", a: "The ophthalmologist. They examine the child, rule out pathology, confirm the amblyopia and decide the treatment. We are optometrists and step in afterwards, working in coordination and to their instructions." },
     { q: "Up to what age can it be treated?", a: "The earlier the better the prognosis; even so, some cases improve at older ages. That assessment is made by the ophthalmologist during their examination." },
   ],
   de: [
-    { q: "Bieten Sie Sehtherapie an?", a: "Bei Looptica konzentrieren wir uns auf die optische Seite: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, Anpassung und Nachsorge, immer nach augenärztlicher Verordnung." },
+    { q: "Bieten Sie Sehtherapie an?", a: "Bei looptica konzentrieren wir uns auf die optische Seite: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, Anpassung und Nachsorge, immer nach augenärztlicher Verordnung." },
     { q: "Reicht das Abkleben beim schwachen Auge?", a: "Okklusion ist ein üblicher Teil der vom Augenarzt verordneten Behandlung, meist braucht es zusätzlich die passende und gut angepasste optische Korrektion. Dafür sind wir zuständig." },
     { q: "Wer stellt die Diagnose?", a: "Der Augenarzt. Er untersucht das Kind, schließt Erkrankungen aus, bestätigt die Amblyopie und legt die Behandlung fest. Wir sind Optometristen und kommen danach hinzu, abgestimmt und nach seinen Vorgaben." },
     { q: "Bis zu welchem Alter ist eine Behandlung möglich?", a: "Je früher, desto besser die Prognose; dennoch verbessern sich manche Fälle auch später. Diese Beurteilung trifft der Augenarzt bei seiner Untersuchung." },
@@ -230,7 +230,7 @@ const UllGandul = () => {
         image="/images/_DSC4696.jpg"
         pageTitle={pageTitle}
         pageDescription={pageDescription}
-        appointmentSubject="Correcció òptica per ambliopia a Looptica"
+        appointmentSubject="Correcció òptica per ambliopia a looptica"
         breadcrumbParents={[{ label: parentCrumb[lang], path: '/visio-infantil' }]}
       >
         <ScrollReveal>

@@ -62,14 +62,14 @@ const LentsContacteMultifocals = () => {
     ca: {
       metaTitle: 'Lents de Contacte Multifocals Barcelona | Presbícia',
       metaDescription:
-        "Adaptació personalitzada de lents de contacte multifocals i progressives a Barcelona. Estudi visual, proves i seguiment a Looptica Poblenou. Demana cita.",
+        "Adaptació personalitzada de lents de contacte multifocals i progressives a Barcelona. Estudi visual, proves i seguiment a looptica Poblenou. Demana cita.",
       heroTitle: 'Lents de contacte multifocals a Barcelona',
       heroSubtitle: 'Veure de lluny i de prop sense dependre de les ulleres',
       breadcrumbLabel: 'Lents multifocals',
       parentCrumb: 'Lents de contacte',
-      appointmentSubject: "Adaptació de lents de contacte multifocals a Looptica",
+      appointmentSubject: "Adaptació de lents de contacte multifocals a looptica",
       introParagraph:
-        "A Looptica fem adaptacions personalitzades de lents de contacte multifocals per a persones amb presbícia. Tenim en compte la teva graduació, les teves necessitats visuals i com utilitzes la vista cada dia per proposar-te el disseny que t'encaixi millor.",
+        "A looptica fem adaptacions personalitzades de lents de contacte multifocals per a persones amb presbícia. Tenim en compte la teva graduació, les teves necessitats visuals i com utilitzes la vista cada dia per proposar-te el disseny que t'encaixi millor.",
       ctaPrimary: 'Demana cita',
       ctaSecondary: "Com funciona l'adaptació?",
       authorityTitle: 'No totes les lents multifocals funcionen igual',
@@ -107,7 +107,7 @@ const LentsContacteMultifocals = () => {
           text: 'I busques un equilibri raonable entre les diferents distàncies al llarg del dia.',
         },
       ],
-      processTitle: 'Com adaptem les lents multifocals a Looptica',
+      processTitle: 'Com adaptem les lents multifocals a looptica',
       processSteps: [
         {
           title: 'Estudiem la teva visió',
@@ -155,10 +155,10 @@ const LentsContacteMultifocals = () => {
         "No existeix una única lent multifocal que sigui la millor per a tothom. L'objectiu de l'adaptació és trobar l'opció adequada per a les característiques visuals i les necessitats de cada persona.",
       specialistTitle: "La teva adaptació, en mans d'un especialista en contactologia",
       specialistParagraphs: [
-        "Les lents de contacte multifocals poden necessitar més proves i ajustos que unes lents convencionals. Per això a Looptica fem la valoració, la prova i el seguiment al centre, al Poblenou de Barcelona.",
-        "Elena Sentís, directora tècnica de Looptica, supervisa les adaptacions de contactologia avançada del centre, incloent-hi Orto-K, control de miopia i lents multifocals.",
+        "Les lents de contacte multifocals poden necessitar més proves i ajustos que unes lents convencionals. Per això a looptica fem la valoració, la prova i el seguiment al centre, al Poblenou de Barcelona.",
+        "Elena Sentís, directora tècnica de looptica, supervisa les adaptacions de contactologia avançada del centre, incloent-hi Orto-K, control de miopia i lents multifocals.",
       ],
-      specialistCredentials: 'Elena Sentís — Òptica Optometrista · Col. 18568 · Directora Tècnica de Looptica',
+      specialistCredentials: 'Elena Sentís — Òptica Optometrista · Col. 18568 · Directora Tècnica de looptica',
       specialistLink: "Veure perfil de l'equip",
       faqTitle: 'Preguntes freqüents sobre les lents multifocals',
       faqs: [
@@ -193,7 +193,7 @@ const LentsContacteMultifocals = () => {
       ],
       localTitle: 'Adaptació de lents multifocals a Poblenou, Barcelona',
       localText:
-        "Vine a Looptica i valorem junts quin disseny de lent multifocal pot encaixar millor amb la teva visió i les teves necessitats.",
+        "Vine a looptica i valorem junts quin disseny de lent multifocal pot encaixar millor amb la teva visió i les teves necessitats.",
       relatedText: (
         <>
           Aquesta pàgina forma part de la nostra secció de {link('/services/lents-contacte', 'lents de contacte')}. Si el que
@@ -204,14 +204,14 @@ const LentsContacteMultifocals = () => {
     es: {
       metaTitle: 'Lentillas Progresivas y Multifocales en Barcelona | Adaptación',
       metaDescription:
-        'Adaptación personalizada de lentillas progresivas y multifocales en Barcelona. Estudio visual, pruebas y seguimiento en Looptica Poblenou. Pide cita.',
+        'Adaptación personalizada de lentillas progresivas y multifocales en Barcelona. Estudio visual, pruebas y seguimiento en looptica Poblenou. Pide cita.',
       heroTitle: 'Lentillas progresivas y multifocales en Barcelona',
       heroSubtitle: 'Ver de lejos y de cerca sin depender de las gafas',
       breadcrumbLabel: 'Lentillas multifocales',
       parentCrumb: 'Lentillas',
-      appointmentSubject: 'Adaptación de lentillas multifocales en Looptica',
+      appointmentSubject: 'Adaptación de lentillas multifocales en looptica',
       introParagraph:
-        'En Looptica realizamos adaptaciones personalizadas de lentillas multifocales para personas con presbicia. Tenemos en cuenta tu graduación, tus necesidades visuales y cómo usas la vista cada día para proponerte el diseño que mejor te encaje.',
+        'En looptica realizamos adaptaciones personalizadas de lentillas multifocales para personas con presbicia. Tenemos en cuenta tu graduación, tus necesidades visuales y cómo usas la vista cada día para proponerte el diseño que mejor te encaje.',
       ctaPrimary: 'Pide cita',
       ctaSecondary: '¿Cómo funciona la adaptación?',
       authorityTitle: 'No todas las lentillas multifocales funcionan igual',
@@ -249,7 +249,7 @@ const LentsContacteMultifocals = () => {
           text: 'Y buscas un equilibrio razonable entre las distintas distancias a lo largo del día.',
         },
       ],
-      processTitle: 'Cómo adaptamos las lentillas multifocales en Looptica',
+      processTitle: 'Cómo adaptamos las lentillas multifocales en looptica',
       processSteps: [
         {
           title: 'Estudiamos tu visión',
@@ -297,10 +297,10 @@ const LentsContacteMultifocals = () => {
         'No existe una única lentilla multifocal que sea la mejor para todo el mundo. El objetivo de la adaptación es encontrar la opción adecuada para las características visuales y las necesidades de cada persona.',
       specialistTitle: 'Tu adaptación, en manos de un especialista en contactología',
       specialistParagraphs: [
-        'Las lentillas multifocales pueden necesitar más pruebas y ajustes que unas lentillas convencionales. Por eso en Looptica realizamos la valoración, la prueba y el seguimiento en el centro, en el Poblenou de Barcelona.',
-        'Elena Sentís, directora técnica de Looptica, supervisa las adaptaciones de contactología avanzada del centro, incluyendo Orto-K, control de miopía y lentillas multifocales.',
+        'Las lentillas multifocales pueden necesitar más pruebas y ajustes que unas lentillas convencionales. Por eso en looptica realizamos la valoración, la prueba y el seguimiento en el centro, en el Poblenou de Barcelona.',
+        'Elena Sentís, directora técnica de looptica, supervisa las adaptaciones de contactología avanzada del centro, incluyendo Orto-K, control de miopía y lentillas multifocales.',
       ],
-      specialistCredentials: 'Elena Sentís — Óptica Optometrista · Col. 18568 · Directora Técnica de Looptica',
+      specialistCredentials: 'Elena Sentís — Óptica Optometrista · Col. 18568 · Directora Técnica de looptica',
       specialistLink: 'Ver el perfil del equipo',
       faqTitle: 'Preguntas frecuentes sobre las lentillas multifocales',
       faqs: [
@@ -335,7 +335,7 @@ const LentsContacteMultifocals = () => {
       ],
       localTitle: 'Adaptación de lentillas multifocales en Poblenou, Barcelona',
       localText:
-        'Ven a Looptica y valoramos juntos qué diseño de lentilla multifocal puede encajar mejor con tu visión y tus necesidades.',
+        'Ven a looptica y valoramos juntos qué diseño de lentilla multifocal puede encajar mejor con tu visión y tus necesidades.',
       relatedText: (
         <>
           Esta página forma parte de nuestra sección de {link('/services/lents-contacte', 'lentillas')}. Si lo que te
@@ -346,14 +346,14 @@ const LentsContacteMultifocals = () => {
     en: {
       metaTitle: 'Multifocal Contact Lenses Barcelona | Presbyopia Fitting',
       metaDescription:
-        'Personalised fitting of multifocal (progressive) contact lenses in Barcelona. Visual assessment, trial lenses and follow-up at Looptica Poblenou. Book now.',
+        'Personalised fitting of multifocal (progressive) contact lenses in Barcelona. Visual assessment, trial lenses and follow-up at looptica Poblenou. Book now.',
       heroTitle: 'Multifocal contact lenses in Barcelona',
       heroSubtitle: 'See far and near without depending on glasses',
       breadcrumbLabel: 'Multifocal lenses',
       parentCrumb: 'Contact lenses',
-      appointmentSubject: 'Multifocal contact lens fitting at Looptica',
+      appointmentSubject: 'Multifocal contact lens fitting at looptica',
       introParagraph:
-        'At Looptica we carry out personalised multifocal contact lens fittings for people with presbyopia. We take into account your prescription, your visual needs and how you use your eyes every day to suggest the design that suits you best.',
+        'At looptica we carry out personalised multifocal contact lens fittings for people with presbyopia. We take into account your prescription, your visual needs and how you use your eyes every day to suggest the design that suits you best.',
       ctaPrimary: 'Book an appointment',
       ctaSecondary: 'How does the fitting work?',
       authorityTitle: 'Not all multifocal lenses work the same way',
@@ -391,7 +391,7 @@ const LentsContacteMultifocals = () => {
           text: 'And you are looking for a reasonable balance between distances throughout the day.',
         },
       ],
-      processTitle: 'How we fit multifocal lenses at Looptica',
+      processTitle: 'How we fit multifocal lenses at looptica',
       processSteps: [
         {
           title: 'We study your vision',
@@ -439,10 +439,10 @@ const LentsContacteMultifocals = () => {
         'There is no single multifocal lens that is best for everyone. The purpose of the fitting is to find the right option for each person’s visual characteristics and needs.',
       specialistTitle: 'Your fitting, in the hands of a contact lens specialist',
       specialistParagraphs: [
-        'Multifocal contact lenses may need more trials and adjustments than conventional lenses. That is why at Looptica we carry out the assessment, the trial and the follow-up at our practice in Poblenou, Barcelona.',
-        'Elena Sentís, Technical Director of Looptica, oversees the practice’s advanced contact lens fittings, including Ortho-K, myopia control and multifocal lenses.',
+        'Multifocal contact lenses may need more trials and adjustments than conventional lenses. That is why at looptica we carry out the assessment, the trial and the follow-up at our practice in Poblenou, Barcelona.',
+        'Elena Sentís, Technical Director of looptica, oversees the practice’s advanced contact lens fittings, including Ortho-K, myopia control and multifocal lenses.',
       ],
-      specialistCredentials: 'Elena Sentís — Optician Optometrist · Col. 18568 · Technical Director of Looptica',
+      specialistCredentials: 'Elena Sentís — Optician Optometrist · Col. 18568 · Technical Director of looptica',
       specialistLink: 'See the team profile',
       faqTitle: 'Frequently asked questions about multifocal lenses',
       faqs: [
@@ -477,7 +477,7 @@ const LentsContacteMultifocals = () => {
       ],
       localTitle: 'Multifocal lens fitting in Poblenou, Barcelona',
       localText:
-        'Visit Looptica and we will assess together which multifocal lens design may suit your vision and your needs best.',
+        'Visit looptica and we will assess together which multifocal lens design may suit your vision and your needs best.',
       relatedText: (
         <>
           This page is part of our {link('/services/lents-contacte', 'contact lenses')} section. If myopia is your main
@@ -488,14 +488,14 @@ const LentsContacteMultifocals = () => {
     de: {
       metaTitle: 'Multifokale Kontaktlinsen Barcelona | Alterssichtigkeit',
       metaDescription:
-        'Individuelle Anpassung multifokaler (Gleitsicht-)Kontaktlinsen in Barcelona. Sehanalyse, Testlinsen und Nachsorge bei Looptica Poblenou. Termin buchen.',
+        'Individuelle Anpassung multifokaler (Gleitsicht-)Kontaktlinsen in Barcelona. Sehanalyse, Testlinsen und Nachsorge bei looptica Poblenou. Termin buchen.',
       heroTitle: 'Multifokale Kontaktlinsen in Barcelona',
       heroSubtitle: 'In der Ferne und in der Nähe sehen, ohne von der Brille abhängig zu sein',
       breadcrumbLabel: 'Multifokale Linsen',
       parentCrumb: 'Kontaktlinsen',
-      appointmentSubject: 'Anpassung multifokaler Kontaktlinsen bei Looptica',
+      appointmentSubject: 'Anpassung multifokaler Kontaktlinsen bei looptica',
       introParagraph:
-        'Bei Looptica passen wir multifokale Kontaktlinsen individuell für Menschen mit Alterssichtigkeit an. Wir berücksichtigen Ihre Sehstärke, Ihre visuellen Anforderungen und Ihren Alltag, um das passende Design vorzuschlagen.',
+        'Bei looptica passen wir multifokale Kontaktlinsen individuell für Menschen mit Alterssichtigkeit an. Wir berücksichtigen Ihre Sehstärke, Ihre visuellen Anforderungen und Ihren Alltag, um das passende Design vorzuschlagen.',
       ctaPrimary: 'Termin vereinbaren',
       ctaSecondary: 'Wie läuft die Anpassung ab?',
       authorityTitle: 'Nicht alle multifokalen Linsen funktionieren gleich',
@@ -533,7 +533,7 @@ const LentsContacteMultifocals = () => {
           text: 'Und suchen ein sinnvolles Gleichgewicht zwischen den Distanzen im Tagesverlauf.',
         },
       ],
-      processTitle: 'So passen wir multifokale Linsen bei Looptica an',
+      processTitle: 'So passen wir multifokale Linsen bei looptica an',
       processSteps: [
         {
           title: 'Wir analysieren Ihr Sehen',
@@ -581,10 +581,10 @@ const LentsContacteMultifocals = () => {
         'Es gibt keine einzige multifokale Linse, die für alle die beste ist. Ziel der Anpassung ist, die passende Option für die Seheigenschaften und Bedürfnisse jeder Person zu finden.',
       specialistTitle: 'Ihre Anpassung in den Händen einer Kontaktlinsen-Spezialistin',
       specialistParagraphs: [
-        'Multifokale Kontaktlinsen benötigen oft mehr Tests und Anpassungen als herkömmliche Linsen. Deshalb erfolgen Analyse, Test und Nachsorge bei Looptica direkt im Geschäft in Poblenou, Barcelona.',
-        'Elena Sentís, technische Leiterin von Looptica, betreut die anspruchsvollen Kontaktlinsenanpassungen des Zentrums, darunter Ortho-K, Myopiekontrolle und multifokale Linsen.',
+        'Multifokale Kontaktlinsen benötigen oft mehr Tests und Anpassungen als herkömmliche Linsen. Deshalb erfolgen Analyse, Test und Nachsorge bei looptica direkt im Geschäft in Poblenou, Barcelona.',
+        'Elena Sentís, technische Leiterin von looptica, betreut die anspruchsvollen Kontaktlinsenanpassungen des Zentrums, darunter Ortho-K, Myopiekontrolle und multifokale Linsen.',
       ],
-      specialistCredentials: 'Elena Sentís — Optikerin Optometristin · Col. 18568 · Technische Leiterin von Looptica',
+      specialistCredentials: 'Elena Sentís — Optikerin Optometristin · Col. 18568 · Technische Leiterin von looptica',
       specialistLink: 'Team-Profil ansehen',
       faqTitle: 'Häufige Fragen zu multifokalen Linsen',
       faqs: [
@@ -619,7 +619,7 @@ const LentsContacteMultifocals = () => {
       ],
       localTitle: 'Anpassung multifokaler Linsen in Poblenou, Barcelona',
       localText:
-        'Besuchen Sie Looptica und wir prüfen gemeinsam, welches multifokale Linsendesign zu Ihrem Sehen und Ihren Bedürfnissen passt.',
+        'Besuchen Sie looptica und wir prüfen gemeinsam, welches multifokale Linsendesign zu Ihrem Sehen und Ihren Bedürfnissen passt.',
       relatedText: (
         <>
           Diese Seite gehört zu unserem Bereich {link('/services/lents-contacte', 'Kontaktlinsen')}. Wenn Kurzsichtigkeit
@@ -660,7 +660,7 @@ const LentsContacteMultifocals = () => {
     areaServed: { '@type': 'City', name: 'Barcelona' },
     provider: {
       '@type': 'Optician',
-      name: 'Looptica',
+      name: 'looptica',
       telephone: '+34933009064',
       address: {
         '@type': 'PostalAddress',
@@ -696,7 +696,7 @@ const LentsContacteMultifocals = () => {
           <div className="mb-12">
             <p className="text-lg text-gray-700 leading-relaxed">{c.introParagraph}</p>
             <div className="mt-6 flex flex-col sm:flex-row gap-4">
-              <GoogleCalendarButton subject={c.appointmentSubject} description={`Appointment for ${c.heroTitle} at Looptica`}>
+              <GoogleCalendarButton subject={c.appointmentSubject} description={`Appointment for ${c.heroTitle} at looptica`}>
                 {c.ctaPrimary}
               </GoogleCalendarButton>
               <a
@@ -868,7 +868,7 @@ const LentsContacteMultifocals = () => {
             <p className="text-gray-700 mb-6">{c.localText}</p>
             <GoogleCalendarButton
               subject={c.appointmentSubject}
-              description={`Appointment for ${c.heroTitle} at Looptica`}
+              description={`Appointment for ${c.heroTitle} at looptica`}
               className="mx-auto"
             >
               {c.ctaPrimary}

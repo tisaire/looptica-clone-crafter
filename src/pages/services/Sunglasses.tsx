@@ -11,20 +11,20 @@ const Sunglasses = () => {
   const content = {
     meta: {
       en: {
-        title: 'Sunglasses in Poblenou, Barcelona | Looptica',
-        description: 'Prescription and designer sunglasses in Poblenou, Barcelona. 100% UV protection, style consulting and a wide selection at Looptica. Book your visit.',
+        title: 'Sunglasses in Poblenou, Barcelona | looptica',
+        description: 'Prescription and designer sunglasses in Poblenou, Barcelona. 100% UV protection, style consulting and a wide selection at looptica. Book your visit.',
       },
       es: {
-        title: 'Gafas de sol en Poblenou, Barcelona | Looptica',
-        description: 'Gafas de sol graduadas y de marca en Poblenou, Barcelona. Protección UV 100%, asesoramiento de estilo y amplia selección en Looptica. Pide cita.',
+        title: 'Gafas de sol en Poblenou, Barcelona | looptica',
+        description: 'Gafas de sol graduadas y de marca en Poblenou, Barcelona. Protección UV 100%, asesoramiento de estilo y amplia selección en looptica. Pide cita.',
       },
       ca: {
-        title: 'Ulleres de sol a Poblenou, Barcelona | Looptica',
-        description: "Ulleres de sol graduades i de marca a Poblenou, Barcelona. Protecció UV 100%, assessorament d'estil i àmplia selecció a Looptica. Demana cita.",
+        title: 'Ulleres de sol a Poblenou, Barcelona | looptica',
+        description: "Ulleres de sol graduades i de marca a Poblenou, Barcelona. Protecció UV 100%, assessorament d'estil i àmplia selecció a looptica. Demana cita.",
       },
       de: {
-        title: 'Sonnenbrillen in Poblenou, Barcelona | Looptica',
-        description: 'Sonnenbrillen mit Sehstärke und Designermarken in Poblenou, Barcelona. 100% UV-Schutz, Stilberatung und große Auswahl bei Looptica. Termin buchen.',
+        title: 'Sonnenbrillen in Poblenou, Barcelona | looptica',
+        description: 'Sonnenbrillen mit Sehstärke und Designermarken in Poblenou, Barcelona. 100% UV-Schutz, Stilberatung und große Auswahl bei looptica. Termin buchen.',
       },
     },
     subtitle: {
@@ -40,10 +40,10 @@ const Sunglasses = () => {
       de: "Premium-Sonnenbrillenkollektion",
     },
     intro1: {
-      en: "At Looptica, we understand that sunglasses are much more than a fashion accessory—they're essential for protecting your eyes from harmful UV radiation while expressing your personal style. Our extensive collection features high-quality sunglasses from renowned designers and trusted brands, ensuring both optimal protection and fashion-forward design.",
-      es: "En Looptica, entendemos que las gafas de sol son mucho más que un accesorio de moda; son esenciales para proteger tus ojos de la radiación UV dañina mientras expresas tu estilo personal. Nuestra amplia colección presenta gafas de sol de alta calidad de diseñadores reconocidos y marcas de confianza, garantizando tanto una protección óptima como un diseño a la moda.",
-      ca: "A Looptica, entenem que les ulleres de sol són molt més que un accessori de moda; són essencials per protegir els teus ulls de la radiació UV nociva mentre expresses el teu estil personal. La nostra àmplia col·lecció presenta ulleres de sol d'alta qualitat de dissenyadors reconeguts i marques de confiança, garantint tant una protecció òptima com un disseny a la moda.",
-      de: "Bei Looptica verstehen wir, dass Sonnenbrillen viel mehr als ein Modeaccessoire sind – sie sind unverzichtbar, um Ihre Augen vor schädlicher UV-Strahlung zu schützen und gleichzeitig Ihren persönlichen Stil auszudrücken. Unsere umfangreiche Kollektion umfasst hochwertige Sonnenbrillen von renommierten Designern und vertrauenswürdigen Marken und gewährleistet sowohl optimalen Schutz als auch modisches Design.",
+      en: "At looptica, we understand that sunglasses are much more than a fashion accessory—they're essential for protecting your eyes from harmful UV radiation while expressing your personal style. Our extensive collection features high-quality sunglasses from renowned designers and trusted brands, ensuring both optimal protection and fashion-forward design.",
+      es: "En looptica, entendemos que las gafas de sol son mucho más que un accesorio de moda; son esenciales para proteger tus ojos de la radiación UV dañina mientras expresas tu estilo personal. Nuestra amplia colección presenta gafas de sol de alta calidad de diseñadores reconocidos y marcas de confianza, garantizando tanto una protección óptima como un diseño a la moda.",
+      ca: "A looptica, entenem que les ulleres de sol són molt més que un accessori de moda; són essencials per protegir els teus ulls de la radiació UV nociva mentre expresses el teu estil personal. La nostra àmplia col·lecció presenta ulleres de sol d'alta qualitat de dissenyadors reconeguts i marques de confiança, garantint tant una protecció òptima com un disseny a la moda.",
+      de: "Bei looptica verstehen wir, dass Sonnenbrillen viel mehr als ein Modeaccessoire sind – sie sind unverzichtbar, um Ihre Augen vor schädlicher UV-Strahlung zu schützen und gleichzeitig Ihren persönlichen Stil auszudrücken. Unsere umfangreiche Kollektion umfasst hochwertige Sonnenbrillen von renommierten Designern und vertrauenswürdigen Marken und gewährleistet sowohl optimalen Schutz als auch modisches Design.",
     },
     intro2: {
       en: "Whether you're looking for classic aviators, trendy oversized frames, sporty wraparounds, or sophisticated designer pieces, our diverse selection caters to all preferences and face shapes. We prioritize quality materials, superior craftsmanship, and lenses that provide 100% UV protection.",
@@ -280,10 +280,10 @@ const Sunglasses = () => {
       de: "Alle unsere Sonnenbrillen werden mit einem Schutzetui, Reinigungstuch und unserer Qualitätsgarantie geliefert. Wir bieten auch Anpassungen an, um sicherzustellen, dass Ihre Sonnenbrille perfekt passt und während ihrer gesamten Lebensdauer bequem bleibt.",
     },
     appointmentSubject: {
-      en: "Sunglasses Consultation at Looptica",
-      es: "Consulta de Gafas de Sol en Looptica",
-      ca: "Consulta d'Ulleres de Sol a Looptica",
-      de: "Sonnenbrillen-Beratung bei Looptica",
+      en: "Sunglasses Consultation at looptica",
+      es: "Consulta de Gafas de Sol en looptica",
+      ca: "Consulta d'Ulleres de Sol a looptica",
+      de: "Sonnenbrillen-Beratung bei looptica",
     },
   };
   

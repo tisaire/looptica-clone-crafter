@@ -13,9 +13,9 @@ interface GoogleCalendarButtonProps extends Omit<ButtonProps, 'onClick'> {
 }
 
 const GoogleCalendarButton = ({
-  subject = 'Looptica Consultation',
-  description = 'Appointment at Looptica for services',
-  location = 'Looptica, Costa Brava, Spain',
+  subject = 'looptica Consultation',
+  description = 'Appointment at looptica for services',
+  location = 'looptica, Costa Brava, Spain',
   durationMinutes = 60,
   className,
   children,

@@ -14,14 +14,14 @@ const AudiologiaCentro = () => {
   
   const content = {
     seoTitle: {
-      en: "Audiologist in Barcelona | Hearing Tests & Hearing Aids | Looptica",
-      es: "Audiólogo en Barcelona | Audífonos y prueba auditiva | Looptica",
-      ca: "Audiòleg a Barcelona | Audiòfons i prova auditiva | Looptica",
-      de: "Audiologe in Barcelona | Hörtest & Hörgeräte | Looptica"
+      en: "Audiologist in Barcelona | Hearing Tests & Hearing Aids | looptica",
+      es: "Audiólogo en Barcelona | Audífonos y prueba auditiva | looptica",
+      ca: "Audiòleg a Barcelona | Audiòfons i prova auditiva | looptica",
+      de: "Audiologe in Barcelona | Hörtest & Hörgeräte | looptica"
     },
     seoDescription: {
       en: "Professional hearing tests, hearing aid fitting and follow-up in Barcelona. Audiologist in Poblenou with advanced technology and personalized care.",
-      es: "Audiólogo en Poblenou, Barcelona: pruebas auditivas, adaptación de audífonos y seguimiento personalizado con tecnología avanzada en Looptica.",
+      es: "Audiólogo en Poblenou, Barcelona: pruebas auditivas, adaptación de audífonos y seguimiento personalizado con tecnología avanzada en looptica.",
       ca: "Proves auditives, adaptació d'audiòfons i seguiment professional a Barcelona. Audiòleg a Poblenou amb tecnologia avançada i atenció personalitzada.",
       de: "Professionelle Hörtests, Hörgeräte-Anpassung und Nachsorge in Barcelona. Audiologe in Poblenou mit fortschrittlicher Technologie und persönlicher Betreuung."
     },
@@ -38,10 +38,10 @@ const AudiologiaCentro = () => {
       de: "Umfassende Hörlösungen"
     },
     appointmentSubject: {
-      en: "Audiology Consultation at Looptica",
-      es: "Consulta de Audiología en Looptica",
-      ca: "Consulta d'Audiologia a Looptica",
-      de: "Audiologie-Beratung bei Looptica"
+      en: "Audiology Consultation at looptica",
+      es: "Consulta de Audiología en looptica",
+      ca: "Consulta d'Audiologia a looptica",
+      de: "Audiologie-Beratung bei looptica"
     },
     servicesTitle: {
       en: "Our Audiology Services",
@@ -50,10 +50,10 @@ const AudiologiaCentro = () => {
       de: "Unsere Audiologie-Dienstleistungen"
     },
     servicesDescription: {
-      en: "At Looptica, we offer a wide range of audiology services to help you maintain and improve your hearing health. Our team of experienced audiologists is dedicated to providing personalized care and the latest technology to meet your individual needs.",
-      es: "En Looptica, ofrecemos una amplia gama de servicios de audiología para ayudarle a mantener y mejorar su salud auditiva. Nuestro equipo de audiólogos experimentados se dedica a proporcionar atención personalizada y la última tecnología para satisfacer sus necesidades individuales.",
-      ca: "A Looptica, oferim una àmplia gamma de serveis d'audiologia per ajudar-vos a mantenir i millorar la vostra salut auditiva. El nostre equip d'audiòlegs experimentats es dedica a proporcionar atenció personalitzada i l'última tecnologia per satisfer les vostres necessitats individuals.",
-      de: "Bei Looptica bieten wir eine breite Palette von Audiologie-Dienstleistungen, um Ihnen zu helfen, Ihre Hörgesundheit zu erhalten und zu verbessern. Unser Team erfahrener Audiologen ist darauf spezialisiert, personalisierte Betreuung und neueste Technologie zu bieten, um Ihre individuellen Bedürfnisse zu erfüllen."
+      en: "At looptica, we offer a wide range of audiology services to help you maintain and improve your hearing health. Our team of experienced audiologists is dedicated to providing personalized care and the latest technology to meet your individual needs.",
+      es: "En looptica, ofrecemos una amplia gama de servicios de audiología para ayudarle a mantener y mejorar su salud auditiva. Nuestro equipo de audiólogos experimentados se dedica a proporcionar atención personalizada y la última tecnología para satisfacer sus necesidades individuales.",
+      ca: "A looptica, oferim una àmplia gamma de serveis d'audiologia per ajudar-vos a mantenir i millorar la vostra salut auditiva. El nostre equip d'audiòlegs experimentats es dedica a proporcionar atenció personalitzada i l'última tecnologia per satisfer les vostres necessitats individuals.",
+      de: "Bei looptica bieten wir eine breite Palette von Audiologie-Dienstleistungen, um Ihnen zu helfen, Ihre Hörgesundheit zu erhalten und zu verbessern. Unser Team erfahrener Audiologen ist darauf spezialisiert, personalisierte Betreuung und neueste Technologie zu bieten, um Ihre individuellen Bedürfnisse zu erfüllen."
     },
     hearingTests: {
       en: "Hearing Tests",
@@ -134,10 +134,10 @@ const AudiologiaCentro = () => {
       de: "Hörgeräte-Zuschüsse: Unterstützung bei Ihrem Antrag"
     },
     subsidiesSummary: {
-      ca: "Les ajudes de CatSalut i altres programes tenen requisits específics segons l'edat, la pèrdua auditiva i la situació personal. A Looptica t'orientem sobre les opcions disponibles i la documentació necessària. Consulta la guia completa per conèixer les condicions de cada programa.",
-      es: "Las ayudas de CatSalut y otros programas tienen requisitos específicos según la edad, la pérdida auditiva y la situación personal. En Looptica te orientamos sobre las opciones disponibles y la documentación necesaria. Consulta la guía completa para conocer las condiciones de cada programa.",
-      en: "CatSalut funding and other programmes have specific requirements depending on age, hearing loss and personal circumstances. At Looptica, we guide you through the available options and required documents. See the full guide for the conditions of each programme.",
-      de: "CatSalut-Zuschüsse und andere Programme haben spezifische Voraussetzungen je nach Alter, Hörverlust und persönlicher Situation. Bei Looptica beraten wir Sie zu den verfügbaren Möglichkeiten und erforderlichen Unterlagen. Die vollständige Übersicht erklärt die Bedingungen der einzelnen Programme."
+      ca: "Les ajudes de CatSalut i altres programes tenen requisits específics segons l'edat, la pèrdua auditiva i la situació personal. A looptica t'orientem sobre les opcions disponibles i la documentació necessària. Consulta la guia completa per conèixer les condicions de cada programa.",
+      es: "Las ayudas de CatSalut y otros programas tienen requisitos específicos según la edad, la pérdida auditiva y la situación personal. En looptica te orientamos sobre las opciones disponibles y la documentación necesaria. Consulta la guía completa para conocer las condiciones de cada programa.",
+      en: "CatSalut funding and other programmes have specific requirements depending on age, hearing loss and personal circumstances. At looptica, we guide you through the available options and required documents. See the full guide for the conditions of each programme.",
+      de: "CatSalut-Zuschüsse und andere Programme haben spezifische Voraussetzungen je nach Alter, Hörverlust und persönlicher Situation. Bei looptica beraten wir Sie zu den verfügbaren Möglichkeiten und erforderlichen Unterlagen. Die vollständige Übersicht erklärt die Bedingungen der einzelnen Programme."
     },
     subsidiesLink: {
       ca: "Consulta les ajudes i els requisits",

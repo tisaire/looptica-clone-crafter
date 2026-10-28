@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
   const content = {
     en: {
       title: "Privacy Policy",
-      metaDescription: "Read Looptica's privacy policy to understand how we collect, use, and protect your personal information.",
+      metaDescription: "Read looptica's privacy policy to understand how we collect, use, and protect your personal information.",
       heading: "Privacy Policy",
       lastUpdated: "Last updated: April 2023",
       content: `
@@ -73,7 +73,7 @@ const PrivacyPolicy = () => {
     },
     es: {
       title: "Política de Privacidad",
-      metaDescription: "Lea la política de privacidad de Looptica para entender cómo recopilamos, utilizamos y protegemos su información personal.",
+      metaDescription: "Lea la política de privacidad de looptica para entender cómo recopilamos, utilizamos y protegemos su información personal.",
       heading: "Política de Privacidad",
       lastUpdated: "Última actualización: Abril 2023",
       content: `
@@ -132,7 +132,7 @@ const PrivacyPolicy = () => {
     },
     ca: {
       title: "Política de Privacitat",
-      metaDescription: "Llegiu la política de privacitat de Looptica per entendre com recopilem, utilitzem i protegim la seva informació personal.",
+      metaDescription: "Llegiu la política de privacitat de looptica per entendre com recopilem, utilitzem i protegim la seva informació personal.",
       heading: "Política de Privacitat",
       lastUpdated: "Darrera actualització: Abril 2023",
       content: `
@@ -191,7 +191,7 @@ const PrivacyPolicy = () => {
     },
     de: {
       title: "Datenschutzrichtlinie",
-      metaDescription: "Lesen Sie die Datenschutzrichtlinie von Looptica, um zu verstehen, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen.",
+      metaDescription: "Lesen Sie die Datenschutzrichtlinie von looptica, um zu verstehen, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen.",
       heading: "Datenschutzrichtlinie",
       lastUpdated: "Zuletzt aktualisiert: April 2023",
       content: `
@@ -253,11 +253,11 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>{content[language].title} | Looptica</title>
+        <title>{content[language].title} | looptica</title>
         <meta name="description" content={content[language].metaDescription} />
         <meta name="robots" content="noindex, follow" />
         <link rel="canonical" href={`https://looptica.com/${language}/legal/privacy-policy`} />
-        <meta property="og:title" content={`${content[language].title} | Looptica`} />
+        <meta property="og:title" content={`${content[language].title} | looptica`} />
         <meta property="og:description" content={content[language].metaDescription} />
         <meta property="og:url" content={`https://looptica.com/${language}/legal/privacy-policy`} />
         <meta property="og:type" content="website" />

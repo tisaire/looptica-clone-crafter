@@ -12,20 +12,20 @@ const TinnitusTreatment = () => {
   const content = {
     meta: {
       en: {
-        title: 'Tinnitus treatment in Poblenou, Barcelona | Looptica',
-        description: 'Tinnitus treatment in Poblenou, Barcelona: audiological assessment, sound therapy and hearing aids with tinnitus relief. Personalized care at Looptica.',
+        title: 'Tinnitus treatment in Poblenou, Barcelona | looptica',
+        description: 'Tinnitus treatment in Poblenou, Barcelona: audiological assessment, sound therapy and hearing aids with tinnitus relief. Personalized care at looptica.',
       },
       es: {
-        title: 'Tratamiento de tinnitus en Poblenou, Barcelona | Looptica',
-        description: 'Tratamiento del tinnitus en Poblenou, Barcelona: evaluación audiológica, terapia sonora y audífonos con generador. Alivio personalizado en Looptica.',
+        title: 'Tratamiento de tinnitus en Poblenou, Barcelona | looptica',
+        description: 'Tratamiento del tinnitus en Poblenou, Barcelona: evaluación audiológica, terapia sonora y audífonos con generador. Alivio personalizado en looptica.',
       },
       ca: {
-        title: 'Tractament de tinnitus a Poblenou, Barcelona | Looptica',
-        description: 'Tractament del tinnitus a Poblenou, Barcelona: avaluació audiològica, teràpia sonora i audiòfons amb generador. Alleujament personalitzat a Looptica.',
+        title: 'Tractament de tinnitus a Poblenou, Barcelona | looptica',
+        description: 'Tractament del tinnitus a Poblenou, Barcelona: avaluació audiològica, teràpia sonora i audiòfons amb generador. Alleujament personalitzat a looptica.',
       },
       de: {
-        title: 'Tinnitus-Behandlung in Poblenou, Barcelona | Looptica',
-        description: 'Tinnitus-Behandlung in Poblenou, Barcelona: audiologische Untersuchung, Klangtherapie und Hörgeräte mit Tinnitus-Noiser. Persönliche Betreuung bei Looptica.',
+        title: 'Tinnitus-Behandlung in Poblenou, Barcelona | looptica',
+        description: 'Tinnitus-Behandlung in Poblenou, Barcelona: audiologische Untersuchung, Klangtherapie und Hörgeräte mit Tinnitus-Noiser. Persönliche Betreuung bei looptica.',
       },
     },
     title: {
@@ -41,10 +41,10 @@ const TinnitusTreatment = () => {
       de: 'Wirksame Lösungen für Ohrensausen',
     },
     appointmentSubject: {
-      en: 'Tinnitus Consultation at Looptica',
-      es: 'Consulta de Tinnitus en Looptica',
-      ca: 'Consulta de Tinnitus a Looptica',
-      de: 'Tinnitus-Beratung bei Looptica',
+      en: 'Tinnitus Consultation at looptica',
+      es: 'Consulta de Tinnitus en looptica',
+      ca: 'Consulta de Tinnitus a looptica',
+      de: 'Tinnitus-Beratung bei looptica',
     },
     understanding: {
       en: 'Understanding Tinnitus',
@@ -59,10 +59,10 @@ const TinnitusTreatment = () => {
       de: 'Tinnitus ist die Wahrnehmung von Geräuschen in den Ohren oder im Kopf, wenn kein externes Geräusch vorhanden ist. Oft als Klingeln, Summen, Zischen oder Klicken beschrieben, kann Tinnitus von gelegentlich störend bis stark beeinträchtigend für den Alltag reichen. Obwohl Tinnitus häufig ist – etwa 15-20% der Menschen betroffen sind – variiert seine Auswirkung stark von Person zu Person.',
     },
     understandingP2: {
-      en: 'At Looptica, we understand that living with tinnitus can be challenging and frustrating. Our specialized tinnitus management program offers evidence-based approaches to help you find relief and regain control over your auditory experience. We focus not just on addressing the sound itself, but also on minimizing its impact on your quality of life.',
-      es: 'En Looptica, entendemos que vivir con tinnitus puede ser desafiante y frustrante. Nuestro programa especializado de manejo del tinnitus ofrece enfoques basados en evidencia para ayudarle a encontrar alivio y recuperar el control sobre su experiencia auditiva. Nos enfocamos no solo en abordar el sonido mismo, sino también en minimizar su impacto en su calidad de vida.',
-      ca: 'A Looptica, entenem que viure amb tinnitus pot ser desafiant i frustrant. El nostre programa especialitzat de gestió del tinnitus ofereix enfocaments basats en evidència per ajudar-li a trobar alleujament i recuperar el control sobre la seva experiència auditiva. Ens enfoquem no només en abordar el so mateix, sinó també en minimitzar el seu impacte en la seva qualitat de vida.',
-      de: 'Bei Looptica verstehen wir, dass das Leben mit Tinnitus herausfordernd und frustrierend sein kann. Unser spezialisiertes Tinnitus-Management-Programm bietet evidenzbasierte Ansätze, um Ihnen Erleichterung zu verschaffen und die Kontrolle über Ihr Hörerlebnis zurückzugewinnen. Wir konzentrieren uns nicht nur darauf, das Geräusch selbst anzugehen, sondern auch darauf, seine Auswirkungen auf Ihre Lebensqualität zu minimieren.',
+      en: 'At looptica, we understand that living with tinnitus can be challenging and frustrating. Our specialized tinnitus management program offers evidence-based approaches to help you find relief and regain control over your auditory experience. We focus not just on addressing the sound itself, but also on minimizing its impact on your quality of life.',
+      es: 'En looptica, entendemos que vivir con tinnitus puede ser desafiante y frustrante. Nuestro programa especializado de manejo del tinnitus ofrece enfoques basados en evidencia para ayudarle a encontrar alivio y recuperar el control sobre su experiencia auditiva. Nos enfocamos no solo en abordar el sonido mismo, sino también en minimizar su impacto en su calidad de vida.',
+      ca: 'A looptica, entenem que viure amb tinnitus pot ser desafiant i frustrant. El nostre programa especialitzat de gestió del tinnitus ofereix enfocaments basats en evidència per ajudar-li a trobar alleujament i recuperar el control sobre la seva experiència auditiva. Ens enfoquem no només en abordar el so mateix, sinó també en minimitzar el seu impacte en la seva qualitat de vida.',
+      de: 'Bei looptica verstehen wir, dass das Leben mit Tinnitus herausfordernd und frustrierend sein kann. Unser spezialisiertes Tinnitus-Management-Programm bietet evidenzbasierte Ansätze, um Ihnen Erleichterung zu verschaffen und die Kontrolle über Ihr Hörerlebnis zurückzugewinnen. Wir konzentrieren uns nicht nur darauf, das Geräusch selbst anzugehen, sondern auch darauf, seine Auswirkungen auf Ihre Lebensqualität zu minimieren.',
     },
     assessmentTitle: {
       en: 'Our Comprehensive Tinnitus Assessment',
@@ -203,10 +203,10 @@ const TinnitusTreatment = () => {
       de: 'Was Sie erwartet: Unser Tinnitus-Management-Prozess',
     },
     expectP1: {
-      en: 'At Looptica, we take a personalized, step-by-step approach to tinnitus management:',
-      es: 'En Looptica, adoptamos un enfoque personalizado, paso a paso, para el manejo del tinnitus:',
-      ca: 'A Looptica, adoptem un enfocament personalitzat, pas a pas, per a la gestió del tinnitus:',
-      de: 'Bei Looptica verfolgen wir einen personalisierten, schrittweisen Ansatz für das Tinnitus-Management:',
+      en: 'At looptica, we take a personalized, step-by-step approach to tinnitus management:',
+      es: 'En looptica, adoptamos un enfoque personalizado, paso a paso, para el manejo del tinnitus:',
+      ca: 'A looptica, adoptem un enfocament personalitzat, pas a pas, per a la gestió del tinnitus:',
+      de: 'Bei looptica verfolgen wir einen personalisierten, schrittweisen Ansatz für das Tinnitus-Management:',
     },
     factsTitle: {
       en: 'Important Facts About Tinnitus',
@@ -221,10 +221,10 @@ const TinnitusTreatment = () => {
       de: 'Tinnitus zu verstehen ist ein wichtiger Teil des effektiven Managements:',
     },
     finalP: {
-      en: 'If you\'re experiencing tinnitus, know that you\'re not alone and help is available. Our compassionate team at Looptica is dedicated to helping you find relief and improving your quality of life.',
-      es: 'Si está experimentando tinnitus, sepa que no está solo y que hay ayuda disponible. Nuestro compasivo equipo en Looptica está dedicado a ayudarle a encontrar alivio y mejorar su calidad de vida.',
-      ca: 'Si està experimentant tinnitus, sàpiga que no està sol i que hi ha ajuda disponible. El nostre compassiu equip a Looptica està dedicat a ajudar-li a trobar alleujament i millorar la seva qualitat de vida.',
-      de: 'Wenn Sie unter Tinnitus leiden, wissen Sie, dass Sie nicht allein sind und Hilfe verfügbar ist. Unser mitfühlendes Team bei Looptica widmet sich der Hilfe, Erleichterung zu finden und Ihre Lebensqualität zu verbessern.',
+      en: 'If you\'re experiencing tinnitus, know that you\'re not alone and help is available. Our compassionate team at looptica is dedicated to helping you find relief and improving your quality of life.',
+      es: 'Si está experimentando tinnitus, sepa que no está solo y que hay ayuda disponible. Nuestro compasivo equipo en looptica está dedicado a ayudarle a encontrar alivio y mejorar su calidad de vida.',
+      ca: 'Si està experimentant tinnitus, sàpiga que no està sol i que hi ha ajuda disponible. El nostre compassiu equip a looptica està dedicat a ajudar-li a trobar alleujament i millorar la seva qualitat de vida.',
+      de: 'Wenn Sie unter Tinnitus leiden, wissen Sie, dass Sie nicht allein sind und Hilfe verfügbar ist. Unser mitfühlendes Team bei looptica widmet sich der Hilfe, Erleichterung zu finden und Ihre Lebensqualität zu verbessern.',
     },
   };
   

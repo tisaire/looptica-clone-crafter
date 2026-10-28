@@ -14,19 +14,19 @@ const Subvenciones = () => {
   const content = {
     meta: {
       en: {
-        title: "Hearing Aid Subsidies | Looptica Barcelona",
+        title: "Hearing Aid Subsidies | looptica Barcelona",
         description: "Information about available subsidies and financial aid for hearing aids and hearing assistance devices in Barcelona. Learn about eligibility requirements and application process.",
       },
       es: {
-        title: "Subvenciones para audífonos en Cataluña | Looptica Barcelona",
-        description: "Subvenciones y ayudas para la compra de audífonos en Cataluña. Te informamos y ayudamos con los trámites en Looptica Barcelona Poblenou.",
+        title: "Subvenciones para audífonos en Cataluña | looptica Barcelona",
+        description: "Subvenciones y ayudas para la compra de audífonos en Cataluña. Te informamos y ayudamos con los trámites en looptica Barcelona Poblenou.",
       },
       ca: {
-        title: "Subvencions per a Audiòfons | Looptica Barcelona",
+        title: "Subvencions per a Audiòfons | looptica Barcelona",
         description: "Informació sobre subvencions i ajudes financeres disponibles per a audiòfons i dispositius d'assistència auditiva a Barcelona. Conegui els requisits d'elegibilitat i el procés de sol·licitud.",
       },
       de: {
-        title: "Hörgeräte-Subventionen | Looptica Barcelona",
+        title: "Hörgeräte-Subventionen | looptica Barcelona",
         description: "Informationen über verfügbare Subventionen und finanzielle Hilfen für Hörgeräte und Hörhilfen in Barcelona. Erfahren Sie mehr über Berechtigungsvoraussetzungen und Antragsverfahren.",
       }
     },
@@ -43,10 +43,10 @@ const Subvenciones = () => {
       de: "Informationen über verfügbare Finanzierungsprogramme"
     },
     intro: {
-      en: "Hearing aids and other hearing assistance devices can be a significant investment. At Looptica, we are committed to helping you access the hearing care you need. Below you'll find information about various subsidies and financial assistance programs available in Barcelona and Spain.",
-      es: "Los audífonos y otros dispositivos de asistencia auditiva pueden representar una inversión significativa. En Looptica, estamos comprometidos a ayudarte a acceder a la atención auditiva que necesitas. A continuación, encontrarás información sobre varias subvenciones y programas de asistencia financiera disponibles en Barcelona y España.",
-      ca: "Els audiòfons i altres dispositius d'assistència auditiva poden representar una inversió significativa. A Looptica, estem compromesos a ajudar-te a accedir a l'atenció auditiva que necessites. A continuació, trobaràs informació sobre diverses subvencions i programes d'assistència financera disponibles a Barcelona i Espanya.",
-      de: "Hörgeräte und andere Hörhilfen können eine erhebliche Investition darstellen. Bei Looptica sind wir darauf bedacht, Ihnen zu helfen, die Hörversorgung zu erhalten, die Sie benötigen. Nachfolgend finden Sie Informationen über verschiedene Subventions- und Finanzierungsprogramme, die in Barcelona und Spanien verfügbar sind."
+      en: "Hearing aids and other hearing assistance devices can be a significant investment. At looptica, we are committed to helping you access the hearing care you need. Below you'll find information about various subsidies and financial assistance programs available in Barcelona and Spain.",
+      es: "Los audífonos y otros dispositivos de asistencia auditiva pueden representar una inversión significativa. En looptica, estamos comprometidos a ayudarte a acceder a la atención auditiva que necesitas. A continuación, encontrarás información sobre varias subvenciones y programas de asistencia financiera disponibles en Barcelona y España.",
+      ca: "Els audiòfons i altres dispositius d'assistència auditiva poden representar una inversió significativa. A looptica, estem compromesos a ajudar-te a accedir a l'atenció auditiva que necessites. A continuació, trobaràs informació sobre diverses subvencions i programes d'assistència financera disponibles a Barcelona i Espanya.",
+      de: "Hörgeräte und andere Hörhilfen können eine erhebliche Investition darstellen. Bei looptica sind wir darauf bedacht, Ihnen zu helfen, die Hörversorgung zu erhalten, die Sie benötigen. Nachfolgend finden Sie Informationen über verschiedene Subventions- und Finanzierungsprogramme, die in Barcelona und Spanien verfügbar sind."
     },
     sections: [
       {
@@ -109,28 +109,28 @@ const Subvenciones = () => {
           "The healthcare system in Spain and Catalonia currently offers financial aid for hearing aids under certain conditions. Those under 26 years of age can receive significant subsidies, with each hearing aid receiving up to €1,000 in aid.",
           "For people over 26 years old with recognized disability and specific forms of hearing loss, audiological support is also available from Social Security.",
           "Additionally, there are various local administrations (town halls, provincial councils) that offer specific grants for hearing aids, especially for older people or those with limited resources.",
-          "At Looptica, we offer comprehensive advice on the subsidies available for hearing aids and help you with all necessary procedures to apply for these grants."
+          "At looptica, we offer comprehensive advice on the subsidies available for hearing aids and help you with all necessary procedures to apply for these grants."
         ],
         es: [
           "La compra de audífonos supone una inversión importante para aquellas personas con pérdida auditiva. En Cataluña, existen varios programas de ayudas y subvenciones que pueden ayudar a reducir estos costes.",
           "El sistema sanitario en España y Cataluña actualmente ofrece ayudas económicas para audífonos bajo ciertas condiciones. Las personas menores de 26 años pueden recibir subvenciones importantes, recibiendo cada audífono hasta 1.000€ de ayuda.",
           "Para las personas mayores de 26 años con discapacidad reconocida y formas específicas de pérdida auditiva, también está disponible el apoyo audiológico de la Seguridad Social.",
           "Además, existen varias administraciones locales (ayuntamientos, diputaciones) que ofrecen subvenciones específicas para audífonos, especialmente para personas mayores o con recursos limitados.",
-          "En Looptica, ofrecemos asesoramiento integral sobre las subvenciones disponibles para audífonos y te ayudamos con todos los trámites necesarios para solicitar estas ayudas."
+          "En looptica, ofrecemos asesoramiento integral sobre las subvenciones disponibles para audífonos y te ayudamos con todos los trámites necesarios para solicitar estas ayudas."
         ],
         ca: [
           "La compra d'audiòfons suposa una inversió important per a aquelles persones amb pèrdua auditiva. A Catalunya, existeixen diversos programes d'ajudes i subvencions que poden ajudar a reduir aquests costos.",
           "El sistema sanitari a Espanya i Catalunya actualment ofereix ajudes econòmiques per a audiòfons sota certes condicions. Les persones menors de 26 anys poden rebre subvencions importants, rebent cada audiòfon fins a 1.000€ d'ajuda.",
           "Per a les persones majors de 26 anys amb discapacitat reconeguda i formes específiques de pèrdua auditiva, també està disponible el suport audiològic de la Seguretat Social.",
           "A més, existeixen diverses administracions locals (ajuntaments, diputacions) que ofereixen subvencions específiques per a audiòfons, especialment per a persones grans o amb recursos limitats.",
-          "A Looptica, oferim assessorament integral sobre les subvencions disponibles per a audiòfons i t'ajudem amb tots els tràmits necessaris per sol·licitar aquestes ajudes."
+          "A looptica, oferim assessorament integral sobre les subvencions disponibles per a audiòfons i t'ajudem amb tots els tràmits necessaris per sol·licitar aquestes ajudes."
         ],
         de: [
           "Der Kauf von Hörgeräten ist eine wichtige Investition für Menschen mit Hörverlust. In Katalonien gibt es mehrere Hilfs- und Subventionsprogramme, die dabei helfen können, diese Kosten zu reduzieren.",
           "Das Gesundheitssystem in Spanien und Katalonien bietet derzeit unter bestimmten Bedingungen finanzielle Hilfe für Hörgeräte. Personen unter 26 Jahren können erhebliche Subventionen erhalten, wobei jedes Hörgerät bis zu 1.000€ Unterstützung erhält.",
           "Für Personen über 26 Jahre mit anerkannter Behinderung und spezifischen Formen des Hörverlusts ist auch audiologische Unterstützung von der Sozialversicherung verfügbar.",
           "Zusätzlich gibt es verschiedene lokale Verwaltungen (Rathäuser, Provinzräte), die spezifische Zuschüsse für Hörgeräte anbieten, insbesondere für ältere Menschen oder solche mit begrenzten Ressourcen.",
-          "Bei Looptica bieten wir umfassende Beratung zu den verfügbaren Subventionen für Hörgeräte und helfen Ihnen bei allen notwendigen Verfahren zur Beantragung dieser Zuschüsse."
+          "Bei looptica bieten wir umfassende Beratung zu den verfügbaren Subventionen für Hörgeräte und helfen Ihnen bei allen notwendigen Verfahren zur Beantragung dieser Zuschüsse."
         ]
       },
       eligibility: {

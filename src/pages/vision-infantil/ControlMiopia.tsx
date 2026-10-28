@@ -22,10 +22,10 @@ const pageDescription: { [key in Language]: string } = {
 };
 
 const atropineNote = {
-  ca: "A Looptica no utilitzem atropina en baixa concentració. El nostre enfocament és òptic: Orto-K, lents de desenfocament perifèric i lentilles de control. Si el cas requereix tractament farmacològic, et derivem a l'oftalmòleg i seguim col·laborant en el control òptic.",
-  es: "En Looptica no utilizamos atropina en baja concentración. Nuestro enfoque es óptico: Orto-K, lentes de desenfoque periférico y lentillas de control. Si el caso requiere tratamiento farmacológico, te derivamos al oftalmólogo y seguimos colaborando en el control óptico.",
-  en: "At Looptica we do not use low-dose atropine. Our approach is optical: Ortho-K, peripheral defocus lenses and control contact lenses. If a case calls for pharmacological treatment, we refer to an ophthalmologist and keep collaborating on the optical side.",
-  de: "Bei Looptica setzen wir kein niedrig dosiertes Atropin ein. Unser Ansatz ist optisch: Ortho-K, Defokus-Brillengläser und Kontrolllinsen. Ist eine medikamentöse Behandlung nötig, überweisen wir an den Augenarzt und begleiten weiterhin die optische Kontrolle.",
+  ca: "A looptica no utilitzem atropina en baixa concentració. El nostre enfocament és òptic: Orto-K, lents de desenfocament perifèric i lentilles de control. Si el cas requereix tractament farmacològic, et derivem a l'oftalmòleg i seguim col·laborant en el control òptic.",
+  es: "En looptica no utilizamos atropina en baja concentración. Nuestro enfoque es óptico: Orto-K, lentes de desenfoque periférico y lentillas de control. Si el caso requiere tratamiento farmacológico, te derivamos al oftalmólogo y seguimos colaborando en el control óptico.",
+  en: "At looptica we do not use low-dose atropine. Our approach is optical: Ortho-K, peripheral defocus lenses and control contact lenses. If a case calls for pharmacological treatment, we refer to an ophthalmologist and keep collaborating on the optical side.",
+  de: "Bei looptica setzen wir kein niedrig dosiertes Atropin ein. Unser Ansatz ist optisch: Ortho-K, Defokus-Brillengläser und Kontrolllinsen. Ist eine medikamentöse Behandlung nötig, überweisen wir an den Augenarzt und begleiten weiterhin die optische Kontrolle.",
 };
 
 const parentCrumb = {
@@ -68,7 +68,7 @@ const ControlMiopia = () => {
       case 'book':
         return (
           <div key={i} className="not-prose my-6">
-            <GoogleCalendarButton subject="Control de la miopia infantil a Looptica">{b.x}</GoogleCalendarButton>
+            <GoogleCalendarButton subject="Control de la miopia infantil a looptica">{b.x}</GoogleCalendarButton>
           </div>
         );
       case 'orto':
@@ -102,7 +102,7 @@ const ControlMiopia = () => {
         hideCTA
         pageTitle={pageTitle}
         pageDescription={pageDescription}
-        appointmentSubject="Control de la miopia infantil a Looptica"
+        appointmentSubject="Control de la miopia infantil a looptica"
         breadcrumbParents={[{ label: parentCrumb[lang], path: '/visio-infantil' }]}
       >
         <div className="prose prose-lg max-w-none mb-12">{before.map(renderBlock)}</div>

@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.9.12-miopia-textos";
+const CURRENT_VERSION = "v2.9.13-looptica-minuscula";
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
@@ -27,10 +27,10 @@ const SeoContent = ({ language }: { language: string }) => {
         de: "Audiologie-Zentrum Barcelona Poblenou - Hörtests und Digitale Hörgeräte"
       },
       text: {
-        en: "At Looptica we offer comprehensive audiology services in Barcelona Poblenou, including professional hearing tests, hearing loss treatment, digital hearing aids fitting, audiometry Barcelona Poblenou and tinnitus solutions. Our hearing center in Barcelona Poblenou features high-quality clinical audiology and specialists in pediatric audiology.",
-        es: "En Looptica ofrecemos servicios completos de audiología en Barcelona Poblenou, incluyendo pruebas auditivas profesionales, tratamiento de pérdida auditiva, adaptación de audífonos digitales, audiometría Barcelona Poblenou y soluciones para acúfenos. Nuestro centro auditivo en Barcelona Poblenou cuenta con audiología clínica de alta calidad y especialistas en audiología pediátrica.",
-        ca: "A Looptica oferim serveis complets d'audiologia a Barcelona Poblenou, incloent proves auditives professionals, tractament de pèrdua auditiva, adaptació d'audiòfons digitals, audiometria Barcelona Poblenou i solucions per a acúfens. El nostre centre auditiu a Barcelona Poblenou compta amb audiologia clínica d'alta qualitat i especialistes en audiologia pediàtrica.",
-        de: "Bei Looptica bieten wir umfassende Audiologie-Dienstleistungen in Barcelona Poblenou, einschließlich professioneller Hörtests, Behandlung von Hörverlust, Anpassung digitaler Hörgeräte, Audiometrie Barcelona Poblenou und Tinnitus-Lösungen. Unser Hörzentrum in Barcelona Poblenou bietet hochwertige klinische Audiologie und Spezialisten für Pädaudiologie."
+        en: "At looptica we offer comprehensive audiology services in Barcelona Poblenou, including professional hearing tests, hearing loss treatment, digital hearing aids fitting, audiometry Barcelona Poblenou and tinnitus solutions. Our hearing center in Barcelona Poblenou features high-quality clinical audiology and specialists in pediatric audiology.",
+        es: "En looptica ofrecemos servicios completos de audiología en Barcelona Poblenou, incluyendo pruebas auditivas profesionales, tratamiento de pérdida auditiva, adaptación de audífonos digitales, audiometría Barcelona Poblenou y soluciones para acúfenos. Nuestro centro auditivo en Barcelona Poblenou cuenta con audiología clínica de alta calidad y especialistas en audiología pediátrica.",
+        ca: "A looptica oferim serveis complets d'audiologia a Barcelona Poblenou, incloent proves auditives professionals, tractament de pèrdua auditiva, adaptació d'audiòfons digitals, audiometria Barcelona Poblenou i solucions per a acúfens. El nostre centre auditiu a Barcelona Poblenou compta amb audiologia clínica d'alta qualitat i especialistes en audiologia pediàtrica.",
+        de: "Bei looptica bieten wir umfassende Audiologie-Dienstleistungen in Barcelona Poblenou, einschließlich professioneller Hörtests, Behandlung von Hörverlust, Anpassung digitaler Hörgeräte, Audiometrie Barcelona Poblenou und Tinnitus-Lösungen. Unser Hörzentrum in Barcelona Poblenou bietet hochwertige klinische Audiologie und Spezialisten für Pädaudiologie."
       }
     },
   };
@@ -134,22 +134,22 @@ const Index = () => {
   const content = {
     meta: {
       en: {
-        title: "Looptica | Optometry & Audiology Barcelona",
+        title: "looptica | Optometry & Audiology Barcelona",
         description: "Optometry and audiology center in Barcelona Poblenou. Eye exams, glasses, contact lenses, hearing tests, and digital hearing aids.",
         keywords: "optical, audiology, eyeglasses, contactLenses, hearingAids, barcelona, poblenou, audiology barcelona poblenou, hearing aids barcelona poblenou, hearing loss, hearing test barcelona poblenou, clinical audiology barcelona poblenou, hearing center barcelona poblenou"
       },
       es: {
         title: "Óptica en Poblenou, Barcelona | Gafas, Lentillas y Audiología",
-        description: "Óptica y centro auditivo en Poblenou, Barcelona. Gafas graduadas, lentillas, Orto-K, revisión visual y audífonos. Atención personalizada en Looptica.",
+        description: "Óptica y centro auditivo en Poblenou, Barcelona. Gafas graduadas, lentillas, Orto-K, revisión visual y audífonos. Atención personalizada en looptica.",
         keywords: "optica poblenou, looptica, optica barcelona, audiología barcelona poblenou, audífonos barcelona poblenou, pérdida auditiva, prueba auditiva barcelona poblenou, audiología clínica barcelona poblenou, centro auditivo barcelona poblenou"
       },
       ca: {
-        title: "Òptica Barcelona Poblenou | Looptica",
+        title: "Òptica Barcelona Poblenou | looptica",
         description: "Òptica a Poblenou amb revisió visual completa, lentilles, ulleres graduades i tractament Orto-K. Servei personalitzat a Barcelona. Demana hora online.",
         keywords: "optica poblenou, looptica, optica barcelona, audiologia barcelona poblenou, audiòfons barcelona poblenou, pèrdua auditiva, prova auditiva barcelona poblenou, audiologia clínica barcelona poblenou, centre auditiu barcelona poblenou"
       },
       de: {
-        title: "Looptica | Optik & Audiologie Barcelona",
+        title: "looptica | Optik & Audiologie Barcelona",
         description: "Optik- und Audiologie-Zentrum in Barcelona Poblenou. Augenuntersuchungen, Brillen, Kontaktlinsen und Hörgeräte.",
         keywords: "optical, audiology, eyeglasses, contactLenses, hearingAids, barcelona, poblenou, audiologie barcelona poblenou, hörgeräte barcelona poblenou, hörverlust, hörtest barcelona poblenou, klinische audiologie barcelona poblenou, hörzentrum barcelona poblenou"
       }
@@ -209,7 +209,7 @@ const Index = () => {
         {/* <Footer /> Removed Footer component instance */}
         <FloatingWhatsApp 
           phoneNumber="34699594064"
-          accountName="Looptica"
+          accountName="looptica"
           statusMessage={content.whatsapp.statusMessage[language as keyof typeof content.whatsapp.statusMessage]}
           chatMessage={content.whatsapp.chatMessage[language as keyof typeof content.whatsapp.chatMessage]}
           placeholder={content.whatsapp.placeholder[language as keyof typeof content.whatsapp.placeholder]}

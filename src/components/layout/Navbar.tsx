@@ -114,7 +114,7 @@ const Navbar = () => {
         >
           <img 
             src="/images/looptica_logo_text.png" 
-            alt="Looptica" 
+            alt="looptica" 
             className={cn(
               "h-8 md:h-10 transition-all",
               scrolled ? "opacity-100" : "opacity-100"

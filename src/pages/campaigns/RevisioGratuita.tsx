@@ -34,13 +34,13 @@ type Copy = {
 
 const copy: Record<Language, Copy> = {
   ca: {
-    metaTitle: 'Revisió visual gratuïta a Looptica | Poblenou, Barcelona',
+    metaTitle: 'Revisió visual gratuïta a looptica | Poblenou, Barcelona',
     metaDescription:
-      "Fa més de 2 anys que no et revises la vista? A Looptica Poblenou et convidem a una revisió visual gratuïta, sense compromís. Reserva la teva cita.",
+      "Fa més de 2 anys que no et revises la vista? A looptica Poblenou et convidem a una revisió visual gratuïta, sense compromís. Reserva la teva cita.",
     eyebrow: 'Una invitació per a tu',
     h1: 'Fa més de 2 anys que no et revises la vista?',
     intro:
-      'A Looptica volem assegurar-nos que continues veient tan bé com et mereixes. Per això, et convidem a fer una:',
+      'A looptica volem assegurar-nos que continues veient tan bé com et mereixes. Per això, et convidem a fer una:',
     highlight: 'Revisió visual gratuïta',
     cta: 'Reserva la teva cita',
     ctaNote: 'Sense cost i sense compromís.',
@@ -52,7 +52,7 @@ const copy: Record<Language, Copy> = {
       },
       {
         title: 'Sense cap cost',
-        text: 'Aquesta revisió és una invitació de Looptica per tornar a cuidar de la teva visió.',
+        text: 'Aquesta revisió és una invitació de looptica per tornar a cuidar de la teva visió.',
       },
       {
         title: 'Sense compromís',
@@ -65,18 +65,18 @@ const copy: Record<Language, Copy> = {
     ],
     finalTitle: 'Cuida la teva vista.',
     finalText: 'Reserva ara la teva revisió visual gratuïta.',
-    closingText: "T'esperem a Looptica.",
+    closingText: "T'esperem a looptica.",
     closingSignature: 'Irene i Elena',
-    appointmentSubject: 'Revisió visual gratuïta a Looptica',
+    appointmentSubject: 'Revisió visual gratuïta a looptica',
   },
   es: {
-    metaTitle: 'Revisión visual gratuita en Looptica | Poblenou, Barcelona',
+    metaTitle: 'Revisión visual gratuita en looptica | Poblenou, Barcelona',
     metaDescription:
-      '¿Hace más de 2 años que no revisas tu vista? En Looptica Poblenou te invitamos a una revisión visual gratuita, sin compromiso. Reserva tu cita.',
+      '¿Hace más de 2 años que no revisas tu vista? En looptica Poblenou te invitamos a una revisión visual gratuita, sin compromiso. Reserva tu cita.',
     eyebrow: 'Una invitación para ti',
     h1: '¿Hace más de 2 años que no revisas tu vista?',
     intro:
-      'En Looptica queremos asegurarnos de que sigues viendo tan bien como te mereces. Por eso, queremos invitarte a realizar una:',
+      'En looptica queremos asegurarnos de que sigues viendo tan bien como te mereces. Por eso, queremos invitarte a realizar una:',
     highlight: 'Revisión visual gratuita',
     cta: 'Reserva tu cita',
     ctaNote: 'Sin coste y sin compromiso.',
@@ -88,7 +88,7 @@ const copy: Record<Language, Copy> = {
       },
       {
         title: 'Sin ningún coste',
-        text: 'Esta revisión es una invitación de Looptica para volver a cuidar de tu visión.',
+        text: 'Esta revisión es una invitación de looptica para volver a cuidar de tu visión.',
       },
       {
         title: 'Sin compromiso',
@@ -101,18 +101,18 @@ const copy: Record<Language, Copy> = {
     ],
     finalTitle: 'Cuida tu vista.',
     finalText: 'Reserva ahora tu revisión visual gratuita.',
-    closingText: 'Te esperamos en Looptica.',
+    closingText: 'Te esperamos en looptica.',
     closingSignature: 'Irene y Elena',
-    appointmentSubject: 'Revisión visual gratuita en Looptica',
+    appointmentSubject: 'Revisión visual gratuita en looptica',
   },
   en: {
-    metaTitle: 'Free eye exam at Looptica | Poblenou, Barcelona',
+    metaTitle: 'Free eye exam at looptica | Poblenou, Barcelona',
     metaDescription:
-      'Has it been more than 2 years since your last eye exam? Looptica Poblenou invites you to a free eye exam, with no obligation. Book your appointment.',
+      'Has it been more than 2 years since your last eye exam? looptica Poblenou invites you to a free eye exam, with no obligation. Book your appointment.',
     eyebrow: 'An invitation for you',
     h1: 'Has it been more than 2 years since your last eye exam?',
     intro:
-      'At Looptica, we want to make sure you continue to see as well as you deserve. That is why we would like to invite you to a:',
+      'At looptica, we want to make sure you continue to see as well as you deserve. That is why we would like to invite you to a:',
     highlight: 'Free eye exam',
     cta: 'Book your appointment',
     ctaNote: 'Free of charge and with no obligation.',
@@ -124,7 +124,7 @@ const copy: Record<Language, Copy> = {
       },
       {
         title: 'Completely free',
-        text: 'This eye exam is an invitation from Looptica to help you take care of your vision.',
+        text: 'This eye exam is an invitation from looptica to help you take care of your vision.',
       },
       {
         title: 'No obligation',
@@ -137,18 +137,18 @@ const copy: Record<Language, Copy> = {
     ],
     finalTitle: 'Take care of your vision.',
     finalText: 'Book your free eye exam now.',
-    closingText: 'We look forward to seeing you at Looptica.',
+    closingText: 'We look forward to seeing you at looptica.',
     closingSignature: 'Irene & Elena',
-    appointmentSubject: 'Free eye exam at Looptica',
+    appointmentSubject: 'Free eye exam at looptica',
   },
   de: {
-    metaTitle: 'Kostenloser Sehtest bei Looptica | Poblenou, Barcelona',
+    metaTitle: 'Kostenloser Sehtest bei looptica | Poblenou, Barcelona',
     metaDescription:
-      'Ist dein letzter Sehtest mehr als 2 Jahre her? Looptica Poblenou lädt dich zu einem kostenlosen und unverbindlichen Sehtest ein. Termin vereinbaren.',
+      'Ist dein letzter Sehtest mehr als 2 Jahre her? looptica Poblenou lädt dich zu einem kostenlosen und unverbindlichen Sehtest ein. Termin vereinbaren.',
     eyebrow: 'Eine Einladung für dich',
     h1: 'Ist dein letzter Sehtest mehr als 2 Jahre her?',
     intro:
-      'Bei Looptica möchten wir sicherstellen, dass du weiterhin so gut siehst, wie du es verdienst. Deshalb laden wir dich ein zu einem:',
+      'Bei looptica möchten wir sicherstellen, dass du weiterhin so gut siehst, wie du es verdienst. Deshalb laden wir dich ein zu einem:',
     highlight: 'Kostenlosen Sehtest',
     cta: 'Termin vereinbaren',
     ctaNote: 'Kostenlos und unverbindlich.',
@@ -160,7 +160,7 @@ const copy: Record<Language, Copy> = {
       },
       {
         title: 'Kostenlos',
-        text: 'Dieser Sehtest ist eine Einladung von Looptica, deine Sehkraft wieder überprüfen zu lassen.',
+        text: 'Dieser Sehtest ist eine Einladung von looptica, deine Sehkraft wieder überprüfen zu lassen.',
       },
       {
         title: 'Unverbindlich',
@@ -173,9 +173,9 @@ const copy: Record<Language, Copy> = {
     ],
     finalTitle: 'Kümmere dich um deine Sehkraft.',
     finalText: 'Vereinbare jetzt deinen kostenlosen Sehtest.',
-    closingText: 'Wir freuen uns auf dich bei Looptica.',
+    closingText: 'Wir freuen uns auf dich bei looptica.',
     closingSignature: 'Irene & Elena',
-    appointmentSubject: 'Kostenloser Sehtest bei Looptica',
+    appointmentSubject: 'Kostenloser Sehtest bei looptica',
   },
 };
 
@@ -274,13 +274,13 @@ const RevisioGratuita = () => {
               <div className="flex items-center justify-center gap-4 mb-5">
                 <img
                   src="/images/irene.jpg"
-                  alt="Irene, òptica optometrista a Looptica"
+                  alt="Irene, òptica optometrista a looptica"
                   loading="lazy"
                   className="w-20 h-20 rounded-full object-cover"
                 />
                 <img
                   src="/images/_DSC4776.jpg"
-                  alt="Elena, òptica optometrista a Looptica"
+                  alt="Elena, òptica optometrista a looptica"
                   loading="lazy"
                   className="w-20 h-20 rounded-full object-cover"
                 />
@@ -313,7 +313,7 @@ const RevisioGratuita = () => {
 
         <FloatingWhatsApp
           phoneNumber="34699594064"
-          accountName="Looptica"
+          accountName="looptica"
           statusMessage={whatsappTranslations.statusMessage[language as keyof typeof whatsappTranslations.statusMessage]}
           chatMessage={whatsappTranslations.chatMessage[language as keyof typeof whatsappTranslations.chatMessage]}
           placeholder={whatsappTranslations.placeholder[language as keyof typeof whatsappTranslations.placeholder]}

@@ -33,7 +33,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   subtitle,
   image,
   imageMobile,
-  appointmentSubject = 'Looptica Consultation',
+  appointmentSubject = 'looptica Consultation',
   pageTitle, // Use this for <title> tag
   pageDescription, // Use this for meta description
   hideCTA = false,
@@ -97,9 +97,9 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   return (
     <>
       <Helmet>
-        <title>{currentSeoTitle} - Looptica</title>
+        <title>{currentSeoTitle} - looptica</title>
         <meta name="description" content={currentSeoDescription} />
-        <meta property="og:title" content={`${currentSeoTitle} - Looptica`} />
+        <meta property="og:title" content={`${currentSeoTitle} - looptica`} />
         <meta property="og:description" content={currentSeoDescription} />
         <meta property="og:url" content={`https://looptica.com/${language}${basePath === "/" ? "" : basePath}`} />
         <meta property="og:type" content="website" />
@@ -174,7 +174,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
                     <p className="text-gray-600 mb-6">{ctaContent.scheduleDescription[language as keyof typeof ctaContent.scheduleDescription]}</p>
                     <GoogleCalendarButton
                       subject={appointmentSubject}
-                      description={`Appointment for ${title} at Looptica`}
+                      description={`Appointment for ${title} at looptica`}
                       className="mx-auto"
                     >
                       {ctaContent.buttonText[language as keyof typeof ctaContent.buttonText]}
@@ -189,7 +189,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
         
         <FloatingWhatsApp
           phoneNumber="34699594064"
-          accountName="Looptica"
+          accountName="looptica"
           statusMessage={whatsappTranslations.statusMessage[language as keyof typeof whatsappTranslations.statusMessage]}
           chatMessage={whatsappTranslations.chatMessage[language as keyof typeof whatsappTranslations.chatMessage]}
           placeholder={whatsappTranslations.placeholder[language as keyof typeof whatsappTranslations.placeholder]}

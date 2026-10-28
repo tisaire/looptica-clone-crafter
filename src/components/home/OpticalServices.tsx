@@ -129,8 +129,8 @@ const OpticalServices = () => {
             <GoogleCalendarButton 
               size="lg" 
               className="bg-[#55afa9] hover:bg-[#ca6664] text-white"
-              subject="Vision Consultation at Looptica"
-              description="Appointment for optical services at Looptica"
+              subject="Vision Consultation at looptica"
+              description="Appointment for optical services at looptica"
               durationMinutes={30}
             >
               {t('demanaCita')}
