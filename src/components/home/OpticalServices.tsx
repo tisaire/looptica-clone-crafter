@@ -2,8 +2,8 @@ import { zeissPath } from '@/config/zeissSlugs';
 
 import React from 'react';
 import { Eye, Contact, Moon, Monitor, Glasses, BadgeEuro, Sun } from 'lucide-react';
-import zeissHero from '@/assets/zeiss-hero.jpg';
-import computerGlassesHero from '@/assets/computer-glasses-hero.jpg';
+import zeissHeroAsset from '@/assets/cmpal-stage.jpg.asset.json';
+import manAtPcAsset from '@/assets/man-at-pc.webp.asset.json';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -43,7 +43,7 @@ const OpticalServices = () => {
         en: 'Spend long hours in front of a screen? Discover occupational lenses designed for comfortable computer work, reading and intermediate-distance vision.',
         de: 'Verbringen Sie viele Stunden vor dem Bildschirm? Entdecken Sie Arbeitsplatzgläser für komfortables Sehen am Computer, beim Lesen und im Zwischenbereich.',
       } as Record<string, string>)[language],
-      image: computerGlassesHero,
+      image: manAtPcAsset.url,
       path: `/${language}/services/computer-glasses`
     },
     {
@@ -55,7 +55,7 @@ const OpticalServices = () => {
         en: 'Near, intermediate and distance vision with personalised ZEISS lenses.',
         de: 'Nah-, Zwischen- und Fernsicht mit individuellen ZEISS-Gläsern.',
       } as Record<string, string>)[language],
-      image: zeissHero,
+      image: zeissHeroAsset.url,
       path: zeissPath(language)
     },
     {

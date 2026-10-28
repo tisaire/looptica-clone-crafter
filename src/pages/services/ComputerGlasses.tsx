@@ -10,7 +10,7 @@ import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Language } from '@/config/languages';
 const trackEvent = (name: string, params: Record<string, unknown>) => { (window as any).gtag?.('event', name, params); };
-import heroImg from '@/assets/computer-glasses-hero.jpg';
+import heroImgAsset from '@/assets/man-at-pc.webp.asset.json';
 
 type L = Record<Language, string>;
 type LL = Record<Language, string[]>;
@@ -481,7 +481,7 @@ const ComputerGlasses: React.FC = () => {
             </div>
             <div className="relative min-h-[280px] md:min-h-[520px]">
               <img
-                src={heroImg}
+                src={heroImgAsset.url}
                 alt={c.heroAlt[lang]}
                 width={1920}
                 height={1280}
