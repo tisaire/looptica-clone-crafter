@@ -426,7 +426,7 @@ const ComputerGlasses: React.FC = () => {
 
   const BookingBtn = ({ location, label, className = '' }: { location: string; label: string; className?: string }) => (
     <GoogleCalendarButton
-      eventName={location === 'comparison' ? 'computer_glasses_cta_click' : 'computer_glasses_booking_start'}
+     
       subject={c.bookingSubject[lang]}
       className={`!bg-[#55afa9] hover:!bg-[#3d8a85] text-white px-7 py-6 text-sm font-semibold tracking-wide ${className}`}
     >
