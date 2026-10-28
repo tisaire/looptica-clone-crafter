@@ -1049,4 +1049,94 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Optical Services: ZEISS progressive -->
+  <url>
+    <loc>https://looptica.com/ca/services/zeiss-progressive-lenses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/zeiss-progressive-lenses"/>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/es/services/zeiss-progressive-lenses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/zeiss-progressive-lenses"/>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/en/services/zeiss-progressive-lenses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/zeiss-progressive-lenses"/>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/de/services/zeiss-progressive-lenses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/zeiss-progressive-lenses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/zeiss-progressive-lenses"/>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Optical Services: Computer glasses -->
+  <url>
+    <loc>https://looptica.com/ca/services/computer-glasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/computer-glasses"/>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/es/services/computer-glasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/computer-glasses"/>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/en/services/computer-glasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/computer-glasses"/>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/de/services/computer-glasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/computer-glasses"/>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
