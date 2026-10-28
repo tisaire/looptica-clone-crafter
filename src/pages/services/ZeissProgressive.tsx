@@ -1,4 +1,4 @@
-import { zeissPath } from '@/config/zeissSlugs';
+import { zeissPath, ZEISS_SLUGS } from '@/config/zeissSlugs';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
@@ -395,7 +395,7 @@ const ZeissProgressive: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <Breadcrumbs
             items={[{ label: c.crumb[lang] }]}
-            currentPath={'/services/zeiss-progressive-lenses'}
+            currentPath={`/${ZEISS_SLUGS[lang]}`}
           />
         </div>
 
