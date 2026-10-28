@@ -451,10 +451,10 @@ const ZeissProgressive: React.FC = () => {
               <p key={p} className="text-gray-600 text-base md:text-lg mb-4 max-w-3xl">{p}</p>
             ))}
             <Link
-              to={`/${lang}/services/lens-consulting`}
+              to={`/${lang}/services/computer-glasses`}
               className="inline-block text-[#0057b8] font-semibold underline underline-offset-4 hover:no-underline"
             >
-              {({ es: 'Más sobre nuestro asesoramiento de lentes →', ca: 'Més sobre el nostre assessorament de lents →', en: 'More about our lens consulting →', de: 'Mehr über unsere Brillenglasberatung →' } as L)[lang]}
+              {({ es: 'Descubre también las gafas para ordenador →', ca: 'Descobreix també les ulleres per a l’ordinador →', en: 'Also discover our computer glasses →', de: 'Entdecken Sie auch unsere Bildschirmbrillen →' } as L)[lang]}
             </Link>
             <ol className="grid md:grid-cols-3 gap-10 mt-14">
               {c.adviceSteps[lang].map(([t, d]) => (
