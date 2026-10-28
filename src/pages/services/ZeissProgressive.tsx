@@ -517,10 +517,7 @@ const ZeissProgressive: React.FC = () => {
           </div>
         </section>
 
-        <StoreLocation
-          whatsappHref={waHref}
-          onWhatsappClick={onWa('location')}
-        />
+        <StoreLocation />
       </main>
 
       {/* Discreet sticky mobile booking button */}
