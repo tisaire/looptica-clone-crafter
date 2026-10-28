@@ -28,10 +28,10 @@ const EarProtection = () => {
       de: "Schutz Ihres Wertvollsten Sinns",
     },
     intro1: {
-      en: "Hearing loss from noise exposure is permanent but entirely preventable. At Looptica, we specialize in custom-fitted ear protection solutions that effectively shield your ears from harmful noise levels while maintaining sound clarity and comfort.",
-      es: "La pérdida auditiva por exposición al ruido es permanente pero totalmente prevenible. En Looptica, nos especializamos en soluciones de protección auditiva personalizadas que protegen eficazmente sus oídos de niveles de ruido dañinos, manteniendo la claridad del sonido y la comodidad.",
-      ca: "La pèrdua auditiva per exposició al soroll és permanent però totalment prevenible. A Looptica, ens especialitzem en solucions de protecció auditiva personalitzades que protegeixen eficaçment les seves orelles de nivells de soroll nocius, mantenint la claredat del so i la comoditat.",
-      de: "Hörverlust durch Lärmbelastung ist dauerhaft, aber vollständig vermeidbar. Bei Looptica sind wir auf maßgefertigte Gehörschutzlösungen spezialisiert, die Ihre Ohren wirksam vor schädlichen Lärmpegeln schützen und gleichzeitig Klangklarheit und Komfort bewahren.",
+      en: "Hearing loss from noise exposure is permanent but entirely preventable. At looptica, we specialize in custom-fitted ear protection solutions that effectively shield your ears from harmful noise levels while maintaining sound clarity and comfort.",
+      es: "La pérdida auditiva por exposición al ruido es permanente pero totalmente prevenible. En looptica, nos especializamos en soluciones de protección auditiva personalizadas que protegen eficazmente sus oídos de niveles de ruido dañinos, manteniendo la claridad del sonido y la comodidad.",
+      ca: "La pèrdua auditiva per exposició al soroll és permanent però totalment prevenible. A looptica, ens especialitzem en solucions de protecció auditiva personalitzades que protegeixen eficaçment les seves orelles de nivells de soroll nocius, mantenint la claredat del so i la comoditat.",
+      de: "Hörverlust durch Lärmbelastung ist dauerhaft, aber vollständig vermeidbar. Bei looptica sind wir auf maßgefertigte Gehörschutzlösungen spezialisiert, die Ihre Ohren wirksam vor schädlichen Lärmpegeln schützen und gleichzeitig Klangklarheit und Komfort bewahren.",
     },
     intro2: {
       en: "Unlike one-size-fits-all ear protection options, our custom solutions are precisely molded to the unique contours of your ears, providing a perfect seal, superior comfort for extended wear, and targeted protection tailored to your specific activities and environments.",
@@ -286,10 +286,10 @@ const EarProtection = () => {
       de: "Denken Sie daran, dass lärmbedingter Hörverlust kumulativ und irreversibel ist. Die Investition in hochwertigen individuellen Gehörschutz ist jetzt eine Investition in Ihre lebenslange Hörgesundheit und Lebensqualität.",
     },
     appointmentSubject: {
-      en: "Custom Ear Protection Consultation at Looptica",
-      es: "Consulta de Protección Auditiva Personalizada en Looptica",
-      ca: "Consulta de Protecció Auditiva Personalitzada a Looptica",
-      de: "Individueller Gehörschutz-Beratung bei Looptica",
+      en: "Custom Ear Protection Consultation at looptica",
+      es: "Consulta de Protección Auditiva Personalizada en looptica",
+      ca: "Consulta de Protecció Auditiva Personalitzada a looptica",
+      de: "Individueller Gehörschutz-Beratung bei looptica",
     },
   };
   

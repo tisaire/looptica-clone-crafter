@@ -14,19 +14,19 @@ const OrtoK = () => {
   const content = {
     meta: {
       en: {
-        title: "Ortho-K Lenses Barcelona | Overnight Contact Lenses | Looptica",
+        title: "Ortho-K Lenses Barcelona | Overnight Contact Lenses | looptica",
         description: "Ortho-K overnight contact lenses in Barcelona: correct myopia and astigmatism while you sleep. Certified Ortho-K specialists in Poblenou. Free consultation."
       },
       es: {
         title: "Orto-K en Poblenou, Barcelona | Lentes nocturnas",
-        description: "Lentes nocturnas Orto-K en Poblenou, Barcelona: corrige la miopía mientras duermes. Especialistas en ortoqueratología. Consulta sin compromiso en Looptica."
+        description: "Lentes nocturnas Orto-K en Poblenou, Barcelona: corrige la miopía mientras duermes. Especialistas en ortoqueratología. Consulta sin compromiso en looptica."
       },
       ca: {
-        title: "Lents Orto-K Barcelona | Lentilles Nocturnes | Looptica Poblenou",
+        title: "Lents Orto-K Barcelona | Lentilles Nocturnes | looptica Poblenou",
         description: "Lents Orto-K a Barcelona: corregeix miopia i astigmatisme mentre dorms. Especialistes en ortoqueratologia a Poblenou. Consulta i pressupost sense compromís."
       },
       de: {
-        title: "Ortho-K Linsen Barcelona | Nachtlinsen | Looptica Poblenou",
+        title: "Ortho-K Linsen Barcelona | Nachtlinsen | looptica Poblenou",
         description: "Ortho-K Nachtlinsen in Barcelona: Korrektur von Kurzsichtigkeit und Astigmatismus im Schlaf. Zertifizierte Spezialisten in Poblenou. Kostenlose Beratung."
       }
     },
@@ -34,22 +34,22 @@ const OrtoK = () => {
       en: {
         title: "Ortho-K Lenses: Overnight Contact Lenses in Barcelona",
         subtitle: "Correct myopia while you sleep — see clearly all day without glasses or daytime contact lenses.",
-        appointmentSubject: "Orthokeratology Consultation at Looptica"
+        appointmentSubject: "Orthokeratology Consultation at looptica"
       },
       es: {
         title: "Lentillas Orto-K: lentes de contacto nocturnas en Barcelona",
         subtitle: "Corrige la miopía mientras duermes — ve con claridad todo el día sin gafas ni lentillas diurnas.",
-        appointmentSubject: "Consulta de Ortoqueratología en Looptica"
+        appointmentSubject: "Consulta de Ortoqueratología en looptica"
       },
       ca: {
         title: "Lents Orto-K: lentilles de contacte nocturnes a Barcelona",
         subtitle: "Corregeix la miopia mentre dorms — hi veus amb claredat tot el dia sense ulleres ni lentilles diürnes.",
-        appointmentSubject: "Consulta d'Ortoqueratologia a Looptica"
+        appointmentSubject: "Consulta d'Ortoqueratologia a looptica"
       },
       de: {
         title: "Ortho-K Linsen: Nachtkontaktlinsen in Barcelona",
         subtitle: "Korrigieren Sie Kurzsichtigkeit im Schlaf — sehen Sie den ganzen Tag klar ohne Brille oder Tageslinsen.",
-        appointmentSubject: "Orthokeratologie-Beratung bei Looptica"
+        appointmentSubject: "Orthokeratologie-Beratung bei looptica"
       }
     },
     intro: {
@@ -211,15 +211,15 @@ const OrtoK = () => {
     },
     adaptationProcess: {
       title: {
-        en: "The adaptation process at Looptica",
-        es: "El proceso de adaptación en Looptica",
-        ca: "El procés d'adaptació a Looptica"
+        en: "The adaptation process at looptica",
+        es: "El proceso de adaptación en looptica",
+        ca: "El procés d'adaptació a looptica"
       },
       intro: {
-        en: "At Looptica, we have highly specialized optometrists in orthokeratology who have helped numerous patients achieve clear vision without daytime corrections. Our adaptation process includes:",
-        es: "En Looptica, contamos con optometristas altamente especializados en ortoqueratología que han ayudado a numerosos pacientes a conseguir una visión clara sin correcciones diurnas. Nuestro proceso de adaptación incluye:",
-        ca: "A Looptica, comptem amb optometristes altament especialitzats en ortoqueratologia que han ajudat nombrosos pacients a aconseguir una visió clara sense correccions diürnes. El nostre procés d'adaptació inclou:",
-        de: "Bei Looptica haben wir hochspezialisierte Optometristen für Orthokeratologie, die zahlreichen Patienten geholfen haben, klares Sehen ohne Tageskorrekturen zu erreichen. Unser Anpassungsprozess umfasst:"
+        en: "At looptica, we have highly specialized optometrists in orthokeratology who have helped numerous patients achieve clear vision without daytime corrections. Our adaptation process includes:",
+        es: "En looptica, contamos con optometristas altamente especializados en ortoqueratología que han ayudado a numerosos pacientes a conseguir una visión clara sin correcciones diurnas. Nuestro proceso de adaptación incluye:",
+        ca: "A looptica, comptem amb optometristes altament especialitzats en ortoqueratologia que han ajudat nombrosos pacients a aconseguir una visió clara sense correccions diürnes. El nostre procés d'adaptació inclou:",
+        de: "Bei looptica haben wir hochspezialisierte Optometristen für Orthokeratologie, die zahlreichen Patienten geholfen haben, klares Sehen ohne Tageskorrekturen zu erreichen. Unser Anpassungsprozess umfasst:"
       },
       steps: {
         en: [
@@ -397,28 +397,28 @@ const OrtoK = () => {
       },
       items: {
         en: [
-          { q: "How much do Ortho-K lenses cost in Barcelona?", a: "At Looptica we offer a free initial consultation. The Ortho-K programme price depends on your prescription and includes the custom lenses, fitting, follow-up visits and ongoing support during the first year." },
+          { q: "How much do Ortho-K lenses cost in Barcelona?", a: "At looptica we offer a free initial consultation. The Ortho-K programme price depends on your prescription and includes the custom lenses, fitting, follow-up visits and ongoing support during the first year." },
           { q: "Can Ortho-K correct astigmatism?", a: "Yes. Ortho-K corrects mild to moderate myopia (up to -6.00 D), astigmatism up to -1.75 D and mild hyperopia. We check candidacy with a corneal topography during the first visit." },
           { q: "Are overnight contact lenses safe for children?", a: "Ortho-K is especially recommended for children and teenagers with progressive myopia. Clinical studies show it slows myopia progression. In children we work from the ophthalmologist's diagnosis and prescription, and our optometrists supervise the fitting and follow-up." },
           { q: "What is Ortho-K used for?", a: "Ortho-K reshapes the cornea while you sleep so you can see clearly during the day without glasses or daytime contact lenses. The effect is temporary and fully reversible." },
           { q: "Is the Ortho-K effect permanent?", a: "No. The corneal reshaping is reversible. If you stop wearing the lenses, your vision gradually returns to its original prescription within days or weeks." }
         ],
         es: [
-          { q: "¿Cuánto cuestan las lentillas Orto-K en Barcelona?", a: "En Looptica ofrecemos una primera consulta gratuita. El precio del programa Orto-K depende de tu graduación e incluye las lentillas personalizadas, la adaptación, las visitas de seguimiento y el soporte durante el primer año." },
+          { q: "¿Cuánto cuestan las lentillas Orto-K en Barcelona?", a: "En looptica ofrecemos una primera consulta gratuita. El precio del programa Orto-K depende de tu graduación e incluye las lentillas personalizadas, la adaptación, las visitas de seguimiento y el soporte durante el primer año." },
           { q: "¿Las lentillas Orto-K corrigen el astigmatismo?", a: "Sí. La Orto-K corrige miopía leve y moderada (hasta -6,00 D), astigmatismo hasta -1,75 D e hipermetropía leve. Verificamos tu candidatura con una topografía corneal en la primera visita." },
           { q: "¿Son seguras las lentillas nocturnas para niños?", a: "La Orto-K está especialmente recomendada para niños y adolescentes con miopía progresiva. Los estudios clínicos demuestran que frena el avance de la miopía. En niños partimos del diagnóstico y la prescripción del oftalmólogo, y nuestros optometristas supervisan la adaptación y el seguimiento." },
           { q: "¿Para qué sirven las lentillas Orto-K?", a: "Las lentillas Orto-K remodelan la córnea mientras duermes para que veas con nitidez durante el día sin gafas ni lentillas diurnas. El efecto es temporal y completamente reversible." },
           { q: "¿El efecto de la Orto-K es permanente?", a: "No. La remodelación corneal es reversible. Si dejas de usar las lentillas, tu visión vuelve poco a poco a su graduación original en pocos días o semanas." }
         ],
         ca: [
-          { q: "Quant costen les lents Orto-K a Barcelona?", a: "A Looptica oferim una primera consulta gratuïta. El preu del programa Orto-K depèn de la teva graduació i inclou les lents personalitzades, l'adaptació, les visites de seguiment i el suport durant el primer any." },
+          { q: "Quant costen les lents Orto-K a Barcelona?", a: "A looptica oferim una primera consulta gratuïta. El preu del programa Orto-K depèn de la teva graduació i inclou les lents personalitzades, l'adaptació, les visites de seguiment i el suport durant el primer any." },
           { q: "Les lents Orto-K corregeixen l'astigmatisme?", a: "Sí. L'Orto-K corregeix miopia lleu i moderada (fins a -6,00 D), astigmatisme fins a -1,75 D i hipermetropia lleu. Verifiquem la teva candidatura amb una topografia corneal a la primera visita." },
           { q: "Són segures les lentilles nocturnes per a nens?", a: "L'Orto-K està especialment recomanada per a nens i adolescents amb miopia progressiva. Els estudis clínics demostren que frena l'avenç de la miopia. En nens partim del diagnòstic i la prescripció de l'oftalmòleg, i els nostres optometristes supervisen l'adaptació i el seguiment." },
           { q: "Per a què serveixen les lents Orto-K?", a: "Les lents Orto-K remodelen la còrnia mentre dorms perquè hi vegis amb nitidesa durant el dia sense ulleres ni lentilles diürnes. L'efecte és temporal i completament reversible." },
           { q: "L'efecte de l'Orto-K és permanent?", a: "No. La remodelació corneal és reversible. Si deixes d'utilitzar les lents, la teva visió torna a poc a poc a la graduació original en pocs dies o setmanes." }
         ],
         de: [
-          { q: "Was kosten Ortho-K Linsen in Barcelona?", a: "Bei Looptica bieten wir eine kostenlose Erstberatung an. Der Preis des Ortho-K-Programms hängt von Ihrer Sehstärke ab und umfasst die maßgefertigten Linsen, die Anpassung, die Nachsorgetermine und die Unterstützung im ersten Jahr." },
+          { q: "Was kosten Ortho-K Linsen in Barcelona?", a: "Bei looptica bieten wir eine kostenlose Erstberatung an. Der Preis des Ortho-K-Programms hängt von Ihrer Sehstärke ab und umfasst die maßgefertigten Linsen, die Anpassung, die Nachsorgetermine und die Unterstützung im ersten Jahr." },
           { q: "Können Ortho-K Linsen Astigmatismus korrigieren?", a: "Ja. Ortho-K korrigiert leichte bis mittlere Kurzsichtigkeit (bis -6,00 D), Astigmatismus bis -1,75 D und leichte Weitsichtigkeit. Wir prüfen die Eignung mit einer Hornhauttopographie." },
           { q: "Sind Nachtlinsen für Kinder sicher?", a: "Ortho-K wird besonders für Kinder und Jugendliche mit fortschreitender Kurzsichtigkeit empfohlen. Klinische Studien zeigen, dass es das Fortschreiten verlangsamt. Bei Kindern gehen wir von Diagnose und Verordnung des Augenarztes aus; unsere Optometristen begleiten Anpassung und Nachsorge." },
           { q: "Wofür wird Ortho-K verwendet?", a: "Ortho-K formt die Hornhaut im Schlaf um, sodass Sie tagsüber klar sehen — ohne Brille oder Tageskontaktlinsen. Der Effekt ist vorübergehend und vollständig reversibel." },
@@ -454,7 +454,7 @@ const OrtoK = () => {
     ],
     "performedBy": {
       "@type": "Optician",
-      "name": "Looptica",
+      "name": "looptica",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Barcelona",

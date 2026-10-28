@@ -1,7 +1,7 @@
 
 # Images Directory
 
-This directory contains images for the Looptica website:
+This directory contains images for the looptica website:
 
 ## Structure:
 - `/images/audiology/` - Images for audiology services

@@ -32,30 +32,30 @@ const intro = {
   ca: [
     "La cataracta congènita és l'opacitat del cristal·lí d'un nadó. Pot ser present ja al néixer o aparèixer durant els primers mesos de vida, i afecta el desenvolupament normal de la visió.",
     "La decisió de si cal cirurgia i quan fer-la correspon sempre a l'oftalmòleg. Un cop operat l'ull, el bebè necessita una correcció òptica que compensi el cristal·lí extret i permeti que el sistema visual es desenvolupi amb normalitat.",
-    "A Looptica fem aquesta correcció amb lentilles de contacte pediàtriques, adaptades des dels 0 anys, sempre seguint la prescripció i les indicacions de l'oftalmòleg.",
+    "A looptica fem aquesta correcció amb lentilles de contacte pediàtriques, adaptades des dels 0 anys, sempre seguint la prescripció i les indicacions de l'oftalmòleg.",
   ],
   es: [
     "La catarata congénita es la opacidad del cristalino de un bebé. Puede estar presente ya al nacer o aparecer durante los primeros meses de vida, y afecta el desarrollo normal de la visión.",
     "La decisión de si es necesaria cirugía y cuándo realizarla corresponde siempre al oftalmólogo. Una vez operado el ojo, el bebé necesita una corrección óptica que compense el cristalino extraído y permita que el sistema visual se desarrolle con normalidad.",
-    "En Looptica realizamos esa corrección con lentes pediátricas de contacto, adaptadas desde los 0 años, siempre siguiendo la prescripción y las indicaciones del oftalmólogo.",
+    "En looptica realizamos esa corrección con lentes pediátricas de contacto, adaptadas desde los 0 años, siempre siguiendo la prescripción y las indicaciones del oftalmólogo.",
   ],
   en: [
     "Congenital cataract is clouding of the lens in a baby's eye. It may be present at birth or appear during the first months of life, and it affects normal visual development.",
     "The decision whether surgery is needed, and when, is always the ophthalmologist's. Once the eye has been operated on, the baby needs an optical correction that compensates for the removed lens and lets the visual system develop normally.",
-    "At Looptica we provide that correction with paediatric contact lenses, fitted from age 0, always following the ophthalmologist's prescription and instructions.",
+    "At looptica we provide that correction with paediatric contact lenses, fitted from age 0, always following the ophthalmologist's prescription and instructions.",
   ],
   de: [
     "Angeborener Katarakt ist eine Trübung der Augenlinse eines Babys. Sie kann bereits bei der Geburt vorhanden sein oder sich in den ersten Lebensmonaten entwickeln und beeinträchtigt die normale Sehentwicklung.",
     "Die Entscheidung, ob eine Operation nötig ist und wann sie erfolgt, liegt immer beim Augenarzt. Nach dem Eingriff braucht das Baby eine optische Korrektion, die die entfernte Linse ausgleicht und dem Sehsystem eine normale Entwicklung ermöglicht.",
-    "Bei Looptica übernehmen wir diese Korrektion mit pädiatrischen Kontaktlinsen, ab 0 Jahren angepasst, immer nach augenärztlicher Verordnung und Anweisung.",
+    "Bei looptica übernehmen wir diese Korrektion mit pädiatrischen Kontaktlinsen, ab 0 Jahren angepasst, immer nach augenärztlicher Verordnung und Anweisung.",
   ],
 };
 
 const whatWeDoTitle = {
-  ca: "Què fem a Looptica",
-  es: "Qué hacemos en Looptica",
-  en: "What we do at Looptica",
-  de: "Was wir bei Looptica tun",
+  ca: "Què fem a looptica",
+  es: "Qué hacemos en looptica",
+  en: "What we do at looptica",
+  de: "Was wir bei looptica tun",
 };
 
 const whatWeDo = {
@@ -135,28 +135,28 @@ const faqTitle = {
 const faqs = {
   ca: [
     { q: "Què és la cataracta congènita?", a: "És l'opacitat del cristal·lí d'un nadó. Pot ser congènita (present al néixer) o desenvolupar-se durant els primers mesos. La detecció i el tractament els gestiona l'oftalmòleg." },
-    { q: "Qui decideix si cal cirurgia?", a: "La cirurgia la decideix i la realitza l'oftalmòleg. A Looptica entrem després, quan cal adaptar la correcció òptica amb lentilles pediàtriques." },
+    { q: "Qui decideix si cal cirurgia?", a: "La cirurgia la decideix i la realitza l'oftalmòleg. A looptica entrem després, quan cal adaptar la correcció òptica amb lentilles pediàtriques." },
     { q: "Des de quina edat podeu adaptar lentilles?", a: "Des dels 0 anys, sempre amb prescripció i indicació de l'oftalmòleg." },
     { q: "Quin seguiment necessita un bebè amb lentilles?", a: "Un seguiment freqüent, ja que l'ull del nadó creix i els paràmetres canvien. Treballem coordinadament amb l'oftalmòleg per revisar i ajustar la lentilla." },
     { q: "Els pares poden aprendre a posar la lentilla?", a: "Sí. Dediquem temps a ensenyar als pares la tècnica de col·locació, retirada i neteja amb la màxima seguretat." },
   ],
   es: [
     { q: "¿Qué es la catarata congénita?", a: "Es la opacidad del cristalino de un bebé. Puede ser congénita (presente al nacer) o desarrollarse durante los primeros meses. La detección y el tratamiento los gestiona el oftalmólogo." },
-    { q: "¿Quién decide si es necesaria cirugía?", a: "La cirugía la decide y la realiza el oftalmólogo. En Looptica entramos después, cuando hay que adaptar la corrección óptica con lentes pediátricas." },
+    { q: "¿Quién decide si es necesaria cirugía?", a: "La cirugía la decide y la realiza el oftalmólogo. En looptica entramos después, cuando hay que adaptar la corrección óptica con lentes pediátricas." },
     { q: "¿Desde qué edad podéis adaptar lentillas?", a: "Desde los 0 años, siempre con prescripción e indicación del oftalmólogo." },
     { q: "¿Qué seguimiento necesita un bebé con lentillas?", a: "Un seguimiento frecuente, ya que el ojo del bebé crece y los parámetros cambian. Trabajamos coordinadamente con el oftalmólogo para revisar y ajustar la lentilla." },
     { q: "¿Los padres pueden aprender a poner la lentilla?", a: "Sí. Dedicamos tiempo a enseñar a los padres la técnica de colocación, retirada y limpieza con la máxima seguridad." },
   ],
   en: [
     { q: "What is congenital cataract?", a: "It is clouding of the lens in a baby's eye. It may be present at birth or develop during the first months. Detection and treatment are managed by the ophthalmologist." },
-    { q: "Who decides if surgery is needed?", a: "The ophthalmologist decides and performs the surgery. Looptica comes in afterwards, when the optical correction with paediatric lenses needs to be fitted." },
+    { q: "Who decides if surgery is needed?", a: "The ophthalmologist decides and performs the surgery. looptica comes in afterwards, when the optical correction with paediatric lenses needs to be fitted." },
     { q: "From what age can you fit contact lenses?", a: "From age 0, always on the ophthalmologist's prescription and indication." },
     { q: "What follow-up does a baby with lenses need?", a: "Frequent follow-up, because a baby's eye grows and the parameters change. We work in coordination with the ophthalmologist to review and adjust the lens." },
     { q: "Can parents learn to put the lens in?", a: "Yes. We take time to teach parents how to insert, remove and clean the lens as safely as possible." },
   ],
   de: [
     { q: "Was ist angeborener Katarakt?", a: "Es ist eine Trübung der Augenlinse eines Babys. Sie kann bei der Geburt vorhanden sein oder sich in den ersten Monaten entwickeln. Diagnose und Behandlung liegen beim Augenarzt." },
-    { q: "Wer entscheidet, ob eine Operation nötig ist?", a: "Der Augenarzt entscheidet und führt die Operation durch. Looptica kommt danach ins Spiel, wenn die optische Korrektion mit pädiatrischen Linsen angepasst werden muss." },
+    { q: "Wer entscheidet, ob eine Operation nötig ist?", a: "Der Augenarzt entscheidet und führt die Operation durch. looptica kommt danach ins Spiel, wenn die optische Korrektion mit pädiatrischen Linsen angepasst werden muss." },
     { q: "Ab welchem Alter können Sie Kontaktlinsen anpassen?", a: "Ab 0 Jahren, immer auf Verordnung und Anweisung des Augenarztes." },
     { q: "Welche Nachbetreuung braucht ein Baby mit Linsen?", a: "Häufige Kontrollen, denn das Auge eines Babys wächst und die Werte ändern sich. Wir arbeiten mit dem Augenarzt zusammen, um die Linse zu überprüfen und anzupassen." },
     { q: "Können die Eltern lernen, die Linse einzusetzen?", a: "Ja. Wir nehmen uns Zeit, den Eltern das sichere Einsetzen, Entfernen und Reinigen der Linse beizubringen." },
@@ -195,7 +195,7 @@ const CatarataCongenita = () => {
         image={heroAsset.url}
         pageTitle={pageTitle}
         pageDescription={pageDescription}
-        appointmentSubject="Cataracta congènita i lentilles pediàtriques a Looptica"
+        appointmentSubject="Cataracta congènita i lentilles pediàtriques a looptica"
         breadcrumbParents={[{ label: parentCrumb[lang], path: '/visio-infantil' }]}
       >
         <ScrollReveal>

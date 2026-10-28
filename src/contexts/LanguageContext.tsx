@@ -85,10 +85,10 @@ export const translations: Translations = {
   },
   // Hero
   premiumEyewear: {
-    en: 'Looptica',
-    es: 'Looptica',
-    ca: 'Looptica',
-    de: 'Looptica',
+    en: 'looptica',
+    es: 'looptica',
+    ca: 'looptica',
+    de: 'looptica',
   },
   heroTitle: {
     en: 'Your visual and auditory solution',
@@ -122,10 +122,10 @@ export const translations: Translations = {
     de: 'Lösungen für Ihre Seh- und Hörgesundheit',
   },
   productsDescription: {
-    en: 'At Looptica you will find everything you need to take care of your vision and hearing with high quality products and advice from our optical and audiology specialists.',
-    es: 'En Looptica encontrarás todo lo que necesitas para cuidar tu visión y audición con productos y asesoramiento de alta calidad de nuestros especialistas en óptica y audiología.',
-    ca: 'A Looptica trobaràs tot el que necessites per cuidar la teva visió i audició amb productes i assessorament d\'alta qualitat dels nostres especialistes en òptica i audiologia.',
-    de: 'Bei Looptica finden Sie alles, was Sie für die Pflege Ihres Sehens und Hörens benötigen, mit hochwertigen Produkten und Beratung unserer Optik- und Audiologie-Spezialisten.',
+    en: 'At looptica you will find everything you need to take care of your vision and hearing with high quality products and advice from our optical and audiology specialists.',
+    es: 'En looptica encontrarás todo lo que necesitas para cuidar tu visión y audición con productos y asesoramiento de alta calidad de nuestros especialistas en óptica y audiología.',
+    ca: 'A looptica trobaràs tot el que necessites per cuidar la teva visió i audició amb productes i assessorament d\'alta qualitat dels nostres especialistes en òptica i audiologia.',
+    de: 'Bei looptica finden Sie alles, was Sie für die Pflege Ihres Sehens und Hörens benötigen, mit hochwertigen Produkten und Beratung unserer Optik- und Audiologie-Spezialisten.',
   },
   addToCart: {
     en: 'More Information',

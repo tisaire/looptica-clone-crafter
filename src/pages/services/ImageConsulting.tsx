@@ -13,42 +13,42 @@ const ImageConsulting = () => {
   const content = {
     meta: {
       en: {
-        title: "Image Consulting Services | Looptica Barcelona",
-        description: "Professional image consulting for eyewear at Looptica Barcelona. Find frames that enhance your appearance and complement your personal style."
+        title: "Image Consulting Services | looptica Barcelona",
+        description: "Professional image consulting for eyewear at looptica Barcelona. Find frames that enhance your appearance and complement your personal style."
       },
       es: {
-        title: "Servicios de Asesoramiento de Imagen | Looptica Barcelona",
-        description: "Asesoramiento de imagen profesional para gafas en Looptica Barcelona. Encuentra monturas que realcen tu apariencia y complementen tu estilo personal."
+        title: "Servicios de Asesoramiento de Imagen | looptica Barcelona",
+        description: "Asesoramiento de imagen profesional para gafas en looptica Barcelona. Encuentra monturas que realcen tu apariencia y complementen tu estilo personal."
       },
       ca: {
-        title: "Serveis d'Assessorament d'Imatge | Looptica Barcelona",
-        description: "Assessorament d'imatge professional per a ulleres a Looptica Barcelona. Troba muntures que realcin la teva aparença i complementin el teu estil personal."
+        title: "Serveis d'Assessorament d'Imatge | looptica Barcelona",
+        description: "Assessorament d'imatge professional per a ulleres a looptica Barcelona. Troba muntures que realcin la teva aparença i complementin el teu estil personal."
       },
       de: {
-        title: "Imageberatung für Brillen | Looptica Barcelona",
-        description: "Professionelle Imageberatung für Brillen bei Looptica Barcelona. Finden Sie Fassungen, die Ihr Aussehen verbessern und Ihren persönlichen Stil ergänzen."
+        title: "Imageberatung für Brillen | looptica Barcelona",
+        description: "Professionelle Imageberatung für Brillen bei looptica Barcelona. Finden Sie Fassungen, die Ihr Aussehen verbessern und Ihren persönlichen Stil ergänzen."
       }
     },
     hero: {
       en: {
         title: "Image Consulting",
         subtitle: "Find the style that best suits your personality",
-        appointmentSubject: "Image Consulting at Looptica"
+        appointmentSubject: "Image Consulting at looptica"
       },
       es: {
         title: "Asesoramiento de Imagen",
         subtitle: "Encuentra el estilo que mejor se adapta a tu personalidad",
-        appointmentSubject: "Asesoramiento de Imagen en Looptica"
+        appointmentSubject: "Asesoramiento de Imagen en looptica"
       },
       ca: {
         title: "Assessorament d'Imatge",
         subtitle: "Troba l'estil que millor s'adapta a la teva personalitat",
-        appointmentSubject: "Assessorament d'Imatge a Looptica"
+        appointmentSubject: "Assessorament d'Imatge a looptica"
       },
       de: {
         title: "Imageberatung",
         subtitle: "Finden Sie den Stil, der am besten zu Ihrer Persönlichkeit passt",
-        appointmentSubject: "Imageberatung bei Looptica"
+        appointmentSubject: "Imageberatung bei looptica"
       }
     },
     serviceIntro: {
@@ -60,19 +60,19 @@ const ImageConsulting = () => {
       },
       paragraphs: {
         en: [
-          "At Looptica, we understand that eyeglasses are more than just a visual corrective tool; they're an essential part of your personal image. Our image consulting service is designed to help you find the perfect eyewear that not only enhances your vision but also complements your personal style, face shape, and lifestyle.",
+          "At looptica, we understand that eyeglasses are more than just a visual corrective tool; they're an essential part of your personal image. Our image consulting service is designed to help you find the perfect eyewear that not only enhances your vision but also complements your personal style, face shape, and lifestyle.",
           "Our style consultants are specially trained to provide expert guidance on frame selection, combining their knowledge of current trends with a deep understanding of how different eyewear styles suit different face types and personalities."
         ],
         es: [
-          "En Looptica, entendemos que las gafas son más que una herramienta correctiva visual; son una parte esencial de tu imagen personal. Nuestro servicio de asesoramiento de imagen está diseñado para ayudarte a encontrar las gafas perfectas que no solo mejoren tu visión, sino que también complementen tu estilo personal, la forma de tu rostro y tu estilo de vida.",
+          "En looptica, entendemos que las gafas son más que una herramienta correctiva visual; son una parte esencial de tu imagen personal. Nuestro servicio de asesoramiento de imagen está diseñado para ayudarte a encontrar las gafas perfectas que no solo mejoren tu visión, sino que también complementen tu estilo personal, la forma de tu rostro y tu estilo de vida.",
           "Nuestros consultores de estilo están especialmente formados para ofrecer orientación experta sobre la selección de monturas, combinando su conocimiento de las tendencias actuales con una comprensión profunda de cómo diferentes estilos de gafas se adaptan a diferentes tipos de rostros y personalidades."
         ],
         ca: [
-          "A Looptica, entenem que les ulleres són més que una eina correctiva visual; són una part essencial de la teva imatge personal. El nostre servei d'assessorament d'imatge està dissenyat per ajudar-te a trobar les ulleres perfectes que no només millorin la teva visió, sinó que també complementin el teu estil personal, la forma del teu rostre i el teu estil de vida.",
+          "A looptica, entenem que les ulleres són més que una eina correctiva visual; són una part essencial de la teva imatge personal. El nostre servei d'assessorament d'imatge està dissenyat per ajudar-te a trobar les ulleres perfectes que no només millorin la teva visió, sinó que també complementin el teu estil personal, la forma del teu rostre i el teu estil de vida.",
           "Els nostres consultors d'estil estan especialment formats per oferir orientació experta sobre la selecció de muntures, combinant el seu coneixement de les tendències actuals amb una comprensió profunda de com diferents estils de ulleres s'adapten a diferents tipus de rostres i personalitats."
         ],
         de: [
-          "Bei Looptica verstehen wir, dass Brillen mehr als nur ein visuelles Korrekturinstrument sind; sie sind ein wesentlicher Teil Ihres persönlichen Images. Unser Imageberatungsservice ist darauf ausgelegt, Ihnen dabei zu helfen, die perfekte Brille zu finden, die nicht nur Ihr Sehvermögen verbessert, sondern auch Ihren persönlichen Stil, Ihre Gesichtsform und Ihren Lebensstil ergänzt.",
+          "Bei looptica verstehen wir, dass Brillen mehr als nur ein visuelles Korrekturinstrument sind; sie sind ein wesentlicher Teil Ihres persönlichen Images. Unser Imageberatungsservice ist darauf ausgelegt, Ihnen dabei zu helfen, die perfekte Brille zu finden, die nicht nur Ihr Sehvermögen verbessert, sondern auch Ihren persönlichen Stil, Ihre Gesichtsform und Ihren Lebensstil ergänzt.",
           "Unsere Stilberater sind speziell geschult, um fachkundige Beratung bei der Brillenfassung zu bieten, wobei sie ihr Wissen über aktuelle Trends mit einem tiefen Verständnis dafür kombinieren, wie verschiedene Brillenstile zu verschiedenen Gesichtstypen und Persönlichkeiten passen."
         ]
       }
@@ -221,10 +221,10 @@ const ImageConsulting = () => {
         de: "Unsere Designer-Kollektionen"
       },
       intro: {
-        en: "At Looptica, we pride ourselves on offering an exceptional selection of frames from prestigious designers and exclusive independent brands. Our collection includes:",
-        es: "En Looptica, nos enorgullecemos de ofrecer una selección excepcional de monturas de diseñadores prestigiosos y marcas independientes exclusivas. Nuestra colección incluye:",
-        ca: "A Looptica, ens enorgullim d'oferir una selecció excepcional de muntures de dissenyadors prestigiosos i marques independents exclusives. La nostra col·lecció inclou:",
-        de: "Bei Looptica sind wir stolz darauf, eine außergewöhnliche Auswahl an Fassungen von renommierten Designern und exklusiven unabhängigen Marken zu bieten. Unsere Kollektion umfasst:"
+        en: "At looptica, we pride ourselves on offering an exceptional selection of frames from prestigious designers and exclusive independent brands. Our collection includes:",
+        es: "En looptica, nos enorgullecemos de ofrecer una selección excepcional de monturas de diseñadores prestigiosos y marcas independientes exclusivas. Nuestra colección incluye:",
+        ca: "A looptica, ens enorgullim d'oferir una selecció excepcional de muntures de dissenyadors prestigiosos i marques independents exclusives. La nostra col·lecció inclou:",
+        de: "Bei looptica sind wir stolz darauf, eine außergewöhnliche Auswahl an Fassungen von renommierten Designern und exklusiven unabhängigen Marken zu bieten. Unsere Kollektion umfasst:"
       },
       brands: ["Etnia Barcelona", "Woodys Barcelona", "Xavier Garcia", "Kaleos", "Talla Eyewear", "Garrett Leight", "Moscot", "Ray-Ban", "Tom Ford"],
       conclusion: {

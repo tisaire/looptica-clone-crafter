@@ -30,14 +30,14 @@ const StoreLocation = () => {
                 allowFullScreen 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Looptica 3D Tour"
+                title="looptica 3D Tour"
                 className="w-full h-full"
               ></iframe>
             </div>
           </ScrollReveal>
           
           <ScrollReveal origin="right" delay={300} className="bg-white p-8 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold mb-6 text-gray-900">Looptica</h3>
+            <h3 className="text-2xl font-bold mb-6 text-gray-900">looptica</h3>
             
             <div className="space-y-6">
               <div className="flex items-start">

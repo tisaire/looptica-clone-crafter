@@ -11,10 +11,10 @@ const LentsContacte = () => {
   
   const content = {
     seoTitle: {
-      en: "Contact Lenses in Barcelona | Poblenou Fitting | Looptica",
-      es: "Lentillas en Barcelona | Adaptación en Poblenou | Looptica",
-      ca: "Lents de contacte a Barcelona | Lentilles a Poblenou | Looptica",
-      de: "Kontaktlinsen in Barcelona | Anpassung in Poblenou | Looptica",
+      en: "Contact Lenses in Barcelona | Poblenou Fitting | looptica",
+      es: "Lentillas en Barcelona | Adaptación en Poblenou | looptica",
+      ca: "Lents de contacte a Barcelona | Lentilles a Poblenou | looptica",
+      de: "Kontaktlinsen in Barcelona | Anpassung in Poblenou | looptica",
     },
     seoDescription: {
       en: "Professional contact lens fitting in Barcelona Poblenou: daily, toric, multifocal and specialty lenses, with a full eye exam by registered optometrists. Book online.",
@@ -35,10 +35,10 @@ const LentsContacte = () => {
       de: "Personalisierte Lösungen für jeden Lebensstil"
     },
     appointmentSubject: {
-      en: "Contact Lens Fitting at Looptica",
-      es: "Adaptación de Lentes de Contacto en Looptica",
-      ca: "Adaptació de Lents de Contacte a Looptica",
-      de: "Kontaktlinsenanpassung bei Looptica"
+      en: "Contact Lens Fitting at looptica",
+      es: "Adaptación de Lentes de Contacto en looptica",
+      ca: "Adaptació de Lents de Contacte a looptica",
+      de: "Kontaktlinsenanpassung bei looptica"
     },
     solutionsTitle: {
       en: "Our contact lens solutions",
@@ -47,10 +47,10 @@ const LentsContacte = () => {
       de: "Unsere Kontaktlinsenlösungen"
     },
     solutionsP1: {
-      en: "At Looptica, we specialize in personalized contact lens fitting to meet the unique needs of each patient. We know that contact lenses are not just an alternative to glasses; for many of our clients, they are an essential tool that improves their quality of life.",
-      es: "En Looptica, nos especializamos en la adaptación personalizada de lentes de contacto para satisfacer las necesidades únicas de cada paciente. Sabemos que las lentes de contacto no son solo una alternativa a las gafas; para muchos de nuestros clientes, son una herramienta esencial que mejora su calidad de vida.",
-      ca: "A Looptica, ens especialitzem en l'adaptació personalitzada de lents de contacte per satisfer les necessitats úniques de cada pacient. Sabem que les lents de contacte no són només una alternativa a les ulleres; per a molts dels nostres clients, són una eina essencial que millora la seva qualitat de vida.",
-      de: "Bei Looptica spezialisieren wir uns auf die personalisierte Kontaktlinsenanpassung, um die einzigartigen Bedürfnisse jedes Patienten zu erfüllen. Wir wissen, dass Kontaktlinsen nicht nur eine Alternative zur Brille sind; für viele unserer Kunden sind sie ein wesentliches Werkzeug, das ihre Lebensqualität verbessert."
+      en: "At looptica, we specialize in personalized contact lens fitting to meet the unique needs of each patient. We know that contact lenses are not just an alternative to glasses; for many of our clients, they are an essential tool that improves their quality of life.",
+      es: "En looptica, nos especializamos en la adaptación personalizada de lentes de contacto para satisfacer las necesidades únicas de cada paciente. Sabemos que las lentes de contacto no son solo una alternativa a las gafas; para muchos de nuestros clientes, son una herramienta esencial que mejora su calidad de vida.",
+      ca: "A looptica, ens especialitzem en l'adaptació personalitzada de lents de contacte per satisfer les necessitats úniques de cada pacient. Sabem que les lents de contacte no són només una alternativa a les ulleres; per a molts dels nostres clients, són una eina essencial que millora la seva qualitat de vida.",
+      de: "Bei looptica spezialisieren wir uns auf die personalisierte Kontaktlinsenanpassung, um die einzigartigen Bedürfnisse jedes Patienten zu erfüllen. Wir wissen, dass Kontaktlinsen nicht nur eine Alternative zur Brille sind; für viele unserer Kunden sind sie ein wesentliches Werkzeug, das ihre Lebensqualität verbessert."
     },
     solutionsP2: {
       en: "Our team of highly qualified optometrists uses cutting-edge technology and their specialized knowledge to ensure that you receive the most suitable contact lenses for your lifestyle, personal preferences, and eye health.",
@@ -197,10 +197,10 @@ const LentsContacte = () => {
       de: "Kontaktlinsenpflege"
     },
     lensCareP1: {
-      en: "Proper care of contact lenses is essential to maintain eye health and prevent infections. At Looptica, we provide detailed instructions on how to handle, clean, and store your contact lenses. In addition, we offer all the cleaning and maintenance products you will need.",
-      es: "El cuidado adecuado de las lentes de contacto es esencial para mantener la salud ocular y prevenir infecciones. En Looptica, proporcionamos instrucciones detalladas sobre cómo manipular, limpiar y almacenar sus lentes de contacto. Además, ofrecemos todos los productos de limpieza y mantenimiento que necesitará.",
-      ca: "La cura adequada de les lents de contacte és essencial per mantenir la salut ocular i prevenir infeccions. A Looptica, proporcionem instruccions detallades sobre com manipular, netejar i emmagatzemar les seves lents de contacte. A més, oferim tots els productes de neteja i manteniment que necessitarà.",
-      de: "Die richtige Pflege von Kontaktlinsen ist unerlässlich, um die Augengesundheit zu erhalten und Infektionen vorzubeugen. Bei Looptica geben wir Ihnen detaillierte Anweisungen zur Handhabung, Reinigung und Aufbewahrung Ihrer Kontaktlinsen. Darüber hinaus bieten wir alle Reinigungs- und Pflegeprodukte an, die Sie benötigen."
+      en: "Proper care of contact lenses is essential to maintain eye health and prevent infections. At looptica, we provide detailed instructions on how to handle, clean, and store your contact lenses. In addition, we offer all the cleaning and maintenance products you will need.",
+      es: "El cuidado adecuado de las lentes de contacto es esencial para mantener la salud ocular y prevenir infecciones. En looptica, proporcionamos instrucciones detalladas sobre cómo manipular, limpiar y almacenar sus lentes de contacto. Además, ofrecemos todos los productos de limpieza y mantenimiento que necesitará.",
+      ca: "La cura adequada de les lents de contacte és essencial per mantenir la salut ocular i prevenir infeccions. A looptica, proporcionem instruccions detallades sobre com manipular, netejar i emmagatzemar les seves lents de contacte. A més, oferim tots els productes de neteja i manteniment que necessitarà.",
+      de: "Die richtige Pflege von Kontaktlinsen ist unerlässlich, um die Augengesundheit zu erhalten und Infektionen vorzubeugen. Bei looptica geben wir Ihnen detaillierte Anweisungen zur Handhabung, Reinigung und Aufbewahrung Ihrer Kontaktlinsen. Darüber hinaus bieten wir alle Reinigungs- und Pflegeprodukte an, die Sie benötigen."
     },
     congenitalCataract: {
       title: {
@@ -291,10 +291,10 @@ const LentsContacte = () => {
         image="/images/irene.jpg"
         role={{ en: 'Registered Optometrist — Col. 17739', es: 'Óptica Optometrista Colegiada — Col. 17739', ca: 'Òptica Optometrista Col·legiada — Col. 17739', de: 'Zugelassene Optometristin — Col. 17739' }}
         bio={{
-          en: 'Irene carries out every contact lens fitting at Looptica Poblenou: eye exam, choice of lens, trial period and follow-up visits until you see and feel comfortable.',
-          es: 'Irene realiza cada adaptación de lentillas en Looptica Poblenou: revisión visual, elección de la lente, periodo de prueba y revisiones de seguimiento hasta que veas bien y estés cómodo.',
-          ca: "La Irene fa cada adaptació de lents de contacte a Looptica Poblenou: revisió visual, elecció de la lent, període de prova i revisions de seguiment fins que hi vegis bé i estiguis còmode.",
-          de: 'Irene übernimmt jede Kontaktlinsenanpassung bei Looptica Poblenou: Sehprüfung, Linsenwahl, Probephase und Nachkontrollen, bis Sie gut und bequem sehen.'
+          en: 'Irene carries out every contact lens fitting at looptica Poblenou: eye exam, choice of lens, trial period and follow-up visits until you see and feel comfortable.',
+          es: 'Irene realiza cada adaptación de lentillas en looptica Poblenou: revisión visual, elección de la lente, periodo de prueba y revisiones de seguimiento hasta que veas bien y estés cómodo.',
+          ca: "La Irene fa cada adaptació de lents de contacte a looptica Poblenou: revisió visual, elecció de la lent, període de prova i revisions de seguiment fins que hi vegis bé i estiguis còmode.",
+          de: 'Irene übernimmt jede Kontaktlinsenanpassung bei looptica Poblenou: Sehprüfung, Linsenwahl, Probephase und Nachkontrollen, bis Sie gut und bequem sehen.'
         }}
       />
 
@@ -446,10 +446,10 @@ const LentsContacte = () => {
           </ul>
           
           <p className="mt-4">
-            {language === 'en' ? 'At Looptica, our team of specialists has experience in the adaptation of contact lenses for children with congenital cataracts. We work closely with ophthalmologists to provide the best optical solution for each case.' : 
-             language === 'es' ? 'En Looptica, nuestro equipo de especialistas tiene experiencia en la adaptación de lentes de contacto para niños con cataratas congénitas. Trabajamos estrechamente con oftalmólogos para proporcionar la mejor solución óptica para cada caso.' : 
-             language === 'ca' ? 'A Looptica, el nostre equip d\'especialistes té experiència en l\'adaptació de lents de contacte per a nens amb cataractes congènites. Treballem estretament amb oftalmòlegs per proporcionar la millor solució òptica per a cada cas.' :
-             'Bei Looptica verfügt unser Spezialistenteam über Erfahrung in der Anpassung von Kontaktlinsen für Kinder mit angeborenen Katarakten. Wir arbeiten eng mit Augenärzten zusammen, um für jeden Fall die beste optische Lösung zu bieten.'}
+            {language === 'en' ? 'At looptica, our team of specialists has experience in the adaptation of contact lenses for children with congenital cataracts. We work closely with ophthalmologists to provide the best optical solution for each case.' : 
+             language === 'es' ? 'En looptica, nuestro equipo de especialistas tiene experiencia en la adaptación de lentes de contacto para niños con cataratas congénitas. Trabajamos estrechamente con oftalmólogos para proporcionar la mejor solución óptica para cada caso.' : 
+             language === 'ca' ? 'A looptica, el nostre equip d\'especialistes té experiència en l\'adaptació de lents de contacte per a nens amb cataractes congènites. Treballem estretament amb oftalmòlegs per proporcionar la millor solució òptica per a cada cas.' :
+             'Bei looptica verfügt unser Spezialistenteam über Erfahrung in der Anpassung von Kontaktlinsen für Kinder mit angeborenen Katarakten. Wir arbeiten eng mit Augenärzten zusammen, um für jeden Fall die beste optische Lösung zu bieten.'}
           </p>
           <p className="mt-4">
             <Link to={`/${language}/visio-infantil/catarata-congenita-barcelona`} className="text-[#55afa9] underline font-medium">

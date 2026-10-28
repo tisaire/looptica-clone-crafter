@@ -23,10 +23,10 @@ const HearingTest = () => {
       de: 'Umfassende audiologische Untersuchungen durch erfahrene Spezialisten in unserem Hörzentrum Barcelona Poblenou',
     },
     appointmentSubject: {
-      en: 'Hearing Test at Looptica Barcelona Poblenou Audiology Center',
-      es: 'Prueba Auditiva en Looptica Centro de Audiología Barcelona Poblenou',
-      ca: 'Prova Auditiva a Looptica Centre d\'Audiologia Barcelona Poblenou',
-      de: 'Hörtest im Looptica Audiologiezentrum Barcelona Poblenou',
+      en: 'Hearing Test at looptica Barcelona Poblenou Audiology Center',
+      es: 'Prueba Auditiva en looptica Centro de Audiología Barcelona Poblenou',
+      ca: 'Prova Auditiva a looptica Centre d\'Audiologia Barcelona Poblenou',
+      de: 'Hörtest im looptica Audiologiezentrum Barcelona Poblenou',
     },
     understanding: {
       en: 'Understanding Our Clinical Audiology Tests',
@@ -35,10 +35,10 @@ const HearingTest = () => {
       de: 'Unsere Klinischen Audiologietests Verstehen',
     },
     understandingP1: {
-      en: 'At Looptica Barcelona Poblenou Audiology Center, we provide comprehensive hearing evaluations conducted by our experienced audiologists. Our tests go beyond basic screenings to thoroughly assess your hearing ability across different frequencies and sound levels, helping to identify any potential hearing loss and their causes.',
-      es: 'En Looptica Centro de Audiología Barcelona Poblenou, proporcionamos evaluaciones auditivas completas realizadas por nuestros audiólogos con experiencia. Nuestras pruebas van más allá de los exámenes básicos para evaluar minuciosamente su capacidad auditiva en diferentes frecuencias y niveles de sonido, ayudando a identificar posibles problemas de pérdida auditiva y sus causas.',
-      ca: 'A Looptica Centre d\'Audiologia Barcelona Poblenou, proporcionem avaluacions auditives completes realitzades pels nostres audiòlegs amb experiència. Les nostres proves van més enllà dels exàmens bàsics per avaluar minuciosament la seva capacitat auditiva en diferents freqüències i nivells de so, ajudant a identificar possibles problemes de pèrdua auditiva i les seves causes.',
-      de: 'Im Looptica Barcelona Poblenou Audiologiezentrum bieten wir umfassende Höruntersuchungen an, die von unseren erfahrenen Audiologen durchgeführt werden. Unsere Tests gehen über grundlegende Screenings hinaus, um Ihre Hörfähigkeit über verschiedene Frequenzen und Schallpegel hinweg gründlich zu bewerten und dabei mögliche Hörverluste und deren Ursachen zu identifizieren.',
+      en: 'At looptica Barcelona Poblenou Audiology Center, we provide comprehensive hearing evaluations conducted by our experienced audiologists. Our tests go beyond basic screenings to thoroughly assess your hearing ability across different frequencies and sound levels, helping to identify any potential hearing loss and their causes.',
+      es: 'En looptica Centro de Audiología Barcelona Poblenou, proporcionamos evaluaciones auditivas completas realizadas por nuestros audiólogos con experiencia. Nuestras pruebas van más allá de los exámenes básicos para evaluar minuciosamente su capacidad auditiva en diferentes frecuencias y niveles de sonido, ayudando a identificar posibles problemas de pérdida auditiva y sus causas.',
+      ca: 'A looptica Centre d\'Audiologia Barcelona Poblenou, proporcionem avaluacions auditives completes realitzades pels nostres audiòlegs amb experiència. Les nostres proves van més enllà dels exàmens bàsics per avaluar minuciosament la seva capacitat auditiva en diferents freqüències i nivells de so, ajudant a identificar possibles problemes de pèrdua auditiva i les seves causes.',
+      de: 'Im looptica Barcelona Poblenou Audiologiezentrum bieten wir umfassende Höruntersuchungen an, die von unseren erfahrenen Audiologen durchgeführt werden. Unsere Tests gehen über grundlegende Screenings hinaus, um Ihre Hörfähigkeit über verschiedene Frequenzen und Schallpegel hinweg gründlich zu bewerten und dabei mögliche Hörverluste und deren Ursachen zu identifizieren.',
     },
     understandingP2: {
       en: 'Regular hearing tests are essential for monitoring your auditory health, especially if you\'re experiencing symptoms like difficulty understanding conversations, asking people to repeat themselves frequently, or hearing ringing in your ears (tinnitus). Early detection of hearing loss allows for more effective treatment options and better outcomes with digital hearing aids or other solutions.',
@@ -161,10 +161,10 @@ const HearingTest = () => {
       de: 'Was Sie Bei Ihrem Termin In Unserem Audiologiezentrum Barcelona Poblenou Erwarten Können',
     },
     expectP1: {
-      en: 'Your hearing evaluation at Looptica Barcelona Poblenou Audiology Center is a comfortable, non-invasive process that typically takes about 60 minutes. Here\'s what you can expect:',
-      es: 'Su evaluación auditiva en Looptica Centro de Audiología Barcelona Poblenou es un proceso cómodo, no invasivo que generalmente toma unos 60 minutos. Esto es lo que puede esperar:',
-      ca: 'La seva avaluació auditiva a Looptica Centre d\'Audiologia Barcelona Poblenou és un procés còmode, no invasiu que generalment pren uns 60 minuts. Això és el que pot esperar:',
-      de: 'Ihre Hörbeurteilung im Looptica Barcelona Poblenou Audiologiezentrum ist ein komfortabler, nicht-invasiver Prozess, der normalerweise etwa 60 Minuten dauert. Das können Sie erwarten:',
+      en: 'Your hearing evaluation at looptica Barcelona Poblenou Audiology Center is a comfortable, non-invasive process that typically takes about 60 minutes. Here\'s what you can expect:',
+      es: 'Su evaluación auditiva en looptica Centro de Audiología Barcelona Poblenou es un proceso cómodo, no invasivo que generalmente toma unos 60 minutos. Esto es lo que puede esperar:',
+      ca: 'La seva avaluació auditiva a looptica Centre d\'Audiologia Barcelona Poblenou és un procés còmode, no invasiu que generalment pren uns 60 minuts. Això és el que pot esperar:',
+      de: 'Ihre Hörbeurteilung im looptica Barcelona Poblenou Audiologiezentrum ist ein komfortabler, nicht-invasiver Prozess, der normalerweise etwa 60 Minuten dauert. Das können Sie erwarten:',
     },
     welcomingEnv: {
       en: 'Welcoming Environment',
@@ -260,7 +260,7 @@ const HearingTest = () => {
     },
     provider: {
       '@type': 'MedicalBusiness',
-      name: 'Looptica',
+      name: 'looptica',
       url: baseUrl,
       telephone: '+34933009064',
       address: {

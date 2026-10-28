@@ -78,7 +78,7 @@ const Footer = () => {
               <Link to={`/${language}`} className="mb-6 inline-block">
                 <img 
                   src="/images/looptica_logo_text.png" 
-                  alt="Looptica" 
+                  alt="looptica" 
                   className="h-10 mb-6 filter brightness-0 invert"
                   style={{ objectFit: 'contain' }}
                 />
@@ -169,7 +169,7 @@ const Footer = () => {
           <div className="pt-8 border-t border-gray-700">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-sm text-gray-400">
-                © {currentYear} Looptica. {language === 'en' ? 'All rights reserved.' : language === 'es' ? 'Todos los derechos reservados.' : language === 'de' ? 'Alle Rechte vorbehalten.' : 'Tots els drets reservats.'}
+                © {currentYear} looptica. {language === 'en' ? 'All rights reserved.' : language === 'es' ? 'Todos los derechos reservados.' : language === 'de' ? 'Alle Rechte vorbehalten.' : 'Tots els drets reservats.'}
               </p>
 
               <div className="flex space-x-6 text-sm text-gray-400">

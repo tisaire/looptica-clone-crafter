@@ -14,7 +14,7 @@ const CookiesPolicy = () => {
   const content = {
     en: {
       title: "Cookies Policy",
-      metaDescription: "Learn about how Looptica uses cookies on our website and how you can manage them.",
+      metaDescription: "Learn about how looptica uses cookies on our website and how you can manage them.",
       heading: "Cookies Policy",
       lastUpdated: "Last updated: April 2023",
       content: `
@@ -76,7 +76,7 @@ const CookiesPolicy = () => {
     },
     es: {
       title: "Política de Cookies",
-      metaDescription: "Aprenda cómo Looptica utiliza cookies en nuestro sitio web y cómo puede gestionarlas.",
+      metaDescription: "Aprenda cómo looptica utiliza cookies en nuestro sitio web y cómo puede gestionarlas.",
       heading: "Política de Cookies",
       lastUpdated: "Última actualización: Abril 2023",
       content: `
@@ -138,7 +138,7 @@ const CookiesPolicy = () => {
     },
     ca: {
       title: "Política de Cookies",
-      metaDescription: "Aprengui com Looptica utilitza cookies al nostre lloc web i com pot gestionar-les.",
+      metaDescription: "Aprengui com looptica utilitza cookies al nostre lloc web i com pot gestionar-les.",
       heading: "Política de Cookies",
       lastUpdated: "Darrera actualització: Abril 2023",
       content: `
@@ -200,7 +200,7 @@ const CookiesPolicy = () => {
     },
     de: {
       title: "Cookie-Richtlinie",
-      metaDescription: "Erfahren Sie, wie Looptica Cookies auf unserer Website verwendet und wie Sie diese verwalten können.",
+      metaDescription: "Erfahren Sie, wie looptica Cookies auf unserer Website verwendet und wie Sie diese verwalten können.",
       heading: "Cookie-Richtlinie",
       lastUpdated: "Letzte Aktualisierung: April 2023",
       content: `
@@ -265,11 +265,11 @@ const CookiesPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>{content[language].title} | Looptica</title>
+        <title>{content[language].title} | looptica</title>
         <meta name="description" content={content[language].metaDescription} />
         <meta name="robots" content="noindex, follow" />
         <link rel="canonical" href={`https://looptica.com/${language}/legal/cookies-policy`} />
-        <meta property="og:title" content={`${content[language].title} | Looptica`} />
+        <meta property="og:title" content={`${content[language].title} | looptica`} />
         <meta property="og:description" content={content[language].metaDescription} />
         <meta property="og:url" content={`https://looptica.com/${language}/legal/cookies-policy`} />
         <meta property="og:type" content="website" />

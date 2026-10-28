@@ -23,20 +23,20 @@ const TechnicalAids = () => {
   const content = {
     meta: {
       en: {
-        title: "Technical Aids for Hearing Loss | Looptica Barcelona",
-        description: "Discover our range of specialized technical aids for hearing loss including Oticon EduMic, ConnectClip, TV Adapter, Remote Control and more at Looptica Barcelona."
+        title: "Technical Aids for Hearing Loss | looptica Barcelona",
+        description: "Discover our range of specialized technical aids for hearing loss including Oticon EduMic, ConnectClip, TV Adapter, Remote Control and more at looptica Barcelona."
       },
       es: {
-        title: "Ayudas Técnicas para Pérdida Auditiva | Looptica Barcelona",
-        description: "Descubra nuestra gama de ayudas técnicas especializadas para pérdida auditiva, incluyendo Oticon EduMic, ConnectClip, TV Adapter, Control Remoto y más en Looptica Barcelona."
+        title: "Ayudas Técnicas para Pérdida Auditiva | looptica Barcelona",
+        description: "Descubra nuestra gama de ayudas técnicas especializadas para pérdida auditiva, incluyendo Oticon EduMic, ConnectClip, TV Adapter, Control Remoto y más en looptica Barcelona."
       },
       ca: {
-        title: "Ajudes Tècniques Auditives | Looptica Barcelona",
-        description: "Descobreix la nostra gamma d'ajudes tècniques especialitzades per a pèrdua auditiva, incloent Oticon EduMic, ConnectClip, TV Adapter, Control Remot i més a Looptica Barcelona."
+        title: "Ajudes Tècniques Auditives | looptica Barcelona",
+        description: "Descobreix la nostra gamma d'ajudes tècniques especialitzades per a pèrdua auditiva, incloent Oticon EduMic, ConnectClip, TV Adapter, Control Remot i més a looptica Barcelona."
       },
       de: {
-        title: "Technische Hilfsmittel für Hörverlust | Looptica Barcelona",
-        description: "Entdecken Sie unser Sortiment an spezialisierten technischen Hilfsmitteln für Hörverlust, einschließlich Oticon EduMic, ConnectClip, TV Adapter, Fernbedienung und mehr bei Looptica Barcelona."
+        title: "Technische Hilfsmittel für Hörverlust | looptica Barcelona",
+        description: "Entdecken Sie unser Sortiment an spezialisierten technischen Hilfsmitteln für Hörverlust, einschließlich Oticon EduMic, ConnectClip, TV Adapter, Fernbedienung und mehr bei looptica Barcelona."
       }
     },
     audiofonsDigitals: {
@@ -459,7 +459,7 @@ const TechnicalAids = () => {
         title={t('technicalAids')}
         subtitle={t('technicalAidsIntro')}
         image="/images/edumic-press-release.jpg"
-        appointmentSubject="Technical Aids Consultation at Looptica"
+        appointmentSubject="Technical Aids Consultation at looptica"
       >
         <div className="prose max-w-none mb-12">
           <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('technicalAidsTitle')}</h2>

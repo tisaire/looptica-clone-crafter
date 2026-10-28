@@ -14,7 +14,7 @@ const TermsConditions = () => {
   const content = {
     en: {
       title: "Terms & Conditions",
-      metaDescription: "Read Looptica's terms and conditions for using our website and services.",
+      metaDescription: "Read looptica's terms and conditions for using our website and services.",
       heading: "Terms & Conditions",
       lastUpdated: "Last updated: April 2023",
       content: `
@@ -64,7 +64,7 @@ const TermsConditions = () => {
     },
     es: {
       title: "Términos y Condiciones",
-      metaDescription: "Lea los términos y condiciones de Looptica para el uso de nuestro sitio web y servicios.",
+      metaDescription: "Lea los términos y condiciones de looptica para el uso de nuestro sitio web y servicios.",
       heading: "Términos y Condiciones",
       lastUpdated: "Última actualización: Abril 2023",
       content: `
@@ -114,7 +114,7 @@ const TermsConditions = () => {
     },
     ca: {
       title: "Termes i Condicions",
-      metaDescription: "Llegiu els termes i condicions de Looptica per a l'ús del nostre lloc web i serveis.",
+      metaDescription: "Llegiu els termes i condicions de looptica per a l'ús del nostre lloc web i serveis.",
       heading: "Termes i Condicions",
       lastUpdated: "Darrera actualització: Abril 2023",
       content: `
@@ -164,7 +164,7 @@ const TermsConditions = () => {
     },
     de: {
       title: "Allgemeine Geschäftsbedingungen",
-      metaDescription: "Lesen Sie die Allgemeinen Geschäftsbedingungen von Looptica für die Nutzung unserer Website und Dienstleistungen.",
+      metaDescription: "Lesen Sie die Allgemeinen Geschäftsbedingungen von looptica für die Nutzung unserer Website und Dienstleistungen.",
       heading: "Allgemeine Geschäftsbedingungen",
       lastUpdated: "Letzte Aktualisierung: April 2023",
       content: `
@@ -217,11 +217,11 @@ const TermsConditions = () => {
   return (
     <>
       <Helmet>
-        <title>{content[language].title} | Looptica</title>
+        <title>{content[language].title} | looptica</title>
         <meta name="description" content={content[language].metaDescription} />
         <meta name="robots" content="noindex, follow" />
         <link rel="canonical" href={`https://looptica.com/${language}/legal/terms-conditions`} />
-        <meta property="og:title" content={`${content[language].title} | Looptica`} />
+        <meta property="og:title" content={`${content[language].title} | looptica`} />
         <meta property="og:description" content={content[language].metaDescription} />
         <meta property="og:url" content={`https://looptica.com/${language}/legal/terms-conditions`} />
         <meta property="og:type" content="website" />

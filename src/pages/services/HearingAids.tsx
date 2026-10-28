@@ -22,16 +22,16 @@ const HearingAids = () => {
       de: "Hochwertige Hörgeräte, die auf Ihren spezifischen Hörverlust und Lebensstil in unserem Audiologie-Zentrum in Barcelona Poblenou zugeschnitten sind",
     },
     solutionsTitle: {
-      en: "Modern Hearing Solutions at Looptica Barcelona Poblenou",
-      es: "Soluciones Auditivas Modernas en Looptica Barcelona Poblenou",
-      ca: "Solucions Auditives Modernes a Looptica Barcelona Poblenou",
-      de: "Moderne Hörlösungen bei Looptica Barcelona Poblenou",
+      en: "Modern Hearing Solutions at looptica Barcelona Poblenou",
+      es: "Soluciones Auditivas Modernas en looptica Barcelona Poblenou",
+      ca: "Solucions Auditives Modernes a looptica Barcelona Poblenou",
+      de: "Moderne Hörlösungen bei looptica Barcelona Poblenou",
     },
     intro1: {
-      en: "At Looptica Barcelona Poblenou Audiology Center, we offer the latest in hearing aid technology from world-leading manufacturers. Today's digital hearing aids are sophisticated, discreet devices that do much more than simply amplify sound. They use advanced digital processing to enhance speech understanding, reduce background noise, and provide a natural listening experience tailored to your specific hearing loss profile.",
-      es: "En Looptica Centro de Audiología Barcelona Poblenou, ofrecemos lo último en tecnología de audífonos de fabricantes líderes mundiales. Los audífonos digitales de hoy son dispositivos sofisticados y discretos que hacen mucho más que simplemente amplificar el sonido. Utilizan procesamiento digital avanzado para mejorar la comprensión del habla, reducir el ruido de fondo y proporcionar una experiencia auditiva natural adaptada a su perfil específico de pérdida auditiva.",
-      ca: "A Looptica Centre d'Audiologia Barcelona Poblenou, oferim el més recent en tecnologia d'audiòfons de fabricants líders mundials. Els audiòfons digitals d'avui són dispositius sofisticats i discrets que fan molt més que simplement amplificar el so. Utilitzen processament digital avançat per millorar la comprensió de la parla, reduir el soroll de fons i proporcionar una experiència auditiva natural adaptada al seu perfil específic de pèrdua auditiva.",
-      de: "Im Looptica Audiologie-Zentrum Barcelona Poblenou bieten wir die neueste Hörgerätetechnologie von weltweit führenden Herstellern. Heutige digitale Hörgeräte sind hochentwickelte, diskrete Geräte, die viel mehr tun als nur Geräusche zu verstärken. Sie verwenden fortschrittliche digitale Verarbeitung, um das Sprachverständnis zu verbessern, Hintergrundgeräusche zu reduzieren und ein natürliches Hörerlebnis zu bieten, das auf Ihr spezifisches Hörverlustprofil zugeschnitten ist.",
+      en: "At looptica Barcelona Poblenou Audiology Center, we offer the latest in hearing aid technology from world-leading manufacturers. Today's digital hearing aids are sophisticated, discreet devices that do much more than simply amplify sound. They use advanced digital processing to enhance speech understanding, reduce background noise, and provide a natural listening experience tailored to your specific hearing loss profile.",
+      es: "En looptica Centro de Audiología Barcelona Poblenou, ofrecemos lo último en tecnología de audífonos de fabricantes líderes mundiales. Los audífonos digitales de hoy son dispositivos sofisticados y discretos que hacen mucho más que simplemente amplificar el sonido. Utilizan procesamiento digital avanzado para mejorar la comprensión del habla, reducir el ruido de fondo y proporcionar una experiencia auditiva natural adaptada a su perfil específico de pérdida auditiva.",
+      ca: "A looptica Centre d'Audiologia Barcelona Poblenou, oferim el més recent en tecnologia d'audiòfons de fabricants líders mundials. Els audiòfons digitals d'avui són dispositius sofisticats i discrets que fan molt més que simplement amplificar el so. Utilitzen processament digital avançat per millorar la comprensió de la parla, reduir el soroll de fons i proporcionar una experiència auditiva natural adaptada al seu perfil específic de pèrdua auditiva.",
+      de: "Im looptica Audiologie-Zentrum Barcelona Poblenou bieten wir die neueste Hörgerätetechnologie von weltweit führenden Herstellern. Heutige digitale Hörgeräte sind hochentwickelte, diskrete Geräte, die viel mehr tun als nur Geräusche zu verstärken. Sie verwenden fortschrittliche digitale Verarbeitung, um das Sprachverständnis zu verbessern, Hintergrundgeräusche zu reduzieren und ein natürliches Hörerlebnis zu bieten, das auf Ihr spezifisches Hörverlustprofil zugeschnitten ist.",
     },
     intro2: {
       en: "Our audiologists at our Barcelona Poblenou hearing center are experts in matching the right hearing technology to your unique hearing loss, lifestyle needs, and personal preferences. We focus on finding solutions that integrate seamlessly with your life, whether you're an active professional, an avid music lover, or someone who enjoys quiet conversations with family and friends.",
@@ -154,10 +154,10 @@ const HearingAids = () => {
       de: "Unser umfassender Hörgeräteprozess",
     },
     processIntro: {
-      en: "At Looptica Barcelona Poblenou Audiology Center, fitting hearing aids is a thorough process designed to ensure optimal results for hearing loss treatment:",
-      es: "En Looptica Centro de Audiología Barcelona Poblenou, la adaptación de audífonos es un proceso minucioso diseñado para garantizar resultados óptimos para el tratamiento de la pérdida auditiva:",
-      ca: "A Looptica Centre d'Audiologia Barcelona Poblenou, l'adaptació d'audiòfons és un procés minuciós dissenyat per garantir resultats òptims per al tractament de la pèrdua auditiva:",
-      de: "Im Looptica Audiologie-Zentrum Barcelona Poblenou ist die Hörgeräte-Anpassung ein gründlicher Prozess, der optimale Ergebnisse für die Behandlung von Hörverlust gewährleistet:",
+      en: "At looptica Barcelona Poblenou Audiology Center, fitting hearing aids is a thorough process designed to ensure optimal results for hearing loss treatment:",
+      es: "En looptica Centro de Audiología Barcelona Poblenou, la adaptación de audífonos es un proceso minucioso diseñado para garantizar resultados óptimos para el tratamiento de la pérdida auditiva:",
+      ca: "A looptica Centre d'Audiologia Barcelona Poblenou, l'adaptació d'audiòfons és un procés minuciós dissenyat per garantir resultats òptims per al tractament de la pèrdua auditiva:",
+      de: "Im looptica Audiologie-Zentrum Barcelona Poblenou ist die Hörgeräte-Anpassung ein gründlicher Prozess, der optimale Ergebnisse für die Behandlung von Hörverlust gewährleistet:",
     },
     step1: {
       en: "Comprehensive Hearing Evaluation: We begin with a thorough assessment of your hearing to understand the type and degree of your hearing loss.",
@@ -262,10 +262,10 @@ const HearingAids = () => {
       de: "Wir sind bestrebt, Ihr langfristiger Partner für Hörgesundheit in unserem Audiologie-Zentrum Barcelona Poblenou zu sein und sicherzustellen, dass Ihre Hörgeräte während ihrer gesamten Lebensdauer optimal funktionieren und eine wirksame Behandlung Ihres Hörverlusts bieten.",
     },
     appointmentSubject: {
-      en: "Hearing Aid Consultation at Looptica Barcelona Poblenou Audiology Center",
-      es: "Consulta de Audífonos en Looptica Centro de Audiología Barcelona Poblenou",
-      ca: "Consulta d'Audiòfons a Looptica Centre d'Audiologia Barcelona Poblenou",
-      de: "Hörgeräteberatung im Looptica Audiologie-Zentrum Barcelona Poblenou",
+      en: "Hearing Aid Consultation at looptica Barcelona Poblenou Audiology Center",
+      es: "Consulta de Audífonos en looptica Centro de Audiología Barcelona Poblenou",
+      ca: "Consulta d'Audiòfons a looptica Centre d'Audiologia Barcelona Poblenou",
+      de: "Hörgeräteberatung im looptica Audiologie-Zentrum Barcelona Poblenou",
     },
   };
   
