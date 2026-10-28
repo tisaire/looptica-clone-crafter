@@ -19,8 +19,6 @@ const Footer = () => {
           { name: t('contactLenses'), path: `/${language}/services/lents-contacte` },
           { name: t('visualHealth'), path: `/${language}/services/salut-visual` },
           { name: t('ortoK'), path: `/${language}/services/orto-k` },
-          { name: t('imageConsulting'), path: `/${language}/services/image-consulting` },
-          { name: t('lensConsulting'), path: `/${language}/services/lens-consulting` },
           { name: t('planVeo'), path: `/${language}/services/plan-veo` },
         ],
       },
