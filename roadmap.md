@@ -37,6 +37,12 @@
 - [x] Download official product photos, normalize to the shared white-canvas style, upload as assets.
 - [x] Update brand descriptions (Ray-Ban as sunglasses) in all four languages and verify in the preview.
 
+# Eyewear gallery: photo alignment and model names
+
+- [x] Re-center the off-centre product photos (Woodys Verena, Kaleos Abbott/Earnshaw, Ray-Ban 2140/3025/3447) on the shared white canvas.
+- [x] Remove the visible model name from every brand card and from the enlarged photo title.
+- [x] Verify card photos, thumbnails and lightbox in the preview.
+
 # Legacy contact-lens redirect
 
 - [x] Correct the old service destination and synchronize the Apache redirect.
