@@ -51,15 +51,13 @@ const ThumbStrip = ({
   );
 };
 
-const ArrowButton = ({ dir, onClick, label }: { dir: 'prev' | 'next'; onClick: () => void; label: string }) => (
+
+const NavButton = ({ dir, onClick }: { dir: 'prev' | 'next'; onClick: () => void }) => (
   <button
     type="button"
-    onClick={(e) => {
-      e.stopPropagation();
-      onClick();
-    }}
-    aria-label={label}
-    className={`absolute top-1/2 -translate-y-1/2 ${dir === 'prev' ? 'left-2' : 'right-2'} flex h-9 w-9 items-center justify-center rounded-full border border-border bg-background/90 text-foreground shadow-sm hover:bg-background focus:outline-none focus-visible:ring-2 focus-visible:ring-ring`}
+    onClick={onClick}
+    aria-label={dir === 'prev' ? '‹' : '›'}
+    className="flex h-8 w-8 items-center justify-center rounded-full text-muted-foreground transition hover:bg-muted hover:text-foreground focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
   >
     {dir === 'prev' ? <ChevronLeft className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
   </button>
@@ -95,15 +93,22 @@ const BrandCard = ({ entry, enlargeLabel }: { entry: BrandEntry; enlargeLabel: s
         >
           <img src={current.src} alt={entry.brand} loading="lazy" className="h-full w-full object-contain" />
         </button>
-        <ArrowButton dir="prev" onClick={prev} label="‹" />
-        <ArrowButton dir="next" onClick={next} label="›" />
-        <span className="absolute bottom-2 right-2 rounded bg-background/90 px-2 py-0.5 text-xs text-muted-foreground">
-          {active + 1} / {total}
-        </span>
       </div>
 
-      <div className="border-t border-border p-2 bg-background">
-        <ThumbStrip entry={entry} active={active} onSelect={setActive} lazy />
+      <div className="flex items-center justify-between gap-4 bg-background px-4 pb-3 pt-1">
+        <NavButton dir="prev" onClick={prev} />
+        <div className="flex flex-1 items-center gap-3">
+          <div className="h-px flex-1 bg-border relative overflow-hidden">
+            <span
+              className="absolute inset-y-0 left-0 bg-primary transition-all duration-300"
+              style={{ width: `${((active + 1) / total) * 100}%` }}
+            />
+          </div>
+          <span className="text-xs tabular-nums tracking-widest text-muted-foreground">
+            {String(active + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
+          </span>
+        </div>
+        <NavButton dir="next" onClick={next} />
       </div>
 
       <div className="flex flex-1 flex-col p-6">
@@ -117,11 +122,13 @@ const BrandCard = ({ entry, enlargeLabel }: { entry: BrandEntry; enlargeLabel: s
           <DialogTitle>{entry.brand}</DialogTitle>
           <div className="relative" {...swipe}>
             <img src={current.src} alt={entry.brand} className="w-full h-auto object-contain" />
-            <ArrowButton dir="prev" onClick={prev} label="‹" />
-            <ArrowButton dir="next" onClick={next} label="›" />
-            <span className="absolute bottom-2 right-2 rounded bg-background/90 px-2 py-0.5 text-xs text-muted-foreground">
-              {active + 1} / {total}
+          </div>
+          <div className="flex items-center justify-center gap-4">
+            <NavButton dir="prev" onClick={prev} />
+            <span className="text-xs tabular-nums tracking-widest text-muted-foreground">
+              {String(active + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
             </span>
+            <NavButton dir="next" onClick={next} />
           </div>
           <ThumbStrip entry={entry} active={active} onSelect={setActive} lazy={false} />
         </DialogContent>
