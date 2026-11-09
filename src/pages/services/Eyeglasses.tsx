@@ -32,41 +32,140 @@ import rayban2140 from '@/assets/eyewear/rayban-2140.webp.asset.json';
 import rayban3025 from '@/assets/eyewear/rayban-3025.webp.asset.json';
 import rayban3447 from '@/assets/eyewear/rayban-3447.webp.asset.json';
 
+import ew_kaleos_wardley from '@/assets/eyewear/kaleos-wardley.webp.asset.json';
+import ew_kaleos_mooney from '@/assets/eyewear/kaleos-mooney.webp.asset.json';
+import ew_kaleos_grange from '@/assets/eyewear/kaleos-grange.webp.asset.json';
+import ew_kaleos_barnes from '@/assets/eyewear/kaleos-barnes.webp.asset.json';
+import ew_kaleos_bouchart from '@/assets/eyewear/kaleos-bouchart.webp.asset.json';
+import ew_kaleos_linton from '@/assets/eyewear/kaleos-linton.webp.asset.json';
+import ew_kaleos_stern from '@/assets/eyewear/kaleos-stern.webp.asset.json';
+import ew_woodys_shona from '@/assets/eyewear/woodys-shona.webp.asset.json';
+import ew_woodys_nansi from '@/assets/eyewear/woodys-nansi.webp.asset.json';
+import ew_woodys_magnolia from '@/assets/eyewear/woodys-magnolia.webp.asset.json';
+import ew_woodys_myrta from '@/assets/eyewear/woodys-myrta.webp.asset.json';
+import ew_woodys_regina from '@/assets/eyewear/woodys-regina.webp.asset.json';
+import ew_woodys_catmint from '@/assets/eyewear/woodys-catmint.webp.asset.json';
+import ew_woodys_nara from '@/assets/eyewear/woodys-nara.webp.asset.json';
+import ew_etnia_vreeland from '@/assets/eyewear/etnia-vreeland.webp.asset.json';
+import ew_etnia_syko from '@/assets/eyewear/etnia-syko.webp.asset.json';
+import ew_etnia_stele from '@/assets/eyewear/etnia-stele.webp.asset.json';
+import ew_etnia_sima from '@/assets/eyewear/etnia-sima.webp.asset.json';
+import ew_etnia_rosalind from '@/assets/eyewear/etnia-rosalind.webp.asset.json';
+import ew_etnia_rhome from '@/assets/eyewear/etnia-rhome.webp.asset.json';
+import ew_etnia_petra from '@/assets/eyewear/etnia-petra.webp.asset.json';
+import ew_look_1167 from '@/assets/eyewear/look-1167.webp.asset.json';
+import ew_look_1599 from '@/assets/eyewear/look-1599.webp.asset.json';
+import ew_look_1611 from '@/assets/eyewear/look-1611.webp.asset.json';
+import ew_look_1613 from '@/assets/eyewear/look-1613.webp.asset.json';
+import ew_look_1616 from '@/assets/eyewear/look-1616.webp.asset.json';
+import ew_look_1161 from '@/assets/eyewear/look-1161.webp.asset.json';
+import ew_look_2228 from '@/assets/eyewear/look-2228.webp.asset.json';
+import ew_nano_sprite from '@/assets/eyewear/nano-sprite.webp.asset.json';
+import ew_nano_arcade from '@/assets/eyewear/nano-arcade.webp.asset.json';
+import ew_nano_backstreet from '@/assets/eyewear/nano-backstreet.webp.asset.json';
+import ew_nano_bolt from '@/assets/eyewear/nano-bolt.webp.asset.json';
+import ew_nano_loot from '@/assets/eyewear/nano-loot.webp.asset.json';
+import ew_nano_pulse from '@/assets/eyewear/nano-pulse.webp.asset.json';
+import ew_nano_revolt from '@/assets/eyewear/nano-revolt.webp.asset.json';
+import ew_polaroid_4218 from '@/assets/eyewear/polaroid-4218.webp.asset.json';
+import ew_polaroid_2174 from '@/assets/eyewear/polaroid-2174.webp.asset.json';
+import ew_polaroid_4153 from '@/assets/eyewear/polaroid-4153.webp.asset.json';
+import ew_polaroid_6231 from '@/assets/eyewear/polaroid-6231.webp.asset.json';
+import ew_polaroid_4209 from '@/assets/eyewear/polaroid-4209.webp.asset.json';
+import ew_polaroid_8073 from '@/assets/eyewear/polaroid-8073.webp.asset.json';
+import ew_polaroid_8078 from '@/assets/eyewear/polaroid-8078.webp.asset.json';
+import ew_rayban_2132 from '@/assets/eyewear/rayban-2132.webp.asset.json';
+import ew_rayban_3016 from '@/assets/eyewear/rayban-3016.webp.asset.json';
+import ew_rayban_4171 from '@/assets/eyewear/rayban-4171.webp.asset.json';
+import ew_rayban_4165 from '@/assets/eyewear/rayban-4165.webp.asset.json';
+import ew_rayban_2180 from '@/assets/eyewear/rayban-2180.webp.asset.json';
+import ew_rayban_3565 from '@/assets/eyewear/rayban-3565.webp.asset.json';
+import ew_rayban_3548 from '@/assets/eyewear/rayban-3548.webp.asset.json';
+
 const models: Record<string, { name: string; src: string }[]> = {
   Kaleos: [
     { name: 'Cohen Black', src: kaleosCohen.url },
     { name: 'Abbott Spotted Havana', src: kaleosAbbott.url },
     { name: 'Earnshaw Crystal Nude', src: kaleosEarnshaw.url },
+    { name: 'Wardley Crystal Brown', src: ew_kaleos_wardley.url },
+    { name: 'Mooney Havana', src: ew_kaleos_mooney.url },
+    { name: 'Grange Crystal Grey', src: ew_kaleos_grange.url },
+    { name: 'Barnes Black Glitter', src: ew_kaleos_barnes.url },
+    { name: 'Bouchart Havana Brown', src: ew_kaleos_bouchart.url },
+    { name: 'Linton Gold', src: ew_kaleos_linton.url },
+    { name: 'Stern Milky Green', src: ew_kaleos_stern.url },
   ],
   Woodys: [
     { name: 'Verena', src: woodysVerena.url },
     { name: 'Marant', src: woodysMarant.url },
     { name: 'Tina', src: woodysTina.url },
+    { name: 'Shona', src: ew_woodys_shona.url },
+    { name: 'Nansi', src: ew_woodys_nansi.url },
+    { name: 'Magnolia', src: ew_woodys_magnolia.url },
+    { name: 'Myrta', src: ew_woodys_myrta.url },
+    { name: 'Regina', src: ew_woodys_regina.url },
+    { name: 'Catmint', src: ew_woodys_catmint.url },
+    { name: 'Nara', src: ew_woodys_nara.url },
   ],
   'Etnia Barcelona': [
     { name: 'Kore', src: etniaKore.url },
     { name: 'Mao', src: etniaMao.url },
     { name: 'Xylo', src: etniaXylo.url },
+    { name: 'Vreeland', src: ew_etnia_vreeland.url },
+    { name: 'Syko', src: ew_etnia_syko.url },
+    { name: 'Stele', src: ew_etnia_stele.url },
+    { name: 'Sima', src: ew_etnia_sima.url },
+    { name: 'Rosalind', src: ew_etnia_rosalind.url },
+    { name: 'Rhome', src: ew_etnia_rhome.url },
+    { name: 'Petra', src: ew_etnia_petra.url },
   ],
   LOOK: [
     { name: 'LKO1165', src: look1165.url },
     { name: 'LKO5000', src: look5000.url },
     { name: 'LKO3326', src: look3326.url },
+    { name: 'LKO1167', src: ew_look_1167.url },
+    { name: 'LKO1599', src: ew_look_1599.url },
+    { name: 'LKO1611', src: ew_look_1611.url },
+    { name: 'LKO1613', src: ew_look_1613.url },
+    { name: 'LKO1616', src: ew_look_1616.url },
+    { name: 'LKO1161', src: ew_look_1161.url },
+    { name: 'LKO2228', src: ew_look_2228.url },
   ],
   'Nano Vista': [
     { name: 'Replay', src: nanoReplay.url },
     { name: 'Quest', src: nanoQuest.url },
     { name: 'Replay Glow', src: nanoReplayGlow.url },
+    { name: 'Sprite Glow', src: ew_nano_sprite.url },
+    { name: 'Arcade', src: ew_nano_arcade.url },
+    { name: 'Backstreet', src: ew_nano_backstreet.url },
+    { name: 'Bolt', src: ew_nano_bolt.url },
+    { name: 'Loot', src: ew_nano_loot.url },
+    { name: 'Pulse', src: ew_nano_pulse.url },
+    { name: 'Revolt', src: ew_nano_revolt.url },
   ],
   Polaroid: [
     { name: 'PLD 2176/S/X', src: polaroid2176.url },
     { name: 'PLD 6256/S/X', src: polaroid6256.url },
     { name: 'PLD 7060/S', src: polaroid7060.url },
+    { name: 'PLD 4218/S', src: ew_polaroid_4218.url },
+    { name: 'PLD 2174/S', src: ew_polaroid_2174.url },
+    { name: 'PLD 4153/S', src: ew_polaroid_4153.url },
+    { name: 'PLD 6231/S', src: ew_polaroid_6231.url },
+    { name: 'PLD 4209/S/X', src: ew_polaroid_4209.url },
+    { name: 'PLD 8073/S', src: ew_polaroid_8073.url },
+    { name: 'PLD 8078/S', src: ew_polaroid_8078.url },
   ],
   'Ray-Ban': [
     { name: 'Original Wayfarer RB2140', src: rayban2140.url },
     { name: 'Aviator RB3025', src: rayban3025.url },
     { name: 'Round Metal RB3447', src: rayban3447.url },
+    { name: 'New Wayfarer Classic RB2132', src: ew_rayban_2132.url },
+    { name: 'Clubmaster Classic RB3016', src: ew_rayban_3016.url },
+    { name: 'Erika Classic RB4171', src: ew_rayban_4171.url },
+    { name: 'Justin Classic RB4165', src: ew_rayban_4165.url },
+    { name: 'RB2180', src: ew_rayban_2180.url },
+    { name: 'Jack RB3565', src: ew_rayban_3565.url },
+    { name: 'Hexagonal Flat Lenses RB3548N', src: ew_rayban_3548.url },
   ],
 };
 
