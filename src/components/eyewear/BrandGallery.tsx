@@ -55,12 +55,11 @@ const BrandCard = ({ entry, enlargeLabel }: { entry: BrandEntry; enlargeLabel: s
         <h3 className="text-xl font-semibold mb-1">{entry.brand}</h3>
         <p className="font-medium text-primary mb-3">{entry.tagline}</p>
         <p className="text-muted-foreground">{entry.description}</p>
-        <p className="mt-4 text-sm text-muted-foreground">{current.name}</p>
       </div>
 
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="max-w-4xl bg-background">
-          <DialogTitle>{entry.brand} · {current.name}</DialogTitle>
+          <DialogTitle>{entry.brand}</DialogTitle>
           <img src={current.src} alt={`${entry.brand} ${current.name}`} className="w-full h-auto object-contain" />
           <div className="grid grid-cols-3 gap-2">
             {entry.models.map((m, i) => (
