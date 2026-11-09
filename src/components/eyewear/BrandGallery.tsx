@@ -51,19 +51,6 @@ const ThumbStrip = ({
   );
 };
 
-const ArrowButton = ({ dir, onClick, label }: { dir: 'prev' | 'next'; onClick: () => void; label: string }) => (
-  <button
-    type="button"
-    onClick={(e) => {
-      e.stopPropagation();
-      onClick();
-    }}
-    aria-label={label}
-    className={`absolute top-1/2 -translate-y-1/2 ${dir === 'prev' ? 'left-2' : 'right-2'} flex h-9 w-9 items-center justify-center rounded-full border border-border bg-background/90 text-foreground shadow-sm hover:bg-background focus:outline-none focus-visible:ring-2 focus-visible:ring-ring`}
-  >
-    {dir === 'prev' ? <ChevronLeft className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
-  </button>
-);
 
 const NavButton = ({ dir, onClick }: { dir: 'prev' | 'next'; onClick: () => void }) => (
   <button
