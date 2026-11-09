@@ -31,6 +31,12 @@
 - [x] Align explanations, options, follow-up and FAQs with the supplied text in all four languages, keeping the existing technology mentions and routes.
 - [x] Verify the page, matching FAQ data and appointment links.
 
+# Eyewear gallery: Ray-Ban and LOOK model update
+
+- [ ] Replace Ray-Ban card with sunglasses models (Wayfarer RB2140, Aviator RB3025, Round Metal RB3447) and LOOK card with LKO1165, LKO5000, LKO3326.
+- [ ] Download official product photos, normalize to the shared white-canvas style, upload as assets.
+- [ ] Update brand descriptions (Ray-Ban as sunglasses) in all four languages and verify in the preview.
+
 # Legacy contact-lens redirect
 
 - [x] Correct the old service destination and synchronize the Apache redirect.
