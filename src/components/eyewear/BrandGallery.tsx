@@ -10,7 +10,6 @@ export interface BrandEntry {
   brand: string;
   tagline: string;
   description: string;
-  badge?: string;
   models: BrandModel[];
 }
 
@@ -33,11 +32,6 @@ const BrandCard = ({ entry, enlargeLabel }: { entry: BrandEntry; enlargeLabel: s
           loading="lazy"
           className="h-full w-full object-contain"
         />
-        {entry.badge && (
-          <span className="absolute left-3 top-3 rounded-full bg-primary px-3 py-1 text-xs font-medium text-primary-foreground">
-            {entry.badge}
-          </span>
-        )}
       </button>
 
       <div className="grid grid-cols-3 gap-2 border-t border-border p-2 bg-background">
