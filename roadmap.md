@@ -33,9 +33,9 @@
 
 # Eyewear gallery: Ray-Ban and LOOK model update
 
-- [ ] Replace Ray-Ban card with sunglasses models (Wayfarer RB2140, Aviator RB3025, Round Metal RB3447) and LOOK card with LKO1165, LKO5000, LKO3326.
-- [ ] Download official product photos, normalize to the shared white-canvas style, upload as assets.
-- [ ] Update brand descriptions (Ray-Ban as sunglasses) in all four languages and verify in the preview.
+- [x] Replace Ray-Ban card with sunglasses models (Wayfarer RB2140, Aviator RB3025, Round Metal RB3447) and LOOK card with LKO1165, LKO5000, LKO3326.
+- [x] Download official product photos, normalize to the shared white-canvas style, upload as assets.
+- [x] Update brand descriptions (Ray-Ban as sunglasses) in all four languages and verify in the preview.
 
 # Legacy contact-lens redirect
 
