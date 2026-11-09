@@ -135,11 +135,13 @@ const BrandCard = ({ entry, enlargeLabel }: { entry: BrandEntry; enlargeLabel: s
           <DialogTitle>{entry.brand}</DialogTitle>
           <div className="relative" {...swipe}>
             <img src={current.src} alt={entry.brand} className="w-full h-auto object-contain" />
-            <ArrowButton dir="prev" onClick={prev} label="‹" />
-            <ArrowButton dir="next" onClick={next} label="›" />
-            <span className="absolute bottom-2 right-2 rounded bg-background/90 px-2 py-0.5 text-xs text-muted-foreground">
-              {active + 1} / {total}
+          </div>
+          <div className="flex items-center justify-center gap-4">
+            <NavButton dir="prev" onClick={prev} />
+            <span className="text-xs tabular-nums tracking-widest text-muted-foreground">
+              {String(active + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
             </span>
+            <NavButton dir="next" onClick={next} />
           </div>
           <ThumbStrip entry={entry} active={active} onSelect={setActive} lazy={false} />
         </DialogContent>
