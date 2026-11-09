@@ -19,18 +19,18 @@ import woodysTina from '@/assets/eyewear/woodys-tina.webp.asset.json';
 import etniaKore from '@/assets/eyewear/etnia-kore.webp.asset.json';
 import etniaMao from '@/assets/eyewear/etnia-mao.webp.asset.json';
 import etniaXylo from '@/assets/eyewear/etnia-xylo.webp.asset.json';
-import look10442 from '@/assets/eyewear/look-10442.webp.asset.json';
-import look04601 from '@/assets/eyewear/look-04601.webp.asset.json';
-import look04675 from '@/assets/eyewear/look-04675.webp.asset.json';
+import look1165 from '@/assets/eyewear/look-1165.webp.asset.json';
+import look5000 from '@/assets/eyewear/look-5000.webp.asset.json';
+import look3326 from '@/assets/eyewear/look-3326.webp.asset.json';
 import nanoReplay from '@/assets/eyewear/nano-replay.webp.asset.json';
 import nanoQuest from '@/assets/eyewear/nano-quest.webp.asset.json';
 import nanoReplayGlow from '@/assets/eyewear/nano-replayglow.webp.asset.json';
 import polaroid2176 from '@/assets/eyewear/polaroid-2176.webp.asset.json';
 import polaroid6256 from '@/assets/eyewear/polaroid-6256.webp.asset.json';
 import polaroid7060 from '@/assets/eyewear/polaroid-7060.webp.asset.json';
-import rayban5228 from '@/assets/eyewear/rayban-5228.webp.asset.json';
+import rayban2140 from '@/assets/eyewear/rayban-2140.webp.asset.json';
+import rayban3025 from '@/assets/eyewear/rayban-3025.webp.asset.json';
 import rayban3447 from '@/assets/eyewear/rayban-3447.webp.asset.json';
-import rayban7140 from '@/assets/eyewear/rayban-7140.webp.asset.json';
 
 const models: Record<string, { name: string; src: string }[]> = {
   Kaleos: [
@@ -49,9 +49,9 @@ const models: Record<string, { name: string; src: string }[]> = {
     { name: 'Xylo', src: etniaXylo.url },
   ],
   LOOK: [
-    { name: '10442 M8', src: look10442.url },
-    { name: '04601 C3', src: look04601.url },
-    { name: '04675 W1', src: look04675.url },
+    { name: 'LKO1165', src: look1165.url },
+    { name: 'LKO5000', src: look5000.url },
+    { name: 'LKO3326', src: look3326.url },
   ],
   'Nano Vista': [
     { name: 'Replay', src: nanoReplay.url },
@@ -64,9 +64,9 @@ const models: Record<string, { name: string; src: string }[]> = {
     { name: 'PLD 7060/S', src: polaroid7060.url },
   ],
   'Ray-Ban': [
-    { name: 'RB5228', src: rayban5228.url },
-    { name: 'Round Metal RB3447V', src: rayban3447.url },
-    { name: 'RB7140', src: rayban7140.url },
+    { name: 'Original Wayfarer RB2140', src: rayban2140.url },
+    { name: 'Aviator RB3025', src: rayban3025.url },
+    { name: 'Round Metal RB3447', src: rayban3447.url },
   ],
 };
 
@@ -100,7 +100,7 @@ const T: Record<Language, PageText> = {
       { brand: 'LOOK', tagline: 'Disseny italià, lleugeresa i funcionalitat.', description: "Muntures que combinen materials tècnics, comoditat i una estètica cuidada. Una alternativa interessant per a qui busca unes ulleres lleugeres i pràctiques per al dia a dia." },
       { brand: 'Nano Vista', badge: 'Infantil', tagline: 'Ulleres infantils preparades per seguir el seu ritme.', description: "Muntures especialment pensades per a nadons, nens i adolescents. Flexibles, resistents i amb sistemes de subjecció adaptats a les necessitats dels més petits." },
       { brand: 'Polaroid', badge: 'Sol', tagline: "Ulleres de sol polaritzades per gaudir de l'exterior.", description: "Models pràctics i actuals que combinen estil i protecció solar. Les lents polaritzades ajuden a reduir els reflexos molestos en situacions quotidianes com conduir o passejar." },
-      { brand: 'Ray-Ban', tagline: 'Clàssics que mai passen de moda.', description: "Una de les marques més reconegudes del món de les ulleres. Dissenys icònics i versàtils, disponibles en diferents estils tant per a ulleres graduades com de sol." },
+      { brand: 'Ray-Ban', badge: 'Sol', tagline: 'Clàssics de sol que mai passen de moda.', description: "Una de les marques més reconegudes del món. Models icònics com el Wayfarer, l'Aviator i el Round Metal, disponibles també amb lents solars graduades." },
     ],
     sportTitle: 'Ulleres esportives: comoditat i visió en moviment',
     sportLead: "Unes bones ulleres esportives han d'adaptar-se a tu i a l'activitat que practiques.",
@@ -163,7 +163,7 @@ const T: Record<Language, PageText> = {
       { brand: 'LOOK', tagline: 'Diseño italiano, ligereza y funcionalidad.', description: 'Monturas que combinan materiales técnicos, comodidad y una estética cuidada. Una alternativa interesante para quienes buscan unas gafas ligeras y prácticas para el día a día.' },
       { brand: 'Nano Vista', badge: 'Infantil', tagline: 'Gafas infantiles preparadas para seguir su ritmo.', description: 'Monturas especialmente pensadas para bebés, niños y adolescentes. Flexibles, resistentes y con sistemas de sujeción adaptados a las necesidades de los más pequeños.' },
       { brand: 'Polaroid', badge: 'Sol', tagline: 'Gafas de sol polarizadas para disfrutar del exterior.', description: 'Modelos prácticos y actuales que combinan estilo y protección solar. Las lentes polarizadas ayudan a reducir los reflejos molestos en situaciones cotidianas como conducir o pasear.' },
-      { brand: 'Ray-Ban', tagline: 'Clásicos que nunca pasan de moda.', description: 'Una de las marcas más reconocidas del mundo de las gafas. Diseños icónicos y versátiles, disponibles en diferentes estilos tanto para gafas graduadas como de sol.' },
+      { brand: 'Ray-Ban', badge: 'Sol', tagline: 'Clásicos de sol que nunca pasan de moda.', description: 'Una de las marcas más reconocidas del mundo. Modelos icónicos como el Wayfarer, el Aviator y el Round Metal, disponibles también con lentes solares graduadas.' },
     ],
     sportTitle: 'Gafas deportivas: comodidad y visión en movimiento',
     sportLead: 'Unas buenas gafas deportivas deben adaptarse a ti y a la actividad que practicas.',
@@ -226,7 +226,7 @@ const T: Record<Language, PageText> = {
       { brand: 'LOOK', tagline: 'Italian design, lightweight comfort and functionality.', description: 'Frames combining innovative materials, comfort and refined aesthetics. A great option for anyone looking for lightweight, practical glasses for everyday wear.' },
       { brand: 'Nano Vista', badge: 'Kids', tagline: "Children's glasses designed to keep up with them.", description: 'Frames specially designed for babies, children and teenagers. Flexible, durable and equipped with fitting features adapted to the needs of younger wearers.' },
       { brand: 'Polaroid', badge: 'Sun', tagline: 'Polarised sunglasses for enjoying the outdoors.', description: 'Practical, contemporary designs combining style and sun protection. Polarised lenses help reduce distracting reflections during everyday activities such as driving or walking.' },
-      { brand: 'Ray-Ban', tagline: 'Timeless classics that never go out of style.', description: "One of the world's most recognisable eyewear brands. Iconic, versatile designs available in a variety of styles, both as prescription glasses and sunglasses." },
+      { brand: 'Ray-Ban', badge: 'Sun', tagline: 'Timeless sunglasses classics.', description: "One of the world's most recognisable eyewear brands. Iconic models such as the Wayfarer, the Aviator and the Round Metal, also available with prescription sun lenses." },
     ],
     sportTitle: 'Sports Glasses: Comfort and Clear Vision on the Move',
     sportLead: 'The right sports eyewear should suit both you and your activity.',
@@ -289,7 +289,7 @@ const T: Record<Language, PageText> = {
       { brand: 'LOOK', tagline: 'Italienisches Design, Leichtigkeit und Funktionalität.', description: 'Brillenfassungen, die innovative Materialien, hohen Tragekomfort und eine anspruchsvolle Gestaltung verbinden. Eine interessante Wahl für alle, die eine leichte und praktische Alltagsbrille suchen.' },
       { brand: 'Nano Vista', badge: 'Kinder', tagline: 'Kinderbrillen, die mit jedem Abenteuer mithalten.', description: 'Speziell für Babys, Kinder und Jugendliche entwickelte Fassungen. Flexibel, widerstandsfähig und mit Haltesystemen ausgestattet, die auf die Bedürfnisse junger Brillenträger abgestimmt sind.' },
       { brand: 'Polaroid', badge: 'Sonne', tagline: 'Polarisierte Sonnenbrillen für unbeschwerte Stunden im Freien.', description: 'Praktische, moderne Modelle, die Stil und Sonnenschutz miteinander verbinden. Polarisierte Gläser helfen, störende Reflexionen bei alltäglichen Aktivitäten wie Autofahren oder Spaziergängen zu reduzieren.' },
-      { brand: 'Ray-Ban', tagline: 'Zeitlose Klassiker, die nie aus der Mode kommen.', description: 'Eine der weltweit bekanntesten Brillenmarken. Ikonische und vielseitige Designs in unterschiedlichen Stilrichtungen, sowohl als Korrektionsbrillen als auch als Sonnenbrillen erhältlich.' },
+      { brand: 'Ray-Ban', badge: 'Sonne', tagline: 'Zeitlose Sonnenbrillen-Klassiker.', description: 'Eine der weltweit bekanntesten Brillenmarken. Ikonische Modelle wie Wayfarer, Aviator und Round Metal, auch mit Sonnengläsern in Ihrer Sehstärke erhältlich.' },
     ],
     sportTitle: 'Sportbrillen: Komfort und gutes Sehen in Bewegung',
     sportLead: 'Die richtige Sportbrille sollte zu Ihnen und Ihrer Sportart passen.',
