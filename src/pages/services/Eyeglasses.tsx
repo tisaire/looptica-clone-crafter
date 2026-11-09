@@ -379,6 +379,8 @@ const Eyeglasses = () => {
         image="/lovable-uploads/45087a9c-489a-4d48-82fb-d857e7bf306a.png"
         appointmentSubject={subject}
         hideCTA
+        pageTitle={{ ca: meta.ca.title, es: meta.es.title, en: meta.en.title, de: meta.de.title }}
+        pageDescription={{ ca: meta.ca.description, es: meta.es.description, en: meta.en.description, de: meta.de.description }}
       >
         <ScrollReveal>
           <div className="prose prose-lg max-w-none mb-8">
