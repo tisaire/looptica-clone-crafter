@@ -48,3 +48,9 @@
 - [x] Correct the old service destination and synchronize the Apache redirect.
 - [x] Remove obsolete contact-lens aliases from the sitemap, preserving its canonical entries.
 - [x] Run a regression check for all four languages and trailing slashes.
+
+## Italian (5th language)
+- [x] Language config, switcher, ZEISS slug, .htaccess, sitemap (25 IT URLs)
+- [ ] Italian copy on all non-legal pages (in progress)
+- [ ] Legal pages show Spanish under /it/
+- [ ] Verify all /it/ pages render
