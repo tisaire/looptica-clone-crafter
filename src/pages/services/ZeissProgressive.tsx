@@ -355,7 +355,7 @@ const ZeissProgressive: React.FC = () => {
         <meta property="og:title" content={c.metaTitle[lang]} />
         <meta property="og:description" content={c.metaDesc[lang]} />
         <link rel="canonical" href={`https://looptica.com${zeissPath(lang)}`} />
-        {(['ca','es','en','de'] as const).map((l) => (<link key={l} rel="alternate" hrefLang={l} href={`https://looptica.com${zeissPath(l)}`} />))}
+        {(['ca','es','en','de','it'] as const).map((l) => (<link key={l} rel="alternate" hrefLang={l} href={`https://looptica.com${zeissPath(l)}`} />))}
         <link rel="alternate" hrefLang="x-default" href={`https://looptica.com${zeissPath('ca')}`} />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

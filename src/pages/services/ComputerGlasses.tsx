@@ -456,7 +456,7 @@ const ComputerGlasses: React.FC = () => {
         <meta property="og:title" content={c.metaTitle[lang]} />
         <meta property="og:description" content={c.metaDesc[lang]} />
         <link rel="canonical" href={`https://looptica.com/${lang}/services/computer-glasses`} />
-        {(['ca','es','en','de'] as const).map((l) => (<link key={l} rel="alternate" hrefLang={l} href={`https://looptica.com/${l}/services/computer-glasses`} />))}
+        {(['ca','es','en','de','it'] as const).map((l) => (<link key={l} rel="alternate" hrefLang={l} href={`https://looptica.com/${l}/services/computer-glasses`} />))}
         <link rel="alternate" hrefLang="x-default" href={`https://looptica.com/ca/services/computer-glasses`} />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
