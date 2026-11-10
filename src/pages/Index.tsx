@@ -14,7 +14,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.12.1-eyewear-minimal";
+const CURRENT_VERSION = "v2.13.0-italiano";
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
