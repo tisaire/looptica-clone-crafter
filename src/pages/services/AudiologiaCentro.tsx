@@ -4,6 +4,7 @@ import ServiceLayout from '@/components/layout/ServiceLayout';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { useLanguage } from '@/contexts/LanguageContext';
 import TeamSpotlight from '@/components/TeamSpotlight';
+import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Ear, Headphones, HandCoins, Activity, ShieldCheck, Radio } from 'lucide-react';
 import centreAuditiuHero from '@/assets/centre_auditiu-hero.webp.asset.json';
@@ -289,6 +290,42 @@ const AudiologiaCentro = () => {
               </Button>
             ))}
           </div>
+        </section>
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <section className="border-t border-border py-8">
+          <h2 className="text-2xl font-semibold tracking-normal mb-4">{content.blockAHeading[language]}</h2>
+          <p className="text-muted-foreground mb-6">{content.blockAText[language]}</p>
+          <Button asChild variant="outline" className="h-auto min-h-11 whitespace-normal text-left">
+            <Link to={`/${language}/services/hearing-test`}>
+              {content.blockALink[language]}
+              <ArrowRight aria-hidden="true" />
+            </Link>
+          </Button>
+        </section>
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <section className="border-t border-border py-8">
+          <h2 className="text-2xl font-semibold tracking-normal mb-4">{content.blockBHeading[language]}</h2>
+          <p className="text-muted-foreground mb-6">{content.blockBText[language]}</p>
+          <Button asChild variant="outline" className="h-auto min-h-11 whitespace-normal text-left">
+            <Link to={`/${language}/services/hearing-aids`}>
+              {content.blockBLink[language]}
+              <ArrowRight aria-hidden="true" />
+            </Link>
+          </Button>
+        </section>
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <section className="border-t border-border py-8">
+          <h2 className="text-2xl font-semibold tracking-normal mb-4">{content.blockCHeading[language]}</h2>
+          <p className="text-muted-foreground mb-6">{content.blockCText[language]}</p>
+          <GoogleCalendarButton subject={content.appointmentSubject[language]}>
+            {content.blockCta[language]}
+          </GoogleCalendarButton>
         </section>
       </ScrollReveal>
 
