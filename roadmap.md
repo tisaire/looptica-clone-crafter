@@ -51,6 +51,6 @@
 
 ## Italian (5th language)
 - [x] Language config, switcher, ZEISS slug, .htaccess, sitemap (25 IT URLs)
-- [ ] Italian copy on all non-legal pages (in progress)
-- [ ] Legal pages show Spanish under /it/
-- [ ] Verify all /it/ pages render
+- [x] Italian copy on all non-legal pages
+- [x] Legal pages show Spanish under /it/
+- [x] Verify all /it/ pages render
