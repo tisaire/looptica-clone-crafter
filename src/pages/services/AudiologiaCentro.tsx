@@ -14,11 +14,11 @@ const AudiologiaCentro = () => {
   
   const content = {
     seoTitle: {
-      en: "Audiologist in Barcelona | Hearing Tests & Hearing Aids | looptica",
-      es: "Audiólogo en Barcelona | Audífonos y prueba auditiva | looptica",
-      ca: "Audiòleg a Barcelona | Audiòfons i prova auditiva | looptica",
-      de: "Audiologe in Barcelona | Hörtest & Hörgeräte | looptica",
-      it: "Audiologo a Barcellona | Test udito e apparecchi | looptica"
+      en: "Audiologist in Barcelona | Hearing Tests & Hearing Aids",
+      es: "Audiólogo en Barcelona | Audífonos y prueba auditiva",
+      ca: "Audiòleg a Barcelona | Audiòfons i prova auditiva",
+      de: "Audiologe in Barcelona | Hörtest & Hörgeräte",
+      it: "Audiologo a Barcellona | Test udito e apparecchi"
     },
     seoDescription: {
       en: "Professional hearing tests, hearing aid fitting and follow-up in Barcelona. Audiologist in Poblenou with advanced technology and personalized care.",

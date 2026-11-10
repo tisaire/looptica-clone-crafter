@@ -11,11 +11,11 @@ const LentsContacte = () => {
   
   const content = {
     seoTitle: {
-      en: "Contact Lenses in Barcelona | Poblenou Fitting | looptica",
-      es: "Lentillas en Barcelona | Adaptación en Poblenou | looptica",
-      ca: "Lents de contacte a Barcelona | Lentilles a Poblenou | looptica",
-      de: "Kontaktlinsen in Barcelona | Anpassung in Poblenou | looptica",
-      it: "Lenti a contatto a Barcellona | Applicazione Poblenou | looptica"
+      en: "Contact Lenses in Barcelona | Poblenou Fitting",
+      es: "Lentillas en Barcelona | Adaptación en Poblenou",
+      ca: "Lents de contacte a Barcelona | Lentilles a Poblenou",
+      de: "Kontaktlinsen in Barcelona | Anpassung in Poblenou",
+      it: "Lenti a contatto a Barcellona | Applicazione Poblenou"
     },
     seoDescription: {
       en: "Professional contact lens fitting in Barcelona Poblenou: daily, toric, multifocal and specialty lenses, with a full eye exam by registered optometrists. Book online.",
