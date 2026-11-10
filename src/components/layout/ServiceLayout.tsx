@@ -93,7 +93,9 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   }
   if (basePath === "") basePath = "/";
 
-  const currentSeoTitle = pageTitle?.[language] || title; // Fallback to hero title
+  const rawSeoTitle = pageTitle?.[language] || title; // Fallback to hero title
+  // Strip a trailing brand mention so the layout's " - looptica" suffix never duplicates it
+  const currentSeoTitle = rawSeoTitle.replace(/\s*[-|]\s*looptica\s*$/i, '');
   const currentSeoDescription = pageDescription?.[language] || subtitle; // Fallback to hero subtitle
 
   return (
