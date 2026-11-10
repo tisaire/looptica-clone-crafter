@@ -9,6 +9,7 @@ import { SUPPORTED_LANGUAGES } from '@/config/languages';
 
 const PrivacyPolicy = () => {
   const { language, t } = useLanguage();
+  const contentLang = language === 'it' ? 'es' : language;
 
   // Content based on language
   const content = {
@@ -253,12 +254,12 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>{content[language].title} | looptica</title>
-        <meta name="description" content={content[language].metaDescription} />
+        <title>{content[contentLang].title} | looptica</title>
+        <meta name="description" content={content[contentLang].metaDescription} />
         <meta name="robots" content="noindex, follow" />
         <link rel="canonical" href={`https://looptica.com/${language}/legal/privacy-policy`} />
-        <meta property="og:title" content={`${content[language].title} | looptica`} />
-        <meta property="og:description" content={content[language].metaDescription} />
+        <meta property="og:title" content={`${content[contentLang].title} | looptica`} />
+        <meta property="og:description" content={content[contentLang].metaDescription} />
         <meta property="og:url" content={`https://looptica.com/${language}/legal/privacy-policy`} />
         <meta property="og:type" content="website" />
         {SUPPORTED_LANGUAGES.map((lang) => (
@@ -286,14 +287,14 @@ const PrivacyPolicy = () => {
 
       <main className="px-6 lg:px-12 bg-gray-50">
         <div className="max-w-4xl mx-auto py-12">
-          <h1 className="text-3xl font-bold mb-2 text-foreground">{content[language].heading}</h1>
+          <h1 className="text-3xl font-bold mb-2 text-foreground">{content[contentLang].heading}</h1>
           <ScrollReveal>
-            <p className="text-gray-500 mb-8">{content[language].lastUpdated}</p>
+            <p className="text-gray-500 mb-8">{content[contentLang].lastUpdated}</p>
             
             {/* SECURITY: Content is sanitized with DOMPurify to prevent XSS attacks */}
             <div 
               className="prose prose-gray max-w-none prose-headings:text-gray-900 prose-headings:font-semibold prose-h2:text-2xl prose-h3:text-xl prose-h3:mt-6 prose-p:text-gray-600 prose-a:text-[#55afa9] prose-a:no-underline hover:prose-a:text-[#ca6664]"
-              dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(content[language].content) }}
+              dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(content[contentLang].content) }}
             />
           </ScrollReveal>
         </div>

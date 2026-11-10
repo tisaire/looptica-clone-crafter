@@ -23,24 +23,28 @@ const c = {
     ca: 'Ulleres per a l’ordinador a Barcelona | looptica',
     en: 'Computer Glasses in Barcelona | looptica',
     de: 'Bildschirmbrillen in Barcelona | looptica',
+    it: 'Occhiali da computer a Barcellona | looptica',
   } as L,
   metaDesc: {
     es: 'Gafas para ordenador y lentes ocupacionales graduadas en Barcelona. Mayor comodidad visual para trabajar con pantallas. Asesoramiento en looptica.',
     ca: 'Ulleres per a l’ordinador i lents ocupacionals graduades a Barcelona. Comoditat visual per treballar amb pantalles. Assessorament a looptica.',
     en: 'Prescription computer glasses and occupational lenses in Barcelona. Personalised optical solutions for comfortable screen work at looptica.',
     de: 'Bildschirmbrillen und Arbeitsplatzgläser mit Sehstärke in Barcelona. Individuelle Beratung und komfortables Sehen am Computer bei looptica.',
+    it: 'Occhiali da computer e lenti occupazionali graduate a Barcellona. Massimo comfort visivo davanti agli schermi. Consulenza da looptica.',
   } as L,
   eyebrow: {
     es: 'GAFAS PARA ORDENADOR EN BARCELONA',
     ca: 'ULLERES PER A L’ORDINADOR A BARCELONA',
     en: 'COMPUTER GLASSES IN BARCELONA',
     de: 'BILDSCHIRMBRILLEN IN BARCELONA',
+    it: 'OCCHIALI DA COMPUTER A BARCELLONA',
   } as L,
   h1: {
     es: 'Gafas para ordenador. Trabaja cómodamente, mira con claridad.',
     ca: 'Ulleres per a l’ordinador. Treballa còmodament, mira amb claredat.',
     en: 'Computer glasses. Work comfortably, see clearly.',
     de: 'Bildschirmbrillen. Entspannt arbeiten, klar sehen.',
+    it: 'Occhiali da computer. Lavora comodamente, guarda con chiarezza.',
   } as L,
   heroText: {
     es: [
@@ -59,24 +63,31 @@ const c = {
       'Verbringen Sie viele Stunden am Computer? Arbeitsplatzgläser sind für komfortables Sehen im Nah- und Zwischenbereich konzipiert und können an Ihre Arbeitsumgebung angepasst werden.',
       'Bei looptica helfen wir Ihnen, die passende Brille für Ihren Alltag zu finden.',
     ],
+    it: [
+      'Passi molte ore davanti al computer? Le lenti occupazionali sono progettate per offrire una visione confortevole alle medie e brevi distanze, adattandosi alle esigenze della tua postazione di lavoro.',
+      'Da looptica ti aiutiamo a trovare gli occhiali più adatti alla tua vita quotidiana.',
+    ],
   } as LL,
   heroCta: {
     es: 'Reserva tu asesoramiento personalizado',
     ca: 'Reserva el teu assessorament personalitzat',
     en: 'Book your personalised consultation',
     de: 'Persönlichen Beratungstermin vereinbaren',
+    it: 'Prenota la tua consulenza personalizzata',
   } as L,
   heroTrust: {
     es: 'looptica · Poblenou, Barcelona',
     ca: 'looptica · Poblenou, Barcelona',
     en: 'looptica · Poblenou, Barcelona',
     de: 'looptica · Poblenou, Barcelona',
+    it: 'looptica · Poblenou, Barcelona',
   } as L,
   problemsH2: {
     es: '¿Te cuesta encontrar una posición cómoda frente al ordenador?',
     ca: 'Et costa trobar una posició còmoda davant de l’ordinador?',
     en: 'Struggling to find a comfortable position at your computer?',
     de: 'Fällt es Ihnen schwer, am Computer eine bequeme Haltung zu finden?',
+    it: 'Fai fatica a trovare una posizione comoda davanti al computer?',
   } as L,
   problemsText: {
     es: [
@@ -94,6 +105,10 @@ const c = {
     de: [
       'Langes Arbeiten am Bildschirm erfordert häufiges Fokussieren auf unterschiedliche Entfernungen.',
       'Wenn Sie eine Lesebrille oder herkömmliche Gleitsichtbrille tragen, finden Sie möglicherweise nicht immer den optimalen Sehbereich für Ihren Arbeitsplatz.',
+    ],
+    it: [
+      'Lavorare per ore davanti agli schermi richiede di mettere a fuoco continuamente a diverse distanze.',
+      'Se utilizzi occhiali da lettura o progressivi convenzionali, potresti non trovare la zona di visione più comoda per la tua postazione di lavoro.',
     ],
   } as LL,
   problems: {
@@ -117,18 +132,25 @@ const c = {
       ['Häufig wechselnde Sehabstände', 'Sie wechseln zwischen Dokumenten, Tastatur, Bildschirm und Personen an Ihrem Arbeitsplatz.'],
       ['Unbequeme Körperhaltung', 'Sie müssen den Kopf heben oder neigen, um durch Ihre bisherige Brille den passenden Sehbereich zu finden.'],
     ],
+    it: [
+      ['Molte ore davanti agli schermi', 'Lavori con uno o più monitor e hai bisogno di mettere a fuoco comodamente per periodi prolungati.'],
+      ['Cambi costanti di distanza', 'Alterni tra documenti, tastiera, schermo e altre persone nel tuo spazio di lavoro.'],
+      ['Posture scomode', 'Hai bisogno di sollevare o inclinare la testa per trovare la zona di visione corretta con i tuoi occhiali attuali.'],
+    ],
   } as Record<Language, string[][]>,
   problemsClose: {
     es: 'Unas gafas adaptadas a las distancias de tu puesto de trabajo pueden ayudarte a conseguir una experiencia visual más cómoda.',
     ca: 'Unes ulleres adaptades a les distàncies del teu lloc de treball poden ajudar-te a aconseguir una experiència visual més còmoda.',
     en: 'Glasses adapted to your working distances may help make your visual experience more comfortable.',
     de: 'Eine Brille, die auf Ihre Arbeitsabstände abgestimmt ist, kann zu einem angenehmeren Seherlebnis beitragen.',
+    it: 'Degli occhiali adattati alle distanze della tua postazione di lavoro possono aiutarti a ottenere un’esperienza visiva più confortevole.',
   } as L,
   lensesH2: {
     es: 'Lentes ocupacionales: gafas diseñadas para trabajar con ordenador.',
     ca: 'Lents ocupacionals: ulleres dissenyades per treballar amb ordinador.',
     en: 'Occupational lenses: glasses designed for computer work.',
     de: 'Arbeitsplatzgläser: Brillengläser für die Arbeit am Computer.',
+    it: 'Lenti occupazionali: occhiali progettati per lavorare al computer.',
   } as L,
   lensesText: {
     es: [
@@ -150,6 +172,11 @@ const c = {
       'Arbeitsplatzgläser sind speziell für das Sehen im Nah- und Zwischenbereich entwickelte Korrektionsgläser.',
       'Im Vergleich zu herkömmlichen Gleitsichtgläsern können Arbeitsplatzglasdesigns größere klare Sehbereiche für Bildschirmarbeit, das Lesen von Dokumenten und Bürotätigkeiten bieten.',
       'Die Auswahl des passenden Designs hängt von Ihren Sehbedürfnissen und üblichen Arbeitsabständen ab.',
+    ],
+    it: [
+      'Le lenti occupazionali sono lenti graduate appositamente progettate per mettere a fuoco a distanze vicine e intermedie.',
+      'A differenza delle lenti progressive generiche, i design occupazionali possono offrire campi di visione più ampi per lavorare con gli schermi, leggere documenti e svolgere attività d’ufficio.',
+      'La scelta del design dipende dalle tue esigenze visive e dalle distanze a cui lavori.',
     ],
   } as LL,
   lensesBenefits: {
@@ -173,24 +200,32 @@ const c = {
       ['Sehkomfort', 'Ihr Design ist darauf ausgelegt, Sehaufgaben im Nah- und Zwischenbereich angenehmer zu gestalten.'],
       ['Natürlichere Körperhaltung', 'Ein auf die Bildschirmposition abgestimmter Sehbereich kann die Notwendigkeit verringern, den Kopf zum Scharfsehen anzuheben oder zu neigen.'],
     ],
+    it: [
+      ['Visione adatta al tuo spazio di lavoro', 'Le lenti vengono scelte tenendo conto della distanza dal computer, dai documenti e dagli altri elementi dell’ambiente.'],
+      ['Comfort visivo', 'Il loro design punta a facilitare la visione durante le attività da vicino e a distanze intermedie.'],
+      ['Una postura più naturale', 'Un campo visivo adattato al tuo schermo può ridurre la necessità di sollevare o inclinare la testa per mettere a fuoco.'],
+    ],
   } as Record<Language, string[][]>,
   lensesNote: {
     es: 'Las lentes ocupacionales no están diseñadas para todas las distancias y no deben utilizarse para conducir.',
     ca: 'Les lents ocupacionals no estan dissenyades per a totes les distàncies i no s’han d’utilitzar per conduir.',
     en: 'Occupational lenses are not designed for all distances and should not be used for driving.',
     de: 'Arbeitsplatzgläser sind nicht für alle Sehentfernungen ausgelegt und dürfen nicht zum Autofahren verwendet werden.',
+    it: 'Le lenti occupazionali non sono progettate per tutte le distanze e non devono essere utilizzate per guidare.',
   } as L,
   compareH2: {
     es: '¿Gafas para ordenador, progresivas o gafas de lectura?',
     ca: 'Ulleres per a l’ordinador, progressives o de lectura?',
     en: 'Computer glasses, progressive lenses or reading glasses?',
     de: 'Bildschirmbrille, Gleitsichtbrille oder Lesebrille?',
+    it: 'Occhiali da computer, progressivi o occhiali da lettura?',
   } as L,
   compareIntro: {
     es: 'No todas las gafas ofrecen las mismas prestaciones.',
     ca: 'No totes les ulleres ofereixen les mateixes prestacions.',
     en: 'Not all glasses provide the same visual performance.',
     de: 'Nicht alle Brillengläser bieten die gleichen Eigenschaften.',
+    it: 'Non tutti gli occhiali offrono le stesse prestazioni.',
   } as L,
   compare: {
     es: [
@@ -213,30 +248,39 @@ const c = {
       ['Gleitsichtbrillen', 'Kombinieren Nah-, Zwischen- und Fernsicht in einer Brille und bieten dadurch eine vielseitige Lösung für den Alltag.'],
       ['Lesebrillen', 'Sind hauptsächlich für eine bestimmte kurze Sehentfernung vorgesehen. Für einen weiter entfernten Computermonitor sind sie nicht immer geeignet.'],
     ],
+    it: [
+      ['Occhiali occupazionali', 'Sono progettati per attività a distanze vicine e intermedie. Possono offrire zone di visione particolarmente utili per lavorare al computer, leggere e svolgere attività d’ufficio. Il loro raggio visivo dipende dal design scelto.'],
+      ['Occhiali progressivi', 'Consentono di combinare la visione da vicino, intermedia e da lontano in un unico paio d’occhiali. Sono una soluzione più versatile per le varie attività quotidiane.'],
+      ['Occhiali da lettura', 'Sono progettati principalmente per mettere a fuoco a distanza ravvicinata. Non sempre risultano adatti per guardare lo schermo di un computer posizionato più lontano.'],
+    ],
   } as Record<Language, string[][]>,
   compareClose: {
     es: 'Las lentes ocupacionales pueden ser un excelente complemento a tus gafas habituales, especialmente si trabajas muchas horas con pantallas.',
     ca: 'Les lents ocupacionals poden ser un complement excel·lent a les teves ulleres habituals, especialment si treballes moltes hores amb pantalles.',
     en: 'Occupational lenses can be an excellent complement to your everyday glasses, particularly if you spend many hours working with screens.',
     de: 'Arbeitsplatzgläser können Ihre Alltagsbrille sinnvoll ergänzen, insbesondere wenn Sie viele Stunden am Bildschirm arbeiten.',
+    it: 'Le lenti occupazionali possono essere un ottimo complemento ai tuoi occhiali abituali, soprattutto se lavori molte ore davanti agli schermi.',
   } as L,
   compareCta: {
     es: 'Descubre qué lentes necesitas',
     ca: 'Descobreix quines lents necessites',
     en: 'Find the right lenses for you',
     de: 'Passende Brillengläser entdecken',
+    it: 'Scopri di quali lenti hai bisogno',
   } as L,
   zeissLink: {
     es: '¿Buscas unas gafas para todas las distancias? Descubre nuestros progresivos ZEISS.',
     ca: 'Busques unes ulleres per a totes les distàncies? Descobreix les nostres lents progressives ZEISS.',
     en: 'Looking for glasses for all distances? Discover our ZEISS progressive lenses.',
     de: 'Suchen Sie eine Brille für alle Entfernungen? Entdecken Sie unsere ZEISS Gleitsichtgläser.',
+    it: 'Cerchi occhiali per tutte le distanze? Scopri le nostre lenti progressive ZEISS.',
   } as L,
   adviceH2: {
     es: 'Tus gafas deberían adaptarse a tu trabajo. No al revés.',
     ca: 'Les teves ulleres s’haurien d’adaptar a la teva feina. No al revés.',
     en: 'Your glasses should adapt to your work. Not the other way around.',
     de: 'Ihre Brille sollte sich Ihrer Arbeit anpassen. Nicht umgekehrt.',
+    it: 'I tuoi occhiali dovrebbero adattarsi al tuo lavoro. Non il contrario.',
   } as L,
   adviceText: {
     es: [
@@ -258,6 +302,11 @@ const c = {
       'Kein Arbeitsplatz ist wie der andere.',
       'Der Abstand zum Bildschirm, die Monitorhöhe, die Größe des Schreibtisches und Ihre täglichen Aufgaben beeinflussen Ihre Sehbedürfnisse.',
       'Bei looptica berücksichtigen wir Ihre Sehgewohnheiten, um Ihnen bei der Auswahl geeigneter Gläser zu helfen.',
+    ],
+    it: [
+      'Non tutte le postazioni di lavoro sono uguali.',
+      'La distanza dallo schermo, l’altezza del monitor, le dimensioni della scrivania e le attività che svolgi influenzano le tue esigenze visive.',
+      'Da looptica analizziamo come utilizzi la vista per aiutarti a scegliere le lenti più adatte.',
     ],
   } as LL,
   adviceSteps: {
@@ -281,12 +330,18 @@ const c = {
       ['2. Wir wählen Ihre Gläser aus', 'Wir beraten Sie zu verschiedenen Arbeitsplatzglasdesigns und verfügbaren Optionen.'],
       ['3. Wir passen Ihre Brille an', 'Wir führen die notwendigen Messungen durch und überprüfen den Sitz Ihrer Brille, damit Sie am Arbeitsplatz möglichst komfortabel sehen können.'],
     ],
+    it: [
+      ['1. Analizziamo le tue esigenze', 'Valutiamo la tua gradazione, le tue abitudini visive e le distanze abituali di lavoro.'],
+      ['2. Selezioniamo le tue lenti', 'Ti consigliamo sui diversi design di lenti occupazionali e sulle opzioni disponibili.'],
+      ['3. Regoliamo i tuoi occhiali', 'Eseguiamo le misurazioni necessarie e verifichiamo la calzata per facilitare una visione confortevole nel tuo ambiente di lavoro.'],
+    ],
   } as Record<Language, string[][]>,
   faqTitle: {
     es: 'Preguntas frecuentes',
     ca: 'Preguntes freqüents',
     en: 'Frequently asked questions',
     de: 'Häufig gestellte Fragen',
+    it: 'Domande frequenti',
   } as L,
   faq: {
     es: [
@@ -325,66 +380,85 @@ const c = {
       ['Darf ich mit einer Arbeitsplatzbrille Auto fahren?', 'Nein. Herkömmliche Arbeitsplatzgläser sind für den Nah- und Zwischenbereich ausgelegt und bieten nicht unbedingt die notwendige Korrektur für klares Sehen in der Ferne. Zum Autofahren benötigen Sie eine geeignete Brille für die Fernsicht, entsprechend Ihrer Sehstärke und den Empfehlungen Ihres Augenoptikers.'],
       ['Was kostet eine Bildschirmbrille mit Sehstärke?', 'Der Preis hängt vom Glasdesign, dem Individualisierungsgrad, dem Material, den gewählten Beschichtungen und der Fassung ab. Bei looptica beraten wir Sie persönlich und erstellen ein unverbindliches Angebot.'],
     ],
+    it: [
+      ['Gli occhiali da computer e le lenti occupazionali sono la stessa cosa?', 'Non necessariamente. «Occhiali da computer» è un’espressione generica che può riferirsi a diversi tipi di occhiali usati davanti agli schermi. Le lenti occupazionali sono un tipo specifico di lenti graduate, studiate per agevolare la visione alle distanze ravvicinate e intermedie. Il loro design può offrire campi di visione più ampi per lavorare al computer e svolgere compiti d’ufficio. Da looptica valutiamo le tue esigenze per consigliarti la soluzione più adatta.'],
+      ['Che differenza c’è tra lenti occupazionali e lenti progressive?', 'Le lenti progressive convenzionali permettono di vedere da vicino, a distanze intermedie e da lontano con un unico paio di occhiali. Le lenti occupazionali sono ottimizzate per le distanze di lavoro, soprattutto per la visione vicina e intermedia. Ciò può offrire campi visivi più ampi per determinate attività, come lavorare al computer o leggere. Tuttavia, le occupazionali non sostituiscono le progressive di uso generale per tutte le attività quotidiane.'],
+      ['Posso usare occhiali occupazionali se porto già i progressivi?', 'Sì. Molte persone usano le lenti occupazionali come secondo paio di occhiali, in particolare per lavorare al computer. I progressivi di uso generale offrono versatilità a diverse distanze, mentre gli occupazionali possono garantire zone di visione più adatte a una specifica postazione di lavoro. I due tipi di lenti possono integrarsi a vicenda.'],
+      ['Gli occhiali da computer riducono l’affaticamento visivo?', 'Occhiali con la gradazione e il design corretti per le tue distanze di lavoro possono migliorare il comfort visivo e favorire una postura più naturale. Tuttavia, l’affaticamento visivo può essere legato anche a fattori come l’illuminazione, l’uso prolungato degli schermi, la secchezza oculare o una gradazione non adatta. Per questo è importante effettuare una valutazione personalizzata prima di scegliere gli occhiali.'],
+      ['Ho bisogno di occhiali con filtro luce blu per lavorare al computer?', 'Non necessariamente. Il filtro per la luce blu e il design ottico delle lenti occupazionali sono caratteristiche differenti. Le lenti occupazionali sono progettate per offrire una correzione visiva idonea a specifiche distanze di lavoro. I filtri luce blu non sostituiscono una gradazione accurata né un design di lenti adatto alle tue esigenze.'],
+      ['Posso guidare con le lenti occupazionali?', 'No. Le consuete lenti occupazionali sono pensate per le distanze ravvicinate e intermedie e non forniscono necessariamente una correzione idonea per vedere da lontano. Per guidare devi utilizzare occhiali adatti alla visione da lontano, secondo la tua gradazione e le indicazioni del professionista della visione.'],
+      ['Quanto costano gli occhiali graduati da computer?', 'Il prezzo dipende dal design della lente, dal livello di personalizzazione, dal materiale, dai trattamenti scelti e dalla montatura. Da looptica ti presentiamo le varie alternative disponibili e prepariamo un preventivo personalizzato, senza alcun impegno d’acquisto.'],
+    ],
   } as Record<Language, string[][]>,
   finalH2: {
     es: 'Descubre una forma más cómoda de trabajar.',
     ca: 'Descobreix una manera més còmoda de treballar.',
     en: 'Discover a more comfortable way to work.',
     de: 'Entdecken Sie eine angenehmere Art zu arbeiten.',
+    it: 'Scopri un modo più comodo di lavorare.',
   } as L,
   finalText: {
     es: 'Tus ojos pasan muchas horas concentrados en el trabajo. Descubre unas gafas graduadas para ordenador adaptadas a tus necesidades.',
     ca: 'Els teus ulls passen moltes hores concentrats en la feina. Descobreix unes ulleres graduades per a l’ordinador adaptades a les teves necessitats.',
     en: 'Your eyes spend many hours focused on your work. Discover prescription computer glasses tailored to your needs.',
     de: 'Ihre Augen leisten jeden Tag konzentrierte Arbeit. Entdecken Sie individuell abgestimmte Bildschirmbrillen mit Sehstärke.',
+    it: 'I tuoi occhi passano molte ore concentrati sul lavoro. Scopri occhiali da computer graduati su misura per le tue esigenze.',
   } as L,
   finalCta: {
     es: 'Reserva tu visita personalizada',
     ca: 'Reserva la teva visita personalitzada',
     en: 'Book your personalised appointment',
     de: 'Persönlichen Termin vereinbaren',
+    it: 'Prenota la tua visita personalizzata',
   } as L,
   waCta: {
     es: 'Consultar por WhatsApp',
     ca: 'Consulta’ns per WhatsApp',
     en: 'Ask us on WhatsApp',
     de: 'Fragen Sie uns per WhatsApp',
+    it: 'Contattaci su WhatsApp',
   } as L,
   waMsg: {
     es: 'Hola, me gustaría recibir asesoramiento sobre gafas para ordenador y lentes ocupacionales.',
     ca: 'Hola, m’agradaria rebre assessorament sobre ulleres per a l’ordinador i lents ocupacionals.',
     en: 'Hello, I would like some advice about computer glasses and occupational lenses.',
     de: 'Guten Tag, ich möchte mich gerne zu Bildschirmbrillen und Arbeitsplatzgläsern beraten lassen.',
+    it: 'Buongiorno, vorrei ricevere informazioni su occhiali da computer e lenti occupazionali.',
   } as L,
   crumb: {
     es: 'Gafas para ordenador',
     ca: 'Ulleres per a l’ordinador',
     en: 'Computer glasses',
     de: 'Bildschirmbrillen',
+    it: 'Occhiali da computer',
   } as L,
   heroAlt: {
     es: 'Persona con gafas trabajando cómodamente frente al ordenador',
     ca: 'Persona amb ulleres treballant còmodament davant de l’ordinador',
     en: 'Person wearing glasses working comfortably at a computer',
     de: 'Person mit Brille bei entspannter Arbeit am Computer',
+    it: 'Persona con occhiali che lavora comodamente al computer',
   } as L,
   storeAlt: {
     es: 'Interior de looptica en Poblenou, Barcelona',
     ca: 'Interior de looptica al Poblenou, Barcelona',
     en: 'Interior of looptica in Poblenou, Barcelona',
     de: 'Innenansicht von looptica in Poblenou, Barcelona',
+    it: 'Interno di looptica a Poblenou, Barcellona',
   } as L,
   bookSticky: {
     es: 'Reservar cita',
     ca: 'Reservar cita',
     en: 'Book appointment',
     de: 'Termin buchen',
+    it: 'Prenota un appuntamento',
   } as L,
   bookingSubject: {
     es: 'Asesoramiento gafas para ordenador / lentes ocupacionales',
     ca: 'Assessorament ulleres per a l’ordinador / lents ocupacionals',
     en: 'Computer glasses / occupational lenses consultation',
     de: 'Beratung Bildschirmbrillen / Arbeitsplatzgläser',
+    it: 'Consulenza occhiali da computer / lenti occupazionali',
   } as L,
 };
 
@@ -456,7 +530,7 @@ const ComputerGlasses: React.FC = () => {
         <meta property="og:title" content={c.metaTitle[lang]} />
         <meta property="og:description" content={c.metaDesc[lang]} />
         <link rel="canonical" href={`https://looptica.com/${lang}/services/computer-glasses`} />
-        {(['ca','es','en','de'] as const).map((l) => (<link key={l} rel="alternate" hrefLang={l} href={`https://looptica.com/${l}/services/computer-glasses`} />))}
+        {(['ca','es','en','de','it'] as const).map((l) => (<link key={l} rel="alternate" hrefLang={l} href={`https://looptica.com/${l}/services/computer-glasses`} />))}
         <link rel="alternate" hrefLang="x-default" href={`https://looptica.com/ca/services/computer-glasses`} />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

@@ -54,7 +54,8 @@ const LanguageSwitcher = () => {
               {langCode === 'ca' ? 'Català' : 
                langCode === 'es' ? 'Español' : 
                langCode === 'en' ? 'English' : 
-               'Deutsch'}
+               langCode === 'de' ? 'Deutsch' :
+               'Italiano'}
             </SelectItem>
           ))}
         </SelectContent>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Ear, HeadphonesIcon, Zap, ShieldCheck, BadgeDollarSign, ArrowRight, Building2 } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
@@ -33,6 +32,12 @@ const Audiology = () => {
       role: 'Esther · Audiologin & Hörakustikerin',
       description: 'Hörtests, Hörgeräteanpassung und kontinuierliche Nachbetreuung mit Esther – persönlich und geduldig.',
       link: 'Unser Audiologie-Zentrum kennenlernen',
+    },
+    it: {
+      title: 'Centro di Audiologia a Poblenou',
+      role: 'Esther · Audiologa e Audioprotesista',
+      description: 'Test dell’udito, adattamento di apparecchi acustici e monitoraggio continuo con Esther, con un approccio empatico e paziente.',
+      link: 'Scopri il Centro di Audiologia',
     },
   }[language];
 

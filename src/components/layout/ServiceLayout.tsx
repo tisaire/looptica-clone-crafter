@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import Breadcrumbs from './Breadcrumbs';
@@ -62,18 +61,21 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
       es: "¿Listo para Programar su Cita?",
       ca: "Preparat per Programar la Seva Cita?",
       de: "Bereit, Ihren Termin zu vereinbaren?",
+      it: "Pronto a prenotare il tuo appuntamento?",
     },
     scheduleDescription: {
       en: "Book your appointment today to experience our personalized service and expert care.",
       es: "Reserve su cita hoy para experimentar nuestro servicio personalizado y atención experta.",
       ca: "Reservi la seva cita avui per experimentar el nostre servei personalitzat i atenció experta.",
       de: "Buchen Sie heute Ihren Termin, um unseren personalisierten Service und fachkundige Betreuung zu erleben.",
+      it: "Prenota oggi il tuo appuntamento per scoprire il nostro servizio personalizzato e la nostra cura esperta.",
     },
     buttonText: {
       en: "Schedule Appointment",
       es: "Programar Cita",
       ca: "Programar Cita",
       de: "Termin vereinbaren",
+      it: "Prenota appuntamento",
     },
   };
 

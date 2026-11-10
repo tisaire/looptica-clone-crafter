@@ -31,6 +31,10 @@ const PlanVeo = () => {
         title: "Plan VEO - Zuschüsse für Kinderbrillen | looptica",
         description: 'Erhalten Sie bis zu 100€/Jahr für Brillen oder Kontaktlinsen für Kinder bis 16 Jahre. Plan VEO Beihilfe bei looptica Barcelona.',
       },
+      it: {
+        title: "Plan VEO - Agevolazioni Occhiali Bambini | looptica",
+        description: 'Ottieni fino a 100€/anno per occhiali o lenti per minori di 16 anni. Agevolazione Plan VEO disponibile da looptica Barcellona Poblenou.',
+      },
     },
     hero: {
       en: {
@@ -49,12 +53,17 @@ const PlanVeo = () => {
         title: 'Plan VEO',
         subtitle: 'Zuschüsse für Kinderbrillen und Kontaktlinsen',
       },
+      it: {
+        title: 'Plan VEO',
+        subtitle: 'Agevolazioni per Occhiali e Lenti a Contatto per Bambini',
+      },
     },
     intro: {
       en: 'Plan VEO is a Spanish government initiative providing financial assistance of up to €100 per year for glasses or contact lenses for children and teenagers up to 16 years of age with vision problems. At looptica, we are an authorized participating optician where you can directly apply for this subsidy.',
       es: 'El Plan VEO es una iniciativa del gobierno español que ofrece una ayuda económica de hasta 100€ al año para gafas o lentillas para niños y adolescentes de hasta 16 años con problemas de visión. En looptica, somos una óptica participante autorizada donde puedes solicitar directamente esta subvención.',
       ca: 'El Plan VEO és una iniciativa del govern espanyol que ofereix una ajuda econòmica de fins a 100€ l\'any per a ulleres o lents de contacte per a nens i adolescents de fins a 16 anys amb problemes de visió. A looptica, som una òptica participant autoritzada on pots sol·licitar directament aquesta subvenció.',
       de: 'Plan VEO ist eine spanische Regierungsinitiative, die finanzielle Unterstützung von bis zu 100€ pro Jahr für Brillen oder Kontaktlinsen für Kinder und Jugendliche bis 16 Jahre mit Sehproblemen bietet. Bei looptica sind wir ein autorisierter teilnehmender Optiker, bei dem Sie diese Beihilfe direkt beantragen können.',
+      it: 'Il Plan VEO è un\'iniziativa del governo spagnolo che offre un aiuto economico fino a 100€ all\'anno per occhiali o lenti a contatto per bambini e adolescenti fino a 16 anni con problemi di vista. Da looptica siamo un\'ottica convenzionata autorizzata dove puoi richiedere direttamente questa agevolazione.',
     },
     whatIs: {
       en: {
@@ -72,6 +81,10 @@ const PlanVeo = () => {
       de: {
         title: 'Was ist Plan VEO?',
         description: 'Plan VEO (Visión y Equipamiento Óptico) ist ein Regierungsprogramm, das bis zu 100€ pro Jahr für korrigierende Sehhilfen für Minderjährige abdeckt. Das Programm ist bis zum 31. Dezember 2026 gültig.',
+      },
+      it: {
+        title: 'Cos\'è il Plan VEO?',
+        description: 'Il Plan VEO (Visión y Equipamiento Óptico) è un programma governativo che copre fino a 100€ all\'anno per dispositivi ottici correttivi per minori. Il programma è valido fino al 31 dicembre 2026.',
       },
     },
     cards: {
@@ -143,6 +156,23 @@ const PlanVeo = () => {
           description: 'Besuchen Sie looptica mit den erforderlichen Dokumenten. Wir bearbeiten die Beihilfe direkt in unserem Geschäft. Kein Online-Antrag oder Behördenbesuch erforderlich.',
         },
       ],
+      it: [
+        {
+          icon: Users,
+          title: 'Chi Può Richiederlo?',
+          description: 'Bambini e adolescenti fino a 16 anni con difetti refrattivi (miopia, ipermetropia, astigmatismo) beneficiari del Sistema Sanitario Nazionale spagnolo (SNS) o iscritti alle mutue MUFACE, MUGEJU o ISFAS.',
+        },
+        {
+          icon: FileText,
+          title: 'Documenti Necessari',
+          description: 'Per minori di età ≤5 anni: Tessera sanitaria con codice CIPA. Per minori di 6-16 anni: Tessera sanitaria, prescrizione ottica e documento di identità del rappresentante legale.',
+        },
+        {
+          icon: ClipboardCheck,
+          title: 'Come Richiederlo',
+          description: 'Vieni da looptica con i documenti necessari. Gestiamo la richiesta di agevolazione direttamente nel nostro centro. Non occorre fare domande online né recarsi presso uffici pubblici.',
+        },
+      ],
     },
     eligibility: {
       en: {
@@ -187,6 +217,17 @@ const PlanVeo = () => {
           'Mitglieder der MUFACE, MUGEJU oder ISFAS Versicherungen',
           'Eine Beihilfe pro Person und Jahr (maximal 100€)',
           'Gültig für Brillen oder Kontaktlinsen (nicht beides im selben Jahr)',
+        ],
+      },
+      it: {
+        title: 'Criteri di Idoneità',
+        items: [
+          'Bambini e adolescenti da 0 a 16 anni',
+          'Diagnosi di miopia, ipermetropia, astigmatismo o presbiopia',
+          'Beneficiari del Sistema Sanitario Nazionale spagnolo (SNS)',
+          'Iscritti alle mutue MUFACE, MUGEJU o ISFAS',
+          'Un\'agevolazione a persona all\'anno (massimo 100€)',
+          'Valido per occhiali o lenti a contatto (non entrambi nello stesso anno)',
         ],
       },
     },
@@ -339,6 +380,43 @@ const PlanVeo = () => {
           },
         ],
       },
+      it: {
+        title: 'Domande Frequenti',
+        questions: [
+          {
+            question: 'Cos\'è il Plan VEO?',
+            answer: 'Il Plan VEO (Visión y Equipamiento Óptico) è un programma del governo spagnolo che mette a disposizione fino a 100€ all\'anno per dispositivi ottici correttivi (occhiali o lenti a contatto) per bambini e adolescenti fino a 16 anni con problemi di vista.',
+          },
+          {
+            question: 'Chi può richiedere l\'agevolazione del Plan VEO?',
+            answer: 'Bambini e adolescenti da 0 a 16 anni con diagnosi di difetti refrattivi (miopia, ipermetropia, astigmatismo) che siano beneficiari del Sistema Sanitario Nazionale spagnolo (SNS) o iscritti alle mutue MUFACE, MUGEJU o ISFAS.',
+          },
+          {
+            question: 'Quali prodotti copre il Plan VEO?',
+            answer: 'L\'agevolazione copre occhiali da vista (montature e lenti) o lenti a contatto. È possibile scegliere l\'uno o l\'altro, ma non entrambi nello stesso anno.',
+          },
+          {
+            question: 'Quali documenti servono per la richiesta?',
+            answer: 'Per bambini fino a 5 anni: Tessera sanitaria con codice CIPA. Per minori di 6-16 anni: Tessera sanitaria, prescrizione ottica di un medico oculista o optometrista e documento d\'identità del rappresentante legale.',
+          },
+          {
+            question: 'Posso acquistare prodotti che costano più di 100€?',
+            answer: 'Sì, puoi acquistare occhiali con costo superiore a 100€. L\'agevolazione del Plan VEO coprirà fino a 100€ e pagherai solo la differenza.',
+          },
+          {
+            question: 'Posso conservare il saldo non utilizzato per acquisti successivi?',
+            answer: 'No, l\'agevolazione di 100€ non è cumulabile. Deve essere utilizzata in un unico acquisto nell\'arco dell\'anno solare. L\'importo residuo non utilizzato decade.',
+          },
+          {
+            question: 'Posso richiedere nuovamente l\'agevolazione il prossimo anno?',
+            answer: 'Sì, l\'agevolazione del Plan VEO può essere richiesta una volta per ogni anno solare fino al compimento dei 17 anni, purché il programma rimanga attivo.',
+          },
+          {
+            question: 'Fino a quando è valido il Plan VEO?',
+            answer: 'Il Plan VEO è attualmente valido fino al 31 dicembre 2026. Il programma potrà essere prorogato dal governo.',
+          },
+        ],
+      },
     },
     cta: {
       en: {
@@ -364,6 +442,12 @@ const PlanVeo = () => {
         description: 'Besuchen Sie unser Geschäft in Barcelona Poblenou, um die Plan VEO Beihilfe zu beantragen. Unser Team führt Sie durch den Prozess und hilft Ihnen, die perfekte Brille für Ihr Kind auszuwählen.',
         button: 'Termin vereinbaren',
         contact: 'Kontaktieren Sie Uns für Weitere Informationen',
+      },
+      it: {
+        title: 'Richiedi il Plan VEO da looptica',
+        description: 'Vieni nel nostro negozio a Barcellona Poblenou per richiedere l\'agevolazione del Plan VEO. Il nostro team ti guiderà nella procedura e ti aiuterà a scegliere gli occhiali ideali per tuo figlio.',
+        button: 'Prenota un Appuntamento',
+        contact: 'Contattaci per Maggiori Informazioni',
       },
     },
   };

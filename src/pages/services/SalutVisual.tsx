@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Eye, Shield, CheckSquare, Award } from 'lucide-react';
@@ -28,6 +27,10 @@ const SalutVisual = () => {
       de: {
         title: "Sehgesundheitsdienste | looptica Barcelona",
         description: "Umfassende Sehgesundheitsuntersuchungen und Augenpflege bei looptica Barcelona. Experten-Optometristen, fortschrittliche Technologie und personalisierte Sehlösungen."
+      },
+      it: {
+        title: "Controllo vista a Poblenou | Salute visiva | looptica",
+        description: "Controllo visivo completo a Poblenou, Barcellona: optometria, salute oculare e prevenzione con tecnologia avanzata. Prenota una visita da looptica."
       }
     },
     hero: {
@@ -50,6 +53,11 @@ const SalutVisual = () => {
         title: "Sehgesundheit",
         subtitle: "Wir kümmern uns um Ihre Augen mit der besten Technologie und Fachkräften",
         appointmentSubject: "Sehgesundheitsuntersuchung bei looptica"
+      },
+      it: {
+        title: "Salute Visiva",
+        subtitle: "Ci prendiamo cura dei tuoi occhi con le migliori tecnologie e professionisti",
+        appointmentSubject: "Esame della salute visiva da looptica"
       }
     },
     whatIs: {
@@ -57,7 +65,8 @@ const SalutVisual = () => {
         en: "What is a visual health exam?",
         es: "¿Qué es un examen de salud visual?",
         ca: "Què és un examen de salut visual?",
-        de: "Was ist eine Sehgesundheitsuntersuchung?"
+        de: "Was ist eine Sehgesundheitsuntersuchung?",
+        it: "Che cos'è un esame della salute visiva?"
       },
       paragraphs: {
         en: [
@@ -75,6 +84,10 @@ const SalutVisual = () => {
         de: [
           "Eine Sehgesundheitsuntersuchung ist eine umfassende Bewertung des Zustands Ihrer Augen und Ihres Sehvermögens, die von Augengesundheitsfachkräften durchgeführt wird. Sie geht über einen einfachen Sehtest hinaus; es ist eine vollständige Überprüfung, die die allgemeine Augengesundheit, die Sehfunktion untersucht und mögliche Augenprobleme oder systemische Krankheiten erkennt, die die Augen beeinträchtigen können.",
           "Bei looptica glauben wir, dass Vorsorge wesentlich ist, um ein Leben lang gutes Sehen zu erhalten. Unsere umfassenden Sehuntersuchungen verwenden modernste Technologie, um eine detaillierte Bewertung aller Aspekte Ihrer Augengesundheit zu bieten."
+        ],
+        it: [
+          "Un esame della salute visiva è una valutazione approfondita dello stato dei tuoi occhi e della tua visione eseguita da professionisti della visione. Va ben oltre un semplice controllo dell'acutezza visiva: è un esame completo che valuta la salute oculare generale, la funzione visiva e permette di individuare precocemente possibili problemi oculari o condizioni sistemiche che possono coinvolgere gli occhi.",
+          "Da looptica crediamo che la prevenzione sia fondamentale per preservare una visione ottimale nel corso di tutta la vita. I nostri esami visivi completi si avvalgono di tecnologie all'avanguardia per offrire un'accurata valutazione di ogni aspetto della tua salute oculare."
         ]
       }
     },
@@ -83,7 +96,8 @@ const SalutVisual = () => {
         en: "Our visual examination process",
         es: "Nuestro proceso de examen visual",
         ca: "El nostre procés d'examen visual",
-        de: "Unser Sehuntersuchungsprozess"
+        de: "Unser Sehuntersuchungsprozess",
+        it: "Il nostro processo di esame visivo"
       },
       steps: [
         {
@@ -91,13 +105,15 @@ const SalutVisual = () => {
             en: "Medical history",
             es: "Anamnesis",
             ca: "Anamnesi",
-            de: "Anamnese"
+            de: "Anamnese",
+            it: "Anamnesi"
           },
           description: {
             en: "Detailed review of your medical, ocular, and family history, including current medications and lifestyle that might affect your vision.",
             es: "Revisión detallada de su historial médico, ocular y familiar, incluyendo medicamentos actuales y estilo de vida que podrían afectar su visión.",
             ca: "Revisió detallada del seu historial mèdic, ocular i familiar, incloent medicaments actuals i estil de vida que podrien afectar la seva visió.",
-            de: "Detaillierte Überprüfung Ihrer medizinischen, okularen und Familiengeschichte, einschließlich aktueller Medikamente und Lebensstil, die Ihr Sehvermögen beeinflussen könnten."
+            de: "Detaillierte Überprüfung Ihrer medizinischen, okularen und Familiengeschichte, einschließlich aktueller Medikamente und Lebensstil, die Ihr Sehvermögen beeinflussen könnten.",
+            it: "Colloquio dettagliato sulla tua storia medica, oculare e familiare, compresi i farmaci in uso e le abitudini quotidiane che potrebbero influire sulla vista."
           },
           icon: <Eye className="w-6 h-6 text-white" />
         },
@@ -106,13 +122,15 @@ const SalutVisual = () => {
             en: "Preliminary exams",
             es: "Exámenes preliminares",
             ca: "Exàmens preliminars",
-            de: "Voruntersuchungen"
+            de: "Voruntersuchungen",
+            it: "Esami preliminari"
           },
           description: {
             en: "Assessment of visual acuity, color perception, peripheral vision, and intraocular pressure to detect early signs of problems.",
             es: "Evaluación de la agudeza visual, percepción de colores, visión periférica y presión intraocular para detectar signos tempranos de problemas.",
             ca: "Avaluació de l'agudesa visual, percepció de colors, visió perifèrica i pressió intraocular per detectar signes primerencs de problemes.",
-            de: "Bewertung der Sehschärfe, Farbwahrnehmung, peripheren Sicht und des Augeninnendrucks zur Erkennung früher Anzeichen von Problemen."
+            de: "Bewertung der Sehschärfe, Farbwahrnehmung, peripheren Sicht und des Augeninnendrucks zur Erkennung früher Anzeichen von Problemen.",
+            it: "Valutazione dell'acutezza visiva, della percezione dei colori, del campo visivo periferico e della pressione intraoculare per individuare per tempo eventuali alterazioni."
           },
           icon: <CheckSquare className="w-6 h-6 text-white" />
         },
@@ -121,13 +139,15 @@ const SalutVisual = () => {
             en: "Refraction",
             es: "Refracción",
             ca: "Refracció",
-            de: "Refraktion"
+            de: "Refraktion",
+            it: "Refrazione"
           },
           description: {
             en: "Precise determination of your lens prescription using objective and subjective methods to ensure the best possible visual correction.",
             es: "Determinación precisa de su prescripción de lentes utilizando métodos objetivos y subjetivos para garantizar la mejor corrección visual posible.",
             ca: "Determinació precisa de la seva prescripció de lents utilitzant mètodes objectius i subjectius per garantir la millor correcció visual possible.",
-            de: "Präzise Bestimmung Ihrer Linsenverordnung unter Verwendung objektiver und subjektiver Methoden, um die bestmögliche Sehkorrektur zu gewährleisten."
+            de: "Präzise Bestimmung Ihrer Linsenverordnung unter Verwendung objektiver und subjektiver Methoden, um die bestmögliche Sehkorrektur zu gewährleisten.",
+            it: "Determinazione accurata della gradazione ottica mediante misurazioni oggettive e soggettive per assicurare la migliore correzione visiva possibile."
           },
           icon: <Shield className="w-6 h-6 text-white" />
         },
@@ -136,13 +156,15 @@ const SalutVisual = () => {
             en: "Eye health evaluation",
             es: "Evaluación de la salud ocular",
             ca: "Avaluació de la salut ocular",
-            de: "Augengesundheitsbewertung"
+            de: "Augengesundheitsbewertung",
+            it: "Valutazione della salute oculare"
           },
           description: {
             en: "Comprehensive examination of the internal and external structures of the eye to detect diseases such as glaucoma, cataracts, macular degeneration, and diabetic retinopathy.",
             es: "Examen completo de las estructuras internas y externas del ojo para detectar enfermedades como glaucoma, cataratas, degeneración macular y retinopatía diabética.",
             ca: "Examen complet de les estructures internes i externes de l'ull per detectar malalties com glaucoma, cataractes, degeneració macular i retinopatia diabètica.",
-            de: "Umfassende Untersuchung der inneren und äußeren Strukturen des Auges zur Erkennung von Krankheiten wie Glaukom, Katarakt, Makuladegeneration und diabetischer Retinopathie."
+            de: "Umfassende Untersuchung der inneren und äußeren Strukturen des Auges zur Erkennung von Krankheiten wie Glaukom, Katarakt, Makuladegeneration und diabetischer Retinopathie.",
+            it: "Esame approfondito delle strutture anteriori e posteriori dell'occhio per individuare segni di patologie quali glaucoma, cataratta, degenerazione maculare e retinopatia diabetica."
           },
           icon: <Award className="w-6 h-6 text-white" />
         }
@@ -153,7 +175,8 @@ const SalutVisual = () => {
         en: "Why are regular eye exams important?",
         es: "¿Por qué son importantes los exámenes visuales regulares?",
         ca: "Per què són importants els exàmens visuals regulars?",
-        de: "Warum sind regelmäßige Augenuntersuchungen wichtig?"
+        de: "Warum sind regelmäßige Augenuntersuchungen wichtig?",
+        it: "Perché sono importanti i controlli visivi regolari?"
       },
       paragraphs: {
         en: [
@@ -167,6 +190,9 @@ const SalutVisual = () => {
         ],
         de: [
           "Viele Augenkrankheiten zeigen in ihren frühen Stadien keine Symptome. Regelmäßige Untersuchungen können Probleme erkennen, bevor sie irreversible Schäden oder Sehverlust verursachen. Darüber hinaus können die Augen Anzeichen systemischer Gesundheitszustände wie Diabetes, Bluthochdruck und hohem Cholesterinspiegel offenbaren."
+        ],
+        it: [
+          "Molte patologie oculari non presentano sintomi evidenti nelle fasi iniziali. I controlli regolari consentono di rilevare anomalie prima che provochino danni permanenti o cali della vista. Inoltre, l'osservazione delle strutture oculari può evidenziare segni correlati a condizioni sistemiche quali diabete, ipertensione e colesterolo elevato."
         ]
       },
       recommendations: {
@@ -174,7 +200,8 @@ const SalutVisual = () => {
           en: "We recommend comprehensive eye exams:",
           es: "Recomendamos exámenes visuales completos:",
           ca: "Recomanem exàmens visuals complets:",
-          de: "Wir empfehlen umfassende Augenuntersuchungen:"
+          de: "Wir empfehlen umfassende Augenuntersuchungen:",
+          it: "Raccomandiamo un esame visivo completo:"
         },
         items: {
           en: [
@@ -200,6 +227,12 @@ const SalutVisual = () => {
             "Jährlich für Menschen über 60 Jahre",
             "Jährlich für Menschen jeden Alters, die Kontaktlinsen tragen, Risikofaktoren haben oder bestehende medizinische Zustände",
             "Gemäß den Empfehlungen Ihres Optometristen oder Augenarztes für Kinder und Jugendliche"
+          ],
+          it: [
+            "Ogni 2 anni per adulti tra i 18 e i 60 anni senza disturbi visivi o fattori di rischio",
+            "Ogni anno per le persone di oltre 60 anni",
+            "Ogni anno a qualsiasi età per chi usa lenti a contatto, presenta fattori di rischio o patologie pregresse",
+            "Secondo le indicazioni del proprio optometrista o medico oculista per bambini e adolescenti"
           ]
         }
       }
@@ -209,7 +242,8 @@ const SalutVisual = () => {
         en: "Advanced Technology at looptica",
         es: "Tecnología avanzada en looptica",
         ca: "Tecnologia avançada a looptica",
-        de: "Fortschrittliche Technologie bei looptica"
+        de: "Fortschrittliche Technologie bei looptica",
+        it: "Tecnologia avanzata da looptica"
       },
       items: [
         {
@@ -217,13 +251,15 @@ const SalutVisual = () => {
             en: "Optical Coherence Tomography (OCT)",
             es: "Tomografía de Coherencia Óptica (OCT)",
             ca: "Tomografia de Coherència Òptica (OCT)",
-            de: "Optische Kohärenztomographie (OCT)"
+            de: "Optische Kohärenztomographie (OCT)",
+            it: "Tomografia a Coerenza Ottica (OCT)"
           },
           description: {
             en: "Allows us to obtain cross-sectional images of the retina, providing details about its structure with microscopic precision.",
             es: "Nos permite obtener imágenes de la retina en secciones transversales, proporcionando detalles sobre su estructura con precisión microscópica.",
             ca: "Ens permet obtenir imatges de la retina en seccions transversals, proporcionant detalls sobre la seva estructura amb precisió microscòpica.",
-            de: "Ermöglicht es uns, Querschnittsbilder der Netzhaut zu erhalten und Details über ihre Struktur mit mikroskopischer Präzision zu liefern."
+            de: "Ermöglicht es uns, Querschnittsbilder der Netzhaut zu erhalten und Details über ihre Struktur mit mikroskopischer Präzision zu liefern.",
+            it: "Permette di acquisire immagini in sezione trasversale della retina, rivelando dettagli della sua struttura con precisione microscopica."
           }
         },
         {
@@ -231,13 +267,15 @@ const SalutVisual = () => {
             en: "Corneal Topography",
             es: "Topografía Corneal",
             ca: "Topografia Corneal",
-            de: "Hornhauttopographie"
+            de: "Hornhauttopographie",
+            it: "Topografia Corneale"
           },
           description: {
             en: "Creates a 3D map of the cornea's surface, essential for contact lens fitting and detection of corneal disorders.",
             es: "Crea un mapa 3D de la superficie de la córnea, esencial para la adaptación de lentes de contacto y la detección de trastornos corneales.",
             ca: "Crea un mapa 3D de la superfície de la còrnia, essencial per a l'adaptació de lents de contacte i la detecció de trastorns corneals.",
-            de: "Erstellt eine 3D-Karte der Hornhautoberfläche, wesentlich für die Anpassung von Kontaktlinsen und die Erkennung von Hornhautstörungen."
+            de: "Erstellt eine 3D-Karte der Hornhautoberfläche, wesentlich für die Anpassung von Kontaktlinsen und die Erkennung von Hornhautstörungen.",
+            it: "Elabora una mappa tridimensionale della superficie corneale, fondamentale per l'applicazione delle lenti a contatto e l'individuazione di irregolarità corneali."
           }
         },
         {
@@ -245,13 +283,15 @@ const SalutVisual = () => {
             en: "State-of-the-art Autorefractometers",
             es: "Autorrefractómetros de última generación",
             ca: "Autorefractòmetres d'última generació",
-            de: "Modernste Autorefraktometer"
+            de: "Modernste Autorefraktometer",
+            it: "Autorefrattometri di ultima generazione"
           },
           description: {
             en: "Provides objective measurements of the eye's refractive error, speeding up and improving the accuracy of the prescription process.",
             es: "Proporciona mediciones objetivas del error de refracción del ojo, acelerando y mejorando la precisión del proceso de prescripción.",
             ca: "Proporciona mesuraments objectius de l'error de refracció de l'ull, accelerant i millorant la precisió del procés de prescripció.",
-            de: "Liefert objektive Messungen des Brechungsfehlers des Auges, beschleunigt und verbessert die Genauigkeit des Verschreibungsprozesses."
+            de: "Liefert objektive Messungen des Brechungsfehlers des Auges, beschleunigt und verbessert die Genauigkeit des Verschreibungsprozesses.",
+            it: "Fornisce misurazioni oggettive del difetto refrattivo dell'occhio, rendendo il percorso di compensazione visiva più rapido e accurato."
           }
         },
         {
@@ -259,13 +299,15 @@ const SalutVisual = () => {
             en: "Digital Slit Lamp Examination",
             es: "Examen con lámpara de hendidura digital",
             ca: "Examen amb làmpada de fenedura digital",
-            de: "Digitale Spaltlampenuntersuchung"
+            de: "Digitale Spaltlampenuntersuchung",
+            it: "Esame con lampada a fessura digitale"
           },
           description: {
             en: "Allows detailed examination and photographic documentation of anterior and posterior eye structures.",
             es: "Permite el examen detallado y documentación fotográfica de las estructuras oculares anteriores y posteriores.",
             ca: "Permet l'examen detallat i documentació fotogràfica de les estructures oculars anteriors i posteriors.",
-            de: "Ermöglicht eine detaillierte Untersuchung und fotografische Dokumentation der vorderen und hinteren Augenstrukturen."
+            de: "Ermöglicht eine detaillierte Untersuchung und fotografische Dokumentation der vorderen und hinteren Augenstrukturen.",
+            it: "Permette un esame accurato e la documentazione fotografica delle strutture oculari del segmento anteriore e posteriore."
           }
         }
       ]
@@ -330,6 +372,7 @@ const SalutVisual = () => {
               {language === 'es' && <>Si tu hijo presenta miopía progresiva, descubre cómo las <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lentillas Orto-K nocturnas</Link> ayudan al control de la miopía infantil mientras proporcionan una visión clara durante el día.</>}
               {language === 'ca' && <>Si el teu fill presenta miopia progressiva, descobreix com les <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lents Orto-K nocturnes</Link> ajuden al control de la miopia infantil mentre proporcionen una visió clara durant el dia.</>}
               {language === 'de' && <>Wenn Ihr Kind eine fortschreitende Kurzsichtigkeit zeigt, erfahren Sie, wie <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">Ortho-K Nachtlinsen</Link> das Fortschreiten der Myopie verlangsamen und tagsüber klares Sehen bieten.</>}
+              {language === 'it' && <>Se tuo figlio presenta miopia progressiva, scopri come le <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lenti a contatto notturne Ortho-K</Link> possono aiutare a rallentare la progressione miopica assicurando una visione nitida durante il giorno.</>}
             </p>
           </div>
         </ScrollReveal>

@@ -20,6 +20,10 @@ const reviewedByTranslations = {
     text: 'Inhalt geprüft von Elena Sentís — Optikerin Optometristin · Col. 18568 · Technische Leiterin von looptica',
     linkLabel: 'Elenas Profil ansehen',
   },
+  it: {
+    text: 'Contenuto revisionato da Elena Sentís — Ottica Optometrista · Col. 18568 · Direttrice Tecnica di looptica',
+    linkLabel: 'Vedi il profilo di Elena',
+  },
 };
 
 const ReviewedByElena: React.FC = () => {

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ServiceLayout from '@/components/layout/ServiceLayout';
 import { Eye, Zap, Shield, Layers } from 'lucide-react';
@@ -27,6 +26,10 @@ const LensConsulting = () => {
       de: {
         title: "Erweiterte Linsenberatung | looptica Barcelona",
         description: "Expertenberatung für Linsen und hochmoderne ophthalmische Linsenlösungen bei looptica Barcelona. Finden Sie die perfekten Linsen für Ihre Verschreibung und Ihren Lebensstil."
+      },
+      it: {
+        title: "Consulenza Lenti | looptica Barcelona",
+        description: "Consulenza esperta sulle lenti e soluzioni oftalmiche ad alta tecnologia da looptica Barcelona. Trova le lenti perfette per la tua vista e il tuo stile di vita."
       }
     },
     hero: {
@@ -49,6 +52,11 @@ const LensConsulting = () => {
         title: "Linsenberatung",
         subtitle: "Erweiterte Lösungen für Ihre visuellen Bedürfnisse",
         appointmentSubject: "Linsenberatungstermin bei looptica"
+      },
+      it: {
+        title: "Consulenza sulle Lenti",
+        subtitle: "Soluzioni avanzate per le tue esigenze visive",
+        appointmentSubject: "Appuntamento per Consulenza Lenti da looptica"
       }
     },
     intro: {
@@ -56,7 +64,8 @@ const LensConsulting = () => {
         en: "Advanced Lens Technology",
         es: "Tecnología de lentes avanzada",
         ca: "Tecnologia de lents avançada",
-        de: "Erweiterte Linsentechnologie"
+        de: "Erweiterte Linsentechnologie",
+        it: "Tecnologia avanzata delle lenti"
       },
       paragraphs: {
         en: [
@@ -74,6 +83,10 @@ const LensConsulting = () => {
         de: [
           "Bei looptica sind wir Spezialisten für hochmoderne ophthalmische Linsen, die beste Sehschärfe, Komfort und Schutz bieten. Moderne Linsen sind viel mehr als einfache Glas- oder Kunststoffstücke; sie sind Präzisionsprodukte, die fortschrittliche Technologien integrieren, um die spezifischen visuellen Bedürfnisse jedes Einzelnen zu erfüllen.",
           "Unser Linsenberatungsservice ist darauf ausgelegt, Sie durch die zahlreichen verfügbaren Optionen zu führen und sicherzustellen, dass Sie die am besten geeigneten Linsen für Ihre Verschreibung, Ihren Lebensstil und Ihre persönlichen Vorlieben erhalten. Mit modernster Technologie und unserem Expertenwissen passen wir Linsenlösungen an, um ein optimales Seherlebnis zu liefern."
+        ],
+        it: [
+          "Da looptica siamo specialisti in lenti oftalmiche ad alta tecnologia progettate per offrire la migliore chiarezza visiva, comfort e protezione. Le lenti moderne sono molto più che semplici pezzi di vetro o plastica; sono prodotti di precisione che integrano tecnologie avanzate per soddisfare le esigenze visive specifiche di ogni individuo.",
+          "Il nostro servizio di consulenza sulle lenti è pensato per guidarti tra le numerose opzioni disponibili, assicurandoti le lenti più adatte alla tua prescrizione, al tuo stile di vita e alle tue preferenze personali. Utilizzando tecnologie all'avanguardia e la nostra esperienza professionale, personalizziamo le soluzioni per offrire un'esperienza visiva ottimale."
         ]
       }
     },
@@ -82,7 +95,8 @@ const LensConsulting = () => {
         en: "Our Advanced Lens Technologies",
         es: "Nuestras tecnologías de lentes avanzadas",
         ca: "Les nostres tecnologies de lents avançades",
-        de: "Unsere fortschrittlichen Linsentechnologien"
+        de: "Unsere fortschrittlichen Linsentechnologien",
+        it: "Le nostre tecnologie avanzate per lenti"
       },
       items: [
         {
@@ -90,13 +104,15 @@ const LensConsulting = () => {
             en: "High-Definition Lenses",
             es: "Lentes de alta definición",
             ca: "Lents d'alta definició",
-            de: "High-Definition Linsen"
+            de: "High-Definition Linsen",
+            it: "Lenti ad alta definizione"
           },
           description: {
             en: "Developed using digital surfacing technology, these lenses offer superior visual clarity with a wider field of vision and significantly reduced peripheral distortions.",
             es: "Desarrolladas mediante tecnología de fresado digital, estas lentes ofrecen una claridad visual superior con un campo visual más amplio y una reducción significativa de las distorsiones periféricas.",
             ca: "Desenvolupades mitjançant tecnologia de fresat digital, aquestes lents ofereixen una claredat visual superior amb un camp visual més ampli i una reducció significativa de les distorsions perifèriques.",
-            de: "Mit digitaler Oberflächentechnologie entwickelt, bieten diese Linsen überlegene Sehschärfe mit einem breiteren Sichtfeld und erheblich reduzierten peripheren Verzerrungen."
+            de: "Mit digitaler Oberflächentechnologie entwickelt, bieten diese Linsen überlegene Sehschärfe mit einem breiteren Sichtfeld und erheblich reduzierten peripheren Verzerrungen.",
+            it: "Sviluppate mediante tecnologia di lavorazione digitale, queste lenti offrono una chiarezza visiva superiore con un campo visivo più ampio e una significativa riduzione delle distorsioni periferiche."
           },
           icon: <Eye className="w-6 h-6 text-white" />
         },
@@ -105,13 +121,15 @@ const LensConsulting = () => {
             en: "Advanced Progressive Lenses",
             es: "Lentes progresivas avanzadas",
             ca: "Lents progressives avançades",
-            de: "Fortschrittliche Gleitsichtgläser"
+            de: "Fortschrittliche Gleitsichtgläser",
+            it: "Lenti progressive avanzate"
           },
           description: {
             en: "Our state-of-the-art progressive lenses provide seamless transition between distance, intermediate, and near vision, with minimal distortion zones and a shorter adaptation period.",
             es: "Nuestras lentes progresivas de última generación proporcionan una transición perfecta entre visión de lejos, intermedia y cercana, con zonas de distorsión mínimas y un período de adaptación más corto.",
             ca: "Les nostres lents progressives d'última generació proporcionen una transició perfecta entre visió de lluny, intermèdia i propera, amb zones de distorsió mínimes i un període d'adaptació més curt.",
-            de: "Unsere hochmodernen Gleitsichtgläser bieten nahtlose Übergänge zwischen Fern-, Zwischen- und Nahsicht mit minimalen Verzerrungszonen und einer kürzeren Anpassungszeit."
+            de: "Unsere hochmodernen Gleitsichtgläser bieten nahtlose Übergänge zwischen Fern-, Zwischen- und Nahsicht mit minimalen Verzerrungszonen und einer kürzeren Anpassungszeit.",
+            it: "Le nostre lenti progressive di ultima generazione offrono una transizione fluida tra visione da lontano, intermedia e da vicino, con zone di distorsione minime e un periodo di adattamento più breve."
           },
           icon: <Zap className="w-6 h-6 text-white" />
         },
@@ -120,13 +138,15 @@ const LensConsulting = () => {
             en: "Blue Light Protection",
             es: "Protección de luz azul",
             ca: "Protecció de llum blava",
-            de: "Blaulichtschutz"
+            de: "Blaulichtschutz",
+            it: "Protezione dalla luce blu"
           },
           description: {
             en: "Specialized lenses that filter harmful blue light from digital devices, reducing eye strain, improving visual comfort during prolonged screen use, and potentially improving sleep patterns.",
             es: "Lentes especializadas que filtran la luz azul nociva de los dispositivos digitales, reduciendo la fatiga ocular, mejorando el confort visual durante el uso prolongado de pantallas y potencialmente mejorando los patrones de sueño.",
             ca: "Lents especialitzades que filtren la llum blava nociva dels dispositius digitals, reduint la fatiga ocular, millorant el confort visual durant l'ús prolongat de pantalles i potencialment millorant els patrons de son.",
-            de: "Spezialisierte Linsen, die schädliches blaues Licht von digitalen Geräten filtern, Augenermüdung reduzieren, den visuellen Komfort bei längerer Bildschirmnutzung verbessern und möglicherweise Schlafmuster verbessern."
+            de: "Spezialisierte Linsen, die schädliches blaues Licht von digitalen Geräten filtern, Augenermüdung reduzieren, den visuellen Komfort bei längerer Bildschirmnutzung verbessern und möglicherweise Schlafmuster verbessern.",
+            it: "Lenti specializzate che filtrano la luce blu nociva dei dispositivi digitali, riducendo l'affaticamento visivo, migliorando il comfort durante l'uso prolungato degli schermi e favorendo potenzialmente un sonno migliore."
           },
           icon: <Shield className="w-6 h-6 text-white" />
         },
@@ -135,13 +155,15 @@ const LensConsulting = () => {
             en: "Premium Coatings",
             es: "Revestimientos premium",
             ca: "Revestiments premium",
-            de: "Premium-Beschichtungen"
+            de: "Premium-Beschichtungen",
+            it: "Trattamenti premium"
           },
           description: {
             en: "We offer high-performance anti-reflective coatings, scratch-resistant layers, hydrophobic treatments, and UV protection to enhance the durability, clarity, and protection of your lenses.",
             es: "Ofrecemos revestimientos anti-reflectantes de alto rendimiento, capas resistentes a los arañazos, tratamientos hidrófobos y protección UV para mejorar la durabilidad, claridad y protección de tus lentes.",
             ca: "Oferim revestiments anti-reflectants d'alt rendiment, capes resistents als ratllats, tractaments hidròfobs i protecció UV per millorar la durabilitat, claredat i protecció de les teves lents.",
-            de: "Wir bieten hochleistungsfähige Antireflexbeschichtungen, kratzfeste Schichten, hydrophobe Behandlungen und UV-Schutz, um die Haltbarkeit, Klarheit und den Schutz Ihrer Linsen zu verbessern."
+            de: "Wir bieten hochleistungsfähige Antireflexbeschichtungen, kratzfeste Schichten, hydrophobe Behandlungen und UV-Schutz, um die Haltbarkeit, Klarheit und den Schutz Ihrer Linsen zu verbessern.",
+            it: "Offriamo trattamenti antiriflesso ad alte prestazioni, strati antigraffio, trattamenti idrofobici e protezione UV per migliorare la durata, la nitidezza e la protezione delle tue lenti."
           },
           icon: <Layers className="w-6 h-6 text-white" />
         }

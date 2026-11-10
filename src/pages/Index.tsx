@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Navbar from '@/components/layout/Navbar';
@@ -14,7 +13,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 
 // Version tracking for development
-const CURRENT_VERSION = "v2.12.1-eyewear-minimal";
+const CURRENT_VERSION = "v2.13.0-italiano";
 
 // Create a new component for SEO content to avoid it blocking rendering
 const SeoContent = ({ language }: { language: string }) => {
@@ -24,13 +23,15 @@ const SeoContent = ({ language }: { language: string }) => {
         en: "Barcelona Poblenou Audiology Center - Hearing Tests and Digital Hearing Aids",
         es: "Centro de Audiología Barcelona Poblenou - Pruebas Auditivas y Audífonos Digitales",
         ca: "Centre d'Audiologia Barcelona Poblenou - Proves Auditives i Audiòfons Digitals",
-        de: "Audiologie-Zentrum Barcelona Poblenou - Hörtests und Digitale Hörgeräte"
+        de: "Audiologie-Zentrum Barcelona Poblenou - Hörtests und Digitale Hörgeräte",
+        it: "Centro di Audiologia Barcellona Poblenou - Test dell'Udito e Apparecchi Acustici Digitali"
       },
       text: {
         en: "At looptica we offer comprehensive audiology services in Barcelona Poblenou, including professional hearing tests, hearing loss treatment, digital hearing aids fitting, audiometry Barcelona Poblenou and tinnitus solutions. Our hearing center in Barcelona Poblenou features high-quality clinical audiology and specialists in pediatric audiology.",
         es: "En looptica ofrecemos servicios completos de audiología en Barcelona Poblenou, incluyendo pruebas auditivas profesionales, tratamiento de pérdida auditiva, adaptación de audífonos digitales, audiometría Barcelona Poblenou y soluciones para acúfenos. Nuestro centro auditivo en Barcelona Poblenou cuenta con audiología clínica de alta calidad y especialistas en audiología pediátrica.",
         ca: "A looptica oferim serveis complets d'audiologia a Barcelona Poblenou, incloent proves auditives professionals, tractament de pèrdua auditiva, adaptació d'audiòfons digitals, audiometria Barcelona Poblenou i solucions per a acúfens. El nostre centre auditiu a Barcelona Poblenou compta amb audiologia clínica d'alta qualitat i especialistes en audiologia pediàtrica.",
-        de: "Bei looptica bieten wir umfassende Audiologie-Dienstleistungen in Barcelona Poblenou, einschließlich professioneller Hörtests, Behandlung von Hörverlust, Anpassung digitaler Hörgeräte, Audiometrie Barcelona Poblenou und Tinnitus-Lösungen. Unser Hörzentrum in Barcelona Poblenou bietet hochwertige klinische Audiologie und Spezialisten für Pädaudiologie."
+        de: "Bei looptica bieten wir umfassende Audiologie-Dienstleistungen in Barcelona Poblenou, einschließlich professioneller Hörtests, Behandlung von Hörverlust, Anpassung digitaler Hörgeräte, Audiometrie Barcelona Poblenou und Tinnitus-Lösungen. Unser Hörzentrum in Barcelona Poblenou bietet hochwertige klinische Audiologie und Spezialisten für Pädaudiologie.",
+        it: "Da looptica offriamo servizi completi di audiologia a Barcellona Poblenou, tra cui test dell'udito professionali, trattamento dell'ipoacusia, applicazione di apparecchi acustici digitali, audiometria a Barcellona Poblenou e soluzioni per gli acufeni. Il nostro centro acustico a Barcellona Poblenou offre audiologia clinica di alta qualità e specialisti in audiologia pediatrica."
       }
     },
   };
@@ -152,6 +153,11 @@ const Index = () => {
         title: "looptica | Optik & Audiologie Barcelona",
         description: "Optik- und Audiologie-Zentrum in Barcelona Poblenou. Augenuntersuchungen, Brillen, Kontaktlinsen und Hörgeräte.",
         keywords: "optical, audiology, eyeglasses, contactLenses, hearingAids, barcelona, poblenou, audiologie barcelona poblenou, hörgeräte barcelona poblenou, hörverlust, hörtest barcelona poblenou, klinische audiologie barcelona poblenou, hörzentrum barcelona poblenou"
+      },
+      it: {
+        title: "Ottica e Audiologia a Poblenou, Barcellona | Looptica",
+        description: "Centro di ottica e audiologia a Poblenou, Barcellona. Controllo della vista, occhiali, lenti a contatto e apparecchi acustici. Prenota online.",
+        keywords: "ottica poblenou, looptica, ottica barcellona, audiologia barcellona poblenou, apparecchi acustici barcellona poblenou, perdita uditiva, controllo udito barcellona poblenou, audiologia clinica barcellona poblenou, centro acustico barcellona poblenou"
       }
     },
     whatsapp: {
@@ -159,19 +165,22 @@ const Index = () => {
         en: "Typically replies within 1 hour",
         es: "Normalmente responde en 1 hora",
         ca: "Normalment respon en 1 hora",
-        de: "Antwortet normalerweise innerhalb 1 Stunde"
+        de: "Antwortet normalerweise innerhalb 1 Stunde",
+        it: "Di solito risponde entro 1 ora"
       },
       chatMessage: {
         en: "Hello! 👋🏼 How can we help you with your vision or hearing?",
         es: "¡Hola! 👋🏼 ¿En qué podemos ayudarte con tu visión o audición?",
         ca: "Hola! 👋🏼 En què podem ajudar-te amb la teva visió o audició?",
-        de: "Hallo! 👋🏼 Wie können wir Ihnen mit Ihrem Sehen oder Hören helfen?"
+        de: "Hallo! 👋🏼 Wie können wir Ihnen mit Ihrem Sehen oder Hören helfen?",
+        it: "Ciao! 👋🏼 Come possiamo aiutarti con la vista o l'udito?"
       },
       placeholder: {
         en: "Type a message...",
         es: "Escribe un mensaje...",
         ca: "Escriu un missatge...",
-        de: "Nachricht eingeben..."
+        de: "Nachricht eingeben...",
+        it: "Scrivi un messaggio..."
       }
     }
   };
@@ -194,6 +203,7 @@ const Index = () => {
         <link rel="alternate" hrefLang="ca" href="https://looptica.com/ca/" />
         <link rel="alternate" hrefLang="en" href="https://looptica.com/en/" />
         <link rel="alternate" hrefLang="de" href="https://looptica.com/de/" />
+        <link rel="alternate" hrefLang="it" href="https://looptica.com/it/" />
         <link rel="alternate" hrefLang="x-default" href="https://looptica.com/ca/" />
         <meta property="og:title" content={content.meta[language as keyof typeof content.meta].title} />
         <meta property="og:description" content={content.meta[language as keyof typeof content.meta].description} />

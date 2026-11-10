@@ -28,25 +28,32 @@ const Subvenciones = () => {
       de: {
         title: "Hörgeräte-Subventionen | looptica Barcelona",
         description: "Informationen über verfügbare Subventionen und finanzielle Hilfen für Hörgeräte und Hörhilfen in Barcelona. Erfahren Sie mehr über Berechtigungsvoraussetzungen und Antragsverfahren.",
+      },
+      it: {
+        title: "Contributi per apparecchi acustici | looptica Barcelona",
+        description: "Informazioni su contributi e agevolazioni per apparecchi acustici in Catalogna. Ti informiamo e assistiamo nelle pratiche da looptica Barcellona Poblenou.",
       }
     },
     pageTitle: {
       en: "Hearing Aid Subsidies",
       es: "Subvenciones para Audífonos",
       ca: "Subvencions per a Audiòfons",
-      de: "Hörgeräte-Subventionen"
+      de: "Hörgeräte-Subventionen",
+      it: "Contributi per Apparecchi Acustici"
     },
     pageSubtitle: {
       en: "Information on available financial aid programs",
       es: "Información sobre programas de ayuda financiera disponibles",
       ca: "Informació sobre programes d'ajuda financera disponibles",
-      de: "Informationen über verfügbare Finanzierungsprogramme"
+      de: "Informationen über verfügbare Finanzierungsprogramme",
+      it: "Informazioni sui programmi di aiuto economico disponibili"
     },
     intro: {
       en: "Hearing aids and other hearing assistance devices can be a significant investment. At looptica, we are committed to helping you access the hearing care you need. Below you'll find information about various subsidies and financial assistance programs available in Barcelona and Spain.",
       es: "Los audífonos y otros dispositivos de asistencia auditiva pueden representar una inversión significativa. En looptica, estamos comprometidos a ayudarte a acceder a la atención auditiva que necesitas. A continuación, encontrarás información sobre varias subvenciones y programas de asistencia financiera disponibles en Barcelona y España.",
       ca: "Els audiòfons i altres dispositius d'assistència auditiva poden representar una inversió significativa. A looptica, estem compromesos a ajudar-te a accedir a l'atenció auditiva que necessites. A continuació, trobaràs informació sobre diverses subvencions i programes d'assistència financera disponibles a Barcelona i Espanya.",
-      de: "Hörgeräte und andere Hörhilfen können eine erhebliche Investition darstellen. Bei looptica sind wir darauf bedacht, Ihnen zu helfen, die Hörversorgung zu erhalten, die Sie benötigen. Nachfolgend finden Sie Informationen über verschiedene Subventions- und Finanzierungsprogramme, die in Barcelona und Spanien verfügbar sind."
+      de: "Hörgeräte und andere Hörhilfen können eine erhebliche Investition darstellen. Bei looptica sind wir darauf bedacht, Ihnen zu helfen, die Hörversorgung zu erhalten, die Sie benötigen. Nachfolgend finden Sie Informationen über verschiedene Subventions- und Finanzierungsprogramme, die in Barcelona und Spanien verfügbar sind.",
+      it: "Gli apparecchi acustici e gli altri dispositivi di assistenza uditiva possono rappresentare un investimento significativo. Da looptica siamo impegnati ad aiutarti ad accedere alle cure uditive di cui hai bisogno. Di seguito troverai informazioni sui vari contributi e programmi di assistenza finanziaria disponibili a Barcellona e in Spagna."
     },
     sections: [
       {
@@ -55,13 +62,15 @@ const Subvenciones = () => {
           en: "Government Subsidies",
           es: "Subvenciones Gubernamentales",
           ca: "Subvencions Governamentals",
-          de: "Staatliche Subventionen"
+          de: "Staatliche Subventionen",
+          it: "Contributi Pubblici"
         },
         content: {
           en: "The Spanish government offers financial assistance for hearing aids through various programs. Eligibility typically depends on your degree of hearing loss, income level, and other factors. Our audiologists can help you determine if you qualify and assist with the application process.",
           es: "El gobierno español ofrece asistencia financiera para audífonos a través de varios programas. La elegibilidad generalmente depende de su grado de pérdida auditiva, nivel de ingresos y otros factores. Nuestros audiólogos pueden ayudarle a determinar si califica y asistirle con el proceso de solicitud.",
           ca: "El govern espanyol ofereix assistència financera per a audiòfons a través de diversos programes. L'elegibilitat generalment depèn del seu grau de pèrdua auditiva, nivell d'ingressos i altres factors. Els nostres audiòlegs poden ajudar-lo a determinar si qualifica i assistir-lo amb el procés de sol·licitud.",
-          de: "Die spanische Regierung bietet finanzielle Unterstützung für Hörgeräte durch verschiedene Programme. Die Berechtigung hängt typischerweise von Ihrem Grad des Hörverlusts, Einkommensniveau und anderen Faktoren ab. Unsere Audiologen können Ihnen helfen festzustellen, ob Sie qualifiziert sind und beim Antragsprozess unterstützen."
+          de: "Die spanische Regierung bietet finanzielle Unterstützung für Hörgeräte durch verschiedene Programme. Die Berechtigung hängt typischerweise von Ihrem Grad des Hörverlusts, Einkommensniveau und anderen Faktoren ab. Unsere Audiologen können Ihnen helfen festzustellen, ob Sie qualifiziert sind und beim Antragsprozess unterstützen.",
+          it: "Il governo spagnolo offre assistenza finanziaria per gli apparecchi acustici attraverso diversi programmi. L'idoneità dipende generalmente dal grado di perdita uditiva, dal livello di reddito e da altri fattori. I nostri audioprotesisti possono aiutarti a determinare se ne hai diritto e assisterti nella procedura di richiesta."
         }
       },
       {
@@ -70,13 +79,15 @@ const Subvenciones = () => {
           en: "Catalan Health Service (CatSalut)",
           es: "Servicio Catalán de Salud (CatSalut)",
           ca: "Servei Català de Salut (CatSalut)",
-          de: "Katalanischer Gesundheitsdienst (CatSalut)"
+          de: "Katalanischer Gesundheitsdienst (CatSalut)",
+          it: "Servizio Sanitario Catalano (CatSalut)"
         },
         content: {
           en: "The Catalan Health Service provides partial coverage for hearing aids for eligible residents. The program requires medical prescription and covers a percentage of the cost depending on various factors. Our team can help you navigate the requirements and documentation needed.",
           es: "El Servicio Catalán de Salud proporciona cobertura parcial para audífonos para residentes elegibles. El programa requiere prescripción médica y cubre un porcentaje del costo dependiendo de varios factores. Nuestro equipo puede ayudarle a navegar por los requisitos y la documentación necesaria.",
           ca: "El Servei Català de Salut proporciona cobertura parcial per a audiòfons per a residents elegibles. El programa requereix prescripció mèdica i cobreix un percentatge del cost depenent de diversos factors. El nostre equip pot ajudar-lo a navegar pels requisits i la documentació necessària.",
-          de: "Der Katalanische Gesundheitsdienst bietet teilweise Abdeckung für Hörgeräte für berechtigte Einwohner. Das Programm erfordert ein ärztliches Rezept und deckt einen Prozentsatz der Kosten ab, abhängig von verschiedenen Faktoren. Unser Team kann Ihnen helfen, die Anforderungen und benötigte Dokumentation zu navigieren."
+          de: "Der Katalanische Gesundheitsdienst bietet teilweise Abdeckung für Hörgeräte für berechtigte Einwohner. Das Programm erfordert ein ärztliches Rezept und deckt einen Prozentsatz der Kosten ab, abhängig von verschiedenen Faktoren. Unser Team kann Ihnen helfen, die Anforderungen und benötigte Dokumentation zu navigieren.",
+          it: "Il Servizio Sanitario Catalano fornisce una copertura parziale per gli apparecchi acustici ai residenti aventi diritto. Il programma richiede una prescrizione medica e copre una percentuale del costo a seconda di diversi fattori. Il nostro team può aiutarti a orientarti tra i requisiti e la documentazione necessaria."
         }
       },
       {
@@ -85,23 +96,25 @@ const Subvenciones = () => {
           en: "Insurance Coverage",
           es: "Cobertura de Seguros",
           ca: "Cobertura d'Assegurances",
-          de: "Versicherungsabdeckung"
+          de: "Versicherungsabdeckung",
+          it: "Copertura Assicurativa"
         },
         content: {
           en: "Many private health insurance plans in Spain offer some level of coverage for hearing aids and hearing tests. Coverage varies widely between providers, so we recommend checking with your insurance company about your specific benefits. Our staff can assist you with documentation and claims.",
           es: "Muchos planes de seguro de salud privados en España ofrecen algún nivel de cobertura para audífonos y pruebas auditivas. La cobertura varía ampliamente entre proveedores, por lo que recomendamos consultar con su compañía de seguros sobre sus beneficios específicos. Nuestro personal puede ayudarle con la documentación y reclamaciones.",
           ca: "Molts plans d'assegurança de salut privats a Espanya ofereixen algun nivell de cobertura per a audiòfons i proves auditives. La cobertura varia àmpliament entre proveïdors, per la qual cosa recomanem consultar amb la seva companyia d'assegurances sobre els seus beneficis específics. El nostre personal pot ajudar-lo amb la documentació i reclamacions.",
-          de: "Viele private Krankenversicherungen in Spanien bieten ein gewisses Maß an Abdeckung für Hörgeräte und Hörtests. Die Abdeckung variiert stark zwischen Anbietern, daher empfehlen wir, sich bei Ihrer Versicherungsgesellschaft über Ihre spezifischen Leistungen zu informieren. Unser Personal kann Ihnen bei Dokumentation und Ansprüchen helfen."
+          de: "Viele private Krankenversicherungen in Spanien bieten ein gewisses Maß an Abdeckung für Hörgeräte und Hörtests. Die Abdeckung variiert stark zwischen Anbietern, daher empfehlen wir, sich bei Ihrer Versicherungsgesellschaft über Ihre spezifischen Leistungen zu informieren. Unser Personal kann Ihnen bei Dokumentation und Ansprüchen helfen.",
+          it: "Molte assicurazioni sanitarie private in Spagna offrono un certo livello di copertura per apparecchi acustici e controlli dell'udito. La copertura varia ampiamente tra le compagnie, pertanto consigliamo di verificare con la propria assicurazione le prestazioni specifiche. Il nostro staff può aiutarti con la documentazione e le pratiche di rimborso."
         }
       }
     ],
-    // ... keep existing code (subsidiesInfo section) with added German translations
     subsidiesInfo: {
       title: {
         en: "Aid and Subsidies for Hearing Aids in Catalonia",
         es: "Ayudas y Subvenciones para la compra de Audífonos en Cataluña",
         ca: "Ajudes i Subvencions per a la compra d'Audiòfons a Catalunya",
-        de: "Hilfen und Subventionen für den Kauf von Hörgeräten in Katalonien"
+        de: "Hilfen und Subventionen für den Kauf von Hörgeräten in Katalonien",
+        it: "Agevolazioni e Contributi per l'Acquisto di Apparecchi Acustici in Catalogna"
       },
       paragraphs: {
         en: [
@@ -131,6 +144,13 @@ const Subvenciones = () => {
           "Für Personen über 26 Jahre mit anerkannter Behinderung und spezifischen Formen des Hörverlusts ist auch audiologische Unterstützung von der Sozialversicherung verfügbar.",
           "Zusätzlich gibt es verschiedene lokale Verwaltungen (Rathäuser, Provinzräte), die spezifische Zuschüsse für Hörgeräte anbieten, insbesondere für ältere Menschen oder solche mit begrenzten Ressourcen.",
           "Bei looptica bieten wir umfassende Beratung zu den verfügbaren Subventionen für Hörgeräte und helfen Ihnen bei allen notwendigen Verfahren zur Beantragung dieser Zuschüsse."
+        ],
+        it: [
+          "L'acquisto di apparecchi acustici comporta un investimento importante per le persone con perdita uditiva. In Catalogna esistono diversi programmi di agevolazioni e contributi che possono aiutare a ridurre questi costi.",
+          "Il sistema sanitario in Spagna e Catalogna offre attualmente aiuti economici per gli apparecchi acustici a determinate condizioni. Le persone di età inferiore ai 26 anni possono ricevere contributi significativi, con fino a 1.000€ di aiuto per ciascun apparecchio acustico.",
+          "Per le persone con più di 26 anni con disabilità riconosciuta e specifiche forme di perdita uditiva, è disponibile anche il supporto audioprotesico della Previdenza Sociale.",
+          "Inoltre, diverse amministrazioni locali (comuni, consigli provinciali) offrono contributi specifici per gli apparecchi acustici, in particolare per le persone anziane o con risorse limitate.",
+          "Da looptica offriamo consulenza completa sui contributi disponibili per gli apparecchi acustici e ti aiutiamo in tutte le pratiche necessarie per richiedere questi aiuti."
         ]
       },
       eligibility: {
@@ -138,7 +158,8 @@ const Subvenciones = () => {
           en: "Who can access these subsidies?",
           es: "¿Quién puede acceder a estas subvenciones?",
           ca: "Qui pot accedir a aquestes subvencions?",
-          de: "Wer kann auf diese Subventionen zugreifen?"
+          de: "Wer kann auf diese Subventionen zugreifen?",
+          it: "Chi può accedere a questi contributi?"
         },
         items: {
           en: [
@@ -164,6 +185,12 @@ const Subvenciones = () => {
             "Personen mit anerkannter Behinderung und spezifischen Hörverlustprofilen",
             "Ältere Erwachsene (Anforderungen variieren je nach Gemeinde)",
             "Personen mit begrenzten finanziellen Ressourcen (vorbehaltlich Einkommensprüfung)"
+          ],
+          it: [
+            "Persone di età inferiore ai 26 anni con perdita uditiva",
+            "Persone con disabilità riconosciuta e profili specifici di perdita uditiva",
+            "Persone anziane (i requisiti variano a seconda del comune)",
+            "Persone con risorse economiche limitate (previa valutazione del reddito)"
           ]
         }
       }
@@ -172,7 +199,8 @@ const Subvenciones = () => {
       en: "For personalized guidance on subsidies and financial assistance for hearing aids, schedule a consultation with our team. We can help determine your eligibility and guide you through the application process.",
       es: "Para orientación personalizada sobre subvenciones y asistencia financiera para audífonos, programe una consulta con nuestro equipo. Podemos ayudarle a determinar su elegibilidad y guiarle a través del proceso de solicitud.",
       ca: "Per a orientació personalitzada sobre subvencions i assistència financera per a audiòfons, programi una consulta amb el nostre equip. Podem ajudar-lo a determinar la seva elegibilitat i guiar-lo a través del procés de sol·licitud.",
-      de: "Für personalisierte Beratung zu Subventionen und finanzieller Unterstützung für Hörgeräte vereinbaren Sie einen Termin mit unserem Team. Wir können Ihnen helfen, Ihre Berechtigung zu bestimmen und Sie durch den Antragsprozess zu führen."
+      de: "Für personalisierte Beratung zu Subventionen und finanzieller Unterstützung für Hörgeräte vereinbaren Sie einen Termin mit unserem Team. Wir können Ihnen helfen, Ihre Berechtigung zu bestimmen und Sie durch den Antragsprozess zu führen.",
+      it: "Per una consulenza personalizzata su contributi e assistenza finanziaria per gli apparecchi acustici, prenota un appuntamento con il nostro team. Possiamo aiutarti a verificare i requisiti e guidarti durante tutta la procedura di richiesta."
     }
   };
 

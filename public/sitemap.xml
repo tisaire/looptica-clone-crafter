@@ -9,6 +9,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -20,6 +21,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -31,6 +33,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -42,8 +45,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -55,6 +71,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/about"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/about"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/about"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -66,6 +83,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/about"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/about"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/about"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -77,6 +95,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/about"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/about"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/about"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -88,8 +107,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/about"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/about"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/about"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/about</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/about"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -101,6 +133,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/salut-visual"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -112,6 +145,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/salut-visual"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -123,6 +157,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/salut-visual"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -134,8 +169,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/salut-visual"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/salut-visual"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/salut-visual</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/salut-visual"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/salut-visual"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -147,6 +195,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte"/>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -158,6 +207,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte"/>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -169,6 +219,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte"/>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -180,8 +231,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte"/>
     <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/lents-contacte</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -193,6 +257,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/orto-k"/>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -204,6 +269,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/orto-k"/>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -215,6 +281,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/orto-k"/>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -226,8 +293,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/orto-k"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/orto-k"/>
     <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/orto-k</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/orto-k"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/orto-k"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -239,6 +319,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/eyeglasses"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -250,6 +331,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/eyeglasses"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -261,6 +343,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/eyeglasses"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -272,8 +355,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/eyeglasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/eyeglasses"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/eyeglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/eyeglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/eyeglasses"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -285,6 +381,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/sunglasses"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -296,6 +393,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/sunglasses"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -307,6 +405,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/sunglasses"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -318,8 +417,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/sunglasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/sunglasses"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/sunglasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/sunglasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/sunglasses"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -331,6 +443,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/image-consulting"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -342,6 +455,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/image-consulting"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -353,6 +467,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/image-consulting"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -364,8 +479,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/image-consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/image-consulting"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/image-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/image-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/image-consulting"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -377,6 +505,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lens-consulting"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -388,6 +517,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lens-consulting"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -399,6 +529,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lens-consulting"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -410,8 +541,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lens-consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lens-consulting"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/lens-consulting</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lens-consulting"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lens-consulting"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -423,6 +567,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/audiologia-centro"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -434,6 +579,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/audiologia-centro"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -445,6 +591,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/audiologia-centro"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -456,8 +603,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/audiologia-centro"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/audiologia-centro"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/audiologia-centro</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/audiologia-centro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/audiologia-centro"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -469,6 +629,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-test"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -480,6 +641,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-test"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -491,6 +653,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-test"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -502,8 +665,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-test"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-test"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/hearing-test</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-test"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-test"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -515,6 +691,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-aids"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -526,6 +703,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-aids"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -537,6 +715,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-aids"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -548,8 +727,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-aids"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-aids"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/hearing-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/hearing-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/hearing-aids"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -561,6 +753,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/tinnitus-treatment"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -572,6 +765,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/tinnitus-treatment"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -583,6 +777,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/tinnitus-treatment"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -594,8 +789,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/tinnitus-treatment"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/tinnitus-treatment"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/tinnitus-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/tinnitus-treatment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/tinnitus-treatment"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -607,6 +815,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/ear-protection"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -618,6 +827,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/ear-protection"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -629,6 +839,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/ear-protection"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -640,8 +851,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/ear-protection"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/ear-protection"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/ear-protection</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/ear-protection"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/ear-protection"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -653,6 +877,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/technical-aids"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -664,6 +889,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/technical-aids"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -675,6 +901,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/technical-aids"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -686,8 +913,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/technical-aids"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/technical-aids"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/technical-aids</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/technical-aids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/technical-aids"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -699,6 +939,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/subvenciones"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -710,6 +951,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/subvenciones"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -721,6 +963,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/subvenciones"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -732,8 +975,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/subvenciones"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/subvenciones"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/subvenciones</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/subvenciones"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/subvenciones"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -745,6 +1001,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/plan-veo"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -756,6 +1013,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/plan-veo"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -767,6 +1025,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/plan-veo"/>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -778,8 +1037,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/plan-veo"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/plan-veo"/>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/plan-veo</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/plan-veo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/plan-veo"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -791,6 +1063,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -802,6 +1075,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -813,6 +1087,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -824,8 +1099,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil"/>
     <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/visio-infantil</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -835,6 +1123,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -846,6 +1135,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -857,6 +1147,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -868,8 +1159,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/control-miopia"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
     <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/visio-infantil/control-miopia</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/control-miopia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/control-miopia"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -879,6 +1183,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -890,6 +1195,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -901,6 +1207,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -912,8 +1219,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ull-gandul"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
     <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/visio-infantil/ull-gandul</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ull-gandul"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ull-gandul"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -923,6 +1243,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -934,6 +1255,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -945,6 +1267,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -956,8 +1279,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ulleres-nens"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
     <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/visio-infantil/ulleres-nens</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/ulleres-nens"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/ulleres-nens"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -967,6 +1303,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -978,6 +1315,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -989,6 +1327,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1000,8 +1339,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/catarata-congenita-barcelona"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
     <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/visio-infantil/catarata-congenita-barcelona</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/visio-infantil/catarata-congenita-barcelona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/visio-infantil/catarata-congenita-barcelona"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1011,6 +1363,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1022,6 +1375,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1033,6 +1387,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1044,8 +1399,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte-multifocals"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
     <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/lents-contacte-multifocals</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/lents-contacte-multifocals"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/lents-contacte-multifocals"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1056,6 +1424,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/progresivos-zeiss-poblenou"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/zeiss-progressive-lenses-poblenou"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/zeiss-gleitsichtglaeser-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/lenti-progressive-zeiss-poblenou"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/progressius-zeiss-poblenou"/>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -1067,6 +1436,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/progresivos-zeiss-poblenou"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/zeiss-progressive-lenses-poblenou"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/zeiss-gleitsichtglaeser-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/lenti-progressive-zeiss-poblenou"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/progressius-zeiss-poblenou"/>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -1078,6 +1448,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/progresivos-zeiss-poblenou"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/zeiss-progressive-lenses-poblenou"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/zeiss-gleitsichtglaeser-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/lenti-progressive-zeiss-poblenou"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/progressius-zeiss-poblenou"/>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -1089,8 +1460,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/progresivos-zeiss-poblenou"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/zeiss-progressive-lenses-poblenou"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/zeiss-gleitsichtglaeser-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/lenti-progressive-zeiss-poblenou"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/progressius-zeiss-poblenou"/>
     <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/lenti-progressive-zeiss-poblenou</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/progressius-zeiss-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/progresivos-zeiss-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/zeiss-progressive-lenses-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/zeiss-gleitsichtglaeser-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/lenti-progressive-zeiss-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/progressius-zeiss-poblenou"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1101,6 +1485,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/computer-glasses"/>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -1112,6 +1497,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/computer-glasses"/>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -1123,6 +1509,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/computer-glasses"/>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -1134,8 +1521,21 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/computer-glasses"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/computer-glasses"/>
     <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/services/computer-glasses</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/services/computer-glasses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/services/computer-glasses"/>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -64,6 +64,20 @@ const content = {
     cta: 'Alles zum Kindersehen ansehen',
     details: 'Details ansehen',
   },
+  it: {
+    tag: 'Visione infantile',
+    heading: 'Ci prendiamo cura della vista dei più piccoli',
+    description:
+      'Controllo della miopia, correzione ottica dell\'occhio pigro e occhiali e lenti a contatto su misura per bambini, sempre in coordinamento con l\'oftalmologo.',
+    cards: [
+      { title: 'Controllo della miopia', text: 'Orto-K, lenti a defocus periferico e lenti a contatto di controllo.', to: '/visio-infantil/control-miopia' },
+      { title: 'Occhio pigro (ambliopia)', text: 'La correzione ottica che forniamo una volta ottenuta la diagnosi medica.', to: '/visio-infantil/ull-gandul' },
+      { title: 'Occhiali e lenti a contatto per bambini', text: 'Montature Nano, Polaroid e Centrostyle, e lenti su prescrizione.', to: '/visio-infantil/ulleres-nens' },
+      { title: 'Cataratta congenita', text: 'Lenti pediatriche per neonati da 0 anni, sotto prescrizione oftalmologica.', to: '/visio-infantil/catarata-congenita-barcelona' },
+    ],
+    cta: 'Scopri tutto quello che facciamo nella visione infantile',
+    details: 'Vedi dettagli',
+  },
 };
 
 const icons = [

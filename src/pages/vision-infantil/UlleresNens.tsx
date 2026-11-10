@@ -12,6 +12,7 @@ const pageTitle: { [key in Language]: string } = {
   es: "Gafas y Lentillas para Niños en Barcelona Poblenou",
   en: "Kids' Glasses and Contact Lenses in Barcelona Poblenou",
   de: "Kinderbrillen und Kontaktlinsen in Barcelona Poblenou",
+  it: "Occhiali e Lenti per Bambini a Barcelona Poblenou",
 };
 
 const pageDescription: { [key in Language]: string } = {
@@ -19,6 +20,7 @@ const pageDescription: { [key in Language]: string } = {
   es: "Gafas graduadas infantiles en Poblenou con monturas Nano, Polaroid y Centrostyle. Adaptamos lentillas desde los 0 años, incluidas lentes pediátricas.",
   en: "Children's prescription glasses in Poblenou with Nano, Polaroid and Centrostyle frames. Contact lens fitting from age 0, including paediatric lenses.",
   de: "Kinderbrillen in Poblenou mit Fassungen von Nano, Polaroid und Centrostyle. Kontaktlinsenanpassung ab 0 Jahren, auch pädiatrische Linsen.",
+  it: "Occhiali da vista per bambini a Poblenou con montature Nano, Polaroid e Centrostyle. Applichiamo lenti a contatto da 0 anni, incluse lenti pediatriche.",
 };
 
 const hero = {
@@ -26,6 +28,7 @@ const hero = {
   es: { title: "Gafas y lentillas para niños", subtitle: "Monturas que aguantan el día a día y lentillas adaptadas desde los 0 años." },
   en: { title: "Kids' glasses and contact lenses", subtitle: "Frames that survive everyday life, and contact lenses fitted from age 0." },
   de: { title: "Kinderbrillen und Kontaktlinsen", subtitle: "Fassungen, die den Alltag aushalten, und Kontaktlinsen ab 0 Jahren." },
+  it: { title: "Occhiali e lenti a contatto per bambini", subtitle: "Montature che resistono alla vita di tutti i giorni e lenti a contatto dai 0 anni." },
 };
 
 const intro = {
@@ -45,6 +48,10 @@ const intro = {
     "Kinderbrillen sind keine verkleinerten Erwachsenenbrillen. Sie müssen Stürze und Pausenhof aushalten, dürfen beim Rennen nicht rutschen und vor allem: Sie müssen getragen werden. Drücken sie, landen sie im Rucksack.",
     "Deshalb nehmen wir uns Zeit für die Anpassung: sorgfältige Zentrierung, Steg und Bügel passend zum Kopf des Kindes, und bei jedem Besuch eine Kontrolle der Passform, denn der Kopf wächst.",
   ],
+  it: [
+    "Gli occhiali per bambini non sono occhiali da adulto in miniatura. Devono resistere a cadute e giochi all'aperto, non devono scivolare mentre il bambino corre e, soprattutto, devono essere indossati: se danno fastidio, finiscono nello zaino e la correzione non serve a nulla.",
+    "Per questo, da looptica dedichiamo tempo alla regolazione: misuriamo attentamente la centratura, adattiamo il ponte e le aste alla testa del bambino e controlliamo l'assetto a ogni visita, perché la testa cresce.",
+  ],
 };
 
 const brandsTitle = {
@@ -52,6 +59,7 @@ const brandsTitle = {
   es: "Monturas infantiles que trabajamos",
   en: "Children's frames we work with",
   de: "Kinderfassungen, die wir führen",
+  it: "Montature per bambini con cui lavoriamo",
 };
 
 const brands = {
@@ -75,6 +83,11 @@ const brands = {
     { name: "Polaroid", text: "Korrektions- und Sonnenbrillen mit polarisierten Gläsern — gut für Strand, Schnee und Outdoor-Aktivitäten." },
     { name: "Centrostyle", text: "Breites Kindersortiment, auch Modelle für Babys und erste Brillen mit Gummiband." },
   ],
+  it: [
+    { name: "Nano", text: "Siamo distributori ufficiali Nano. Montature flessibili e molto resistenti, progettate appositamente per i bambini, con sistemi di tenuta antiscivolo." },
+    { name: "Polaroid", text: "Occhiali da vista e da sole con lenti polarizzate, un'ottima scelta per la spiaggia, la neve e le attività all'aperto." },
+    { name: "Centrostyle", text: "Ampia gamma per l'infanzia, con modelli per neonati e primi occhiali con fascia elastica." },
+  ],
 };
 
 const choosingTitle = {
@@ -82,6 +95,7 @@ const choosingTitle = {
   es: "Cómo elegir las gafas de tu hijo",
   en: "How to choose your child's glasses",
   de: "So wählen Sie die Brille Ihres Kindes",
+  it: "Come scegliere gli occhiali per tuo figlio",
 };
 
 const choosing = {
@@ -113,6 +127,13 @@ const choosing = {
     "Größe: Die Fassung sollte das Blickfeld abdecken; nicht zu groß, nicht zu klein.",
     "Gefallen: Wählt das Kind aus geeigneten Modellen selbst aus, trägt es die Brille deutlich häufiger.",
   ],
+  it: [
+    "Materiale: privilegiamo materiali flessibili e leggeri, capaci di resistere alle torsioni senza rompersi.",
+    "Tenuta: ponte anatomico adattato (i bambini piccoli non hanno ancora il setto nasale sviluppato), aste curve o fascia elastica a seconda dell'età.",
+    "Lenti: materiale resistente agli urti, essenziale per i bambini, con trattamento antigraffio e protezione UV.",
+    "Misura: la montura deve coprire bene il campo visivo; né troppo grande da scivolare né troppo piccola da far guardare il bambino al di fuori.",
+    "Che gli piaccia: se il bambino sceglie la montatura tra le opzioni idonee, la indosserà molto più volentieri.",
+  ],
 };
 
 const lensesTitle = {
@@ -120,6 +141,7 @@ const lensesTitle = {
   es: "Lentillas para niños: desde los 0 años",
   en: "Contact lenses for children: from age 0",
   de: "Kontaktlinsen für Kinder: ab 0 Jahren",
+  it: "Lenti a contatto per bambini: da 0 anni",
 };
 
 const lenses = {
@@ -140,9 +162,13 @@ const lenses = {
   ],
   de: [
     "Bei looptica passen wir Kontaktlinsen für Kinder ab 0 Jahren an — immer auf Verordnung und Anweisung des Augenarztes. Dazu gehören pädiatrische Linsen bei angeborenem Katarakt, wo das operierte Auge nach dem Eingriff optisch ausgeglichen werden muss, damit sich das Sehsystem normal entwickeln kann.",
-
     "Das sind anspruchsvolle Anpassungen, die wir in Abstimmung mit dem Augenarzt und mit enger Nachkontrolle durchführen: Die Augenwerte eines Säuglings ändern sich schnell. Wir zeigen den Eltern außerdem den sicheren Umgang und die Pflege.",
     "Bei älteren Kindern kommen Kontaktlinsen meist wegen Sport, großer Werteunterschiede zwischen den Augen oder im Rahmen der Myopiekontrolle ins Spiel. Ein magisches Alter gibt es nicht: Entscheidend sind Verantwortung und Hygiene.",
+  ],
+  it: [
+    "Da looptica applichiamo lenti a contatto a bambini fin da 0 anni, sempre su prescrizione e indicazione dell'oftalmologo. Ciò include lenti pediatriche per casi come la cataratta congenita, in cui dopo l'intervento è necessario compensare otticamente l'occhio operato affinché il sistema visivo possa svilupparsi normalmente.",
+    "Sono applicazioni delicate, che svolgiamo in stretto coordinamento con l'oftalmologo e con controlli ravvicinati: i parametri oculari di un neonato cambiano rapidamente e vanno verificati di frequente. Insegniamo inoltre ai genitori come gestire e manutenere le lenti in sicurezza.",
+    "Nei bambini più grandi, le lenti a contatto vengono scelte spesso per lo sport, per una differenza marcata di gradazione tra i due occhi o come parte di un programma di controllo della miopia. Non esiste un'età fissa: ciò che conta sono responsabilità e igiene, aspetti che valutiamo caso per caso.",
   ],
 };
 
@@ -151,6 +177,7 @@ const faqTitle = {
   es: "Preguntas frecuentes",
   en: "Frequently asked questions",
   de: "Häufige Fragen",
+  it: "Domande frequenti",
 };
 
 const faqs = {
@@ -178,6 +205,12 @@ const faqs = {
     { q: "Ab welchem Alter sind Kontaktlinsen möglich?", a: "Bei klinischer Indikation wie angeborenem Katarakt ab 0 Jahren. Für den Alltagsgebrauch bei gesunden Kindern beurteilen wir Reife und Hygiene individuell." },
     { q: "Fertigen Sie pädiatrische Linsen bei angeborenem Katarakt an?", a: "Ja. Das ist eine unserer Spezialanpassungen, immer in Abstimmung mit dem Augenarzt und mit engmaschigen Kontrollen." },
   ],
+  it: [
+    { q: "Mio figlio non vuole portare gli occhiali. Cosa posso fare?", a: "Quasi sempre è una questione di regolazione o di scelta. Verifichiamo che non stringano né scivolino e lasciamo che scelga la montatura tra le opzioni adatte. Passa in negozio e li regoleremo senza impegno." },
+    { q: "Ogni quanto bisogna cambiare gli occhiali?", a: "Dipende dalla crescita e dalle variazioni della gradazione. Per i bambini in fase di crescita consigliamo una visita annuale dall'oftalmologo; in ottica controlliamo la calzata e aggiorniamo le lenti in base alla sua prescrizione." },
+    { q: "A partire da che età si possono portare le lenti a contatto?", a: "Applichiamo lenti a contatto fin da 0 anni in presenza di indicazione clinica, come la cataratta congenita. Per l'uso quotidiano in bambini sani, valutiamo la maturità e l'igiene caso per caso." },
+    { q: "Applicate lenti pediatriche per cataratta congenita?", a: "Sì. È una delle applicazioni speciali che effettuiamo, sempre in coordinamento con l'oftalmologo e con visite di controllo frequenti." },
+  ],
 };
 
 const relatedLinks = {
@@ -185,6 +218,7 @@ const relatedLinks = {
   es: <>Más información sobre <Link to="/es/services/eyeglasses" className="text-[#55afa9] underline font-medium">gafas graduadas</Link>, <Link to="/es/services/lents-contacte" className="text-[#55afa9] underline font-medium">lentes de contacto</Link> y <Link to="/es/visio-infantil/catarata-congenita-barcelona" className="text-[#55afa9] underline font-medium">catarata congénita</Link>.</>,
   en: <>More about <Link to="/en/services/eyeglasses" className="text-[#55afa9] underline font-medium">prescription glasses</Link>, <Link to="/en/services/lents-contacte" className="text-[#55afa9] underline font-medium">contact lenses</Link> and <Link to="/en/visio-infantil/catarata-congenita-barcelona" className="text-[#55afa9] underline font-medium">congenital cataract</Link>.</>,
   de: <>Mehr zu <Link to="/de/services/eyeglasses" className="text-[#55afa9] underline font-medium">Korrektionsbrillen</Link>, <Link to="/de/services/lents-contacte" className="text-[#55afa9] underline font-medium">Kontaktlinsen</Link> und <Link to="/de/visio-infantil/catarata-congenita-barcelona" className="text-[#55afa9] underline font-medium">angeborener Katarakt</Link>.</>,
+  it: <>Maggiori informazioni su <Link to="/it/services/eyeglasses" className="text-[#55afa9] underline font-medium">occhiali da vista</Link>, <Link to="/it/services/lents-contacte" className="text-[#55afa9] underline font-medium">lenti a contatto</Link> e <Link to="/it/visio-infantil/catarata-congenita-barcelona" className="text-[#55afa9] underline font-medium">cataratta congenita</Link>.</>,
 };
 
 const parentCrumb = {
@@ -192,6 +226,7 @@ const parentCrumb = {
   es: "Visión infantil",
   en: "Children's vision",
   de: "Kindersehen",
+  it: "Visione infantile",
 };
 
 const UlleresNens = () => {

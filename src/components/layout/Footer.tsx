@@ -13,7 +13,7 @@ const Footer = () => {
   const getFooterLinks = () => {
     return [
       {
-        title: language === 'en' ? 'Visual Services' : language === 'es' ? 'Servicios Visuales' : language === 'de' ? 'Visuelle Dienste' : 'Serveis Visuals',
+        title: language === 'en' ? 'Visual Services' : language === 'es' ? 'Servicios Visuales' : language === 'de' ? 'Visuelle Dienste' : language === 'it' ? 'Servizi Visivi' : 'Serveis Visuals',
         links: [
           { name: t('eyeglasses'), path: `/${language}/services/eyeglasses` },
           { name: t('sunglasses'), path: `/${language}/services/sunglasses` },
@@ -21,14 +21,14 @@ const Footer = () => {
           { name: t('visualHealth'), path: `/${language}/services/salut-visual` },
           { name: t('ortoK'), path: `/${language}/services/orto-k` },
           { name: t('planVeo'), path: `/${language}/services/plan-veo` },
-          { name: language === "ca" ? "Ulleres per a l'ordinador" : language === "es" ? "Gafas para ordenador" : language === "de" ? "Bildschirmbrillen" : "Computer glasses", path: `/${language}/services/computer-glasses` },
-          { name: language === "de" ? "ZEISS Gleitsichtgläser" : language === "en" ? "ZEISS progressive lenses" : language === "es" ? "Lentes progresivas ZEISS" : "Lents progressives ZEISS", path: zeissPath(language) },
+          { name: language === "ca" ? "Ulleres per a l'ordinador" : language === "es" ? "Gafas para ordenador" : language === "de" ? "Bildschirmbrillen" : language === "it" ? "Occhiali per computer" : "Computer glasses", path: `/${language}/services/computer-glasses` },
+          { name: language === "de" ? "ZEISS Gleitsichtgläser" : language === "en" ? "ZEISS progressive lenses" : language === "es" ? "Lentes progresivas ZEISS" : language === "it" ? "Lenti progressive ZEISS" : "Lents progressives ZEISS", path: zeissPath(language) },
         ],
       },
       {
-        title: language === 'en' ? 'Auditory Services' : language === 'es' ? 'Servicios Auditivos' : language === 'de' ? 'Auditive Dienste' : 'Serveis Auditius',
+        title: language === 'en' ? 'Auditory Services' : language === 'es' ? 'Servicios Auditivos' : language === 'de' ? 'Auditive Dienste' : language === 'it' ? 'Servizi Auditivi' : 'Serveis Auditius',
         links: [
-          { name: { ca: 'Centre d’Audiologia', es: 'Centro de Audiología', en: 'Audiology Centre', de: 'Audiologie-Zentrum' }[language], path: `/${language}/services/audiologia-centro` },
+          { name: { ca: 'Centre d’Audiologia', es: 'Centro de Audiología', en: 'Audiology Centre', de: 'Audiologie-Zentrum', it: 'Centro di Audiologia' }[language], path: `/${language}/services/audiologia-centro` },
           { name: t('hearingTest'), path: `/${language}/services/hearing-test` },
           { name: t('hearingAids'), path: `/${language}/services/hearing-aids` },
           { name: t('customEarProtection'), path: `/${language}/services/ear-protection` },
@@ -37,12 +37,12 @@ const Footer = () => {
         ],
       },
       {
-        title: language === 'en' ? 'Support' : language === 'es' ? 'Soporte' : language === 'de' ? 'Unterstützung' : 'Suport',
+        title: language === 'en' ? 'Support' : language === 'es' ? 'Soporte' : language === 'de' ? 'Unterstützung' : language === 'it' ? 'Supporto' : 'Suport',
         links: [
           { name: t('contact'), path: `/${language}/#contact` },
           { name: t('shopNow'), path: `/${language}/#products` },
-          { name: language === 'en' ? 'FAQ' : language === 'es' ? 'Preguntas frecuentes' : language === 'de' ? 'Häufig gestellte Fragen' : 'Preguntes freqüents', path: `/${language}/#contact` },
-          { name: language === 'en' ? 'Where we are' : language === 'es' ? 'Dónde estamos' : language === 'de' ? 'Wo wir sind' : 'On som', path: `/${language}/#contact` },
+          { name: language === 'en' ? 'FAQ' : language === 'es' ? 'Preguntas frecuentes' : language === 'de' ? 'Häufig gestellte Fragen' : language === 'it' ? 'Domande frequenti' : 'Preguntes freqüents', path: `/${language}/#contact` },
+          { name: language === 'en' ? 'Where we are' : language === 'es' ? 'Dónde estamos' : language === 'de' ? 'Wo wir sind' : language === 'it' ? 'Dove siamo' : 'On som', path: `/${language}/#contact` },
         ],
       },
     ];
@@ -91,6 +91,8 @@ const Footer = () => {
                     ? 'Soluciones visuales y auditivas de alta calidad para quienes valoran la profesionalidad y el buen servicio.'
                     : language === 'de'
                     ? 'Hochwertige visuelle und auditive Lösungen für diejenigen, die Professionalität und guten Service schätzen.'
+                    : language === 'it'
+                    ? 'Soluzioni visive e uditive di alta qualità per chi apprezza la professionalità e il buon servizio.'
                     : 'Solucions visuals i auditives d\'alta qualitat per a aquells que valoren la professionalitat i el bon servei.'}
               </p>
               <div className="flex space-x-4">
@@ -141,7 +143,7 @@ const Footer = () => {
             {/* Contact Info */}
             <div>
               <h4 className="font-medium text-lg mb-6 text-white">
-                {language === 'en' ? 'Contact Us' : (language === 'es' ? 'Contáctanos' : 'Contacta\'ns')}
+                {language === 'en' ? 'Contact Us' : language === 'es' ? 'Contáctanos' : language === 'de' ? 'Kontaktieren Sie uns' : language === 'it' ? 'Contattaci' : 'Contacta\'ns'}
               </h4>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -170,15 +172,15 @@ const Footer = () => {
           <div className="pt-8 border-t border-gray-700">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-sm text-gray-400">
-                © {currentYear} looptica. {language === 'en' ? 'All rights reserved.' : language === 'es' ? 'Todos los derechos reservados.' : language === 'de' ? 'Alle Rechte vorbehalten.' : 'Tots els drets reservats.'}
+                © {currentYear} looptica. {language === 'en' ? 'All rights reserved.' : language === 'es' ? 'Todos los derechos reservados.' : language === 'de' ? 'Alle Rechte vorbehalten.' : language === 'it' ? 'Tutti i diritti riservati.' : 'Tots els drets reservats.'}
               </p>
 
               <div className="flex space-x-6 text-sm text-gray-400">
                 <Link to={`/${language}/legal/privacy-policy`} className="hover:text-[#55afa9] transition-colors duration-200">
-                  {language === 'en' ? 'Privacy Policy' : language === 'es' ? 'Política de Privacidad' : language === 'de' ? 'Datenschutzrichtlinie' : 'Política de Privacitat'}
+                  {language === 'en' ? 'Privacy Policy' : language === 'es' ? 'Política de Privacidad' : language === 'de' ? 'Datenschutzrichtlinie' : language === 'it' ? 'Informativa sulla Privacy' : 'Política de Privacitat'}
                 </Link>
                 <Link to={`/${language}/legal/terms-conditions`} className="hover:text-[#55afa9] transition-colors duration-200">
-                  {language === 'en' ? 'Terms & Conditions' : language === 'es' ? 'Términos y Condiciones' : language === 'de' ? 'Allgemeine Geschäftsbedingungen' : 'Termes i Condicions'}
+                  {language === 'en' ? 'Terms & Conditions' : language === 'es' ? 'Términos y Condiciones' : language === 'de' ? 'Allgemeine Geschäftsbedingungen' : language === 'it' ? 'Termini e Condizioni' : 'Termes i Condicions'}
                 </Link>
                 <Link to={`/${language}/legal/cookies-policy`} className="hover:text-[#55afa9] transition-colors duration-200">
                   Cookies

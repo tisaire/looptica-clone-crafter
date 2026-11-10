@@ -90,7 +90,7 @@ FileETag None
   RewriteRule ^(.*)$ https://looptica.com/$1 [R=301,L,NE]
 
   # Normalize language root URLs: /ca -> /ca/, /en -> /en/, etc.
-  RewriteRule ^(en|es|ca|de)$ /$1/ [R=301,L,NE]
+  RewriteRule ^(en|es|ca|de|it)$ /$1/ [R=301,L,NE]
 
   # Legacy contact-lens service slug: preserve the language, before generic language rewrites
   RewriteRule ^(ca|es|en|de)/services/contact-lenses/?$ /$1/services/lents-contacte [R=301,L,NE]
@@ -186,7 +186,7 @@ FileETag None
   
   # Rule to redirect non-language-prefixed paths to default language (e.g. /about -> /ca/about)
   # Exclude known asset paths and API paths
-  RewriteCond %{REQUEST_URI} !^/(en|es|ca|de)/ [NC]
+  RewriteCond %{REQUEST_URI} !^/(en|es|ca|de|it)/ [NC]
   RewriteCond %{REQUEST_URI} !^/(images|assets|lovable-uploads|favicon\.ico|robots\.txt|sitemap\.xml) [NC]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d

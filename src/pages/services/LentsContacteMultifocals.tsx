@@ -451,7 +451,7 @@ const LentsContacteMultifocals = () => {
           a: 'With contact lenses both terms are often used for the same thing: lenses that let you see at different distances. "Progressive" is the usual term for spectacles, while "multifocal" is more common for contact lenses.',
         },
         {
-          q: 'Can I wear multifocal lenses if I have astigmatism?',
+          q: 'Can I wear multifocal lenses if I have astigmatismo?',
           a: 'In many cases yes, using toric multifocal lenses. Your prescription and the characteristics of each eye need to be assessed to see which options are available.',
         },
         {
@@ -624,6 +624,148 @@ const LentsContacteMultifocals = () => {
         <>
           Diese Seite gehört zu unserem Bereich {link('/services/lents-contacte', 'Kontaktlinsen')}. Wenn Kurzsichtigkeit
           Ihr Hauptthema ist, lesen Sie auch über {link('/services/orto-k', 'Ortho-K Nachtlinsen')}.
+        </>
+      ),
+    },
+    it: {
+      metaTitle: 'Lenti a Contatto Multifocali Barcellona | Presbiopia',
+      metaDescription:
+        'Applicazione personalizzata di lenti a contatto multifocali e progressive a Barcellona. Studio visivo, prove e controlli da looptica Poblenou. Prenota ora.',
+      heroTitle: 'Lenti a contatto multifocali a Barcellona',
+      heroSubtitle: 'Vedere da lontano e da vicino senza dipendere dagli occhiali',
+      breadcrumbLabel: 'Lenti multifocali',
+      parentCrumb: 'Lenti a contatto',
+      appointmentSubject: 'Applicazione di lenti a contatto multifocali da looptica',
+      introParagraph:
+        'Da looptica realizziamo applicazioni personalizzate di lenti a contatto multifocali per persone con presbiopia. Valutiamo la tua gradazione, le tue necessità visive e come usi la vista ogni giorno per proporti la geometria più adatta a te.',
+      ctaPrimary: 'Prenota un appuntamento',
+      ctaSecondary: "Come funziona l'applicazione?",
+      authorityTitle: 'Non tutte le lenti multifocali funzionano allo stesso modo',
+      authorityIntro:
+        "Una lente a contatto multifocale non si sceglie solo in base alla gradazione. Ogni geometria distribuisce la visione in modo diverso, per questo l'applicazione può richiedere di valutare:",
+      authorityFactors: [
+        'visione da lontano',
+        'visione intermedia',
+        'visione da vicino',
+        'occhio dominante',
+        'gradazione',
+        'astigmatismo, se presente',
+        'necessità visive quotidiane',
+        'comfort',
+        'risposta ai diversi design di lente',
+      ],
+      authorityMessage:
+        "L'obiettivo non è semplicemente darti delle lenti multifocali, ma trovare la combinazione che si adatta meglio alla tua visione e alla tua vita quotidiana.",
+      audienceTitle: 'A chi sono rivolte?',
+      audience: [
+        {
+          title: 'Usi occhiali progressivi',
+          text: 'E desideri svolgere determinate attività senza dover dipendere dagli occhiali.',
+        },
+        {
+          title: 'Usi già lenti a contatto',
+          text: 'Ma la presbiopia inizia a rendere difficile la lettura o la visione da vicino.',
+        },
+        {
+          title: 'Hai già provato lenti multifocali',
+          text: 'Ma il risultato non è stato soddisfacente e desideri valutare altre opzioni o regolazioni.',
+        },
+        {
+          title: 'Ti serve lontano + computer + vicino',
+          text: 'E cerchi un equilibrio funzionale tra le diverse distanze durante la giornata.',
+        },
+      ],
+      processTitle: 'Come applichiamo le lenti multifocali da looptica',
+      processSteps: [
+        {
+          title: 'Studiamo la tua visione',
+          text: 'Gradazione, visione da vicino, intermedia e da lontano, occhio dominante ed esigenze visive della tua quotidianità.',
+        },
+        {
+          title: 'Selezioniamo la lente',
+          text: 'Scegliamo geometria, materiale, addizione e parametri iniziali sulla base della valutazione.',
+        },
+        {
+          title: 'Proviamo e perfezioniamo',
+          text: 'Verifichiamo come vedi realmente con le lenti applicate ed eseguiamo le regolazioni necessarie.',
+        },
+        {
+          title: 'Monitoraggio nel tempo',
+          text: "Controlliamo visione, comfort e comportamento delle lenti durante tutto il processo di adattamento.",
+        },
+      ],
+      comparisonTitle: 'Occhiali progressivi vs lenti a contatto multifocali',
+      comparisonIntro:
+        'Sono soluzioni diverse, non migliori o peggiori. Questo confronto aiuta a comprendere cosa offre ciascuna opzione.',
+      comparisonColumns: ['', 'Occhiali progressivi', 'Lenti multifocali'],
+      comparisonRows: [
+        ['Visione da lontano', 'Nitida nella parte superiore della lente', 'Visione globale senza montatura davanti'],
+        ['Visione intermedia', 'Zona intermedia definita', 'Dipende dalla geometria scelta'],
+        ['Visione da vicino', 'Occorre orientare lo sguardo verso il basso', 'Senza necessità di muovere la testa'],
+        ['Libertà senza occhiali', 'Dipendi dall’indossarli', 'Puoi affrontare la giornata senza occhiali'],
+        ['Sport e movimento', 'Possono scivolare o dare fastidio', 'Di solito più comode in movimento'],
+        ['Campo visivo', 'Delimitato dalla montatura', 'Campo visivo più ampio'],
+        ['Periodo di adattamento', 'Breve nella maggior parte dei casi', 'Può richiedere prove e regolazioni'],
+      ],
+      comparisonNote:
+        'Molte persone scelgono di combinare entrambe le opzioni, utilizzando ciascuna soluzione in base al momento e all’attività.',
+      typesTitle: 'Lenti diverse per occhi diversi',
+      typesIntro: 'Tra le lenti a contatto multifocali esistono opzioni e geometrie molto varie:',
+      types: [
+        'lenti giornaliere',
+        'lenti mensili',
+        'lenti multifocali',
+        'lenti multifocali toriche in presenza di astigmatismo',
+        'diverse addizioni',
+        'geometrie e materiali differenti',
+      ],
+      typesMessage:
+        "Non esiste una singola lente multifocale perfetta per tutti. L'obiettivo dell'applicazione è trovare l'opzione su misura per le caratteristiche visive e le esigenze di ogni persona.",
+      specialistTitle: 'La tua applicazione, nelle mani di una specialista in contattologia',
+      specialistParagraphs: [
+        'Le lenti a contatto multifocali possono richiedere più prove e regolazioni rispetto alle lenti convenzionali. Per questo da looptica svolgiamo valutazione, prova e controlli direttamente nel nostro centro a Poblenou, Barcellona.',
+        'Elena Sentís, direttrice tecnica di looptica, supervisiona le applicazioni di contattologia avanzata del centro, tra cui ortocheratologia (Orto-K), controllo della miopia e lenti multifocali.',
+      ],
+      specialistCredentials: 'Elena Sentís — Ottico Optometrista · Col. 18568 · Direttrice Tecnica di looptica',
+      specialistLink: 'Scopri il profilo del team',
+      faqTitle: 'Domande frequenti sulle lenti multifocali',
+      faqs: [
+        {
+          q: 'Che differenza c’è tra lenti progressive e multifocali?',
+          a: 'Nelle lenti a contatto entrambi i termini sono spesso usati come sinonimi per indicare lenti che consentono di mettere a fuoco a distanze diverse. "Progressive" è il termine comune per gli occhiali, mentre "multifocali" è il più diffuso per le lenti a contatto.',
+        },
+        {
+          q: 'Posso usare lenti multifocali se ho astigmatismo?',
+          a: 'In molti casi sì, grazie alle lenti multifocali toriche. È necessario valutare la gradazione e la conformazione oculare per verificare le opzioni disponibili.',
+        },
+        {
+          q: 'A che età si possono iniziare a usare?',
+          a: 'In genere suscitano interesse quando compare la presbiopia, abitualmente a partire dai 40-45 anni, ma non c’è un’età fissa: dipende da quanto la visione da vicino crea disagio.',
+        },
+        {
+          q: 'Si vede esattamente come con gli occhiali progressivi?',
+          a: 'Non esattamente. Il modo in cui viene distribuita la visione è differente e ogni persona lo percepisce a modo suo. Per questo eseguiamo prove prima di confermare la scelta.',
+        },
+        {
+          q: 'Quanto dura il percorso di applicazione?',
+          a: 'Varia da persona a persona. Spesso sono necessarie alcune settimane con una o più visite di controllo per perfezionare i parametri.',
+        },
+        {
+          q: 'Esistono lenti a contatto multifocali giornaliere?',
+          a: 'Sì, esistono sia in versione giornaliera che mensile. La scelta dipende dalla frequenza di utilizzo, dal comfort e dalle preferenze personali.',
+        },
+        {
+          q: 'Cosa succede se le ho già provate in passato senza riuscire ad adattarmi?',
+          a: 'Vale la pena fare una nuova valutazione. Una geometria diversa, un’altra addizione o una regolazione dei parametri possono cambiare il risultato, anche se non sempre l’adattamento è possibile.',
+        },
+      ],
+      localTitle: 'Applicazione di lenti multifocali a Poblenou, Barcellona',
+      localText:
+        'Vieni da looptica e valutiamo insieme quale geometria di lente multifocale risponde meglio alla tua visione e al tuo stile di vita.',
+      relatedText: (
+        <>
+          Questa pagina fa parte della nostra sezione dedicata alle {link('/services/lents-contacte', 'lenti a contatto')}. Se la tua
+          priorità riguarda la miopia, puoi scoprire anche le {link('/services/orto-k', 'lenti notturne Orto-K')}.
         </>
       ),
     },

@@ -1,4 +1,3 @@
-
 import { useLanguage } from '@/contexts/LanguageContext';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { MapPin, Clock, Phone, MessageCircle } from 'lucide-react';

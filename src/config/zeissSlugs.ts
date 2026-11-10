@@ -6,6 +6,7 @@ export const ZEISS_SLUGS: Record<Language, string> = {
   es: 'progresivos-zeiss-poblenou',
   en: 'zeiss-progressive-lenses-poblenou',
   de: 'zeiss-gleitsichtglaeser-poblenou',
+  it: 'lenti-progressive-zeiss-poblenou',
 };
 
 export const zeissPath = (lang: Language) => `/${lang}/${ZEISS_SLUGS[lang]}`;

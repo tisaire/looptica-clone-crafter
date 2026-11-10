@@ -11,6 +11,7 @@ const pageTitle: { [key in Language]: string } = {
   es: "Ojo Vago (Ambliopía) en Barcelona Poblenou | looptica",
   en: "Lazy Eye (Amblyopia) in Barcelona Poblenou | looptica",
   de: "Schwachsichtigkeit (Amblyopie) in Barcelona Poblenou | looptica",
+  it: "Occhio Pigro (Ambliopia) a Barcellona Poblenou | looptica",
 };
 
 const pageDescription: { [key in Language]: string } = {
@@ -18,6 +19,7 @@ const pageDescription: { [key in Language]: string } = {
   es: "Ojo vago (ambliopía) infantil: señales en casa y qué corrección óptica adaptamos en Poblenou una vez el oftalmólogo ha hecho el diagnóstico.",
   en: "Childhood lazy eye (amblyopia): signs at home and the optical correction we fit in Poblenou, Barcelona once the ophthalmologist has diagnosed it.",
   de: "Schwachsichtigkeit (Amblyopie) bei Kindern: Anzeichen zu Hause und welche optische Korrektion wir in Poblenou nach der Diagnose anpassen.",
+  it: "Occhio pigro (ambliopia) infantile: segnali a casa e la correzione ottica che adattiamo a Poblenou dopo la diagnosi dell'oculista.",
 };
 
 const hero = {
@@ -25,6 +27,7 @@ const hero = {
   es: { title: "Ojo vago (ambliopía)", subtitle: "Detectarlo pronto es clave. El diagnóstico es del oftalmólogo; la solución óptica, nuestra." },
   en: { title: "Lazy eye (amblyopia)", subtitle: "Spotting it early matters. The diagnosis is the ophthalmologist's; the optical solution is ours." },
   de: { title: "Schwachsichtigkeit (Amblyopie)", subtitle: "Früh erkennen ist entscheidend. Die Diagnose stellt der Augenarzt; die optische Lösung kommt von uns." },
+  it: { title: "Occhio pigro (ambliopia)", subtitle: "Individuarlo presto è fondamentale. La diagnosi spetta all'oculista; la soluzione ottica a noi." },
 };
 
 const intro = {
@@ -48,6 +51,11 @@ const intro = {
     "Das Tückische: Sie verläuft unbemerkt. Das Kind sieht mit dem dominanten Auge gut und klagt nicht. Oft wird sie erst bei einer fachlichen Untersuchung entdeckt.",
     "Bei Verdacht auf ein schwaches Auge ist der Augenarzt der erste Schritt: Er untersucht, schließt Erkrankungen aus, stellt die Diagnose und legt die Behandlung fest.",
   ],
+  it: [
+    "L'occhio pigro, o ambliopia, è la riduzione della capacità visiva di un occhio strutturalmente sano. Si verifica quando, durante i primi anni di vita, il cervello riceve un'immagine peggiore da un occhio e finisce per privilegiare l'altro. Le cause più comuni sono una differenza di gradazione tra i due occhi, uno strabismo o un'ostruzione visiva.",
+    "Il problema è che è silenzioso: il bambino vede bene con l'occhio dominante e non lamenta nulla. Spesso viene scoperto solo durante una visita specialistica, o per caso quando si copre un occhio e si rende conto di non vederci con l'altro.",
+    "Se sospetti che tuo figlio possa avere un occhio pigro, il primo passo è l'oculista: è lui che deve esaminare, escludere patologie, formulare la diagnosi e stabilire il trattamento.",
+  ],
 };
 
 const signsTitle = {
@@ -55,6 +63,7 @@ const signsTitle = {
   es: "Cómo detectarlo en casa",
   en: "How to spot it at home",
   de: "Woran Sie es zu Hause erkennen",
+  it: "Come riconoscerlo a casa",
 };
 
 const signs = {
@@ -86,6 +95,13 @@ const signs = {
     "Wehrt sich deutlich, wenn ein bestimmtes Auge abgedeckt wird.",
     "Ungeschicklichkeit beim Ballspiel oder beim Abschätzen von Entfernungen.",
   ],
+  it: [
+    "Un occhio devia verso l'interno o verso l'esterno, anche solo occasionalmente.",
+    "Il bambino inclina o gira la testa per guardare la TV o leggere.",
+    "Si copre o chiude un occhio in presenza di luce forte o quando si concentra.",
+    "Rifiuta chiaramente che gli si copra un occhio specifico (perché con l'altro non vede bene).",
+    "Goffaggine con la palla o nel calcolare le distanze.",
+  ],
 };
 
 const signsNote = {
@@ -93,6 +109,7 @@ const signsNote = {
   es: "Ante cualquiera de estas señales, pide visita con el oftalmólogo. Es quien puede confirmar o descartar una ambliopía e indicar el tratamiento.",
   en: "If you see any of these signs, book an appointment with an ophthalmologist. They are the ones who can confirm or rule out amblyopia and indicate treatment.",
   de: "Bei einem dieser Anzeichen vereinbaren Sie einen Termin beim Augenarzt. Er kann eine Amblyopie bestätigen oder ausschließen und die Behandlung festlegen.",
+  it: "In presenza di uno qualsiasi di questi segnali, fissa una visita con l'oculista. È l'unico a poter confermare o escludere un'ambliopia e indicare il trattamento.",
 };
 
 const ageTitle = {
@@ -100,6 +117,7 @@ const ageTitle = {
   es: "Por qué importa tanto la edad",
   en: "Why age matters so much",
   de: "Warum das Alter so wichtig ist",
+  it: "Perché l'età è così importante",
 };
 
 const ageText = {
@@ -107,6 +125,7 @@ const ageText = {
   es: "El sistema visual se desarrolla sobre todo durante los primeros años de vida. Cuanto antes se detecta y se trata una ambliopía, mejor suele ser la recuperación. Esto no significa que a partir de cierta edad no se pueda hacer nada —hay casos que mejoran más tarde—, pero sí que el tiempo juega a favor de la detección precoz. Por eso, ante la mínima duda, vale la pena una visita al oftalmólogo.",
   en: "The visual system develops mainly in the first years of life. The earlier amblyopia is found and treated, the better the recovery usually is. That doesn't mean nothing can be done later — some cases improve at older ages — but time favours early detection. So at the slightest doubt, a visit to the ophthalmologist is worth it.",
   de: "Das Sehsystem entwickelt sich vor allem in den ersten Lebensjahren. Je früher eine Amblyopie erkannt und behandelt wird, desto besser ist meist das Ergebnis. Das heißt nicht, dass später nichts mehr geht — manche Fälle verbessern sich auch dann —, aber Früherkennung zahlt sich aus. Beim kleinsten Zweifel lohnt daher der Weg zum Augenarzt.",
+  it: "Il sistema visivo si sviluppa soprattutto durante i primi anni di vita. Prima viene individuata e trattata un'ambliopia, migliore tende a essere il recupero. Questo non significa che dopo una certa età non si possa fare nulla — ci sono casi che migliorano anche più tardi —, ma il tempo gioca a favore della diagnosi precoce. Per questo, al minimo dubbio, vale la pena consultare un oculista.",
 };
 
 const roleTitle = {
@@ -114,6 +133,7 @@ const roleTitle = {
   es: "Qué podemos hacer en looptica",
   en: "What we can do at looptica",
   de: "Was wir bei looptica tun können",
+  it: "Cosa possiamo fare da looptica",
 };
 
 const role = {
@@ -141,6 +161,12 @@ const role = {
     "Wenn der Facharzt es vorsieht, passen wir Kontaktlinsen statt einer Brille an und kontrollieren die Werteentwicklung regelmäßig, mit Rückmeldung an ihn.",
     "Diese Maßnahmen führt der Augenarzt durch: ein noch nie untersuchtes Kind erstmals untersuchen, Erkrankungen diagnostizieren oder ausschließen, medizinische Behandlungen anwenden oder Sehtherapie anbieten.",
   ],
+  it: [
+    "Il nostro lavoro inizia quando sono già presenti la diagnosi e la prescrizione dell'oculista. Da quel momento ci occupiamo della soluzione ottica e del monitoraggio, sempre secondo le sue indicazioni.",
+    "Adattiamo la correzione ottica prescritta con lenti ben calcolate e centrate, montate su una montatura comoda e stabile: nell'ambliopia, il fatto che gli occhiali siano sempre nella posizione corretta fa parte del trattamento indicato dall'oculista.",
+    "Quando lo specialista lo richiede, applichiamo lenti a contatto al posto degli occhiali e monitoriamo l'evoluzione della gradazione con controlli periodici, informandolo di ciò che osserviamo.",
+    "Questi interventi sono di competenza dell'oculista: visitare per la prima volta un bambino mai esaminato prima, diagnosticare o escludere patologie, applicare trattamenti medici ed eseguire terapia visiva.",
+  ],
 };
 
 const learningTitle = {
@@ -148,6 +174,7 @@ const learningTitle = {
   es: "Visión y aprendizaje",
   en: "Vision and learning",
   de: "Sehen und Lernen",
+  it: "Visione e apprendimento",
 };
 
 const learning = {
@@ -155,6 +182,7 @@ const learning = {
   es: "Un niño puede tener una agudeza visual perfecta y, aun así, cansarse al leer, saltarse líneas o perder la concentración a los diez minutos. Ocurre cuando los ojos no coordinan bien o el enfoque no es estable. No es un problema de inteligencia ni de actitud. Si en el colegio han comentado dificultades de lectura, vale la pena que lo valore el oftalmólogo; si el resultado es que hace falta una corrección óptica, nosotros la adaptamos y hacemos el seguimiento.",
   en: "A child can have perfect visual acuity and still tire when reading, skip lines or lose concentration after ten minutes. That happens when the eyes don't team well or focusing isn't stable. It isn't about intelligence or attitude. If school has flagged reading difficulties, it is worth having the ophthalmologist assess it; if the outcome is that an optical correction is needed, we fit it and follow it up.",
   de: "Ein Kind kann perfekte Sehschärfe haben und trotzdem beim Lesen ermüden, Zeilen überspringen oder nach zehn Minuten die Konzentration verlieren. Das passiert, wenn die Augen nicht gut zusammenarbeiten oder die Fokussierung instabil ist. Das ist keine Frage von Intelligenz oder Einstellung. Wurden in der Schule Leseschwierigkeiten angesprochen, sollte der Augenarzt das beurteilen; ist eine optische Korrektion nötig, passen wir sie an und begleiten sie.",
+  it: "Un bambino può avere un'acuità visiva perfetta e, nonostante ciò, affaticarsi quando legge, saltare le righe o perdere la concentrazione dopo dieci minuti. Succede quando gli occhi non coordinano bene o la messa a fuoco non è stabile. Non è una questione di intelligenza né di impegno. Se a scuola hanno segnalato difficoltà di lettura, vale la pena far valutare la situazione dall'oculista; se l'esito prevede una correzione ottica, noi la adattiamo e ne seguiamo l'evoluzione.",
 };
 
 const faqTitle = {
@@ -162,6 +190,7 @@ const faqTitle = {
   es: "Preguntas frecuentes",
   en: "Frequently asked questions",
   de: "Häufige Fragen",
+  it: "Domande frequenti",
 };
 
 const faqs = {
@@ -189,6 +218,12 @@ const faqs = {
     { q: "Wer stellt die Diagnose?", a: "Der Augenarzt. Er untersucht das Kind, schließt Erkrankungen aus, bestätigt die Amblyopie und legt die Behandlung fest. Wir sind Optometristen und kommen danach hinzu, abgestimmt und nach seinen Vorgaben." },
     { q: "Bis zu welchem Alter ist eine Behandlung möglich?", a: "Je früher, desto besser die Prognose; dennoch verbessern sich manche Fälle auch später. Diese Beurteilung trifft der Augenarzt bei seiner Untersuchung." },
   ],
+  it: [
+    { q: "Fate terapia visiva?", a: "Da looptica ci concentriamo sulla parte ottica: occhiali e lenti per la correzione e il controllo della miopia, lenti a contatto e lenti notturne Orto-K, regolazione e monitoraggio, sempre secondo la prescrizione dell'oculista." },
+    { q: "L'occhio pigro si risolve solo con la benda?", a: "Il bendaggio (occlusione) è una parte consueta del trattamento prescritto dall'oculista, ma di solito è necessario indossare anche la correzione ottica adeguata e ben adattata. Di questa parte ci occupiamo noi." },
+    { q: "Chi deve fare la diagnosi?", a: "L'oculista. È lui a visitare il bambino, escludere patologie, confermare l'ambliopia e stabilire il trattamento. Noi siamo ottici optometristi e interveniamo dopo, in modo coordinato e secondo le sue indicazioni." },
+    { q: "Fino a che età si può trattare?", a: "Prima si interviene, migliore è la prognosi; tuttavia, ci sono casi che migliorano anche in età più avanzata. Questa valutazione viene effettuata dall'oculista durante la visita." },
+  ],
 };
 
 const hubLink = {
@@ -196,6 +231,7 @@ const hubLink = {
   es: <>¿Quieres ver todas las opciones ópticas para niños? Consulta nuestra página de <Link to="/es/visio-infantil" className="text-[#55afa9] underline font-medium">visión infantil</Link>.</>,
   en: <>Want to see all the optical options for children? See our <Link to="/en/visio-infantil" className="text-[#55afa9] underline font-medium">children's vision</Link> page.</>,
   de: <>Alle optischen Optionen für Kinder? Siehe unsere Seite <Link to="/de/visio-infantil" className="text-[#55afa9] underline font-medium">Kindersehen</Link>.</>,
+  it: <>Vuoi conoscere tutte le opzioni ottiche per bambini? Consulta la nostra pagina sulla <Link to="/it/visio-infantil" className="text-[#55afa9] underline font-medium">visione infantile</Link>.</>,
 };
 
 const parentCrumb = {
@@ -203,6 +239,7 @@ const parentCrumb = {
   es: "Visión infantil",
   en: "Children's vision",
   de: "Kindersehen",
+  it: "Visione infantile",
 };
 
 const UllGandul = () => {

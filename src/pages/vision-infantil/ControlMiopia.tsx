@@ -12,6 +12,7 @@ const pageTitle: { [key in Language]: string } = {
   es: "Control de la Miopía Infantil en Barcelona Poblenou",
   en: "Childhood Myopia Control in Barcelona Poblenou",
   de: "Myopiekontrolle bei Kindern in Barcelona Poblenou",
+  it: "Controllo della Miopia Infantile a Barcellona Poblenou",
 };
 
 const pageDescription: { [key in Language]: string } = {
@@ -19,6 +20,7 @@ const pageDescription: { [key in Language]: string } = {
   es: "Control de miopía infantil en Poblenou, Barcelona: lentes Stellest, MyoCare y MiYOSMART, Orto-K y lentillas, con seguimiento junto al oftalmólogo.",
   en: "Childhood myopia control in Poblenou, Barcelona: Stellest, MyoCare and MiYOSMART glasses, Ortho-K and contact lenses, with ophthalmologist follow-up.",
   de: "Myopiekontrolle für Kinder in Poblenou, Barcelona: Stellest, MyoCare und MiYOSMART, Ortho-K und Kontaktlinsen, mit Nachsorge in Abstimmung mit dem Augenarzt.",
+  it: "Controllo della miopia infantile a Poblenou, Barcellona: lenti Stellest, MyoCare e MiYOSMART, Orto-K e lenti a contatto, con follow-up con l'oculista.",
 };
 
 const atropineNote = {
@@ -26,6 +28,7 @@ const atropineNote = {
   es: "En looptica no utilizamos atropina en baja concentración. Nuestro enfoque es óptico: Orto-K, lentes de desenfoque periférico y lentillas de control. Si el caso requiere tratamiento farmacológico, te derivamos al oftalmólogo y seguimos colaborando en el control óptico.",
   en: "At looptica we do not use low-dose atropine. Our approach is optical: Ortho-K, peripheral defocus lenses and control contact lenses. If a case calls for pharmacological treatment, we refer to an ophthalmologist and keep collaborating on the optical side.",
   de: "Bei looptica setzen wir kein niedrig dosiertes Atropin ein. Unser Ansatz ist optisch: Ortho-K, Defokus-Brillengläser und Kontrolllinsen. Ist eine medikamentöse Behandlung nötig, überweisen wir an den Augenarzt und begleiten weiterhin die optische Kontrolle.",
+  it: "A looptica non utilizziamo atropina a basso dosaggio. Il nostro approccio è ottico: Orto-K, lenti a defocus periferico e lenti a contatto di controllo. Se il caso richiede un trattamento farmacologico, rimandiamo all'oftalmologo e continuiamo a collaborare per il controllo ottico.",
 };
 
 const parentCrumb = {
@@ -33,6 +36,7 @@ const parentCrumb = {
   es: "Visión infantil",
   en: "Children's vision",
   de: "Kindersehen",
+  it: "Visione infantile",
 };
 
 

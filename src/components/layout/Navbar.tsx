@@ -27,7 +27,7 @@ const Navbar = () => {
       children: [
         { name: t('opticalServices'), path: `/${language}/#optical` },
         { name: t('childrenVision'), path: `/${language}/visio-infantil` },
-        { name: { ca: 'Centre d’Audiologia', es: 'Centro de Audiología', en: 'Audiology Centre', de: 'Audiologie-Zentrum' }[language], path: `/${language}/services/audiologia-centro` },
+        { name: { ca: 'Centre d’Audiologia', es: 'Centro de Audiología', en: 'Audiology Centre', de: 'Audiologie-Zentrum', it: 'Centro di Audiologia' }[language], path: `/${language}/services/audiologia-centro` },
       ],
     },
     { name: t('about'), path: `/${language}/about` },
