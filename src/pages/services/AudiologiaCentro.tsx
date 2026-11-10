@@ -14,32 +14,32 @@ const AudiologiaCentro = () => {
   
   const content = {
     seoTitle: {
-      en: "Audiologist in Barcelona | Hearing Tests & Hearing Aids",
-      es: "Audiólogo en Barcelona | Audífonos y prueba auditiva",
-      ca: "Audiòleg a Barcelona | Audiòfons i prova auditiva",
-      de: "Audiologe in Barcelona | Hörtest & Hörgeräte",
-      it: "Audiologo a Barcellona | Test udito e apparecchi"
+      en: "Audiology in Poblenou, Barcelona | Hearing Tests & Hearing Aids",
+      es: "Audiólogo en Poblenou, Barcelona | Prueba auditiva y audífonos",
+      ca: "Audiologia al Poblenou, Barcelona | Proves auditives i audiòfons",
+      de: "Audiologie in Poblenou, Barcelona | Hörtests & Hörgeräte",
+      it: "Audiologia a Poblenou, Barcellona | Test uditivi e apparecchi acustici"
     },
     seoDescription: {
-      en: "Professional hearing tests, hearing aid fitting and follow-up in Barcelona. Audiologist in Poblenou with advanced technology and personalized care.",
-      es: "Audiólogo en Poblenou, Barcelona: pruebas auditivas, adaptación de audífonos y seguimiento personalizado con tecnología avanzada en looptica.",
-      ca: "Proves auditives, adaptació d'audiòfons i seguiment professional a Barcelona. Audiòleg a Poblenou amb tecnologia avançada i atenció personalitzada.",
-      de: "Professionelle Hörtests, Hörgeräte-Anpassung und Nachsorge in Barcelona. Audiologe in Poblenou mit fortschrittlicher Technologie und persönlicher Betreuung.",
-      it: "Audiologo a Poblenou, Barcellona: test dell'udito, adattamento di apparecchi acustici e follow-up personalizzato con tecnologia avanzata da looptica."
+      en: "Audiology centre in Poblenou, Barcelona. Hearing tests, hearing aid fitting and follow-up care with Esther, audiologist and hearing care professional at looptica.",
+      es: "Centro auditivo en Poblenou, Barcelona. Pruebas auditivas, adaptación y seguimiento de audífonos con Esther, audióloga y audioprotesista de looptica.",
+      ca: "Centre d'audiologia al Poblenou, Barcelona. Proves auditives, adaptació i seguiment d'audiòfons amb Esther, audiòloga i audioprotètica de looptica.",
+      de: "Hörzentrum in Poblenou, Barcelona. Hörtests, Hörgeräteanpassung und Nachbetreuung mit Esther, Audiologin und Hörgeräteakustikerin bei looptica.",
+      it: "Centro audiologico a Poblenou, Barcellona. Test dell'udito, adattamento e controlli degli apparecchi acustici con Esther, audiologa e audioprotesista di looptica."
     },
     title: {
-      en: "Audiology centre in Barcelona",
-      es: "Centro de audiología en Barcelona",
-      ca: "Centre d'audiologia a Barcelona",
-      de: "Audiologie-Zentrum in Barcelona",
-      it: "Centro di audiologia a Barcellona"
+      en: "Audiology and Hearing Care Centre in Poblenou, Barcelona",
+      es: "Centro auditivo y audiología en Poblenou, Barcelona",
+      ca: "Centre auditiu i audiologia al Poblenou, Barcelona",
+      de: "Hörzentrum und Audiologie in Poblenou, Barcelona",
+      it: "Centro auditivo e audiologia a Poblenou, Barcellona"
     },
     subtitle: {
-      en: "Comprehensive hearing care solutions",
-      es: "Soluciones integrales para el cuidado auditivo",
-      ca: "Solucions integrals per a la cura auditiva",
-      de: "Umfassende Hörlösungen",
-      it: "Soluzioni complete per la cura dell'udito"
+      en: "At looptica, in Barcelona's Poblenou neighbourhood, we provide personalised hearing care. Our services include hearing tests, hearing aid fitting and follow-up, hearing protection advice, and guidance on available financial assistance and subsidies.",
+      es: "En looptica, en el barrio de Poblenou de Barcelona, ofrecemos atención audiológica personalizada. Realizamos pruebas auditivas, adaptación y seguimiento de audífonos, asesoramiento sobre protección auditiva y orientación sobre ayudas y subvenciones.",
+      ca: "A looptica, al barri del Poblenou de Barcelona, oferim atenció audiològica personalitzada. Realitzem proves auditives, adaptació i seguiment d'audiòfons, assessorament sobre protecció auditiva i orientació sobre ajuts i subvencions.",
+      de: "Bei looptica im Stadtteil Poblenou in Barcelona bieten wir individuelle audiologische Betreuung. Unsere Leistungen umfassen Hörtests, Hörgeräteanpassung und Nachbetreuung, Beratung zum Gehörschutz sowie Informationen zu verfügbaren Zuschüssen und Förderungen.",
+      it: "Da looptica, nel quartiere Poblenou di Barcellona, offriamo un'assistenza audiologica personalizzata. I nostri servizi comprendono test dell'udito, adattamento e controlli degli apparecchi acustici, consulenza sulla protezione dell'udito e informazioni su contributi e agevolazioni disponibili."
     },
     appointmentSubject: {
       en: "Audiology Consultation at looptica",
@@ -166,6 +166,69 @@ const AudiologiaCentro = () => {
       en: "View funding and requirements",
       de: "Zuschüsse und Voraussetzungen ansehen",
       it: "Consulta i contributi e i requisiti"
+    },
+    blockAHeading: {
+      ca: "Proves auditives i audiometria a Barcelona",
+      es: "Pruebas auditivas y audiometría en Barcelona",
+      en: "Hearing Tests and Audiometry in Barcelona",
+      de: "Hörtests und Audiometrie in Barcelona",
+      it: "Test dell'udito e audiometria a Barcellona"
+    },
+    blockAText: {
+      ca: "Una revisió auditiva permet valorar com percebem els sons i identificar possibles dificultats auditives. Al nostre centre del Poblenou realitzem proves auditives personalitzades i orientem cada persona sobre els passos següents segons els resultats obtinguts.",
+      es: "Una revisión auditiva permite valorar cómo percibimos los sonidos e identificar posibles dificultades auditivas. En nuestro centro de Poblenou realizamos pruebas auditivas personalizadas y orientamos a cada persona sobre los siguientes pasos según los resultados obtenidos.",
+      en: "A hearing assessment helps evaluate how we perceive sounds and identify possible hearing difficulties. At our Poblenou centre, we provide personalised hearing tests and explain the next steps based on the results.",
+      de: "Eine Höruntersuchung hilft dabei, die Wahrnehmung von Geräuschen zu beurteilen und mögliche Hörschwierigkeiten zu erkennen. In unserem Zentrum in Poblenou führen wir individuelle Hörtests durch und erläutern die nächsten Schritte anhand der Ergebnisse.",
+      it: "Un controllo dell'udito permette di valutare come percepiamo i suoni e individuare possibili difficoltà uditive. Nel nostro centro di Poblenou eseguiamo test dell'udito personalizzati e spieghiamo i passi successivi in base ai risultati ottenuti."
+    },
+    blockALink: {
+      ca: "Més informació sobre les proves auditives",
+      es: "Más información sobre las pruebas auditivas",
+      en: "Learn more about hearing tests",
+      de: "Mehr über Hörtests erfahren",
+      it: "Scopri di più sui test dell'udito"
+    },
+    blockBHeading: {
+      ca: "Adaptació i seguiment d'audiòfons",
+      es: "Adaptación y seguimiento de audífonos",
+      en: "Hearing Aid Fitting and Follow-Up",
+      de: "Hörgeräteanpassung und Nachbetreuung",
+      it: "Adattamento e controlli degli apparecchi acustici"
+    },
+    blockBText: {
+      ca: "L'elecció d'un audiòfon depèn de les característiques de la pèrdua auditiva, les necessitats de comunicació i l'estil de vida de cada persona. A looptica oferim assessorament, adaptació, ajustos i seguiment per trobar una solució adequada a cada cas.",
+      es: "La elección de un audífono depende de las características de la pérdida auditiva, las necesidades de comunicación y el estilo de vida de cada persona. En looptica ofrecemos asesoramiento, adaptación, ajustes y seguimiento para encontrar una solución adecuada a cada caso.",
+      en: "Choosing a hearing aid depends on the characteristics of the hearing loss, communication needs and each person's lifestyle. At looptica, we provide advice, fitting, adjustments and follow-up care to find a suitable solution for each individual.",
+      de: "Die Wahl eines Hörgeräts hängt von der Art des Hörverlusts, den Kommunikationsbedürfnissen und dem Lebensstil der jeweiligen Person ab. Bei looptica bieten wir Beratung, Anpassung, Feineinstellung und Nachbetreuung, um eine passende Lösung zu finden.",
+      it: "La scelta di un apparecchio acustico dipende dalle caratteristiche della perdita uditiva, dalle esigenze di comunicazione e dallo stile di vita di ogni persona. Da looptica offriamo consulenza, adattamento, regolazioni e controlli periodici per trovare una soluzione adatta a ogni caso."
+    },
+    blockBLink: {
+      ca: "Més informació sobre els audiòfons",
+      es: "Más información sobre los audífonos",
+      en: "Learn more about hearing aids",
+      de: "Mehr über Hörgeräte erfahren",
+      it: "Scopri di più sugli apparecchi acustici"
+    },
+    blockCHeading: {
+      ca: "El teu centre auditiu al Poblenou",
+      es: "Tu centro auditivo en Poblenou",
+      en: "Your Hearing Care Centre in Poblenou",
+      de: "Ihr Hörzentrum in Poblenou",
+      it: "Il tuo centro auditivo a Poblenou"
+    },
+    blockCText: {
+      ca: "A looptica oferim una atenció propera i un seguiment personalitzat durant tot el procés d'adaptació auditiva. Ens trobaràs a la Rambla del Poblenou, 48, Barcelona, on l'Esther, audiòloga i audioprotètica, és la professional responsable del servei.",
+      es: "En looptica ofrecemos una atención cercana y un seguimiento personalizado durante todo el proceso de adaptación auditiva. Estamos en Rambla del Poblenou, 48, Barcelona, donde Esther, audióloga y audioprotesista, es la profesional responsable del servicio.",
+      en: "At looptica, we provide personal attention and ongoing support throughout the hearing aid fitting process. You can find us at Rambla del Poblenou, 48, Barcelona, where Esther, our audiologist and hearing care professional, leads the service.",
+      de: "Bei looptica bieten wir persönliche Betreuung und individuelle Begleitung während der gesamten Hörgeräteanpassung. Sie finden uns in der Rambla del Poblenou 48 in Barcelona. Esther, unsere Audiologin und Hörgeräteakustikerin, leitet diesen Bereich.",
+      it: "Da looptica offriamo un'assistenza attenta e un accompagnamento personalizzato durante tutto il percorso di adattamento degli apparecchi acustici. Ci troviamo in Rambla del Poblenou 48, Barcellona, dove Esther, audiologa e audioprotesista, è la responsabile del servizio."
+    },
+    blockCta: {
+      ca: "Demana cita",
+      es: "Pide cita",
+      en: "Book an appointment",
+      de: "Termin vereinbaren",
+      it: "Prenota un appuntamento"
     }
 
   };
