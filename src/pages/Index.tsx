@@ -194,6 +194,7 @@ const Index = () => {
         <link rel="alternate" hrefLang="ca" href="https://looptica.com/ca/" />
         <link rel="alternate" hrefLang="en" href="https://looptica.com/en/" />
         <link rel="alternate" hrefLang="de" href="https://looptica.com/de/" />
+        <link rel="alternate" hrefLang="it" href="https://looptica.com/it/" />
         <link rel="alternate" hrefLang="x-default" href="https://looptica.com/ca/" />
         <meta property="og:title" content={content.meta[language as keyof typeof content.meta].title} />
         <meta property="og:description" content={content.meta[language as keyof typeof content.meta].description} />
