@@ -12,6 +12,7 @@ const pageTitle: { [key in Language]: string } = {
   es: "Catarata Congénita Barcelona Poblenou | Lentes Pediátricas para Bebés",
   en: "Congenital Cataract Barcelona Poblenou | Paediatric Contact Lenses for Babies",
   de: "Angeborener Katarakt Barcelona Poblenou | Pädiatrische Kontaktlinsen für Babys",
+  it: "Cataratta Congenita Barcelona Poblenou | Lenti Pediatriche",
 };
 
 const pageDescription: { [key in Language]: string } = {
@@ -19,6 +20,7 @@ const pageDescription: { [key in Language]: string } = {
   es: "Adaptación de lentes pediátricas para bebés con catarata congénita en Poblenou. Trabajamos bajo prescripción del oftalmólogo, con seguimiento estrecho desde los 0 años.",
   en: "Paediatric contact lens fitting for babies with congenital cataract in Poblenou. We work to the ophthalmologist's prescription with close follow-up from age 0.",
   de: "Pädiatrische Kontaktlinsenanpassung für Babys mit angeborenem Katarakt in Poblenou. Wir arbeiten nach augenärztlicher Verordnung mit enger Nachbetreuung ab 0 Jahren.",
+  it: "Applicazione di lenti pediatriche per neonati con cataratta congenita a Poblenou. Lavoriamo su prescrizione oculistica, con follow-up continuo da 0 anni.",
 };
 
 const hero = {
@@ -26,6 +28,7 @@ const hero = {
   es: { title: "Catarata congénita", subtitle: "Lentes pediátricas para bebés, adaptadas desde los 0 años bajo prescripción oftalmológica." },
   en: { title: "Congenital cataract", subtitle: "Paediatric contact lenses for babies, fitted from age 0 on the ophthalmologist's prescription." },
   de: { title: "Angeborener Katarakt", subtitle: "Pädiatrische Kontaktlinsen für Babys, ab 0 Jahren auf augenärztliche Verordnung." },
+  it: { title: "Cataratta congenita", subtitle: "Lenti a contatto pediatriche per neonati, applicate da 0 anni su prescrizione oculistica." },
 };
 
 const intro = {
@@ -49,6 +52,11 @@ const intro = {
     "Die Entscheidung, ob eine Operation nötig ist und wann sie erfolgt, liegt immer beim Augenarzt. Nach dem Eingriff braucht das Baby eine optische Korrektion, die die entfernte Linse ausgleicht und dem Sehsystem eine normale Entwicklung ermöglicht.",
     "Bei looptica übernehmen wir diese Korrektion mit pädiatrischen Kontaktlinsen, ab 0 Jahren angepasst, immer nach augenärztlicher Verordnung und Anweisung.",
   ],
+  it: [
+    "La cataratta congenita è l'opacità del cristallino di un neonato. Può essere presente già alla nascita o manifestarsi nei primi mesi di vita, compromettendo il normale sviluppo visivo.",
+    "La decisione se sia necessario l'intervento chirurgico e quando eseguirlo spetta sempre all'oculista. Una volta operato l'occhio, il neonato ha bisogno di una correzione ottica che compensi il cristallino asportato e consenta al sistema visivo di svilupparsi normalmente.",
+    "Da looptica realizziamo questa correzione con lenti a contatto pediatriche, applicate fin da 0 anni, sempre nel rispetto della prescrizione e delle indicazioni dell'oculista.",
+  ],
 };
 
 const whatWeDoTitle = {
@@ -56,6 +64,7 @@ const whatWeDoTitle = {
   es: "Qué hacemos en looptica",
   en: "What we do at looptica",
   de: "Was wir bei looptica tun",
+  it: "Cosa facciamo da looptica",
 };
 
 const whatWeDo = {
@@ -86,6 +95,13 @@ const whatWeDo = {
     "Anleitung der Eltern zum sicheren Einsetzen, Entfernen und Reinigen der Linsen.",
     "Kontinuierlicher Austausch mit dem Augenarzt, um die Korrektion an die Entwicklung anzupassen.",
   ],
+  it: [
+    "Applicazione di lenti a contatto pediatriche secondo la prescrizione dell'oculista.",
+    "Misurazione dei parametri corneali con strumenti adatti ai neonati.",
+    "Follow-up continuo: l'occhio del neonato cambia rapidamente e richiede controlli frequenti.",
+    "Formazione dei genitori sulla manipolazione, l'inserimento e l'igiene delle lenti.",
+    "Comunicazione costante con l'oculista per adeguare la correzione in base all'evoluzione.",
+  ],
 };
 
 const followUpTitle = {
@@ -93,6 +109,7 @@ const followUpTitle = {
   es: "Por qué el seguimiento es tan importante",
   en: "Why follow-up matters so much",
   de: "Warum die Nachbetreuung so wichtig ist",
+  it: "Perché il follow-up è così importante",
 };
 
 const followUp = {
@@ -116,6 +133,11 @@ const followUp = {
     "Deshalb arbeiten wir nach einem festen Kontrollplan in Abstimmung mit dem Augenarzt: Jede Untersuchung liefert Daten, anhand derer entschieden wird, ob die optische Korrektion angepasst werden muss oder ob die Entwicklung im richtigen Verlauf ist.",
     "Auch die Eltern spielen eine Schlüsselrolle: Die Einhaltung der Tragezeit und der tägliche Pflegeroutine beeinflussen die Sehentwicklung des Babys direkt.",
   ],
+  it: [
+    "Nei primi anni di vita l'occhio del bambino cresce rapidamente. Una lente a contatto che calzava bene tre mesi prima può richiedere modifiche di parametri, diametro o potere.",
+    "Per questo lavoriamo con visite di controllo programmate e in coordinamento con l'oculista: ogni visita fornisce dati utili per decidere se adeguare la correzione ottica o se l'evoluzione procede per il meglio.",
+    "Anche i genitori hanno un ruolo chiave: il rispetto delle ore di utilizzo della lente e la cura quotidiana influiscono direttamente sullo sviluppo visivo del bambino.",
+  ],
 };
 
 const relatedLinks = {
@@ -123,6 +145,7 @@ const relatedLinks = {
   es: <>Más información sobre <Link to="/es/visio-infantil/ulleres-nens" className="text-[#55afa9] underline font-medium">gafas y lentillas para niños</Link> y sobre <Link to="/es/services/lents-contacte" className="text-[#55afa9] underline font-medium">lentes de contacto</Link>.</>,
   en: <>More about <Link to="/en/visio-infantil/ulleres-nens" className="text-[#55afa9] underline font-medium">kids' glasses and contact lenses</Link> and <Link to="/en/services/lents-contacte" className="text-[#55afa9] underline font-medium">contact lenses</Link>.</>,
   de: <>Mehr zu <Link to="/de/visio-infantil/ulleres-nens" className="text-[#55afa9] underline font-medium">Kinderbrillen und Kontaktlinsen</Link> und zu <Link to="/de/services/lents-contacte" className="text-[#55afa9] underline font-medium">Kontaktlinsen</Link>.</>,
+  it: <>Maggiori informazioni su <Link to="/it/visio-infantil/ulleres-nens" className="text-[#55afa9] underline font-medium">occhiali e lenti a contatto per bambini</Link> e su <Link to="/it/services/lents-contacte" className="text-[#55afa9] underline font-medium">lenti a contatto</Link>.</>,
 };
 
 const faqTitle = {
@@ -130,6 +153,7 @@ const faqTitle = {
   es: "Preguntas frecuentes",
   en: "Frequently asked questions",
   de: "Häufige Fragen",
+  it: "Domande frequenti",
 };
 
 const faqs = {
@@ -161,6 +185,13 @@ const faqs = {
     { q: "Welche Nachbetreuung braucht ein Baby mit Linsen?", a: "Häufige Kontrollen, denn das Auge eines Babys wächst und die Werte ändern sich. Wir arbeiten mit dem Augenarzt zusammen, um die Linse zu überprüfen und anzupassen." },
     { q: "Können die Eltern lernen, die Linse einzusetzen?", a: "Ja. Wir nehmen uns Zeit, den Eltern das sichere Einsetzen, Entfernen und Reinigen der Linse beizubringen." },
   ],
+  it: [
+    { q: "Cos'è la cataratta congenita?", a: "È l'opacità del cristallino nell'occhio del neonato. Può essere presente alla nascita o svilupparsi nei primi mesi. La diagnosi e il trattamento medico o chirurgico sono gestiti dall'oculista." },
+    { q: "Chi decide se è necessario l'intervento chirurgico?", a: "L'intervento chirurgico è deciso ed eseguito dall'oculista. Da looptica interveniamo successivamente, quando occorre applicare la correzione ottica con lenti a contatto pediatriche." },
+    { q: "Da quale età potete applicare le lenti a contatto?", a: "Fin da 0 anni, sempre su prescrizione e indicazione dell'oculista." },
+    { q: "Di quale follow-up ha bisogno un neonato con lenti a contatto?", a: "Di controlli frequenti, poiché l'occhio del bambino cresce e i parametri cambiano. Lavoriamo in costante coordinamento con l'oculista per verificare e adeguare la lente." },
+    { q: "I genitori possono imparare ad applicare la lente?", a: "Sì. Dedichiamo tutto il tempo necessario a insegnare ai genitori la tecnica di inserimento, rimozione e pulizia con la massima sicurezza." },
+  ],
 };
 
 const parentCrumb = {
@@ -168,6 +199,7 @@ const parentCrumb = {
   es: "Visión infantil",
   en: "Children's vision",
   de: "Kindersehen",
+  it: "Visione infantile",
 };
 
 const CatarataCongenita = () => {

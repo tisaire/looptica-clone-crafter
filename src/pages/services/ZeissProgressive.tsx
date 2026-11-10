@@ -25,48 +25,56 @@ const c = {
     ca: 'Lents progressives ZEISS a Barcelona | looptica',
     en: 'ZEISS Progressive Lenses in Barcelona | looptica',
     de: 'ZEISS Gleitsichtgläser in Barcelona | looptica',
+    it: 'Lenti progressive ZEISS a Barcellona | looptica',
   } as L,
   metaDesc: {
     es: 'Descubre las lentes progresivas ZEISS en Barcelona. Tecnología óptica avanzada, personalización y asesoramiento profesional en looptica.',
     ca: 'Descobreix les lents progressives ZEISS a Barcelona. Tecnologia òptica avançada i assessorament personalitzat a looptica.',
     en: 'Discover premium ZEISS progressive lenses in Barcelona. Advanced optical technology and personalised expert advice at looptica.',
     de: 'Entdecken Sie ZEISS Premium-Gleitsichtgläser in Barcelona. Moderne Brillenglastechnologie und persönliche Beratung bei looptica.',
+    it: 'Scopri le lenti progressive ZEISS a Barcellona. Tecnologia ottica avanzata, personalizzazione e consulenza professionale da looptica.',
   } as L,
   eyebrow: {
     es: 'LENTES PROGRESIVAS ZEISS',
     ca: 'LENTS PROGRESSIVES ZEISS',
     en: 'ZEISS PREMIUM PROGRESSIVE LENSES',
     de: 'ZEISS PREMIUM-GLEITSICHTGLÄSER',
+    it: 'LENTI PROGRESSIVE ZEISS',
   } as L,
   h1: {
     es: 'La precisión se nota en cada mirada.',
     ca: 'La precisió es nota en cada mirada.',
     en: 'Precision in every glance.',
     de: 'Präzision in jedem Augenblick.',
+    it: 'La precisione si nota in ogni sguardo.',
   } as L,
   heroText: {
     es: 'Descubre una visión adaptada a ti con las lentes progresivas ZEISS y el asesoramiento personalizado de looptica.',
     ca: "Descobreix una visió adaptada a tu amb les lents progressives ZEISS i l'assessorament personalitzat de l'equip d'looptica.",
     en: 'Discover vision tailored to you with ZEISS progressive lenses and personalised optical care at looptica.',
     de: 'Entdecken Sie individuell abgestimmtes Sehen mit ZEISS Gleitsichtgläsern und persönlicher Beratung bei looptica.',
+    it: 'Scopri una visione su misura per te con le lenti progressive ZEISS e la consulenza personalizzata di looptica.',
   } as L,
   heroCta: {
     es: 'Reserva tu asesoramiento personalizado',
     ca: 'Reserva el teu assessorament personalitzat',
     en: 'Book your personalised consultation',
     de: 'Persönlichen Beratungstermin vereinbaren',
+    it: 'Prenota la tua consulenza personalizzata',
   } as L,
   heroTrust: {
     es: 'looptica · Poblenou, Barcelona',
     ca: 'looptica · Poblenou, Barcelona',
     en: 'looptica · Poblenou, Barcelona',
     de: 'looptica · Poblenou, Barcelona',
+    it: 'looptica · Poblenou, Barcellona',
   } as L,
   benefitsH2: {
     es: 'Tu forma de ver es única. Tus lentes también deberían serlo.',
     ca: 'La teva manera de veure-hi és única. Les teves lents també ho podrien ser.',
     en: 'Your vision is unique. Your lenses should be too.',
     de: 'Ihr Sehen ist einzigartig. Ihre Brillengläser sollten es auch sein.',
+    it: 'Il tuo modo di vedere è unico. Anche le tue lenti dovrebbero esserlo.',
   } as L,
   benefitsText: {
     es: [
@@ -84,6 +92,10 @@ const c = {
     de: [
       'Jeder Mensch nutzt seine Augen anders. Lesen, Arbeiten am Computer und der Blick in die Ferne stellen unterschiedliche Anforderungen an das Sehen.',
       'ZEISS Gleitsichtgläser verbinden moderne optische Technologie mit individuellen Anpassungsmöglichkeiten für Ihre täglichen Sehbedürfnisse.',
+    ],
+    it: [
+      'Ciascuno utilizza la propria vista in modo diverso. Leggere, lavorare al computer o guardare in lontananza richiede di mettere a fuoco a distanze differenti.',
+      'Le lenti progressive ZEISS combinano tecnologia ottica avanzata e opzioni di personalizzazione per adattarsi alle esigenze della tua vita quotidiana.',
     ],
   } as LL,
   benefits: {
@@ -107,12 +119,18 @@ const c = {
       ['Optische Präzision von ZEISS', 'Brillenglasdesigns zur Optimierung der Sehbereiche und für weiche Übergänge zwischen verschiedenen Entfernungen.'],
       ['Individuelle Anpassung', 'Brillengläser, die unter Berücksichtigung Ihrer Sehstärke, Sehgewohnheiten und Fassungseigenschaften ausgewählt werden.'],
     ],
+    it: [
+      ['Visione a diverse distanze', 'Una soluzione ottica per vedere da vicino, da lontano e a distanze intermedie senza dover cambiare continuamente occhiali.'],
+      ['Precisione ottica ZEISS', 'Geometrie sviluppate per ottimizzare le zone di visione e favorire transizioni fluide tra le distanze.'],
+      ['Personalizzazione', 'Lenti selezionate tenendo conto della tua gradazione, delle tue abitudini visive e delle caratteristiche della montatura.'],
+    ],
   } as Record<Language, string[][]>,
   techH2: {
     es: 'ZEISS Progressive ClearMind. Tecnología diseñada para tu visión.',
     ca: 'ZEISS Progressive ClearMind. Tecnologia dissenyada per a la teva visió.',
     en: 'ZEISS Progressive ClearMind. Technology designed around your vision.',
     de: 'ZEISS Progressive ClearMind. Technologie für Ihr individuelles Sehen.',
+    it: 'ZEISS Progressive ClearMind. Tecnologia pensata per la tua visione.',
   } as L,
   techText: {
     es: [
@@ -139,18 +157,26 @@ const c = {
       'Die Produktfamilie bietet unterschiedliche Individualisierungsstufen, darunter ZEISS ClearMind Individual 3.',
       'Bei looptica analysieren wir Ihre Sehbedürfnisse und empfehlen Ihnen die passende ZEISS Lösung.',
     ],
+    it: [
+      'Le lenti progressive ZEISS ClearMind integrano una tecnologia di progettazione ottica sviluppata studiando come utilizziamo gli occhi nelle situazioni quotidiane.',
+      'La loro geometria è studiata per offrire ampie zone di visione nitida e transizioni fluide tra vicino, intermedio e lontano.',
+      'La gamma include diversi livelli di personalizzazione, tra cui ZEISS ClearMind Individual 3.',
+      'Da looptica valutiamo le tue esigenze per consigliarti la soluzione ZEISS più indicata.',
+    ],
   } as LL,
   techCta: {
     es: 'Descubre tus progresivos ZEISS',
     ca: 'Descobreix les teves lents progressives ZEISS',
     en: 'Discover your ZEISS progressive lenses',
     de: 'ZEISS Gleitsichtgläser entdecken',
+    it: 'Scopri le lenti progressive ZEISS',
   } as L,
   adviceH2: {
     es: 'La tecnología importa. El asesoramiento también.',
     ca: 'La tecnologia importa. L’assessorament també.',
     en: 'Technology matters. So does expert advice.',
     de: 'Technologie ist wichtig. Persönliche Beratung ebenso.',
+    it: 'La tecnologia conta. La consulenza pure.',
   } as L,
   adviceText: {
     es: [
@@ -168,6 +194,10 @@ const c = {
     de: [
       'Die Auswahl von Gleitsichtgläsern erfordert mehr als nur die Kenntnis Ihrer Sehstärke.',
       'Bei looptica nehmen wir uns Zeit, Ihre Sehgewohnheiten kennenzulernen und herauszufinden, welche Anforderungen Sie an Ihre Brille stellen.',
+    ],
+    it: [
+      'Scegliere le lenti progressive va oltre la semplice prescrizione.',
+      'Da looptica dedichiamo tempo a comprendere come usi la vista e cosa cerchi dai tuoi occhiali.',
     ],
   } as LL,
   adviceSteps: {
@@ -191,24 +221,32 @@ const c = {
       ['2. Wir passen Ihre Brille individuell an', 'Wir beraten Sie bei der Auswahl geeigneter Gläser und Fassungen und führen die erforderlichen Messungen durch.'],
       ['3. Wir begleiten Ihre Eingewöhnung', 'Wir bieten Anpassungen und Nachbetreuung, damit Sie sich mit Ihrer neuen Brille wohlfühlen.'],
     ],
+    it: [
+      ['1. Comprendiamo la tua visione', 'Valutiamo la tua gradazione, le tue esigenze visive e le tue abitudini quotidiane.'],
+      ['2. Personalizziamo i tuoi occhiali', 'Ti aiutiamo a scegliere le lenti e la montatura adatte ed effettuiamo le misurazioni necessarie.'],
+      ['3. Ti accompagniamo nell’adattamento', 'Eseguiamo le regolazioni e il follow-up necessari per aiutarti a trovarti al meglio con i tuoi nuovi occhiali.'],
+    ],
   } as Record<Language, string[][]>,
   trustH2: {
     es: 'Óptica y audiología de proximidad en Poblenou.',
     ca: 'Òptica i audiologia de proximitat al Poblenou.',
     en: 'Your neighbourhood optician and audiology centre in Poblenou.',
     de: 'Ihr Optiker und Hörzentrum in Poblenou.',
+    it: 'Ottica e audiologia di quartiere a Poblenou.',
   } as L,
   trustText: {
     es: 'En looptica combinamos nuestra trayectoria como óptica independiente de Barcelona con las últimas tecnologías ópticas y una atención cercana y personalizada.',
     ca: 'A looptica combinem la nostra trajectòria com a òptica independent de Barcelona amb les últimes tecnologies òptiques i una atenció propera i personalitzada.',
     en: 'At looptica, we combine our heritage as an independent optician in Barcelona with advanced optical technology and friendly, personalised service.',
     de: 'Bei looptica verbinden wir unsere langjährige Erfahrung als unabhängiges Augenoptikfachgeschäft in Barcelona mit moderner optischer Technologie und persönlichem Service.',
+    it: 'Da looptica uniamo la nostra esperienza di ottica indipendente a Barcellona con le più recenti tecnologie ottiche e un’attenzione cordiale e personalizzata.',
   } as L,
   faqTitle: {
     es: 'Preguntas frecuentes',
     ca: 'Preguntes freqüents',
     en: 'Frequently asked questions',
     de: 'Häufig gestellte Fragen',
+    it: 'Domande frequenti',
   } as L,
   faq: {
     es: [
@@ -243,66 +281,84 @@ const c = {
       ['Kann ich meine bisherige Brillenfassung mit ZEISS Gleitsichtgläsern weiterverwenden?', 'In vielen Fällen ist das möglich, sofern sich Ihre Fassung in gutem Zustand befindet und die erforderlichen Maße und Eigenschaften für das gewählte Glasdesign aufweist. Die verfügbare Glashöhe, der Sitz der Fassung und ihre Position vor den Augen beeinflussen das Ergebnis. Wir prüfen Ihre Fassung und stellen fest, ob sie geeignet ist und die notwendigen Anpassungsmessungen ermöglicht.'],
       ['Was ist, wenn ich noch nie eine Gleitsichtbrille getragen habe?', 'Sie müssen bisher keine Gleitsichtbrille getragen haben. Wenn Ihnen das Scharfsehen in der Nähe zunehmend schwerfällt und Sie gleichzeitig in mittleren und größeren Entfernungen gut sehen möchten, können Gleitsichtgläser eine geeignete Lösung sein. Bei looptica prüfen wir Ihre Sehbedürfnisse, erklären Ihnen die verschiedenen Sehbereiche und begleiten Sie während der Eingewöhnung.'],
     ],
+    it: [
+      ['Che differenza c’è tra lenti progressive tradizionali e lenti ZEISS di alta gamma?', 'Le lenti progressive consentono di vedere a distanze diverse con un solo paio di occhiali. La differenza principale tra i vari modelli risiede nella distribuzione delle zone di visione e nella gestione delle sfocature laterali. Le lenti ZEISS premium possono integrare progetti ottici più avanzati e maggiori opzioni di personalizzazione, considerando fattori come gradazione, abitudini visive, montatura e parametri di centratura. I vantaggi dipendono dalle tue esigenze visive individuali e dal design scelto. Da looptica ti aiutiamo a scegliere l’opzione più adatta a te.'],
+      ['Quanto costano le lenti progressive ZEISS?', 'Il prezzo dipende dalla linea scelta, dal livello di personalizzazione, dal materiale della lente e dai trattamenti aggiuntivi. ZEISS offre diversi modelli di lenti progressive, quindi non esiste un prezzo unico. A titolo indicativo, i prezzi variano tra X € e Y €. Da looptica ti illustriamo le opzioni disponibili e prepariamo un preventivo personalizzato, senza impegno d’acquisto.'],
+      ['Quanto tempo ci vuole per abituarsi agli occhiali progressivi?', 'L’adattamento varia da persona a persona. Alcuni si abituano in poche ore o giorni, altri necessitano di più tempo. Nei primi giorni si possono avvertire differenze muovendo gli occhi o la testa, soprattutto nelle zone laterali delle lenti. Una gradazione corretta, misurazioni precise e una montatura ben regolata facilitano l’adattamento. Se il fastidio persiste, è opportuno far verificare gli occhiali dall’ottico optometrista. Inoltre, le nostre lenti progressive includono una garanzia di adattamento: se non ti adatti, ti rimborsiamo l’importo speso.'],
+      ['Le lenti progressive ZEISS sono adatte al lavoro al computer?', 'Sì. Le lenti progressive includono una zona intermedia che permette di mettere a fuoco monitor e altri oggetti a media distanza. Tuttavia, se trascorri molte ore al computer, lenti specifiche da ufficio possono risultare più comode per tali distanze e per la postura di lavoro. Da looptica analizziamo l’uso che fai degli schermi per consigliarti la soluzione più adatta.'],
+      ['Posso utilizzare la mia montatura attuale con le lenti progressive ZEISS?', 'In molti casi sì, purché la montatura sia in buone condizioni e abbia dimensioni e caratteristiche idonee al tipo di lente scelto. L’altezza utile, l’assetto della montatura e la sua posizione rispetto agli occhi incidono sul risultato. Verificheremo la montatura per confermare la compatibilità e la possibilità di effettuare le misurazioni necessarie.'],
+      ['Cosa succede se non ho mai portato occhiali progressivi?', 'Non è necessaria alcuna esperienza precedente con le lenti progressive. Se inizi ad avere difficoltà a mettere a fuoco da vicino, ma hai bisogno di vedere bene anche a distanze intermedie e da lontano, le lenti progressive sono una valida soluzione. Da looptica valutiamo le tue necessità, ti spieghiamo come sfruttare le diverse aree di visione e ti seguiamo per tutto l’adattamento.'],
+    ],
   } as Record<Language, string[][]>,
   finalH2: {
     es: 'Descubre una nueva forma de ver.',
     ca: 'Descobreix una nova manera de veure-hi.',
     en: 'Discover a new way of seeing.',
     de: 'Entdecken Sie eine neue Art des Sehens.',
+    it: 'Scopri un nuovo modo di vedere.',
   } as L,
   finalText: {
     es: 'Visítanos en looptica y descubre qué lentes progresivas ZEISS se adaptan mejor a ti.',
     ca: 'Visita’ns a looptica i descobreix quines lents progressives ZEISS s’adapten millor a tu.',
     en: 'Visit looptica and discover which ZEISS progressive lenses are best suited to your vision.',
     de: 'Besuchen Sie looptica und entdecken Sie, welche ZEISS Gleitsichtgläser am besten zu Ihren Sehbedürfnissen passen.',
+    it: 'Vieni a trovarci da looptica e scopri quali lenti progressive ZEISS si adattano meglio a te.',
   } as L,
   finalCta: {
     es: 'Reserva tu visita personalizada',
     ca: 'Reserva la teva visita personalitzada',
     en: 'Book your personalised appointment',
     de: 'Persönlichen Beratungstermin vereinbaren',
+    it: 'Prenota la tua visita personalizzata',
   } as L,
   waCta: {
     es: 'Consultar por WhatsApp',
     ca: 'Consulta’ns per WhatsApp',
     en: 'Ask us on WhatsApp',
     de: 'Fragen Sie uns per WhatsApp',
+    it: 'Scrivici su WhatsApp',
   } as L,
   waMsg: {
     es: 'Hola, me gustaría recibir asesoramiento sobre las lentes progresivas ZEISS.',
     ca: "Hola, m'agradaria rebre assessorament sobre les lents progressives ZEISS.",
     en: 'Hello, I would like some advice about ZEISS progressive lenses.',
     de: 'Guten Tag, ich möchte mich gerne zu ZEISS Gleitsichtgläsern beraten lassen.',
+    it: 'Buongiorno, vorrei informazioni e consulenza sulle lenti progressive ZEISS.',
   } as L,
   crumb: {
     es: 'Lentes progresivas ZEISS',
     ca: 'Lents progressives ZEISS',
     en: 'ZEISS progressive lenses',
     de: 'ZEISS Gleitsichtgläser',
+    it: 'Lenti progressive ZEISS',
   } as L,
   heroAlt: {
     es: 'Persona con gafas progresivas premium en una fotografía editorial de looptica',
     ca: 'Persona amb ulleres progressives premium en una fotografia editorial de looptica',
     en: 'Person wearing premium progressive glasses in an editorial photograph for looptica',
     de: 'Person mit hochwertiger Gleitsichtbrille in einem redaktionellen Foto für looptica',
+    it: 'Persona con occhiali progressivi premium in uno scatto editoriale per looptica',
   } as L,
   lensAlt: {
     es: 'Detalle de una lente progresiva premium con tratamiento antirreflejante',
     ca: 'Detall d’una lent progressiva premium amb tractament antireflectant',
     en: 'Close-up of a premium progressive lens with anti-reflective coating',
     de: 'Detailaufnahme eines Premium-Gleitsichtglases mit Antireflexbeschichtung',
+    it: 'Dettaglio di una lente progressiva premium con trattamento antiriflesso',
   } as L,
   storeAlt: {
     es: 'Interior de looptica en Poblenou, Barcelona',
     ca: 'Interior de looptica al Poblenou, Barcelona',
     en: 'Interior of looptica in Poblenou, Barcelona',
     de: 'Innenansicht von looptica in Poblenou, Barcelona',
+    it: 'Interno di looptica a Poblenou, Barcellona',
   } as L,
   bookSticky: {
     es: 'Reservar cita',
     ca: 'Reservar cita',
     en: 'Book appointment',
     de: 'Termin buchen',
+    it: 'Prenota un appuntamento',
   } as L,
 };
 
@@ -455,7 +511,7 @@ const ZeissProgressive: React.FC = () => {
               to={`/${lang}/services/computer-glasses`}
               className="inline-block text-[#0057b8] font-semibold underline underline-offset-4 hover:no-underline"
             >
-              {({ es: 'Descubre también las gafas para ordenador →', ca: 'Descobreix també les ulleres per a l’ordinador →', en: 'Also discover our computer glasses →', de: 'Entdecken Sie auch unsere Bildschirmbrillen →' } as L)[lang]}
+              {({ es: 'Descubre también las gafas para ordenador →', ca: 'Descobreix també les ulleres per a l’ordinador →', en: 'Also discover our computer glasses →', de: 'Entdecken Sie auch unsere Bildschirmbrillen →', it: 'Scopri anche gli occhiali per computer →' } as L)[lang]}
             </Link>
             <ol className="grid md:grid-cols-3 gap-10 mt-14">
               {c.adviceSteps[lang].map(([t, d]) => (

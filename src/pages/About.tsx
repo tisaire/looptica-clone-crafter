@@ -28,6 +28,10 @@ const About = () => {
       de: {
         title: "Über looptica | Optik und Audiologie in Poblenou, Barcelona",
         description: "Lernen Sie das looptica-Team in Poblenou, Barcelona kennen: Optometristen und Audiologen mit persönlicher Seh- und Hörberatung seit 2018."
+      },
+      it: {
+        title: "Su looptica | Ottica e audiologia a Poblenou, Barcellona",
+        description: "Incontra il team di looptica a Poblenou, Barcellona: ottici optometristi e audioprotesisti con attenzione personalizzata per vista e udito dal 2018."
       }
     },
     page: {
@@ -35,7 +39,8 @@ const About = () => {
         en: "About Us",
         es: "Quien somos",
         ca: "Qui som",
-        de: "Über Uns"
+        de: "Über Uns",
+        it: "Chi siamo"
       }
     },
     teamMembers: [
@@ -45,7 +50,8 @@ const About = () => {
           en: "Owner\n\nOptician Optometrist",
           es: "Propietaria\n\nÓptica Optometrista",
           ca: "Propietària\n\nÒptica Optometrista",
-          de: "Inhaberin\n\nOptikerin Optometristin"
+          de: "Inhaberin\n\nOptikerin Optometristin",
+          it: "Titolare\n\nOttica Optometrista"
         },
         image: "/images/_DSC4776.jpg",
         bio: {
@@ -68,6 +74,11 @@ const About = () => {
             "Als Inhaberin von looptica bringt Elena über 15 Jahre Erfahrung in der Optometrie mit. Mit ihrem umfassenden Wissen und ihrer Hingabe an die Kundenbetreuung hat sie looptica zu einem vertrauenswürdigen Namen für optische und audiologische Dienstleistungen in Barcelona gemacht.",
             "Elena ist spezialisiert auf die Bereitstellung personalisierter Augenpflegelösungen für jeden Kunden.",
             "Optikerin Optometristin, Mitglied der Berufskammer — Col. 18568."
+          ],
+          it: [
+            "Come titolare di looptica, Elena porta con sé oltre 15 anni di esperienza in optometria. Con la sua vasta conoscenza e dedizione, ha reso looptica un centro ottico e audiologico di riferimento nel quartiere del Poblenou a Barcellona.",
+            "È appassionata nell'offrire soluzioni personalizzate per la cura della vista di ogni cliente.",
+            "Ottica Optometrista Iscritta all'Albo — Col. 18568."
           ]
         }
       },
@@ -77,7 +88,8 @@ const About = () => {
           en: "Contactologist\n\nOptician Optometrist",
           es: "Contactóloga\n\nÓptica Optometrista",
           ca: "Contactòloga\n\nÒptica Optometrista",
-          de: "Kontaktologin\n\nOptikerin Optometristin"
+          de: "Kontaktologin\n\nOptikerin Optometristin",
+          it: "Contattologa\n\nOttica Optometrista"
         },
         image: "/images/irene.jpg",
         bio: {
@@ -96,6 +108,10 @@ const About = () => {
           de: [
             "Irene ist unsere Optikerin und Optometristin, spezialisiert auf fortgeschrittene Kontaktologie. Ihre umfangreiche Karriere konzentrierte sich auf pädiatrische Kontaktologie und spezielle Anpassungen wie Ortho-K, Keratokonus, Myopiekontrolle, sklerale Kontaktlinsen und andere individualisierte Lösungen. Mit großem Wissen über den aktuellen Markt bietet sie hervorragende Beratung entsprechend den visuellen Bedürfnissen des Patienten.",
             "Optikerin Optometristin, Mitglied der Berufskammer — Col. 17739."
+          ],
+          it: [
+            "Irene è la nostra ottica optometrista specializzata in contattologia avanzata. La sua vasta carriera si è concentrata sulla contattologia pediatrica e su adattamenti speciali come orto-k, cheratocono, controllo della miopia, lenti a contatto sclerali e altre soluzioni individualizzate. Con una profonda conoscenza del mercato attuale, offre un'eccellente consulenza in base alle esigenze visive del paziente.",
+            "Ottica Optometrista Iscritta all'Albo — Col. 17739."
           ]
         }
       },
@@ -105,7 +121,8 @@ const About = () => {
           en: "Audiologist\n\nHearing Aid Specialist",
           es: "Audióloga\n\nAudioprotesista",
           ca: "Audiòloga\n\nAudioprotesista",
-          de: "Audiologin\n\nHörgeräteakustikerin"
+          de: "Audiologin\n\nHörgeräteakustikerin",
+          it: "Audiologa\n\nAudioprotesista"
         },
         image: "/images/esther_resize.jpeg",
         bio: {
@@ -120,6 +137,9 @@ const About = () => {
           ],
           de: [
             "Esther ist unsere Hörgeräteakustikerin und Audiologin mit besonderem Interesse an Hörrehabilitation. Ihr freundlicher und geduldiger Ansatz hilft den Klienten, sich wohl zu fühlen, wenn sie ihre spezifischen Bedürfnisse ansprechen. Mit fortgeschrittener Ausbildung in den neuesten Technologien und ihrem Interesse an Trends kann sie einen umfassenden Ansatz für die Hörgesundheit ihrer Patienten bieten."
+          ],
+          it: [
+            "Esther è la nostra audioprotesista e audiologa con un interesse particolare per la riabilitazione uditiva. Il suo approccio gentile e paziente aiuta i clienti a sentirsi a proprio agio nell'affrontare le loro esigenze specifiche. La formazione avanzata nelle ultime tecnologie e l'attenzione alle tendenze le consentono di offrire un approccio completo alla salute dell'udito dei suoi pazienti."
           ]
         }
       },
@@ -131,7 +151,8 @@ const About = () => {
         en: "Our Philosophy",
         es: "Nuestra Filosofía",
         ca: "La Nostra Filosofia",
-        de: "Unsere Philosophie"
+        de: "Unsere Philosophie",
+        it: "La Nostra Filosofia"
       },
       content: {
         en: [
@@ -149,6 +170,10 @@ const About = () => {
         de: [
           "Bei looptica glauben wir, dass qualitativ hochwertige Augen- und Ohrenpflege zugänglich, personalisiert und mit höchstem Professionalitätsniveau geliefert werden sollte. Unser Team ist dem kontinuierlichen Lernen und der Aktualisierung mit den neuesten Fortschritten in der optischen und audiologischen Versorgung verpflichtet.",
           "Wir sind stolz auf unseren patientenzentrierten Ansatz und konzentrieren uns darauf, langfristige Beziehungen zu unseren Kunden aufzubauen, die auf Vertrauen, Fachwissen und außergewöhnlichem Service basieren."
+        ],
+        it: [
+          "In looptica crediamo che la cura della vista e dell'udito di qualità debba essere accessibile, personalizzata e offerta con il massimo livello di professionalità. Il nostro team è impegnato nell'apprendimento continuo e nell'aggiornamento costante con gli ultimi progressi nel campo ottico e audiologico.",
+          "Siamo orgogliosi del nostro approccio incentrato sul paziente, orientato a costruire relazioni a lungo termine con i nostri clienti basate su fiducia, competenza e un servizio eccezionale."
         ]
       }
     }

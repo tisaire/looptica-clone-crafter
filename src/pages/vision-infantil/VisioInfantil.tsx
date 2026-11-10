@@ -12,6 +12,7 @@ const pageTitle: { [key in Language]: string } = {
   es: "Óptica Infantil en Poblenou, Barcelona | Gafas y Lentillas de Niños",
   en: "Children's Optician Barcelona Poblenou | Kids' Glasses & Lenses",
   de: "Kinderoptik Barcelona Poblenou | Kinderbrillen und Kontaktlinsen",
+  it: "Ottica Bambini Barcelona Poblenou | Occhiali e Lenti a Contatto",
 };
 
 const pageDescription: { [key in Language]: string } = {
@@ -19,6 +20,7 @@ const pageDescription: { [key in Language]: string } = {
   es: "Óptica infantil en Poblenou: control de miopía, gafas para niños y lentillas adaptadas según la prescripción del oftalmólogo. Seguimiento coordinado.",
   en: "Children's optician in Poblenou, Barcelona: myopia control, kids' glasses and contact lenses fitted to the ophthalmologist's prescription.",
   de: "Kinderoptik in Poblenou, Barcelona: Myopiekontrolle, Kinderbrillen und Kontaktlinsen nach augenärztlicher Verordnung. Koordinierte Betreuung.",
+  it: "Ottica per bambini a Poblenou: controllo della miopia, occhiali e lenti a contatto su prescrizione oculistica. Monitoraggio coordinato.",
 };
 
 const hero = {
@@ -26,6 +28,7 @@ const hero = {
   es: { title: "Visión infantil", subtitle: "Control de la miopía, gafas y lentillas para niños, en Poblenou." },
   en: { title: "Children's vision", subtitle: "Myopia control, glasses and contact lenses for children, in Poblenou." },
   de: { title: "Kindersehen", subtitle: "Myopiekontrolle, Brillen und Kontaktlinsen für Kinder, in Poblenou." },
+  it: { title: "Visione infantile", subtitle: "Controllo della miopia, occhiali e lenti a contatto per bambini, a Poblenou." },
 };
 
 const intro = {
@@ -49,6 +52,11 @@ const intro = {
     "Bei looptica führen wir die erste Augenuntersuchung eines noch nie untersuchten kleinen Kindes nicht durch. In solchen Fällen empfehlen wir und überweisen zunächst an den Augenarzt, der mögliche Erkrankungen ausschließen und Diagnose sowie Behandlung festlegen muss.",
     "Danach kommen wir ins Spiel: Wir liefern die passende optische Lösung gemäß Verordnung — Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen — und begleiten den Verlauf in Abstimmung mit dem Augenarzt und nach seinen Vorgaben.",
   ],
+  it: [
+    "I bambini non dicono di vedere male: si abituano. Per questo molti problemi visivi dell'infanzia vengono rilevati a scuola, quando sono presenti già da tempo. Prestare attenzione ai segnali e intervenire tempestivamente è il modo più semplice per evitarlo.",
+    "Da looptica non effettuiamo la prima visita oculistica di un bambino piccolo che non è mai stato visitato. In questi casi raccomandiamo e inviamo prima all'oculista, che deve escludere possibili patologie e stabilire diagnosi e trattamento.",
+    "È a questo punto che interveniamo noi: forniamo la soluzione ottica adeguata in base alla prescrizione — occhiali e lenti per la correzione e il controllo della miopia, lenti a contatto e lenti notturne Orto-K — e seguiamo l'evoluzione in modo coordinato con l'oculista e secondo le sue indicazioni.",
+  ],
 };
 
 const signalsTitle = {
@@ -56,6 +64,7 @@ const signalsTitle = {
   es: "Señales de alerta según la edad",
   en: "Warning signs by age",
   de: "Warnzeichen nach Alter",
+  it: "Segnali d'allarme in base all'età",
 };
 
 const signalsNote = {
@@ -63,6 +72,7 @@ const signalsNote = {
   es: "Si detectas cualquiera de estas señales, el primer paso es una visita al oftalmólogo para descartar patologías. Con su diagnóstico en la mano, nosotros nos ocupamos de la solución óptica.",
   en: "If you notice any of these signs, the first step is a visit to the ophthalmologist to rule out pathology. With their diagnosis in hand, we take care of the optical solution.",
   de: "Bei einem dieser Anzeichen ist der erste Schritt ein Termin beim Augenarzt, um Erkrankungen auszuschließen. Mit seiner Diagnose übernehmen wir die optische Versorgung.",
+  it: "Se noti uno qualsiasi di questi segnali, il primo passo è una visita dall'oculista per escludere patologie. Con la sua diagnosi, noi ci occupiamo della soluzione ottica.",
 };
 
 const signals = {
@@ -90,6 +100,12 @@ const signals = {
     { age: "6-12 Jahre", items: "Schlechtere Schulleistung, überspringt Zeilen beim Lesen, reibt die Augen, meidet Nahlesen." },
     { age: "Jugend", items: "Schnell steigende Werte, unscharfes Fernsehen, Beschwerden bei Bildschirmarbeit." },
   ],
+  it: [
+    { age: "0-2 anni", items: "Non segue gli oggetti con lo sguardo, un occhio devia, lacrimazione costante, pupilla biancastra." },
+    { age: "3-5 anni", items: "Si avvicina molto agli oggetti, chiude o copre un occhio, inclina la testa, lamenta mal di testa." },
+    { age: "6-12 anni", items: "Calo del rendimento scolastico, salta le righe leggendo, si strofina gli occhi, evita di leggere da vicino." },
+    { age: "Adolescenza", items: "Aumento rapido della gradazione, visione sfocata da lontano, fastidio con gli schermi." },
+  ],
 };
 
 const topicsTitle = {
@@ -97,6 +113,7 @@ const topicsTitle = {
   es: "Nuestros servicios para niños",
   en: "Our services for children",
   de: "Unsere Leistungen für Kinder",
+  it: "I nostri servizi per bambini",
 };
 
 const topics = {
@@ -124,6 +141,12 @@ const topics = {
     { to: "/visio-infantil/ulleres-nens", title: "Kinderbrillen und Kontaktlinsen", text: "Fassungen von Nano, Polaroid und Centrostyle sowie Kontaktlinsenanpassung ab 0 Jahren auf Verordnung." },
     { to: "/visio-infantil/catarata-congenita-barcelona", title: "Angeborener Katarakt", text: "Pädiatrische Kontaktlinsen für Babys, ab 0 Jahren nach dem Eingriff angepasst." },
   ],
+  it: [
+    { to: "/visio-infantil/control-miopia", title: "Controllo della miopia", text: "Orto-K, lenti a defocus periferico e lenti a contatto di controllo per rallentare la progressione miopica." },
+    { to: "/visio-infantil/ull-gandul", title: "Occhio pigro (ambliopia)", text: "Cos'è, come rilevarlo a casa e quale correzione ottica forniamo una volta che l'oculista ha formulato la diagnosi." },
+    { to: "/visio-infantil/ulleres-nens", title: "Occhiali e lenti per bambini", text: "Montature Nano, Polaroid e Centrostyle, e applicazione di lenti a contatto da 0 anni su prescrizione medica." },
+    { to: "/visio-infantil/catarata-congenita-barcelona", title: "Cataratta congenita", text: "Lenti a contatto pediatriche per neonati, applicate da 0 anni dopo l'intervento chirurgico." },
+  ],
 };
 
 const examTitle = {
@@ -131,6 +154,7 @@ const examTitle = {
   es: "Cómo trabajamos con el oftalmólogo",
   en: "How we work with the ophthalmologist",
   de: "So arbeiten wir mit dem Augenarzt",
+  it: "Come lavoriamo con l'oculista",
 };
 
 const exam = {
@@ -166,6 +190,14 @@ const exam = {
     "Kontrolle der Werteentwicklung mit regelmäßigen Terminen.",
     "Bericht für die Eltern und Austausch mit dem Augenarzt, um seinen Vorgaben zu folgen.",
   ],
+  it: [
+    "Invio preventivo: se il bambino non è mai stato visitato, il primo passo è l'oculista, che esclude patologie e stabilisce la diagnosi.",
+    "Adattamento della correzione ottica secondo la prescrizione medica: occhiali, lenti per il controllo della miopia, lenti a contatto o Orto-K.",
+    "Misurazioni ottiche necessarie per l'applicazione: distanza interpupillare, centratura, altezza di montaggio e, per le lenti a contatto, parametri corneali.",
+    "Regolazione della montatura affinché resista alla vita quotidiana del bambino e le lenti restino sempre nella posizione corretta.",
+    "Monitoraggio dell'evoluzione della gradazione con controlli periodici.",
+    "Relazione per i genitori e comunicazione con l'oculista per seguire le sue indicazioni.",
+  ],
 };
 
 const faqTitle = {
@@ -173,6 +205,7 @@ const faqTitle = {
   es: "Preguntas frecuentes",
   en: "Frequently asked questions",
   de: "Häufige Fragen",
+  it: "Domande frequenti",
 };
 
 const faqs = {
@@ -199,6 +232,12 @@ const faqs = {
     { q: "Wie stimmen Sie sich mit dem Augenarzt ab?", a: "Wir arbeiten nach seinen Vorgaben: Wir passen die verordnete Korrektion an, kontrollieren die Werteentwicklung und übermitteln die Ergebnisse unserer Kontrollen, damit er den Fall mit aktuellen Daten beurteilen kann." },
     { q: "Bieten Sie Sehtherapie an?", a: "Bei looptica konzentrieren wir uns auf die optische Seite: Brillen und Gläser zur Korrektion und Myopiekontrolle, Kontaktlinsen und Ortho-K-Nachtlinsen, Anpassung und Nachsorge, immer nach augenärztlicher Verordnung." },
     { q: "In welchen Sprachen beraten Sie?", a: "Katalanisch, Spanisch, Englisch und Deutsch." },
+  ],
+  it: [
+    { q: "Effettuate la prima visita della vista ai bambini piccoli?", a: "No. Se il bambino non è mai stato esaminato, raccomandiamo e inviamo prima all'oculista per escludere possibili patologie. Una volta ottenuta la diagnosi e la prescrizione, ci occupiamo della soluzione ottica e del monitoraggio." },
+    { q: "Come vi coordinate con l'oculista?", a: "Lavoriamo seguendo le sue indicazioni: adattiamo la correzione prescritta, monitoriamo l'evoluzione della gradazione e gli trasmettiamo i dati dei controlli affinché possa valutare il caso con informazioni aggiornate." },
+    { q: "Effettuate terapia visiva?", a: "No. Da looptica non effettuiamo terapia visiva. Il nostro intervento si concentra sulla soluzione ottica: occhiali e lenti per la correzione e il controllo della miopia, lenti a contatto e lenti notturne Orto-K." },
+    { q: "In quali lingue offrite assistenza alla famiglia?", a: "Offriamo assistenza in catalano, spagnolo, inglese e tedesco." },
   ],
 };
 

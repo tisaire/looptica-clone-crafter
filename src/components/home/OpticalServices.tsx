@@ -36,24 +36,26 @@ const OpticalServices = () => {
     },
     {
       icon: <Monitor className="w-10 h-10 text-[#55afa9]" />,
-      title: ({ ca: "Ulleres per a l'ordinador", es: 'Gafas para ordenador', en: 'Computer glasses', de: 'Bildschirmbrillen' } as Record<string, string>)[language],
+      title: ({ ca: "Ulleres per a l'ordinador", es: 'Gafas para ordenador', en: 'Computer glasses', de: 'Bildschirmbrillen', it: 'Occhiali per computer' } as Record<string, string>)[language],
       description: ({
         ca: "Passes moltes hores davant d'una pantalla? Descobreix les nostres lents ocupacionals, dissenyades per oferir una visió còmoda quan treballes amb l'ordinador, llegeixes i enfoques a distàncies intermèdies.",
         es: '¿Pasas muchas horas frente a una pantalla? Descubre nuestras lentes ocupacionales, diseñadas para ofrecer una visión cómoda al trabajar con ordenador, leer y enfocar a distancias intermedias.',
         en: 'Spend long hours in front of a screen? Discover occupational lenses designed for comfortable computer work, reading and intermediate-distance vision.',
         de: 'Verbringen Sie viele Stunden vor dem Bildschirm? Entdecken Sie Arbeitsplatzgläser für komfortables Sehen am Computer, beim Lesen und im Zwischenbereich.',
+        it: 'Passi molte ore davanti a uno schermo? Scopri le nostre lenti occupazionali, progettate per offrire una visione confortevole al computer, nella lettura e alle distanze intermedie.',
       } as Record<string, string>)[language],
       image: manAtPcAsset.url,
       path: `/${language}/services/computer-glasses`
     },
     {
       icon: <Glasses className="w-10 h-10 text-[#55afa9]" />,
-      title: ({ ca: 'Lents progressives ZEISS', es: 'Lentes progresivas ZEISS', en: 'ZEISS progressive lenses', de: 'ZEISS Gleitsichtgläser' } as Record<string, string>)[language],
+      title: ({ ca: 'Lents progressives ZEISS', es: 'Lentes progresivas ZEISS', en: 'ZEISS progressive lenses', de: 'ZEISS Gleitsichtgläser', it: 'Lenti progressive ZEISS' } as Record<string, string>)[language],
       description: ({
         ca: 'Visió de prop, a mitja distància i de lluny, amb lents personalitzades ZEISS.',
         es: 'Visión de cerca, intermedia y de lejos, con lentes personalizadas ZEISS.',
         en: 'Near, intermediate and distance vision with personalised ZEISS lenses.',
         de: 'Nah-, Zwischen- und Fernsicht mit individuellen ZEISS-Gläsern.',
+        it: 'Visione da vicino, intermedia e da lontano, con lenti personalizzate ZEISS.',
       } as Record<string, string>)[language],
       image: zeissHeroAsset.url,
       path: zeissPath(language)

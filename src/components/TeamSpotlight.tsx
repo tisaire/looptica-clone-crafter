@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 
-type L = { en: string; es: string; ca: string; de: string };
+type L = { en: string; es: string; ca: string; de: string; it: string };
 interface Props { heading: L; name: string; image: string; role: L; bio: L; }
 
-const aboutLabel: L = { en: 'Meet the team →', es: 'Conoce al equipo →', ca: "Coneix l'equip →", de: 'Das Team kennenlernen →' };
+const aboutLabel: L = { en: 'Meet the team →', es: 'Conoce al equipo →', ca: "Coneix l'equip →", de: 'Das Team kennenlernen →', it: 'Scopri il team →' };
 
 const TeamSpotlight = ({ heading, name, image, role, bio }: Props) => {
   const { language } = useLanguage();

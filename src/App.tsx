@@ -169,6 +169,8 @@ function App() {
                 <Route path="revision-gratuita" element={<Navigate to="../revisio-gratuita" replace />} />
                 <Route path="free-eye-exam" element={<Navigate to="../revisio-gratuita" replace />} />
                 <Route path="kostenloser-sehtest" element={<Navigate to="../revisio-gratuita" replace />} />
+                <Route path="controllo-gratuito" element={<Navigate to="../revisio-gratuita" replace />} />
+                <Route path="visita-gratuita" element={<Navigate to="../revisio-gratuita" replace />} />
 
                 {/* Legal Pages */}
                 <Route path="legal/privacy-policy" element={<Suspense fallback={<PageLoader />}><PrivacyPolicy /></Suspense>} />

@@ -177,6 +177,42 @@ const copy: Record<Language, Copy> = {
     closingSignature: 'Irene & Elena',
     appointmentSubject: 'Kostenloser Sehtest bei looptica',
   },
+  it: {
+    metaTitle: 'Controllo della vista gratuito da looptica | Poblenou, Barcellona',
+    metaDescription:
+      "Sono passati più di 2 anni dall'ultimo controllo della vista? Da looptica Poblenou ti invitiamo a un controllo gratuito, senza impegno. Prenota il tuo appuntamento.",
+    eyebrow: 'Un invito per te',
+    h1: "Sono passati più di 2 anni dall'ultimo controllo della vista?",
+    intro:
+      'Da looptica vogliamo assicurarci che tu continui a vedere bene come meriti. Per questo desideriamo invitarti a un:',
+    highlight: 'Controllo visivo gratuito',
+    cta: 'Prenota il tuo appuntamento',
+    ctaNote: 'Gratuito e senza impegno.',
+    benefitsTitle: 'Il tuo controllo include',
+    benefits: [
+      {
+        title: 'Controllo completo della vista',
+        text: "Verificheremo come vedi attualmente e se ci sono stati cambiamenti dall'ultima visita.",
+      },
+      {
+        title: 'Completamente gratuito',
+        text: 'Questo controllo è un invito di looptica per tornare a prenderti cura della tua vista.',
+      },
+      {
+        title: 'Senza impegno',
+        text: 'Non comporta alcun acquisto né obbligo successivo.',
+      },
+    ],
+    explanation: [
+      'La vista può cambiare nel tempo, anche quando non noti alcun problema evidente.',
+      "Se è da un po' che non ci visiti, questa è una buona occasione per verificare che vada tutto bene.",
+    ],
+    finalTitle: 'Prenditi cura della tua vista.',
+    finalText: 'Prenota ora il tuo controllo visivo gratuito.',
+    closingText: 'Ti aspettiamo da looptica.',
+    closingSignature: 'Irene ed Elena',
+    appointmentSubject: 'Controllo visivo gratuito da looptica',
+  },
 };
 
 const benefitIcons = [Eye, Gift, HandHeart];

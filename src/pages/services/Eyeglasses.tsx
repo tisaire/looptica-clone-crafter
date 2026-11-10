@@ -432,6 +432,69 @@ const T: Record<Language, PageText> = {
     ],
     visitCta: 'Termin vereinbaren',
   },
+  it: {
+    title: 'Occhiali da vista e montature a Poblenou',
+    subtitle: 'Trova occhiali che ti piacciano, ti stiano bene e siano comodi ogni giorno.',
+    intro: [
+      'Da Looptica selezioniamo marchi di occhiali che uniscono design, qualità e comfort. Dalle montature originali e piene di colore ai modelli classici, leggeri o pensati appositamente per i più piccoli.',
+      'Vieni nella nostra ottica sulla Rambla del Poblenou e scopri le nostre collezioni.',
+    ],
+    heroCta: 'Vieni a provare i nostri occhiali',
+    brandsTitle: 'I nostri marchi di occhiali',
+    brandsIntro: 'Lavoriamo con marchi che offrono stili e caratteristiche differenti, affinché ognuno possa trovare un paio di occhiali che si adatti alla propria personalità e alle proprie esigenze.',
+    enlarge: 'Ingrandisci la foto',
+    galleryNote: 'Modelli di riferimento di ciascun marchio. Chiedici la disponibilità in negozio.',
+    brands: [
+      { brand: 'Kaleos', tagline: 'Design contemporaneo con personalità.', description: 'Montature che si distinguono per forme originali, combinazioni di materiali e un’estetica attuale. Una proposta per chi cerca occhiali di design che non passino inosservati.' },
+      { brand: 'Woodys', tagline: 'Colore, eleganza e dettagli che fanno la differenza.', description: 'Un marchio che unisce design contemporaneo, colori attentamente selezionati e forme sofisticate. Ideale per chi desidera occhiali con personalità senza rinunciare all’eleganza.' },
+      { brand: 'Etnia Barcelona', tagline: 'Creatività e colore con carattere barcellonese.', description: 'Ispirate all’arte e alla cultura, le montature di Etnia Barcelona si distinguono per l’uso del colore e le combinazioni originali. Dai modelli discreti alle proposte più audaci.' },
+      { brand: 'LOOK', tagline: 'Design italiano, leggerezza e funzionalità.', description: 'Montature che combinano materiali tecnici, comfort e un’estetica curata. Un’alternativa interessante per chi cerca occhiali leggeri e pratici per tutti i giorni.' },
+      { brand: 'Nano Vista', tagline: 'Occhiali per bambini pronti a seguire il loro ritmo.', description: 'Montature pensate appositamente per neonati, bambini e ragazzi. Flessibili, resistenti e con sistemi di aggancio adattati alle esigenze dei più piccoli.' },
+      { brand: 'Polaroid', tagline: 'Occhiali da sole polarizzati per vivere all’aperto.', description: 'Modelli pratici e attuali che uniscono stile e protezione solare. Le lenti polarizzate aiutano a ridurre i riflessi fastidiosi in situazioni quotidiane come guidare o passeggiare.' },
+      { brand: 'Ray-Ban', tagline: 'Classici da sole che non passano mai di moda.', description: 'Uno dei marchi più riconosciuti al mondo. Modelli iconici come Wayfarer, Aviator e Round Metal, disponibili anche con lenti da sole graduate.' },
+    ],
+    sportTitle: 'Occhiali sportivi: comfort e visione in movimento',
+    sportLead: 'I giusti occhiali sportivi devono adattarsi a te e all’attività che pratichi.',
+    sportText: [
+      'Quando corri, vai in bicicletta, fai trekking o pratichi attività all’aperto, le tue esigenze visive sono diverse da quelle della vita di tutti i giorni.',
+      'Gli occhiali sportivi possono offrire una tenuta migliore, un campo visivo ampio e protezione da sole, vento e altri fattori ambientali, a seconda del modello.',
+    ],
+    sportListIntro: 'Da Looptica ti consigliamo per trovare la soluzione più adeguata tenendo conto di:',
+    sportList: [
+      ['Tenuta e stabilità', 'montature che restano ben salde durante il movimento.'],
+      ['Leggerezza e comfort', 'materiali e forme adatti a un uso prolungato.'],
+      ['Protezione solare', 'lenti con protezione UV per attività all’aperto.'],
+      ['Lenti polarizzate', 'per ridurre i riflessi in determinate situazioni.'],
+      ['Graduazione personalizzata', 'possibilità di montare lenti graduate sui modelli compatibili.'],
+    ],
+    sportOutro: 'Ogni sport ha esigenze diverse. Ti aiutiamo a valutare le opzioni disponibili in base alla tua attività e alla tua gradazione.',
+    sportCta: 'Chiedici informazioni sugli occhiali sportivi',
+    stepsTitle: 'Non tutti gli occhiali donano allo stesso modo. Ti aiutiamo a trovare i tuoi.',
+    stepsIntro: 'Scegliere gli occhiali non è solo una questione di stile. La forma del viso, la gradazione, il peso della montatura e l’uso che ne farai influiscono sul comfort e sul risultato finale.',
+    stepsLead: 'Da Looptica ti accompagniamo in tre passaggi:',
+    steps: [
+      ['Ti ascoltiamo', 'Ci spieghi cosa cerchi, quale stile ti piace e in quali situazioni usi gli occhiali.'],
+      ['Ti aiutiamo a scegliere', 'Ti consigliamo montature che si adattano al tuo viso, alla tua gradazione e alle tue preferenze. Puoi provare diversi modelli e confrontarli con calma.'],
+      ['Li adattiamo a te', 'Prendiamo le misure necessarie per il montaggio delle lenti e regoliamo la montatura affinché risulti comoda e ben posizionata.'],
+    ],
+    lensTitle: 'La montatura è importante. Anche le lenti lo sono.',
+    lensLead: 'Un buon paio di occhiali combina una montatura adatta con lenti scelte con cura.',
+    lensListIntro: 'Ti consigliamo in base alla tua gradazione e alle attività che svolgi abitualmente:',
+    lensList: [
+      ['Lenti monofocali', 'per correggere la visione da lontano o da vicino.'],
+      ['Lenti progressive', 'per vedere a diverse distanze con un unico paio di occhiali.'],
+      ['Lenti da ufficio o computer', 'adattate alle tipiche distanze di lavoro.'],
+      ['Lenti per il controllo della miopia nei bambini', 'progettate per aiutare a rallentare la progressione della miopia nei più giovani.'],
+      ['Lenti da sole graduate', 'per goderti le attività all’aperto con la necessaria correzione visiva.'],
+    ],
+    lensCta: 'Scopri le nostre lenti e i servizi visivi',
+    visitTitle: 'Vieni a scoprire i nostri occhiali a Poblenou',
+    visitText: [
+      'Ci sono occhiali che vanno visti e provati per sapere se sono quelli giusti.',
+      'Ti aspettiamo da Looptica, sulla Rambla del Poblenou 48, per farti scoprire i nostri marchi, provare diverse montature e trovare quelle più adatte a te.',
+    ],
+    visitCta: 'Prenota un appuntamento',
+  },
 };
 
 // SEO title and description are unchanged from the previous version of this page.
@@ -440,6 +503,7 @@ const meta: Record<Language, { title: string; description: string }> = {
   es: { title: 'Gafas graduadas en Poblenou, Barcelona | looptica', description: 'Gafas graduadas en Poblenou, Barcelona: monturas de diseño, lentes progresivas y antifatiga. Examen visual incluido y asesoramiento experto en looptica.' },
   ca: { title: 'Ulleres graduades a Poblenou, Barcelona | looptica', description: 'Ulleres graduades a Poblenou, Barcelona: muntures de disseny, lents progressives i antifatiga. Examen visual inclòs i assessorament expert a looptica.' },
   de: { title: 'Brillen in Poblenou, Barcelona | looptica', description: 'Brillen mit Sehstärke in Poblenou, Barcelona: Designerfassungen, Gleitsicht- und Entspannungsgläser. Sehtest inklusive und Expertenberatung bei looptica.' },
+  it: { title: 'Occhiali da vista a Poblenou, Barcellona | looptica', description: 'Occhiali da vista a Poblenou, Barcellona: montature di design, lenti progressive e antifatica. Esame visivo incluso e consulenza esperta da looptica.' },
 };
 
 const appointmentSubject: Record<Language, string> = {
@@ -447,6 +511,7 @@ const appointmentSubject: Record<Language, string> = {
   es: 'Consulta de Gafas en looptica',
   ca: "Consulta d'Ulleres a looptica",
   de: 'Brillenberatung bei looptica',
+  it: 'Consulenza occhiali presso looptica',
 };
 
 const BoldList = ({ items }: { items: [string, string][] }) => (
@@ -478,8 +543,8 @@ const Eyeglasses = () => {
         image="/lovable-uploads/45087a9c-489a-4d48-82fb-d857e7bf306a.png"
         appointmentSubject={subject}
         hideCTA
-        pageTitle={{ ca: meta.ca.title, es: meta.es.title, en: meta.en.title, de: meta.de.title }}
-        pageDescription={{ ca: meta.ca.description, es: meta.es.description, en: meta.en.description, de: meta.de.description }}
+        pageTitle={{ ca: meta.ca.title, es: meta.es.title, en: meta.en.title, de: meta.de.title, it: meta.it.title }}
+        pageDescription={{ ca: meta.ca.description, es: meta.es.description, en: meta.en.description, de: meta.de.description, it: meta.it.description }}
       >
         <ScrollReveal>
           <div className="prose prose-lg max-w-none mb-8">

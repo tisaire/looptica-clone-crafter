@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -31,6 +30,9 @@ const Newsletter = () => {
       } else if (language === 'de') {
         successMessage = "Abonnement abgeschlossen!";
         descMessage = "Vielen Dank für Ihr Abonnement unseres Newsletters.";
+      } else if (language === 'it') {
+        successMessage = "Iscrizione completata!";
+        descMessage = "Grazie per esserti iscritto alla nostra newsletter.";
       }
       
       toast({

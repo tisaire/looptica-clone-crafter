@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import GoogleCalendarButton from '@/components/ui/GoogleCalendarButton';
@@ -11,6 +10,7 @@ const Hero = () => {
     es: 'Óptica y audiología en Poblenou, Barcelona',
     en: 'Optometry and audiology in Poblenou, Barcelona',
     de: 'Optik und Audiologie in Poblenou, Barcelona',
+    it: 'Ottica e audiologia a Poblenou, Barcelona',
   };
 
   return (

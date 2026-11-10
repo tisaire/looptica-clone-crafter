@@ -26,6 +26,7 @@ const closeLabels: Record<string, string> = {
   es: 'Cerrar el mensaje',
   en: 'Close message',
   de: 'Nachricht schließen',
+  it: 'Chiudi il messaggio',
 };
 
 const BUBBLE_DELAY_MS = 4000;

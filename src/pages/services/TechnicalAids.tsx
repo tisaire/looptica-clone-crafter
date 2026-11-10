@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Helmet } from 'react-helmet-async';
@@ -37,6 +36,10 @@ const TechnicalAids = () => {
       de: {
         title: "Technische Hilfsmittel für Hörverlust | looptica Barcelona",
         description: "Entdecken Sie unser Sortiment an spezialisierten technischen Hilfsmitteln für Hörverlust, einschließlich Oticon EduMic, ConnectClip, TV Adapter, Fernbedienung und mehr bei looptica Barcelona."
+      },
+      it: {
+        title: "Ausili Tecnici per Ipoacusia | looptica Barcelona",
+        description: "Scopri la nostra gamma di ausili tecnici specializzati per l'ipoacusia: Oticon EduMic, ConnectClip, TV Adapter, telecomando e altro da looptica a Barcellona."
       }
     },
     audiofonsDigitals: {
@@ -111,6 +114,24 @@ const TechnicalAids = () => {
           "Verbesserte allgemeine Lebensqualität"
         ],
         buttonText: "Digitale Hörgeräte erkunden"
+      },
+      it: {
+        title: "Apparecchi Acustici Digitali",
+        description: "Apparecchi acustici digitali all'avanguardia che offrono elaborazione avanzata del suono, funzioni di connettività ed esperienze di ascolto personalizzate per diverse esigenze di perdita uditiva.",
+        features: [
+          "Tecnologia avanzata di elaborazione digitale del suono",
+          "Connettività Bluetooth per un perfetto abbinamento con i dispositivi",
+          "Opzioni ricaricabili con lunga durata della batteria",
+          "Design discreti e confortevoli da indossare tutto il giorno"
+        ],
+        benefits: [
+          "Migliore comprensione del parlato anche in ambienti rumorosi",
+          "Profili sonori personalizzati su misura per le esigenze uditive individuali",
+          "Streaming diretto da smartphone e altri dispositivi digitali",
+          "Minore sforzo di ascolto e riduzione della fatica",
+          "Migliore qualità complessiva della vita"
+        ],
+        buttonText: "Scopri gli apparecchi acustici digitali"
       }
     },
     edumic: {
@@ -181,6 +202,23 @@ const TechnicalAids = () => {
           "Einfach zu bedienen mit intuitiver Benutzeroberfläche",
           "Robustes Design für den täglichen Einsatz im Klassenzimmer"
         ]
+      },
+      it: {
+        title: "Oticon EduMic",
+        description: "EduMic è un microfono wireless remoto progettato specificamente per ambienti educativi, che aiuta gli studenti con ipoacusia a rimanere connessi alla voce dell'insegnante in classe.",
+        features: [
+          "Tecnologia microfonica direzionale focalizzata sulla voce di chi parla",
+          "Trasmissione di suono di alta qualità direttamente agli apparecchi acustici Oticon",
+          "Si collega ai sistemi audio delle aule, computer e tablet",
+          "Batteria ricaricabile per un'intera giornata di lezione"
+        ],
+        benefits: [
+          "Migliora la comprensione del parlato nelle aule rumorose",
+          "Riduce lo sforzo di ascolto per gli studenti con ipoacusia",
+          "Favorisce migliori risultati di apprendimento grazie a una comunicazione chiara",
+          "Semplice da usare con un'interfaccia intuitiva",
+          "Design resistente per l'uso quotidiano in aula"
+        ]
       }
     },
     connectClip: {
@@ -246,6 +284,22 @@ const TechnicalAids = () => {
           "Erweitert die Hörreichweite um bis zu 20 Meter bei freier Sichtlinie",
           "Einfach zu bedienen mit einfachen Tastenbedienungen",
           "Lange Batterielaufzeit mit bis zu 8 Stunden Streaming-Zeit"
+        ]
+      },
+      it: {
+        title: "Oticon ConnectClip",
+        description: "ConnectClip è un accessorio versatile che trasforma gli apparecchi acustici Oticon in cuffie di alta qualità per chiamate in vivavoce e streaming audio.",
+        features: [
+          "Trasmette le telefonate direttamente a entrambi gli apparecchi acustici",
+          "Funge da microfono remoto per un migliore ascolto a distanza",
+          "Consente chiamate a mani libere da quasi qualsiasi smartphone",
+          "Trasmette musica, indicazioni GPS e altri contenuti audio"
+        ],
+        benefits: [
+          "Suono nitido per chiamate e conversazioni anche in ambienti rumorosi",
+          "Estende la portata di ascolto fino a 20 metri in linea d'aria",
+          "Facile da usare con semplici comandi a pulsante",
+          "Lunga durata della batteria con fino a 8 ore di streaming"
         ]
       }
     },
@@ -313,6 +367,22 @@ const TechnicalAids = () => {
           "Genießen Sie Gespräche während des Fernsehens, ohne die Hörgeräte zu entfernen",
           "Einfaches einmaliges Setup ohne tägliche Anpassungen erforderlich"
         ]
+      },
+      it: {
+        title: "Oticon TV Adapter",
+        description: "Il TV Adapter consente lo streaming wireless diretto dalla TV ai tuoi apparecchi acustici Oticon, offrendo un'esperienza sonora personalizzata senza modificare il volume della TV per gli altri.",
+        features: [
+          "Trasmette un suono stereo Dolby Digital di alta qualità",
+          "Si collega a praticamente qualsiasi dispositivo audio con uscita digitale o analogica",
+          "Permette la regolazione personale del volume indipendentemente dall'altoparlante della TV",
+          "Supporta più utenti con apparecchi acustici contemporaneamente"
+        ],
+        benefits: [
+          "Suono della TV cristallino trasmesso direttamente agli apparecchi acustici",
+          "Nessun bisogno di alzare il volume della TV a livelli sgradevoli per gli altri",
+          "Permette di conversare mentre si guarda la TV senza togliere gli apparecchi acustici",
+          "Configurazione semplice e unica, senza necessità di regolazioni quotidiane"
+        ]
       }
     },
     remoteControl: {
@@ -378,6 +448,22 @@ const TechnicalAids = () => {
           "Diskrete Anpassung ohne Aufmerksamkeit zu erregen",
           "Visuelle Bestätigung der Hörgeräteeinstellungen über LED-Anzeigen",
           "Lange Batterielaufzeit mit Standard-Knopfzellenbatterie"
+        ]
+      },
+      it: {
+        title: "Telecomando Oticon",
+        description: "Il telecomando offre un modo discreto per regolare gli apparecchi acustici Oticon senza toccarli, fornendo un facile accesso al controllo del volume e al cambio programma.",
+        features: [
+          "Interfaccia semplice e intuitiva con pulsanti grandi e tattili",
+          "Regolazione del volume, cambio programmi e disattivazione dell'audio",
+          "Design compatto e tascabile per un utilizzo discreto",
+          "Compatibile con tutti gli apparecchi acustici wireless Oticon"
+        ],
+        benefits: [
+          "Controllo facile per persone con ridotta destrezza manuale",
+          "Regolazione discreta senza attirare l'attenzione",
+          "Conferma visiva delle impostazioni degli apparecchi acustici tramite indicatori LED",
+          "Lunga durata della batteria con pila a bottone standard"
         ]
       }
     },
@@ -445,6 +531,22 @@ const TechnicalAids = () => {
           "Automatische Trocknung zur Verlängerung der Lebensdauer Ihrer Hörgeräte",
           "Kompaktes Design passt leicht in Tasche oder Handtasche"
         ]
+      },
+      it: {
+        title: "Oticon SmartCharger",
+        description: "SmartCharger è una power bank portatile e caricatore per apparecchi acustici ricaricabili Oticon, che offre fino a tre ricariche complete senza bisogno di una presa di corrente.",
+        features: [
+          "Custodia di ricarica portatile con power bank integrata",
+          "Ricarica rapida di 30 minuti per 6 ore di utilizzo",
+          "Ricarica completa in 3 ore per un'intera giornata di ascolto",
+          "Funzione di asciugatura per eliminare l'umidità dagli apparecchi acustici"
+        ],
+        benefits: [
+          "Libertà di viaggiare senza preoccuparsi delle prese elettriche",
+          "Tre ricariche complete per i tuoi apparecchi acustici quando sei in movimento",
+          "Asciugatura automatica per prolungare la durata degli apparecchi acustici",
+          "Design compatto, facile da riporre in tasca o in borsa"
+        ]
       }
     }
   };
@@ -483,7 +585,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Zap className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Key Features' : (language === 'es' ? 'Características Principales' : 'Característiques Principals')}
+                        {language === 'en' ? 'Key Features' : language === 'es' ? 'Características Principales' : language === 'de' ? 'Hauptmerkmale' : language === 'it' ? 'Caratteristiche principali' : 'Característiques Principals'}
                       </h3>
                       <ul className="space-y-2">
                         {content.audiofonsDigitals[language].features.map((feature, index) => (
@@ -498,7 +600,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Headphones className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Benefits' : (language === 'es' ? 'Beneficios' : 'Beneficis')}
+                        {language === 'en' ? 'Benefits' : language === 'es' ? 'Beneficios' : language === 'de' ? 'Vorteile' : language === 'it' ? 'Vantaggi' : 'Beneficis'}
                       </h3>
                       <ul className="space-y-2">
                         {content.audiofonsDigitals[language].benefits.map((benefit, index) => (
@@ -550,7 +652,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Zap className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Key Features' : (language === 'es' ? 'Características Principales' : 'Característiques Principals')}
+                        {language === 'en' ? 'Key Features' : language === 'es' ? 'Características Principales' : language === 'de' ? 'Hauptmerkmale' : language === 'it' ? 'Caratteristiche principali' : 'Característiques Principals'}
                       </h3>
                       <ul className="space-y-2">
                         {content.edumic[language].features.map((feature, index) => (
@@ -565,7 +667,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Headphones className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Benefits' : (language === 'es' ? 'Beneficios' : 'Beneficis')}
+                        {language === 'en' ? 'Benefits' : language === 'es' ? 'Beneficios' : language === 'de' ? 'Vorteile' : language === 'it' ? 'Vantaggi' : 'Beneficis'}
                       </h3>
                       <ul className="space-y-2">
                         {content.edumic[language].benefits.map((benefit, index) => (
@@ -609,7 +711,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Zap className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Key Features' : (language === 'es' ? 'Características Principales' : 'Característiques Principals')}
+                        {language === 'en' ? 'Key Features' : language === 'es' ? 'Características Principales' : language === 'de' ? 'Hauptmerkmale' : language === 'it' ? 'Caratteristiche principali' : 'Característiques Principals'}
                       </h3>
                       <ul className="space-y-2">
                         {content.connectClip[language].features.map((feature, index) => (
@@ -624,7 +726,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Headphones className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Benefits' : (language === 'es' ? 'Beneficios' : 'Beneficis')}
+                        {language === 'en' ? 'Benefits' : language === 'es' ? 'Beneficios' : language === 'de' ? 'Vorteile' : language === 'it' ? 'Vantaggi' : 'Beneficis'}
                       </h3>
                       <ul className="space-y-2">
                         {content.connectClip[language].benefits.map((benefit, index) => (
@@ -668,7 +770,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Zap className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Key Features' : (language === 'es' ? 'Características Principales' : 'Característiques Principals')}
+                        {language === 'en' ? 'Key Features' : language === 'es' ? 'Características Principales' : language === 'de' ? 'Hauptmerkmale' : language === 'it' ? 'Caratteristiche principali' : 'Característiques Principals'}
                       </h3>
                       <ul className="space-y-2">
                         {content.tvAdapter[language].features.map((feature, index) => (
@@ -683,7 +785,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Headphones className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Benefits' : (language === 'es' ? 'Beneficios' : 'Beneficis')}
+                        {language === 'en' ? 'Benefits' : language === 'es' ? 'Beneficios' : language === 'de' ? 'Vorteile' : language === 'it' ? 'Vantaggi' : 'Beneficis'}
                       </h3>
                       <ul className="space-y-2">
                         {content.tvAdapter[language].benefits.map((benefit, index) => (
@@ -727,7 +829,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Zap className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Key Features' : (language === 'es' ? 'Características Principales' : 'Característiques Principals')}
+                        {language === 'en' ? 'Key Features' : language === 'es' ? 'Características Principales' : language === 'de' ? 'Hauptmerkmale' : language === 'it' ? 'Caratteristiche principali' : 'Característiques Principals'}
                       </h3>
                       <ul className="space-y-2">
                         {content.remoteControl[language].features.map((feature, index) => (
@@ -742,7 +844,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Headphones className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Benefits' : (language === 'es' ? 'Beneficios' : 'Beneficis')}
+                        {language === 'en' ? 'Benefits' : language === 'es' ? 'Beneficios' : language === 'de' ? 'Vorteile' : language === 'it' ? 'Vantaggi' : 'Beneficis'}
                       </h3>
                       <ul className="space-y-2">
                         {content.remoteControl[language].benefits.map((benefit, index) => (
@@ -786,7 +888,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Zap className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Key Features' : (language === 'es' ? 'Características Principales' : 'Característiques Principals')}
+                        {language === 'en' ? 'Key Features' : language === 'es' ? 'Características Principales' : language === 'de' ? 'Hauptmerkmale' : language === 'it' ? 'Caratteristiche principali' : 'Característiques Principals'}
                       </h3>
                       <ul className="space-y-2">
                         {content.charger[language].features.map((feature, index) => (
@@ -801,7 +903,7 @@ const TechnicalAids = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-4 flex items-center">
                         <Headphones className="mr-2 h-5 w-5 text-[#55afa9]" /> 
-                        {language === 'en' ? 'Benefits' : (language === 'es' ? 'Beneficios' : 'Beneficis')}
+                        {language === 'en' ? 'Benefits' : language === 'es' ? 'Beneficios' : language === 'de' ? 'Vorteile' : language === 'it' ? 'Vantaggi' : 'Beneficis'}
                       </h3>
                       <ul className="space-y-2">
                         {content.charger[language].benefits.map((benefit, index) => (

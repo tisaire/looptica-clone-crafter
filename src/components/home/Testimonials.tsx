@@ -1,4 +1,3 @@
-
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Star } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';

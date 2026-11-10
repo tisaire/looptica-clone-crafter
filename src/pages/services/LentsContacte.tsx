@@ -15,199 +15,232 @@ const LentsContacte = () => {
       es: "Lentillas en Barcelona | Adaptación en Poblenou | looptica",
       ca: "Lents de contacte a Barcelona | Lentilles a Poblenou | looptica",
       de: "Kontaktlinsen in Barcelona | Anpassung in Poblenou | looptica",
+      it: "Lenti a contatto a Barcellona | Applicazione Poblenou | looptica"
     },
     seoDescription: {
       en: "Professional contact lens fitting in Barcelona Poblenou: daily, toric, multifocal and specialty lenses, with a full eye exam by registered optometrists. Book online.",
       es: "Adaptación profesional de lentillas en Barcelona Poblenou: diarias, tóricas, multifocales y especiales, con revisión visual completa por ópticas optometristas colegiadas.",
       ca: "Adaptació professional de lents de contacte a Barcelona Poblenou: diàries, tòriques, multifocals i especials, amb revisió visual completa per òptiques optometristes col·legiades.",
-      de: "Professionelle Kontaktlinsenanpassung in Barcelona Poblenou: Tages-, torische, multifokale und Speziallinsen mit kompletter Sehprüfung durch zugelassene Optometristinnen."
+      de: "Professionelle Kontaktlinsenanpassung in Barcelona Poblenou: Tages-, torische, multifokale und Speziallinsen mit kompletter Sehprüfung durch zugelassene Optometristinnen.",
+      it: "Applicazione professionale di lenti a contatto a Barcellona Poblenou: giornaliere, toriche, multifocali e speciali, con controllo optometrico completo."
     },
     title: {
       en: "Contact lenses in Barcelona",
       es: "Lentillas en Barcelona",
       ca: "Lents de contacte a Barcelona",
-      de: "Kontaktlinsen in Barcelona"
+      de: "Kontaktlinsen in Barcelona",
+      it: "Lenti a contatto a Barcellona"
     },
     subtitle: {
       en: "Personalized solutions for every lifestyle",
       es: "Soluciones personalizadas para cada estilo de vida",
       ca: "Solucions personalitzades per a cada estil de vida",
-      de: "Personalisierte Lösungen für jeden Lebensstil"
+      de: "Personalisierte Lösungen für jeden Lebensstil",
+      it: "Soluzioni personalizzate per ogni stile di vita"
     },
     appointmentSubject: {
       en: "Contact Lens Fitting at looptica",
       es: "Adaptación de Lentes de Contacto en looptica",
       ca: "Adaptació de Lents de Contacte a looptica",
-      de: "Kontaktlinsenanpassung bei looptica"
+      de: "Kontaktlinsenanpassung bei looptica",
+      it: "Applicazione di Lenti a Contatto da looptica"
     },
     solutionsTitle: {
       en: "Our contact lens solutions",
       es: "Nuestras soluciones en lentes de contacto",
       ca: "Les nostres solucions en lents de contacte",
-      de: "Unsere Kontaktlinsenlösungen"
+      de: "Unsere Kontaktlinsenlösungen",
+      it: "Le nostre soluzioni in lenti a contatto"
     },
     solutionsP1: {
       en: "At looptica, we specialize in personalized contact lens fitting to meet the unique needs of each patient. We know that contact lenses are not just an alternative to glasses; for many of our clients, they are an essential tool that improves their quality of life.",
       es: "En looptica, nos especializamos en la adaptación personalizada de lentes de contacto para satisfacer las necesidades únicas de cada paciente. Sabemos que las lentes de contacto no son solo una alternativa a las gafas; para muchos de nuestros clientes, son una herramienta esencial que mejora su calidad de vida.",
       ca: "A looptica, ens especialitzem en l'adaptació personalitzada de lents de contacte per satisfer les necessitats úniques de cada pacient. Sabem que les lents de contacte no són només una alternativa a les ulleres; per a molts dels nostres clients, són una eina essencial que millora la seva qualitat de vida.",
-      de: "Bei looptica spezialisieren wir uns auf die personalisierte Kontaktlinsenanpassung, um die einzigartigen Bedürfnisse jedes Patienten zu erfüllen. Wir wissen, dass Kontaktlinsen nicht nur eine Alternative zur Brille sind; für viele unserer Kunden sind sie ein wesentliches Werkzeug, das ihre Lebensqualität verbessert."
+      de: "Bei looptica spezialisieren wir uns auf die personalisierte Kontaktlinsenanpassung, um die einzigartigen Bedürfnisse jedes Patienten zu erfüllen. Wir wissen, dass Kontaktlinsen nicht nur eine Alternative zur Brille sind; für viele unserer Kunden sind sie ein wesentliches Werkzeug, das ihre Lebensqualität verbessert.",
+      it: "Da looptica siamo specializzati nell'applicazione personalizzata di lenti a contatto per soddisfare le esigenze uniche di ogni paziente. Sappiamo che le lenti a contatto non sono solo un'alternativa agli occhiali; per molti dei nostri clienti sono uno strumento essenziale che migliora la qualità della vita."
     },
     solutionsP2: {
       en: "Our team of highly qualified optometrists uses cutting-edge technology and their specialized knowledge to ensure that you receive the most suitable contact lenses for your lifestyle, personal preferences, and eye health.",
       es: "Nuestro equipo de optometristas altamente calificados utiliza tecnología de vanguardia y sus conocimientos especializados para asegurar que usted reciba las lentes de contacto más adecuadas para su estilo de vida, preferencias personales y salud ocular.",
       ca: "El nostre equip d'optometristes altament qualificats utilitza tecnologia d'avantguarda i els seus coneixements especialitzats per assegurar que vostè rebi les lents de contacte més adequades per al seu estil de vida, preferències personals i salut ocular.",
-      de: "Unser Team hochqualifizierter Optometristen verwendet modernste Technologie und ihr spezialisiertes Wissen, um sicherzustellen, dass Sie die am besten geeigneten Kontaktlinsen für Ihren Lebensstil, Ihre persönlichen Vorlieben und Ihre Augengesundheit erhalten."
+      de: "Unser Team hochqualifizierter Optometristen verwendet modernste Technologie und ihr spezialisiertes Wissen, um sicherzustellen, dass Sie die am besten geeigneten Kontaktlinsen für Ihren Lebensstil, Ihre persönlichen Vorlieben und Ihre Augengesundheit erhalten.",
+      it: "Il nostro team di optometriste altamente qualificate utilizza tecnologie all'avanguardia e competenze specialistiche per garantire le lenti a contatto più adatte al tuo stile di vita, alle tue preferenze personali e alla salute dei tuoi occhi."
     },
     typesTitle: {
       en: "Types of contact lenses we offer",
       es: "Tipos de lentes de contacto que ofrecemos",
       ca: "Tipus de lents de contacte que oferim",
-      de: "Arten von Kontaktlinsen, die wir anbieten"
+      de: "Arten von Kontaktlinsen, die wir anbieten",
+      it: "Tipi di lenti a contatto che offriamo"
     },
     softLenses: {
       en: "Soft contact lenses",
       es: "Lentes de contacto blandas",
       ca: "Lents de contacte toves",
-      de: "Weiche Kontaktlinsen"
+      de: "Weiche Kontaktlinsen",
+      it: "Lenti a contatto morbide"
     },
     softLensesDesc: {
       en: "The most popular for their immediate comfort. Available in daily, bi-weekly and monthly formats, they adapt to various lifestyles and needs.",
       es: "Las más populares por su confort inmediato. Disponibles en formatos diarios, quincenales y mensuales, se adaptan a diversos estilos de vida y necesidades.",
       ca: "Les més populars pel seu confort immediat. Disponibles en formats diaris, quinzenals i mensuals, s'adapten a diversos estils de vida i necessitats.",
-      de: "Die beliebtesten wegen ihres sofortigen Komforts. Erhältlich in Tages-, 14-Tages- und Monatsformaten, passen sie sich verschiedenen Lebensstilen und Bedürfnissen an."
+      de: "Die beliebtesten wegen ihres sofortigen Komforts. Erhältlich in Tages-, 14-Tages- und Monatsformaten, passen sie sich verschiedenen Lebensstilen und Bedürfnissen an.",
+      it: "Le più diffuse per il loro comfort immediato. Disponibili in formato giornaliero, quindicinale e mensile, si adattano a stili di vita ed esigenze diversi."
     },
     rgpLenses: {
       en: "Gas permeable contact lenses (RPG)",
       es: "Lentes de contacto permeables al gas (RPG)",
       ca: "Lents de contacte permeables al gas (RPG)",
-      de: "Gasdurchlässige Kontaktlinsen (RPG)"
+      de: "Gasdurchlässige Kontaktlinsen (RPG)",
+      it: "Lenti a contatto gas-permeabili (RGP)"
     },
     rgpLensesDesc: {
       en: "They offer sharper vision and superior durability. Ideal for irregular corneas and conditions such as keratoconus.",
       es: "Ofrecen una visión más nítida y durabilidad superior. Ideales para córneas irregulares y condiciones como el queratocono.",
       ca: "Ofereixen una visió més nítida i durabilitat superior. Ideals per a còrnies irregulars i condicions com el queratocon.",
-      de: "Sie bieten schärfere Sicht und überlegene Haltbarkeit. Ideal für unregelmäßige Hornhäute und Erkrankungen wie Keratokonus."
+      de: "Sie bieten schärfere Sicht und überlegene Haltbarkeit. Ideal für unregelmäßige Hornhäute und Erkrankungen wie Keratokonus.",
+      it: "Offrono una visione più nitida e una durata superiore. Ideali per cornee irregolari e condizioni come il cheratocono."
     },
     toricLenses: {
       en: "Toric contact lenses",
       es: "Lentes de contacto tóricas",
       ca: "Lents de contacte tòriques",
-      de: "Torische Kontaktlinsen"
+      de: "Torische Kontaktlinsen",
+      it: "Lenti a contatto toriche"
     },
     toricLensesDesc: {
       en: "Designed specifically to correct astigmatism, providing clear and stable vision all day.",
       es: "Diseñadas específicamente para corregir el astigmatismo, proporcionando una visión clara y estable todo el día.",
       ca: "Dissenyades específicament per corregir l'astigmatisme, proporcionant una visió clara i estable tot el dia.",
-      de: "Speziell zur Korrektur von Astigmatismus entwickelt, bieten sie den ganzen Tag über eine klare und stabile Sicht."
+      de: "Speziell zur Korrektur von Astigmatismus entwickelt, bieten sie den ganzen Tag über eine klare und stabile Sicht.",
+      it: "Progettate specificamente per correggere l'astigmatismo, offrono una visione chiara e stabile per tutto il giorno."
     },
     multifocalLenses: {
       en: "Multifocal contact lenses",
       es: "Lentes de contacto multifocales",
       ca: "Lents de contacte multifocals",
-      de: "Multifokale Kontaktlinsen"
+      de: "Multifokale Kontaktlinsen",
+      it: "Lenti a contatto multifocali"
     },
     multifocalLensesDesc: {
       en: "Perfect for people with presbyopia, they allow you to see clearly at multiple distances without the need for reading glasses.",
       es: "Perfectas para personas con presbicia, permiten ver claramente a múltiples distancias sin necesidad de gafas de lectura.",
       ca: "Perfectes per a persones amb presbícia, permiten veure clarament a múltiples distàncies sense necessitat d'ulleres de lectura.",
-      de: "Perfekt für Menschen mit Presbyopie, ermöglichen sie es Ihnen, in mehreren Entfernungen klar zu sehen, ohne dass eine Lesebrille erforderlich ist."
+      de: "Perfekt für Menschen mit Presbyopie, ermöglichen sie es Ihnen, in mehreren Entfernungen klar zu sehen, ohne dass eine Lesebrille erforderlich ist.",
+      it: "Perfette per chi ha la presbiopia, consentono di vedere nitidamente a diverse distanze senza bisogno di occhiali da lettura."
     },
     cosmeticLenses: {
       en: "Cosmetic contact lenses",
       es: "Lentes de contacto cosméticas",
       ca: "Lents de contacte cosmètiques",
-      de: "Kosmetische Kontaktlinsen"
+      de: "Kosmetische Kontaktlinsen",
+      it: "Lenti a contatto cosmetiche"
     },
     cosmeticLensesDesc: {
       en: "They change or enhance the color of the eyes while maintaining a natural look. We have a wide range of colors and designs.",
       es: "Cambian o mejoran el color de los ojos manteniendo un aspecto natural. Disponemos de una amplia gama de colores y diseños.",
       ca: "Canvien o milloren el color dels ulls mantenint un aspecte natural. Disposem d'una àmplia gamma de colors i dissenys.",
-      de: "Sie verändern oder verbessern die Farbe der Augen und erhalten gleichzeitig ein natürliches Aussehen. Wir haben eine große Auswahl an Farben und Designs."
+      de: "Sie verändern oder verbessern die Farbe der Augen und erhalten gleichzeitig ein natürliches Aussehen. Wir haben eine große Auswahl an Farben und Designs.",
+      it: "Cambiano o valorizzano il colore degli occhi mantenendo un aspetto naturale. Disponiamo di un'ampia gamma di tonalità e design."
     },
     orthoKLenses: {
       en: "Orthokeratology (Ortho-K)",
       es: "Ortoqueratología (Orto-K)",
       ca: "Ortoqueratologia (Orto-K)",
-      de: "Orthokeratologie (Ortho-K)"
+      de: "Orthokeratologie (Ortho-K)",
+      it: "Ortoceratologia (Orto-K)"
     },
     orthoKLensesDesc: {
       en: "Special lenses that are worn overnight to temporarily reshape the cornea, allowing clear vision during the day without lenses.",
       es: "Lentes especiales que se usan durante la noche para remodelar temporalmente la córnea, permitiendo una visión clara durante el día sin lentillas.",
       ca: "Lents especials que es porten durant la nit per remodelar temporalment la còrnia, permetent una visió clara durant el dia sense lents.",
-      de: "Spezielle Linsen, die über Nacht getragen werden, um die Hornhaut vorübergehend umzuformen und so tagsüber ein klares Sehen ohne Linsen zu ermöglichen."
+      de: "Spezielle Linsen, die über Nacht getragen werden, um die Hornhaut vorübergehend umzuformen und so tagsüber ein klares Sehen ohne Linsen zu ermöglichen.",
+      it: "Lenti speciali da indossare durante la notte per rimodellare temporaneamente la cornea, consentendo una visione nitida di giorno senza lenti."
     },
     fittingTitle: {
       en: "Our personalized fitting process",
       es: "Nuestro proceso de adaptación personalizado",
       ca: "El nostre procés d'adaptació personalitzat",
-      de: "Unser personalisierter Anpassungsprozess"
+      de: "Unser personalisierter Anpassungsprozess",
+      it: "Il nostro processo di applicazione personalizzato"
     },
     assessment: {
       en: "Comprehensive assessment",
       es: "Evaluación completa",
       ca: "Avaluació completa",
-      de: "Umfassende Beurteilung"
+      de: "Umfassende Beurteilung",
+      it: "Valutazione completa"
     },
     assessmentDesc: {
       en: "We conduct a complete eye exam to assess your visual health, determine your prescription, and measure the shape and moisture of your eyes.",
       es: "Realizamos un examen ocular completo para evaluar su salud visual, determinar su prescripción y medir la forma y humedad de sus ojos.",
       ca: "Realitzem un examen ocular complet per avaluar la seva salut visual, determinar la seva prescripció i mesurar la forma i humitat dels seus ulls.",
-      de: "Wir führen eine vollständige Augenuntersuchung durch, um Ihre Sehgesundheit zu beurteilen, Ihre Sehstärke zu bestimmen und die Form und Feuchtigkeit Ihrer Augen zu messen."
+      de: "Wir führen eine vollständige Augenuntersuchung durch, um Ihre Sehgesundheit zu beurteilen, Ihre Sehstärke zu bestimmen und die Form und Feuchtigkeit Ihrer Augen zu messen.",
+      it: "Eseguiamo un esame visivo completo per valutare la salute oculare, determinare la gradazione e misurare la conformazione e l'idratazione degli occhi."
     },
     selection: {
       en: "Personalized selection",
       es: "Selección personalizada",
       ca: "Selecció personalitzada",
-      de: "Personalisierte Auswahl"
+      de: "Personalisierte Auswahl",
+      it: "Selezione su misura"
     },
     selectionDesc: {
       en: "Based on the results of the assessment and your specific needs, we recommend the most suitable types of lenses for you.",
       es: "Basándonos en los resultados de la evaluación y sus necesidades específicas, recomendamos los tipos de lentes más adecuados para usted.",
       ca: "Basant-nos en els resultats de l'avaluació i les seves necessitats específiques, recomanem els tipus de lents més adequats per a vostè.",
-      de: "Basierend auf den Ergebnissen der Beurteilung und Ihren spezifischen Bedürfnissen empfehlen wir Ihnen die am besten geeigneten Linsenarten."
+      de: "Basierend auf den Ergebnissen der Beurteilung und Ihren spezifischen Bedürfnissen empfehlen wir Ihnen die am besten geeigneten Linsenarten.",
+      it: "In base ai risultati della valutazione e alle tue specifiche esigenze, raccomandiamo la tipologia di lenti più adatta a te."
     },
     adaptation: {
       en: "Adaptation and monitoring",
       es: "Adaptación y seguimiento",
       ca: "Adaptació i seguiment",
-      de: "Anpassung und Überwachung"
+      de: "Anpassung und Überwachung",
+      it: "Adattamento e monitoraggio"
     },
     adaptationDesc: {
       en: "We teach you how to handle and care for your lenses, and schedule follow-up visits to ensure the adaptation is optimal.",
       es: "Le enseñamos cómo manipular y cuidar sus lentes, y programamos visitas de seguimiento para asegurarnos de que la adaptación sea óptima.",
       ca: "Li ensenyem com manipular i cuidar les seves lents, i programem visites de seguiment per assegurar-nos que l'adaptació sigui òptima.",
-      de: "Wir zeigen Ihnen, wie Sie Ihre Linsen handhaben und pflegen, und vereinbaren Folgetermine, um sicherzustellen, dass die Anpassung optimal ist."
+      de: "Wir zeigen Ihnen, wie Sie Ihre Linsen handhaben und pflegen, und vereinbaren Folgetermine, um sicherzustellen, dass die Anpassung optimal ist.",
+      it: "Ti insegniamo come maneggiare e prenderti cura delle lenti, programmando visite di controllo per verificare che l'adattamento sia ottimale."
     },
     continuousCare: {
       en: "Continuous care",
       es: "Atención continua",
       ca: "Atenció contínua",
-      de: "Kontinuierliche Betreuung"
+      de: "Kontinuierliche Betreuung",
+      it: "Assistenza continua"
     },
     continuousCareDesc: {
       en: "We offer ongoing support to answer any questions and make adjustments as your needs change.",
       es: "Ofrecemos soporte continuo para responder a cualquier pregunta y realizar ajustes a medida que cambian sus necesidades.",
       ca: "Oferim suport continu per respondre a qualsevol pregunta i realitzar ajustos a mesura que canvien les seves necessitats.",
-      de: "Wir bieten fortlaufende Unterstützung, um alle Fragen zu beantworten und Anpassungen vorzunehmen, wenn sich Ihre Bedürfnisse ändern."
+      de: "Wir bieten fortlaufende Unterstützung, um alle Fragen zu beantworten und Anpassungen vorzunehmen, wenn sich Ihre Bedürfnisse ändern.",
+      it: "Offriamo supporto costante per rispondere a qualsiasi dubbio ed effettuare regolazioni all'evolversi delle tue esigenze."
     },
     lensCareTtl: {
       en: "Contact lens care",
       es: "Cuidado de las lentes de contacto",
       ca: "Cura de les lents de contacte",
-      de: "Kontaktlinsenpflege"
+      de: "Kontaktlinsenpflege",
+      it: "Cura delle lenti a contatto"
     },
     lensCareP1: {
       en: "Proper care of contact lenses is essential to maintain eye health and prevent infections. At looptica, we provide detailed instructions on how to handle, clean, and store your contact lenses. In addition, we offer all the cleaning and maintenance products you will need.",
       es: "El cuidado adecuado de las lentes de contacto es esencial para mantener la salud ocular y prevenir infecciones. En looptica, proporcionamos instrucciones detalladas sobre cómo manipular, limpiar y almacenar sus lentes de contacto. Además, ofrecemos todos los productos de limpieza y mantenimiento que necesitará.",
       ca: "La cura adequada de les lents de contacte és essencial per mantenir la salut ocular i prevenir infeccions. A looptica, proporcionem instruccions detallades sobre com manipular, netejar i emmagatzemar les seves lents de contacte. A més, oferim tots els productes de neteja i manteniment que necessitarà.",
-      de: "Die richtige Pflege von Kontaktlinsen ist unerlässlich, um die Augengesundheit zu erhalten und Infektionen vorzubeugen. Bei looptica geben wir Ihnen detaillierte Anweisungen zur Handhabung, Reinigung und Aufbewahrung Ihrer Kontaktlinsen. Darüber hinaus bieten wir alle Reinigungs- und Pflegeprodukte an, die Sie benötigen."
+      de: "Die richtige Pflege von Kontaktlinsen ist unerlässlich, um die Augengesundheit zu erhalten und Infektionen vorzubeugen. Bei looptica geben wir Ihnen detaillierte Anweisungen zur Handhabung, Reinigung und Aufbewahrung Ihrer Kontaktlinsen. Darüber hinaus bieten wir alle Reinigungs- und Pflegeprodukte an, die Sie benötigen.",
+      it: "Una corretta cura delle lenti a contatto è fondamentale per preservare la salute degli occhi e prevenire infezioni. Da looptica forniamo istruzioni dettagliate su manipolazione, pulizia e conservazione delle lenti, oltre a tutti i prodotti di manutenzione necessari."
     },
     congenitalCataract: {
       title: {
         en: "Congenital Cataracts and Contact Lenses",
         es: "Cataratas Congénitas y Lentes de Contacto",
         ca: "Cataractes Congènites i Lents de Contacte",
-        de: "Angeborene Katarakte und Kontaktlinsen"
+        de: "Angeborene Katarakte und Kontaktlinsen",
+        it: "Cataratta congenita e lenti a contatto"
       },
       content: {
         en: [
@@ -229,6 +262,11 @@ const LentsContacte = () => {
           "Angeborene Katarakte sind Trübungen der Linse, die bei der Geburt vorhanden sind oder sich in den ersten Lebensmonaten entwickeln. Eine frühzeitige Erkennung und Behandlung sind unerlässlich, um dauerhafte Sehbehinderungen zu vermeiden.",
           "Nach der chirurgischen Entfernung des Katarakts ist die visuelle Rehabilitation von entscheidender Bedeutung. Kontaktlinsen sind oft die bevorzugte Option für die optische Korrektur bei Kindern mit Aphakie (Fehlen der natürlichen Linse) nach einer Kataraktoperation.",
           "Die visuelle Stimulation dieser Kinder ist essentiell und muss korrekt durchgeführt werden. Der Augenarzt wird bestimmen, wann mit der visuellen Rehabilitation begonnen werden soll, die so bald wie möglich nach der Operation beginnen sollte."
+        ],
+        it: [
+          "La cataratta congenita consiste nell'opacizzazione del cristallino presente alla nascita o sviluppata nei primi mesi di vita. La diagnosi e il trattamento tempestivi sono essenziali per prevenire un danno visivo permanente.",
+          "Dopo l'intervento chirurgico di rimozione della cataratta, la riabilitazione visiva è fondamentale. Le lenti a contatto sono spesso l'opzione preferita per la correzione ottica nei bambini con afachia (assenza del cristallino naturale) a seguito dell'operazione.",
+          "La stimolazione visiva in questi bambini è cruciale e deve essere condotta in modo appropriato. L'oculista stabilirà quando iniziare la riabilitazione visiva, che dovrebbe iniziare il prima possibile dopo l'intervento."
         ]
       },
       benefits: {
@@ -259,6 +297,13 @@ const LentsContacte = () => {
           "Keine Vergrößerung von Objekten, die desorientierend sein können",
           "Überlegene Unterstützung der visuellen Entwicklung",
           "Natürlicheres Aussehen für das Kind"
+        ],
+        it: [
+          "Migliore qualità visiva rispetto agli occhiali nei casi di afachia",
+          "Migliore visione periferica",
+          "Nessun ingrandimento disorientante degli oggetti",
+          "Supporto superiore allo sviluppo visivo",
+          "Aspetto più naturale per il bambino"
         ]
       }
     }
@@ -286,15 +331,16 @@ const LentsContacte = () => {
       </ScrollReveal>
 
       <TeamSpotlight
-        heading={{ en: 'Who will fit your lenses', es: 'Quién adaptará tus lentillas', ca: 'Qui adaptarà les teves lents', de: 'Wer Ihre Linsen anpasst' }}
+        heading={{ en: 'Who will fit your lenses', es: 'Quién adaptará tus lentillas', ca: 'Qui adaptarà les teves lents', de: 'Wer Ihre Linsen anpasst', it: 'Chi applicherà le tue lenti' }}
         name="Irene"
         image="/images/irene.jpg"
-        role={{ en: 'Registered Optometrist — Col. 17739', es: 'Óptica Optometrista Colegiada — Col. 17739', ca: 'Òptica Optometrista Col·legiada — Col. 17739', de: 'Zugelassene Optometristin — Col. 17739' }}
+        role={{ en: 'Registered Optometrist — Col. 17739', es: 'Óptica Optometrista Colegiada — Col. 17739', ca: 'Òptica Optometrista Col·legiada — Col. 17739', de: 'Zugelassene Optometristin — Col. 17739', it: 'Ottica Optometrista Abilitata — Col. 17739' }}
         bio={{
           en: 'Irene carries out every contact lens fitting at looptica Poblenou: eye exam, choice of lens, trial period and follow-up visits until you see and feel comfortable.',
           es: 'Irene realiza cada adaptación de lentillas en looptica Poblenou: revisión visual, elección de la lente, periodo de prueba y revisiones de seguimiento hasta que veas bien y estés cómodo.',
           ca: "La Irene fa cada adaptació de lents de contacte a looptica Poblenou: revisió visual, elecció de la lent, període de prova i revisions de seguiment fins que hi vegis bé i estiguis còmode.",
-          de: 'Irene übernimmt jede Kontaktlinsenanpassung bei looptica Poblenou: Sehprüfung, Linsenwahl, Probephase und Nachkontrollen, bis Sie gut und bequem sehen.'
+          de: 'Irene übernimmt jede Kontaktlinsenanpassung bei looptica Poblenou: Sehprüfung, Linsenwahl, Probephase und Nachkontrollen, bis Sie gut und bequem sehen.',
+          it: 'Irene esegue ogni applicazione di lenti a contatto da looptica Poblenou: controllo visivo, scelta della lente, periodo di prova e visite di controllo fino a garantire una visione nitida e confortevole.'
         }}
       />
 
@@ -331,6 +377,7 @@ const LentsContacte = () => {
                   {language === 'es' && 'Descubre las lentillas multifocales →'}
                   {language === 'ca' && 'Descobreix les lents multifocals →'}
                   {language === 'de' && 'Multifokale Kontaktlinsen entdecken →'}
+                  {language === 'it' && 'Scopri le lenti a contatto multifocali →'}
                 </Link>
               </p>
             </div>
@@ -353,6 +400,7 @@ const LentsContacte = () => {
                   {language === 'es' && 'Más información sobre Orto-K →'}
                   {language === 'ca' && 'Més informació sobre Orto-K →'}
                   {language === 'de' && 'Mehr über Ortho-K →'}
+                  {language === 'it' && 'Maggiori informazioni su Orto-K →'}
                 </Link>
               </p>
             </div>
@@ -419,6 +467,7 @@ const LentsContacte = () => {
             {language === 'es' && <>¿Buscas una alternativa a las lentillas diurnas? Descubre nuestras <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lentillas Orto-K nocturnas</Link> — remodelan la córnea mientras duermes para que veas con nitidez todo el día sin gafas.</>}
             {language === 'ca' && <>Busques una alternativa a les lentilles diürnes? Descobreix les nostres <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lents Orto-K nocturnes</Link> — remodelen la còrnia mentre dorms perquè hi vegis amb nitidesa tot el dia sense ulleres.</>}
             {language === 'de' && <>Auf der Suche nach einer Alternative zu Tageslinsen? Entdecken Sie unsere <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">Ortho-K Nachtkontaktlinsen</Link> — sie formen Ihre Hornhaut im Schlaf und sorgen für klares Sehen den ganzen Tag ohne Brille.</>}
+            {language === 'it' && <>Cerchi un'alternativa alle lenti diurne? Scopri le nostre <Link to={`/${language}/services/orto-k`} className="text-[#55afa9] underline font-medium">lenti a contatto notturne Orto-K</Link> — rimodellano la cornea mentre dormi per farti vedere nitidamente tutto il giorno senza occhiali.</>}
           </p>
         </div>
       </ScrollReveal>
@@ -436,6 +485,7 @@ const LentsContacte = () => {
             {language === 'en' ? 'Benefits of contact lenses for congenital cataracts:' : 
              language === 'es' ? 'Beneficios de las lentes de contacto para cataratas congénitas:' : 
              language === 'ca' ? 'Beneficis de les lents de contacte per a cataractes congènites:' :
+             language === 'it' ? 'Benefici delle lenti a contatto per cataratta congenita:' :
              'Vorteile von Kontaktlinsen bei angeborenen Katarakten:'}
           </h3>
           
@@ -449,6 +499,7 @@ const LentsContacte = () => {
             {language === 'en' ? 'At looptica, our team of specialists has experience in the adaptation of contact lenses for children with congenital cataracts. We work closely with ophthalmologists to provide the best optical solution for each case.' : 
              language === 'es' ? 'En looptica, nuestro equipo de especialistas tiene experiencia en la adaptación de lentes de contacto para niños con cataratas congénitas. Trabajamos estrechamente con oftalmólogos para proporcionar la mejor solución óptica para cada caso.' : 
              language === 'ca' ? 'A looptica, el nostre equip d\'especialistes té experiència en l\'adaptació de lents de contacte per a nens amb cataractes congènites. Treballem estretament amb oftalmòlegs per proporcionar la millor solució òptica per a cada cas.' :
+             language === 'it' ? 'Da looptica, il nostro team di specialisti ha esperienza nell\'applicazione di lenti a contatto per bambini con cataratta congenita. Lavoriamo a stretto contatto con gli oculisti per fornire la migliore soluzione ottica per ogni caso.' :
              'Bei looptica verfügt unser Spezialistenteam über Erfahrung in der Anpassung von Kontaktlinsen für Kinder mit angeborenen Katarakten. Wir arbeiten eng mit Augenärzten zusammen, um für jeden Fall die beste optische Lösung zu bieten.'}
           </p>
           <p className="mt-4">
@@ -457,6 +508,7 @@ const LentsContacte = () => {
               {language === 'es' && 'Lentillas pediátricas tras catarata congénita →'}
               {language === 'ca' && 'Lents de contacte pediàtriques després de cataracta congènita →'}
               {language === 'de' && 'Kinderkontaktlinsen nach angeborenem Katarakt →'}
+              {language === 'it' && 'Lenti a contatto pediatriche dopo cataratta congenita →'}
             </Link>
           </p>
         </div>

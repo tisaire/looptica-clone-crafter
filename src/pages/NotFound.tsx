@@ -1,4 +1,3 @@
-
 import { useLocation, Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -22,25 +21,29 @@ const NotFound = () => {
       en: "Page Not Found",
       es: "Página No Encontrada",
       ca: "Pàgina No Trobada",
-      de: "Seite Nicht Gefunden"
+      de: "Seite Nicht Gefunden",
+      it: "Pagina Non Trovata"
     },
     message: {
       en: "We're sorry, the page you were looking for doesn't exist or has been moved.",
       es: "Lo sentimos, la página que buscabas no existe o ha sido movida.",
       ca: "Ho sentim, la pàgina que cercaves no existeix o ha estat moguda.",
-      de: "Es tut uns leid, die gesuchte Seite existiert nicht oder wurde verschoben."
+      de: "Es tut uns leid, die gesuchte Seite existiert nicht oder wurde verschoben.",
+      it: "Ci dispiace, la pagina che cercavi non esiste o è stata spostata."
     },
     button: {
       en: "Return to Home",
       es: "Volver al Inicio",
       ca: "Tornar a l'Inici",
-      de: "Zurück zur Startseite"
+      de: "Zurück zur Startseite",
+      it: "Torna alla Home"
     },
     debug: {
       en: "Technical details: Looking for path",
       es: "Detalles técnicos: Buscando ruta",
       ca: "Detalls tècnics: Cercant ruta",
-      de: "Technische Details: Suche nach Pfad"
+      de: "Technische Details: Suche nach Pfad",
+      it: "Dettagli tecnici: Ricerca del percorso"
     }
   };
 
