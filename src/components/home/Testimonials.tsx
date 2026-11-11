@@ -31,10 +31,10 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      name: "Mariana A. V.",
+      name: "Kike V. G.",
       rating: 5,
-      comment: "Lorena ha sido un amor! Me ha atendido increíble y me ha ayudado mucho para saber el porqué de algunos síntomas que tenía. Me han hecho los lentes en tiempo récord! Muy recomendado.",
-      date: "2026-04-05"
+      comment: "Me ajustaron las gafas al momento y con una sonrisa enorme. Así da gusto!!! He vuelto para hacerme unas gafas y de nuevo un trato espectacular. Muchas gracias por todo.",
+      date: "2026-11-09"
     },
     {
       id: 4,
