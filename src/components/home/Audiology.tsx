@@ -11,31 +11,36 @@ const Audiology = () => {
   const centre = {
     ca: {
       title: "Centre d’Audiologia a Poblenou",
-      role: 'Esther · Audiòloga i Audioprotesista',
+      role: 'Esther · Audioprotesista',
+      credential: "Membre de l'Associació Nacional d'Audioprotesistes Nº 2458",
       description: "Proves auditives, adaptació d’audiòfons i seguiment continuat amb l’Esther, amb un tracte proper i pacient.",
       link: "Coneix el Centre d’Audiologia",
     },
     es: {
       title: 'Centro de Audiología en Poblenou',
-      role: 'Esther · Audióloga y Audioprotesista',
+      role: 'Esther · Audioprotesista',
+      credential: 'Miembro de la Asociación Nacional de Audioprotesistas Nº 2458',
       description: 'Pruebas auditivas, adaptación de audífonos y seguimiento continuado con Esther, con un trato cercano y paciente.',
       link: 'Conoce el Centro de Audiología',
     },
     en: {
       title: 'Audiology Centre in Poblenou',
-      role: 'Esther · Audiologist & Hearing Aid Specialist',
+      role: 'Esther · Hearing Aid Specialist',
+      credential: 'Member of the Spanish National Association of Hearing Aid Specialists No. 2458',
       description: 'Hearing tests, hearing aid fitting and ongoing follow-up with Esther, with a kind and patient approach.',
       link: 'Explore our Audiology Centre',
     },
     de: {
       title: 'Audiologie-Zentrum in Poblenou',
-      role: 'Esther · Audiologin & Hörakustikerin',
+      role: 'Esther · Hörakustikerin',
+      credential: 'Mitglied des spanischen Berufsverbands der Hörakustiker Nr. 2458',
       description: 'Hörtests, Hörgeräteanpassung und kontinuierliche Nachbetreuung mit Esther – persönlich und geduldig.',
       link: 'Unser Audiologie-Zentrum kennenlernen',
     },
     it: {
       title: 'Centro di Audiologia a Poblenou',
-      role: 'Esther · Audiologa e Audioprotesista',
+      role: 'Esther · Audioprotesista',
+      credential: "Membro dell'Associazione Nazionale Spagnola degli Audioprotesisti Nº 2458",
       description: 'Test dell’udito, adattamento di apparecchi acustici e monitoraggio continuo con Esther, con un approccio empatico e paziente.',
       link: 'Scopri il Centro di Audiologia',
     },
@@ -109,7 +114,8 @@ const Audiology = () => {
               <div className="p-6 flex flex-col items-center text-center flex-grow">
                 <div className="mb-4"><Building2 className="w-10 h-10 text-primary" aria-hidden="true" /></div>
                 <h3 className="text-lg font-semibold mb-1 text-foreground">{centre.title}</h3>
-                <p className="text-sm font-medium text-primary mb-2">{centre.role}</p>
+                <p className="text-sm font-medium text-primary mb-1">{centre.role}</p>
+                <p className="text-xs text-muted-foreground mb-2">{centre.credential}</p>
                 <p className="text-muted-foreground text-sm mb-4">{centre.description}</p>
                 <Button asChild size="sm" className="mt-auto h-auto min-h-9 whitespace-normal">
                   <Link to={`/${language}/services/audiologia-centro`}>
