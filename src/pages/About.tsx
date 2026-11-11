@@ -118,28 +118,33 @@ const About = () => {
       {
         name: "Esther",
         role: {
-          en: "Audiologist\n\nHearing Aid Specialist",
-          es: "Audióloga\n\nAudioprotesista",
-          ca: "Audiòloga\n\nAudioprotesista",
-          de: "Audiologin\n\nHörgeräteakustikerin",
-          it: "Audiologa\n\nAudioprotesista"
+          en: "Hearing Aid Specialist",
+          es: "Audioprotesista",
+          ca: "Audioprotesista",
+          de: "Hörgeräteakustikerin",
+          it: "Audioprotesista"
         },
         image: "/images/esther_resize.jpeg",
         bio: {
           en: [
-            "Esther is our hearing aid specialist and audiologist with a special interest in hearing rehabilitation. Her kind and patient approach helps clients feel comfortable when addressing their specific needs. With advanced training in the latest technologies and her interest in trends, she is able to provide a comprehensive approach to her patients' hearing health."
+            "Esther is our hearing aid specialist with a special interest in hearing rehabilitation. Her kind and patient approach helps clients feel comfortable when addressing their specific needs. With advanced training in the latest technologies and her interest in trends, she is able to provide a comprehensive approach to her patients' hearing health.",
+            "Member of the Spanish National Association of Hearing Aid Specialists — No. 2458."
           ],
           es: [
-            "Esther es nuestra audioprotesista y audióloga con un interés especial en la rehabilitación auditiva. Su enfoque amable y paciente ayuda a los clientes a sentirse cómodos al abordar sus necesidades específicas. Con formación avanzada en las últimas tecnologías y su interés por las tendencias, le permiten ofrecer un enfoque integral a la salud auditiva de sus pacientes."
+            "Esther es nuestra audioprotesista con un interés especial en la rehabilitación auditiva. Su enfoque amable y paciente ayuda a los clientes a sentirse cómodos al abordar sus necesidades específicas. Con formación avanzada en las últimas tecnologías y su interés por las tendencias, le permiten ofrecer un enfoque integral a la salud auditiva de sus pacientes.",
+            "Miembro de la Asociación Nacional de Audioprotesistas — Nº 2458."
           ],
           ca: [
-            "L'Esther és la nostra audioprotesista i audiòloga amb un interès especial en la rehabilitació auditiva. El seu enfocament amable i pacient ajuda els clients a sentir-se còmodes en abordar les seves necessitats específiques. Amb formació avançada en les últimes tecnologies i el seu interès per les tendències, li permeten oferir un enfocament integral a la salut auditiva dels seus pacients."
+            "L'Esther és la nostra audioprotesista amb un interès especial en la rehabilitació auditiva. El seu enfocament amable i pacient ajuda els clients a sentir-se còmodes en abordar les seves necessitats específiques. Amb formació avançada en les últimes tecnologies i el seu interès per les tendències, li permeten oferir un enfocament integral a la salut auditiva dels seus pacients.",
+            "Membre de l'Associació Nacional d'Audioprotesistes — Nº 2458."
           ],
           de: [
-            "Esther ist unsere Hörgeräteakustikerin und Audiologin mit besonderem Interesse an Hörrehabilitation. Ihr freundlicher und geduldiger Ansatz hilft den Klienten, sich wohl zu fühlen, wenn sie ihre spezifischen Bedürfnisse ansprechen. Mit fortgeschrittener Ausbildung in den neuesten Technologien und ihrem Interesse an Trends kann sie einen umfassenden Ansatz für die Hörgesundheit ihrer Patienten bieten."
+            "Esther ist unsere Hörgeräteakustikerin mit besonderem Interesse an Hörrehabilitation. Ihr freundlicher und geduldiger Ansatz hilft den Klienten, sich wohl zu fühlen, wenn sie ihre spezifischen Bedürfnisse ansprechen. Mit fortgeschrittener Ausbildung in den neuesten Technologien und ihrem Interesse an Trends kann sie einen umfassenden Ansatz für die Hörgesundheit ihrer Patienten bieten.",
+            "Mitglied des spanischen Berufsverbands der Hörakustiker — Nr. 2458."
           ],
           it: [
-            "Esther è la nostra audioprotesista e audiologa con un interesse particolare per la riabilitazione uditiva. Il suo approccio gentile e paziente aiuta i clienti a sentirsi a proprio agio nell'affrontare le loro esigenze specifiche. La formazione avanzata nelle ultime tecnologie e l'attenzione alle tendenze le consentono di offrire un approccio completo alla salute dell'udito dei suoi pazienti."
+            "Esther è la nostra audioprotesista con un interesse particolare per la riabilitazione uditiva. Il suo approccio gentile e paziente aiuta i clienti a sentirsi a proprio agio nell'affrontare le loro esigenze specifiche. La formazione avanzata nelle ultime tecnologie e l'attenzione alle tendenze le consentono di offrire un approccio completo alla salute dell'udito dei suoi pazienti.",
+            "Membro dell'Associazione Nazionale Spagnola degli Audioprotesisti — Nº 2458."
           ]
         }
       },

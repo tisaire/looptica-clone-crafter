@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 type L = { en: string; es: string; ca: string; de: string; it: string };
-interface Props { heading: L; name: string; image: string; role: L; bio: L; }
+interface Props { heading: L; name: string; image: string; role: L; bio: L; credential?: L; }
 
 const aboutLabel: L = { en: 'Meet the team →', es: 'Conoce al equipo →', ca: "Coneix l'equip →", de: 'Das Team kennenlernen →', it: 'Scopri il team →' };
 
-const TeamSpotlight = ({ heading, name, image, role, bio }: Props) => {
+const TeamSpotlight = ({ heading, name, image, role, bio, credential }: Props) => {
   const { language } = useLanguage();
   return (
     <section className="bg-gray-50 p-8 rounded-lg mb-12">
@@ -18,6 +18,7 @@ const TeamSpotlight = ({ heading, name, image, role, bio }: Props) => {
           <p className="text-xl font-semibold">{name}</p>
           <p className="text-[#55afa9] font-medium mb-3">{role[language]}</p>
           <p className="mb-3">{bio[language]}</p>
+          {credential && <p className="text-sm text-muted-foreground mb-3">{credential[language]}</p>}
           <Link to={`/${language}/about`} className="text-[#55afa9] underline font-medium">{aboutLabel[language]}</Link>
         </div>
       </div>
