@@ -22,11 +22,11 @@ const AudiologiaCentro = () => {
       it: "Audiologia a Poblenou, Barcellona | Test uditivi e apparecchi acustici"
     },
     seoDescription: {
-      en: "Audiology centre in Poblenou, Barcelona. Hearing tests, hearing aid fitting and follow-up care with Esther, audiologist and hearing care professional at looptica.",
-      es: "Centro auditivo en Poblenou, Barcelona. Pruebas auditivas, adaptación y seguimiento de audífonos con Esther, audióloga y audioprotesista de looptica.",
-      ca: "Centre d'audiologia al Poblenou, Barcelona. Proves auditives, adaptació i seguiment d'audiòfons amb Esther, audiòloga i audioprotètica de looptica.",
-      de: "Hörzentrum in Poblenou, Barcelona. Hörtests, Hörgeräteanpassung und Nachbetreuung mit Esther, Audiologin und Hörgeräteakustikerin bei looptica.",
-      it: "Centro audiologico a Poblenou, Barcellona. Test dell'udito, adattamento e controlli degli apparecchi acustici con Esther, audiologa e audioprotesista di looptica."
+      en: "Audiology centre in Poblenou, Barcelona. Hearing tests, hearing aid fitting and follow-up care with Esther, hearing care professional at looptica.",
+      es: "Centro auditivo en Poblenou, Barcelona. Pruebas auditivas, adaptación y seguimiento de audífonos con Esther, audioprotesista de looptica.",
+      ca: "Centre d'audiologia al Poblenou, Barcelona. Proves auditives, adaptació i seguiment d'audiòfons amb Esther, audioprotètica de looptica.",
+      de: "Hörzentrum in Poblenou, Barcelona. Hörtests, Hörgeräteanpassung und Nachbetreuung mit Esther, Hörgeräteakustikerin bei looptica.",
+      it: "Centro audiologico a Poblenou, Barcellona. Test dell'udito, adattamento e controlli degli apparecchi acustici con Esther, audioprotesista di looptica."
     },
     title: {
       en: "Audiology and Hearing Care Centre in Poblenou, Barcelona",
@@ -218,11 +218,11 @@ const AudiologiaCentro = () => {
       it: "Il tuo centro auditivo a Poblenou"
     },
     blockCText: {
-      ca: "A looptica oferim una atenció propera i un seguiment personalitzat durant tot el procés d'adaptació auditiva. Ens trobaràs a la Rambla del Poblenou, 48, Barcelona, on l'Esther, audiòloga i audioprotètica, és la professional responsable del servei.",
-      es: "En looptica ofrecemos una atención cercana y un seguimiento personalizado durante todo el proceso de adaptación auditiva. Estamos en Rambla del Poblenou, 48, Barcelona, donde Esther, audióloga y audioprotesista, es la profesional responsable del servicio.",
-      en: "At looptica, we provide personal attention and ongoing support throughout the hearing aid fitting process. You can find us at Rambla del Poblenou, 48, Barcelona, where Esther, our audiologist and hearing care professional, leads the service.",
-      de: "Bei looptica bieten wir persönliche Betreuung und individuelle Begleitung während der gesamten Hörgeräteanpassung. Sie finden uns in der Rambla del Poblenou 48 in Barcelona. Esther, unsere Audiologin und Hörgeräteakustikerin, leitet diesen Bereich.",
-      it: "Da looptica offriamo un'assistenza attenta e un accompagnamento personalizzato durante tutto il percorso di adattamento degli apparecchi acustici. Ci troviamo in Rambla del Poblenou 48, Barcellona, dove Esther, audiologa e audioprotesista, è la responsabile del servizio."
+      ca: "A looptica oferim una atenció propera i un seguiment personalitzat durant tot el procés d'adaptació auditiva. Ens trobaràs a la Rambla del Poblenou, 48, Barcelona, on l'Esther, audioprotètica, és la professional responsable del servei.",
+      es: "En looptica ofrecemos una atención cercana y un seguimiento personalizado durante todo el proceso de adaptación auditiva. Estamos en Rambla del Poblenou, 48, Barcelona, donde Esther, audioprotesista, es la profesional responsable del servicio.",
+      en: "At looptica, we provide personal attention and ongoing support throughout the hearing aid fitting process. You can find us at Rambla del Poblenou, 48, Barcelona, where Esther, our hearing care professional, leads the service.",
+      de: "Bei looptica bieten wir persönliche Betreuung und individuelle Begleitung während der gesamten Hörgeräteanpassung. Sie finden uns in der Rambla del Poblenou 48 in Barcelona. Esther, unsere Hörgeräteakustikerin, leitet diesen Bereich.",
+      it: "Da looptica offriamo un'assistenza attenta e un accompagnamento personalizzato durante tutto il percorso di adattamento degli apparecchi acustici. Ci troviamo in Rambla del Poblenou 48, Barcellona, dove Esther, audioprotesista, è la responsabile del servizio."
     },
     blockCta: {
       ca: "Demana cita",
@@ -254,10 +254,11 @@ const AudiologiaCentro = () => {
       pageDescription={content.seoDescription}
     >
       <TeamSpotlight
-        heading={{ en: 'Your audiologist in Poblenou', es: 'Tu audióloga en Poblenou', ca: 'La teva audiòloga a Poblenou', de: 'Ihre Audiologin in Poblenou', it: 'La tua audiologa a Poblenou' }}
+        heading={{ en: 'Your hearing aid specialist in Poblenou', es: 'Tu audioprotesista en Poblenou', ca: 'La teva audioprotesista a Poblenou', de: 'Ihre Hörakustikerin in Poblenou', it: 'La tua audioprotesista a Poblenou' }}
         name="Esther"
         image="/images/esther_resize.jpeg"
-        role={{ en: 'Audiologist & Hearing Aid Specialist', es: 'Audióloga y Audioprotesista', ca: 'Audiòloga i Audioprotesista', de: 'Audiologin & Hörakustikerin', it: 'Audiologa e Audioprotesista' }}
+        role={{ en: 'Hearing Aid Specialist', es: 'Audioprotesista', ca: 'Audioprotesista', de: 'Hörakustikerin', it: 'Audioprotesista' }}
+        credential={{ en: 'Member of the Spanish National Association of Hearing Aid Specialists — No. 2458.', es: 'Miembro de la Asociación Nacional de Audioprotesistas — Nº 2458.', ca: "Membre de l'Associació Nacional d'Audioprotesistes — Nº 2458.", de: 'Mitglied des spanischen Berufsverbands der Hörakustiker — Nr. 2458.', it: "Membro dell'Associazione Nazionale Spagnola degli Audioprotesisti — Nº 2458." }}
         bio={{
           en: 'Esther specialises in hearing rehabilitation. She performs the hearing test, fits your hearing aids and follows up with you, with a kind and patient approach.',
           es: 'Esther está especializada en rehabilitación auditiva. Realiza la prueba auditiva, adapta tus audífonos y te acompaña en el seguimiento, con un trato cercano y paciente.',
