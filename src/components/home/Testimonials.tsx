@@ -72,6 +72,18 @@ const Testimonials = () => {
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">{t('whatCustomersSay')}</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">{t('reviewsDescription')}</p>
+            <a
+              href="https://maps.google.com/maps?cid=16098495175831122618"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="4.9 / 5 · Google · 152"
+              className="mt-6 inline-flex items-center gap-3 rounded-full border border-gray-200 bg-gray-50 px-5 py-2 shadow-sm hover:shadow-md transition-shadow"
+            >
+              <img src="/images/google-logo.svg" alt="" className="h-5" />
+              <span className="text-xl font-bold text-gray-900">4.9</span>
+              <span className="flex">{renderStars(5)}</span>
+              <span className="text-sm text-gray-600">152+</span>
+            </a>
           </div>
         </ScrollReveal>
         
@@ -107,7 +119,7 @@ const Testimonials = () => {
         <ScrollReveal origin="bottom" delay={600}>
           <div className="text-center mt-10">
             <a 
-              href="https://maps.app.goo.gl/pCsdcon4p9GewN7e6" 
+              href="https://maps.google.com/maps?cid=16098495175831122618" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium text-[#55afa9] hover:text-[#55afa9]"

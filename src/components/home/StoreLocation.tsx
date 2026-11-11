@@ -95,7 +95,7 @@ const StoreLocation = () => {
             
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a 
-                href="https://www.google.com/maps/place/Rambla+del+Poblenou,+48,+Sant+Mart%C3%AD,+08005+Barcelona/@41.4040799,2.1994679,17z/" 
+                href="https://maps.google.com/maps?cid=16098495175831122618" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex-1 bg-[#55afa9] hover:bg-[#55afa9]/80 text-white py-3 px-4 rounded-md inline-flex items-center justify-center font-medium transition-colors"
