@@ -5,6 +5,7 @@ import { Globe } from 'lucide-react';
 import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import { Language, SUPPORTED_LANGUAGES } from '@/config/languages';
 import { ZEISS_SLUGS } from '@/config/zeissSlugs';
+import { SPORTS_SLUGS } from '@/config/sportsSlugs';
 
 const LanguageSwitcher = () => {
   const { language, setLanguage } = useLanguage();
@@ -32,6 +33,9 @@ const LanguageSwitcher = () => {
     // Localized ZEISS slug: swap to the target language's slug
     if (Object.values(ZEISS_SLUGS).includes(basePath.replace(/^\//, '').replace(/\/$/, ''))) {
       basePath = `/${ZEISS_SLUGS[newLang]}`;
+    }
+    if (Object.values(SPORTS_SLUGS).includes(basePath.replace(/^\//, '').replace(/\/$/, ''))) {
+      basePath = `/${SPORTS_SLUGS[newLang]}`;
     }
 
     // For the root path of the default language 'ca', we want /ca not /ca/
