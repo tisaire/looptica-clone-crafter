@@ -1,7 +1,9 @@
 import { zeissPath } from '@/config/zeissSlugs';
+import { sportsPath } from '@/config/sportsSlugs';
+import sportsHero from '@/assets/sports-glasses-hero.jpg';
 
 import React from 'react';
-import { Eye, Contact, Moon, Monitor, Glasses, BadgeEuro, Sun } from 'lucide-react';
+import { Eye, Contact, Moon, Monitor, Glasses, BadgeEuro, Sun, Activity } from 'lucide-react';
 import zeissHeroAsset from '@/assets/cmpal-stage.jpg.asset.json';
 import manAtPcAsset from '@/assets/man-at-pc.webp.asset.json';
 import ScrollReveal from '@/components/ui/ScrollReveal';
@@ -75,6 +77,19 @@ const OpticalServices = () => {
       path: `/${language}/services/sunglasses`
     },
     {
+      icon: <Activity className="w-10 h-10 text-[#55afa9]" />,
+      title: ({ ca: 'Ulleres esportives graduades', es: 'Gafas deportivas graduadas', en: 'Prescription sports glasses', de: 'Sportbrillen mit Sehstärke', it: 'Occhiali sportivi graduati' } as Record<string, string>)[language],
+      description: ({
+        ca: 'Practica esport amb nitidesa i seguretat: Polaroid Sport, VerSport i Centrostyle adaptades a la teva graduació.',
+        es: 'Practica deporte con nitidez y seguridad: Polaroid Sport, VerSport y Centrostyle adaptadas a tu graduación.',
+        en: 'Enjoy sport with clarity and safety: Polaroid Sport, VerSport and Centrostyle tailored to your prescription.',
+        de: 'Sport mit klarer Sicht und Schutz: Polaroid Sport, VerSport und Centrostyle für Ihre Sehstärke.',
+        it: 'Fai sport con nitidezza e sicurezza: Polaroid Sport, VerSport e Centrostyle adattati alla tua graduazione.',
+      } as Record<string, string>)[language],
+      image: sportsHero,
+      path: sportsPath(language)
+    },
+    {
       icon: <BadgeEuro className="w-10 h-10 text-[#55afa9]" />,
       title: t('planVeo'),
       description: t('planVeoDesc'),
@@ -101,7 +116,7 @@ const OpticalServices = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.2}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {opticalServices.map((service, index) => (
               <Link
                 key={index}

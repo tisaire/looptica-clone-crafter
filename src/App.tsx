@@ -40,7 +40,9 @@ const Subvenciones = lazyWithRetry(() => import('./pages/services/Subvenciones')
 const ImageConsulting = lazyWithRetry(() => import('./pages/services/ImageConsulting'));
 const LensConsulting = lazyWithRetry(() => import('./pages/services/LensConsulting'));
 import { ZEISS_SLUGS } from './config/zeissSlugs';
+import { SPORTS_SLUGS } from './config/sportsSlugs';
 const ZeissProgressive = lazyWithRetry(() => import('./pages/services/ZeissProgressive'));
+const SportsGlasses = lazyWithRetry(() => import('./pages/services/SportsGlasses'));
 const ComputerGlasses = lazyWithRetry(() => import('./pages/services/ComputerGlasses'));
 const PlanVeo = lazyWithRetry(() => import('./pages/services/PlanVeo'));
 const About = lazyWithRetry(() => import('./pages/About'));
@@ -138,6 +140,9 @@ function App() {
                 <Route path="services/lens-consulting" element={<Suspense fallback={<PageLoader />}><LensConsulting /></Suspense>} />
                 {Object.values(ZEISS_SLUGS).map((slug) => (
                   <Route key={slug} path={slug} element={<Suspense fallback={<PageLoader />}><ZeissProgressive /></Suspense>} />
+                ))}
+                {Object.values(SPORTS_SLUGS).map((slug) => (
+                  <Route key={slug} path={slug} element={<Suspense fallback={<PageLoader />}><SportsGlasses /></Suspense>} />
                 ))}
                 <Route path="services/computer-glasses" element={<Suspense fallback={<PageLoader />}><ComputerGlasses /></Suspense>} />
                 <Route path="services/plan-veo" element={<Suspense fallback={<PageLoader />}><PlanVeo /></Suspense>} />

@@ -1417,6 +1417,67 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Optical Services: sports glasses -->
+  <url>
+    <loc>https://looptica.com/ca/ulleres-esportives-graduades-poblenou</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/gafas-deportivas-graduadas-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/prescription-sports-glasses-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/sportbrillen-mit-sehstaerke-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/occhiali-sportivi-graduati-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/es/gafas-deportivas-graduadas-poblenou</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/gafas-deportivas-graduadas-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/prescription-sports-glasses-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/sportbrillen-mit-sehstaerke-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/occhiali-sportivi-graduati-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/en/prescription-sports-glasses-poblenou</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/gafas-deportivas-graduadas-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/prescription-sports-glasses-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/sportbrillen-mit-sehstaerke-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/occhiali-sportivi-graduati-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/de/sportbrillen-mit-sehstaerke-poblenou</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/gafas-deportivas-graduadas-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/prescription-sports-glasses-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/sportbrillen-mit-sehstaerke-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/occhiali-sportivi-graduati-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://looptica.com/it/occhiali-sportivi-graduati-poblenou</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://looptica.com/es/gafas-deportivas-graduadas-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://looptica.com/en/prescription-sports-glasses-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://looptica.com/de/sportbrillen-mit-sehstaerke-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://looptica.com/it/occhiali-sportivi-graduati-poblenou"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://looptica.com/ca/ulleres-esportives-graduades-poblenou"/>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Optical Services: ZEISS progressive -->
   <url>
     <loc>https://looptica.com/ca/progressius-zeiss-poblenou</loc>
