@@ -67,13 +67,13 @@ const PageTracker = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       if (window.gtag) {
-        // Path for GA: location.pathname already includes the language.
-        // If you need to report without lang prefix:
-        // const pathForAnalytics = lang ? location.pathname.substring(lang.length + 1) || '/' : location.pathname;
-        // window.gtag('event', 'page_view', { page_path: pathForAnalytics + location.search });
+        // GA4 derives "Page path and screen class" from page_location.
+        // Send it explicitly plus page_title so hits never land in "(not set)".
         window.gtag('event', 'page_view', {
+          page_location: window.location.href,
           page_path: location.pathname + location.search,
-          language: lang // Optionally send language as a parameter
+          page_title: document.title,
+          language: lang
         });
       }
     }, 500);

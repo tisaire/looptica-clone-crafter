@@ -234,7 +234,9 @@
           document.head.appendChild(script);
           
           script.onload = function() {
-            gtag('config', 'G-H170LQBT19');
+            // send_page_view: false — App.tsx PageTracker is the single source
+            // of page_view hits (initial landing + SPA route changes).
+            gtag('config', 'G-H170LQBT19', { 'send_page_view': false });
           };
         }, 100);
       });
